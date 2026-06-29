@@ -1,0 +1,13 @@
+series: "The x-change Monographs"
+volume: 2
+title: "When Money Adapts to People"
+subtitle: "A Founder's Discovery Thesis"
+secondary_subtitle: "On the Future of Financial Settlement"
+status: "editorial-composition"
+author:
+  name: "Lester B. Hurtado"
+  affiliation: "Founder, x-change OS"
+source:
+  manuscript: "resources/monographs/volume-2/source/manuscript.md"
+editorial:
+  movement_01: "resources/monographs/volume-2/editorial/movement-01-the-observation.md"
