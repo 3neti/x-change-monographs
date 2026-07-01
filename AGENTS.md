@@ -1,3 +1,70 @@
+<project-instructions>
+# x-change Monographs Repository
+
+This Laravel application is primarily a version-controlled publishing system for The x-change Monographs, not a conventional web application.
+
+## Repository Purpose
+
+Use this repository to manage:
+
+- editorial governance
+- author manuscripts
+- editorial manuscripts
+- monograph metadata
+- plates and publication assets
+- generated build outputs
+- Laravel Artisan automation around the publishing workflow
+
+Git is the canonical history mechanism for revisions, review, diffs, tags, and releases. Markdown is the canonical format for prose and editorial source material. YAML is used for monograph metadata.
+
+## Source of Truth
+
+Treat these locations as source material:
+
+- `docs/editorial/` for editorial governance, specifications, and decisions
+- `resources/monographs/` for monograph source manuscripts, editorial manuscripts, metadata, and plates
+
+Treat `build/` as generated output only. Generated DOCX, PDF, and other artifacts may be placed there in future work, but they should not become the canonical source of truth.
+
+## Publishing Architecture
+
+Preserve the distinction between:
+
+1. Editorial governance
+2. Author manuscripts
+3. Editorial manuscripts
+4. Publication masters
+5. Generated builds
+
+Do not collapse these layers into one folder or one artifact type. The separation is intentional and supports review, regeneration, and long-term editorial history.
+
+## Current Scaffold
+
+The initial publishing scaffold contains:
+
+- `docs/editorial/README.md`
+- `docs/editorial/editorial-canon-v2.md`
+- `docs/editorial/editorial-manuscript-specification-v1.md`
+- `docs/editorial/decisions/`
+- `resources/monographs/volume-1/`
+- `resources/monographs/volume-2/`
+- `build/monographs/volume-1/`
+- `build/monographs/volume-2/`
+- `scripts/`
+
+The `monograph:status` Artisan command scans `resources/monographs/*` and reports whether each volume has metadata, a source manuscript, and an editorial directory.
+
+## Development Rules for This Repository
+
+- Do not add database tables, models, migrations, authentication, or web UI unless explicitly requested.
+- Do not build DOCX or PDF generation until explicitly requested.
+- Prefer filesystem-based Laravel Artisan commands for publishing automation.
+- Keep tests in Pest and verify command behavior when adding automation.
+- Preserve author source text separately from editorial composition.
+- Keep generated files out of governance and source directories.
+- Use Laravel Boost tools and version-specific docs before making Laravel framework assumptions.
+</project-instructions>
+
 <laravel-boost-guidelines>
 === foundation rules ===
 
