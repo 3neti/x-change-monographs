@@ -6,7 +6,7 @@ Canonical — Version 1.0
 
 ## Purpose
 
-A banking Program Guide is the canonical commercial handbook for a banking-sector modernization program. It explains the program as a durable institutional proposition before approval, supports evaluation and implementation during approval, and remains a reference after launch.
+A banking Program Guide is **the canonical commercial specification for a banking modernization program**. It functions as the canonical commercial handbook for the program before approval, supports evaluation and implementation during approval, and remains a reference after launch.
 
 It is not:
 
@@ -26,7 +26,30 @@ The guide must explain:
 - the business case; and
 - the launch path.
 
-The guide must answer the reader's business questions directly. Polished prose does not compensate for an unanswered question.
+## Editorial Commandment
+
+> A Program Guide must answer the reader's business questions directly.
+
+Polished prose does not compensate for an unanswered executive question. When reviewing a Program Guide, editorial completeness takes precedence over stylistic elegance.
+
+Parity review must verify both:
+
+- architectural completeness; and
+- business-question completeness.
+
+## Document Boundaries
+
+The Program Guide belongs to a governed set of documents. Each document answers a different institutional question.
+
+| Document | Governing question |
+| --- | --- |
+| White Paper | Why should institutions modernize? |
+| Program Guide | What exactly is being proposed? |
+| Technical Architecture | How is the platform implemented? |
+| Deployment Guide | How is the platform operated? |
+| Legal Agreement | What obligations govern participation? |
+
+Future editorial work must preserve these boundaries. A Program Guide may reference supporting documents, but it must not absorb their responsibilities or use technical, operational, or legal detail to obscure the commercial proposition.
 
 ## Source-of-Truth Rule
 
@@ -71,9 +94,116 @@ The Executive Summary appears before the numbered sections but is written last. 
 | Section 5 — Banking in Action | Show me how it actually works. | Present representative banking workflows through concise prose and diagrams. |
 | Section 6 — The Business Case | Is this commercially worthwhile? | Explain comparative cost, participation economics, shared investment, revenue opportunities, the Commercial Waterfall, and ecosystem sustainability. |
 | Section 7 — Launching the Program | What happens after approval? | Define the pilot, phased rollout, success metrics, ecosystem growth, and next steps. |
-| Appendices | Where can the reader verify terms and supporting operating detail? | Provide the glossary, governance, Commercial Waterfall, Treasury grammar, deployment architecture, and frequently asked questions. |
+| Appendices | Where can the reader verify terms and supporting operating detail? | Provide the glossary, governance, Commercial Waterfall, Treasury grammar, deployment architecture, frequently asked questions, and canonical program diagrams. |
 
 The architecture is stable even when the sector narrative changes. A guide may combine closely related coverage within the approved section architecture, but it must not silently omit a mandatory category.
+
+## Executive Question, Key Message, and Executive Decision
+
+Every numbered section has an Executive Question and a Key Message. When substantive drafting begins, the section must also include an **Executive Decision** immediately after the Key Message.
+
+The Executive Decision describes the business decision a reader should be capable of making after completing the section. It does not introduce a new claim, prescribe an approval, or substitute for the narrative.
+
+The complete editorial flow is:
+
+> Executive Question
+>
+> ↓
+>
+> Narrative
+>
+> ↓
+>
+> Key Message
+>
+> ↓
+>
+> Executive Decision
+
+Examples of the required decision standard include:
+
+### Section 2
+
+> I understand what RBAP is being invited to launch and can decide whether the Program merits institutional evaluation.
+
+### Section 3
+
+> I understand how my institution would benefit from participating.
+
+### Section 4
+
+> I understand how the operating model preserves institutional independence while enabling modern digital banking.
+
+An Executive Decision is complete only when the section's narrative answers the Executive Question and provides enough approved information to support the stated decision.
+
+## Section Independence and Size Guideline
+
+Each numbered section should target approximately **7–10 publication pages**.
+
+This is not a page-count quota. The objective is to ensure that each section can stand alone as an executive briefing or separately published PDF when necessary.
+
+Avoid oversized sections that require excessive scrolling or excessive subdivision. Editorial judgment may produce a shorter or longer section when the business question requires it, but the section must remain coherent and independently useful.
+
+## Recommended Reading Paths
+
+The same Program Guide serves multiple audiences. These reading paths are recommendations only; readers remain free to read the complete document.
+
+### President / CEO
+
+- Executive Summary
+- Section 1
+- Section 6
+- Section 7
+
+### Board Director
+
+- Executive Summary
+- Section 2
+- Section 6
+- Appendices as required
+
+### Chief Digital Officer / CIO / CTO
+
+- Section 4
+- Section 5
+- Deployment Architecture
+
+### DevOps Provider
+
+- Section 4
+- Deployment Architecture
+
+### Business Development Partner
+
+- Executive Summary
+- Section 2
+- Section 3
+- Section 6
+
+## Canonical Program Diagrams
+
+Every banking Program Guide reserves:
+
+### Appendix G — Program Diagrams
+
+_Placeholder — canonical program diagrams have not yet been created._
+
+Appendix G centralizes diagrams that become canonical across banking-sector Program Guides. The initial diagram set is expected to include:
+
+- Program Participants;
+- Funding Event;
+- Treasury;
+- Banking Operating Model;
+- Deposit Flow;
+- Payroll Flow;
+- Merchant Flow;
+- Government Disbursement Flow;
+- Commercial Waterfall; and
+- Deployment Architecture.
+
+Future Program Guides must reference canonical diagrams rather than independently recreating them. A sector guide may add sector-specific context around a canonical diagram, but it must not silently alter the diagram's governed concepts, boundaries, or terminology.
+
+The diagram placeholders do not authorize diagram design or substantive operating assumptions. Diagrams remain `Planned` until approved source material and editorial direction are available.
 
 ## Mandatory Cross-Program Parity
 
@@ -174,6 +304,8 @@ The parity matrix is an editorial control, not a substitute for editorial judgme
 ## Change Control
 
 The canonical architecture may be changed only through an explicit editorial revision to this document. A sector-specific deviation requires an accepted decision record under `docs/editorial/decisions/`.
+
+The [Editorial Decision Register](../decisions/EDITORIAL_DECISION_REGISTER.md) is the source of decision history for this architecture. Before changing Program Guide structure, terminology, or editorial workflow, contributors must consult the register and cite the applicable decision ID.
 
 A deviation record must identify:
 

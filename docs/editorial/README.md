@@ -10,6 +10,13 @@ Editorial decisions record why durable publishing decisions were made.
 
 Generated files do not belong here.
 
+## Editorial decisions
+
+- [Editorial Decision Register](decisions/EDITORIAL_DECISION_REGISTER.md) — canonical register of accepted editorial and architectural decisions
+- [0001 — Use Git as Publishing History](decisions/0001-use-git-as-publishing-history.md)
+- [0002 — Separate Author Manuscript, Editorial Manuscript, and Publication Master](decisions/0002-separate-author-manuscript-editorial-manuscript-and-publication-master.md)
+- [0003 — Use Movements as Editorial Composition Units](decisions/0003-use-movements-as-editorial-composition-units.md)
+
 ## Editorial sequence
 
 1. **Movement I — Founder Memorandum** — publication reference; its source is not present in this repository.
