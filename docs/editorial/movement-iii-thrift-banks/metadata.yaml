@@ -1,0 +1,18 @@
+series: "The x-change Monographs"
+movement: 3
+title: "Modernizing Philippine Thrift Banks for the Digital Economy"
+subtitle: "A Strategic White Paper for Philippine Thrift Banks"
+document_type: "strategic-white-paper"
+version: "1.1"
+edition: "first"
+status: "canonical"
+author:
+  name: "x-change"
+audience: "Executive leadership of Philippine thrift banks"
+source:
+  manuscript: "docs/editorial/movement-iii-thrift-banks/modernizing-philippine-thrift-banks.md"
+publication:
+  pdf: "build/pdf/modernizing-philippine-thrift-banks-first-edition.pdf"
+  pipeline: "scripts/publish-movement-iii-thrift-banks.py"
+revision_reason: "Clarified the distinction among licensed software, institution-owned application infrastructure, regulated settlement infrastructure, and shared settlement arrangements."
+notes: "Movement III follows the Founder Memorandum and Modernizing Rural Banks Without Replacing Them."
