@@ -1,0 +1,17 @@
+series: "The x-change Monographs"
+movement: 2
+title: "Modernizing Rural Banks Without Replacing Them"
+subtitle: "A Strategic White Paper for the Rural Bankers Association of the Philippines"
+document_type: "strategic-white-paper"
+version: "1.1"
+status: "canonical"
+author:
+  name: "x-change"
+audience: "Leadership and member banks of the Rural Bankers Association of the Philippines"
+source:
+  manuscript: "docs/editorial/rbap/00-modernizing-rural-banks.md"
+publication:
+  pdf: "build/pdf/modernizing-rural-banks-v1.pdf"
+  pipeline: "scripts/publish-rbap-white-paper.py"
+revision_reason: "Clarified the distinction among licensed software, institution-owned application infrastructure, regulated settlement infrastructure, and shared settlement arrangements."
+notes: "Movement II follows the Founder Memorandum and establishes the rural-bank modernization proposition."
