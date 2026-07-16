@@ -1,0 +1,19 @@
+series: "The x-change Monographs"
+movement: 4
+title: "Modernizing Public Finance Through Trusted Government Depository Banking"
+subtitle: "A Strategic White Paper for Authorized Government Depository Banks in the Philippines"
+document_type: "strategic-white-paper"
+version: "1.2"
+edition: "first"
+status: "canonical"
+author:
+  name: "x-change"
+audience: "Leadership of Authorized Government Depository Banks and Philippine public-finance institutions"
+first_reader: "Philippine Veterans Bank"
+source:
+  manuscript: "docs/editorial/movement-iv-government-depository-banking/modernizing-public-finance-through-trusted-government-depository-banking.md"
+publication:
+  pdf: "build/pdf/modernizing-public-finance-through-trusted-government-depository-banking-first-edition.pdf"
+  pipeline: "scripts/publish-movement-iv-government-depository-banking.py"
+revision_reason: "Clarified the distinction among licensed software, institution-owned application infrastructure, regulated settlement infrastructure, and shared settlement arrangements."
+notes: "Movement IV presents regulated settlement infrastructure as an institutional-capability proposition; preferred status, program eligibility, selection, deposits, and transaction activity remain subject to applicable authority, qualification, agreement, and performance."
