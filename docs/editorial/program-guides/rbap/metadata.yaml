@@ -1,0 +1,18 @@
+series: "x-change Banking Program Guides"
+title: "RBAP Digital Banking Program"
+document_form: "Program Guide"
+subtitle: "A Collective Modernization Initiative for Philippine Rural Banks"
+document_type: "banking-program-guide"
+version: "0.1"
+status: "architecture-frozen"
+audience: "RBAP leadership and Philippine rural banks"
+source:
+  manuscript: "docs/editorial/program-guides/rbap/rbap-digital-banking-program-guide.md"
+governance:
+  architecture: "docs/editorial/program-guides/CANONICAL_BANKING_PROGRAM_GUIDE.md"
+  parity_checklist: "docs/editorial/program-guides/PROGRAM_GUIDE_PARITY_CHECKLIST.md"
+related:
+  strategic_white_paper: "docs/editorial/rbap/00-modernizing-rural-banks.md"
+publication:
+  generated: false
+notes: "Approved title hierarchy and section architecture only. Substantive drafting has not begun."
