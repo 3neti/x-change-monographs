@@ -85,6 +85,7 @@ The repository's earlier accepted decisions remain authoritative in their origin
 | [EDR-008](#edr-008--every-participating-bank-owns-its-digital-bank) | Every Participating Bank Owns Its Digital Bank | Accepted | 2026-07-16 | None | None |
 | [EDR-009](#edr-009--funds-remain-under-bank-custody) | Funds Remain Under Bank Custody | Accepted | 2026-07-16 | None | None |
 | [EDR-010](#edr-010--funding-event-is-the-entry-point-to-treasury) | Funding Event Is the Entry Point to Treasury | Accepted | 2026-07-16 | None | None |
+| [EDR-011](#edr-011--section-6-is-the-institutional-case) | Section 6 Is the Institutional Case | Accepted | 2026-07-18 | None | None |
 
 ## EDR-001 — Program Guides Are Canonical Commercial Specifications
 
@@ -635,3 +636,58 @@ None.
 ### Notes
 
 Active. The precise effect of different Funding Events on Inventory, Reservations, and Allocations remains subject to further Treasury design.
+
+## EDR-011 — Section 6 Is the Institutional Case
+
+**Decision ID:** `EDR-011`
+
+**Title:** Section 6 Is the Institutional Case
+
+**Status:** Accepted
+
+**Date:** 2026-07-18
+
+### Context
+
+The completed RBAP Section 6 evaluates what participation could enable the institution to become over time. Commercial sustainability remains necessary, but it supports a broader argument about banking relationships, adaptability, community service, collective modernization, and Board responsibility. The earlier title, **The Business Case**, implied a narrower emphasis than the chapter now carries.
+
+### Decision
+
+The canonical title of Section 6 is **The Institutional Case**.
+
+Its governing cross-program question is:
+
+> What kind of institution can participation help the bank become?
+
+Section 6 must continue to address the business case, costs of participation, revenue or economic opportunities, and the Commercial Waterfall. Those mandatory coverage categories support the institutional case and are not removed or transferred by this title change.
+
+### Rationale
+
+Program participation is an institutional decision before it is a calculation of commercial return. The revised title accurately reflects the chapter's purpose while preserving the economic discipline required for an informed decision.
+
+### Consequences
+
+- Current and future banking Program Guides use **Section 6 — The Institutional Case**.
+- Sector-specific Executive Questions may adapt the canonical question without narrowing the chapter to financial return alone.
+- Commercial sustainability remains a required part of Section 6.
+- Mandatory coverage categories 18–21 remain unchanged.
+- The RBAP Section 6 may be locked under the revised canonical title.
+
+### Affected Documents
+
+- [Canonical Banking Program Guide](../program-guides/CANONICAL_BANKING_PROGRAM_GUIDE.md)
+- [Banking Program Guide Parity Checklist](../program-guides/PROGRAM_GUIDE_PARITY_CHECKLIST.md)
+- [RBAP Digital Banking Program Guide](../program-guides/rbap/rbap-digital-banking-program-guide.md)
+- All future banking-sector Program Guides
+
+### Supersedes
+
+None.
+
+### Superseded By
+
+None.
+
+### Notes
+
+Active. This is the accepted editorial record required by EDR-005 for the canonical Section 6 refinement. It changes the Section 6 title and governing question only; the remaining canonical architecture and mandatory coverage register remain frozen.

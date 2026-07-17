@@ -909,7 +909,7 @@ The Program begins with one familiar banking ceremony. From that ceremony, a par
 
 Section 6 considers the business case for that institutional progression.
 
-## Section 6 — The Business Case
+## Section 6 — The Institutional Case
 
 > **Executive question:** If our Board approves this Program, what kind of institution do we become over the next ten years?
 
@@ -923,11 +923,11 @@ A rural bank remains responsible for safeguarding deposits, extending credit, su
 
 Commercial return matters, but it should be considered in relation to the institution the Program helps the bank become.
 
-### A Stronger Institution
+### Institutional Strength
 
 An institution becomes stronger when it is useful across more of the financial activity of its customers and community.
 
-A customer who enters a branch for remittance may later receive payroll through the same bank. An employer that uses payroll may also require collections, merchant payments, or employee services. A merchant relationship may lead to deposits, settlement activity, and a broader banking relationship with the enterprise.
+A customer who first visits the bank for remittance may later receive payroll through the same institution. An employer that uses payroll may also require collections, merchant payments, or employee services. A merchant relationship may lead to deposits, settlement activity, and a broader banking relationship with the enterprise.
 
 These services matter because they deepen the institution's role in ordinary banking life. They create more reasons for customers, employers, merchants, and public institutions to maintain active relationships with the bank.
 
@@ -947,7 +947,7 @@ Transaction volume may reflect that activity, but volume alone is not Transactio
 
 Historically, each significant banking service could become another technology project. A new purpose required new software, new integration work, new operating procedures, and another foundation to maintain.
 
-The Program changes that pattern. Once the institution has established one governed operating model, a new service can be introduced as a new banking ceremony. The bank applies a different purpose, participants, policies, conditions, and customer journey without reconstructing the foundation beneath them.
+Once the institution has established one governed operating model, a new service can be introduced as a new banking ceremony. The bank applies a different purpose, participants, policies, conditions, and customer journey without reconstructing the foundation beneath them.
 
 This is the **capacity to adapt**. Resilience preserves what an institution can already do. Adaptability allows it to assume new responsibilities without rebuilding its foundation.
 
@@ -985,7 +985,7 @@ Each bank must compare the cost of participation with the cost of building, inte
 
 Commercial value may appear in several forms: service income, deeper deposit relationships, stronger employer and merchant relationships, lower duplicated engineering effort, and the ability to add services without commissioning a new technology foundation each time. None should be treated as an automatic return. Their value depends on the services the bank chooses, the customers it serves, and the discipline with which it operates them.
 
-The Program itself must also remain sustainable. RBAP administration, software maintenance, DevOps operations, settlement services, and bank participation each carry responsibilities and costs. The Commercial Waterfall must eventually make those flows explicit, including how income, fees, and obligations are allocated among participants.
+The Program must account for the responsibilities and costs of RBAP administration, software maintenance, DevOps operations, settlement services, and bank participation. The Commercial Waterfall must eventually make those flows explicit, including how income, fees, and obligations are allocated among participants.
 
 Detailed amounts belong to commercial evaluation. The principle at this stage is simpler: the commercial model must allocate costs and benefits transparently enough to support continuing service, maintenance, and institutional participation.
 

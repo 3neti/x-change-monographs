@@ -92,7 +92,7 @@ The Executive Summary appears before the numbered sections but is written last. 
 | Section 3 — Why Should a Bank Participate? | What does an individual bank gain? | Explain institutional benefits while preserving the bank's identity, governance, customer relationship, and independence. |
 | Section 4 — How Does the Program Work? | How does the operating model work? | Explain bank ownership, operating sovereignty, DevOps, settlement, custody, authority, Treasury, Funding Events, Facilities, Settlement Envelopes, Pay Codes, and Execution. |
 | Section 5 — Banking in Action | Show me how it actually works. | Present representative banking workflows through concise prose and diagrams. |
-| Section 6 — The Business Case | Is this commercially worthwhile? | Explain comparative cost, participation economics, shared investment, revenue opportunities, the Commercial Waterfall, and ecosystem sustainability. |
+| Section 6 — The Institutional Case | What kind of institution can participation help the bank become? | Explain institutional capability, relationship value, adaptability, community service, collective modernization, comparative cost, revenue or economic opportunities, the Commercial Waterfall, and ecosystem sustainability. |
 | Section 7 — Launching the Program | What happens after approval? | Define the pilot, phased rollout, success metrics, ecosystem growth, and next steps. |
 | Appendices | Where can the reader verify terms and supporting operating detail? | Provide the glossary, governance, Commercial Waterfall, Treasury grammar, deployment architecture, frequently asked questions, and canonical program diagrams. |
 

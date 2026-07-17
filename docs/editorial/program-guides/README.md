@@ -4,7 +4,7 @@ This directory contains the canonical architecture, parity control, and sector i
 
 - [Canonical Banking Program Guide](CANONICAL_BANKING_PROGRAM_GUIDE.md) defines the reusable commercial-handbook architecture and agent obligations.
 - [Banking Program Guide Parity Checklist](PROGRAM_GUIDE_PARITY_CHECKLIST.md) records mandatory coverage across sector guides.
-- [RBAP Digital Banking Program Guide](rbap/rbap-digital-banking-program-guide.md) is the first implementation. Sections 1–5 are editorially complete and locked; Section 6 has a complete exploratory draft and remains in editorial review.
+- [RBAP Digital Banking Program Guide](rbap/rbap-digital-banking-program-guide.md) is the first implementation. Sections 1–6 are editorially complete and locked.
 
 The Thrift Bank Digital Banking Program Guide and Government Depository Banking Program Guide are anticipated but have not been created.
 

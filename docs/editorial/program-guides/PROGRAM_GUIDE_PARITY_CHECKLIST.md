@@ -50,10 +50,10 @@ The RBAP column records current guide coverage against the frozen architecture. 
 | 15. Pay Codes | Complete | Planned | Planned | Planned | RBAP Section 4 provides the locked canonical treatment, and locked Section 5 applies it through the remittance ceremony. |
 | 16. Execution | Complete | Planned | Planned | Planned | RBAP Section 4 provides the locked canonical treatment. |
 | 17. Representative banking workflows | Complete | Planned | Planned | Planned | RBAP Section 5 presents remittance as the locked canonical ceremony and relates it to additional banking services. |
-| 18. Business case | Planned | Planned | Planned | Planned | RBAP Section 6 has an exploratory institutional-case draft; coverage remains planned pending editorial acceptance. |
-| 19. Costs of participation | Planned | Planned | Planned | Planned | The RBAP exploratory draft addresses comparative cost at a principles level; detailed coverage remains under review. |
-| 20. Revenue or economic opportunities | Planned | Planned | Planned | Planned | The RBAP exploratory draft identifies relationship, service, and shared-engineering value without projections; coverage remains under review. |
-| 21. Commercial Waterfall | Planned | Planned | Planned | Planned | The RBAP exploratory draft establishes the allocation principle; Section 6 acceptance and Appendix C remain planned. |
+| 18. Business case | Complete | Planned | Planned | Planned | Locked RBAP Section 6 establishes the institutional case and treats commercial sustainability as a supporting consequence. |
+| 19. Costs of participation | Complete | Planned | Planned | Planned | Locked RBAP Section 6 addresses comparative cost at a principles level; institution-specific amounts remain part of later commercial evaluation. |
+| 20. Revenue or economic opportunities | Complete | Planned | Planned | Planned | Locked RBAP Section 6 identifies relationship, service, and shared-engineering value without projections or automatic-return claims. |
+| 21. Commercial Waterfall | Planned | Planned | Planned | Planned | Locked RBAP Section 6 establishes the allocation principle; Appendix C remains planned. |
 | 22. Pilot | Planned | Planned | Planned | Planned | Section 7. |
 | 23. Phased rollout | Planned | Planned | Planned | Planned | Section 7. |
 | 24. Success metrics | Planned | Planned | Planned | Planned | Section 7. |
@@ -72,7 +72,7 @@ The cross-program matrix remains the architectural parity control. The following
 | Section 3 — Why Should a Bank Participate? | What does an individual bank gain? | Understand the institution's prospective benefit from participation. | Complete | Planned | Planned | Planned | The RBAP narrative answers its Executive Question, supports its Executive Decision, and is editorially locked. |
 | Section 4 — How Does the Program Work? | How does the operating model work? | Understand how the model preserves institutional independence while enabling modern digital banking. | Complete | Planned | Planned | Planned | The RBAP narrative answers its Executive Question, supports its Executive Decision, and is editorially locked. |
 | Section 5 — Banking in Action | Show me how it actually works. | Assess the Program through representative banking workflows. | Complete | Planned | Planned | Planned | The RBAP remittance ceremony answers the business question, applies the locked Section 4 grammar, and is editorially locked. |
-| Section 6 — The Business Case | Is this commercially worthwhile? | Decide whether the business case merits detailed commercial evaluation. | Planned | Planned | Planned | Planned | The RBAP institutional-case draft is in editorial review and has not been accepted or locked. |
+| Section 6 — The Institutional Case | What kind of institution can participation help the bank become? | Decide whether the institutional case merits detailed commercial and implementation evaluation. | Complete | Planned | Planned | Planned | The RBAP narrative answers its Executive Question, supports its Executive Decision, and is editorially locked. |
 | Section 7 — Launching the Program | What happens after approval? | Decide whether to authorize or evaluate the proposed next step. | Planned | Planned | Planned | Planned | Must address pilot, phased rollout, success metrics, and next steps. |
 
 For a section to be `Complete`, reviewers must confirm all of the following:
@@ -107,7 +107,7 @@ A future guide satisfies diagram parity by referencing the approved canonical di
 
 | Program | Guide path | Current stage |
 | --- | --- | --- |
-| RBAP Digital Banking Program | `docs/editorial/program-guides/rbap/rbap-digital-banking-program-guide.md` | Sections 1–5 are editorially complete and locked. Section 6 has a complete exploratory draft and remains in editorial review. Section 7 and Appendices A–F remain planned; Appendix G is structurally present with all diagrams planned. |
+| RBAP Digital Banking Program | `docs/editorial/program-guides/rbap/rbap-digital-banking-program-guide.md` | Sections 1–6 are editorially complete and locked. Section 7 and Appendices A–F remain planned; Appendix G is structurally present with all diagrams planned. |
 | Thrift Bank Digital Banking Program | Not created | Anticipated. |
 | Government Depository Banking Program | Not created | Anticipated. |
 
