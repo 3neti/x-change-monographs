@@ -1055,11 +1055,11 @@ The first ceremony is defined when the bank approves its operating specification
 
 ### Establish the Operating and Settlement Foundations
 
-The participating bank establishes its approved operating environment within the ownership and authority boundaries described earlier. The certified DevOps provider provisions and operates that environment within the authority delegated by the bank. ODTI provides the licensed software, maintained release, supported integrations, and reference materials.
+The participating bank establishes its approved operating environment. Within the authority delegated by the bank, the certified DevOps provider provisions controlled development, staging, and production environments with the approved monitoring, recovery, security, and release controls. ODTI provides the licensed software, maintained release, supported integrations, and reference materials.
 
-The institution also completes the settlement arrangements required for the ceremony. The bank opens or confirms its own settlement account, receives its own credentials, and authorizes testing through its direct relationship with the settlement institution. The settlement institution provides the supported banking APIs and payment rails.
+The bank also completes the ceremony's settlement arrangements through its direct relationship with the settlement institution. This includes opening or confirming its account, receiving its credentials, and authorizing testing. The settlement institution provides the supported banking APIs and payment rails.
 
-The DevOps provider establishes controlled development, staging, and production environments with the approved monitoring, recovery, security, and release controls. These controls do not establish readiness; they provide the foundation on which readiness can be demonstrated.
+These arrangements do not establish readiness; they allow the bank to demonstrate it.
 
 The foundations are ready when the bank-owned environment and direct settlement connection are available for controlled end-to-end validation.
 
