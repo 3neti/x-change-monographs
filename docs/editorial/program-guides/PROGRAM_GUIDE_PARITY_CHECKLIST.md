@@ -31,7 +31,7 @@ The RBAP column records the current architecture-frozen skeleton. The Thrift Ban
 
 | Canonical Requirement | RBAP | Thrift Banks | Government Depository Banks | Status | Notes |
 | --- | --- | --- | --- | --- | --- |
-| 1. Opportunity | Planned | Planned | Planned | Planned | Section 1. |
+| 1. Opportunity | Complete | Planned | Planned | Planned | RBAP Section 1 is editorially complete; other implementations remain planned. |
 | 2. Program definition | Planned | Planned | Planned | Planned | Section 2. |
 | 3. Institutional benefits | Planned | Planned | Planned | Planned | Section 3. |
 | 4. Roles and responsibilities | Planned | Planned | Planned | Planned | Section 2. |
@@ -65,7 +65,7 @@ The cross-program matrix remains the architectural parity control. The following
 
 | Section | Executive Question | Decision the section must enable | RBAP | Thrift Banks | Government Depository Banks | Status | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Section 1 — Why This Program? | Why should the sector body launch this Program? | Decide whether the Program merits institutional consideration. | Planned | Planned | Planned | Planned | Executive Decision is added when substantive Section 1 drafting begins. |
+| Section 1 — Why This Program? | Why should the sector body launch this Program? | Decide whether the Program merits institutional consideration. | Complete | Planned | Planned | Planned | The RBAP narrative answers its Executive Question and supports its Executive Decision; other implementations remain planned. |
 | Section 2 — What Is the Program? | What exactly is the sector body being invited to launch? | Decide whether the proposed Program merits institutional evaluation. | Planned | Planned | Planned | Planned | Must distinguish the Program from banking, switching, and settlement-network operations. |
 | Section 3 — Why Should a Bank Participate? | What does an individual bank gain? | Understand the institution's prospective benefit from participation. | Planned | Planned | Planned | Planned | Must preserve institutional identity, governance, customer relationships, and independence. |
 | Section 4 — How Does the Program Work? | How does the operating model work? | Understand how the model preserves institutional independence while enabling modern digital banking. | Planned | Planned | Planned | Planned | Must address operating sovereignty, custody, authority, DevOps, and settlement. |
@@ -105,7 +105,7 @@ A future guide satisfies diagram parity by referencing the approved canonical di
 
 | Program | Guide path | Current stage |
 | --- | --- | --- |
-| RBAP Digital Banking Program | `docs/editorial/program-guides/rbap/rbap-digital-banking-program-guide.md` | Architecture frozen; substantive drafting not begun. |
+| RBAP Digital Banking Program | `docs/editorial/program-guides/rbap/rbap-digital-banking-program-guide.md` | Section 1 editorially complete and ready to lock; remaining sections and appendices planned. |
 | Thrift Bank Digital Banking Program | Not created | Anticipated. |
 | Government Depository Banking Program | Not created | Anticipated. |
 
