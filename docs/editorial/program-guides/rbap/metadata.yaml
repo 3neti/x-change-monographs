@@ -4,7 +4,7 @@ document_form: "Program Guide"
 subtitle: "A Collective Modernization Initiative for Philippine Rural Banks"
 document_type: "banking-program-guide"
 version: "0.1"
-status: "architecture-frozen"
+status: "section-drafting"
 audience: "RBAP leadership and Philippine rural banks"
 source:
   manuscript: "docs/editorial/program-guides/rbap/rbap-digital-banking-program-guide.md"
@@ -15,4 +15,4 @@ related:
   strategic_white_paper: "docs/editorial/rbap/00-modernizing-rural-banks.md"
 publication:
   generated: false
-notes: "Approved title hierarchy and section architecture only. Substantive drafting has not begun."
+notes: "The approved architecture remains frozen. Sections 1 and 2 are editorially complete; Section 1 is locked and Section 2 is ready to lock. Substantive drafting of later sections has not begun."
