@@ -76,8 +76,8 @@ The repository's earlier accepted decisions remain authoritative in their origin
 | Decision ID | Title | Status | Date | Supersedes | Superseded By |
 | --- | --- | --- | --- | --- | --- |
 | [EDR-001](#edr-001--program-guides-are-canonical-commercial-specifications) | Program Guides Are Canonical Commercial Specifications | Accepted | 2026-07-16 | None | None |
-| [EDR-002](#edr-002--executive-summaries-are-written-last) | Executive Summaries Are Written Last | Accepted | 2026-07-16 | None | None |
-| [EDR-003](#edr-003--program-guides-are-drafted-and-locked-by-section) | Program Guides Are Drafted and Locked by Section | Accepted | 2026-07-16 | None | None |
+| [EDR-002](#edr-002--executive-summaries-are-written-last) | Executive Summaries Are Written Last | Superseded | 2026-07-16 | None | EDR-012 |
+| [EDR-003](#edr-003--program-guides-are-drafted-and-locked-by-section) | Program Guides Are Drafted and Locked by Section | Accepted | 2026-07-16 | None | EDR-012 (timing only) |
 | [EDR-004](#edr-004--facilities-own-commercial-semantics) | Facilities Own Commercial Semantics | Accepted | 2026-07-16 | None | None |
 | [EDR-005](#edr-005--the-canonical-banking-program-guide-architecture-is-frozen) | The Canonical Banking Program Guide Architecture Is Frozen | Accepted | 2026-07-16 | None | None |
 | [EDR-006](#edr-006--program-guides-must-answer-executive-questions-directly) | Program Guides Must Answer Executive Questions Directly | Accepted | 2026-07-16 | None | None |
@@ -86,6 +86,7 @@ The repository's earlier accepted decisions remain authoritative in their origin
 | [EDR-009](#edr-009--funds-remain-under-bank-custody) | Funds Remain Under Bank Custody | Accepted | 2026-07-16 | None | None |
 | [EDR-010](#edr-010--funding-event-is-the-entry-point-to-treasury) | Funding Event Is the Entry Point to Treasury | Accepted | 2026-07-16 | None | None |
 | [EDR-011](#edr-011--section-6-is-the-institutional-case) | Section 6 Is the Institutional Case | Accepted | 2026-07-18 | None | None |
+| [EDR-012](#edr-012--executive-summary-review-follows-the-frozen-narrative) | Executive Summary Review Follows the Frozen Narrative | Accepted | 2026-07-18 | EDR-002; EDR-003 (timing only) | None |
 
 ## EDR-001 — Program Guides Are Canonical Commercial Specifications
 
@@ -152,7 +153,7 @@ Active. A material change to these document boundaries requires a superseding de
 
 **Title:** Executive Summaries Are Written Last
 
-**Status:** Accepted
+**Status:** Superseded
 
 **Date:** 2026-07-16
 
@@ -186,11 +187,11 @@ None.
 
 ### Superseded By
 
-None.
+EDR-012.
 
 ### Notes
 
-Active. The Executive Summary is the final substantive drafting cycle.
+Superseded by EDR-012. The principle that the Executive Summary must compress established material remains active; the sequencing rule now distinguishes drafting and review from final lock.
 
 ## EDR-003 — Program Guides Are Drafted and Locked by Section
 
@@ -219,7 +220,7 @@ Section-level drafting protects continuity and allows each section to function a
 - Codex should persist one approved section per drafting cycle.
 - Codex should not independently rewrite previously locked sections.
 - Reopening a locked section requires an architectural change, a discovered contradiction, or an explicit editorial decision.
-- The Executive Summary remains the final drafting cycle.
+- Executive Summary timing follows EDR-012.
 
 ### Affected Documents
 
@@ -233,7 +234,7 @@ None.
 
 ### Superseded By
 
-None.
+EDR-012, only as to Executive Summary timing.
 
 ### Notes
 
@@ -691,3 +692,58 @@ None.
 ### Notes
 
 Active. This is the accepted editorial record required by EDR-005 for the canonical Section 6 refinement. It changes the Section 6 title and governing question only; the remaining canonical architecture and mandatory coverage register remain frozen.
+
+## EDR-012 — Executive Summary Review Follows the Frozen Narrative
+
+**Decision ID:** `EDR-012`
+
+**Title:** Executive Summary Review Follows the Frozen Narrative
+
+**Status:** Accepted
+
+**Date:** 2026-07-18
+
+### Context
+
+EDR-002 required both the numbered sections and required appendices to be substantively complete before the Executive Summary could be drafted. The RBAP Program Guide has now frozen Sections 1–7 as its canonical narrative while its appendices and diagrams remain planned. Editorial review benefits from synthesizing that frozen narrative before supporting appendices are completed, provided the Summary is not treated as final and does not anticipate unfinished material.
+
+### Decision
+
+An Executive Summary may be drafted and reviewed after all numbered sections are editorially complete and frozen, even when required appendices remain incomplete.
+
+The Executive Summary must:
+
+- rely only on claims established in the frozen numbered sections;
+- introduce no concepts from incomplete appendices or diagrams;
+- remain **In Review** while any required appendix is incomplete; and
+- be revalidated and locked only after all required appendices are substantively complete.
+
+### Rationale
+
+The numbered sections contain the canonical narrative that the Executive Summary must compress. Separating initial synthesis from final lock allows editorial review to proceed without treating incomplete supporting material as settled or publishable.
+
+### Consequences
+
+- The Executive Summary follows the frozen numbered narrative.
+- Appendices and diagrams may be completed after the Summary enters review.
+- Completion of the appendices triggers a final claim, terminology, and cross-reference review of the Summary.
+- Publication review must reject an Executive Summary that is locked before this revalidation occurs.
+
+### Affected Documents
+
+- [Canonical Banking Program Guide](../program-guides/CANONICAL_BANKING_PROGRAM_GUIDE.md)
+- [Banking Program Guide Parity Checklist](../program-guides/PROGRAM_GUIDE_PARITY_CHECKLIST.md)
+- [RBAP Digital Banking Program Guide](../program-guides/rbap/rbap-digital-banking-program-guide.md)
+- All current and future banking-sector Program Guides
+
+### Supersedes
+
+EDR-002 in full and EDR-003 only as to Executive Summary timing.
+
+### Superseded By
+
+None.
+
+### Notes
+
+Active. This decision changes workflow timing only. It does not alter the canonical section architecture, required appendix coverage, or the rule that an Executive Summary must introduce no new claims.

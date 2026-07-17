@@ -82,7 +82,7 @@ Those concepts must remain aligned with the canonical x-change and Treasury gram
 
 ## Canonical Section Architecture
 
-The Executive Summary appears before the numbered sections but is written last. It is unnumbered.
+The Executive Summary appears before the numbered sections but is drafted after those sections are editorially complete and frozen. It may enter review before the appendices are complete, but it must be revalidated and locked only after all required appendices are substantively complete. It is unnumbered.
 
 | Canonical component | Business question | Required purpose |
 | --- | --- | --- |
