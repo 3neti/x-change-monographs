@@ -84,7 +84,7 @@ For a section to be `Complete`, reviewers must confirm all of the following:
 
 ## Canonical Diagram Parity
 
-Appendix G is the shared registry for canonical program diagrams. Diagram parity is reviewed separately from the 27 mandatory business-coverage categories.
+Appendix G is the shared registry for canonical program diagrams. It is structurally present in the RBAP Program Guide as a placeholder; all canonical diagrams remain `Planned`. Diagram parity is reviewed separately from the 27 mandatory business-coverage categories.
 
 | Canonical diagram | Registry status | RBAP | Thrift Banks | Government Depository Banks | Notes |
 | --- | --- | --- | --- | --- | --- |
@@ -105,7 +105,7 @@ A future guide satisfies diagram parity by referencing the approved canonical di
 
 | Program | Guide path | Current stage |
 | --- | --- | --- |
-| RBAP Digital Banking Program | `docs/editorial/program-guides/rbap/rbap-digital-banking-program-guide.md` | Sections 1 and 2 editorially complete; Section 1 locked and Section 2 ready to lock. Remaining sections and appendices planned. |
+| RBAP Digital Banking Program | `docs/editorial/program-guides/rbap/rbap-digital-banking-program-guide.md` | Sections 1 and 2 editorially complete and locked. Sections 3–7 and Appendices A–F remain planned; Appendix G is structurally present with all diagrams planned. |
 | Thrift Bank Digital Banking Program | Not created | Anticipated. |
 | Government Depository Banking Program | Not created | Anticipated. |
 

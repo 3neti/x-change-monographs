@@ -330,7 +330,7 @@ RBAP administers the Program.
 
 ODTI licenses and maintains the technology.
 
-Each participating rural bank owns or controls its licensed deployment, infrastructure, customer and deposit relationships, service-provider accounts, and settlement relationship.
+Each participating rural bank owns or controls its licensed deployment, infrastructure, and service-provider accounts, and retains its customer and deposit relationships and direct settlement relationship.
 
 The settlement institution provides regulated accounts, banking APIs, and payment rails.
 
@@ -573,3 +573,7 @@ _Placeholder — unanswered._
 ### How much will participation cost?
 
 _Placeholder — unanswered._
+
+## Appendix G — Program Diagrams
+
+_Placeholder — canonical program diagrams have not yet been created._
