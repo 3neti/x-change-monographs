@@ -488,13 +488,15 @@ The operating model that follows shows how this capability works in practice.
 
 The operating model connects bank authority to regulated settlement through an institution-owned digital environment.
 
-The participating rural bank maintains the customer relationship, accepts deposits, establishes banking policy, authorizes banking activities, and remains responsible for regulatory compliance. Its settlement institution maintains the regulated account and executes supported settlement instructions. The authority to act arises from the applicable banking agreement, mandate, standing instruction, participation instrument, or other approved instrument.
+The participating rural bank maintains the customer relationship, accepts deposits, establishes banking policy, authorizes banking activities, and remains responsible for regulatory compliance.
 
-Between authorization and settlement, x-change coordinates the required banking activities. The model keeps five concerns distinct: the funds supporting the activity, the authority under which the bank may act, the purpose assigned to the funds, the conditions required for readiness, and the instruction presented for execution.
+Its settlement institution maintains the regulated account and executes supported settlement instructions. The applicable banking agreement, mandate, standing instruction, participation instrument, or other approved instrument provides the authority under which the bank acts.
+
+Between authorization and settlement, x-change coordinates the required banking activities. The model keeps five concerns distinct: supporting funds, authority to act, banking purpose, readiness conditions, and the instruction presented for execution.
 
 A traditional remittance service offers a familiar operating pattern. A sender provides funds and an instruction at an originating outlet. The provider records the transaction and issues a reference, which the sender communicates to the recipient. A receiving outlet validates the reference and required evidence before releasing the funds.
 
-The reference carries the instruction while the provider retains custody until release. The recipient presents the reference and satisfies the applicable requirements. As an operating pattern, software can automate the recording, communication, validation, monitoring, and back-office coordination. The same pattern can support payroll, collections, merchant payments, government disbursements, and other banking services.
+The reference carries the instruction while the provider retains custody until release. The recipient presents the reference and satisfies the applicable requirements. Within this familiar pattern, software can automate the recording, communication, validation, monitoring, and back-office coordination. The same pattern can support payroll, collections, merchant payments, government disbursements, and other banking services.
 
 > **Visual placeholder — Familiar Remittance Pattern**
 >
@@ -524,7 +526,7 @@ The digital rural bank is the same participating institution operating through a
 
 Customers may initiate an activity through a branch officer, web interface, mobile interface, QR code, SMS instruction, or another approved channel. Bank personnel review the request, apply policy, collect evidence, authorize activity, monitor completion, reconcile outcomes, and provide support. Treasury personnel receive an operational view of resources, reservations, obligations, and remaining capacity. Recipients present the authorized instruction, satisfy the applicable requirements, and receive the banking outcome.
 
-These experiences serve different participants, but the underlying banking activity belongs to one institution. The digital environment extends the bank's operations while its core banking systems and institutional responsibilities remain in place.
+These experiences differ, but the activity belongs to one institution. The perspectives below show how participants encounter an environment that extends the bank's operations while preserving its core systems and responsibilities.
 
 > **Visual placeholder — Operating Perspectives**
 >
@@ -636,7 +638,7 @@ The participating bank determines the requirements. The platform applies them co
 
 ### Pay Codes
 
-Once the bank has authorized an instruction and the required conditions are satisfied, the instruction requires a form that can be communicated and presented. A **Pay Code** represents that authorized banking instruction in a form that can be communicated, presented, validated, and executed.
+Once the bank has authorized an instruction and the required conditions are satisfied, that instruction must move from internal approval to presentation. A **Pay Code** represents it in a form that can be communicated, presented, validated, and executed.
 
 The Pay Code may appear as text, a QR code, barcode, printed reference, or another supported representation. It identifies the instruction and allows a recipient, merchant, branch officer, system, or service provider to resolve it within the issuing institution's platform.
 
@@ -644,11 +646,13 @@ Validation confirms that the instruction exists, remains active, has not already
 
 ### Execution
 
-Execution coordinates the authorized instruction through to the banking outcome defined by the Facility.
+Execution coordinates the final progression from an authorized instruction to the banking outcome defined by the Facility.
 
 Before proceeding, the platform confirms the instruction, applicable Lien, Treasury state, Settlement Envelope, institutional policy, and settlement readiness. The participating bank then submits or approves the corresponding action through its regulated settlement relationship. The settlement institution performs the supported financial movement.
 
-The platform records the result, updates operational state, consumes or releases the Lien, preserves evidence, and supports monitoring, reconciliation, reporting, and customer communication. An activity may be completed, remain pending, fail, or require review; the bank's operating policies govern the response.
+The platform records the result, updates operational state, consumes or releases the Lien, preserves evidence, and supports monitoring, reconciliation, reporting, and customer communication. The outcome may be completed, pending, failed, or subject to review under the bank's operating policies.
+
+The end-to-end view places Execution within the Program's operating grammar.
 
 > **Visual placeholder — End-to-End Banking Activity**
 >
@@ -683,7 +687,13 @@ The platform records the result, updates operational state, consumes or releases
 > Recipient / Merchant / Beneficiary
 > ```
 
-The participating rural bank retains its customers, funds, policies, infrastructure, and banking authority. The applicable mandate or other approved banking authority permits the bank to act, and its settlement institution performs regulated settlement. Funding Events recognize resources; Treasury maintains their operational state; Liens reserve them for authorized purposes; Facilities define the activity; Settlement Envelopes establish readiness; Pay Codes carry authorized instructions; and Execution coordinates the resulting outcome.
+The participating rural bank retains its customer relationships, policies, infrastructure, and banking authority. Funds remain within its regulated banking relationship.
+
+The applicable mandate or other approved banking authority permits the bank to act. Its settlement institution performs regulated settlement.
+
+Funding Events recognize resources. Treasury maintains their operational state, and Liens reserve them for authorized purposes.
+
+Facilities define the banking activity. Settlement Envelopes establish readiness, Pay Codes carry authorized instructions, and Execution coordinates the resulting outcome.
 
 Section 5 applies this operating model to representative banking activities.
 
