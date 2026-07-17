@@ -344,33 +344,107 @@ The Program establishes common technology and coordinated standards without crea
 
 > **Key message:** Every participating bank modernizes while preserving its identity, customers, governance, and independence.
 
+> **Executive decision:** I understand how my institution would benefit from participating in the Program and can determine whether those benefits support further institutional evaluation.
+
 ### Modern Digital Banking
 
-_Placeholder._
+Participation gives a rural bank access to a modern digital banking platform without requiring the institution to design every technical foundation independently.
+
+The platform is designed around a modular architecture for cloud operation, API-based integration, automated testing, controlled software delivery, infrastructure automation, and continuing operational support. These are established enterprise software practices rather than optional additions applied after deployment.
+
+Continuous integration and continuous deployment controls support repeatable testing and release processes. Deployment automation makes approved environments reproducible. Infrastructure automation reduces dependence on undocumented manual configuration. APIs provide governed integration points for settlement institutions and other approved service providers. Monitoring, backup, recovery, and security controls form part of the operating discipline surrounding the platform.
+
+These capabilities do not remove the participating bank's authority over technology decisions. The bank approves its production environment, credentials, integrations, operating policies, and software releases. Modern engineering practices provide a controlled foundation through which that authority can be exercised with greater consistency.
+
+The result is not a generic banking application presented as a complete digital bank. It is a current and extensible digital operating environment upon which the institution can introduce and develop banking capabilities according to its own requirements.
 
 ### Independent Operations
 
-_Placeholder._
+Participation preserves the operational sovereignty of each rural bank.
+
+The participating institution owns or controls its cloud account, infrastructure, application deployment, databases, institutional data, domains, service-provider accounts, credentials, monitoring, backups, and release approvals. It establishes its own settlement relationship and operates under its own banking authority, governance, compliance obligations, and security policies.
+
+This independence extends beyond infrastructure.
+
+Each institution determines the customer experience through which its services are presented. It controls its operating workflows, commercial participation, branding, domains, notification channels, SMS sender identity, customer communications, KYC progression, banking ceremonies, default riders, institution-specific API endpoints, and approved service integrations. Common software does not require common presentation, common customer policies, or a common operating identity.
+
+The Program therefore enables each participating institution to establish its own digital banking platform: an operational foundation that reflects the institution's strategy and can develop with it over time. The platform does not prescribe a complete online banking stack, replace the core banking system, or require the institution to adopt another organization's model of digital banking.
+
+The Program supplies a maintained engineering foundation and coordinated operating support. The institution determines how that foundation is expressed through its services, policies, relationships, and identity.
+
+The resulting digital presence remains recognizably the bank's own.
 
 ### Common Licensed Software
 
-_Placeholder._
+Modernization no longer needs to begin as a software construction project.
+
+Participating banks begin with common licensed software that has already been engineered as an operating foundation. The Program provides a maintained platform, supporting components, reference architecture, deployment materials, integration components, and an approved framework for implementation and continuing operations.
+
+This common foundation addresses work that would otherwise be repeated by every institution: environment structure, deployment patterns, software release practices, integration approaches, operational controls, technical documentation, and baseline monitoring and recovery arrangements. Reuse reduces duplicated engineering while preserving institution-specific deployment and authority.
+
+Reference architecture provides an established starting point. Deployment automation applies that architecture consistently within the bank's approved environment. Certified DevOps providers bring defined implementation and operating practices. Maintained releases allow the platform to evolve without requiring each participating bank to establish a separate software product organization.
+
+Implementation still requires institutional preparation. The bank must establish its infrastructure, provider relationships, settlement connectivity, credentials, approvals, and operating responsibilities. The Program does not remove those obligations or represent a turnkey deployment independent of implementation services.
+
+It does, however, change the starting condition. The institution begins with an engineered and supportable foundation rather than an unformed technology project. Modernization becomes a governed implementation of established capability, followed by continuing operation and controlled evolution.
 
 ### Shared Standards
 
-_Placeholder._
+Common software becomes institutionally useful only when it is supported by common standards.
+
+The Program establishes shared engineering, integration, deployment, release, documentation, testing, security, and operational expectations. These standards allow participating banks, ODTI, certified DevOps providers, settlement institutions, and approved service providers to work within a consistent frame of reference while retaining their separate responsibilities.
+
+Shared standards support interoperability. They give integration components and software releases defined compatibility expectations. They support consistent quality by requiring repeatable testing, controlled deployment, observable operations, documented recovery practices, and approved change processes. They also make provider certification meaningful by establishing the operating disciplines against which implementation capability can be assessed.
+
+The standards do not create shared production authority. Each bank continues to approve its own releases, manage its credentials, govern its environment, and determine which supported capabilities it will adopt. A common standard defines how an approved capability should be implemented; it does not decide whether or when a bank must use it.
+
+This distinction allows common standards to increase institutional independence. Banks gain access to continuing software evolution and a broader implementation ecosystem without becoming dependent on undocumented, institution-specific engineering. Predictable operating practices make future change more manageable while leaving institutional decisions with the bank.
 
 ### Settlement Connectivity
 
-_Placeholder._
+Digital banking capability must remain connected to regulated financial infrastructure.
+
+Each participating rural bank establishes and maintains its own relationship with its settlement institution. The bank holds its own settlement account, controls its own provider credentials, and retains authority over the banking instructions executed through that relationship. Participation in the Program does not pool settlement accounts or transfer settlement authority to RBAP, ODTI, or a DevOps provider.
+
+Customer funds remain under the custody and banking responsibility of the participating bank. Customer and deposit relationships remain with the bank. x-change does not receive deposits, hold customer funds, issue a wallet balance, or become the settlement institution. It provides digital operating capability through which authorized instructions can be coordinated under the bank's policies and authority.
+
+This structure allows a participating institution to use modern settlement connectivity without surrendering custody, institutional accountability, or control of its regulated relationships.
+
+Section 4 explains the operating model through which Funding Events, Treasury, Facilities, Settlement Envelopes, Pay Codes, and Execution are coordinated. At this stage, the essential point is narrower: the technology enables activity, while the bank retains the funds, relationships, credentials, and authority.
 
 ### New Banking Services
 
-_Placeholder._
+A digital banking platform becomes valuable through the services an institution chooses to operate upon it.
+
+Participating banks may introduce capabilities such as payroll, merchant payments, collections, remittances, government services, customer engagement, and other modular banking services supported by the Program. Adoption can follow institutional priorities rather than a single prescribed sequence. A bank may begin with one bounded service and add capabilities as governance, operating readiness, and customer demand develop.
+
+These services create value beyond the execution of individual transactions.
+
+A payroll relationship may create opportunities for recurring deposits, employee services, and broader financial relationships. Merchant payments may support merchant acquisition, collections, liquidity visibility, and continuing business engagement. Remittance services may create opportunities to serve both recipients and the families or enterprises connected to them. Government services may strengthen an institution's relevance to local agencies, beneficiaries, and community programs.
+
+As more financial activity is conducted through the institution, each service can reinforce the others. Transactions create relationships. Relationships create reasons for customers and businesses to return. Repeated participation can place the bank closer to the ordinary financial activity of the community.
+
+This tendency creates **Transaction Gravity**.
+
+Transaction Gravity is not the pursuit of transaction volume for its own sake. Its practical value lies in the opportunity for a rural bank to strengthen deposit and merchant relationships, customer engagement, and local relevance by becoming useful across more recurring financial activities.
+
+The objective is therefore not only to execute transactions. It is to strengthen the participating institution's gravitational pull within the financial lives of its customers and communities.
 
 ### Lower Cost of Innovation
 
-_Placeholder._
+The cost of modernization is not limited to initial implementation. It includes the continuing work required to maintain software, integrations, infrastructure compatibility, security practices, deployment processes, documentation, and operational readiness.
+
+When every institution addresses that work independently, engineering investment is repeatedly spent on the same foundations. The resulting systems may also become harder to maintain as providers, interfaces, operating environments, and regulatory expectations change.
+
+The Program distributes the benefit of common engineering across participating institutions. ODTI maintains and evolves the licensed platform. Reference architecture and deployment automation reduce repeated implementation work. Certified DevOps practices support continuing operations. Shared standards allow improvements to be introduced through maintained releases and supported integrations rather than separate reconstruction at every bank.
+
+Each institution still funds and governs its own deployment, providers, integrations, and approved changes. Shared investment does not eliminate institution-specific cost or responsibility. It reduces the need for each bank to recreate the common software foundation before it can focus on the services and operating decisions that distinguish the institution.
+
+This model can also reduce technology risk. Maintained software, controlled releases, repeatable deployment, and a defined support ecosystem make change more observable and more manageable. New capabilities can be considered as extensions of an operating foundation rather than as reasons to replace that foundation.
+
+Lower cost of innovation therefore means more than lower expenditure. It means preserving the institution's capacity to modernize continuously without repeatedly rebuilding its technology base.
+
+Technology serves the institution best when it can adapt to the institution's strategy, authority, and community. The institution should not have to surrender those qualities in order to use modern technology.
 
 ## Section 4 — How Does the Program Work?
 
