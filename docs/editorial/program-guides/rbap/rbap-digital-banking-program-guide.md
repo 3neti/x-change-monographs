@@ -939,7 +939,7 @@ Section 3 introduced **Transaction Gravity** as the tendency for financial activ
 
 A single remittance is a transaction. Repeated remittances can become a customer relationship. Payroll can connect the bank to an employer and its employees. Merchant payments and collections can connect it to the daily activity of local enterprise. Government disbursements can make the institution more relevant to agencies, beneficiaries, and community programs.
 
-The resulting value lies in relationships: customer relationships, deposit relationships, employer relationships, merchant relationships, and the bank's continuing relevance within its community.
+The resulting value lies in enduring customer, deposit, employer, and merchant relationships, and in the bank's continuing relevance within its community.
 
 Transaction volume may reflect that activity, but volume alone is not Transaction Gravity. The institution becomes stronger when customers increasingly choose it for more of their financial lives.
 
@@ -949,7 +949,7 @@ Historically, each significant banking service could become another technology p
 
 The Program changes that pattern. Once the institution has established one governed operating model, a new service can be introduced as a new banking ceremony. The bank applies a different purpose, participants, policies, conditions, and customer journey without reconstructing the foundation beneath them.
 
-This is the **capacity to adapt**. Resilience helps an institution continue what it already does. Adaptability allows it to take on new responsibilities without repeatedly rebuilding itself.
+This is the **capacity to adapt**. Resilience preserves what an institution can already do. Adaptability allows it to assume new responsibilities without rebuilding its foundation.
 
 The distinction matters over a ten-year horizon. The bank cannot know every service its customers will require, but it can establish the discipline through which future services are governed and introduced.
 
@@ -959,6 +959,8 @@ Institutional capability also affects the community the bank serves.
 
 Payroll gives employers and employees a dependable local banking relationship. Remittance connects families. Merchant payments and collections support local commerce. Government assistance can reach beneficiaries through an institution already accountable to its community. Each service is a banking responsibility before it is a digital feature.
 
+Technology is valuable insofar as it helps the institution fulfill those responsibilities.
+
 Commercial performance and public service can arise from the same governed capability. It can strengthen customer relationships while allowing the bank to perform more useful work within its market.
 
 The result is practical rather than aspirational: a capable local institution can support more of the financial activity taking place around it.
@@ -967,11 +969,11 @@ The result is practical rather than aspirational: a capable local institution ca
 
 Participating rural banks continue to compete through their relationships, services, policies, lending decisions, customer experience, and local knowledge.
 
-The work that becomes shared is the work no institution benefits from repeating alone: engineering, software evolution, implementation knowledge, operating standards, and the continuing effort required to maintain a modern foundation.
+What becomes shared is the work no institution benefits from repeating alone: engineering, software evolution, implementation knowledge, operating standards, and the continuing effort required to maintain a modern foundation.
 
 **Participating banks compete independently while modernizing collectively.**
 
-Common capability therefore supports institutional difference. Each bank decides which ceremonies to introduce, how to govern them, and how they should reflect the needs of its customers and community.
+Common capability allows each institution to remain distinct. Each bank decides which ceremonies to introduce, how to govern them, and how they should reflect the needs of its customers and community.
 
 Collective modernization does not create a common bank. It gives independent banks a common basis from which to evolve.
 
@@ -1003,7 +1005,7 @@ Recurring banking ceremonies can deepen relationships and strengthen Transaction
 
 Commercial sustainability follows from those institutional effects. It requires disciplined service choices, transparent allocation of costs and income, and a continuing basis for maintaining the Program.
 
-Section 7 turns from the institutional case to the practical question of how the Program should begin.
+Section 7 considers how that institutional capability may be introduced through a practical and manageable launch.
 
 ## Section 7 — Launching the Program
 
