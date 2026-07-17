@@ -1009,29 +1009,109 @@ Section 7 considers how that institutional capability may be introduced through 
 
 ## Section 7 — Launching the Program
 
-> **Executive question:** What happens after approval?
+> **Executive question:** The Board has approved the Program. What happens next?
 
 > **Key message:** Start small, learn quickly, modernize together.
 
-### Pilot
+> **Executive decision:** I understand the institutional sequence from approval to controlled production and can authorize Management to begin Program activation, bank participation, and pilot-readiness work.
 
-_Placeholder._
+Board approval begins the Program. It does not place a participating bank into production.
 
-### Phased Rollout
+On the next working day, RBAP Management establishes the authority and accountability required to act on the resolution. It confirms the approved scope, assigns the responsible program leadership, begins completing the common participation arrangements, and identifies the first participating institution under the approved governance process.
 
-_Placeholder._
+The participating bank then makes its own institutional decision. Its Board or authorized Management approves participation, designates accountable officers, and authorizes the relationships and work required to prepare the bank for operation. RBAP approval establishes the Program; it does not replace the approvals of the bank.
 
-### Success Metrics
+From that point, launch proceeds through a sequence of institutional milestones. Each milestone establishes the authority, understanding, or operating confidence required for the next.
 
-_Placeholder._
+### Activate the Program
 
-### Growing the Ecosystem
+RBAP first translates the Board resolution into an operating program. Management confirms program governance, the authority delegated to the responsible officers, the process for admitting participating banks, and the common standards that will apply during the pilot.
 
-_Placeholder._
+RBAP and ODTI complete the applicable licensing and program arrangements. The first participating bank completes its participation instrument, engages an approved DevOps provider, establishes or confirms its direct settlement relationship, and approves the institution-specific work required for launch. Final legal forms, commercial terms, and institutional approvals remain subject to the applicable review and authority of each party.
 
-### Next Steps
+This milestone is complete when every participant understands its role, the required instruments are in place for the work to proceed, and named officers are accountable for the decisions that follow.
 
-_Placeholder._
+### Understand the Institution
+
+Implementation begins by understanding the bank rather than by configuring software.
+
+The bank explains the products it offers, the customers and communities it serves, the policies under which it acts, the approvals its personnel exercise, and the way activity moves through its branches, Treasury, operations, compliance, accounting, and customer support. Existing systems, reports, provider relationships, and settlement arrangements are considered in that institutional context.
+
+The bank leads this work. ODTI, the DevOps provider, and other approved implementation participants listen, document, and identify where the common platform must reflect approved institutional practice. The purpose is not to reproduce every existing procedure. It is to understand which responsibilities must remain, which activities may be simplified, and where a proposed change requires an explicit decision by the bank.
+
+This milestone is complete when the participants share an accurate view of how the institution operates and which banking responsibility the pilot will address first.
+
+### Define the First Banking Ceremony
+
+The first ceremony should be familiar, bounded, and important enough to demonstrate the operating model. Section 5 uses remittance for this reason: customers understand it, bank personnel recognize it, and one transaction exercises funding, authority, conditions, execution, settlement, and reconciliation.
+
+The bank defines how that ceremony should operate within its institution. It confirms the participants, source of funds, approval path, limits, customer journey, evidence requirements, communications, exception treatment, accounting, settlement, and reconciliation. ODTI confirms how the maintained platform supports the ceremony. The DevOps provider and settlement institution identify the operational dependencies within their respective responsibilities.
+
+The customer experience is defined as part of the banking service, not as a separate design exercise. Branding, receipts, notifications, Pay Code presentation, and support communications should make the service recognizably the bank's own while preserving the approved operating model.
+
+The participants also agree in advance how the pilot will be assessed. Measures should address operational reliability, correct authorization, settlement and reconciliation, exception handling, staff readiness, customer comprehension, and the institution's ability to operate the service consistently. Transaction volume alone is not sufficient evidence of readiness.
+
+This milestone is complete when the bank approves a clear operating specification for one ceremony and the evidence by which the pilot will be judged.
+
+### Establish the Operating and Settlement Foundations
+
+The participating bank establishes the environment through which it will operate. It owns or controls the applicable cloud or hosting account, domains, provider accounts, credentials, data, security decisions, and production approvals. The certified DevOps provider provisions and operates the environment within the authority delegated by the bank. ODTI provides the licensed software, maintained release, supported integrations, and reference materials.
+
+The institution also completes the settlement arrangements required for the ceremony. The bank opens or confirms its own settlement account, receives its own credentials, and authorizes testing through its direct relationship with the settlement institution. The settlement institution provides the supported banking APIs and payment rails. RBAP coordinates the Program but does not become the account holder, credential owner, or settlement operator.
+
+Development, staging, and production are established with the monitoring, backup, recovery, security, and release controls appropriate to the approved deployment. These controls are not evidence that the bank is ready to launch; they are the foundation on which readiness can be demonstrated.
+
+This milestone is complete when the bank-owned environment and direct settlement connection are available for controlled end-to-end validation.
+
+### Confirm Operational Readiness
+
+The bank then proves the ceremony from beginning to end under controlled conditions.
+
+Bank personnel carry out the applicable initiation and approval steps. Treasury state, Liens, Settlement Envelope requirements, Pay Code presentation, execution, settlement results, customer evidence, accounting entries, and reconciliation are examined as one banking operation. Failure, delay, duplication, reversal, incomplete evidence, and other exceptions are tested so that the institution understands how they will be identified, escalated, resolved, and recorded.
+
+The DevOps provider demonstrates the operating controls within its scope. ODTI addresses platform behavior and supported integration issues. The settlement institution confirms the behavior of the services it provides. The participating bank decides whether the combined operation satisfies its policies and readiness requirements.
+
+Readiness is therefore an institutional judgment, not a technical declaration. This milestone is complete when the bank has evidence that the ceremony can be operated, supervised, reconciled, supported, and governed under its authority.
+
+### Prepare the Institution
+
+Operational readiness depends on people as well as controls.
+
+Branch personnel must understand the customer conversation. Operations and Treasury personnel must understand approval, monitoring, settlement, and reconciliation. Customer-support personnel must understand expected outcomes and exception paths. Management must understand the information it will review and the decisions that require escalation.
+
+Training is organized around the banking ceremony rather than the software interface. Procedures, responsibilities, support arrangements, customer communications, and escalation paths are confirmed before any customer is invited to participate.
+
+This milestone is complete when the institution knows who will operate the service, who will supervise it, who will support the customer, and who may decide when an exception requires the pilot to pause.
+
+### Begin a Controlled Pilot
+
+The pilot is limited production, not a demonstration environment. Real banking activity occurs under the participating bank's authority and through its regulated settlement relationship.
+
+The first pilot should remain deliberately narrow: one participating institution, one familiar banking ceremony, a limited operating scope, and defined measures. The bank may constrain branches, personnel, customers, transaction limits, or duration according to its approved pilot design. The purpose is to observe the complete service under real operating conditions without asking the institution to assume unnecessary breadth.
+
+During the pilot, the bank monitors authorization, customer experience, settlement, reconciliation, exceptions, support demand, and operating stability. RBAP observes program-level lessons. ODTI and the DevOps provider address matters within their respective responsibilities. Changes remain subject to the bank's approval and the Program's release and governance standards.
+
+The pilot is complete when the agreed evidence is sufficient for the bank and Program governance to decide what should happen next.
+
+### Review, Expand, and Grow
+
+The next decision is not automatic expansion.
+
+The participating bank reviews the evidence and decides whether to proceed, correct, extend, or pause. A successful pilot demonstrates more than completed transactions. It shows that the institution can authorize the service correctly, settle and reconcile it dependably, support customers, resolve exceptions, and maintain the operating discipline required for continued use.
+
+Expansion should then occur in controlled steps. The bank may extend the ceremony to additional branches or customers, increase approved limits or volumes, or introduce another banking ceremony through the same operating foundation. Each expansion follows the same discipline: define the service, confirm authority and readiness, prepare personnel, operate within approved limits, and review the evidence.
+
+RBAP grows the wider Program by applying what has been learned to the onboarding of additional member banks. Common standards, maintained software, implementation knowledge, and readiness practices improve with each participation cycle. Each new institution still completes its own approvals, operates its own environment, maintains its own settlement relationship, and makes its own launch decisions.
+
+Collective modernization therefore begins with one governed institutional launch and grows by repeating a disciplined process—not by placing every participating bank into production at once.
+
+### Section Summary
+
+After approval, RBAP activates the Program and establishes accountability. The first participating bank authorizes its own participation, explains how it operates, and defines one familiar banking ceremony. The bank then establishes its operating and settlement foundations, validates the complete banking activity, prepares its personnel, and begins a controlled production pilot.
+
+Evidence from that pilot determines whether the institution should proceed, correct, extend, or pause. Expansion occurs one controlled step at a time, and RBAP carries the resulting knowledge into each subsequent participation cycle.
+
+The immediate next step is therefore clear: RBAP Management establishes program governance, completes the common participation arrangements, and begins readiness work with the first participating institution.
 
 ## Appendix A — Glossary
 

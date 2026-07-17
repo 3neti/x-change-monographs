@@ -2,7 +2,7 @@
 
 This directory contains the first sector implementation of the Canonical Banking Program Guide architecture.
 
-- `rbap-digital-banking-program-guide.md` is the canonical guide manuscript. Its approved title hierarchy and section architecture are frozen. Sections 1–6 are editorially complete and locked.
+- `rbap-digital-banking-program-guide.md` is the canonical guide manuscript. Its approved title hierarchy and section architecture are frozen. Sections 1–6 are editorially complete and locked; Section 7 has a complete exploratory draft and remains in editorial review.
 - `metadata.yaml` records its document identity, status, source path, and governance controls.
 - [`../CANONICAL_BANKING_PROGRAM_GUIDE.md`](../CANONICAL_BANKING_PROGRAM_GUIDE.md) governs its structure.
 - [`../PROGRAM_GUIDE_PARITY_CHECKLIST.md`](../PROGRAM_GUIDE_PARITY_CHECKLIST.md) records its coverage status.
