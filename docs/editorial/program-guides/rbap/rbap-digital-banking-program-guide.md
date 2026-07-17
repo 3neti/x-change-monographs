@@ -699,29 +699,215 @@ Section 5 applies this operating model to representative banking activities.
 
 ## Section 5 — Banking in Action
 
-> **Executive question:** Show me how it actually works.
+> **Executive question:** What would the Program look like during an ordinary transaction at a participating rural bank?
 
-> **Key message:** Every banking workflow becomes a configurable digital ceremony.
+> **Key message:** The Program does not ask participating institutions to invent unfamiliar banking services. It organizes familiar banking activities using one consistent operating model that can later support many additional services.
 
-### Walk-in Deposit
+> **Executive decision:** I understand how a participating rural bank can begin with a familiar service such as remittance and progressively modernize payroll, merchant payments, public disbursements, collections, and future banking services without redesigning its operating foundation.
 
-_Placeholder._
+The previous chapter described how the Program works. This chapter makes its operating model tangible through an activity already familiar to many rural banks.
 
-### Payroll
+The Program begins with remittance rather than payroll or a large institutional disbursement. Customers understand it, and banking personnel recognize the responsibilities it entails. Within one transaction, the institution receives funds, confirms authority, reserves capacity, applies conditions, issues an instruction, coordinates settlement, and reconciles the result.
 
-_Placeholder._
+Once this ceremony is understood, the same banking discipline becomes recognizable across many other services.
 
-### Merchant Payments
+### An Ordinary Banking Request
 
-_Placeholder._
+A customer walks into a participating rural bank.
 
-### Government Disbursements
+> **Customer:** Good morning. I'd like to send ₱5,000 to my mother. I'd also like the bank to require a selfie and a signature before releasing the funds.
 
-_Placeholder._
+The teller reviews the request.
 
-### Future Banking Ceremonies
+> **Teller:** Certainly, sir. We can prepare that as a Pay Code remittance. Including the service fee, the total is ₱5,025.
 
-_Placeholder._
+The customer hands over the cash. The teller receives the funds, records the transaction, and prepares the service according to the institution's operating policies.
+
+A few moments later, the teller returns.
+
+> **Teller:** Here is your receipt, your Pay Code, and the redemption instructions. Please send these to your mother through a secure channel.
+
+The customer thanks the teller and leaves. The interaction took only a few minutes.
+
+**The customer requested a banking outcome. The bank arranged it.**
+
+### What Did the Customer Purchase?
+
+On the way home, the customer may naturally say:
+
+> I bought a ₱5,000 Pay Code.
+
+Customers often describe a banking service by the instrument or credential they receive. A customer might similarly say:
+
+> I bought a manager's check.
+
+The institution understands the transaction differently. It accepted the customer's funds, applied policy, agreed to perform an authorized banking activity, and issued a credential through which the intended recipient could complete the transaction.
+
+The customer purchased a funded banking outcome delivered through a governed banking service. The Pay Code is the customer-facing credential for that service. The service fee relates to the institution's work in receiving the funds, applying policy, managing readiness, monitoring settlement, maintaining records, and completing the activity.
+
+> **The customer purchases a banking outcome. The institution governs the banking ceremony. The Pay Code allows the customer to participate in that ceremony.**
+
+### A Familiar Banking Pattern
+
+Banks have long offered funded services in which a customer requests a financial outcome, provides funds and instructions, receives an institution-issued instrument or credential, and relies on the bank to complete the intended activity.
+
+A manager's check follows this familiar pattern. The customer requests the check, the bank receives or debits the necessary funds, applies its issuance policies, and issues the instrument.
+
+For the customer, the essential point is simple: the bank has accepted responsibility for completing the requested payment.
+
+A Pay Code remittance follows a similar customer journey. The customer asks the bank to make funds available to another person. The bank receives the funds, applies its remittance policies, prepares the transaction, and issues the credential through which the recipient may complete the service.
+
+The products and legal instruments differ. Their customer journeys express the same banking principle: the customer requests an outcome, and the institution translates that request into a governed banking service.
+
+### Two Familiar Banking Ceremonies
+
+> **Visual placeholder — Manager's Check and Pay Code Remittance**
+
+| Manager's Check Ceremony | Pay Code Remittance Ceremony |
+| --- | --- |
+| Customer requests a manager's check | Customer requests a remittance |
+| Customer specifies the amount and payee | Customer specifies the amount, recipient, and conditions |
+| Bank receives or debits funds | Bank receives funds |
+| Bank applies issuance policies | Bank applies remittance policies |
+| Bank issues the manager's check | Bank issues the Pay Code |
+| Instrument is delivered | Pay Code is delivered |
+| Instrument is presented | Pay Code is presented |
+| Bank completes payment | Bank completes the service through settlement |
+
+The comparison concerns customer journeys, not legal equivalence between instruments. Both ceremonies belong to a family of banking services that institutions and customers already understand.
+
+**The Program does not replace familiar banking services. It organizes them through one consistent operating model.**
+
+### What Happened Behind the Counter?
+
+The customer interaction lasted only a few minutes. The institution coordinated a complete banking activity.
+
+> **Visual placeholder — Behind the Counter**
+>
+> ```text
+> Customer Request
+>         │
+>         ▼
+> Funds Received
+>         │
+>         ▼
+> Authority Confirmed
+>         │
+>         ▼
+> Service Conditions Recorded
+>         │
+>         ▼
+> Settlement Capacity Reserved
+>         │
+>         ▼
+> Pay Code Issued
+>         │
+>         ▼
+> Recipient Presents Pay Code
+>         │
+>         ▼
+> Conditions Verified
+>         │
+>         ▼
+> Settlement Executed
+>         │
+>         ▼
+> Transaction Reconciled
+> ```
+
+The customer experiences simplicity. The institution performs disciplined banking.
+
+### Four Perspectives of the Same Ceremony
+
+#### Customer
+
+The customer wishes to make ₱5,000 available to another person. He provides the funds, specifies the conditions, pays the service fee, and receives confirmation. From his perspective, the bank has made the intended outcome possible.
+
+#### Bank Operations
+
+The institution receives the funds, records the request, applies policy, prepares the activity, monitors progress, resolves exceptions when necessary, and reconciles settlement. From Operations' perspective, the Pay Code forms part of a governed banking service.
+
+#### Treasury
+
+Treasury maintains the operational state of the settlement resources supporting the transaction. The required amount remains reserved for the activity until completion or other resolution under institutional policy. From Treasury's perspective, the ceremony represents coordinated financial readiness.
+
+#### Recipient
+
+The recipient receives the Pay Code and the bank's instructions. She presents the Pay Code through an approved customer journey, satisfies the required conditions, and receives the funds. From her perspective, the institution has completed the intended service.
+
+### The Operating Model Revealed
+
+The Program coordinated the ceremony through the grammar introduced in Section 4.
+
+> **Visual placeholder — Operating Model**
+>
+> ```text
+> Funding Event
+>       │
+>       ▼
+> Treasury
+>       │
+>       ▼
+> Lien
+>       │
+>       ▼
+> Facility
+>       │
+>       ▼
+> Settlement Envelope
+>       │
+>       ▼
+> Pay Code
+>       │
+>       ▼
+> Execution
+> ```
+
+The bank records its receipt and recognition of the customer's funds as a Funding Event. Treasury maintains the operational state of the supporting settlement resources, and a Lien reserves the amount required for the transaction.
+
+The remittance service is represented as a Facility. The selfie, signature, approvals, limits, and other conditions form the Settlement Envelope. The Pay Code carries the authorized instruction through the recipient journey.
+
+Execution coordinates the transaction through the institution's regulated settlement relationship. The settlement institution performs the supported financial movement.
+
+The customer need not understand this grammar. The institution uses it to govern the service.
+
+### Why Remittance Is the Canonical Ceremony
+
+Remittance is operationally complete and institutionally familiar. A sender provides funds. The institution accepts responsibility. A recipient is identified. Conditions may be established. An instruction is issued. Settlement occurs. The transaction is reconciled.
+
+Every major responsibility of the Program appears naturally within one ordinary banking activity. Remittance therefore provides the canonical ceremony from which other services can be understood.
+
+### One Ceremony. Many Banking Services.
+
+Once the institution understands the remittance ceremony, other banking services become recognizable variations of the same banking discipline. The participants, purpose, conditions, and customer journey may change; the operating foundation remains stable.
+
+**Payroll.** An employer replaces the individual sender, and many employees replace the single recipient.
+
+**Merchant payments.** The recipient becomes a participating merchant.
+
+**Government disbursements.** Public-program rules become part of the service conditions.
+
+**Collections.** The direction of the financial activity changes, and the institution attributes funds to the appropriate account or obligation.
+
+**Future banking services.** New services introduce different business rules, participants, and customer journeys through the same foundation.
+
+### Why This Matters
+
+Beginning with remittance keeps the Program grounded in a banking activity that many institutions already perform directly or through approved arrangements. The ceremony is familiar; the operating discipline is reusable.
+
+The same model may then support payroll, merchant payments, government programs, collections, and future services.
+
+**The institution modernizes one operating model. The institution expands many banking services.**
+
+### Section Summary
+
+The customer entered the branch with a simple request. The institution transformed it into a governed banking service.
+
+The customer experienced a remittance. The institution coordinated funding, authority, reservation, readiness, settlement, and reconciliation. The Pay Code served as the credential through which the recipient could complete the service.
+
+The Program begins with one familiar banking ceremony. From that ceremony, a participating institution may progressively modernize many others while preserving a common operating foundation.
+
+Section 6 considers the business case for that institutional progression.
 
 ## Section 6 — The Business Case
 

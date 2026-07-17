@@ -47,9 +47,9 @@ The RBAP column records current guide coverage against the frozen architecture. 
 | 12. Treasury | Planned | Planned | Planned | Planned | RBAP Section 4 provides the locked Program Guide treatment; Appendix D remains planned. |
 | 13. Facilities | Complete | Planned | Planned | Planned | RBAP Section 4 provides the locked canonical treatment. |
 | 14. Settlement Envelopes | Complete | Planned | Planned | Planned | RBAP Section 4 provides the locked canonical treatment. |
-| 15. Pay Codes | Planned | Planned | Planned | Planned | RBAP Section 4 provides the locked canonical treatment; applied workflow coverage in Section 5 remains planned. |
+| 15. Pay Codes | Complete | Planned | Planned | Planned | RBAP Section 4 provides the locked canonical treatment, and locked Section 5 applies it through the remittance ceremony. |
 | 16. Execution | Complete | Planned | Planned | Planned | RBAP Section 4 provides the locked canonical treatment. |
-| 17. Representative banking workflows | Planned | Planned | Planned | Planned | Section 5. |
+| 17. Representative banking workflows | Complete | Planned | Planned | Planned | RBAP Section 5 presents remittance as the locked canonical ceremony and relates it to additional banking services. |
 | 18. Business case | Planned | Planned | Planned | Planned | Section 6. |
 | 19. Costs of participation | Planned | Planned | Planned | Planned | Section 6. |
 | 20. Revenue or economic opportunities | Planned | Planned | Planned | Planned | Section 6. |
@@ -71,7 +71,7 @@ The cross-program matrix remains the architectural parity control. The following
 | Section 2 — What Is the Program? | What exactly is the sector body being invited to launch? | Decide whether the proposed Program merits institutional evaluation. | Complete | Planned | Planned | Planned | The RBAP narrative defines the Program and preserves the boundaries among program administration, bank authority, software, DevOps, and settlement. |
 | Section 3 — Why Should a Bank Participate? | What does an individual bank gain? | Understand the institution's prospective benefit from participation. | Complete | Planned | Planned | Planned | The RBAP narrative answers its Executive Question, supports its Executive Decision, and is editorially locked. |
 | Section 4 — How Does the Program Work? | How does the operating model work? | Understand how the model preserves institutional independence while enabling modern digital banking. | Complete | Planned | Planned | Planned | The RBAP narrative answers its Executive Question, supports its Executive Decision, and is editorially locked. |
-| Section 5 — Banking in Action | Show me how it actually works. | Assess the Program through representative banking workflows. | Planned | Planned | Planned | Planned | Diagrams and concise prose must answer the workflow question without inventing operating details. |
+| Section 5 — Banking in Action | Show me how it actually works. | Assess the Program through representative banking workflows. | Complete | Planned | Planned | Planned | The RBAP remittance ceremony answers the business question, applies the locked Section 4 grammar, and is editorially locked. |
 | Section 6 — The Business Case | Is this commercially worthwhile? | Decide whether the business case merits detailed commercial evaluation. | Planned | Planned | Planned | Planned | Must address participation costs, economic opportunity, and the Commercial Waterfall. |
 | Section 7 — Launching the Program | What happens after approval? | Decide whether to authorize or evaluate the proposed next step. | Planned | Planned | Planned | Planned | Must address pilot, phased rollout, success metrics, and next steps. |
 
@@ -107,7 +107,7 @@ A future guide satisfies diagram parity by referencing the approved canonical di
 
 | Program | Guide path | Current stage |
 | --- | --- | --- |
-| RBAP Digital Banking Program | `docs/editorial/program-guides/rbap/rbap-digital-banking-program-guide.md` | Sections 1–4 are editorially complete and locked. Section 5 remains undrafted pending its architectural workshop. Sections 6–7 and Appendices A–F remain planned; Appendix G is structurally present with all diagrams planned. |
+| RBAP Digital Banking Program | `docs/editorial/program-guides/rbap/rbap-digital-banking-program-guide.md` | Sections 1–5 are editorially complete and locked. Section 6 remains undrafted pending its architectural workshop. Section 7 and Appendices A–F remain planned; Appendix G is structurally present with all diagrams planned. |
 | Thrift Bank Digital Banking Program | Not created | Anticipated. |
 | Government Depository Banking Program | Not created | Anticipated. |
 
