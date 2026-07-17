@@ -348,7 +348,7 @@ The Program establishes common technology and coordinated standards without crea
 
 ### Modern Digital Banking
 
-Participation enables a rural bank to establish modern digital banking capability without designing every technical foundation independently.
+Participation enables a rural bank to establish a modern digital banking capability without designing every technical foundation independently.
 
 The platform uses a modular architecture designed for cloud operations and API-based integration. Automated testing, controlled software delivery, infrastructure automation, and continuing operational support are part of the foundation, not additions applied after deployment.
 
@@ -446,9 +446,9 @@ These services create value beyond the execution of individual transactions.
 
 A payroll relationship may create opportunities for recurring deposits, employee services, and broader financial relationships. Merchant payments may support merchant acquisition, collections, liquidity visibility, and continuing business engagement. Remittance services may create opportunities to serve both recipients and the families or enterprises connected to them. Government services may strengthen an institution's relevance to local agencies, beneficiaries, and community programs.
 
-Banking services create relationships, and those relationships can reinforce one another. As customers and businesses return for recurring needs, the institution becomes more relevant to their ordinary financial activity.
+Banking services create relationships, and those relationships can reinforce one another. Consistently serving recurring needs makes the institution more relevant to the ordinary financial activity of its customers and community.
 
-Over time, financial activity is more likely to return to a bank that remains useful across more of those needs.
+Over time, customers and businesses naturally return to institutions that remain useful across more of their financial needs.
 
 This accumulating institutional relevance is **Transaction Gravity**.
 
@@ -484,49 +484,208 @@ The operating model that follows shows how this capability works in practice.
 
 > **Key message:** Banks retain custody and authority. x-change orchestrates modern banking operations.
 
+> **Executive decision:** I understand where funds remain, where authority resides, how banking instructions are prepared, and how the Program coordinates execution without displacing the participating bank or its settlement institution.
+
+The operating model connects bank authority to regulated settlement through an institution-owned digital environment.
+
+The participating rural bank maintains the customer relationship, accepts deposits, establishes banking policy, authorizes banking activities, and remains responsible for regulatory compliance. Its settlement institution maintains the regulated account and executes supported settlement instructions. The authority to act arises from the applicable banking agreement, mandate, standing instruction, participation instrument, or other approved instrument.
+
+Between authorization and settlement, x-change coordinates the required banking activities. The model keeps five concerns distinct: the funds supporting the activity, the authority under which the bank may act, the purpose assigned to the funds, the conditions required for readiness, and the instruction presented for execution.
+
+A traditional remittance service offers a familiar operating pattern. A sender provides funds and an instruction at an originating outlet. The provider records the transaction and issues a reference, which the sender communicates to the recipient. A receiving outlet validates the reference and required evidence before releasing the funds.
+
+The reference carries the instruction while the provider retains custody until release. The recipient presents the reference and satisfies the applicable requirements. As an operating pattern, software can automate the recording, communication, validation, monitoring, and back-office coordination. The same pattern can support payroll, collections, merchant payments, government disbursements, and other banking services.
+
+> **Visual placeholder — Familiar Remittance Pattern**
+>
+> ```text
+> Sender
+>   │
+>   │ provides funds and instruction
+>   ▼
+> Originating Outlet
+>   │
+>   │ records transaction and issues reference
+>   ▼
+> Transaction Reference
+>   │
+>   │ communicated to recipient
+>   ▼
+> Receiving Outlet
+>   │
+>   │ validates reference and evidence
+>   ▼
+> Recipient
+> ```
+
 ### The Digital Rural Bank
 
-_Placeholder._
+The digital rural bank is the same participating institution operating through an additional banking environment. Its policies, responsibilities, and customer relationships remain continuous across branch and digital activity.
+
+Customers may initiate an activity through a branch officer, web interface, mobile interface, QR code, SMS instruction, or another approved channel. Bank personnel review the request, apply policy, collect evidence, authorize activity, monitor completion, reconcile outcomes, and provide support. Treasury personnel receive an operational view of resources, reservations, obligations, and remaining capacity. Recipients present the authorized instruction, satisfy the applicable requirements, and receive the banking outcome.
+
+These experiences serve different participants, but the underlying banking activity belongs to one institution. The digital environment extends the bank's operations while its core banking systems and institutional responsibilities remain in place.
+
+> **Visual placeholder — Operating Perspectives**
+>
+> ```text
+> Customer Experience
+> Request, provide information, receive confirmation
+>
+> Bank Operations Experience
+> Review, approve, monitor, reconcile
+>
+> Treasury Experience
+> Recognize resources, reserve capacity, monitor obligations
+>
+> Recipient Experience
+> Present instruction, satisfy requirements, receive outcome
+> ```
 
 ### Bank Ownership
 
-_Placeholder._
+Each participating rural bank owns or controls its cloud or approved hosting account, deployment, databases, domains, institutional data, provider accounts, credentials, security configuration, release approvals, monitoring, backups, and operating policies. It also retains its customer relationships and direct settlement relationship.
+
+Common software and shared standards reduce repeated engineering while each deployment remains separate. Two banks may use the same maintained platform while operating different services, workflows, KYC requirements, default riders, commercial rules, communications, domains, and SMS sender identities.
+
+The resulting environment remains under the participating institution's control and expresses how that institution conducts its business.
 
 ### DevOps Operating Model
 
-_Placeholder._
+The operating model separates software stewardship, environment operation, and banking authority.
+
+ODTI maintains the licensed software and supported integrations. A certified DevOps provider deploys and operates the bank's environment within its delegated scope. The participating institution owns the relevant accounts and credentials, approves production changes, and governs the banking activity conducted through the environment.
+
+DevOps responsibilities may include infrastructure provisioning, configuration, continuous integration and continuous deployment, application deployment, monitoring, backup, recovery, incident response, provider integration, and application of approved releases. This arrangement gives the bank an established implementation and operating capability while preserving its authority over production and banking decisions.
 
 ### Settlement Partners
 
-_Placeholder._
+Each participating rural bank maintains a direct relationship with its settlement institution. The bank holds its own settlement account, controls its API credentials, and authorizes the instructions submitted through that relationship.
+
+The settlement institution provides the regulated account, supported banking APIs, payment rails, and settlement services. It performs the supported financial movement in response to instructions authorized through the bank's established relationship.
+
+NetBank may serve as the initial integrated settlement institution. Additional regulated settlement relationships may be supported as approved integrations become available.
+
+RBAP administers the Program, ODTI maintains the licensed technology, and the certified DevOps provider operates the deployment. The participating bank governs the banking activity, and the settlement institution performs regulated settlement.
 
 ### Banking Model
 
-_Placeholder._
+A banking activity requires funds and authority directed toward an identified purpose. The applicable customer agreement, institutional mandate, standing instruction, participation instrument, or other approved authority establishes the basis upon which the participating bank may act.
+
+The bank recognizes the settlement resources supporting the activity, reserves the required amount, assigns the banking purpose, confirms operational readiness, and issues the authorized instruction. That instruction then proceeds through the bank's regulated settlement relationship.
+
+> **Visual placeholder — Operating Flow**
+>
+> ```text
+> Funds Available
+>       │
+>       ▼
+> Authority Confirmed
+>       │
+>       ▼
+> Resources Reserved
+>       │
+>       ▼
+> Purpose Assigned
+>       │
+>       ▼
+> Readiness Confirmed
+>       │
+>       ▼
+> Instruction Issued
+>       │
+>       ▼
+> Regulated Settlement
+> ```
+
+The following components give the bank an operational representation of each stage while preserving the underlying authority and settlement relationship.
 
 ### Treasury
 
-_Placeholder._
+Treasury is the bank's operational view of the settlement resources supporting its digital banking activities. The underlying funds remain within the regulated banking relationship.
+
+This view records resources recognized, resources reserved, obligations outstanding, capacity remaining, and activities completed or released. Bank personnel can therefore assess what is available, what has been committed, and what requires resolution.
+
+When an identified amount must be reserved for an authorized purpose, Treasury records a **Lien**. The Lien prevents reserved resources from being treated as available for another activity while the original instruction remains outstanding.
+
+The Lien is the Program's operational representation of that reservation, subject to the applicable legal and banking instruments. It may be consumed upon successful settlement; released upon cancellation, rejection, or expiry; or otherwise resolved according to institutional policy.
 
 ### Funding Events
 
-_Placeholder._
+A Funding Event records the bank's recognition that settlement resources have become available. It connects an external banking event to the operational state maintained in Treasury.
+
+The event may arise from a customer deposit, payroll prefunding, merchant settlement, government allocation, institutional funding, or another regulated financial event recognized by the participating bank. Financial value arises from that external event; the Funding Event records its operational recognition.
+
+For audit and reconciliation, the record identifies the relevant institution, source, amount, currency, date, external reference, and other information required by the bank's operating policy.
 
 ### Facilities
 
-_Placeholder._
+Once resources are recognized, the bank assigns them to a banking purpose through a **Facility**. A Facility defines how a particular activity is conducted, such as payroll, collections, merchant payments, government disbursement, or remittance.
+
+Through the Facility, the institution may apply its policies, commercial rules, default riders, approvals, customer communications, and service integrations. A payroll Facility may govern employer funding and employee instructions; a collections Facility may govern attribution to an account or obligation; and a government-disbursement Facility may govern eligibility, release conditions, and reporting.
+
+Facilities allow each bank to express how it conducts business without changing the common Treasury model.
 
 ### Settlement Envelopes
 
-_Placeholder._
+Different banking activities become ready for execution under different conditions. A **Settlement Envelope** defines the requirements that must be satisfied before an instruction may proceed.
+
+Those requirements may include identity verification, KYC status, a one-time password, signature, documentary evidence, location, institutional approval, beneficiary information, provider confirmation, transaction limits, or other approved inputs. A payroll instruction may require a different envelope from a merchant payment or government disbursement.
+
+The participating bank determines the requirements. The platform applies them consistently and retains the associated evidence for the activity.
 
 ### Pay Codes
 
-_Placeholder._
+Once the bank has authorized an instruction and the required conditions are satisfied, the instruction requires a form that can be communicated and presented. A **Pay Code** represents that authorized banking instruction in a form that can be communicated, presented, validated, and executed.
+
+The Pay Code may appear as text, a QR code, barcode, printed reference, or another supported representation. It identifies the instruction and allows a recipient, merchant, branch officer, system, or service provider to resolve it within the issuing institution's platform.
+
+Validation confirms that the instruction exists, remains active, has not already been fully executed, continues to satisfy the applicable conditions, and is presented according to the issuing bank's rules. Like the reference used by a traditional remittance service, the Pay Code carries the instruction from authorization toward execution while funds remain within the regulated banking relationship.
 
 ### Execution
 
-_Placeholder._
+Execution coordinates the authorized instruction through to the banking outcome defined by the Facility.
+
+Before proceeding, the platform confirms the instruction, applicable Lien, Treasury state, Settlement Envelope, institutional policy, and settlement readiness. The participating bank then submits or approves the corresponding action through its regulated settlement relationship. The settlement institution performs the supported financial movement.
+
+The platform records the result, updates operational state, consumes or releases the Lien, preserves evidence, and supports monitoring, reconciliation, reporting, and customer communication. An activity may be completed, remain pending, fail, or require review; the bank's operating policies govern the response.
+
+> **Visual placeholder — End-to-End Banking Activity**
+>
+> ```text
+> Banking Funds
+>     │
+>     ▼
+> Funding Event
+>     │
+>     ▼
+> Treasury
+>     │
+>     ▼
+> Lien
+>     │
+>     ▼
+> Facility
+>     │
+>     ▼
+> Settlement Envelope
+>     │
+>     ▼
+> Pay Code
+>     │
+>     ▼
+> Execution
+>     │
+>     ▼
+> Regulated Settlement
+>     │
+>     ▼
+> Recipient / Merchant / Beneficiary
+> ```
+
+The participating rural bank retains its customers, funds, policies, infrastructure, and banking authority. The applicable mandate or other approved banking authority permits the bank to act, and its settlement institution performs regulated settlement. Funding Events recognize resources; Treasury maintains their operational state; Liens reserve them for authorized purposes; Facilities define the activity; Settlement Envelopes establish readiness; Pay Codes carry authorized instructions; and Execution coordinates the resulting outcome.
+
+Section 5 applies this operating model to representative banking activities.
 
 ## Section 5 — Banking in Action
 

@@ -11,8 +11,17 @@ source:
 governance:
   architecture: "docs/editorial/program-guides/CANONICAL_BANKING_PROGRAM_GUIDE.md"
   parity_checklist: "docs/editorial/program-guides/PROGRAM_GUIDE_PARITY_CHECKLIST.md"
+editorial:
+  section_status:
+    "1": "Locked"
+    "2": "Locked"
+    "3": "Locked"
+    "4": "Planned"
+    "5": "Planned"
+    "6": "Planned"
+    "7": "Planned"
 related:
   strategic_white_paper: "docs/editorial/rbap/00-modernizing-rural-banks.md"
 publication:
   generated: false
-notes: "The approved architecture remains frozen. Sections 1 and 2 are editorially complete and locked. Substantive drafting of later sections has not begun. Appendix G is structurally present; all canonical diagrams remain planned."
+notes: "The approved architecture remains frozen. Sections 1, 2, and 3 are editorially complete and locked. Section 4 is next in the editorial workflow and remains undrafted pending its architectural workshop. Sections 5–7 and Appendices A–F remain planned. Appendix G is structurally present; all canonical diagrams remain planned."

@@ -25,19 +25,21 @@ Neither dimension can compensate for the other.
 
 `Not Applicable` without an explanation is incomplete. `Deviation Approved` without an accepted editorial decision reference is incomplete.
 
+`Complete` is a parity-coverage status, not an editorial lock state. Sector metadata and the Program Records table identify whether a complete section is editorially locked.
+
 ## Cross-Program Matrix
 
-The RBAP column records the current architecture-frozen skeleton. The Thrift Banks and Government Depository Banks columns are planning entries only; no guide has been created for either program.
+The RBAP column records current guide coverage against the frozen architecture. The Thrift Banks and Government Depository Banks columns are planning entries only; no guide has been created for either program.
 
 | Canonical Requirement | RBAP | Thrift Banks | Government Depository Banks | Status | Notes |
 | --- | --- | --- | --- | --- | --- |
 | 1. Opportunity | Complete | Planned | Planned | Planned | RBAP Section 1 is editorially complete; other implementations remain planned. |
 | 2. Program definition | Complete | Planned | Planned | Planned | RBAP Section 2 defines the Program; other implementations remain planned. |
-| 3. Institutional benefits | Planned | Planned | Planned | Planned | Section 3. |
+| 3. Institutional benefits | Complete | Planned | Planned | Planned | RBAP Section 3 is editorially complete and locked; other implementations remain planned. |
 | 4. Roles and responsibilities | Complete | Planned | Planned | Planned | RBAP Section 2 assigns the program, technology, bank, settlement, DevOps, and service-provider roles. |
 | 5. Governance | Planned | Planned | Planned | Planned | RBAP Section 2 establishes the governance model; Appendix B remains planned. |
 | 6. Licensing or participation model | Complete | Planned | Planned | Planned | RBAP Section 2 provides the proposed group-licensing and bank-participation model. |
-| 7. Operating sovereignty | Planned | Planned | Planned | Planned | Sections 3 and 4. |
+| 7. Operating sovereignty | Planned | Planned | Planned | Planned | RBAP Section 3 provides the locked institutional-benefit treatment; Section 4 operating-model coverage remains planned. |
 | 8. DevOps model | Planned | Planned | Planned | Planned | Section 4. |
 | 9. Settlement model | Planned | Planned | Planned | Planned | Section 4. |
 | 10. Custody and authority boundaries | Planned | Planned | Planned | Planned | Section 4. |
@@ -67,7 +69,7 @@ The cross-program matrix remains the architectural parity control. The following
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Section 1 — Why This Program? | Why should the sector body launch this Program? | Decide whether the Program merits institutional consideration. | Complete | Planned | Planned | Planned | The RBAP narrative answers its Executive Question and supports its Executive Decision; other implementations remain planned. |
 | Section 2 — What Is the Program? | What exactly is the sector body being invited to launch? | Decide whether the proposed Program merits institutional evaluation. | Complete | Planned | Planned | Planned | The RBAP narrative defines the Program and preserves the boundaries among program administration, bank authority, software, DevOps, and settlement. |
-| Section 3 — Why Should a Bank Participate? | What does an individual bank gain? | Understand the institution's prospective benefit from participation. | Planned | Planned | Planned | Planned | Must preserve institutional identity, governance, customer relationships, and independence. |
+| Section 3 — Why Should a Bank Participate? | What does an individual bank gain? | Understand the institution's prospective benefit from participation. | Complete | Planned | Planned | Planned | The RBAP narrative answers its Executive Question, supports its Executive Decision, and is editorially locked. |
 | Section 4 — How Does the Program Work? | How does the operating model work? | Understand how the model preserves institutional independence while enabling modern digital banking. | Planned | Planned | Planned | Planned | Must address operating sovereignty, custody, authority, DevOps, and settlement. |
 | Section 5 — Banking in Action | Show me how it actually works. | Assess the Program through representative banking workflows. | Planned | Planned | Planned | Planned | Diagrams and concise prose must answer the workflow question without inventing operating details. |
 | Section 6 — The Business Case | Is this commercially worthwhile? | Decide whether the business case merits detailed commercial evaluation. | Planned | Planned | Planned | Planned | Must address participation costs, economic opportunity, and the Commercial Waterfall. |
@@ -105,7 +107,7 @@ A future guide satisfies diagram parity by referencing the approved canonical di
 
 | Program | Guide path | Current stage |
 | --- | --- | --- |
-| RBAP Digital Banking Program | `docs/editorial/program-guides/rbap/rbap-digital-banking-program-guide.md` | Sections 1 and 2 editorially complete and locked. Sections 3–7 and Appendices A–F remain planned; Appendix G is structurally present with all diagrams planned. |
+| RBAP Digital Banking Program | `docs/editorial/program-guides/rbap/rbap-digital-banking-program-guide.md` | Sections 1, 2, and 3 are editorially complete and locked. Section 4 remains undrafted pending its architectural workshop. Sections 5–7 and Appendices A–F remain planned; Appendix G is structurally present with all diagrams planned. |
 | Thrift Bank Digital Banking Program | Not created | Anticipated. |
 | Government Depository Banking Program | Not created | Anticipated. |
 
