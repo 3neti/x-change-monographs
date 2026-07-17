@@ -911,33 +911,99 @@ Section 6 considers the business case for that institutional progression.
 
 ## Section 6 — The Business Case
 
-> **Executive question:** Is this commercially worthwhile?
+> **Executive question:** If our Board approves this Program, what kind of institution do we become over the next ten years?
 
-> **Key message:** The Program transforms digital banking from a capital project into a sustainable operating capability.
+> **Key message:** The Program strengthens the institution by deepening banking relationships, building its capacity to adapt, extending its service to the community, and sharing the work of modernization without surrendering independence.
 
-### Cost of Building Alone
+> **Executive decision:** I understand how participation could strengthen my institution over time and can determine whether that institutional case merits detailed commercial and implementation evaluation.
 
-_Placeholder._
+A Board considering the Program is deciding more than whether to acquire technology. It is deciding what the institution should become capable of doing, repeatedly and responsibly, over the next decade.
 
-### Cost of Participating
+A rural bank remains responsible for safeguarding deposits, extending credit, supporting local enterprise, facilitating commerce, and serving its community. The institutional case begins with whether the Program makes the bank better able to carry those responsibilities.
 
-_Placeholder._
+Commercial return matters, but it should be considered in relation to the institution the Program helps the bank become.
 
-### Shared Investment
+### A Stronger Institution
 
-_Placeholder._
+An institution becomes stronger when it is useful across more of the financial activity of its customers and community.
 
-### Revenue Opportunities
+A customer who enters a branch for remittance may later receive payroll through the same bank. An employer that uses payroll may also require collections, merchant payments, or employee services. A merchant relationship may lead to deposits, settlement activity, and a broader banking relationship with the enterprise.
 
-_Placeholder._
+These services matter because they deepen the institution's role in ordinary banking life. They create more reasons for customers, employers, merchants, and public institutions to maintain active relationships with the bank.
 
-### Commercial Waterfall
+The measure is not how many digital services appear on a menu. It is whether the bank can serve more recurring needs while preserving sound policy, clear authority, and dependable operations.
 
-_Placeholder._
+### Relationships Before Transactions
 
-### Sustainable Ecosystem
+Section 3 introduced **Transaction Gravity** as the tendency for financial activity to return to an institution that remains useful across recurring needs. Its significance is institutional rather than transactional.
 
-_Placeholder._
+A single remittance is a transaction. Repeated remittances can become a customer relationship. Payroll can connect the bank to an employer and its employees. Merchant payments and collections can connect it to the daily activity of local enterprise. Government disbursements can make the institution more relevant to agencies, beneficiaries, and community programs.
+
+The resulting value lies in relationships: customer relationships, deposit relationships, employer relationships, merchant relationships, and the bank's continuing relevance within its community.
+
+Transaction volume may reflect that activity, but volume alone is not Transaction Gravity. The institution becomes stronger when customers increasingly choose it for more of their financial lives.
+
+### The Capacity to Adapt
+
+Historically, each significant banking service could become another technology project. A new purpose required new software, new integration work, new operating procedures, and another foundation to maintain.
+
+The Program changes that pattern. Once the institution has established one governed operating model, a new service can be introduced as a new banking ceremony. The bank applies a different purpose, participants, policies, conditions, and customer journey without reconstructing the foundation beneath them.
+
+This is the **capacity to adapt**. Resilience helps an institution continue what it already does. Adaptability allows it to take on new responsibilities without repeatedly rebuilding itself.
+
+The distinction matters over a ten-year horizon. The bank cannot know every service its customers will require, but it can establish the discipline through which future services are governed and introduced.
+
+### Service to the Community
+
+Institutional capability also affects the community the bank serves.
+
+Payroll gives employers and employees a dependable local banking relationship. Remittance connects families. Merchant payments and collections support local commerce. Government assistance can reach beneficiaries through an institution already accountable to its community. Each service is a banking responsibility before it is a digital feature.
+
+Commercial performance and public service can arise from the same governed capability. It can strengthen customer relationships while allowing the bank to perform more useful work within its market.
+
+The result is practical rather than aspirational: a capable local institution can support more of the financial activity taking place around it.
+
+### Modernize Collectively. Compete Independently.
+
+Participating rural banks continue to compete through their relationships, services, policies, lending decisions, customer experience, and local knowledge.
+
+The work that becomes shared is the work no institution benefits from repeating alone: engineering, software evolution, implementation knowledge, operating standards, and the continuing effort required to maintain a modern foundation.
+
+**Participating banks compete independently while modernizing collectively.**
+
+Common capability therefore supports institutional difference. Each bank decides which ceremonies to introduce, how to govern them, and how they should reflect the needs of its customers and community.
+
+Collective modernization does not create a common bank. It gives independent banks a common basis from which to evolve.
+
+### Commercial Sustainability
+
+The institutional case must ultimately rest on sustainable economics.
+
+Each bank must compare the cost of participation with the cost of building, integrating, operating, securing, and continually renewing similar capability on its own. Shared investment reduces repeated work, but each institution remains responsible for its deployment, providers, integrations, operations, and approved changes.
+
+Commercial value may appear in several forms: service income, deeper deposit relationships, stronger employer and merchant relationships, lower duplicated engineering effort, and the ability to add services without commissioning a new technology foundation each time. None should be treated as an automatic return. Their value depends on the services the bank chooses, the customers it serves, and the discipline with which it operates them.
+
+The Program itself must also remain sustainable. RBAP administration, software maintenance, DevOps operations, settlement services, and bank participation each carry responsibilities and costs. The Commercial Waterfall must eventually make those flows explicit, including how income, fees, and obligations are allocated among participants.
+
+Detailed amounts belong to commercial evaluation. The principle at this stage is simpler: the commercial model must allocate costs and benefits transparently enough to support continuing service, maintenance, and institutional participation.
+
+### The Institutional Decision
+
+The Board is deciding whether the institution should establish a reusable capability through which its governance, customer relationships, banking policy, and operating discipline can be applied to more services over time.
+
+The intended result is a bank that remains recognizably itself while becoming more useful, more adaptable, and better able to modernize with others. Its value will still depend on the choices the institution makes: which services to introduce, which relationships to deepen, and which responsibilities it is prepared to carry.
+
+That is the institutional case for the Program.
+
+### Section Summary
+
+The Program should be evaluated by the institution it enables the rural bank to become.
+
+Recurring banking ceremonies can deepen relationships and strengthen Transaction Gravity. A common operating foundation can give the bank capacity to adapt. The same capability can support useful community services while shared engineering and standards reduce the work each institution must repeat independently.
+
+Commercial sustainability follows from those institutional effects. It requires disciplined service choices, transparent allocation of costs and income, and a continuing basis for maintaining the Program.
+
+Section 7 turns from the institutional case to the practical question of how the Program should begin.
 
 ## Section 7 — Launching the Program
 

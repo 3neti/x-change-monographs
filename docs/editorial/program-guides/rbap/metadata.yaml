@@ -18,10 +18,10 @@ editorial:
     "3": "Locked"
     "4": "Locked"
     "5": "Locked"
-    "6": "Planned"
+    "6": "In Review"
     "7": "Planned"
 related:
   strategic_white_paper: "docs/editorial/rbap/00-modernizing-rural-banks.md"
 publication:
   generated: false
-notes: "The approved architecture remains frozen. Sections 1–5 are editorially complete and locked. Section 6 is next in the editorial workflow and remains undrafted pending its architectural workshop. Section 7 and Appendices A–F remain planned. Appendix G is structurally present; all canonical diagrams remain planned."
+notes: "The approved architecture remains frozen. Sections 1–5 are editorially complete and locked. Section 6 has a complete exploratory draft and remains in editorial review. Section 7 and Appendices A–F remain planned. Appendix G is structurally present; all canonical diagrams remain planned."
