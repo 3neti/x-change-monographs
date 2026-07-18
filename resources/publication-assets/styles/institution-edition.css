@@ -1,0 +1,274 @@
+@page version {
+  @bottom-left {
+    content: "ALLBANK INSTITUTION EDITION · RESEARCH EDITION";
+  }
+}
+
+@page notice {
+  size: A4;
+  margin: 23mm 24mm 22mm;
+
+  @bottom-left {
+    content: "ALLBANK INSTITUTION EDITION · RESEARCH EDITION";
+    color: var(--muted);
+    font-family: "Avenir Next", Avenir, sans-serif;
+    font-size: 6.2pt;
+    letter-spacing: 0.065em;
+  }
+
+  @bottom-right {
+    content: counter(page);
+    color: var(--muted);
+    font-family: "Avenir Next", Avenir, sans-serif;
+    font-size: 7pt;
+  }
+}
+
+@page contents {
+  @bottom-left {
+    content: "ALLBANK INSTITUTION EDITION · RESEARCH EDITION";
+  }
+}
+
+@page body {
+  margin: 20mm 23mm 22mm;
+
+  @top-left {
+    content: string(section-title);
+  }
+
+  @bottom-left {
+    content: "ALLBANK INSTITUTION EDITION · RESEARCH EDITION";
+  }
+}
+
+.institution-cover h1 {
+  max-width: 148mm;
+  font-size: 29pt;
+  line-height: 1.06;
+}
+
+.institution-cover .cover-subtitle {
+  max-width: 140mm;
+  margin-top: 11mm;
+  color: var(--ink);
+  font-family: Charter, Baskerville, Georgia, serif;
+  font-size: 19pt;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.18;
+}
+
+.institution-cover .cover-edition {
+  margin-top: 8mm;
+}
+
+.cover-basis {
+  margin: 4mm 0 0;
+  color: var(--muted);
+  font-family: "Avenir Next", Avenir, sans-serif;
+  font-size: 7.4pt;
+  letter-spacing: 0.045em;
+}
+
+.editorial-notice-page {
+  page: notice;
+  min-height: 252mm;
+  break-after: page;
+}
+
+.editorial-notice-page h1 {
+  margin: 9mm 0 14mm;
+  color: var(--ink);
+  font-family: Charter, Baskerville, Georgia, serif;
+  font-size: 25pt;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+}
+
+.editorial-notice {
+  max-width: 151mm;
+  padding: 8mm 9mm 7mm;
+  border-top: 0.7pt solid var(--accent);
+  border-bottom: 0.45pt solid var(--rule);
+  background: var(--panel);
+}
+
+.notice-paragraph {
+  margin: 0 0 3.3mm;
+  color: var(--text);
+  font-size: 10.3pt;
+  line-height: 1.52;
+}
+
+.notice-subheading {
+  margin: 7mm 0 3mm;
+  color: var(--accent);
+  font-family: "Avenir Next", Avenir, sans-serif;
+  font-size: 7.2pt;
+  font-weight: 600;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+
+.institution-contents .toc a {
+  padding: 3.3mm 0;
+}
+
+.institution-contents .toc-title {
+  font-size: 9.9pt;
+}
+
+.institution-manuscript {
+  font-size: 9.65pt;
+  line-height: 1.48;
+}
+
+.major-section h1 {
+  string-set: section-title attr(data-running);
+  max-width: 150mm;
+  margin: 0 0 10mm;
+  color: var(--ink);
+  font-family: Charter, Baskerville, Georgia, serif;
+  font-size: 24pt;
+  font-weight: 600;
+  letter-spacing: -0.018em;
+  line-height: 1.08;
+  text-align: left;
+  hyphens: none;
+  bookmark-level: 1;
+}
+
+.institution-manuscript h2.subheading {
+  margin: 9mm 0 3.2mm;
+  color: var(--ink);
+  font-family: "Avenir Next", Avenir, sans-serif;
+  font-size: 12.4pt;
+  font-weight: 600;
+  letter-spacing: -0.006em;
+  line-height: 1.24;
+  text-align: left;
+  break-after: avoid;
+  bookmark-level: 2;
+}
+
+.institution-manuscript h3.subheading {
+  margin: 6mm 0 2.3mm;
+  color: var(--accent);
+  font-family: "Avenir Next", Avenir, sans-serif;
+  font-size: 8.4pt;
+  font-weight: 600;
+  letter-spacing: 0.065em;
+  line-height: 1.3;
+  text-align: left;
+  text-transform: uppercase;
+  break-after: avoid;
+  bookmark-level: 3;
+}
+
+.evidence-statement {
+  padding-left: 4mm;
+  border-left: 0.8pt solid var(--rule-dark);
+  text-align: left;
+}
+
+.evidence-statement strong:first-child {
+  font-family: "Avenir Next", Avenir, sans-serif;
+  font-size: 7.2pt;
+  font-weight: 600;
+  letter-spacing: 0.055em;
+  text-transform: uppercase;
+}
+
+.evidence-observed {
+  border-left-color: var(--accent);
+}
+
+.evidence-inferred,
+.evidence-recommended {
+  border-left-color: #9ba2a8;
+}
+
+.evidence-unknown {
+  border-left-style: dotted;
+  border-left-color: #7e858b;
+}
+
+.inline-code {
+  padding: 0.05em 0.24em;
+  border-radius: 2px;
+  background: var(--accent-soft);
+  color: var(--ink);
+  font-family: "SFMono-Regular", Consolas, monospace;
+  font-size: 0.84em;
+}
+
+.standalone-code {
+  width: 100%;
+  margin: 5mm 0 7mm;
+  padding: 4mm 7mm;
+  border-left: 1.2pt solid var(--accent);
+  background: var(--panel);
+  color: #293847;
+  font-family: Menlo, Monaco, "Courier New", monospace;
+  font-size: 8.1pt;
+  line-height: 1.34;
+  text-align: center;
+  white-space: pre-wrap;
+  break-inside: avoid;
+}
+
+.discussion-list {
+  margin-bottom: 5mm;
+}
+
+.discussion-list li {
+  margin-bottom: 1.7mm;
+}
+
+#chapter-7-questions-for-executive-discussion {
+  font-size: 9.35pt;
+  line-height: 1.43;
+}
+
+#chapter-7-questions-for-executive-discussion h1 {
+  margin-bottom: 7mm;
+  font-size: 23pt;
+}
+
+#chapter-7-questions-for-executive-discussion h2.subheading {
+  margin-top: 6.2mm;
+  margin-bottom: 2.2mm;
+}
+
+#chapter-7-questions-for-executive-discussion .discussion-list {
+  margin-top: 1.2mm;
+  margin-bottom: 3mm;
+}
+
+#chapter-7-questions-for-executive-discussion .discussion-list li {
+  margin-bottom: 0.8mm;
+}
+
+.closing-anchor {
+  margin: 8mm auto 0 !important;
+  color: var(--ink);
+  font-size: 11.8pt;
+  font-weight: 600;
+  line-height: 1.4;
+  text-align: center;
+  hyphens: none;
+  break-inside: avoid;
+}
+
+.closing-anchor-final {
+  margin-top: 1.5mm !important;
+  margin-bottom: 8mm !important;
+  color: var(--accent);
+}
+
+#research-record {
+  margin-top: 12mm;
+  padding-top: 4mm;
+  border-top: 0.55pt solid var(--rule);
+}

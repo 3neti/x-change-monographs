@@ -1,0 +1,27 @@
+{
+  "program": "Thrift Bank Digital Banking Program",
+  "title": "AllBank Institution Edition",
+  "edition": "Research Edition",
+  "version": "0.9",
+  "status": "in_review",
+  "publication_basis": "Prepared from Publicly Available Information",
+  "publication_date": "July 2026",
+  "source": {
+    "path": "docs/institutions/allbank/edition/allbank-institution-edition-research-v0.9.md",
+    "sha256": "fea34bc106b43219f61bda08964161b38bbd1ec762cbed9b04b80baa7c9085ee"
+  },
+  "artifacts": {
+    "html": {
+      "path": "build/institutions/allbank/research-edition/allbank-institution-edition-research-v0.9.html",
+      "sha256": "09864dea01eb8bcf31e791bb7df9dda00cc55e56fd5e7905aa4b89c808dc9569"
+    },
+    "pdf": {
+      "path": "build/pdf/allbank-institution-edition-research-v0.9.pdf",
+      "sha256": "e8eaabc2d205bbec371cd6191e09f3f4a513012a8210084e5144fe8a4e41309e",
+      "physical_pages": 24
+    }
+  },
+  "physical_page_count": 24,
+  "editorial_changes": false,
+  "pdf_generated": true
+}

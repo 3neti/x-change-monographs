@@ -36,5 +36,13 @@ next_stage: "executive_discussion"
 future_edition: "confirmed"
 commercial_proposal: "not_authorized"
 implementation: "not_authorized"
-pdf_generated: false
+pdf_generated: true
+html_generated: true
+publication_artifacts:
+  purpose: "executive_discussion_review"
+  pdf: "build/pdf/allbank-institution-edition-research-v0.9.pdf"
+  html: "build/institutions/allbank/research-edition/allbank-institution-edition-research-v0.9.html"
+  manifest: "build/institutions/allbank/research-edition/publication-manifest.json"
+  publisher: "scripts/publish-allbank-institution-edition.py"
+  stylesheet: "resources/publication-assets/styles/institution-edition.css"
 agent_rule: "If sufficient evidence is unavailable, the research agent shall explicitly identify the gap rather than compensate with unsupported prose."
