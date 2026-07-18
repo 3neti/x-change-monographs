@@ -88,6 +88,7 @@ The repository's earlier accepted decisions remain authoritative in their origin
 | [EDR-011](#edr-011--section-6-is-the-institutional-case) | Section 6 Is the Institutional Case | Accepted | 2026-07-18 | None | None |
 | [EDR-012](#edr-012--executive-summary-review-follows-the-frozen-narrative) | Executive Summary Review Follows the Frozen Narrative | Accepted | 2026-07-18 | EDR-002; EDR-003 (timing only) | None |
 | [EDR-013](#edr-013--institutional-reference-edition) | Institutional Reference Edition | Accepted | 2026-07-18 | None | None |
+| [EDR-014](#edr-014--institution-intelligence-framework-is-canonical) | Institution Intelligence Framework Is Canonical | Accepted | 2026-07-18 | None | None |
 
 ## EDR-001 — Program Guides Are Canonical Commercial Specifications
 
@@ -817,3 +818,115 @@ None.
 ### Notes
 
 Active and complete. The initial proposal requested `EDR-006`, but that identifier already belongs to the accepted decision **Program Guides Must Answer Executive Questions Directly**. Register governance prohibited reuse, so the next available stable identifier, `EDR-013`, was used. The manuscript developed under the working name Expanded Edition is now published under its canonical name, Institutional Reference Edition.
+
+## EDR-014 — Institution Intelligence Framework Is Canonical
+
+**Decision ID:** `EDR-014`
+
+**Title:** Institution Intelligence Framework Is Canonical
+
+**Status:** Accepted
+
+**Date:** 2026-07-18
+
+### Context
+
+The x-change publishing program has completed its canonical Movements, Institutional Studies, and current banking Program Guides. Future work now applies established doctrine to real institutions. Without a frozen methodology, contributors could begin with persuasive prose, mix observation with assumption, or allow institution-specific work to redefine canonical architecture.
+
+The Institution Intelligence Framework has completed editorial review. It establishes evidence controls, analytical stages, editorial mapping, institution-edition boundaries, proposal separation, implementation sequencing, and a reusable template repository.
+
+### Decision
+
+The Institution Intelligence Framework is accepted as the canonical research and editorial methodology for institution-specific editions within the x-change publishing program.
+
+Future institution-specific work must follow this sequence:
+
+```text
+Canonical Doctrine
+        ↓
+Institution Intelligence
+        ↓
+Strategic Gap Analysis
+        ↓
+Editorial Mapping
+        ↓
+Institution Edition
+        ↓
+Commercial Proposal
+        ↓
+Implementation
+```
+
+The framework informs institution-specific application. It does not alter canonical doctrine.
+
+Institution Intelligence must distinguish **Observed**, **Inferred**, and **Recommended** statements. Inference must never be presented as fact.
+
+The following agent rule is canonical:
+
+> If sufficient evidence is unavailable, the research agent shall explicitly identify the gap rather than compensate with unsupported prose.
+
+### Rationale
+
+Institution-specific editions require a disciplined bridge between canonical doctrine and a real institution. Beginning with evidence protects factual integrity. Separating intelligence, analysis, mapping, writing, proposal, and implementation protects the authority and purpose of each artifact.
+
+A frozen methodology also allows future institution work to become comparable without forcing institutions into unsupported assumptions or changing canonical doctrine through local adaptation.
+
+### Consequences
+
+- The Institution Intelligence Framework, policies, standards, workflow, and template structure are canonical and locked.
+- Future institution work begins with Institution Intelligence rather than manuscript writing.
+- Strategic Gap Analysis must compare institutional evidence with identified canonical doctrine.
+- Editorial Mapping must precede an Institution Edition.
+- Commercial proposals and implementation work remain downstream artifacts.
+- Missing evidence must remain visible and may not be repaired through unsupported prose.
+- Institution-specific work may adapt examples, priorities, language, ceremonies, and sequence within approved boundaries; it may not create doctrine.
+- Framework changes require an explicit accepted Editorial Decision Record.
+- Future work proceeds through evidence-based institution engagement, beginning with AllBank Institution Intelligence.
+
+The framework occupies this place in the publishing system:
+
+```text
+Movement
+   ↓
+Institutional Study
+   ↓
+Program Guide
+   ↓
+Institution Intelligence
+   ↓
+Institution Edition
+   ↓
+Commercial Proposal
+   ↓
+Implementation
+```
+
+### Affected Documents
+
+- [Institution Intelligence index](../../institutions/README.md)
+- [Institution Intelligence Framework](../../institutions/FRAMEWORK.md)
+- [Public Source Policy](../../institutions/PUBLIC_SOURCE_POLICY.md)
+- [Research Workflow](../../institutions/RESEARCH_WORKFLOW.md)
+- [Institution Intelligence Standard](../../institutions/INSTITUTION_INTELLIGENCE_STANDARD.md)
+- [Strategic Gap Analysis Standard](../../institutions/STRATEGIC_GAP_ANALYSIS_STANDARD.md)
+- [Editorial Mapping Standard](../../institutions/EDITORIAL_MAPPING_STANDARD.md)
+- [Institution Edition Standard](../../institutions/INSTITUTION_EDITION_STANDARD.md)
+- [Commercial Proposal Standard](../../institutions/COMMERCIAL_PROPOSAL_STANDARD.md)
+- [Implementation Roadmap Standard](../../institutions/IMPLEMENTATION_ROADMAP_STANDARD.md)
+- [Institution template](../../institutions/template/README.md)
+- [Editorial Acceptance](../../institutions/EDITORIAL_ACCEPTANCE.md)
+- All future institution-specific research, editions, proposals, and implementation roadmaps
+
+### Supersedes
+
+None.
+
+### Superseded By
+
+None.
+
+### Notes
+
+Active and complete. After several institution-intelligence projects have been completed, editorial governance may consider a future `CANONICAL_INSTITUTION_INTELLIGENCE_TAXONOMY.md` to standardize cross-institution comparison across ownership, business model, customer segments, products, channels, Treasury, payments, consumer banking, SME banking, housing, merchant services, technology, partnerships, financial indicators, strategic themes, and implementation signals.
+
+That taxonomy is a deferred recommendation only. EDR-014 does not authorize its creation.

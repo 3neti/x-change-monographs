@@ -1,0 +1,50 @@
+series: "x-change Institution Intelligence"
+title: "Institution Intelligence Framework"
+document_form: "canonical-research-and-editorial-methodology"
+document_type: "institution-intelligence-governance"
+phase: 1
+version: "1.0"
+status: "canonical"
+editorial_state: "completed"
+canonical_state: "locked"
+approval_date: "2026-07-18"
+future_work: "institution-specific-research"
+next_application: "AllBank Institution Intelligence"
+source:
+  framework: "docs/institutions/FRAMEWORK.md"
+  public_source_policy: "docs/institutions/PUBLIC_SOURCE_POLICY.md"
+  research_workflow: "docs/institutions/RESEARCH_WORKFLOW.md"
+  institution_intelligence_standard: "docs/institutions/INSTITUTION_INTELLIGENCE_STANDARD.md"
+  strategic_gap_analysis_standard: "docs/institutions/STRATEGIC_GAP_ANALYSIS_STANDARD.md"
+  editorial_mapping_standard: "docs/institutions/EDITORIAL_MAPPING_STANDARD.md"
+  institution_edition_standard: "docs/institutions/INSTITUTION_EDITION_STANDARD.md"
+  commercial_proposal_standard: "docs/institutions/COMMERCIAL_PROPOSAL_STANDARD.md"
+  implementation_roadmap_standard: "docs/institutions/IMPLEMENTATION_ROADMAP_STANDARD.md"
+  template: "docs/institutions/template"
+  acceptance: "docs/institutions/EDITORIAL_ACCEPTANCE.md"
+governance:
+  decision: "EDR-014"
+  decision_register: "docs/editorial/decisions/EDITORIAL_DECISION_REGISTER.md"
+  change_control: "Changes require an explicit accepted Editorial Decision Record."
+canonical_workflow:
+  - "Canonical Doctrine"
+  - "Institution Intelligence"
+  - "Strategic Gap Analysis"
+  - "Editorial Mapping"
+  - "Institution Edition"
+  - "Commercial Proposal"
+  - "Implementation"
+evidence:
+  required_classifications:
+    - "Observed"
+    - "Inferred"
+    - "Recommended"
+  rule: "Inference must never be presented as fact."
+  agent_rule: "If sufficient evidence is unavailable, the research agent shall explicitly identify the gap rather than compensate with unsupported prose."
+future_recommendation:
+  artifact: "CANONICAL_INSTITUTION_INTELLIGENCE_TAXONOMY.md"
+  status: "deferred"
+  trigger: "Consider only after several institution-intelligence projects have been completed."
+publication:
+  generated: false
+notes: "The framework is the canonical methodology for future institution-specific editions. It informs institution application without altering canonical doctrine. No institution-specific research is included in this lock."

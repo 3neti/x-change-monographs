@@ -13,4 +13,4 @@ Program Guides are separate from sector white papers. White papers establish str
 
 Generated publication files belong under `build/`, not in this directory.
 
-Future institution-specific editions must begin with the [Institution Intelligence Framework](../../institutions/README.md). Institution Intelligence, Strategic Gap Analysis, and Editorial Mapping remain separate from the canonical Program Guide and must precede institution-specific drafting.
+Future institution-specific editions must begin with the [Institution Intelligence Framework](../../institutions/README.md), canonical and locked under [EDR-014](../decisions/EDITORIAL_DECISION_REGISTER.md#edr-014--institution-intelligence-framework-is-canonical). Institution Intelligence, Strategic Gap Analysis, and Editorial Mapping remain separate from the canonical Program Guide and must precede institution-specific drafting.

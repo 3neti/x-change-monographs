@@ -2,12 +2,18 @@
 
 This directory contains the reusable research and editorial framework for institution-specific applications of the canonical x-change banking doctrine.
 
+**Status:** Canonical and locked under EDR-014
+
+**Version:** 1.0
+
 Institution work begins with evidence, not writing. The required sequence is:
 
 > Research → Understand → Analyze → Map → Write → Propose → Implement
 
 ## Governing documents
 
+- [Editorial Acceptance](EDITORIAL_ACCEPTANCE.md) records the canonical lock, evidence rule, publishing-system relationship, and future-work boundary.
+- [Framework metadata](metadata.yaml) records the canonical state, source paths, workflow, and change control.
 - [Institution Intelligence Framework](FRAMEWORK.md) defines the complete artifact sequence, decision gates, and governance boundaries.
 - [Public Source Policy](PUBLIC_SOURCE_POLICY.md) governs admissible evidence, source quality, attribution, and the distinction between observation, inference, and recommendation.
 - [Research Workflow](RESEARCH_WORKFLOW.md) defines the repeatable research process.
