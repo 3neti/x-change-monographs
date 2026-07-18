@@ -1151,74 +1151,892 @@ The immediate next step is therefore clear: RBAP Management establishes program 
 
 ## Appendix A — Glossary
 
-_Placeholder._
+These definitions apply to the RBAP Digital Banking Program Guide. They organize the Program's banking, operational, technical, and commercial language without changing the legal character of any account, fund, agreement, participant, or service. Final legal and regulatory characterization remains subject to applicable law, agreement, institutional approval, and qualified review.
+
+**RBAP Digital Banking Program** — The association-administered initiative through which participating rural banks may acquire, deploy, operate, and maintain common licensed digital banking capability while remaining independent institutions.
+
+**Participating Rural Bank** — An RBAP member bank admitted to the Program and allocated a license seat. It operates its own deployment under its own banking authority and retains its customers, deposits, infrastructure, data, credentials, policies, approvals, and direct settlement relationship.
+
+**Rural Bankers Association of the Philippines (RBAP)** — The Program sponsor, convenor, ecosystem steward, and administrator. RBAP coordinates participation and common standards; it is not a bank, settlement institution, payment switch, payment rail, custodian of customer funds, or shared production operator.
+
+**Open Disbursement Technologies, Inc. (ODTI)** — The technology licensor, software maintainer, platform steward, and Program technology authority. ODTI maintains the licensed software and supported components but does not acquire the authority, custody, infrastructure ownership, or production approval of a participating bank.
+
+**x-change** — The licensed software platform that records and coordinates governed banking activities under the participating bank's authority. It does not accept deposits, hold customer funds, issue stored value, own the customer relationship, or become the settlement institution.
+
+**x-Payout** — The default host application presently used to present supported x-change banking services. It is licensed software, not a separate bank, account, deposit product, or settlement provider.
+
+**Settlement Institution** — A regulated institution that provides an account, supported banking APIs, payment rails, records, and settlement services under a direct relationship with a participating bank. NetBank may serve as the initial integrated settlement institution; the term does not imply exclusivity.
+
+**Certified DevOps Provider** — A provider approved to provision, deploy, monitor, maintain, recover, and support a bank's environment within technical standards and authority delegated by that bank. Certification does not transfer ownership or production authority.
+
+**Value-Added Service Provider** — An approved provider of supporting capability such as cloud infrastructure, databases, storage, messaging, identity verification, location, monitoring, or security. Its responsibility is limited to the service and agreement approved by the participating bank.
+
+**Banking Ceremony** — The complete institutional progression through which a customer or institutional request becomes an authorized, conditioned, executed, evidenced, supported, and reconciled banking outcome.
+
+**Funding Event** — The record of an external financial event through which Settlement Resources enter or become recognized by Treasury. It records recognition; it does not create the underlying financial value.
+
+**Settlement Resources** — Funds or settlement capacity recognized by the participating bank as supporting a banking activity. Their custody and legal character remain within the bank's regulated arrangements.
+
+**Treasury** — The bank's operational view of recognized Settlement Resources, reservations, outstanding obligations, available capacity, outcomes, and unresolved items. Treasury is not the regulated account, the bank's books, or the legal source of financial value.
+
+**Lien** — The Program's operational representation of Settlement Resources reserved for an authorized purpose while an instruction or obligation remains outstanding. A Lien does not transfer custody.
+
+**Facility** — The governed definition of a banking service. It assigns purpose, participants, policies, commercial rules, limits, approvals, communications, and institutional responsibility to a banking activity.
+
+**Settlement Envelope** — The evidence and conditions that must be satisfied before an instruction may proceed, such as identity, approval, documentation, signature, location, limits, or provider confirmation.
+
+**Pay Code** — A credential representing an authorized banking instruction in a form that can be communicated, presented, validated, and executed. It is not money, a deposit, stored value, or the banking service itself.
+
+**Execution** — The coordination of an authorized instruction toward the banking outcome defined by the Facility through the participating bank's approved settlement relationship.
+
+**Settlement** — The supported regulated financial movement performed by the Settlement Institution under its agreement with the participating bank. Software state may record and coordinate settlement but does not substitute for provider or account evidence.
+
+**Regulated Settlement Relationship** — The direct account, credential, service, and authority arrangement between a participating bank and a Settlement Institution.
+
+**Direct Settlement Relationship** — The participating bank's own relationship with its Settlement Institution. It is not pooled through RBAP or ODTI and does not imply a shared settlement account among participating banks.
+
+**Transaction Gravity** — The tendency for financial activity to return to an institution that remains useful across recurring customer, employer, merchant, and community needs. It describes relationship development, not transaction volume alone.
+
+**Institutional Readiness** — The institution's broader judgment that authority, people, policy, risk, security, support, accounting, and governance are sufficient for an approved responsibility.
+
+**Operational Readiness** — The participating bank's evidence-based judgment that a particular Banking Ceremony can be operated, supervised, settled, reconciled, supported, secured, and governed under its authority. A technical deployment or provider certification is not operational readiness.
+
+**Collective Modernization** — The sharing of maintained software, engineering effort, standards, implementation knowledge, and learning among independent institutions without creating a common bank or common production tenancy.
+
+**Institutional Sovereignty** — A participating bank's continuing control over its banking authority, customer and deposit relationships, policies, infrastructure, data, credentials, production decisions, settlement relationship, and audit trail.
+
+**Commercial Waterfall** — The governed commercial-accountability sequence through which an approved commercial event, applicable charges, agreed participation, reversals, taxes, billing, and reconciliation are identified. It is separate from custody and settlement of customer funds.
+
+**Program Seat / License Seat** — The Program allocation authorizing one approved participating bank to deploy and operate one licensed institutional instance within the applicable group license, participation instrument, and operating standards.
+
+**Controlled Pilot** — A bounded institutional introduction of one approved Banking Ceremony under defined scope, measures, limits, responsibilities, and review gates.
+
+**Limited Production** — Real banking activity conducted during a Controlled Pilot under the participating bank's authority and regulated settlement relationship. It is not a demonstration or test environment.
+
+**Executive Edition / Institutional Reference Edition** — Descriptive publication roles considered by the publishing-parity study. They are not current RBAP edition classifications unless and until separate editorial governance adopts them. Their use here does not change the status of Edition 1.
 
 ## Appendix B — Program Governance
 
-_Placeholder._
+Program governance separates association authority, software authority, banking authority, delegated technical operation, and regulated settlement responsibility.
+
+> **RBAP approval establishes the Program; it does not replace the approvals of the participating bank.**
+
+No Program participant acquires another participant's institutional authority merely by participating. Final instruments, regulatory requirements, commercial terms, and institution-specific approvals remain subject to the applicable authority of each party.
+
+### Governance Responsibilities
+
+| Participant | Principal authority | Boundary |
+| --- | --- | --- |
+| RBAP Board | Establishes the Program, its institutional purpose, delegated program authority, and material association-level policy | Does not authorize a bank's participation, production environment, customer product, transaction, or settlement instruction |
+| RBAP Management | Administers participation, license-seat allocation, common standards, coordination, reporting, and program-level escalation within delegated authority | Does not operate participating banks, hold customer funds, own bank environments, or declare a bank operationally ready |
+| ODTI | Governs the licensed software, maintained releases, supported integrations, compatibility requirements, documentation, and technology-certification framework | Does not provide banking authority, custody, settlement access, infrastructure ownership, or bank production approval |
+| Participating-bank Board or authorized Management | Approves participation, accountable officers, risk appetite, first ceremony, production scope, settlement arrangements, and material progression | Does not transfer fiduciary or regulatory responsibility to RBAP or a provider |
+| Participating-bank operating functions | Define and govern product, policy, approvals, customer treatment, Treasury, operations, accounting, reconciliation, security, compliance, support, and readiness | Technical completion does not substitute for the bank's institutional judgment |
+| Settlement Institution | Governs its regulated account, supported APIs, rails, credentials, limits, records, and settlement services under its direct agreement with the bank | Does not define the bank's customer product or assume the bank's complete Banking Ceremony |
+| Certified DevOps Provider | Performs delegated provisioning, deployment, monitoring, backup, recovery, release support, and incident work | Does not own the bank's environment, data, credentials, provider accounts, or release authority |
+| Value-Added Service Provider | Performs the approved supporting service under its agreement and access scope | Does not acquire broader Program or banking authority through technical integration |
+
+### Program Establishment and Administration
+
+The RBAP Board establishes the Program and delegates its administration. RBAP Management then maintains the participation process, license-seat register, common standards, provider coordination, program reporting, and escalation arrangements within that authority.
+
+Admission of a participating bank requires, at minimum, an available or approved license seat, an applicable participation instrument, named accountable officers, and the bank's own approval to begin readiness work. Membership eligibility, commercial conditions, legal form, and any additional admission criteria remain subject to the approved Program instruments.
+
+Allocation of a license seat authorizes access to the licensed institutional deployment model. It does not certify the bank's environment, establish a settlement account, approve a Banking Ceremony, or place the bank into production.
+
+### Institution-Specific Authority
+
+Each participating bank approves:
+
+- its participation and accountable officers;
+- its products, Facilities, policies, limits, customer terms, and communications;
+- its infrastructure, provider accounts, credentials, and delegated access;
+- its settlement relationship and supported services;
+- its development, staging, and production environments;
+- production releases and changes;
+- operational procedures, accounting, reconciliation, security, compliance, and support;
+- pilot scope and success measures; and
+- the decision to Proceed, Correct, Extend, or Pause.
+
+The bank owns or controls its environment, domains, data, credentials, logs, backups, provider relationships, and institutional audit trail. Delegation permits a provider to perform defined work; it does not transfer the bank's authority or accountability.
+
+### Release and Production-Change Governance
+
+ODTI publishes maintained releases and identifies supported components, compatibility requirements, known limitations, and applicable reference material. A Certified DevOps Provider may prepare and validate a release within the bank's controlled environments.
+
+Only the participating bank may authorize deployment into its production environment. The bank determines the required testing, segregation of duties, approval evidence, maintenance window, rollback preparation, and post-release verification. Emergency action remains subject to the bank's incident and change authority, even when a provider performs the technical work.
+
+Changes to common Program standards require RBAP program authority and consultation with the responsible participants. A common standard cannot override a bank's regulatory obligation, institutional policy, or production approval.
+
+### Credentials, Data, and Environment Control
+
+Production credentials, settlement API credentials, certificates, secrets, domains, provider accounts, customer and institutional data, logs, and backups remain under bank-approved control. ODTI and providers receive only the access required for their approved responsibilities and duration.
+
+Access must be attributable, reviewable, revocable, and consistent with the participating bank's security and audit requirements. Shared software does not require shared credentials, shared databases, or shared production access among participating banks.
+
+### Incident, Escalation, and Reporting Governance
+
+The participating bank leads incidents affecting its customers, banking operations, data, environment, accounting, or settlement activity. It determines customer treatment, regulatory or institutional notification, transaction action, and operational continuation within its authority.
+
+The DevOps provider addresses infrastructure and deployment matters within its delegated scope. ODTI addresses maintained-software and supported-integration matters. The Settlement Institution addresses the account, API, rail, and settlement services it provides. RBAP coordinates program-level communication and common learning when an issue may affect multiple participants, without assuming control of a bank incident.
+
+Incident records should preserve chronology, affected activity, decisions, evidence, communications, remediation, and closure. Material matters follow the escalation and reporting paths approved by the bank and, where relevant, Program governance.
+
+### Audit and Program Reporting
+
+Each bank retains its own operational and audit evidence. Program reporting may include authorized participation, release, service-health, incident, readiness, and aggregate operating information required for governance, subject to bank approval, confidentiality, data-protection requirements, and the applicable agreements.
+
+RBAP program reporting does not create a common customer ledger or shared institutional audit trail. Internal and external assurance remain governed by each institution's mandate and applicable requirements.
+
+### Pilot and Progression Governance
+
+The launch sequence contains distinct gates:
+
+1. **Program establishment** — RBAP establishes authority, administration, and common arrangements.
+2. **Bank participation** — The bank approves participation and accountable officers.
+3. **Ceremony definition** — The bank approves the first service, controls, customer experience, and evidence.
+4. **Operating foundations** — The environment and direct settlement relationship are available for controlled validation.
+5. **Operational readiness** — The bank judges the complete ceremony ready for bounded production.
+6. **Controlled Pilot** — The bank authorizes Limited Production within approved constraints.
+7. **Evidence review** — The bank and Program governance act within their respective authority to **Proceed • Correct • Extend • Pause**.
+
+RBAP may assess program-level lessons and whether common participation should continue or expand. Only the participating bank decides whether its service enters, continues, changes, expands, or leaves production.
+
+### Suspension, Removal, and Exit
+
+Program-level suspension or removal may be considered under the applicable participation, license, security, commercial, or common-standard arrangements. A participating bank may also decide to pause or end its participation under its approved agreements and transition plan.
+
+Any suspension, removal, or exit must preserve customer obligations, records, evidence, reconciliation, data protection, security, settlement responsibilities, and orderly operational transition. The final triggers, notice periods, financial treatment, software rights, and assistance obligations belong in the applicable legal and commercial instruments; this Guide does not invent them.
+
+### Doctrine and Publication Governance
+
+The Canonical Banking Program Guide and accepted Editorial Decision Records govern Program Guide structure and frozen doctrine. RBAP Program administration cannot silently redefine Pay Code, Facility, Settlement Envelope, Treasury, Funding Event, Execution, custody, software ownership, or settlement responsibility.
+
+Editorial and publication changes do not authorize operational changes. Operational experience that suggests new doctrine must first be evaluated through explicit editorial governance before the canonical Program Guide is changed.
 
 ## Appendix C — Commercial Waterfall
 
-_Placeholder._
+The Commercial Waterfall is a principles-level accountability model for Program economics. It identifies how an approved commercial event is evidenced, classified, allocated, billed, reversed, reconciled, and reported among the responsible participants.
+
+It is not:
+
+- the custody or settlement path for customer funds;
+- a pooled account maintained by RBAP;
+- a legal priority of payment;
+- a final price list or revenue-share schedule;
+- an accounting or tax opinion; or
+- a guarantee of income, volume, or institutional return.
+
+### Commercial and Settlement Boundaries
+
+Settlement concerns the regulated financial movement performed through the participating bank's direct relationship with its Settlement Institution. The Commercial Waterfall concerns the separate economic rights and obligations established by Program, license, service, provider, and institution-specific agreements.
+
+A transaction may create both settlement evidence and a commercial event. That does not make the commercial allocation part of customer-fund custody. Amounts attributable to RBAP, ODTI, a DevOps provider, or another provider become their respective commercial receivables or revenues only under the applicable agreement, evidence, accounting policy, and legal treatment.
+
+### Recognized Commercial Participants
+
+| Participant | Potential commercial basis | Boundary |
+| --- | --- | --- |
+| Participating Rural Bank | Customer-facing service fees, banking income, relationship value, and institution-specific charges | The bank defines its product and customer pricing subject to its authority and applicable requirements |
+| RBAP | Program participation, seat administration, common services, program administration, or approved transaction-linked participation | RBAP participation does not make it custodian, settlement operator, or owner of the bank's customer relationship |
+| ODTI | Group software license, platform maintenance, supported components, documentation, and approved integration or customization work | Software participation does not provide banking authority or custody |
+| Certified DevOps Provider | Onboarding, deployment, managed operations, monitoring, maintenance, release support, recovery, incident work, or other delegated services | Fees correspond to approved services; the provider does not own the environment or data |
+| Settlement Institution | Account, API, rail, transaction, network, return, investigation, or other settlement-service charges | Charges arise under the direct bank relationship and do not define the complete banking service |
+| Value-Added Service Provider | Cloud, database, storage, messaging, identity, location, security, monitoring, or other approved usage and services | Charges follow the bank's provider agreement or another expressly approved procurement arrangement |
+
+Additional commercial participants require an approved service, role, agreement, and allocation rule. Technical access alone does not create commercial participation.
+
+### Commercial Categories
+
+The Program may recognize:
+
+- group or institution-level software-license fees;
+- Program Seat or participation fees;
+- program-administration and common-service fees;
+- bank onboarding and initial deployment fees;
+- continuing DevOps and managed-operations fees;
+- maintenance and platform-support fees;
+- approved integration or customization fees;
+- infrastructure and Value-Added Service Provider charges;
+- settlement and payment-rail charges;
+- customer-facing banking-service fees determined by the bank;
+- approved fixed, usage-based, or transaction-linked participation; and
+- exceptional work separately authorized by the responsible party.
+
+The existence of a category does not establish an amount or an obligation. Final prices, rates, minimums, caps, volume bands, revenue shares, billing periods, and payment terms are negotiated and approved through the applicable proposal and agreement.
+
+### Canonical Accountability Sequence
+
+The Waterfall follows an evidence and allocation sequence rather than a presumed movement of customer funds:
+
+1. **Identify the commercial event.** Determine the approved service, institution, transaction or period, applicable agreement, and event reference.
+2. **Confirm its status.** Determine whether the underlying activity is completed, pending, failed, cancelled, expired, reversed, refunded, disputed, or otherwise unresolved.
+3. **Establish the commercial basis.** Apply the approved fixed, usage-based, transaction-linked, or other negotiated basis without inventing an amount.
+4. **Recognize provider and settlement charges.** Attribute charges under the responsible party's agreements and evidence.
+5. **Calculate approved participation.** Apply only the RBAP, ODTI, DevOps, bank, or other participation expressly established by agreement.
+6. **Apply rounding, tax, and adjustment rules.** Use the contractual and accounting treatment approved for each party and jurisdiction.
+7. **Create billing and collection records.** The party assigned by agreement issues or receives the applicable invoice, debit, credit, statement, or settlement of commercial obligations.
+8. **Reconcile and report.** Compare event, provider, billing, payment, reversal, and allocation evidence and resolve differences through the approved dispute process.
+
+This sequence does not prescribe which party must invoice or collect every category. Billing and collection responsibility must be explicit in the governing commercial instruments.
+
+### Evidence and Reconciliation
+
+Each commercial event should be attributable to the relevant bank, service, Facility, period or transaction reference, status, amount basis, participant rule, provider charge, adjustment, and resulting obligation. Reports should allow each party to reproduce the calculation applicable to it without exposing another bank's confidential customer or institutional data unnecessarily.
+
+Commercial reconciliation compares approved rules with transaction or period evidence, provider statements, invoices, credits, payments, and reversals. Differences remain unresolved until classified, assigned, evidenced, and closed under the applicable process.
+
+### Failures, Reversals, Refunds, and Disputes
+
+Failed, cancelled, expired, reversed, or refunded activity does not automatically receive the same commercial treatment as completed activity. The applicable agreement must determine:
+
+- which charges remain payable;
+- which participation is reversed or credited;
+- how partial outcomes are treated;
+- which party bears an external provider charge;
+- how late provider status or duplicated evidence is corrected; and
+- when a commercial period may be closed.
+
+A dispute should identify the affected event, parties, amount, evidence, rule, owner, status, and resolution. Undisputed amounts may be handled according to the governing agreement; this Guide does not prescribe legal set-off or collection rights.
+
+### Revenue Recognition, Taxes, and Illustrative Figures
+
+Each participant recognizes revenue, expense, receivable, payable, and tax according to its own approved accounting policies, agreements, evidence, and applicable requirements. The Commercial Waterfall supplies operational accountability; it does not determine accounting recognition or tax treatment.
+
+Any figure used in a Program Guide example, model, workshop, or proposal must be labelled as one of the following:
+
+- **Canonical structure** — an approved category or allocation relationship without an amount;
+- **Illustrative assumption** — a non-binding figure used only to demonstrate mechanics;
+- **Negotiated amount** — a figure proposed or agreed through an identified commercial instrument; or
+- **Institution-specific proposal** — a figure applicable only to the named institution and approval process.
+
+Illustrative figures must never be represented as approved Program pricing.
 
 ## Appendix D — Treasury Grammar
 
-_Placeholder._
+Treasury provides the operational financial-state grammar through which a participating bank records and coordinates recognized financial value for its digital banking activities.
+
+Software records, reserves, conditions, coordinates, evidences, and reconciles value recognized by the bank. It does not create the underlying financial value.
+
+### Canonical Progression
+
+```text
+External financial event
+        ↓
+Funding Event
+        ↓
+Settlement Resources recognized by Treasury
+        ↓
+Available and reserved capacity distinguished
+        ↓
+Lien reserves resources for an authorized purpose
+        ↓
+Facility gives the activity banking and commercial meaning
+        ↓
+Settlement Envelope establishes evidence and conditions
+        ↓
+Pay Code represents the authorized instruction
+        ↓
+Execution coordinates the approved outcome
+        ↓
+Settlement evidence, state resolution, and reconciliation
+```
+
+### Canonical Grammar
+
+| Concept | Institutional purpose | Governing boundary | Principal evidence |
+| --- | --- | --- | --- |
+| External financial event | Establishes the real financial basis the bank may recognize | Occurs within the bank's regulated, customer, employer, government, merchant, or other approved arrangement | Deposit, transfer, funding, settlement, or other external reference |
+| Funding Event | Records the bank's recognition of Settlement Resources | Does not manufacture funds or determine legal character by itself | Institution, source, amount, currency, date, external reference, status |
+| Treasury | Maintains the operational view of recognized, reserved, available, outstanding, and unresolved state | Is not the bank account, general ledger, or legal record of ownership | State history, references, reservations, outcomes, reconciliation records |
+| Lien | Reserves identified capacity for an authorized purpose | Does not transfer custody or complete settlement | Amount, Facility, instruction, authority, creation, status, resolution |
+| Facility | Gives the activity its banking purpose and commercial meaning | Remains subject to bank policy, product authority, limits, and approval | Service definition, participants, rules, approvals, communications |
+| Settlement Envelope | Establishes the conditions and evidence required before execution | Does not perform settlement or substitute for institutional approval | Identity, KYC, signature, OTP, document, location, limit, approval, provider evidence |
+| Pay Code | Carries the authorized instruction toward presentation and execution | Is a credential, not money, stored value, or the banking product | Issuer, instruction, status, validity, presentation, validation history |
+| Execution | Coordinates the authorized outcome through the bank's approved settlement relationship | Does not displace the bank or Settlement Institution | Request, idempotency reference, provider response, outcome, exception evidence |
+| Reconciliation | Compares operational state with bank, provider, accounting, and settlement evidence | Does not conceal ambiguity by forcing a completed state | Matched references, differences, ownership, correction, closure evidence |
+
+### Recognized Resources and Capacity
+
+Treasury recognizes Settlement Resources only after the participating bank identifies an external financial event that its policy permits it to recognize. Recognition should be attributable to the institution, source, amount, currency, date, status, external reference, and applicable Facility or purpose where known.
+
+Available capacity is the portion of recognized resources that the bank's approved rules permit to support new activity after considering reservations, outstanding obligations, pending outcomes, restrictions, and unresolved exceptions. Reserved capacity is the portion represented by active Liens or other approved commitments. Neither measure changes custody of the underlying funds.
+
+A single displayed or wallet-style balance is insufficient as the sole available-capacity truth. Availability depends on the verified external event, current reservations, pending or ambiguous outcomes, institutional restrictions, provider evidence, and reconciliation state. x-change therefore must not be described as maintaining a customer wallet or creating stored value.
+
+### Lien Lifecycle
+
+A Lien is created when the bank reserves identified Settlement Resources for an authorized purpose. Its record should identify the institution, amount, currency, Facility, instruction, authority, creation time, status, and relevant expiry or review condition.
+
+A Lien may be:
+
+- **active** while the obligation remains outstanding;
+- **consumed** when the corresponding authorized outcome is completed and recognized;
+- **released** when the activity is cancelled, rejected, declined, or otherwise no longer requires reservation;
+- **expired** under an approved time or policy condition; or
+- **under resolution** when provider status, evidence, reconciliation, or exception handling remains incomplete.
+
+Release, expiry, or resolution must follow bank policy and preserve the history of the original reservation. An ambiguous provider result must not cause automatic reuse of capacity before the bank can determine the supported outcome.
+
+### Facility, Envelope, and Pay Code
+
+The Facility supplies the banking and commercial meaning. It defines the service, participants, source of authority, rules, limits, approvals, communications, exception treatment, and intended outcome.
+
+The Settlement Envelope supplies readiness conditions and evidence. The participating bank determines which requirements apply and whether they have been satisfied.
+
+The Pay Code carries the resulting authorized instruction in a presentable form. It may be textual, printed, encoded as a QR code or barcode, or represented through another supported channel. Validation must confirm the instruction, issuer, status, applicable conditions, permitted presentation, and whether execution has already occurred.
+
+### Execution and Settlement Outcomes
+
+Execution confirms the applicable instruction, Lien, Treasury state, Facility, Settlement Envelope, bank policy, and settlement readiness before coordinating the approved action through the bank's regulated settlement relationship.
+
+An outcome may be completed, pending, failed, declined, cancelled, expired, reversed, or subject to review. Provider acceptance of a request is not always final settlement. The platform must preserve the latest supported status and enough evidence for the bank to determine whether capacity should remain reserved, be consumed, be released, or enter exception resolution.
+
+### Idempotency and Duplicate Prevention
+
+At a principles level, every execution attempt should carry a stable institutional or transaction reference. Repeated submission of the same authorized instruction should be detected and should not create a second intended obligation. Where a Settlement Institution supports idempotency controls, the bank's approved implementation should use them consistently.
+
+Timeout, delayed response, webhook repetition, retry, operator action, and reconciliation import must be treated as possible observations of one instruction rather than automatic authority to create another. When status is ambiguous, the system should preserve the ambiguity, seek provider or account evidence, and resolve the original instruction before authorizing a replacement.
+
+### Reconciliation, Exceptions, and Audit Evidence
+
+Reconciliation compares Treasury state with bank records, Settlement Institution records, provider messages, account evidence, accounting entries, customer evidence, and operational approvals. Matching should use stable references and should identify completed, pending, failed, duplicated, missing, reversed, or otherwise inconsistent items.
+
+An exception record should identify the affected instruction, amount, state, evidence, owner, required action, escalation, and resolution. Correction must preserve the original history rather than overwrite it invisibly.
+
+Audit evidence should allow the bank to reconstruct:
+
+- the external event recognized;
+- the authority and policy applied;
+- the resource reservation;
+- the Facility and conditions;
+- Pay Code issuance and presentation;
+- execution attempts and provider responses;
+- settlement and accounting evidence;
+- customer and operational communications; and
+- final reconciliation or exception resolution.
+
+### Relationship to Bank Accounts and Books
+
+The participating bank's regulated accounts and books remain authoritative within their applicable legal, accounting, and institutional purposes. Treasury is an operational coordination view that must be reconciled to those sources. It does not become the bank's general ledger, core banking system, deposit account, or legal record of customer ownership.
+
+### What Treasury Is Not
+
+Treasury is not:
+
+- a pooled RBAP account;
+- an x-change wallet or stored-value balance;
+- a substitute for the bank's books or Settlement Institution records;
+- a transfer of custody to ODTI, RBAP, or a provider;
+- authority to conduct a transaction without the bank's approval; or
+- proof of final settlement without the required external evidence.
 
 ## Appendix E — Deployment Architecture
 
-_Placeholder._
+This appendix describes institutional ownership and operating boundaries. It is not a cloud-vendor prescription, detailed security design, deployment runbook, or production authorization.
+
+### One Institution, One Controlled Deployment
+
+Each participating rural bank operates a separate licensed deployment in a cloud account or approved hosting environment that it owns or controls. The deployment has its own domains, databases, storage, credentials, provider accounts, release approvals, monitoring, backups, security configuration, settlement API credentials, records, and audit trail.
+
+Common software and standards do not create common production tenancy. No shared RBAP production database, common redemption website, pooled customer balance, or shared institutional credential is required. Shared tenancy may be considered only through separate institutional, architectural, security, legal, and regulatory approval; it is not part of the canonical Program model.
+
+### Environment Model
+
+Development, staging, and production should be separated according to the participating bank's approved architecture and risk controls.
+
+| Environment | Purpose | Authority boundary |
+| --- | --- | --- |
+| Development | Configuration, integration development, and controlled engineering work | Uses non-production access and data treatment approved by the bank |
+| Staging | Integrated validation, release testing, ceremony testing, and readiness evidence | Uses controlled credentials, datasets, and connectivity approved for pre-production validation |
+| Production | Approved customer and institutional banking activity | Requires explicit bank production authority, controlled access, monitoring, backup, recovery, and change governance |
+
+Environment separation must include the credentials, secrets, provider configuration, data, logging, and release path necessary to prevent pre-production work from acquiring production authority.
+
+### Responsibility Matrix
+
+| Component or control | Participating bank | ODTI | Certified DevOps Provider | Other provider |
+| --- | --- | --- | --- | --- |
+| Cloud or hosting account | Owns or controls; approves architecture and spend | Provides reference requirements within scope | Provisions and operates under delegation | Supplies contracted hosting service |
+| Domains and DNS | Owns or controls and approves changes | Identifies supported application requirements | Implements approved records and certificates | Registrar or DNS provider performs its service |
+| Application source and maintained release | Receives licensed rights and approves production use | Maintains and publishes supported software | Deploys approved release | Not applicable unless expressly approved |
+| Databases, storage, and institutional data | Owns or controls; sets access, retention, backup, and recovery policy | Defines supported application behavior | Configures and operates under delegation | Supplies approved managed service where applicable |
+| Credentials, keys, certificates, and secrets | Owns or controls production authority and access policy | Uses only approved development or support access | Manages only within delegated scope | Issues or stores credentials under its agreement |
+| CI/CD and release workflow | Approves production path, segregation, and release | Supplies maintained releases and compatibility information | Implements pipeline and performs approved deployment | Supplies repository or automation service where approved |
+| Monitoring, logging, and alerting | Defines oversight, retention, escalation, and access | Supports application observability within scope | Configures and operates approved controls | Supplies monitoring or security service where approved |
+| Backups and recovery | Approves objectives, retention, tests, and restoration authority | Supports application recovery requirements | Operates and tests under delegation | Supplies storage or recovery service where approved |
+| Settlement account and API credentials | Owns or establishes relationship, controls credentials and authority | Maintains supported integration component | Configures approved secrets and connectivity | Settlement Institution supplies account and API service |
+| Production change | Authorizes | Publishes or supports maintained change | Prepares, validates, deploys, and verifies when authorized | Performs provider-side change under its agreement |
+| Incident decision | Leads institutional response and customer or regulatory action | Addresses supported software issue | Addresses environment and deployment issue | Addresses its service issue |
+
+### Domains, Data, and Provider Accounts
+
+The participating bank owns or controls its domains, DNS, provider subscriptions, billing relationships, databases, storage, customer and institutional data, logs, and backup repositories unless a specifically approved procurement arrangement states otherwise without changing the bank's institutional responsibility.
+
+Data residency, classification, access, retention, archival, deletion, and cross-border treatment are institution-specific and subject to applicable law, regulation, bank policy, provider capability, and agreement. This Guide does not select a jurisdiction or retention period.
+
+### Credentials and Security Boundaries
+
+Production credentials and secrets must remain separate by bank and environment. Access should be least-privileged, attributable, time-appropriate, reviewable, and revocable. Settlement API credentials must not be shared among participating banks or treated as Program-level credentials.
+
+Network design, encryption, identity, access control, vulnerability management, security testing, and protective monitoring remain subject to the participating bank's approved security architecture and applicable requirements. The common platform supplies supported capability; it does not determine the bank's complete security design.
+
+### CI/CD and Release Approval
+
+The source-to-production path should distinguish:
+
+1. maintained software and supported components published by ODTI;
+2. institution-specific configuration and approved integrations;
+3. automated build and test evidence;
+4. deployment to controlled development and staging environments;
+5. bank review and production approval;
+6. authorized production deployment by the DevOps provider or bank personnel;
+7. post-release verification and monitoring; and
+8. rollback or remediation when approval conditions are not satisfied.
+
+Source access does not confer production authority. Generated packages, configuration, credentials, and deployment records must remain attributable to the approved source and release.
+
+### Monitoring, Recovery, and Incident Response
+
+The bank approves the monitoring, logging, alerting, backup, recovery, and incident controls appropriate to its service. The DevOps provider operates them within delegated authority. ODTI supports maintained-software diagnosis and remediation. Other providers support the services they supply.
+
+Recovery objectives, backup frequency, retention, restoration tests, failover arrangements, and incident severity must be approved for the institution and service. A successful infrastructure restoration does not by itself resolve Treasury, settlement, accounting, customer, or reconciliation state; those require coordinated institutional review.
+
+### Third-Party Integrations
+
+Every integration requires an approved purpose, provider relationship, credential boundary, data scope, failure treatment, monitoring arrangement, and accountable owner. Integration with a common provider does not create shared bank tenancy or transfer the participating bank's customer responsibility.
+
+Additional Settlement Institutions may be supported as approved integrations become available. Each bank still establishes its own direct relationship, account, credentials, limits, and authority under the applicable arrangement.
+
+### Onboarding and Operational Handover
+
+Institutional onboarding proceeds through:
+
+1. bank approval and accountable ownership;
+2. institutional and ceremony discovery;
+3. cloud, domain, provider, and settlement-account establishment;
+4. environment provisioning and access control;
+5. software deployment and integration configuration;
+6. development and staging validation;
+7. monitoring, backup, recovery, security, support, and escalation preparation;
+8. end-to-end ceremony and exception testing;
+9. bank operational-readiness decision; and
+10. controlled production authorization.
+
+Operational handover is complete only when named bank and provider personnel understand access, release, monitoring, recovery, incident, support, evidence, and escalation responsibilities. Technical availability alone is not handover.
+
+### Exit and Portability Principles
+
+On suspension, provider change, or Program exit, the participating bank retains control of its institutional data, domains, provider accounts, credentials, records, and audit evidence subject to applicable agreements and requirements. Transition should address data export, credential rotation, access revocation, outstanding releases, backups, logs, settlement and Treasury reconciliation, customer obligations, archival, deletion, and continuing support.
+
+Software-use rights, source access, transition assistance, fees, notice, and post-termination obligations remain governed by the applicable license, participation, and service agreements. This Guide does not create rights beyond them.
 
 ## Appendix F — Frequently Asked Questions
 
 ### What exactly are we selling to RBAP?
 
-_Placeholder — unanswered._
+The proposal is an association-administered modernization Program: group access to maintained licensed software, participating-bank license seats, common standards, coordinated implementation, and the services required to deploy and operate each bank's independent environment. RBAP is not being offered a bank, pooled account, payment switch, settlement network, or shared production platform. Final consideration and commitments belong in the approved proposal and agreements.
 
 ### What is a Pay Code?
 
-_Placeholder — unanswered._
+A Pay Code is a credential representing an authorized banking instruction. It may be communicated as text, QR code, barcode, printed reference, or another supported form. It is not money, a deposit, stored value, or the banking product; the Facility defines the service and the underlying funds remain within the participating bank's regulated relationship.
 
 ### What is the money flow?
 
-_Placeholder — unanswered._
+An external financial event occurs within the participating bank's approved banking arrangement. A Funding Event records the bank's recognition of the corresponding Settlement Resources. Treasury distinguishes available and reserved capacity, a Lien reserves the required amount, the Facility and Settlement Envelope establish purpose and conditions, and a Pay Code carries the authorized instruction. The bank then authorizes Execution through its direct settlement relationship, the Settlement Institution performs the supported financial movement, and the bank reconciles the result.
 
 ### Who deposits funds with the settlement bank?
 
-_Placeholder — unanswered._
+The participating bank establishes and funds its own settlement arrangement according to its product, customer, employer, merchant, government, Treasury, and Settlement Institution agreements. A customer, employer, agency, merchant, or other authorized source may provide funds through a banking event recognized by that bank. RBAP and ODTI do not pool or deposit customer funds for participating banks.
 
 ### Is RBAP becoming something like BancNet?
 
-_Placeholder — unanswered._
+No. RBAP sponsors, convenes, and administers the Program. It does not become a bank, payment switch, payment rail, settlement institution, shared production operator, or BancNet equivalent.
 
 ### Who owns the cloud environment?
 
-_Placeholder — unanswered._
+Each participating rural bank owns or controls its cloud account or approved hosting environment, provider accounts, domains, deployment, databases, data, credentials, security configuration, release approvals, monitoring, logs, and backups. A Certified DevOps Provider operates only within authority delegated by that bank.
 
 ### Who owns the customer relationship?
 
-_Placeholder — unanswered._
+The participating rural bank retains the customer and deposit relationship, product responsibility, terms, communications, data obligations, service support, and banking authority.
 
 ### Where do funds remain?
 
-_Placeholder — unanswered._
+Underlying funds remain under the participating bank's custody within its regulated banking and settlement relationships. x-change records and coordinates authorized activity; it does not receive deposits, hold customer funds, issue stored value, or create an x-change wallet balance.
 
 ### What does ODTI do?
 
-_Placeholder — unanswered._
+ODTI licenses and maintains x-change, x-Payout, supported components and integrations, maintained releases, documentation, reference configurations, compatibility requirements, and the technology-certification framework. It does not become the bank, infrastructure owner, Settlement Institution, custodian, or production approver.
 
 ### What does the DevOps provider do?
 
-_Placeholder — unanswered._
+The Certified DevOps Provider provisions and operates the bank's approved environment within delegated scope. Its work may include deployment, CI/CD, monitoring, logging, backup, recovery, release support, provider integration, and incident response. The bank retains ownership or control of the environment, accounts, data, credentials, and production decisions.
 
 ### What does the settlement bank do?
 
-_Placeholder — unanswered._
+The Settlement Institution provides the regulated account, supported banking APIs, payment rails, transaction and status records, and settlement services under its direct agreement with the participating bank. It performs supported financial movement in response to bank-authorized instructions. It does not define the bank's complete customer product or Banking Ceremony.
 
 ### How much will participation cost?
 
-_Placeholder — unanswered._
+No final price is established by this Guide. Cost may include the group license or Program Seat, onboarding, deployment, continuing DevOps and maintenance, infrastructure, Value-Added Service Providers, settlement services, integrations, support, and Program administration. Final amounts, allocation, billing, and commercial participation require an institution-specific proposal, due diligence, negotiation, and approval.
+
+### Is participation mandatory for RBAP member banks?
+
+No. The Program provides a coordinated participation framework. Admission and participation require the applicable RBAP process, an available or approved Program Seat, the bank's own institutional approval, and the required agreements. Establishment of the Program does not place every member bank into it.
+
+### Does every bank use the same customer experience?
+
+No. Participating banks use common licensed software and standards, but each bank governs its products, policies, customer journey, branding, channels, KYC requirements, evidence, communications, limits, support, and approved integrations.
+
+### Does x-change hold deposits or issue stored value?
+
+No. x-change is software that records and coordinates authorized banking activity. It does not accept deposits, hold customer funds, issue stored value, or become the legal source of financial value. Final legal characterization of a banking product remains subject to applicable law, agreements, and qualified review.
+
+### Can a bank begin with one service?
+
+Yes. The launch model begins with one familiar, bounded Banking Ceremony—remittance in the canonical example. The bank may consider additional ceremonies only after it has evidence that the first can be operated and governed responsibly.
+
+### What happens after the pilot?
+
+The participating bank reviews the agreed evidence and decides to **Proceed • Correct • Extend • Pause**. Expansion is not automatic. A bank may continue the service, correct identified matters, extend the pilot, pause activity, expand approved scope, or begin evaluating another ceremony under the same governance discipline.
+
+### Can a bank leave the Program?
+
+Participation may be paused or ended under the applicable participation, license, provider, security, and commercial arrangements. Exit must preserve customer obligations, data, records, security, settlement and Treasury reconciliation, audit evidence, and orderly transition. Notice, fees, software rights, and assistance remain matters for the governing agreements.
+
+### Can additional settlement institutions be supported?
+
+Yes, when approved integrations and institution-specific arrangements become available. NetBank may serve as the initial integrated Settlement Institution, but the Program is not exclusive. Each participating bank must establish its own approved relationship, account, credentials, limits, and authority with any supported Settlement Institution.
+
+### Does the Program replace the core banking system?
+
+No. The Program adds a governed operating environment for supported Banking Ceremonies. The participating bank's core banking, books, accounts, channels, accounting, reporting, and other systems remain within its architecture and authority. Required integration and system-of-record treatment are institution-specific.
+
+### What regulatory approvals may still be required?
+
+Requirements depend on the institution, service, channel, customer treatment, settlement arrangement, data processing, outsourcing model, and applicable law and regulation. Each participating bank and responsible party must obtain the approvals, notifications, reviews, and agreements applicable to its role. This Guide is not a legal opinion or regulatory authorization.
+
+### Who decides when a service enters production?
+
+The participating bank decides. RBAP may establish Program standards, ODTI may confirm supported software behavior, the DevOps provider may demonstrate technical operation, and the Settlement Institution may confirm its service. None of those replaces the bank's operational-readiness judgment and production approval.
 
 ## Appendix G — Program Diagrams
 
-_Placeholder — canonical program diagrams have not yet been created._
+These diagrams express the governed concepts in this Guide. They describe institutional responsibility, operational sequence, and commercial accountability. They are not production specifications, legal fund characterizations, or independent sources of authority.
+
+The first thirteen diagrams satisfy the canonical diagram registry. The remaining diagrams provide approved source equivalents for the editorial illustrations reserved in Sections 4 and 5 and for the institutional and launch concepts requested for the RBAP reference source. The frozen body labels remain unchanged; a future publishing task may substitute the corresponding rendered figures without altering the canonical prose.
+
+### Canonical Program Diagrams
+
+#### Program Participants and Responsibility Model
+
+```mermaid
+flowchart TB
+    Board["RBAP Board: establishes Program authority"] --> RBAP["RBAP Management: administers Program"]
+    RBAP --> ODTI["ODTI: licenses and maintains software"]
+    RBAP --> Bank["Participating Rural Bank: banking and production authority"]
+    Bank --> DevOps["Certified DevOps Provider: delegated operations"]
+    Bank --> Settlement["Settlement Institution: account, APIs, rails, settlement"]
+    Bank --> ValueAdded["Value-Added Providers: approved supporting services"]
+    Bank --> Customers["Customers, employers, merchants, agencies, beneficiaries"]
+```
+
+*Caption: Program coordination, software authority, banking authority, delegated operations, and settlement responsibility remain distinct.*
+
+#### Independent Bank Deployments Under One Program
+
+```mermaid
+flowchart TB
+    RBAP["One RBAP Program"] --> Common["Common licensed software and standards"]
+    Common --> BankA["Bank A controlled deployment"]
+    Common --> BankB["Bank B controlled deployment"]
+    Common --> BankC["Bank C controlled deployment"]
+    BankA --> DataA["Bank A data, credentials, approvals, audit trail"]
+    BankB --> DataB["Bank B data, credentials, approvals, audit trail"]
+    BankC --> DataC["Bank C data, credentials, approvals, audit trail"]
+```
+
+*Caption: Collective modernization shares software and standards, not production tenancy, institutional data, or authority.*
+
+#### Direct Settlement Relationships
+
+```mermaid
+flowchart LR
+    BankA["Participating Bank A"] --> AccountA["Bank A settlement account and credentials"] --> Settlement["Supported Settlement Institution"]
+    BankB["Participating Bank B"] --> AccountB["Bank B settlement account and credentials"] --> Settlement
+    BankC["Participating Bank C"] --> AccountC["Bank C settlement account and credentials"] --> Settlement
+    RBAP["RBAP administers Program"] -. "does not pool settlement" .-> Settlement
+```
+
+*Caption: A common Settlement Institution may support multiple banks while each bank retains its own direct account, credentials, authority, and reconciliation.*
+
+#### Banking Operating Model
+
+```mermaid
+flowchart TB
+    Request["Customer or institutional request"] --> Bank["Bank policy and authority"] --> Facility["Facility and conditions"] --> PayCode["Pay Code credential"] --> Execution["Bank-authorized Execution"] --> Settlement["Regulated settlement"] --> Evidence["Evidence and reconciliation"]
+```
+
+*Caption: The operating model connects a banking request to a governed outcome without displacing the bank or Settlement Institution.*
+
+#### Funding Event
+
+```mermaid
+flowchart TB
+    External["External financial event"] --> Review["Bank recognizes source and evidence"] --> FE["Funding Event"] --> Resources["Settlement Resources recognized by Treasury"]
+```
+
+*Caption: A Funding Event records recognized financial value; it does not create that value.*
+
+#### Treasury
+
+```mermaid
+flowchart TB
+    Recognized["Recognized Settlement Resources"] --> Treasury["Treasury operational view"]
+    Treasury --> Capacity["Capacity and obligations"]
+    Treasury --> Resolution["Resolution state"]
+    Capacity --> Available["Available capacity"]
+    Capacity --> Reserved["Reserved capacity and Liens"]
+    Capacity --> Outstanding["Outstanding obligations"]
+    Resolution --> Exceptions["Pending and unresolved items"]
+    Resolution --> Resolved["Completed or released state"]
+```
+
+*Caption: Treasury distinguishes operational state while underlying funds remain in the bank's regulated relationships.*
+
+#### Funding Event to Execution Lifecycle
+
+```mermaid
+flowchart TB
+    FE["Funding Event"] --> Treasury["Treasury"] --> Lien["Lien"] --> Facility["Facility"] --> Envelope["Settlement Envelope"] --> PayCode["Pay Code"] --> Execution["Execution"] --> Outcome["Settlement outcome"] --> Reconcile["Evidence and reconciliation"]
+```
+
+*Caption: The canonical grammar moves from recognition to governed execution and resolution.*
+
+#### Deposit Flow
+
+```mermaid
+flowchart TB
+    Customer["Customer"] --> Bank["Bank accepts deposit under its authority"] --> Account["Bank account and records"] --> FE["Funding Event records recognition"] --> Treasury["Treasury operational view"]
+```
+
+*Caption: The deposit belongs to the bank-customer relationship; Treasury records only the approved operational recognition.*
+
+#### Payroll Flow
+
+```mermaid
+flowchart TB
+    Employer["Employer authority and funding"] --> Bank["Participating bank"] --> Facility["Payroll Facility"] --> Conditions["Approvals and employee attribution"] --> Execute["Bank-authorized Execution"] --> Employees["Employee outcomes"] --> Reconcile["Evidence and reconciliation"]
+```
+
+*Caption: Payroll remains a bank-governed service from employer authority through employee outcomes.*
+
+#### Merchant Flow
+
+```mermaid
+flowchart TB
+    Payment["Accepted customer payment"] --> Bank["Participating bank"] --> Facility["Merchant Facility"] --> Settlement["Bank-approved settlement"] --> Merchant["Merchant outcome and relationship"] --> Reconcile["Evidence and reconciliation"]
+```
+
+*Caption: Merchant activity is governed through the bank's Facility and direct settlement arrangements.*
+
+#### Government Disbursement Flow
+
+```mermaid
+flowchart TB
+    Agency["Authorized public institution"] --> Bank["Participating bank"] --> Facility["Disbursement Facility"] --> Conditions["Beneficiary and evidence conditions"] --> Execute["Bank-authorized Execution"] --> Beneficiary["Beneficiary outcome"] --> Reconcile["Evidence and reconciliation"]
+```
+
+*Caption: Government disbursement remains subject to agency authority, bank governance, beneficiary conditions, and reconciliation.*
+
+#### Commercial Waterfall
+
+```mermaid
+flowchart TB
+    subgraph Recognition["Recognition"]
+        direction LR
+        Event["Approved commercial event"] --> Status["Confirm outcome status"] --> Basis["Apply negotiated commercial basis"] --> Charges["Recognize settlement and provider charges"]
+    end
+    subgraph Allocation["Allocation and resolution"]
+        direction LR
+        Participation["Calculate approved participation"] --> Adjust["Apply rounding, tax, credits, and reversals"] --> Billing["Billing and collection records"] --> Reconcile["Commercial reconciliation and reporting"]
+    end
+    Charges --> Participation
+```
+
+*Caption: The Commercial Waterfall is an accountability sequence separate from customer-fund custody and regulated settlement.*
+
+#### Deployment Architecture
+
+```mermaid
+flowchart TB
+    Channels["Bank channels and personnel"] --> Deployment["Bank-controlled x-change deployment"] --> Services["Bank-controlled data, providers, credentials, monitoring"] --> Instruction["Bank-authorized instruction"] --> API["Bank settlement API credentials"] --> Account["Bank settlement account"] --> Rails["Approved payment rails and settlement services"]
+    ODTI["ODTI maintained release"] --> Deployment
+    DevOps["DevOps under delegated authority"] --> Deployment
+```
+
+*Caption: Maintained software and delegated operations extend a bank-controlled deployment and direct settlement relationship.*
+
+### Editorial Illustration Sources
+
+#### Familiar Remittance Pattern
+
+```mermaid
+flowchart TB
+    Sender["Sender provides funds and instruction"] --> Origin["Originating outlet records transaction"] --> Reference["Reference issued and communicated"] --> Receiving["Receiving outlet validates reference and evidence"] --> Recipient["Recipient receives approved outcome"]
+```
+
+*Caption: The familiar remittance reference carries an instruction while the institution retains responsibility until release.*
+
+#### Operating Perspectives
+
+```mermaid
+flowchart TB
+    Ceremony["One Banking Ceremony"]
+    Ceremony --> Request["Request and governance"]
+    Ceremony --> State["State and outcome"]
+    Request --> Customer["Customer: request, information, confirmation"]
+    Request --> Operations["Operations: review, approve, monitor, reconcile"]
+    State --> Treasury["Treasury: recognize, reserve, monitor obligations"]
+    State --> Recipient["Recipient: present instruction, satisfy conditions, receive outcome"]
+```
+
+*Caption: Different participants experience one banking activity governed by one institution.*
+
+#### Source-to-Settlement Operating Flow
+
+```mermaid
+flowchart TB
+    Funds["Funds available"] --> Authority["Authority confirmed"] --> Reserve["Resources reserved"] --> Purpose["Purpose assigned"] --> Ready["Readiness confirmed"] --> Instruction["Instruction issued"] --> Settlement["Regulated settlement"]
+```
+
+*Caption: Supporting funds, authority, purpose, readiness, instruction, and settlement remain distinct.*
+
+#### End-to-End Banking Activity
+
+```mermaid
+flowchart TB
+    subgraph Recognition["Recognition and purpose"]
+        direction LR
+        Funds["Bank-held funds"] --> FE["Funding Event"] --> Treasury["Treasury"] --> Lien["Lien"] --> Facility["Facility"]
+    end
+    subgraph Delivery["Conditions and outcome"]
+        direction LR
+        Envelope["Settlement Envelope"] --> PayCode["Pay Code"] --> Execution["Execution"] --> Settlement["Regulated settlement"] --> Outcome["Recipient, merchant, or beneficiary outcome"]
+    end
+    Facility --> Envelope
+```
+
+*Caption: The end-to-end grammar coordinates an authorized outcome while funds remain within the regulated banking relationship.*
+
+#### Manager's Check and Pay Code Customer Journey
+
+```mermaid
+flowchart TB
+    Request["Customer requests a funded banking outcome"] --> Bank["Bank receives funds and accepts responsibility"]
+    Bank --> Check["Manager's check: bank-issued payment instrument"]
+    Bank --> Code["Pay Code remittance: bank-issued execution credential"]
+    Check --> Present["Recipient presents through approved journey"]
+    Code --> Present
+    Present --> Outcome["Bank arranges the requested outcome"]
+```
+
+*Caption: The instruments differ, but the customer experiences a bank accepting responsibility for a funded outcome.*
+
+#### Behind the Counter
+
+```mermaid
+flowchart TB
+    subgraph Authorization["Recognition and authorization"]
+        direction LR
+        Request["Customer request"] --> Funds["Funds recognized"] --> Policy["Policy and authority applied"] --> Reserve["Capacity reserved"]
+    end
+    subgraph Outcome["Conditions and outcome"]
+        direction LR
+        Conditions["Evidence and conditions"] --> Credential["Pay Code issued"] --> Execute["Execution and settlement"] --> Reconcile["Receipt, status, and reconciliation"]
+    end
+    Reserve --> Conditions
+```
+
+*Caption: The customer sees a simple service while the bank performs a complete governed ceremony.*
+
+#### One Ceremony, Many Banking Services
+
+```mermaid
+flowchart TB
+    Grammar["One governed operating grammar"]
+    Grammar --> Current["Representative services"]
+    Grammar --> Additional["Additional approved services"]
+    Current --> Remittance["Remittance"]
+    Current --> Payroll["Payroll"]
+    Current --> Merchant["Merchant payments"]
+    Additional --> Collections["Collections"]
+    Additional --> Government["Government disbursements"]
+    Additional --> Future["Future approved services"]
+```
+
+*Caption: New services vary purpose, participants, policies, conditions, and experience without rebuilding the operating foundation.*
+
+### Institutional and Launch Diagrams
+
+#### Transaction Gravity
+
+```mermaid
+flowchart TB
+    First["One useful banking service"] --> Return["Recurring usefulness"] --> Relationships["Deeper customer, employer, and merchant relationships"] --> Activity["More financial needs served"] --> First
+```
+
+*Caption: Transaction Gravity develops through recurring institutional usefulness, not volume alone.*
+
+#### Institutional Adaptability
+
+```mermaid
+flowchart TB
+    Foundation["Governed operating foundation"] --> Ceremony["Define a new Banking Ceremony"] --> Approve["Apply bank policy and authority"] --> Ready["Confirm readiness"] --> Service["Introduce approved service"] --> Learn["Evidence and learning"] --> Ceremony
+```
+
+*Caption: Adaptability allows the bank to assume new responsibilities without reconstructing its foundation.*
+
+#### Collective Modernization
+
+```mermaid
+flowchart TB
+    Shared["Shared software, standards, engineering, and learning"] --> BankA["Independent Bank A"]
+    Shared --> BankB["Independent Bank B"]
+    Shared --> BankC["Independent Bank C"]
+    BankA --> CompeteA["Own customers, policies, services, governance"]
+    BankB --> CompeteB["Own customers, policies, services, governance"]
+    BankC --> CompeteC["Own customers, policies, services, governance"]
+```
+
+*Caption: Participating banks modernize collectively while competing and operating independently.*
+
+#### Launch Gates
+
+```mermaid
+flowchart TB
+    subgraph Establish["Establish"]
+        direction LR
+        Program["Establish Program"] --> Institution["Understand institution"] --> Ceremony["Define first ceremony"] --> Foundations["Establish operating and settlement foundations"]
+    end
+    subgraph Operate["Validate and operate"]
+        direction LR
+        Ready["Confirm operational readiness"] --> Prepare["Prepare institution"] --> Pilot["Controlled Pilot"] --> Review["Evidence review"]
+    end
+    Foundations --> Ready
+```
+
+*Caption: Board approval begins a governed institutional sequence; it does not place a bank into production.*
+
+#### Pilot Governance
+
+```mermaid
+flowchart TB
+    Evidence["Pilot evidence"] --> Proceed["Proceed"]
+    Evidence --> Correct["Correct"]
+    Evidence --> Extend["Extend"]
+    Evidence --> Pause["Pause"]
+```
+
+*Caption: Pilot evidence supports an institutional decision to Proceed, Correct, Extend, or Pause; expansion is not automatic.*

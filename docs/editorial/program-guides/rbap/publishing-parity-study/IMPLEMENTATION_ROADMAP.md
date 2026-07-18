@@ -6,6 +6,10 @@ This roadmap is a reviewable recommendation. It does not authorize implementatio
 
 Each phase has an explicit governance prerequisite and review gate. A phase may prepare evidence for the next phase, but it must not silently grant the authority that the next phase requires.
 
+## Implementation Update — 18 July 2026
+
+The appendix-completion assignment authorized the reference material while deferring the separate Executive Edition and the two-edition EDR. Appendices A–G are now substantively complete in the canonical manuscript, with diagram source embedded in Appendix G. The Executive Summary remains In Review and is eligible—but not yet authorized—for EDR-012 revalidation. The next active gate is appendix and diagram review, followed by a separate Executive Summary revalidation task.
+
 ## Phase 1 — Approve the Publication Architecture
 
 **Objective:** Decide whether RBAP should adopt the Executive Edition and Institutional Reference Edition model described in this study.

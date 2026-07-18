@@ -37,14 +37,14 @@ The RBAP and Thrift Banks columns record current guide coverage against the froz
 | 2. Program definition | Complete | Complete | Planned | Planned | Thrift Section 2 distinguishes the Program from the enduring Capability. |
 | 3. Institutional benefits | Complete | Complete | Planned | Planned | Thrift Section 3 establishes operating leverage and institutional benefit. |
 | 4. Roles and responsibilities | Complete | Complete | Planned | Planned | Thrift Section 2 and Appendix B assign institutional and provider responsibilities. |
-| 5. Governance | Planned | Complete | Planned | Planned | Thrift Section 2 and Appendix B complete governance coverage; RBAP Appendix B remains planned. |
+| 5. Governance | Complete | Complete | Planned | Planned | RBAP Section 2 and Appendix B complete association, bank, provider, pilot, incident, and change-governance coverage. |
 | 6. Licensing or participation model | Complete | Complete | Planned | Planned | Thrift Section 2 defines institution-specific licensing and agreement boundaries without pricing. |
 | 7. Operating sovereignty | Complete | Complete | Planned | Planned | Thrift Sections 3 and 4 preserve institutional ownership and control. |
 | 8. DevOps model | Complete | Complete | Planned | Planned | Thrift Section 2, Section 4, and Appendix B define delegated DevOps responsibility. |
 | 9. Settlement model | Complete | Complete | Planned | Planned | Thrift Section 4 preserves the bank-owned settlement relationship and introduces no NetBank dependency. |
 | 10. Custody and authority boundaries | Complete | Complete | Planned | Planned | Thrift Section 4 and Appendices B and E preserve custody and authority. |
 | 11. Funding Events | Complete | Complete | Planned | Planned | Thrift Section 4 and Appendix D provide the canonical treatment. |
-| 12. Treasury | Planned | Complete | Planned | Planned | Thrift Section 4 and Appendix D complete Treasury coverage; RBAP Appendix D remains planned. |
+| 12. Treasury | Complete | Complete | Planned | Planned | RBAP Section 4 and Appendix D complete the institutional Treasury grammar without changing custody or legal fund character. |
 | 13. Facilities | Complete | Complete | Planned | Planned | Thrift Section 4 preserves Facility ownership of commercial meaning. |
 | 14. Settlement Envelopes | Complete | Complete | Planned | Planned | Thrift Section 4 defines evidence and condition responsibility. |
 | 15. Pay Codes | Complete | Complete | Planned | Planned | Thrift Sections 4 and 5 preserve Pay Code as credential. |
@@ -53,13 +53,13 @@ The RBAP and Thrift Banks columns record current guide coverage against the froz
 | 18. Business case | Complete | Complete | Planned | Planned | Thrift Section 6 establishes the institutional and commercial case. |
 | 19. Costs of participation | Complete | Complete | Planned | Planned | Thrift Section 6 and Appendix C identify cost categories without inventing prices. |
 | 20. Revenue or economic opportunities | Complete | Complete | Planned | Planned | Thrift Section 6 identifies possible value without automatic-return claims. |
-| 21. Commercial Waterfall | Planned | Complete | Planned | Planned | Thrift Section 6 and Appendix C complete the conceptual waterfall; RBAP Appendix C remains planned. |
+| 21. Commercial Waterfall | Complete | Complete | Planned | Planned | RBAP Sections 2 and 6 and Appendix C complete the principles-level accountability model without prescribing prices. |
 | 22. Pilot | Complete | Complete | Planned | Planned | Thrift Section 7 defines a bounded controlled-production pilot. |
 | 23. Phased rollout | Complete | Complete | Planned | Planned | Thrift Section 7 defines evidence-based expansion. |
 | 24. Success metrics | Complete | Complete | Planned | Planned | Thrift Section 7 defines evidence categories without prescribing targets. |
-| 25. FAQ | Planned | Complete | Planned | Planned | Thrift Appendix F answers the required questions; RBAP Appendix F remains planned. |
-| 26. Glossary | Planned | Complete | Planned | Planned | Thrift Appendix A defines the canonical terms; RBAP Appendix A remains planned. |
-| 27. Deployment architecture | Planned | Complete | Planned | Planned | Thrift Appendix E completes the responsibility and deployment boundaries. |
+| 25. FAQ | Complete | Complete | Planned | Planned | RBAP Appendix F answers all reserved questions and the additional institutional questions required for role and approval clarity. |
+| 26. Glossary | Complete | Complete | Planned | Planned | RBAP Appendix A defines the Program's banking, operational, technical, commercial, and publication terms with appropriate legal qualifications. |
+| 27. Deployment architecture | Complete | Complete | Planned | Planned | RBAP Appendix E completes bank-controlled environment, delegated DevOps, release, data, settlement, handover, and portability boundaries. |
 
 The cross-program matrix remains the architectural parity control. The following business-question review supplements it without replacing or reorganizing its 27 mandatory coverage categories.
 
@@ -86,20 +86,20 @@ For a section to be `Complete`, reviewers must confirm all of the following:
 
 ## Canonical Diagram Parity
 
-Appendix G is the shared registry for canonical program diagrams. It is structurally present in the RBAP Program Guide as a placeholder; all canonical diagrams remain `Planned`. Diagram parity is reviewed separately from the 27 mandatory business-coverage categories.
+Appendix G is the shared registry for canonical program diagrams. The RBAP Program Guide now contains governed Mermaid source for every registry diagram and the frozen narrative's editorial illustrations. Diagram parity is reviewed separately from the 27 mandatory business-coverage categories.
 
 | Canonical diagram | Registry status | RBAP | Thrift Banks | Government Depository Banks | Notes |
 | --- | --- | --- | --- | --- | --- |
-| Program Participants | Complete | Planned | Complete | Planned | Canonical source drafted in Thrift Appendix G; other guide integrations remain planned. |
-| Funding Event | Complete | Planned | Complete | Planned | Canonical source drafted in Thrift Appendix G. |
-| Treasury | Complete | Planned | Complete | Planned | Canonical source drafted in Thrift Appendix G. |
-| Banking Operating Model | Complete | Planned | Complete | Planned | Canonical source drafted in Thrift Appendix G. |
-| Deposit Flow | Complete | Planned | Complete | Planned | Canonical source drafted in Thrift Appendix G. |
-| Payroll Flow | Complete | Planned | Complete | Planned | Canonical source drafted in Thrift Appendix G. |
-| Merchant Flow | Complete | Planned | Complete | Planned | Canonical source drafted in Thrift Appendix G. |
-| Government Disbursement Flow | Complete | Planned | Complete | Planned | Canonical source drafted for cross-program parity; use in a thrift service remains subject to bank approval. |
-| Commercial Waterfall | Complete | Planned | Complete | Planned | Canonical conceptual source drafted without pricing. |
-| Deployment Architecture | Complete | Planned | Complete | Planned | Canonical source drafted in Thrift Appendix G. |
+| Program Participants | Complete | Complete | Complete | Planned | RBAP Appendix G preserves association administration, bank authority, delegated operations, and regulated settlement responsibility. |
+| Funding Event | Complete | Complete | Complete | Planned | RBAP Appendix G records recognition of an external financial event without creating value. |
+| Treasury | Complete | Complete | Complete | Planned | RBAP Appendix G distinguishes recognized, available, reserved, outstanding, unresolved, and resolved operational state. |
+| Banking Operating Model | Complete | Complete | Complete | Planned | RBAP Appendix G connects request, bank authority, Facility, conditions, credential, execution, settlement, and reconciliation. |
+| Deposit Flow | Complete | Complete | Complete | Planned | RBAP Appendix G preserves the bank-customer deposit relationship and operational recognition boundary. |
+| Payroll Flow | Complete | Complete | Complete | Planned | RBAP Appendix G preserves employer authority, bank governance, attribution, execution, outcomes, and reconciliation. |
+| Merchant Flow | Complete | Complete | Complete | Planned | RBAP Appendix G preserves the bank-governed Facility and direct settlement arrangement. |
+| Government Disbursement Flow | Complete | Complete | Complete | Planned | RBAP Appendix G preserves agency authority, bank governance, beneficiary conditions, and reconciliation. |
+| Commercial Waterfall | Complete | Complete | Complete | Planned | RBAP Appendix G expresses an accountability sequence separate from custody and settlement and contains no prices. |
+| Deployment Architecture | Complete | Complete | Complete | Planned | RBAP Appendix G preserves separate bank deployments, delegated operations, credentials, accounts, and authority. |
 
 A future guide satisfies diagram parity by referencing the approved canonical diagram. It must not recreate or redefine a canonical diagram without an accepted editorial decision authorizing the deviation.
 
@@ -107,7 +107,7 @@ A future guide satisfies diagram parity by referencing the approved canonical di
 
 | Program | Guide path | Current stage |
 | --- | --- | --- |
-| RBAP Digital Banking Program | `docs/editorial/program-guides/rbap/rbap-digital-banking-program-guide.md` | Sections 1–7 are editorially complete, locked, and frozen as the canonical narrative. The Executive Summary has a complete draft and remains in editorial review under EDR-012; lock requires revalidation after the appendices are complete. Future chapter changes are limited to factual or typographical corrections, whole-manuscript cadence review, and cross-reference updates. Appendices A–F remain planned; Appendix G is structurally present with all diagrams planned. |
+| RBAP Digital Banking Program | `docs/editorial/program-guides/rbap/rbap-digital-banking-program-guide.md` | Sections 1–7 remain editorially complete, locked, and frozen as the canonical narrative. Appendices A–G are substantively complete, all mandatory coverage categories are Complete, and all diagram-registry requirements have RBAP source. The Executive Summary remains In Review and is now eligible for revalidation under EDR-012; it is not yet locked. Future narrative changes remain limited to factual or typographical corrections, whole-manuscript cadence review, and cross-reference updates. |
 | Thrift Bank Digital Banking Program | `docs/editorial/program-guides/thrift-bank/thrift-bank-program-guide.md` | Canonical and editorially locked under the [Editorial Acceptance](thrift-bank/EDITORIAL_ACCEPTANCE.md). EDR-005 editorial work is complete for this implementation; future work proceeds through institution-specific editions. Executive Summary, Sections 1–7, and Appendices A–G are complete. No publication build is authorized. The separate [Phase 1 Institutional Study](../thrift-bank-digital-banking-program/README.md) remains the authoritative doctrinal source. |
 | Government Depository Banking Program | Not created | Anticipated. |
 

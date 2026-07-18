@@ -4,6 +4,10 @@
 
 This strategy defines how the unfinished RBAP appendices and visual placeholders should be completed without reopening the frozen Sections 1–7 or importing Thrift doctrine. It authorizes no drafting or diagram production.
 
+## Implementation Update — 18 July 2026
+
+The subsequent appendix-completion assignment authorized Appendices A–G while explicitly deferring the separate Executive Edition and its governance. The approved low-risk source decision was to populate the appendix area already reserved inside the canonical manuscript rather than reorganize or duplicate it. Appendix G now contains the governed Mermaid source. Sections 1–7 remain byte-preserved, so their seven literal visual-placeholder labels remain in the frozen narrative; Appendix G supplies the completed corresponding figures for later renderer substitution.
+
 ## Sequencing Rule
 
 All required Appendices A–G must be substantively complete before the Executive Summary can be revalidated and locked.
@@ -16,28 +20,19 @@ The Executive Edition may exclude the appendices from its published scope. Their
 
 | Appendix | Current state | Executive Edition | Institutional Reference Edition | Source strategy | New work required |
 | --- | --- | --- | --- | --- | --- |
-| A — Glossary | Placeholder | Exclude | Include | Assemble controlled terms from the frozen guide, canonical architecture, and accepted EDRs. | Definitions, cross-term consistency, authority review. |
-| B — Program Governance | Placeholder | Exclude | Include | Derive roles, decision rights, exclusions, and gates from Sections 2, 4, and 7 and EDR-007 through EDR-009. | Structured governance reference and escalation boundaries. |
-| C — Commercial Waterfall | Placeholder | Exclude | Include | Derive the conceptual model from Sections 2 and 6 and canonical Program Guide coverage. | Non-pricing accountability model; no invented rates or commitments. |
-| D — Treasury Grammar | Placeholder | Exclude | Include | Derive from Section 4, EDR-010, and approved cross-corpus Treasury grammar. | Controlled reference for Funding Events, Treasury, Liens, Facilities, Settlement Envelopes, Pay Codes, and Execution. |
-| E — Deployment Architecture | Placeholder | Exclude | Include | Derive from Sections 2–4, EDR-008 and EDR-009, and approved operational-sovereignty clarification. | Responsibility, tenancy, credential, data, CI/CD, audit, and settlement boundaries. |
-| F — Frequently Asked Questions | Twelve unanswered questions | Exclude | Include | Answer from the frozen narrative and accepted decisions. | Concise answers, source traceability, gap escalation where doctrine is absent. |
-| G — Program Diagrams | Placeholder | Exclude as an appendix | Include | Create RBAP-specific diagram sources governed by the parity registry. | Canonical diagram review, rendering, accessibility text, and publication QA. |
+| A — Glossary | Complete | Exclude | Include | Controlled terms derived from the frozen guide, canonical architecture, and accepted EDRs. | Eligible for appendix review. |
+| B — Program Governance | Complete | Exclude | Include | Roles, decision rights, exclusions, and gates derived from Sections 2, 4, and 7 and EDR-007 through EDR-009. | Eligible for appendix review. |
+| C — Commercial Waterfall | Complete | Exclude | Include | Principles-level accountability model derived from Sections 2 and 6 without prices. | Eligible for commercial-boundary review. |
+| D — Treasury Grammar | Complete | Exclude | Include | Institutional reference derived from Section 4 and EDR-010. | Eligible for Treasury review. |
+| E — Deployment Architecture | Complete | Exclude | Include | Responsibility, tenancy, credential, data, CI/CD, audit, settlement, and portability boundaries. | Eligible for architecture review. |
+| F — Frequently Asked Questions | Complete | Exclude | Include | All reserved and necessary institutional questions answered from frozen doctrine. | Eligible for appendix review. |
+| G — Program Diagrams | Complete source | Exclude as an appendix | Include | Twenty-five RBAP-specific Mermaid sources governed by the parity registry and frozen narrative. | Rendering and body placement remain future publication work. |
 
 ### Appendix source location
 
-Separate canonical appendix files are recommended under a future `docs/editorial/program-guides/rbap/appendices/` directory.
+The implementation keeps Appendices A–G embedded in the appendix area already reserved by the canonical manuscript. This avoids reorganizing the source, prevents duplicated appendix text, and allows the complete reference source to remain one canonical Markdown document. Mermaid blocks in Appendix G are the governed diagram source. Future publication automation may extract or render them without moving the canonical content.
 
-This approach:
-
-- keeps reference material reviewable one appendix at a time;
-- allows the Institutional Reference Edition to aggregate sources deterministically;
-- prevents the Executive Edition from carrying hidden or manually removed content;
-- supports diagram-source processing;
-- mirrors a proven repository pattern without copying Thrift doctrine; and
-- avoids duplicating appendices between editions.
-
-The appendix headings already reserved in the main manuscript should become an appendix registry or set of source links through a permitted cross-reference update. The frozen narrative itself should remain unchanged.
+The separate appendix-directory model remains a valid future publishing option only if explicit governance later requires reusable source composition. It is not required for the present appendix-completion state.
 
 ### Appendix drafting control
 
