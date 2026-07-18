@@ -8,7 +8,7 @@ edition: "first-approved-implementation"
 status: "canonical"
 editorial_state: "completed"
 canonical_state: "locked"
-future_work: "institution-specific-editions"
+future_work: "expanded-edition-review-and-institution-specific-editions"
 approval_date: "2026-07-18"
 canonical_role: "thrift-bank implementation guide"
 audience: "Boards and executive leadership of Philippine thrift banks"
@@ -23,6 +23,7 @@ source:
 governance:
   decision: "EDR-005"
   decision_state: "editorially-complete"
+  expanded_edition_decision: "EDR-013"
   architecture: "docs/editorial/program-guides/CANONICAL_BANKING_PROGRAM_GUIDE.md"
   parity_checklist: "docs/editorial/program-guides/PROGRAM_GUIDE_PARITY_CHECKLIST.md"
 editorial:
@@ -47,4 +48,13 @@ publication:
   pdf: "build/pdf/thrift-bank-digital-banking-program-guide-first-edition.pdf"
   pipeline: "scripts/publish-thrift-bank-program-guide.py"
   stylesheet: "resources/publication-assets/styles/program-guide.css"
+editions:
+  first:
+    manuscript: "docs/editorial/program-guides/thrift-bank/thrift-bank-program-guide.md"
+    status: "canonical-locked-published"
+  expanded:
+    manuscript: "docs/editorial/program-guides/thrift-bank/expanded-edition/thrift-bank-program-guide-expanded-edition.md"
+    metadata: "docs/editorial/program-guides/thrift-bank/expanded-edition/metadata.yaml"
+    status: "editorial-review"
+    publication_generated: false
 notes: "Accepted on 18 July 2026 as the first approved canonical implementation guide for the thrift-bank track. The Institutional Study remains the doctrinal source. No named bank participation, pricing, legal conclusion, production readiness, or settlement-provider dependency is asserted."

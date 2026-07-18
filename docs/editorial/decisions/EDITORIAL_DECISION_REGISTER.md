@@ -87,6 +87,7 @@ The repository's earlier accepted decisions remain authoritative in their origin
 | [EDR-010](#edr-010--funding-event-is-the-entry-point-to-treasury) | Funding Event Is the Entry Point to Treasury | Accepted | 2026-07-16 | None | None |
 | [EDR-011](#edr-011--section-6-is-the-institutional-case) | Section 6 Is the Institutional Case | Accepted | 2026-07-18 | None | None |
 | [EDR-012](#edr-012--executive-summary-review-follows-the-frozen-narrative) | Executive Summary Review Follows the Frozen Narrative | Accepted | 2026-07-18 | EDR-002; EDR-003 (timing only) | None |
+| [EDR-013](#edr-013--expanded-edition-of-the-thrift-bank-digital-banking-program-guide) | Expanded Edition of the Thrift Bank Digital Banking Program Guide | Accepted | 2026-07-18 | None | None |
 
 ## EDR-001 — Program Guides Are Canonical Commercial Specifications
 
@@ -749,3 +750,64 @@ None.
 ### Notes
 
 Active. This decision changes workflow timing only. It does not alter the canonical section architecture, required appendix coverage, or the rule that an Executive Summary must introduce no new claims.
+
+## EDR-013 — Expanded Edition of the Thrift Bank Digital Banking Program Guide
+
+**Decision ID:** `EDR-013`
+
+**Title:** Expanded Edition of the Thrift Bank Digital Banking Program Guide
+
+**Status:** Accepted
+
+**Date:** 2026-07-18
+
+### Context
+
+The published First Edition of the Thrift Bank Digital Banking Program Guide is editorially, architecturally, and canonically correct. It functions well as a concise Board paper. Comparison with the RBAP Digital Banking Program Guide nevertheless showed a material difference in explanatory depth, institutional reasoning, governance discussion, operational walkthroughs, and implementation guidance.
+
+The difference does not indicate an error in the First Edition. It identifies a second legitimate reading need: a comprehensive institutional implementation reference that rewards closer study by executive sponsors and responsible bank functions.
+
+### Decision
+
+The First Edition must remain unchanged and valid as published.
+
+A separate **Expanded Edition** is authorized. It inherits the frozen doctrine, architecture, institutional boundaries, operating grammar, Treasury grammar, Transaction Gravity, readiness doctrine, and driver lifecycle from the accepted thrift-bank sources. It may expand the explanation surrounding those concepts to achieve parity of institutional understanding with the RBAP Program Guide.
+
+The Expanded Edition does not supersede or replace the First Edition. The First Edition remains the concise Board paper. The Expanded Edition becomes the comprehensive institutional implementation reference after completing editorial review and receiving separate publication authorization.
+
+### Rationale
+
+Different executive and implementation contexts require different depths of explanation. Preserving two editions allows the publishing system to serve both needs without weakening the First Edition through retrospective expansion or treating length as a correction to settled doctrine.
+
+Parity is measured by institutional maturity and the business questions answered, not by matching RBAP wording, headings, page count, or word count.
+
+### Consequences
+
+- The locked First Edition manuscript and publication artifacts remain unchanged.
+- The Expanded Edition is maintained as a separate editorial source with separate metadata.
+- Both editions remain doctrinally traceable to the Institutional Study and canonical First Edition.
+- Shared canonical Appendices A–G may form part of the Expanded Edition without duplication or redesign.
+- Expanded Edition editorial work may improve explanation, cadence, examples, cross-references, and implementation understanding without changing doctrine.
+- Any proposed doctrinal or architectural change requires a separate Editorial Decision Record.
+- Expanded Edition publication requires a later, explicit publishing assignment.
+
+### Affected Documents
+
+- [Thrift Bank Digital Banking Program Guide](../program-guides/thrift-bank/thrift-bank-program-guide.md)
+- [Expanded Edition](../program-guides/thrift-bank/expanded-edition/thrift-bank-program-guide-expanded-edition.md)
+- [Expanded Edition metadata](../program-guides/thrift-bank/expanded-edition/metadata.yaml)
+- [Edition comparison](../program-guides/thrift-bank/expanded-edition/EDITION_COMPARISON.md)
+- [RBAP parity report](../program-guides/thrift-bank/expanded-edition/PARITY_REPORT.md)
+- [Thrift Bank Program Guide index](../program-guides/thrift-bank/README.md)
+
+### Supersedes
+
+None.
+
+### Superseded By
+
+None.
+
+### Notes
+
+Active. The proposal requested `EDR-006`, but that identifier already belongs to the accepted decision **Program Guides Must Answer Executive Questions Directly**. Register governance prohibits reuse, so the next available stable identifier, `EDR-013`, is used without altering the approved substance.

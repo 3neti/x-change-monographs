@@ -1,0 +1,46 @@
+series: "x-change Banking Program Guides"
+title: "Thrift Bank Digital Banking Program Guide"
+subtitle: "A Canonical Implementation Guide for Philippine Thrift Banks"
+document_form: "Program Guide"
+document_type: "banking-program-guide"
+version: "0.1"
+edition: "expanded-edition"
+status: "editorial-review"
+editorial_state: "in-review"
+canonical_state: "derivative-of-locked-first-edition"
+approval_date: null
+canonical_role: "comprehensive thrift-bank institutional implementation reference"
+audience: "Boards, executive leadership, and responsible implementation functions of Philippine thrift banks"
+source:
+  manuscript: "docs/editorial/program-guides/thrift-bank/expanded-edition/thrift-bank-program-guide-expanded-edition.md"
+  first_edition_manuscript: "docs/editorial/program-guides/thrift-bank/thrift-bank-program-guide.md"
+  shared_appendices: "docs/editorial/program-guides/thrift-bank/appendices"
+  institutional_study: "docs/editorial/thrift-bank-digital-banking-program/thrift-bank-digital-banking-program.md"
+  thesis: "docs/editorial/thrift-bank-digital-banking-program/CANONICAL_THESIS.md"
+  reconciliation: "docs/editorial/thrift-bank-digital-banking-program/EDITORIAL_RECONCILIATION.md"
+  architecture: "docs/editorial/thrift-bank-digital-banking-program/ARCHITECTURAL_NOTES.md"
+governance:
+  decision: "EDR-013"
+  architecture: "docs/editorial/program-guides/CANONICAL_BANKING_PROGRAM_GUIDE.md"
+  parity_checklist: "docs/editorial/program-guides/PROGRAM_GUIDE_PARITY_CHECKLIST.md"
+  parity_report: "docs/editorial/program-guides/thrift-bank/expanded-edition/PARITY_REPORT.md"
+  edition_comparison: "docs/editorial/program-guides/thrift-bank/expanded-edition/EDITION_COMPARISON.md"
+editorial:
+  lock_status: "In Review"
+  executive_summary_status: "In Review"
+  section_status:
+    "1": "In Review"
+    "2": "In Review"
+    "3": "In Review"
+    "4": "In Review"
+    "5": "In Review"
+    "6": "In Review"
+    "7": "In Review"
+  appendices_status: "Shared canonical appendices; unchanged"
+publication:
+  generated: false
+  edition_label: "Expanded Edition"
+  scope: "Executive Summary, Sections 1–7, and shared canonical Appendices A–G"
+  html: null
+  pdf: null
+notes: "The Expanded Edition preserves the published First Edition and frozen thrift-bank doctrine. It expands institutional explanation for editorial review under EDR-013. No named bank participation, pricing, legal conclusion, production readiness, or settlement-provider dependency is asserted."

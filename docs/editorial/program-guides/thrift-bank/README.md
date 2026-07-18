@@ -12,7 +12,7 @@ The approved Phase 1 [Institutional Study](../../thrift-bank-digital-banking-pro
 
 Future institution-specific thrift-bank editions must derive from this repository. They may adapt approved institutional context and implementation detail without silently altering the frozen doctrine.
 
-The canonical editorial work is complete. Future work proceeds through institution-specific editions rather than further refinement of this repository, except for factual or typographical corrections, navigational maintenance, or changes authorized through an explicit Editorial Decision Record.
+The First Edition's canonical editorial work is complete. Future work ordinarily proceeds through institution-specific editions. EDR-013 separately authorizes an Expanded Edition that develops the same frozen doctrine into a comprehensive institutional implementation reference without revising or replacing the First Edition.
 
 ## Editorial Lineage
 
@@ -31,3 +31,13 @@ The First Edition publishes the canonical executive narrative as a Board paper. 
 - [Publication HTML](../../../../build/program-guides/thrift-bank/first-edition/thrift-bank-digital-banking-program-guide-first-edition.html)
 - [Publishing pipeline](../../../../scripts/publish-thrift-bank-program-guide.py)
 - [Shared Program Guide stylesheet](../../../../resources/publication-assets/styles/program-guide.css)
+
+## Expanded Edition
+
+The [Expanded Edition manuscript](expanded-edition/thrift-bank-program-guide-expanded-edition.md) is a separate editorial review draft. It develops the institutional reasoning, operating perspectives, governance discussion, banking ceremonies, and launch journey while preserving the canonical architecture and doctrine of the locked First Edition.
+
+- [Expanded Edition metadata](expanded-edition/metadata.yaml)
+- [RBAP parity report](expanded-edition/PARITY_REPORT.md)
+- [Edition comparison](expanded-edition/EDITION_COMPARISON.md)
+
+No Expanded Edition PDF, HTML, or publication asset has been generated. Appendices A–G remain the shared canonical appendices and were not duplicated or modified for this draft.
