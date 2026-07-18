@@ -350,6 +350,8 @@ None.
 
 Active. Any structural deviation must cite an accepted decision in this register.
 
+On 18 July 2026, the Editorial Board accepted the [Thrift Bank Digital Banking Program Guide](../program-guides/thrift-bank/thrift-bank-program-guide.md) as the canonical implementation guide for the thrift-bank track. Its [Editorial Acceptance](../program-guides/thrift-bank/EDITORIAL_ACCEPTANCE.md) records the completed lock, frozen doctrine, canonical document hierarchy, and institution-specific-edition rule. This acceptance completes the thrift-bank implementation of EDR-005; it does not alter the cross-program architecture established by this decision.
+
 ## EDR-006 — Program Guides Must Answer Executive Questions Directly
 
 **Decision ID:** `EDR-006`

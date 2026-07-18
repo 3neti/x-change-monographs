@@ -80,3 +80,18 @@ Future editions may improve institution-specific expression. They must not silen
 - Institution-specific editions must identify this repository as their implementation source and the Institutional Study as their doctrinal source.
 - Adaptation does not imply adoption, approval, certification, or participation by any named institution.
 
+## Institution-Specific Editions
+
+Future work proceeds through institution-specific editions. Such editions may adapt customer examples, banking ceremonies, implementation priorities, institutional terminology, deployment sequencing, governance emphasis, commercial proposals, and institution-specific implementation detail.
+
+They exist to adapt the framework to an institution. They do not exist to redesign the framework. Editorial improvements discovered through field use must first be evaluated as potential doctrine. Canonical doctrine may change only through an explicit Editorial Decision Record.
+
+## Final EDR-005 Decision
+
+The Canonical Lock Ceremony is accepted. EDR-005 is editorially complete for the Thrift Bank Digital Banking Program Guide.
+
+> The canonical editorial work for the Thrift Bank Digital Banking Program is complete.
+
+Future effort should shift from creating additional doctrine toward applying the canonical framework within specific financial institutions. Experience gained through actual institutional engagements should inform future editions and, where necessary, future Editorial Decision Records.
+
+The repository now serves as the stable implementation reference for the thrift-bank track of the x-change ecosystem.

@@ -6,6 +6,9 @@ document_type: "banking-program-guide"
 version: "1.0"
 edition: "first-approved-implementation"
 status: "canonical"
+editorial_state: "completed"
+canonical_state: "locked"
+future_work: "institution-specific-editions"
 approval_date: "2026-07-18"
 canonical_role: "thrift-bank implementation guide"
 audience: "Boards and executive leadership of Philippine thrift banks"
@@ -19,6 +22,7 @@ source:
   acceptance: "docs/editorial/program-guides/thrift-bank/EDITORIAL_ACCEPTANCE.md"
 governance:
   decision: "EDR-005"
+  decision_state: "editorially-complete"
   architecture: "docs/editorial/program-guides/CANONICAL_BANKING_PROGRAM_GUIDE.md"
   parity_checklist: "docs/editorial/program-guides/PROGRAM_GUIDE_PARITY_CHECKLIST.md"
 editorial:

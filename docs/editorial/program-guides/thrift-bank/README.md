@@ -12,6 +12,8 @@ The approved Phase 1 [Institutional Study](../../thrift-bank-digital-banking-pro
 
 Future institution-specific thrift-bank editions must derive from this repository. They may adapt approved institutional context and implementation detail without silently altering the frozen doctrine.
 
+The canonical editorial work is complete. Future work proceeds through institution-specific editions rather than further refinement of this repository, except for factual or typographical corrections, navigational maintenance, or changes authorized through an explicit Editorial Decision Record.
+
 ## Editorial Lineage
 
 1. [Movement III — Modernizing Philippine Thrift Banks for the Digital Economy](../../movement-iii-thrift-banks/modernizing-philippine-thrift-banks.md)
