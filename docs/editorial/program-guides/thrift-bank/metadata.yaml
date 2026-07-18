@@ -38,5 +38,13 @@ editorial:
     "7": "Locked"
   appendices_status: "Locked"
 publication:
-  generated: false
+  generated: true
+  edition_label: "First Edition"
+  version: "1.0"
+  scope: "Cover, publication information, table of contents, Executive Summary, and Sections 1–7"
+  page_count: 16
+  html: "build/program-guides/thrift-bank/first-edition/thrift-bank-digital-banking-program-guide-first-edition.html"
+  pdf: "build/pdf/thrift-bank-digital-banking-program-guide-first-edition.pdf"
+  pipeline: "scripts/publish-thrift-bank-program-guide.py"
+  stylesheet: "resources/publication-assets/styles/program-guide.css"
 notes: "Accepted on 18 July 2026 as the first approved canonical implementation guide for the thrift-bank track. The Institutional Study remains the doctrinal source. No named bank participation, pricing, legal conclusion, production readiness, or settlement-provider dependency is asserted."

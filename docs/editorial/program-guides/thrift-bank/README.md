@@ -23,4 +23,11 @@ The canonical editorial work is complete. Future work proceeds through instituti
 
 The [RBAP Digital Banking Program Guide](../rbap/rbap-digital-banking-program-guide.md) remains the rural-bank sector implementation and an editorial predecessor. Its collective program context does not replace the thrift-bank doctrine.
 
-No PDF or publication assets have been generated.
+## First Edition
+
+The First Edition publishes the canonical executive narrative as a Board paper. Its scope is the cover, publication information, table of contents, Executive Summary, and Sections 1–7. Appendices A–G remain reserved for a future Expanded Edition.
+
+- [Publication PDF](../../../../build/pdf/thrift-bank-digital-banking-program-guide-first-edition.pdf)
+- [Publication HTML](../../../../build/program-guides/thrift-bank/first-edition/thrift-bank-digital-banking-program-guide-first-edition.html)
+- [Publishing pipeline](../../../../scripts/publish-thrift-bank-program-guide.py)
+- [Shared Program Guide stylesheet](../../../../resources/publication-assets/styles/program-guide.css)
