@@ -9,4 +9,13 @@ This directory contains the first sector implementation of the Canonical Banking
 
 The RBAP strategic white paper remains a separate thought-leadership document at [`../../rbap/00-modernizing-rural-banks.md`](../../rbap/00-modernizing-rural-banks.md).
 
-No publication build has been generated for this guide.
+Generated publication files belong under `build/`, not in this directory.
+
+## Edition 1
+
+Edition 1 publishes the first editorial freeze as a self-contained Board paper. Its scope is the Executive Summary and Sections 1–7; appendices and canonical program diagrams remain reserved for a future edition.
+
+- [Publication PDF](../../../../build/pdf/rbap-digital-banking-program-guide-edition-1.pdf)
+- [Publication HTML](../../../../build/program-guides/rbap/edition-1/rbap-digital-banking-program-guide-edition-1.html)
+- [Publishing pipeline](../../../../scripts/publish-rbap-program-guide.py)
+- [Reusable Program Guide stylesheet](../../../../resources/publication-assets/styles/program-guide.css)

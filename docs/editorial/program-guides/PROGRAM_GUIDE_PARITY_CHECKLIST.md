@@ -108,7 +108,7 @@ A future guide satisfies diagram parity by referencing the approved canonical di
 | Program | Guide path | Current stage |
 | --- | --- | --- |
 | RBAP Digital Banking Program | `docs/editorial/program-guides/rbap/rbap-digital-banking-program-guide.md` | Sections 1–7 are editorially complete, locked, and frozen as the canonical narrative. The Executive Summary has a complete draft and remains in editorial review under EDR-012; lock requires revalidation after the appendices are complete. Future chapter changes are limited to factual or typographical corrections, whole-manuscript cadence review, and cross-reference updates. Appendices A–F remain planned; Appendix G is structurally present with all diagrams planned. |
-| Thrift Bank Digital Banking Program | Not created | Anticipated. |
+| Thrift Bank Digital Banking Program | Not created | Anticipated. A separate [Phase 1 institutional study](../thrift-bank-digital-banking-program/README.md) now provides source material; it is not the formal Program Guide implementation and does not change the `Planned` parity statuses above. |
 | Government Depository Banking Program | Not created | Anticipated. |
 
 ## Required Gap Report

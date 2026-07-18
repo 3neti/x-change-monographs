@@ -4,7 +4,8 @@ document_form: "Program Guide"
 subtitle: "A Collective Modernization Initiative for Philippine Rural Banks"
 document_type: "banking-program-guide"
 version: "0.1"
-status: "section-drafting"
+edition: "first"
+status: "first-editorial-freeze"
 audience: "RBAP leadership and Philippine rural banks"
 source:
   manuscript: "docs/editorial/program-guides/rbap/rbap-digital-banking-program-guide.md"
@@ -24,5 +25,11 @@ editorial:
 related:
   strategic_white_paper: "docs/editorial/rbap/00-modernizing-rural-banks.md"
 publication:
-  generated: false
+  generated: true
+  edition_label: "Edition 1"
+  scope: "Executive Summary and Sections 1–7"
+  html: "build/program-guides/rbap/edition-1/rbap-digital-banking-program-guide-edition-1.html"
+  pdf: "build/pdf/rbap-digital-banking-program-guide-edition-1.pdf"
+  pipeline: "scripts/publish-rbap-program-guide.py"
+  stylesheet: "resources/publication-assets/styles/program-guide.css"
 notes: "The approved architecture remains frozen. Sections 1–7 are editorially complete, locked, and frozen as the canonical narrative. The Executive Summary has a complete draft and remains in editorial review under EDR-012; it must be revalidated before lock after the required appendices are complete. Future chapter changes are limited to factual corrections, typographical corrections, whole-manuscript cadence review, and cross-reference updates. Appendices A–F remain planned. Appendix G is structurally present; all canonical diagrams remain planned."

@@ -1,0 +1,654 @@
+:root {
+  --ink: #17283b;
+  --text: #25282c;
+  --accent: #947553;
+  --accent-soft: #f2eee7;
+  --muted: #697077;
+  --rule: #d8d2c8;
+  --rule-dark: #b9b0a3;
+  --paper: #fffefa;
+  --panel: #f7f5f0;
+}
+
+@page cover {
+  size: A4;
+  margin: 0;
+  counter-reset: page 0;
+}
+
+@page version {
+  size: A4;
+  margin: 24mm 24mm 22mm;
+
+  @bottom-left {
+    content: "RBAP DIGITAL BANKING PROGRAM";
+    color: var(--muted);
+    font-family: "Avenir Next", Avenir, sans-serif;
+    font-size: 6.4pt;
+    letter-spacing: 0.08em;
+  }
+
+  @bottom-right {
+    content: counter(page);
+    color: var(--muted);
+    font-family: "Avenir Next", Avenir, sans-serif;
+    font-size: 7pt;
+  }
+}
+
+@page contents {
+  size: A4;
+  margin: 23mm 24mm 22mm;
+
+  @bottom-left {
+    content: "RBAP DIGITAL BANKING PROGRAM";
+    color: var(--muted);
+    font-family: "Avenir Next", Avenir, sans-serif;
+    font-size: 6.4pt;
+    letter-spacing: 0.08em;
+  }
+
+  @bottom-right {
+    content: counter(page);
+    color: var(--muted);
+    font-family: "Avenir Next", Avenir, sans-serif;
+    font-size: 7pt;
+  }
+}
+
+@page body {
+  size: A4;
+  margin: 20mm 23mm 22mm;
+
+  @top-left {
+    content: string(section-title);
+    color: var(--accent);
+    font-family: "Avenir Next", Avenir, sans-serif;
+    font-size: 6.3pt;
+    font-weight: 500;
+    letter-spacing: 0.075em;
+  }
+
+  @bottom-left {
+    content: "RBAP DIGITAL BANKING PROGRAM · EDITION 1";
+    color: var(--muted);
+    font-family: "Avenir Next", Avenir, sans-serif;
+    font-size: 6.2pt;
+    letter-spacing: 0.065em;
+  }
+
+  @bottom-right {
+    content: counter(page);
+    color: var(--muted);
+    font-family: "Avenir Next", Avenir, sans-serif;
+    font-size: 7pt;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--paper);
+  color: var(--text);
+}
+
+body {
+  font-family: Charter, Baskerville, Georgia, serif;
+  font-size: 9.85pt;
+  line-height: 1.47;
+}
+
+.cover-page {
+  page: cover;
+  width: 210mm;
+  height: 297mm;
+  padding: 24mm 24mm 20mm;
+  break-after: page;
+}
+
+.cover-frame {
+  position: relative;
+  height: 253mm;
+  border: 0.45pt solid var(--rule);
+  padding: 22mm 20mm 17mm;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.cover-kicker {
+  color: var(--accent);
+  font-family: "Avenir Next", Avenir, sans-serif;
+  font-size: 7.6pt;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.cover-rule {
+  width: 13mm;
+  margin: 7mm 0 20mm;
+  border-top: 0.6pt solid var(--accent);
+}
+
+.cover-page h1 {
+  max-width: 150mm;
+  margin: 0;
+  color: var(--ink);
+  font-family: Charter, Baskerville, Georgia, serif;
+  font-size: 34pt;
+  font-weight: 600;
+  letter-spacing: -0.025em;
+  line-height: 1.03;
+  bookmark-level: none;
+}
+
+.cover-subtitle {
+  max-width: 128mm;
+  margin: 10mm 0 0;
+  color: var(--muted);
+  font-size: 12.2pt;
+  font-style: italic;
+  line-height: 1.42;
+}
+
+.cover-edition {
+  margin-top: 9mm;
+  color: var(--accent);
+  font-family: "Avenir Next", Avenir, sans-serif;
+  font-size: 7.2pt;
+  font-weight: 500;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+
+.cover-recipient {
+  margin-top: auto;
+  color: var(--muted);
+  font-family: "Avenir Next", Avenir, sans-serif;
+  font-size: 7pt;
+  letter-spacing: 0.1em;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+.cover-recipient strong {
+  display: block;
+  margin-top: 2.2mm;
+  color: var(--ink);
+  font-size: 9.2pt;
+  font-weight: 600;
+  letter-spacing: 0.035em;
+}
+
+.cover-imprint {
+  display: flex;
+  align-items: center;
+  gap: 2.5mm;
+  margin-top: 13mm;
+  color: var(--ink);
+  font-family: "Avenir Next", Avenir, sans-serif;
+  font-size: 9pt;
+  font-weight: 600;
+}
+
+.cover-imprint img {
+  width: 4.6mm;
+  height: auto;
+}
+
+.version-page {
+  page: version;
+  min-height: 251mm;
+  break-after: page;
+  display: flex;
+  flex-direction: column;
+}
+
+.version-kicker,
+.front-kicker {
+  color: var(--accent);
+  font-family: "Avenir Next", Avenir, sans-serif;
+  font-size: 7pt;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.version-page h1 {
+  max-width: 142mm;
+  margin: 11mm 0 0;
+  color: var(--ink);
+  font-size: 24pt;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  line-height: 1.1;
+  bookmark-level: none;
+}
+
+.version-subtitle {
+  max-width: 132mm;
+  margin: 7mm 0 0;
+  color: var(--muted);
+  font-size: 10.7pt;
+  font-style: italic;
+  line-height: 1.42;
+}
+
+.publication-record {
+  margin: 20mm 0 0;
+  font-family: "Avenir Next", Avenir, sans-serif;
+  font-size: 8.3pt;
+}
+
+.publication-record div {
+  display: grid;
+  grid-template-columns: 34mm 1fr;
+  gap: 5mm;
+  padding: 3mm 0;
+  border-top: 0.35pt solid var(--rule);
+}
+
+.publication-record div:last-child {
+  border-bottom: 0.35pt solid var(--rule);
+}
+
+.publication-record dt {
+  color: var(--muted);
+  font-weight: 500;
+}
+
+.publication-record dd {
+  margin: 0;
+  color: var(--ink);
+}
+
+.copyright-note {
+  margin-top: auto;
+  color: var(--muted);
+  font-size: 8.2pt;
+  line-height: 1.45;
+}
+
+.copyright-note p {
+  margin: 0 0 1.5mm;
+}
+
+.contents-page {
+  page: contents;
+  min-height: 252mm;
+  break-after: page;
+}
+
+.contents-page h1 {
+  margin: 9mm 0 16mm;
+  color: var(--ink);
+  font-family: Charter, Baskerville, Georgia, serif;
+  font-size: 25pt;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+}
+
+.toc {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.toc li {
+  margin: 0;
+  border-top: 0.35pt solid var(--rule);
+  break-inside: avoid;
+}
+
+.toc li:last-child {
+  border-bottom: 0.35pt solid var(--rule);
+}
+
+.toc a {
+  display: grid;
+  grid-template-columns: 12mm 1fr auto;
+  align-items: baseline;
+  gap: 4mm;
+  padding: 4.2mm 0;
+  color: var(--text);
+  text-decoration: none;
+}
+
+.toc a::after {
+  content: target-counter(attr(href), page);
+  color: var(--muted);
+  font-family: "Avenir Next", Avenir, sans-serif;
+  font-size: 8pt;
+}
+
+.toc-number {
+  color: var(--accent);
+  font-family: "Avenir Next", Avenir, sans-serif;
+  font-size: 7pt;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+}
+
+.toc-title {
+  color: var(--ink);
+  font-size: 10.4pt;
+}
+
+.manuscript {
+  page: body;
+  text-align: justify;
+  hyphens: auto;
+}
+
+.major-section {
+  break-before: page;
+}
+
+.section-number {
+  margin: 0 0 4mm;
+  color: var(--accent);
+  font-family: "Avenir Next", Avenir, sans-serif;
+  font-size: 7pt;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.major-section h2 {
+  string-set: section-title attr(data-running);
+  max-width: 145mm;
+  margin: 0 0 10mm;
+  color: var(--ink);
+  font-family: Charter, Baskerville, Georgia, serif;
+  font-size: 24pt;
+  font-weight: 600;
+  letter-spacing: -0.018em;
+  line-height: 1.08;
+  text-align: left;
+  hyphens: none;
+  bookmark-level: 1;
+}
+
+.manuscript p {
+  margin: 0 0 0.66em;
+  orphans: 3;
+  widows: 3;
+}
+
+.opening-lede {
+  margin-bottom: 1.2em !important;
+  color: var(--ink);
+  font-size: 11pt;
+  line-height: 1.5;
+}
+
+.subheading {
+  color: var(--ink);
+  text-align: left;
+  hyphens: none;
+  break-after: avoid;
+  orphans: 3;
+  widows: 3;
+}
+
+h3.subheading {
+  margin: 9mm 0 3.2mm;
+  font-family: "Avenir Next", Avenir, sans-serif;
+  font-size: 12.4pt;
+  font-weight: 600;
+  letter-spacing: -0.006em;
+  line-height: 1.24;
+}
+
+h4.subheading {
+  margin: 6mm 0 2.3mm;
+  color: var(--accent);
+  font-family: "Avenir Next", Avenir, sans-serif;
+  font-size: 8.4pt;
+  font-weight: 600;
+  letter-spacing: 0.065em;
+  line-height: 1.3;
+  text-transform: uppercase;
+}
+
+h3.section-summary {
+  margin-top: 11mm;
+  padding-top: 4mm;
+  border-top: 0.65pt solid var(--accent);
+}
+
+strong {
+  color: var(--ink);
+  font-weight: 600;
+}
+
+.executive-callout {
+  margin: 0 0 3mm;
+  padding: 3.5mm 4.2mm 3.5mm 5mm;
+  border-left: 1.8pt solid var(--accent);
+  background: var(--panel);
+  break-inside: avoid;
+  text-align: left;
+}
+
+.executive-callout + .executive-callout {
+  margin-top: -1.2mm;
+}
+
+.executive-callout__label {
+  margin-bottom: 1.2mm;
+  color: var(--accent);
+  font-family: "Avenir Next", Avenir, sans-serif;
+  font-size: 6.7pt;
+  font-weight: 600;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+.executive-callout__text {
+  color: var(--ink);
+  font-family: "Avenir Next", Avenir, sans-serif;
+  font-size: 8.5pt;
+  line-height: 1.4;
+}
+
+.executive-decision {
+  margin-bottom: 8mm;
+}
+
+.anchor-paragraph {
+  margin: 5mm 0 5.5mm !important;
+}
+
+.anchor-sentence {
+  display: block;
+  margin-bottom: 1.5mm;
+  color: var(--ink);
+  font-size: 11.2pt;
+  font-weight: 600;
+  line-height: 1.35;
+  text-align: left;
+}
+
+.pull-quote {
+  max-width: 130mm;
+  margin: 7mm auto !important;
+  color: var(--ink);
+  font-size: 11.6pt;
+  font-style: italic;
+  line-height: 1.4;
+  text-align: center;
+  hyphens: none;
+  break-inside: avoid;
+}
+
+.executive-summary .pull-quote {
+  margin-top: 3.5mm !important;
+  margin-bottom: 0 !important;
+}
+
+.editorial-list {
+  margin: 2mm 0 4mm 5mm;
+  padding-left: 4.5mm;
+  text-align: left;
+}
+
+.editorial-list li {
+  margin: 0 0 1.4mm;
+  padding-left: 1mm;
+  orphans: 2;
+  widows: 2;
+}
+
+#section-2-what-is-the-program .editorial-list li {
+  margin-bottom: 0.9mm;
+}
+
+.editorial-quote,
+.dialogue {
+  margin: 4mm 8mm 5mm;
+  padding: 3.5mm 5mm;
+  border-left: 1.4pt solid var(--accent);
+  background: var(--panel);
+  color: var(--ink);
+  break-inside: avoid;
+  text-align: left;
+}
+
+.editorial-quote p,
+.dialogue p {
+  margin: 0;
+}
+
+.dialogue span {
+  display: block;
+  margin-bottom: 1.2mm;
+  color: var(--accent);
+  font-family: "Avenir Next", Avenir, sans-serif;
+  font-size: 6.8pt;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.decision-strip {
+  margin: 5mm 8mm 6mm;
+  padding: 3.5mm 5mm;
+  border-top: 0.6pt solid var(--accent);
+  border-bottom: 0.6pt solid var(--accent);
+  color: var(--ink);
+  font-family: "Avenir Next", Avenir, sans-serif;
+  font-size: 9pt;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-align: center;
+  break-inside: avoid;
+}
+
+.visual-placeholder {
+  margin: 6mm 0 7mm;
+  padding: 4mm 5mm 4.5mm;
+  border: 0.45pt solid var(--rule-dark);
+  background: #fbfaf7;
+  break-inside: avoid;
+  text-align: left;
+}
+
+.visual-placeholder figcaption,
+.visual-heading {
+  margin: 0 0 3.2mm;
+  color: var(--ink);
+  font-family: "Avenir Next", Avenir, sans-serif;
+  font-size: 8.4pt;
+  font-weight: 600;
+  line-height: 1.35;
+  text-align: left;
+  break-after: avoid;
+}
+
+.visual-placeholder figcaption span,
+.visual-heading span {
+  display: block;
+  margin-bottom: 1mm;
+  color: var(--accent);
+  font-size: 6.2pt;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+.visual-placeholder pre,
+.standalone-code {
+  margin: 0;
+  color: #293847;
+  font-family: Menlo, Monaco, "Courier New", monospace;
+  font-size: 7.5pt;
+  line-height: 1.31;
+  white-space: pre;
+}
+
+.visual-heading {
+  margin-top: 6mm;
+  padding: 3mm 4mm;
+  border: 0.45pt solid var(--rule-dark);
+  border-bottom: 0;
+  background: #fbfaf7;
+}
+
+.table-wrap {
+  margin: 0 0 7mm;
+  break-inside: avoid;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  color: var(--text);
+  font-family: "Avenir Next", Avenir, sans-serif;
+  font-size: 7.8pt;
+  line-height: 1.35;
+  text-align: left;
+}
+
+thead {
+  display: table-header-group;
+}
+
+tr {
+  break-inside: avoid;
+}
+
+th {
+  padding: 3mm 3.2mm;
+  border: 0.45pt solid var(--rule-dark);
+  background: var(--accent-soft);
+  color: var(--ink);
+  font-weight: 600;
+  vertical-align: bottom;
+}
+
+td {
+  padding: 2.6mm 3.2mm;
+  border-right: 0.35pt solid var(--rule);
+  border-bottom: 0.35pt solid var(--rule);
+  border-left: 0.35pt solid var(--rule);
+  vertical-align: top;
+}
+
+@media screen {
+  html {
+    background: #e7e6e2;
+  }
+
+  body {
+    width: 210mm;
+    margin: 0 auto;
+    box-shadow: 0 1mm 8mm rgba(23, 40, 59, 0.17);
+  }
+}

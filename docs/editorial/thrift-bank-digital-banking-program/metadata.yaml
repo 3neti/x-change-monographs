@@ -1,0 +1,31 @@
+series: "x-change Banking Program Studies"
+title: "Thrift Bank Digital Banking Program"
+subtitle: "From Settlement Connectivity to Governed Banking Service"
+document_form: "canonical-institutional-study"
+document_type: "banking-program-editorial-study"
+phase: 1
+version: "0.1"
+status: "canonical-editorial-study"
+audience: "Boards and executive leadership of Philippine thrift banks"
+source:
+  manuscript: "docs/editorial/thrift-bank-digital-banking-program/thrift-bank-digital-banking-program.md"
+  reconciliation: "docs/editorial/thrift-bank-digital-banking-program/EDITORIAL_RECONCILIATION.md"
+  thesis: "docs/editorial/thrift-bank-digital-banking-program/CANONICAL_THESIS.md"
+  architecture: "docs/editorial/thrift-bank-digital-banking-program/ARCHITECTURAL_NOTES.md"
+  parity_report: "docs/editorial/thrift-bank-digital-banking-program/PARITY_REPORT.md"
+governance:
+  decision_register: "docs/editorial/decisions/EDITORIAL_DECISION_REGISTER.md"
+  program_guide_architecture: "docs/editorial/program-guides/CANONICAL_BANKING_PROGRAM_GUIDE.md"
+  program_guide_parity: "docs/editorial/program-guides/PROGRAM_GUIDE_PARITY_CHECKLIST.md"
+classification:
+  formal_program_guide: false
+  rationale: "Phase 1 is an institution-centric editorial study; the formal Program Guide remains governed by EDR-005."
+editorial:
+  reconciliation_status: "Complete"
+  canonical_thesis_status: "Frozen"
+  manuscript_status: "Draft for editorial review"
+  architecture_status: "Complete for Phase 1"
+  parity_status: "Complete for Phase 1"
+publication:
+  generated: false
+notes: "No PDF or print assets are authorized in Phase 1. The manuscript does not claim adoption, approval, certification, or participation by an illustrative named bank."
