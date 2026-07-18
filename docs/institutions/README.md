@@ -30,6 +30,6 @@ The [institution template](template/README.md) is the standard scaffold for futu
 
 ## Institution applications
 
-- [AllBank Institution Intelligence and Research Edition](allbank/README.md) — Phase 1 public-source research under EDR-015 and an in-review Institution Edition prepared for executive discussion; Confirmed Edition, proposal, and implementation remain unauthorized
+- [AllBank Institution Intelligence and Editions](allbank/README.md) — Phase 1 public-source intelligence, an internal Research Edition, and an in-review client-facing Executive Edition; proposal and implementation remain unauthorized
 
 This framework contains no institution-specific research. Canonical doctrine remains under `docs/editorial/` and must not be copied into this directory as a new source of authority.

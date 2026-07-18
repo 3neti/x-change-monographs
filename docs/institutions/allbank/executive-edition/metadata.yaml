@@ -1,0 +1,37 @@
+series: "x-change Institution-Specific Program Guides"
+program: "Thrift Bank Digital Banking Program Guide"
+institution: "AllBank (A Thrift Bank), Inc."
+title: "AllBank Edition"
+edition: "executive"
+edition_label: "Executive Edition"
+audience_label: "Client Edition"
+version: "0.9"
+status: "in_review"
+publication_state: "not_published"
+document_role: "client-facing institution-specific adaptation of the canonical Executive Edition"
+canonical_lineage:
+  institutional_study: "docs/editorial/thrift-bank-digital-banking-program/thrift-bank-digital-banking-program.md"
+  program_guide: "docs/editorial/program-guides/thrift-bank/thrift-bank-program-guide.md"
+  program_guide_edition: "Executive Edition"
+institution_context:
+  intelligence_report: "docs/institutions/allbank/INSTITUTION_INTELLIGENCE_REPORT.md"
+  research_edition: "docs/institutions/allbank/edition/allbank-institution-edition-research-v0.9.md"
+  research_edition_role: "internal_working_source"
+  research_edition_distribution: "internal_unless_specifically_requested"
+manuscript: "allbank-edition-executive-v0.9.md"
+governance_decisions:
+  - "EDR-005"
+  - "EDR-013"
+  - "EDR-014"
+  - "EDR-015"
+doctrine_state: "inherited_unchanged"
+editorial_scope:
+  - "Foreword"
+  - "Executive Summary"
+  - "Sections 1–7"
+next_stage: "editorial_review"
+commercial_proposal: "not_authorized"
+implementation: "not_authorized"
+pdf_generated: false
+html_generated: false
+notes: "This manuscript synthesizes approved public institutional context into a client-facing Program Guide. It does not expose the internal research apparatus, assert AllBank approval, select an institutional priority, or establish operational readiness."

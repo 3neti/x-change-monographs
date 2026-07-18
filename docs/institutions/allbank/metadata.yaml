@@ -36,9 +36,20 @@ artifacts:
   digital_maturity_assessment: "Accepted for Analysis"
   strategic_gap_analysis: "Accepted for Editorial Mapping"
   editorial_mapping: "Accepted for Research Edition"
-  institution_edition: "In Review"
+  research_edition: "Internal Working Publication"
+  executive_edition: "In Review"
+  institution_edition: "Executive Edition In Review"
   commercial_proposal: "Not Authorized"
   implementation_roadmap: "Not Authorized"
-drafting_authorization: "Research Edition Authorized"
+drafting_authorization: "AllBank Executive Edition Drafted for Editorial Review"
+editions:
+  research:
+    path: "docs/institutions/allbank/edition/allbank-institution-edition-research-v0.9.md"
+    role: "internal_working_source"
+    distribution: "internal_unless_specifically_requested"
+  executive:
+    path: "docs/institutions/allbank/executive-edition/allbank-edition-executive-v0.9.md"
+    role: "client_facing_program_guide"
+    status: "in_review"
 agent_rule: "If sufficient evidence is unavailable, the research agent shall explicitly identify the gap rather than compensate with unsupported prose."
 notes: "This repository is a public-source research base. It does not assert AllBank adoption, approval, settlement architecture, API readiness, production readiness, pricing, or implementation scope."

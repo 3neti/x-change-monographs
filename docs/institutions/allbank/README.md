@@ -4,13 +4,13 @@ This repository is the first institution-specific application of the canonical [
 
 **Institution:** AllBank (A Thrift Bank), Inc.
 
-**Phase:** Institution Edition — Research Edition in Review
+**Phase:** AllBank Executive Edition — Editorial Review
 
 **Evidence cutoff:** 18 July 2026
 
 **Governance:** EDR-015
 
-The repository contains public-source research, accepted strategic and editorial analysis, questions for management, and the first AllBank Institution Edition Research Edition. The edition is an in-review discussion document. It is not an AllBank-approved Confirmed Edition, commercial proposal, implementation plan, pricing document, or adoption recommendation.
+The repository contains public-source institution intelligence, accepted strategic and editorial analysis, the internal AllBank Research Edition, and the client-facing AllBank Executive Edition. The Executive Edition is in editorial review. It is not an AllBank-approved publication, commercial proposal, implementation plan, pricing document, or adoption recommendation.
 
 ## Artifacts
 
@@ -23,12 +23,13 @@ The repository contains public-source research, accepted strategic and editorial
 - [Editorial Mapping](EDITORIAL_MAPPING.md)
 - [Questions for Management](QUESTIONS_FOR_MANAGEMENT.md)
 - [AllBank Institution Edition — Research Edition](edition/README.md)
+- [Thrift Bank Digital Banking Program Guide — AllBank Executive Edition](executive-edition/README.md)
 
 ## Status and gates
 
-The Institution Intelligence and Digital Maturity Assessment are accepted for analysis. The Strategic Gap Analysis is accepted for Editorial Mapping, and the Editorial Mapping authorizes limited drafting of the **Research Edition only**. The resulting Version 0.9 manuscript remains **In Review**.
+The Institution Intelligence and Digital Maturity Assessment are accepted for analysis. The Strategic Gap Analysis and Editorial Mapping supported the completed internal Research Edition. That Research Edition now serves as internal source material for the client-facing Executive Edition.
 
-The Research Edition authorizes executive discussion, not implementation. A Confirmed Edition, commercial proposal, and implementation remain unauthorized.
+The AllBank Executive Edition Version 0.9 is **In Review**. It synthesizes institution-specific understanding without exposing the research apparatus. It authorizes no implementation. A commercial proposal and implementation remain unauthorized.
 
 All institution-specific statements are classified as **Observed**, **Inferred**, **Recommended**, or **Unknown**. If the public record does not establish a matter, the gap remains visible and is converted into a management question.
 
@@ -45,7 +46,9 @@ AllBank Institution Intelligence
     ↓
 AllBank Institution Edition — Research Edition
     ↓
+AllBank Edition — Executive Edition
+    ↓
 Executive Discussion
 ```
 
-The research applies canonical doctrine. It does not alter it.
+The Research Edition remains an internal working publication unless specifically requested. The Executive Edition is the intended client publication. Both inherit canonical doctrine without altering it.
