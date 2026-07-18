@@ -114,11 +114,13 @@ This recommendation is deferred. No taxonomy document is created by this accepta
 
 The framework-design phase is complete. Future work should apply the canonical methodology to real institutions.
 
-The next authorized editorial assignment is **AllBank Institution Intelligence**. That assignment must apply the framework; it must not reopen or redesign it.
+EDR-015 confirms the final framework lock and authorizes **AllBank Institution Intelligence** as its first application. The AllBank research repository applies the framework; it does not reopen or redesign it.
+
+Following Phase 1 research, the next expected governance activity is **AllBank Editorial Mapping Review**. Institution Edition drafting remains unauthorized until the mapping gate is explicitly accepted.
 
 ## Final Governance Decision
 
-EDR-014 is accepted and active.
+EDR-014 and its confirming application decision, EDR-015, are accepted and active.
 
 > The canonical editorial work for the Institution Intelligence Framework is complete.
 

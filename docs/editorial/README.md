@@ -40,4 +40,5 @@ Banking Program Guides are canonical commercial handbooks and remain separate fr
 
 ## Institution Intelligence
 
-- [Institution Intelligence Framework](../institutions/README.md) — canonical and locked under EDR-014; governs evidence, analysis, editorial mapping, institution editions, proposals, and implementation for specific institutions
+- [Institution Intelligence Framework](../institutions/README.md) — canonical and locked under EDR-014 and EDR-015; governs evidence, analysis, editorial mapping, institution editions, proposals, and implementation for specific institutions
+- [AllBank Institution Intelligence](../institutions/allbank/README.md) — first public-source framework application; Institution Edition drafting remains unauthorized

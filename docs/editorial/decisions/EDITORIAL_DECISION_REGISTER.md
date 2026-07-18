@@ -89,6 +89,7 @@ The repository's earlier accepted decisions remain authoritative in their origin
 | [EDR-012](#edr-012--executive-summary-review-follows-the-frozen-narrative) | Executive Summary Review Follows the Frozen Narrative | Accepted | 2026-07-18 | EDR-002; EDR-003 (timing only) | None |
 | [EDR-013](#edr-013--institutional-reference-edition) | Institutional Reference Edition | Accepted | 2026-07-18 | None | None |
 | [EDR-014](#edr-014--institution-intelligence-framework-is-canonical) | Institution Intelligence Framework Is Canonical | Accepted | 2026-07-18 | None | None |
+| [EDR-015](#edr-015--institution-intelligence-framework-final-lock-and-allbank-phase-1-authorization) | Institution Intelligence Framework Final Lock and AllBank Phase 1 Authorization | Accepted | 2026-07-18 | None | None |
 
 ## EDR-001 — Program Guides Are Canonical Commercial Specifications
 
@@ -930,3 +931,96 @@ None.
 Active and complete. After several institution-intelligence projects have been completed, editorial governance may consider a future `CANONICAL_INSTITUTION_INTELLIGENCE_TAXONOMY.md` to standardize cross-institution comparison across ownership, business model, customer segments, products, channels, Treasury, payments, consumer banking, SME banking, housing, merchant services, technology, partnerships, financial indicators, strategic themes, and implementation signals.
 
 That taxonomy is a deferred recommendation only. EDR-014 does not authorize its creation.
+
+## EDR-015 — Institution Intelligence Framework Final Lock and AllBank Phase 1 Authorization
+
+**Decision ID:** `EDR-015`
+
+**Title:** Institution Intelligence Framework Final Lock and AllBank Phase 1 Authorization
+
+**Status:** Accepted
+
+**Date:** 2026-07-18
+
+### Context
+
+EDR-014 accepted the Institution Intelligence Framework as the canonical research and editorial methodology for institution-specific editions. The framework has completed editorial review, and the publishing program is ready to move from methodology design to evidence-based work with real institutions.
+
+AllBank is the first authorized institution-specific application. The work must begin with public-source Institution Intelligence rather than manuscript writing, sales positioning, architecture design, or implementation planning.
+
+### Decision
+
+The canonical lock established by EDR-014 is confirmed as final. The Institution Intelligence Framework, Public Source Policy, Research Workflow, standards, and template repository structure remain canonical and locked. Framework changes require an explicit accepted Editorial Decision Record.
+
+Phase 1 — AllBank Institution Intelligence is authorized as the first application of the framework. It must follow this sequence:
+
+```text
+Canonical Doctrine
+        ↓
+Institution Intelligence
+        ↓
+Strategic Gap Analysis
+        ↓
+Editorial Mapping
+        ↓
+Institution Edition
+        ↓
+Commercial Proposal
+        ↓
+Implementation
+```
+
+The AllBank research base must distinguish **Observed**, **Inferred**, **Recommended**, and **Unknown** statements. It must record every material public source and preserve claim traceability.
+
+The canonical agent rule remains active:
+
+> If sufficient evidence is unavailable, the research agent shall explicitly identify the gap rather than compensate with unsupported prose.
+
+This decision does not authorize an AllBank Institution Edition, AllBank Program Guide, commercial proposal, pricing, implementation plan, production architecture, or readiness conclusion.
+
+### Rationale
+
+The framework becomes institutionally useful through disciplined application. AllBank provides the first opportunity to establish an attributable evidence base, identify strategic questions, and prepare an editorial mapping without allowing institution-specific research to alter thrift-bank doctrine.
+
+Separating research from later writing protects the institution from unsupported claims and preserves the authority of the canonical Thrift Bank Institutional Study and Program Guide.
+
+### Consequences
+
+- The framework-design phase is complete.
+- Future framework changes require an explicit accepted Editorial Decision Record.
+- AllBank Institution Intelligence becomes the first canonical framework application.
+- Public sources and material claims must remain traceable through separate source and evidence registers.
+- Missing evidence must become an Unknown and, where material, a management question.
+- The AllBank Institution Intelligence may advance to analysis when it satisfies the framework’s evidence gate.
+- Strategic Gap Analysis and Editorial Mapping remain review artifacts until their respective gates are accepted.
+- Institution Edition drafting remains unauthorized until Editorial Mapping explicitly authorizes it.
+- The expected next governance activity is AllBank Editorial Mapping Review.
+
+### Affected Documents
+
+- [Institution Intelligence index](../../institutions/README.md)
+- [Framework metadata](../../institutions/metadata.yaml)
+- [Framework Editorial Acceptance](../../institutions/EDITORIAL_ACCEPTANCE.md)
+- [AllBank Institution Intelligence repository](../../institutions/allbank/README.md)
+- [AllBank metadata](../../institutions/allbank/metadata.yaml)
+- [AllBank Public Source Register](../../institutions/allbank/PUBLIC_SOURCE_REGISTER.md)
+- [AllBank Evidence Register](../../institutions/allbank/EVIDENCE_REGISTER.md)
+- [AllBank Institution Intelligence Report](../../institutions/allbank/INSTITUTION_INTELLIGENCE_REPORT.md)
+- [AllBank Digital Maturity Assessment](../../institutions/allbank/DIGITAL_MATURITY_ASSESSMENT.md)
+- [AllBank Strategic Gap Analysis](../../institutions/allbank/STRATEGIC_GAP_ANALYSIS.md)
+- [AllBank Editorial Mapping](../../institutions/allbank/EDITORIAL_MAPPING.md)
+- [AllBank Questions for Management](../../institutions/allbank/QUESTIONS_FOR_MANAGEMENT.md)
+
+### Supersedes
+
+None. EDR-014 remains the governing framework-acceptance decision.
+
+### Superseded By
+
+None.
+
+### Notes
+
+Active and complete. The framework sources and template standards were not changed by this decision.
+
+The proposed cross-institution taxonomy remains deferred under EDR-014. EDR-015 does not authorize its creation.

@@ -2,7 +2,7 @@
 
 This directory contains the reusable research and editorial framework for institution-specific applications of the canonical x-change banking doctrine.
 
-**Status:** Canonical and locked under EDR-014
+**Status:** Canonical and locked under EDR-014; final lock confirmed by EDR-015
 
 **Version:** 1.0
 
@@ -27,5 +27,9 @@ Institution work begins with evidence, not writing. The required sequence is:
 ## Template
 
 The [institution template](template/README.md) is the standard scaffold for future institution repositories. Copy it only when an institution-specific assignment has been authorized.
+
+## Institution applications
+
+- [AllBank Institution Intelligence](allbank/README.md) — Phase 1 public-source research and preliminary analytical artifacts under EDR-015; Institution Edition drafting is not authorized
 
 This framework contains no institution-specific research. Canonical doctrine remains under `docs/editorial/` and must not be copied into this directory as a new source of authority.

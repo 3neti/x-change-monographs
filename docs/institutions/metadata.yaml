@@ -8,8 +8,8 @@ status: "canonical"
 editorial_state: "completed"
 canonical_state: "locked"
 approval_date: "2026-07-18"
-future_work: "institution-specific-research"
-next_application: "AllBank Institution Intelligence"
+future_work: "institution-specific-applications"
+next_application: "AllBank Editorial Mapping Review"
 source:
   framework: "docs/institutions/FRAMEWORK.md"
   public_source_policy: "docs/institutions/PUBLIC_SOURCE_POLICY.md"
@@ -24,6 +24,8 @@ source:
   acceptance: "docs/institutions/EDITORIAL_ACCEPTANCE.md"
 governance:
   decision: "EDR-014"
+  confirmation_decision: "EDR-015"
+  first_application: "docs/institutions/allbank"
   decision_register: "docs/editorial/decisions/EDITORIAL_DECISION_REGISTER.md"
   change_control: "Changes require an explicit accepted Editorial Decision Record."
 canonical_workflow:

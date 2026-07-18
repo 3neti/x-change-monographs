@@ -48,3 +48,5 @@ Appendices A–G form part of the Institutional Reference Edition and remain sha
 ## Institution-Specific Editions
 
 Future AllBank, PSBank, City Savings Bank, Philippine Business Bank, CARD SME Bank, or other institution-specific editions adapt the canonical framework to an institution. They do not redefine it. They must remain doctrinally traceable to the Institutional Study and both canonical publication editions.
+
+[AllBank Institution Intelligence](../../../institutions/allbank/README.md) is the first evidence-based application under EDR-015. It remains a research and mapping repository, not an Institution Edition or adoption record.
