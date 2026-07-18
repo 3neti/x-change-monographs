@@ -11,4 +11,13 @@ This directory contains the approved Phase 1 editorial study and doctrinal sourc
 
 This package remains separate from the formal [Thrift Bank Digital Banking Program Guide](../program-guides/thrift-bank/thrift-bank-program-guide.md) governed by EDR-005. The Guide implements the frozen seven-section and Appendix A–G architecture without replacing this doctrinal source.
 
+## Editorial Lineage
+
+- [Movement III](../movement-iii-thrift-banks/modernizing-philippine-thrift-banks.md) establishes the strategic sector narrative.
+- This Institutional Study remains the authoritative doctrinal source.
+- The [canonical Program Guide](../program-guides/thrift-bank/thrift-bank-program-guide.md) operationalizes the doctrine for implementation.
+- Future institution-specific editions derive from the Program Guide while remaining subject to this doctrine.
+
+The [RBAP Digital Banking Program Guide](../program-guides/rbap/rbap-digital-banking-program-guide.md) remains a separate rural-bank sector implementation and editorial predecessor.
+
 No PDF or publication build has been generated.

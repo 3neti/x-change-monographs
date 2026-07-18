@@ -1,13 +1,24 @@
 # Thrift Bank Digital Banking Program Guide
 
-This directory contains the formal thrift-bank implementation of the [Canonical Banking Program Guide](../CANONICAL_BANKING_PROGRAM_GUIDE.md) under EDR-005.
+This directory contains the canonical thrift-bank implementation of the [Canonical Banking Program Guide](../CANONICAL_BANKING_PROGRAM_GUIDE.md) under EDR-005.
 
-- [`thrift-bank-program-guide.md`](thrift-bank-program-guide.md) is the canonical guide manuscript submitted for editorial approval.
+- [`thrift-bank-program-guide.md`](thrift-bank-program-guide.md) is the accepted and editorially locked canonical implementation guide.
 - [`metadata.yaml`](metadata.yaml) records document identity, governance, source doctrine, and editorial status.
 - [`appendices/`](appendices/) contains completed Appendices A–G.
+- [`EDITORIAL_ACCEPTANCE.md`](EDITORIAL_ACCEPTANCE.md) records the permanent canonical lock decision and frozen doctrine.
 - [`../PROGRAM_GUIDE_PARITY_CHECKLIST.md`](../PROGRAM_GUIDE_PARITY_CHECKLIST.md) records architectural and business-question parity.
 
-The approved Phase 1 [institutional study](../../thrift-bank-digital-banking-program/README.md) remains a separate doctrinal source. The Guide does not replace or modify it.
+The approved Phase 1 [Institutional Study](../../thrift-bank-digital-banking-program/README.md) remains the authoritative doctrinal source. The Guide operationalizes that doctrine; it does not replace or modify it.
+
+Future institution-specific thrift-bank editions must derive from this repository. They may adapt approved institutional context and implementation detail without silently altering the frozen doctrine.
+
+## Editorial Lineage
+
+1. [Movement III — Modernizing Philippine Thrift Banks for the Digital Economy](../../movement-iii-thrift-banks/modernizing-philippine-thrift-banks.md)
+2. [Thrift Bank Digital Banking Program — Institutional Study](../../thrift-bank-digital-banking-program/thrift-bank-digital-banking-program.md)
+3. [Thrift Bank Digital Banking Program Guide](thrift-bank-program-guide.md)
+4. Future institution-specific editions
+
+The [RBAP Digital Banking Program Guide](../rbap/rbap-digital-banking-program-guide.md) remains the rural-bank sector implementation and an editorial predecessor. Its collective program context does not replace the thrift-bank doctrine.
 
 No PDF or publication assets have been generated.
-
