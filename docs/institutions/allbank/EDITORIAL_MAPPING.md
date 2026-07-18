@@ -2,15 +2,15 @@
 
 ## Document record
 
-- Status: In Review
+- Status: Accepted for Research Edition
 - Version: 0.1
 - Institution Intelligence: [Version 0.1](INSTITUTION_INTELLIGENCE_REPORT.md), Accepted for Analysis
-- Strategic Gap Analysis: [Version 0.1](STRATEGIC_GAP_ANALYSIS.md), In Review
+- Strategic Gap Analysis: [Version 0.1](STRATEGIC_GAP_ANALYSIS.md), Accepted for Editorial Mapping
 - Canonical Program Guide: [Thrift Bank Digital Banking Program Guide](../../editorial/program-guides/thrift-bank/thrift-bank-program-guide.md), Executive and Institutional Reference Editions
 - Intended audience: AllBank Board, executive management, and responsible banking, operations, technology, Treasury, risk, and compliance leaders
-- Intended use: Writing brief for a possible future AllBank Institution Edition
+- Intended use: Accepted writing brief for the AllBank Institution Edition Research Edition
 - Evidence cutoff: 18 July 2026
-- Drafting authorization: Not Ready for Drafting
+- Drafting authorization: Ready for Limited Drafting — Research Edition only
 
 This artifact prepares later writing. It is not an AllBank Institution Edition, proposal, or implementation plan.
 
@@ -178,8 +178,10 @@ See [QUESTIONS_FOR_MANAGEMENT.md](QUESTIONS_FOR_MANAGEMENT.md) for the full disc
 
 ## Drafting Authorization
 
-**Status: Not Ready for Drafting**
+**Status: Ready for Limited Drafting — Research Edition only**
 
-The source base is sufficient for review of this writing brief. It is not sufficient to select the principal ceremony, state AllBank’s current operating architecture, map a bank-specific driver, describe settlement responsibilities, or define implementation sequencing.
+Editorial Mapping Review has accepted this brief for a public-source Research Edition. The source base is sufficient to describe evidenced institutional context, preserve bounded inferences, compare candidate ceremonies without selecting one, explain canonical boundaries, and surface questions for executive discussion.
 
-The next appropriate step is **AllBank Editorial Mapping Review** with management evidence added where available. An Institution Edition must not begin before that review changes this authorization explicitly.
+The source base is not sufficient to state AllBank's current operating architecture, map an implemented bank-specific driver, describe undisclosed settlement responsibilities, establish a commercial case, select implementation sequencing, or declare readiness. Those matters remain explicitly Unknown.
+
+This authorization does not extend to a Confirmed Edition, commercial proposal, implementation plan, or publication artifact.

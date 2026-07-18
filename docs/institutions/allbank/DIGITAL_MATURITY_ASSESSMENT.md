@@ -2,7 +2,7 @@
 
 ## Document record
 
-- Status: In Review
+- Status: Accepted for Analysis
 - Version: 0.1
 - Evidence cutoff: 18 July 2026
 - Basis: Public evidence only

@@ -2,7 +2,7 @@
 
 ## Document record
 
-- Status: In Review
+- Status: Accepted for Editorial Mapping
 - Version: 0.1
 - Institution Intelligence: [Version 0.1](INSTITUTION_INTELLIGENCE_REPORT.md), Accepted for Analysis
 - Canonical Institutional Study: [Thrift Bank Digital Banking Program](../../editorial/thrift-bank-digital-banking-program/thrift-bank-digital-banking-program.md)
@@ -15,7 +15,7 @@ AllBank’s public record aligns naturally with several elements of the canonica
 
 The central analytical gap is not visible payment capability. It is the absence of public evidence about how the institution’s authority, product policy, settlement arrangements, APIs, evidence, exceptions, reconciliation, support, and readiness decisions are organized across those services. [UNK-006–UNK-010, UNK-014–UNK-015]
 
-Payroll, merchant payments, collections, and remittance have evidence-backed relevance. None can yet be selected as the principal AllBank ceremony. The Institution Edition remains unauthorized until management discovery resolves strategic priority, operating ownership, and ceremony evidence.
+Payroll, merchant payments, collections, and remittance have evidence-backed relevance. None can yet be selected as the principal AllBank ceremony. A Research Edition may preserve the candidates and expose the unresolved questions; a Confirmed Edition remains dependent on management discovery.
 
 ## Canonical Baseline
 
@@ -140,4 +140,4 @@ An AllBank edition could legitimately emphasize recurring employer, merchant, an
 
 ### Governance issues
 
-No doctrinal conflict has been identified. No structural deviation is authorized. Editorial Mapping remains in review, and drafting remains unauthorized.
+No doctrinal conflict has been identified. No structural deviation is authorized. The analysis is accepted for Editorial Mapping and a public-source Research Edition. It does not authorize a Confirmed Edition, commercial proposal, or implementation.

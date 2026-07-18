@@ -4,13 +4,13 @@ This repository is the first institution-specific application of the canonical [
 
 **Institution:** AllBank (A Thrift Bank), Inc.
 
-**Phase:** Institution Intelligence
+**Phase:** Institution Edition — Research Edition in Review
 
 **Evidence cutoff:** 18 July 2026
 
 **Governance:** EDR-015
 
-The repository contains public-source research, a descriptive digital-maturity assessment, preliminary strategic analysis, a writing brief for later review, and questions for management. It does not contain an AllBank Institution Edition, Program Guide, commercial proposal, implementation plan, pricing, or an adoption recommendation.
+The repository contains public-source research, accepted strategic and editorial analysis, questions for management, and the first AllBank Institution Edition Research Edition. The edition is an in-review discussion document. It is not an AllBank-approved Confirmed Edition, commercial proposal, implementation plan, pricing document, or adoption recommendation.
 
 ## Artifacts
 
@@ -22,10 +22,13 @@ The repository contains public-source research, a descriptive digital-maturity a
 - [Strategic Gap Analysis](STRATEGIC_GAP_ANALYSIS.md)
 - [Editorial Mapping](EDITORIAL_MAPPING.md)
 - [Questions for Management](QUESTIONS_FOR_MANAGEMENT.md)
+- [AllBank Institution Edition — Research Edition](edition/README.md)
 
 ## Status and gates
 
-The Institution Intelligence is accepted for analysis on the strength of the public-source record and its explicit limitations. The Strategic Gap Analysis and Editorial Mapping remain **In Review**. The Editorial Mapping does not authorize drafting.
+The Institution Intelligence and Digital Maturity Assessment are accepted for analysis. The Strategic Gap Analysis is accepted for Editorial Mapping, and the Editorial Mapping authorizes limited drafting of the **Research Edition only**. The resulting Version 0.9 manuscript remains **In Review**.
+
+The Research Edition authorizes executive discussion, not implementation. A Confirmed Edition, commercial proposal, and implementation remain unauthorized.
 
 All institution-specific statements are classified as **Observed**, **Inferred**, **Recommended**, or **Unknown**. If the public record does not establish a matter, the gap remains visible and is converted into a management question.
 
@@ -39,6 +42,10 @@ Thrift Bank Institutional Study
 Thrift Bank Digital Banking Program Guide
     ↓
 AllBank Institution Intelligence
+    ↓
+AllBank Institution Edition — Research Edition
+    ↓
+Executive Discussion
 ```
 
 The research applies canonical doctrine. It does not alter it.
