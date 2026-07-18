@@ -6,43 +6,33 @@
 
 ## Executive Summary
 
-Philippine thrift banks already possess the central qualities upon which modern banking depends. They hold banking authority. They maintain customer and deposit relationships. They understand households, employers, entrepreneurs, housing, and small and medium-sized enterprises. Many also operate established technology organizations, digital channels, settlement accounts, and connections to national payment infrastructure.
+Philippine thrift banks already possess the foundations of modern banking. They hold banking authority, maintain customer and deposit relationships, and understand households, employers, entrepreneurs, housing, and small and medium-sized enterprises. Many also operate established technology organizations, digital channels, settlement accounts, and connections to national payment infrastructure.
 
-The institutional question is therefore not whether a thrift bank can reach a payment rail.
+The institutional question is not whether a thrift bank can reach a payment rail. It is whether the bank can turn its authority and settlement capability into a wider range of governed banking services without constructing a separate operating foundation for every product and channel.
 
-It is whether the bank can turn its authority and settlement capability into a wider range of governed banking services without constructing a separate operating foundation for every product and channel.
+Settlement connectivity is necessary, but it is not a banking service. An API can transmit an instruction, and a payment rail can move funds. Neither defines the customer’s request, establishes purpose, applies policy, gathers evidence, manages readiness, supports exceptions, communicates status, or reconciles the complete service. Those remain banking responsibilities.
 
-Settlement connectivity is necessary. It is not sufficient. An API can transmit an instruction, and a payment rail can move funds. Neither defines the customer’s request, establishes the banking purpose, applies institutional policy, confirms authority, gathers evidence, manages readiness, supports exceptions, communicates status, or reconciles the complete service. Those responsibilities remain banking responsibilities.
+The **Program** is the institutional initiative through which the bank addresses those responsibilities. Its intended result is an enduring **Capability**: a maintained operating foundation through which customer requests can become governed banking activity.
 
-The Thrift Bank Digital Banking Program proposes a maintained operating layer through which one institution can coordinate those responsibilities. x-change provides a reusable banking grammar for recognizing funds, assigning purpose, establishing conditions, representing authorized instructions, coordinating execution, and preserving evidence. The bank applies that grammar under its own governance and through its own settlement relationships.
-
-The Program does not replace Internet banking, mobile banking, branches, corporate portals, or partner APIs. Those channels remain. It does not replace the core banking system, the institution’s technology organization, or the bank’s authority over products and production. It operates beneath products and channels as an institutional capability through which customer requests can become governed banking activity.
-
-The distinction is fundamental.
+x-change provides the reusable banking grammar within that Capability. It coordinates recognized funds, purpose, conditions, authorized instructions, execution, and evidence under the bank’s governance and through the bank’s settlement relationships. Internet banking, mobile banking, branches, corporate portals, partner APIs, the core banking system, and the institution’s technology organization remain in place.
 
 The bank brings the authority and the rails. x-change brings the operating grammar. A bank-specific integration driver connects them.
 
-Each thrift bank requires its own maintained driver because banking and settlement APIs differ. Authentication, certificates, request formats, webhooks, status models, exception behavior, reconciliation evidence, and versioning are institution-specific. The driver represented conceptually as `3neti/emi-{bank}` implements the common `emi-core` integration contract for the bank’s approved API boundary. ODTI develops and maintains that driver within the agreed scope. The bank owns the settlement relationship, credentials, production authority, and decision to release.
+That driver is not automatically available. Each institution requires discovery, API mapping, implementation, certification, and continuing maintenance because authentication, certificates, request formats, webhooks, status models, exception behavior, reconciliation evidence, and versioning differ by bank. The driver represented conceptually as `3neti/emi-{bank}` implements the common `emi-core` contract for the bank’s approved API boundary. ODTI develops and maintains it within the agreed scope; the bank retains the relationship, credentials, production authority, and release decision.
 
-Technical integration does not establish institutional readiness. A working driver demonstrates that the bank’s approved interface can support the required execution behavior. The institution must still determine whether the banking ceremony can be authorized, supervised, secured, settled, reconciled, supported, and governed from beginning to end.
+Certification establishes technical capability under tested conditions. It does not establish operational readiness. The bank must still determine whether the complete ceremony can be authorized, supervised, secured, settled, reconciled, supported, and governed.
 
-Remittance provides the clearest explanatory ceremony. A customer asks the bank to make funds available to another person under defined conditions. The bank receives or recognizes the funds, confirms authority, applies policy, records the purpose, reserves the required capacity, issues a Pay Code credential, coordinates settlement through its own approved relationship, and reconciles the result.
+Remittance provides the clearest explanatory ceremony. A customer asks the bank to make funds available to another person under defined conditions. The bank receives or recognizes the funds, applies policy, reserves the required capacity, issues a Pay Code credential, coordinates settlement through its approved relationship, and reconciles the result.
 
-The customer does not purchase software or a payment instruction in isolation. The customer requests a banking outcome. The bank arranges it.
+The customer requested a banking outcome. The bank arranged it.
 
-The same operating foundation may support other banking services. Payroll changes the participants and scale. Collections change the direction and attribution of funds. Merchant services connect daily commerce to liquidity and records. SME disbursement applies enterprise authority and approval. Housing-related workflows introduce their own evidence, conditions, and institutional purpose. The common grammar remains stable while the Facility, participants, policies, and customer journey change.
+The same Capability may support other services. Payroll changes the participants and scale. Collections change the direction and attribution of funds. Merchant services connect daily commerce to liquidity and records. SME disbursement applies enterprise authority and approval. Housing-related workflows introduce their own evidence, conditions, and purpose. The common grammar remains stable while the Facility, policies, participants, and customer journey change.
 
-This is the institutional case for the Program. One governed foundation can allow the bank to introduce additional services without treating each one as another disconnected technology project. The resulting value is not a catalogue of digital features. It is the capacity to remain useful across more of the recurring financial activity of customers and enterprises.
+The resulting value is not a catalogue of features. It is the bank’s capacity to remain useful across more of the recurring financial activity of customers and enterprises. As that usefulness deepens, payroll may lead to deposits and employee relationships; collections may strengthen an SME relationship; merchant activity may connect commerce with liquidity and credit. This tendency is Transaction Gravity. Its significance lies in institutional relevance, not transaction volume alone.
 
-As that usefulness deepens, financial activity may increasingly return to the institution. Payroll can lead to deposits and employee relationships. Collections can strengthen an SME relationship. Merchant activity can connect commerce with liquidity and credit. Housing can sustain a household relationship over years. This tendency is Transaction Gravity. Its value lies in institutional relevance, not transaction volume alone.
+Adoption should begin with one bounded ceremony chosen by the bank. Remittance explains the architecture, but the first production service may instead be payroll, collections, merchant services, SME disbursement, housing, or another institutional priority. The bank defines the service, completes the institution-specific integration, tests the operating lifecycle, prepares its personnel, and decides whether the evidence supports controlled production.
 
-The Board is therefore considering a long-term operating capability. The decision is not whether the institution should become a technology company. It is whether the bank should establish a reusable foundation through which its existing authority, channels, settlement capability, and institutional judgment can support more banking services over the next decade.
-
-Adoption should begin with one bounded ceremony chosen by the bank. Remittance explains the architecture, but the first production service may instead be payroll, collections, merchant services, SME disbursement, housing, or another institutional priority. The bank defines the service, validates the driver, tests the complete operating lifecycle, prepares its personnel, and decides whether the evidence supports controlled production.
-
-Readiness remains an institutional judgment.
-
-The intended result is a thrift bank that remains recognizably itself while becoming more capable of carrying its authority and relationships into the financial activity of the digital economy.
+The decision before the Board is whether the institution should establish one reusable governed operating Capability and authorize Management to define the first ceremony, complete the required institutional work, and return with evidence sufficient for a controlled production decision.
 
 ## 1. The Institutional Question
 
@@ -50,13 +40,9 @@ Philippine thrift banks do not begin modernization from an empty foundation.
 
 They are regulated institutions with established responsibilities. They accept deposits, extend credit, finance homes and enterprises, support payroll relationships, serve households, and sustain commercial activity. Their authority does not come from software. Their relevance does not begin with a mobile application.
 
-Many thrift banks also possess capabilities that are sometimes treated too casually in discussions of modernization. They may operate core banking systems, Internet banking, mobile banking, payment operations, settlement accounts, enterprise infrastructure, cybersecurity controls, and experienced technology teams. They may already participate in InstaPay, PESONet, or other supported arrangements directly or through approved institutional relationships.
+Many thrift banks also operate core banking systems, Internet banking, mobile banking, payment operations, settlement accounts, enterprise infrastructure, cybersecurity controls, and experienced technology teams. They may already participate in InstaPay, PESONet, or other supported arrangements directly or through approved institutional relationships.
 
-Those capabilities matter because they change the question.
-
-The institution does not necessarily need another channel. It does not necessarily need another route into the payment system. It does not need a technology provider to confer banking authority it already possesses.
-
-What it may need is a more coherent way to use those capabilities together.
+The opportunity is to use those capabilities more coherently.
 
 A customer request can begin in a branch, mobile application, Internet-banking session, corporate portal, or partner workflow. The request may require policy, authority, funds, approvals, conditions, customer communication, settlement, exception handling, and reconciliation. In many institutions, those responsibilities are distributed across products, channels, provider integrations, and manual operating processes. Each service may work, yet each may carry its own technical and operational logic.
 
@@ -68,31 +54,27 @@ The institutional question is therefore not whether the bank can move money.
 
 It is whether the bank can repeatedly turn financial authority into governed banking outcomes through a foundation capable of supporting more than one product or channel.
 
-That is the question the Thrift Bank Digital Banking Program is designed to examine.
+The Program is the initiative through which the bank examines that question. The Capability is the enduring operating result it may choose to establish.
 
 ## 2. What Is the Thrift Bank Digital Banking Program?
 
-The Thrift Bank Digital Banking Program is an institution-specific modernization framework through which a thrift bank may establish a maintained operating capability for governed banking services.
+The Thrift Bank Digital Banking Program is the institution-specific initiative through which a thrift bank may establish a maintained operating Capability for governed banking services.
 
 It is not a sector association program. It does not administer member banks, allocate license seats, pool settlement arrangements, or coordinate a common production environment. It concerns one bank operating under its own authority.
 
-The Program combines maintained software, a reusable banking grammar, institution-specific integration, controlled deployment, observability, testing, documentation, and continuing engineering support. These capabilities allow the bank to organize different banking services through a common operating foundation while retaining its own products, channels, policies, infrastructure, settlement relationships, and production decisions.
+The Program brings together maintained software, a reusable banking grammar, institution-specific integration, controlled deployment, observability, testing, documentation, and continuing engineering support. The resulting Capability allows the bank to organize different banking services through one operating foundation while retaining its products, channels, policies, infrastructure, settlement relationships, and production decisions.
 
 x-change is the orchestration layer within that foundation.
 
-Its role is to coordinate the progression from recognized funds and authorized purpose to readiness, credential, execution, evidence, and reconciliation. It does not become the bank, hold customer deposits, create a pooled balance, or replace the regulated institution that performs settlement.
-
-The Program likewise does not displace the bank’s existing customer channels. Internet banking remains Internet banking. Mobile banking remains mobile banking. A branch remains a branch. Corporate portals and partner APIs remain institutional interfaces. These channels may initiate, present, or report a banking activity. x-change coordinates the governed activity beneath them.
+Its role is to coordinate the progression from recognized funds and authorized purpose to readiness, credential, execution, evidence, and reconciliation. Existing channels may initiate, present, or report that activity; x-change coordinates the governed ceremony beneath them.
 
 This separation allows channel strategy and operating grammar to evolve without being mistaken for one another. The bank may redesign a mobile experience without redefining the financial state of the underlying service. It may add a corporate portal without creating another independent settlement model. It may allow a branch and an API partner to initiate different parts of the same Facility while preserving one set of authority, readiness, evidence, and reconciliation rules.
 
-The Program is therefore neither a digital-bank replacement nor another isolated payment product.
-
-It is a reusable operating layer through which the institution can express how it conducts banking.
+The Capability is therefore not another channel or isolated payment product. It is the reusable operating layer through which the institution can express how it conducts banking.
 
 Implementation remains institution-specific. The bank determines which services matter, which channels participate, which policies apply, which evidence is required, which systems integrate, and which operating functions own the resulting responsibilities. ODTI maintains the licensed software and the bank-specific integration driver within agreed scope. Any DevOps or managed-service provider acts only within authority delegated by the bank. The institution retains production approval and continuing accountability.
 
-The value of the Program should be judged by whether this operating layer makes banking activity more governable, repeatable, observable, and adaptable under the institution’s control.
+The Program should be judged by whether it establishes that Capability under the institution’s control.
 
 ## 3. The Institutional Case
 
@@ -100,7 +82,7 @@ A bank does not become stronger merely by adding another digital surface.
 
 Institutional strength appears when the bank can carry responsibility across more of the financial activity that matters to its customers. The service must remain reliable. Authority must remain clear. Operations must be able to observe what is happening, intervene when necessary, and reconcile the result. Customers must know what the bank has agreed to do and what evidence shows that it has done it.
 
-This is why the Program should be evaluated as institutional capability rather than software acquisition.
+This is why the Program should be evaluated by the Capability it establishes, not by the software it acquires.
 
 A maintained operating foundation can reduce the amount of work repeated each time the bank introduces a service. Common handling of authority, financial state, conditions, credential presentation, execution, and evidence can be applied to different banking purposes. The institution still performs product design, policy, governance, customer treatment, integration review, training, and support. What changes is the starting point.
 
@@ -118,7 +100,9 @@ The bank’s distinctive value lies in its relationships, judgment, products, ri
 
 The Program should not be justified through automatic claims of revenue, deposit growth, or cost reduction. Those outcomes depend upon the services chosen, customer response, operating quality, pricing, and institutional execution. The narrower and more credible case is that a reusable foundation can improve the bank’s capacity to introduce, govern, and evolve services whose value it has independently established.
 
-That capacity is strategic because customer expectations and financial infrastructure will continue changing. The institution cannot predict every service required over the next decade. It can decide whether it wants to face each change with another isolated project or with an operating foundation designed to absorb governed variation.
+That capacity is strategic because customer expectations and financial infrastructure will continue changing. The institution cannot predict every service required over the next decade. It can decide whether to face each change with another isolated project or with an operating foundation designed to absorb governed variation.
+
+The institutional case therefore leads to a question of boundaries: what remains uniquely the bank’s, and what may be supported through a maintained common foundation.
 
 ## 4. The Bank Remains the Bank
 
@@ -140,9 +124,9 @@ Software commonality does not weaken those boundaries.
 
 Maintained software can be used by more than one institution. Integration patterns, testing, deployment automation, observability, documentation, and reusable banking grammar can likewise be shared. These are engineering assets. They do not create pooled funds, shared banking authority, common production accounts, shared customer balances, or a consolidated bank.
 
-For one participating thrift bank, the practical consequence is simpler: the institution can use a common product without becoming common in the matters that define it.
+The institution can therefore use a common product without becoming common in the matters that define it.
 
-Its bank remains its bank.
+With those boundaries established, the next question is how existing settlement capability becomes a governed banking service.
 
 ## 5. From Settlement Connectivity to Banking Service
 
@@ -168,15 +152,15 @@ The driver exists because banks do not expose identical APIs. Authentication may
 
 Those differences should not be spread throughout every Facility or customer channel.
 
-The bank-specific driver contains the translation between the common execution contract and the institution’s approved interface behavior. ODTI develops and maintains it within the agreed scope. The bank’s technology, security, operations, risk, and other responsible functions participate in discovery, review, certification, release, and continuing change governance.
+The bank-specific driver contains the translation between the common execution contract and the institution’s approved interface behavior. It is institution-specific engineering, not a generic connector waiting to be enabled.
+
+Its lifecycle begins with institutional discovery, followed by API mapping, implementation, and certification. It then becomes a maintained dependency that must evolve with approved interface, security, and version changes. ODTI develops and maintains the driver within the agreed scope. The bank’s technology, security, operations, risk, and other responsible functions govern discovery, review, certification, release, and continuing change.
 
 The bank owns the relationship and the rails. The driver does not create authority; it expresses approved technical capability through that authority.
 
 This distinction also protects the institution from confusing an integration milestone with a production decision. A certified driver may establish that the required API behavior works under tested conditions. The bank must still validate the complete banking service: customer treatment, policy, authority, financial state, security, evidence, operating support, exception handling, settlement, and reconciliation.
 
-Technical capability enables the decision.
-
-Institutional readiness remains the decision.
+The driver makes execution technically available. The bank’s readiness process determines whether that capability may support a production service.
 
 ## 6. One Banking Grammar, Many Services
 
@@ -184,7 +168,7 @@ Different banking services carry different commercial meaning. They may involve 
 
 The bank recognizes a financial event. It understands the resources available to support the activity. It identifies a banking purpose. It applies authority and policy. It establishes the conditions under which an instruction may proceed. It represents that instruction for presentation or execution. It coordinates the result and preserves evidence.
 
-The Program gives those responsibilities a common grammar.
+x-change gives those responsibilities a common grammar within the Capability.
 
 A **Funding Event** records the external financial event through which Settlement Resources enter or become recognized by Treasury. The financial event may arise from a teller receipt, transfer, payroll funding, loan proceeds, merchant settlement, receivable liquidation, institutional funding, or another event recognized by the bank. The Funding Event does not create the underlying value. It records the institution’s operational recognition of it.
 
@@ -204,17 +188,17 @@ A bank may alter the conditions of a Facility without redesigning Treasury. It m
 
 The value lies in disciplined reuse.
 
-One operating foundation does not make all banking services alike. It gives the institution a consistent way to govern their differences.
+One operating foundation does not make all banking services alike. It gives the institution a consistent way to govern their differences—and a stable basis from which to observe that grammar in practice.
 
 ## 7. Banking in Action
 
-Remittance remains the clearest ceremony through which to observe the Program.
+Remittance remains the clearest ceremony through which to observe that grammar.
 
 A customer asks the bank to make funds available to another person. The customer specifies the amount, recipient, and any conditions the service permits. The bank receives or recognizes the funds, confirms the authority under which it may act, applies its remittance policy, and records the banking purpose.
 
 Treasury recognizes the supporting Settlement Resources. A Lien reserves the amount required for the instruction. The remittance Facility determines the participants, commercial rules, customer communications, limits, and service responsibilities. The Settlement Envelope records the evidence and conditions that must be satisfied. Once the bank authorizes the instruction, a Pay Code allows it to be communicated and presented through an approved journey.
 
-The recipient presents the Pay Code and satisfies the required conditions. Execution coordinates the instruction through the bank’s approved relationship. The bank-specific driver translates the common execution contract into the institution’s API behavior. The supported financial movement occurs. The Program records the result, updates operational state, resolves the Lien, preserves evidence, and supports reconciliation and customer communication.
+The recipient presents the Pay Code and satisfies the required conditions. Execution coordinates the instruction through the bank’s approved relationship. The bank-specific driver translates the common execution contract into the institution’s API behavior. The supported financial movement occurs. x-change records the result, updates operational state, resolves the Lien, preserves evidence, and supports reconciliation and customer communication.
 
 For the customer, the experience is simpler than the operating model.
 
@@ -238,6 +222,8 @@ Housing-related workflows may govern disbursement, documentary conditions, payee
 
 Remittance need not be the first production service. It is the explanatory ceremony against which the institution can recognize the grammar. The bank should begin with the service that best combines institutional importance, bounded scope, operating familiarity, and readiness to learn.
 
+Once the grammar is visible, the strategic question moves from execution to relationship.
+
 ## 8. Transaction Gravity
 
 A bank can retain an account while losing the practical center of a customer relationship.
@@ -256,7 +242,7 @@ This tendency is **Transaction Gravity**.
 
 Transaction Gravity is not transaction volume wearing a strategic name. Volume can increase while the customer relationship remains shallow. The relevant question is whether the institution is becoming a more natural place for income, deposits, payments, collections, obligations, enterprise activity, and financial decisions to meet.
 
-The Program can support that tendency by lowering the operating distance between one banking service and the next. Once the bank has established a governed foundation, a new Facility can be considered without constructing an unrelated financial-state, condition, credential, and execution model. The institution can focus on whether the service strengthens a relationship it is prepared to carry.
+The Capability can support that tendency by lowering the operating distance between one banking service and the next. A new Facility can be considered without constructing an unrelated financial-state, condition, credential, and execution model. The institution can focus on whether the service strengthens a relationship it is prepared to carry.
 
 The bank must still earn the customer’s return. Service must be dependable. Pricing must be credible. Channels must be useful. Support must be available. Exceptions must be resolved fairly. Technology creates no entitlement to relevance.
 
@@ -264,9 +250,11 @@ Transaction Gravity is therefore an institutional possibility grounded in repeat
 
 It matters because thrift banks are relationship institutions. Their advantage lies not in owning every transaction, but in understanding how different financial needs belong to the same household or enterprise over time.
 
+That possibility depends on clear governance and ownership.
+
 ## 9. Governance, Ownership and Operating Responsibility
 
-The Program introduces a maintained capability into an existing institution. Governance must therefore begin with the bank’s established authority rather than with the technology provider’s delivery process.
+The Program establishes a maintained operating Capability within an existing institution. Governance must therefore begin with the bank’s established authority rather than with the technology provider’s delivery process.
 
 The Board and executive management determine the institutional purpose, risk appetite, accountability, and scope under which the Program may be evaluated. Business owners define the banking service and customer responsibility. Operations defines how activity will be supervised, supported, escalated, and reconciled. Treasury governs the operational view of Settlement Resources. Compliance, legal, risk, information security, audit, and other control functions review the matters within their authority.
 
@@ -284,7 +272,7 @@ Settlement responsibility remains equally clear. The bank owns or establishes th
 
 Shared infrastructure must be understood within these boundaries. Maintained software, orchestration, engineering, integration patterns, deployment automation, testing, observability, documentation, and reusable banking grammar may be shared. Funds, settlement authority, production accounts, customer balances, credentials, and institutional audit trails are not shared merely because the engineering foundation is reusable.
 
-The operating model succeeds when every participant can state both what it does and what it does not become.
+The operating model succeeds when every participant can state both what it does and what it does not become. That clarity makes controlled adoption possible.
 
 ## 10. Readiness and Controlled Adoption
 
@@ -292,7 +280,7 @@ Adoption begins when the institution identifies one banking responsibility worth
 
 The first step is not software installation. It is understanding the institution.
 
-The bank explains the customer need, product context, authority, source and destination of funds, policy, approvals, evidence, channels, systems, settlement path, accounting, reconciliation, support, exceptions, and institutional owners. That discovery defines the ceremony the Program must support.
+The bank explains the customer need, product context, authority, source and destination of funds, policy, approvals, evidence, channels, systems, settlement path, accounting, reconciliation, support, exceptions, and institutional owners. That discovery defines the ceremony the Capability must support.
 
 The bank then selects the first production candidate. Remittance may be appropriate, but it is not mandatory. Payroll may matter more to an employer strategy. Collections may address an immediate SME need. Merchant services may support deposit and liquidity relationships. Housing or SME disbursement may be more closely aligned with the institution’s priorities.
 
@@ -316,9 +304,7 @@ The institution reviews what occurred and decides whether to proceed, correct, e
 
 Expansion is not automatic. A successful first service establishes knowledge and operating confidence. The bank may extend the same Facility, introduce another channel, add another customer group, increase approved limits, or define a new banking ceremony. Each step repeats the discipline of authority, conditions, readiness, controlled operation, and evidence.
 
-The purpose is not rapid deployment for its own sake.
-
-It is controlled institutional learning.
+The purpose is controlled institutional learning. Each cycle strengthens the bank’s ability to evaluate the next service without relaxing the readiness standard.
 
 ## 11. The Ten-Year Institutional Horizon
 
@@ -340,7 +326,7 @@ These are durable questions even when the technology changes.
 
 Resilience allows the institution to continue through disruption. Adaptability allows it to assume new responsibilities through an established foundation. The bank will require both.
 
-The Program’s ten-year proposition is therefore measured in continued institutional choice. A thrift bank should be able to consider a new service, integrate an approved capability, test it through a bounded ceremony, and decide whether it belongs within the institution’s strategy. It should not have to reorganize itself around each technological change or surrender the relationships and authority that make it a bank.
+The Capability’s long-term value is therefore measured in continued institutional choice. A thrift bank should be able to consider a new service, integrate an approved component, test it through a bounded ceremony, and decide whether it belongs within the institution’s strategy. It should not have to reorganize itself around each technological change or surrender the relationships and authority that make it a bank.
 
 Good architecture does not decide the future for the institution.
 
@@ -356,6 +342,4 @@ x-change provides the operating grammar. `emi-core` establishes the common integ
 
 Remittance makes the model visible. It is not the only service and need not be the first production priority. Payroll, collections, merchant services, SME disbursement, housing workflows, and future banking ceremonies may draw upon the same foundation when the bank determines that they are relevant and ready.
 
-The result should not be another technology layer that customers must learn to navigate.
-
-It should be a more capable bank.
+The Program is the initiative. The Capability is the enduring result: not another technology layer that customers must learn to navigate, but a more capable bank.
