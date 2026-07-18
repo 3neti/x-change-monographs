@@ -19,13 +19,13 @@ governance:
   program_guide_parity: "docs/editorial/program-guides/PROGRAM_GUIDE_PARITY_CHECKLIST.md"
 classification:
   formal_program_guide: false
-  rationale: "Phase 1 is an institution-centric editorial study; the formal Program Guide remains governed by EDR-005."
+  rationale: "Phase 1 remains an institution-centric editorial study; the separate formal Program Guide is governed by EDR-005."
 editorial:
   reconciliation_status: "Complete"
   canonical_thesis_status: "Frozen"
-  manuscript_status: "Draft for editorial review"
+  manuscript_status: "Approved canonical doctrine"
   architecture_status: "Complete for Phase 1"
   parity_status: "Complete for Phase 1"
 publication:
   generated: false
-notes: "No PDF or print assets are authorized in Phase 1. The manuscript does not claim adoption, approval, certification, or participation by an illustrative named bank."
+notes: "No PDF or print assets are authorized in Phase 1. The manuscript is the approved doctrinal source for the separate EDR-005 Program Guide and does not claim adoption, certification, or participation by an illustrative named bank."

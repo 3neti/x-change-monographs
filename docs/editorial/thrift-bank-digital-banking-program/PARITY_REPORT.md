@@ -175,7 +175,7 @@ Status: **Complete for Phase 1 editorial review**.
 
 ## Formal Program Guide Parity
 
-The formal Thrift Bank Digital Banking Program Guide remains **Planned**.
+At the conclusion of Phase 1, the formal Thrift Bank Digital Banking Program Guide remained **Planned**. It has since been implemented separately at [`../program-guides/thrift-bank/thrift-bank-program-guide.md`](../program-guides/thrift-bank/thrift-bank-program-guide.md) and is tracked by the cross-program parity checklist.
 
 This Phase 1 package does not satisfy or attempt to satisfy the Canonical Banking Program Guide’s formal structural parity because it is not that artifact. Before a formal Program Guide is described as created, editorial work must:
 
@@ -186,7 +186,7 @@ This Phase 1 package does not satisfy or attempt to satisfy the Canonical Bankin
 5. reserve and complete the required appendices; and
 6. update the cross-program parity matrix as drafting proceeds.
 
-No missing formal-guide coverage has been disguised with prose. The future guide remains a separate editorial task.
+No missing formal-guide coverage was disguised with prose. The resulting Guide remains a separate artifact and leaves this Phase 1 parity decision unchanged as a record of the study's scope.
 
 ## Parity Decision
 

@@ -31,8 +31,9 @@ Banking Program Guides are canonical commercial handbooks and remain separate fr
 - [Banking Program Guides index](program-guides/README.md)
 - [Canonical Banking Program Guide](program-guides/CANONICAL_BANKING_PROGRAM_GUIDE.md)
 - [Banking Program Guide Parity Checklist](program-guides/PROGRAM_GUIDE_PARITY_CHECKLIST.md)
-- [RBAP Digital Banking Program Guide](program-guides/rbap/rbap-digital-banking-program-guide.md) — architecture frozen; substantive drafting not begun
+- [RBAP Digital Banking Program Guide](program-guides/rbap/rbap-digital-banking-program-guide.md) — Sections 1–7 frozen; Executive Summary in review; appendices planned
+- [Thrift Bank Digital Banking Program Guide](program-guides/thrift-bank/thrift-bank-program-guide.md) — complete EDR-005 implementation in editorial review
 
 ## Institutional Program Studies
 
-- [Thrift Bank Digital Banking Program](thrift-bank-digital-banking-program/README.md) — canonical Phase 1 editorial study and institution-centric source manuscript; not yet the formal Program Guide implementation
+- [Thrift Bank Digital Banking Program](thrift-bank-digital-banking-program/README.md) — approved Phase 1 institutional study and doctrinal source for the separate formal Program Guide
