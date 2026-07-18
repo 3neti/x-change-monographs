@@ -17,8 +17,18 @@ governance:
 editorial:
   executive_summary_status: "In Review"
   executive_summary_revalidation_status: "Eligible under EDR-012; revalidation not yet performed"
-  appendices_status: "Complete"
-  diagrams_status: "Complete source; frozen-body placement deferred to publication rendering"
+  appendices_status: "Canonical and Locked"
+  appendix_lock_assessment: "Eligible with limited recorded publication exceptions"
+  appendix_lock_date: "2026-07-18"
+  appendix_status:
+    "A": "Locked"
+    "B": "Locked"
+    "C": "Locked"
+    "D": "Locked"
+    "E": "Locked"
+    "F": "Locked"
+    "G": "Locked source"
+  diagrams_status: "Canonical source locked; rendering, frozen-body substitution, accessibility tagging, and final text alternatives pending"
   section_status:
     "1": "Locked"
     "2": "Locked"
@@ -37,4 +47,4 @@ publication:
   pdf: "build/pdf/rbap-digital-banking-program-guide-edition-1.pdf"
   pipeline: "scripts/publish-rbap-program-guide.py"
   stylesheet: "resources/publication-assets/styles/program-guide.css"
-notes: "The approved architecture remains frozen. Sections 1–7 are editorially complete, locked, and byte-preserved as the canonical narrative. Appendices A–G are substantively complete, all mandatory parity categories have RBAP coverage, and Appendix G contains governed Mermaid source for the canonical diagrams and body illustrations. The Executive Summary remains In Review and is now eligible for revalidation under EDR-012; it is not yet locked. The seven visual-placeholder labels inside frozen Sections 4–5 remain byte-preserved, with their completed figure sources supplied in Appendix G for later publication rendering. No separate Executive Edition or new publication artifact is created by this appendix-completion state."
+notes: "The approved architecture remains frozen. Sections 1–7 are editorially complete, locked, and byte-preserved as the canonical narrative. Appendices A–G are canonical and locked as institutional reference source material, all mandatory parity categories have RBAP coverage, and Appendix G contains locked Mermaid source for the canonical diagrams and body illustrations. The Executive Summary remains In Review and is eligible for separate revalidation under EDR-012; it is not yet locked. Final figure rendering, accessibility tagging, text alternatives, frozen-body substitution, pagination, and publication artifacts remain pending publishing work. No separate Executive Edition or new publication artifact is authorized by this appendix lock."

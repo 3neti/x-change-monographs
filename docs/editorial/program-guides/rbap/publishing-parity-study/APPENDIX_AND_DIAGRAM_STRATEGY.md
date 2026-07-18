@@ -2,11 +2,15 @@
 
 ## Purpose
 
-This strategy defines how the unfinished RBAP appendices and visual placeholders should be completed without reopening the frozen Sections 1–7 or importing Thrift doctrine. It authorizes no drafting or diagram production.
+This strategy records how the RBAP appendices and visual placeholders are governed without reopening the frozen Sections 1–7. It does not authorize edition classification or final publication production.
 
 ## Implementation Update — 18 July 2026
 
 The subsequent appendix-completion assignment authorized Appendices A–G while explicitly deferring the separate Executive Edition and its governance. The approved low-risk source decision was to populate the appendix area already reserved inside the canonical manuscript rather than reorganize or duplicate it. Appendix G now contains the governed Mermaid source. Sections 1–7 remain byte-preserved, so their seven literal visual-placeholder labels remain in the frozen narrative; Appendix G supplies the completed corresponding figures for later renderer substitution.
+
+## Editorial Acceptance — 18 July 2026
+
+A formal appendix review accepted Appendices A–G as canonical and locked institutional reference source material. The lock is eligible with limited recorded publication exceptions: final figure rendering, accessibility tagging, publication-quality text alternatives, frozen-body substitution, and pagination remain publishing-workflow responsibilities. This acceptance does not lock the Executive Summary, authorize a separate Executive Edition, create a two-edition publication model, or complete a final publication artifact.
 
 ## Sequencing Rule
 
@@ -20,13 +24,13 @@ The Executive Edition may exclude the appendices from its published scope. Their
 
 | Appendix | Current state | Executive Edition | Institutional Reference Edition | Source strategy | New work required |
 | --- | --- | --- | --- | --- | --- |
-| A — Glossary | Complete | Exclude | Include | Controlled terms derived from the frozen guide, canonical architecture, and accepted EDRs. | Eligible for appendix review. |
-| B — Program Governance | Complete | Exclude | Include | Roles, decision rights, exclusions, and gates derived from Sections 2, 4, and 7 and EDR-007 through EDR-009. | Eligible for appendix review. |
-| C — Commercial Waterfall | Complete | Exclude | Include | Principles-level accountability model derived from Sections 2 and 6 without prices. | Eligible for commercial-boundary review. |
-| D — Treasury Grammar | Complete | Exclude | Include | Institutional reference derived from Section 4 and EDR-010. | Eligible for Treasury review. |
-| E — Deployment Architecture | Complete | Exclude | Include | Responsibility, tenancy, credential, data, CI/CD, audit, settlement, and portability boundaries. | Eligible for architecture review. |
-| F — Frequently Asked Questions | Complete | Exclude | Include | All reserved and necessary institutional questions answered from frozen doctrine. | Eligible for appendix review. |
-| G — Program Diagrams | Complete source | Exclude as an appendix | Include | Twenty-five RBAP-specific Mermaid sources governed by the parity registry and frozen narrative. | Rendering and body placement remain future publication work. |
+| A — Glossary | Locked | Exclude | Include | Controlled terms derived from the frozen guide, canonical architecture, and accepted EDRs. | Factual, typographical, or governed cross-reference corrections only. |
+| B — Program Governance | Locked | Exclude | Include | Roles, decision rights, exclusions, and gates derived from Sections 2, 4, and 7 and EDR-007 through EDR-009. | Factual, typographical, or governed cross-reference corrections only. |
+| C — Commercial Waterfall | Locked | Exclude | Include | Principles-level accountability model derived from Sections 2 and 6 without prices. | Factual, typographical, or governed cross-reference corrections only. |
+| D — Treasury Grammar | Locked | Exclude | Include | Institutional reference derived from Section 4 and EDR-010. | Factual, typographical, or governed cross-reference corrections only. |
+| E — Deployment Architecture | Locked | Exclude | Include | Responsibility, tenancy, credential, data, CI/CD, audit, settlement, and portability boundaries. | Factual, typographical, or governed cross-reference corrections only. |
+| F — Frequently Asked Questions | Locked | Exclude | Include | All reserved and necessary institutional questions answered from frozen doctrine. | Factual, typographical, or governed cross-reference corrections only. |
+| G — Program Diagrams | Locked source | Exclude as an appendix | Include | Twenty-five RBAP-specific Mermaid sources governed by the parity registry and frozen narrative. | Rendering, placement, accessibility tagging, text alternatives, and publication QA remain pending. |
 
 ### Appendix source location
 
@@ -127,10 +131,10 @@ Before Appendix G can be marked complete:
 - terminology must match the canonical Treasury grammar;
 - diagram source must remain in the editorial source tree, not only inside generated HTML or SVG;
 - diagrams must render legibly in A4 PDF and HTML;
-- captions and text alternatives must be present;
+- captions and source-readable textual meaning must be present; final rendered figures require accessibility tagging and publication-quality text alternatives;
 - no diagram may imply shared custody, shared tenancy, RBAP settlement operation, or bank authority held by x-change; and
 - the publication-specific parity report must identify the exact source file for each diagram.
 
 ## Appendix and Diagram Conclusion
 
-Appendices A–G are required completion work, even though only the Institutional Reference Edition will publish them. The body illustrations and canonical diagrams should share a visual language but remain different governance classes: illustrations explain the narrative; canonical diagrams record the approved operating model.
+Appendices A–G are canonical and locked as institutional reference source material. If a reference publication is later authorized, the body illustrations and canonical diagrams should share a visual language while remaining different governance classes: illustrations explain the narrative; canonical diagrams record the approved operating model.

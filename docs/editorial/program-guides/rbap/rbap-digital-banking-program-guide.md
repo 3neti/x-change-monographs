@@ -1155,7 +1155,7 @@ These definitions apply to the RBAP Digital Banking Program Guide. They organize
 
 **RBAP Digital Banking Program** — The association-administered initiative through which participating rural banks may acquire, deploy, operate, and maintain common licensed digital banking capability while remaining independent institutions.
 
-**Participating Rural Bank** — An RBAP member bank admitted to the Program and allocated a license seat. It operates its own deployment under its own banking authority and retains its customers, deposits, infrastructure, data, credentials, policies, approvals, and direct settlement relationship.
+**Participating Rural Bank** — An RBAP member bank admitted to the Program and allocated a license seat. It operates its own deployment under its own banking authority, owns or controls its infrastructure, data, and credentials, governs its policies and approvals, and retains its customer and deposit relationships and direct settlement relationship.
 
 **Rural Bankers Association of the Philippines (RBAP)** — The Program sponsor, convenor, ecosystem steward, and administrator. RBAP coordinates participation and common standards; it is not a bank, settlement institution, payment switch, payment rail, custodian of customer funds, or shared production operator.
 
@@ -1173,7 +1173,7 @@ These definitions apply to the RBAP Digital Banking Program Guide. They organize
 
 **Banking Ceremony** — The complete institutional progression through which a customer or institutional request becomes an authorized, conditioned, executed, evidenced, supported, and reconciled banking outcome.
 
-**Funding Event** — The record of an external financial event through which Settlement Resources enter or become recognized by Treasury. It records recognition; it does not create the underlying financial value.
+**Funding Event** — The record of an external financial event through which Settlement Resources become recognized by Treasury. It records recognition; it does not receive or create the underlying financial value.
 
 **Settlement Resources** — Funds or settlement capacity recognized by the participating bank as supporting a banking activity. Their custody and legal character remain within the bank's regulated arrangements.
 
@@ -1212,8 +1212,6 @@ These definitions apply to the RBAP Digital Banking Program Guide. They organize
 **Controlled Pilot** — A bounded institutional introduction of one approved Banking Ceremony under defined scope, measures, limits, responsibilities, and review gates.
 
 **Limited Production** — Real banking activity conducted during a Controlled Pilot under the participating bank's authority and regulated settlement relationship. It is not a demonstration or test environment.
-
-**Executive Edition / Institutional Reference Edition** — Descriptive publication roles considered by the publishing-parity study. They are not current RBAP edition classifications unless and until separate editorial governance adopts them. Their use here does not change the status of Edition 1.
 
 ## Appendix B — Program Governance
 
@@ -1723,9 +1721,21 @@ The participating bank decides. RBAP may establish Program standards, ODTI may c
 
 ## Appendix G — Program Diagrams
 
-These diagrams express the governed concepts in this Guide. They describe institutional responsibility, operational sequence, and commercial accountability. They are not production specifications, legal fund characterizations, or independent sources of authority.
+These diagrams express the governed concepts in this Guide. They describe institutional responsibility, operational sequence, and commercial accountability. They are not production specifications, legal fund characterizations, independent sources of authority, or final rendered publication figures.
 
-The first thirteen diagrams satisfy the canonical diagram registry. The remaining diagrams provide approved source equivalents for the editorial illustrations reserved in Sections 4 and 5 and for the institutional and launch concepts requested for the RBAP reference source. The frozen body labels remain unchanged; a future publishing task may substitute the corresponding rendered figures without altering the canonical prose.
+The canonical-program subsection contains all ten registry diagrams, together with three RBAP-specific diagrams for independent deployments, direct settlement relationships, and the Funding Event-to-Execution lifecycle. The remaining diagrams provide governed sources for the editorial illustrations reserved in Sections 4 and 5 and for the institutional and launch concepts requested for the RBAP reference source.
+
+Each Mermaid block and caption provide the reviewable source and textual meaning. Final rendering, placement, accessibility tagging, and publication-quality text alternatives remain publishing-workflow responsibilities. The frozen body labels remain unchanged; publishing automation may substitute the corresponding rendered figures without altering the canonical prose.
+
+| Frozen visual placeholder | Governed Appendix G source |
+| --- | --- |
+| Familiar Remittance Pattern | Familiar Remittance Pattern |
+| Operating Perspectives | Operating Perspectives |
+| Operating Flow | Source-to-Settlement Operating Flow |
+| End-to-End Banking Activity | End-to-End Banking Activity |
+| Manager's Check and Pay Code Remittance | Manager's Check and Pay Code Customer Journey |
+| Behind the Counter | Behind the Counter |
+| Operating Model | Funding Event to Execution Lifecycle |
 
 ### Canonical Program Diagrams
 
@@ -1919,7 +1929,7 @@ flowchart TB
 flowchart TB
     subgraph Recognition["Recognition and purpose"]
         direction LR
-        Funds["Bank-held funds"] --> FE["Funding Event"] --> Treasury["Treasury"] --> Lien["Lien"] --> Facility["Facility"]
+        Funds["Funds within the bank's regulated relationship"] --> FE["Funding Event"] --> Treasury["Treasury"] --> Lien["Lien"] --> Facility["Facility"]
     end
     subgraph Delivery["Conditions and outcome"]
         direction LR
@@ -1937,7 +1947,7 @@ flowchart TB
     Request["Customer requests a funded banking outcome"] --> Bank["Bank receives funds and accepts responsibility"]
     Bank --> Check["Manager's check: bank-issued payment instrument"]
     Bank --> Code["Pay Code remittance: bank-issued execution credential"]
-    Check --> Present["Recipient presents through approved journey"]
+    Check --> Present["Instrument or credential presented through the applicable journey"]
     Code --> Present
     Present --> Outcome["Bank arranges the requested outcome"]
 ```

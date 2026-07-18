@@ -86,7 +86,7 @@ For a section to be `Complete`, reviewers must confirm all of the following:
 
 ## Canonical Diagram Parity
 
-Appendix G is the shared registry for canonical program diagrams. The RBAP Program Guide now contains governed Mermaid source for every registry diagram and the frozen narrative's editorial illustrations. Diagram parity is reviewed separately from the 27 mandatory business-coverage categories.
+Appendix G implements the shared registry for canonical program diagrams. The RBAP Program Guide contains locked Mermaid source for every registry diagram and the frozen narrative's editorial illustrations. Final figure rendering and placement remain publication-workflow matters. Diagram parity is reviewed separately from the 27 mandatory business-coverage categories.
 
 | Canonical diagram | Registry status | RBAP | Thrift Banks | Government Depository Banks | Notes |
 | --- | --- | --- | --- | --- | --- |
@@ -107,7 +107,7 @@ A future guide satisfies diagram parity by referencing the approved canonical di
 
 | Program | Guide path | Current stage |
 | --- | --- | --- |
-| RBAP Digital Banking Program | `docs/editorial/program-guides/rbap/rbap-digital-banking-program-guide.md` | Sections 1–7 remain editorially complete, locked, and frozen as the canonical narrative. Appendices A–G are substantively complete, all mandatory coverage categories are Complete, and all diagram-registry requirements have RBAP source. The Executive Summary remains In Review and is now eligible for revalidation under EDR-012; it is not yet locked. Future narrative changes remain limited to factual or typographical corrections, whole-manuscript cadence review, and cross-reference updates. |
+| RBAP Digital Banking Program | `docs/editorial/program-guides/rbap/rbap-digital-banking-program-guide.md` | Sections 1–7 remain editorially complete, locked, and frozen as the canonical narrative. Appendices A–G are canonical and locked as institutional reference source material; all mandatory coverage categories and diagram-registry requirements remain Complete. Final figure rendering and placement remain publication work. The Executive Summary remains In Review and is eligible for separate revalidation under EDR-012; it is not yet locked. Future narrative changes remain limited to factual or typographical corrections, whole-manuscript cadence review, and cross-reference updates. |
 | Thrift Bank Digital Banking Program | `docs/editorial/program-guides/thrift-bank/thrift-bank-program-guide.md` | Canonical and editorially locked under the [Editorial Acceptance](thrift-bank/EDITORIAL_ACCEPTANCE.md). EDR-005 editorial work is complete for this implementation; future work proceeds through institution-specific editions. Executive Summary, Sections 1–7, and Appendices A–G are complete. No publication build is authorized. The separate [Phase 1 Institutional Study](../thrift-bank-digital-banking-program/README.md) remains the authoritative doctrinal source. |
 | Government Depository Banking Program | Not created | Anticipated. |
 

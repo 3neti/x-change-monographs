@@ -31,7 +31,7 @@ Banking Program Guides are canonical commercial handbooks and remain separate fr
 - [Banking Program Guides index](program-guides/README.md)
 - [Canonical Banking Program Guide](program-guides/CANONICAL_BANKING_PROGRAM_GUIDE.md)
 - [Banking Program Guide Parity Checklist](program-guides/PROGRAM_GUIDE_PARITY_CHECKLIST.md)
-- [RBAP Digital Banking Program Guide](program-guides/rbap/rbap-digital-banking-program-guide.md) — Sections 1–7 frozen; Appendices A–G complete; Executive Summary eligible for EDR-012 revalidation and still In Review
+- [RBAP Digital Banking Program Guide](program-guides/rbap/rbap-digital-banking-program-guide.md) — Sections 1–7 frozen; Appendices A–G canonical and locked as institutional reference source material; Executive Summary eligible for EDR-012 revalidation and still In Review
 - [Thrift Bank Digital Banking Program Guide](program-guides/thrift-bank/README.md) — publishing program complete under EDR-013 with canonical Executive and Institutional Reference editions
 
 ## Institutional Program Studies
