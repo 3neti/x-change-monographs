@@ -14,11 +14,11 @@ Its banking proposition already extends across deposits, consumer and commercial
 
 This is therefore not a guide to becoming digital for the first time.
 
-It considers a different institutional question: whether one reusable governed operating Capability beneath AllBank's existing channels, products, payment connectivity, and customer relationships could support additional banking services without requiring their operating foundations to be rebuilt independently.
+It considers a different institutional question: whether one reusable governed operating capability beneath AllBank's existing channels, products, payment connectivity, and customer relationships could support additional banking services without requiring their operating foundations to be rebuilt independently.
 
-The Program does not replace AllBank's authority, channels, systems, providers, or settlement relationships. It begins with them. AllBank remains the bank, the customer institution, and the production authority throughout.
+This approach does not replace AllBank's authority, channels, systems, providers, or settlement relationships. It begins with them. AllBank remains the bank, the customer institution, and the production authority throughout.
 
-That question belongs in an executive conversation about one enduring operating Capability within AllBank's institutional context. It neither proposes a deployment nor assumes AllBank approval or operational readiness.
+The question invites an executive conversation about an enduring operating capability within AllBank's institutional context—without proposing a deployment or assuming AllBank approval or operational readiness.
 
 ## Executive Summary
 
@@ -40,11 +40,11 @@ Remittance makes the model visible. A customer asks the bank to make funds avail
 
 The customer requested a banking outcome. The bank arranged it.
 
-The same Capability could support services already relevant to AllBank. Payroll connects employers and employees. Merchant services connect commerce, settlement, reporting, and business relationships. Collections connect payer information with attribution and reconciliation. Housing and commercial lending may require governed releases against purpose and evidence. Their commercial meaning, participants, policies, and customer journeys differ. The operating grammar remains stable.
+The same foundation could support services already relevant to AllBank. Payroll connects employers and employees. Merchant services connect commerce, settlement, reporting, and business relationships. Collections connect payer information with attribution and reconciliation. Housing and commercial lending may require governed releases against purpose and evidence. Their commercial meaning, participants, policies, and customer journeys differ. The operating grammar remains stable.
 
 The priority among these services, and the operating model supporting them, can be determined only with AllBank. That is the purpose of institutional dialogue.
 
-If AllBank considers the question relevant, the next step would not be immediate implementation. It would be a structured executive discussion about whether one governed Capability merits formal evaluation, which banking ceremony would best demonstrate it, and what evidence AllBank would require before considering controlled production.
+If AllBank considers the question relevant, the next step would be neither implementation nor commitment, but a structured executive discussion: whether the capability merits formal evaluation, which banking ceremony might best illuminate it, and what evidence AllBank would require before considering controlled production.
 
 ## Section 1 — Why This Program?
 
@@ -52,7 +52,7 @@ If AllBank considers the question relevant, the next step would not be immediate
 
 > **Key message:** AllBank already has authority, relationships, channels, digital services, and payment connectivity. The opportunity is to determine whether one governed operating foundation could support more banking services over time.
 
-> **Executive decision:** I understand the institutional question and can decide whether a reusable governed operating Capability merits formal evaluation.
+> **Executive decision:** I understand the institutional question and can decide whether a reusable governed operating capability merits formal evaluation.
 
 AllBank's history, customer relationships, and regulated authority are institutional assets. Modernization should strengthen them rather than replace them.
 
@@ -62,7 +62,7 @@ A bank can accumulate functioning channels and integrations without acquiring on
 
 That pattern creates repeated work. It can also make institutional responsibility harder to observe across products and channels. A customer sees a payroll credit, merchant payment, collection reference, transfer, remittance, or loan release. AllBank must see the complete obligation: purpose, authority, funds, conditions, evidence, execution, exceptions, support, and reconciliation.
 
-The Program addresses that operating question. It does not confer banking authority, create customer relationships, or supply settlement access. It organizes authority and connectivity that AllBank already possesses or establishes through approved relationships.
+This initiative addresses that operating question. It does not confer banking authority, create customer relationships, or supply settlement access. It organizes authority and connectivity that AllBank already possesses or establishes through approved relationships.
 
 The timing is practical. Maintained software, modern deployment practices, API-based integration, automated testing, observability, and regulated payment infrastructure now allow an institution to establish a reusable foundation without rebuilding every component for every service.
 
@@ -78,7 +78,7 @@ One foundation would not make every AllBank service alike. It would give the ban
 
 > **Executive decision:** I understand the Program, the Capability it is intended to establish, the participating roles, and the boundaries that remain subject to AllBank approval.
 
-The Thrift Bank Digital Banking Program brings together licensed x-change software, institution-specific integration, controlled deployment, observability, testing, documentation, maintenance, and operating governance. The resulting Capability coordinates the progression from recognized funds and authorized purpose to conditions, credential, execution, evidence, and reconciliation.
+The Thrift Bank Digital Banking Program brings together licensed x-change software, institution-specific integration, controlled deployment, observability, testing, documentation, maintenance, and operating governance. The resulting capability coordinates the progression from recognized funds and authorized purpose to conditions, credential, execution, evidence, and reconciliation.
 
 The Program is the initiative. The Capability is the enduring operational result. The terms are not interchangeable. The Program can be evaluated, approved, governed, implemented, and reviewed. The Capability is what AllBank would continue to operate and evolve.
 
@@ -88,7 +88,7 @@ The licensed technology provider would maintain x-change, the common execution c
 
 A DevOps or managed-service provider may perform delegated provisioning, deployment, monitoring, backup, recovery, release support, and incident-response work. The provider would act within AllBank's approved environment and delegated authority. It would not own the environment, data, credentials, billing relationships, or release decision.
 
-AllBank's settlement institutions and payment providers would continue to perform supported financial movement under their agreements with the bank. The Program does not prescribe an exclusive settlement institution. AllBank would own or establish the relevant accounts, participation, credentials, limits, and execution authority.
+AllBank's settlement institutions and payment providers would continue to perform supported financial movement under their agreements with the bank. The initiative does not prescribe an exclusive settlement institution. AllBank would own or establish the relevant accounts, participation, credentials, limits, and execution authority.
 
 The precise operating model supporting AllBank's current services is naturally unique to the institution. Any Program design would therefore begin with AllBank's approved architecture and relationships rather than assume a generic deployment.
 
@@ -96,11 +96,11 @@ Common software would not create a common bank. It would provide a maintained op
 
 Governance follows responsibility. The Board would authorize institutional purpose. Management would own implementation and operating accountability. Responsible functions would validate the complete service. Providers would supply only the capabilities assigned to them. Production could begin only through AllBank's approval process.
 
-The Program should be judged by whether it establishes the Capability under institutional control—not by the quantity of software installed. Its value therefore begins with what the Capability enables AllBank to do.
+The initiative should be judged by whether it establishes the capability under institutional control—not by the quantity of software installed. Its value begins with what that foundation enables AllBank to do.
 
 ## Section 3 — Why Might This Matter to AllBank?
 
-> **Executive question:** What institutional value could this Capability offer AllBank?
+> **Executive question:** What institutional value could this capability offer AllBank?
 
 > **Key message:** AllBank could gain a reusable governed foundation through which it may introduce and evolve banking services while preserving its authority, relationships, channels, and operating sovereignty.
 
@@ -118,7 +118,7 @@ Payroll can connect employers, employees, deposits, payments, and continuing ret
 
 These possibilities are not automatic returns or statements of AllBank priority. They become valuable only when the institution selects relevant services and operates them well. The credible benefit is the capacity to introduce, govern, and evolve services whose institutional and commercial value AllBank has independently established.
 
-The Program also changes where scarce attention is spent. Rather than repeatedly rebuilding common orchestration machinery, AllBank can concentrate more management and engineering effort on customer relationships, product judgment, risk appetite, service quality, and chosen markets.
+This approach also changes where scarce attention is spent. Rather than repeatedly rebuilding common orchestration machinery, AllBank can concentrate more management and engineering effort on customer relationships, product judgment, risk appetite, service quality, and chosen markets.
 
 AllBank modernizes without becoming less itself. The operating model preserves that institutional boundary by design.
 
@@ -178,7 +178,7 @@ Technical completion remains narrower than readiness. A certified driver may per
 
 ## Section 5 — Banking in Action
 
-> **Executive question:** How could the Capability apply to banking services relevant to AllBank?
+> **Executive question:** How could the capability apply to banking services relevant to AllBank?
 
 > **Key message:** One operating grammar can support different AllBank services because purpose and policy may change while the responsibilities beneath them remain governed consistently.
 
@@ -204,15 +204,15 @@ AllBank's service portfolio brings several other ceremonies into view:
 | Housing and commercial releases | Existing lending relationships and approved disbursement purposes | Documentary conditions, payees, stages, authority, execution, continuing records |
 | Remittance | A familiar customer outcome and potential continuing household relationship | Funding, recipient conditions, credential, execution, evidence, reconciliation |
 
-The table identifies relevance, not priority. If AllBank chooses to explore the Capability, it can select the ceremony that best combines institutional importance, bounded scope, operating familiarity, and readiness to learn.
+The table identifies relevance, not priority. If AllBank chooses to explore this capability, it can select the ceremony that best combines institutional importance, bounded scope, operating familiarity, and readiness to learn.
 
-One ceremony makes the grammar visible. Many services make the Capability useful.
+One ceremony makes the grammar visible. Many services make the foundation useful.
 
 ## Section 6 — The Institutional Case
 
 > **Executive question:** What institutional case might AllBank consider?
 
-> **Key message:** The Capability could deepen relationships, preserve institutional choice, and lower repeated innovation cost while commercial value remains dependent on disciplined service selection and operation.
+> **Key message:** This capability could deepen relationships, preserve institutional choice, and lower repeated innovation cost while commercial value remains dependent on disciplined service selection and operation.
 
 > **Executive decision:** I understand the institutional and commercial case and can decide whether it merits detailed evaluation under AllBank's strategy and financial authority.
 
@@ -228,13 +228,13 @@ This tendency is **Transaction Gravity**.
 
 Transaction Gravity is not transaction volume alone and creates no entitlement to customer relevance. Service, pricing, channels, support, and fair exception handling still determine whether customers return. Its value is relational: the bank becomes a more natural place for income, deposits, payments, collections, obligations, and financial decisions to meet.
 
-The Capability supports adaptability. Resilience allows AllBank to continue through difficulty; adaptability allows it to assume new responsibilities through an established foundation. The institution cannot predict every service required over the next decade. It can preserve the ability to evaluate new services without rebuilding its operating foundation each time.
+This capability supports adaptability. Resilience allows AllBank to continue through difficulty; adaptability allows it to assume new responsibilities through an established foundation. The institution cannot predict every service required over the next decade. It can preserve the ability to evaluate new services without rebuilding its operating foundation each time.
 
 The commercial case remains disciplined. Costs may include licensing, institution-specific implementation, driver engineering and maintenance, bank infrastructure, managed operations, internal governance and operations, settlement-provider charges, and continuing support. Economic value may arise through service income, stronger deposits, deeper employer and merchant relationships, reduced duplicated engineering, and the ability to introduce relevant services more efficiently. None is automatic.
 
 Detailed economics require AllBank information and separate commercial analysis. Prices, volumes, savings, and returns should be assessed only after the institution has defined the service and supplied the evidence required to evaluate them.
 
-The Board would be deciding more than whether to acquire software. It would be deciding whether AllBank should establish a reusable Capability through which its authority and relationships may support more services over time.
+The Board would be deciding more than whether to acquire software. It would be deciding whether AllBank should establish a reusable operating foundation through which its authority and relationships may support more services over time.
 
 ## Section 7 — Launching the Program
 
@@ -262,7 +262,7 @@ No conclusion about implementation or readiness is presumed.
 
 The immediate invitation is narrower: confirm whether the institutional question is relevant, identify the banking responsibility through which it should be examined, and establish what AllBank would need to know before considering any further decision.
 
-The next step is a disciplined institutional dialogue: whether this Capability belongs within AllBank's future, and which banking responsibility should test that judgment first.
+The next step is a disciplined institutional dialogue: whether this capability belongs within AllBank's future, and which banking responsibility should test that judgment first.
 
 ## Annexes
 
@@ -279,7 +279,7 @@ The annexes preserve the operating, governance, and Treasury distinctions requir
 
 ## Annex A — Canonical Operating Model
 
-The Program separates the customer proposition, governed banking ceremony, common execution contract, institution-specific integration, and regulated financial movement.
+The operating model separates the customer proposition, governed banking ceremony, common execution contract, institution-specific integration, and regulated financial movement.
 
 ```text
 AllBank Customer Channel
@@ -420,7 +420,7 @@ The principal decision gates are:
 6. **Pilot decision** — the institution authorizes a limited production scope.
 7. **Evidence review** — the institution decides to Proceed, Correct, Extend, or Pause.
 
-The Program preserves operating sovereignty. AllBank retains control over authority, customer relationships, policy, infrastructure, data, credentials, production decisions, settlement relationships, and its institutional audit trail.
+This model preserves operating sovereignty. AllBank retains control over authority, customer relationships, policy, infrastructure, data, credentials, production decisions, settlement relationships, and its institutional audit trail.
 
 AllBank's approved banking, accounting, customer, and settlement systems remain institutional systems of record. x-change coordinates the governed ceremony and preserves its operating evidence; it does not replace those systems or redefine their authority.
 
@@ -538,9 +538,9 @@ These definitions apply to this Program and remain subordinate to the governing 
 
 This paper was prepared for an institution that already possesses banking authority, established customer relationships, digital channels, payment participation, lending activities, and service relationships across households and enterprises.
 
-AllBank's published banking services informed the selection of institutional examples. Payroll, bulk payments, merchant acceptance, collections, remittance, housing finance, commercial lending, mobile banking, digital onboarding, and corporate Internet banking make the Program's operating question concrete without determining the institution's priorities.
+AllBank's published banking services informed the selection of institutional examples. Payroll, bulk payments, merchant acceptance, collections, remittance, housing finance, commercial lending, mobile banking, digital onboarding, and corporate Internet banking make the institutional question concrete without determining the institution's priorities.
 
-The Guide identifies where one governed operating Capability may align with those responsibilities. It preserves the boundary between AllBank's banking service and the software supporting it; between AllBank's settlement authority and the driver connecting approved execution interfaces; and between technical certification and institutional readiness.
+The Guide identifies where one governed operating capability may align with those responsibilities. It preserves the boundary between AllBank's banking service and the software supporting it; between AllBank's settlement authority and the driver connecting approved execution interfaces; and between technical certification and institutional readiness.
 
 The discussion does not assert how AllBank currently performs each ceremony, recommend a production design, select an initial service, establish commercial terms, or conclude that the institution is ready to proceed. Those decisions require direct institutional knowledge and AllBank authority.
 
