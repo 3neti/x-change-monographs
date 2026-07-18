@@ -34,6 +34,8 @@ It remains an internal institutional-intelligence artifact. It is not distribute
 
 The Executive Edition is the client-facing Program Guide. It synthesizes institution-specific understanding into the calm, board-oriented voice of the canonical Executive Edition.
 
+Its concise main body supports executive reading. Its embedded Annexes A–H preserve the canonical operating, ceremony, driver, governance, Treasury, readiness, and terminology references required for institutional evaluation.
+
 It does not expose:
 
 - evidence classifications;
@@ -66,11 +68,11 @@ Institution-specific examples do not change these meanings.
 
 ## Current state
 
-- Executive Edition version: 0.9
-- Editorial status: In Review
-- Publication state: Not Published
+- Executive Edition version: 1.0
+- Editorial status: Approved
+- Publication state: Ready for Typesetting
 - PDF or HTML generated: No
 - AllBank approval asserted: No
 - Commercial proposal authorized: No
 - Implementation authorized: No
-- Next stage: Editorial Review
+- Next stage: Typesetting, if separately authorized

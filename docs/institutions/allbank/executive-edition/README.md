@@ -4,16 +4,16 @@
 
 The AllBank Executive Edition is the client-facing institution-specific adaptation of the canonical Thrift Bank Digital Banking Program Guide.
 
-- Version: 0.9
-- Status: **In Review**
+- Version: 1.0
+- Status: **Approved**
 - Audience: AllBank Board and executive leadership
-- Publication state: Not Published
+- Publication state: **Ready for Typesetting**
 
 It is written as an AllBank Program Guide, not as a research report. Public institutional understanding informs the adaptation, while evidence classifications, claim identifiers, source discussion, internal recommendations, unknown registers, and management-question inventories remain outside the client manuscript.
 
 ## Artifacts
 
-- [Executive Edition manuscript](allbank-edition-executive-v0.9.md)
+- [Executive Edition manuscript](allbank-edition-executive-v1.0.md)
 - [Edition metadata](metadata.yaml)
 - [Edition relationship](EDITION_RELATIONSHIP.md)
 
@@ -37,6 +37,6 @@ The canonical Program Guide supplies doctrine and structure. AllBank Institution
 
 ## Editorial boundary
 
-The Executive Edition may adapt institutional examples, ceremony emphasis, audience language, and the invitation to dialogue. It may not redefine canonical doctrine, imply AllBank approval, assert undisclosed architecture, declare an institutional priority, establish driver feasibility, or advance into proposal or implementation.
+The Executive Edition adapts institutional examples, ceremony emphasis, audience language, and the invitation to dialogue. Annexes A–H preserve the canonical operating model, banking ceremonies, driver architecture, governance principles, Treasury grammar, readiness framework, glossary, and AllBank application note. The edition does not redefine canonical doctrine, imply AllBank adoption, assert undisclosed architecture, declare an institutional priority, establish driver feasibility, or advance into proposal or implementation.
 
-No PDF, HTML, or other publication asset has been generated. Typesetting begins only after editorial review.
+No PDF, HTML, or other publication asset has been generated. Version 1.0 is approved and ready for a separately authorized typesetting stage.

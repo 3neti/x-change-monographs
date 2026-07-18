@@ -4,13 +4,13 @@ This repository is the first institution-specific application of the canonical [
 
 **Institution:** AllBank (A Thrift Bank), Inc.
 
-**Phase:** AllBank Executive Edition — Editorial Review
+**Phase:** AllBank Executive Edition — Ready for Typesetting
 
 **Evidence cutoff:** 18 July 2026
 
 **Governance:** EDR-015
 
-The repository contains public-source institution intelligence, accepted strategic and editorial analysis, the internal AllBank Research Edition, and the client-facing AllBank Executive Edition. The Executive Edition is in editorial review. It is not an AllBank-approved publication, commercial proposal, implementation plan, pricing document, or adoption recommendation.
+The repository contains public-source institution intelligence, accepted strategic and editorial analysis, the internal AllBank Research Edition, and the approved client-facing AllBank Executive Edition. The Executive Edition is ready for typesetting. It is not evidence of AllBank adoption, a commercial proposal, an implementation plan, a pricing document, or an adoption recommendation.
 
 ## Artifacts
 
@@ -29,7 +29,7 @@ The repository contains public-source institution intelligence, accepted strateg
 
 The Institution Intelligence and Digital Maturity Assessment are accepted for analysis. The Strategic Gap Analysis and Editorial Mapping supported the completed internal Research Edition. That Research Edition now serves as internal source material for the client-facing Executive Edition.
 
-The AllBank Executive Edition Version 0.9 is **In Review**. It synthesizes institution-specific understanding without exposing the research apparatus. It authorizes no implementation. A commercial proposal and implementation remain unauthorized.
+The AllBank Executive Edition Version 1.0 is **Approved** and **Ready for Typesetting**. It synthesizes institution-specific understanding without exposing the research apparatus and embeds the canonical Annexes A–H. It authorizes no implementation. A commercial proposal and implementation remain unauthorized.
 
 All institution-specific statements are classified as **Observed**, **Inferred**, **Recommended**, or **Unknown**. If the public record does not establish a matter, the gap remains visible and is converted into a management question.
 
