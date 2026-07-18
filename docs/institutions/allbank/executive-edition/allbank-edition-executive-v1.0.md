@@ -14,11 +14,11 @@ Its banking proposition already extends across deposits, consumer and commercial
 
 This is therefore not a guide to becoming digital for the first time.
 
-It is a guide to a different institutional question: whether AllBank should establish one reusable governed operating Capability beneath its existing channels, products, payment connectivity, and customer relationships so that additional banking services may be introduced without rebuilding their operating foundations independently.
+It considers a different institutional question: whether one reusable governed operating Capability beneath AllBank's existing channels, products, payment connectivity, and customer relationships could support additional banking services without requiring their operating foundations to be rebuilt independently.
 
 The Program does not replace AllBank's authority, channels, systems, providers, or settlement relationships. It begins with them. AllBank remains the bank, the customer institution, and the production authority throughout.
 
-This Executive Edition applies the canonical Thrift Bank Digital Banking Program Guide to AllBank's institutional context. It supports an executive conversation about one enduring operating Capability. It is not a deployment proposal, a statement of AllBank approval, or a conclusion about operational readiness.
+That question belongs in an executive conversation about one enduring operating Capability within AllBank's institutional context. It neither proposes a deployment nor assumes AllBank approval or operational readiness.
 
 ## Executive Summary
 
@@ -30,7 +30,7 @@ Settlement connectivity is necessary, but it is not a banking service. A rail ca
 
 The **Program** is the institution-specific initiative through which AllBank would evaluate and, if approved, establish that foundation. The enduring result is the **Capability**: a maintained operating foundation through which customer requests become authorized, observable, executable, and reconcilable banking activity.
 
-AllBank remains the protagonist. It retains its banking authority, products, customer and deposit relationships, channels, infrastructure, data, policies, credentials, production authority, and settlement relationships. x-change supplies the operating grammar beneath those arrangements. `emi-core` provides the common execution contract, and an AllBank-specific driver—represented conceptually as `3neti/emi-allbank`—would map that contract to the institution's approved API behavior.
+AllBank remains the protagonist. It retains its banking authority, products, customer and deposit relationships, channels, infrastructure, data, policies, credentials, production authority, and settlement relationships. x-change supplies the operating grammar beneath those arrangements. A common execution contract and an AllBank-specific integration driver would connect that grammar to the institution's approved execution capability.
 
 The bank brings the authority and the rails. x-change brings the operating grammar. The bank-specific driver connects them.
 
@@ -44,11 +44,11 @@ The same Capability could support services already relevant to AllBank. Payroll 
 
 The priority among these services, and the operating model supporting them, can be determined only with AllBank. That is the purpose of institutional dialogue.
 
-The appropriate next step is therefore not immediate implementation. It is a structured executive discussion about whether one governed Capability merits formal evaluation, which banking ceremony would best demonstrate it, and what evidence AllBank would require before considering controlled production.
+If AllBank considers the question relevant, the next step would not be immediate implementation. It would be a structured executive discussion about whether one governed Capability merits formal evaluation, which banking ceremony would best demonstrate it, and what evidence AllBank would require before considering controlled production.
 
 ## Section 1 — Why This Program?
 
-> **Executive question:** Why should AllBank examine this Program?
+> **Executive question:** Why might this Program merit AllBank's consideration?
 
 > **Key message:** AllBank already has authority, relationships, channels, digital services, and payment connectivity. The opportunity is to determine whether one governed operating foundation could support more banking services over time.
 
@@ -84,7 +84,7 @@ The Program is the initiative. The Capability is the enduring operational result
 
 AllBank would be the program sponsor and banking authority. Its Board and Management would establish purpose, risk appetite, scope, accountability, and approval boundaries. Business, Operations, Treasury, Technology, Risk, Compliance, Legal, Information Security, Internal Audit, Finance, and other responsible functions would continue to perform their established roles.
 
-Open Disbursement Technologies, Inc. (ODTI) licenses and maintains x-change, `emi-core`, supported components, documentation, reference architecture, testing capability, and an institution-specific driver within agreed scope. ODTI would not become the bank, the customer owner, the custodian, the settlement institution, or the production authority.
+The licensed technology provider would maintain x-change, the common execution contract, supported components, documentation, reference architecture, testing capability, and an institution-specific driver within agreed scope. The provider would not become the bank, the customer owner, the custodian, the settlement institution, or the production authority.
 
 A DevOps or managed-service provider may perform delegated provisioning, deployment, monitoring, backup, recovery, release support, and incident-response work. The provider would act within AllBank's approved environment and delegated authority. It would not own the environment, data, credentials, billing relationships, or release decision.
 
@@ -98,13 +98,13 @@ Governance follows responsibility. The Board would authorize institutional purpo
 
 The Program should be judged by whether it establishes the Capability under institutional control—not by the quantity of software installed. Its value therefore begins with what the Capability enables AllBank to do.
 
-## Section 3 — Why Should AllBank Proceed?
+## Section 3 — Why Might This Matter to AllBank?
 
-> **Executive question:** What could AllBank gain by proceeding?
+> **Executive question:** What institutional value could this Capability offer AllBank?
 
 > **Key message:** AllBank could gain a reusable governed foundation through which it may introduce and evolve banking services while preserving its authority, relationships, channels, and operating sovereignty.
 
-> **Executive decision:** I understand the prospective institutional benefit and can decide whether it warrants commercial and implementation evaluation.
+> **Executive decision:** I understand the prospective institutional benefit and can decide whether further evaluation is warranted.
 
 The principal benefit is operating leverage. A maintained grammar for authority, financial state, conditions, credentials, execution, and evidence can reduce the amount of foundational work repeated for each service. AllBank would still perform product design, policy, governance, integration review, training, customer treatment, and support. What changes is the starting point.
 
@@ -126,7 +126,7 @@ AllBank modernizes without becoming less itself. The operating model preserves t
 
 > **Executive question:** How would the operating model work within AllBank?
 
-> **Key message:** AllBank retains custody and authority. x-change coordinates the banking ceremony, and an AllBank-specific driver connects that ceremony to the institution's approved settlement capability.
+> **Key message:** AllBank retains custody and authority. x-change coordinates the banking ceremony, and an AllBank-specific driver connects that ceremony to the institution's approved execution capability.
 
 > **Executive decision:** I understand where authority, funds, software, integration, execution, evidence, and reconciliation would reside.
 
@@ -141,18 +141,18 @@ AllBank Banking Service
           ↓
 x-change
           ↓
-emi-core
+Common execution contract
           ↓
-3neti/emi-allbank
+AllBank-specific integration driver
           ↓
-Approved AllBank API
+AllBank-approved execution interface
           ↓
-AllBank Settlement Arrangement
+AllBank-governed settlement or payment arrangement
           ↓
-InstaPay / PESONet / other approved rail or provider
+Applicable approved rail, provider, or internal capability
 ```
 
-The customer channel presents an experience. The banking service expresses AllBank's customer proposition, policy, terms, and responsibility. x-change coordinates the governed banking ceremony. `emi-core` defines the common execution contract. `3neti/emi-allbank` represents the institution-specific engineering that would translate that contract into AllBank's approved API behavior.
+The customer channel presents an experience. The banking service expresses AllBank's customer proposition, policy, terms, and responsibility. x-change coordinates the governed banking ceremony. The common execution contract provides a stable integration boundary. The AllBank-specific integration driver would translate that contract into behavior approved by the institution.
 
 No production driver is assumed. Its feasibility and design would depend on discovery of AllBank's approved systems, interfaces, credentials, status models, controls, settlement arrangements, evidence, and reconciliation responsibilities.
 
@@ -170,7 +170,7 @@ A **Pay Code** represents an authorized instruction in a form that can be commun
 
 The banking service is the product. The Pay Code is the credential.
 
-**Execution** coordinates the progression from authorized instruction to the outcome defined by the Facility. The execution engine and institution-specific driver address AllBank's approved API. Provider and institutional references, status, exceptions, and evidence return to the operating record for reconciliation.
+**Execution** coordinates the progression from authorized instruction to the outcome defined by the Facility. The execution engine and institution-specific driver address an AllBank-approved execution interface. Provider and institutional references, status, exceptions, and evidence return to the operating record for reconciliation.
 
 Custody would not move into x-change. The underlying funds would remain within AllBank's regulated relationships. Treasury provides an operational view; it does not replace the bank account or determine the legal character of funds.
 
@@ -182,9 +182,9 @@ Technical completion remains narrower than readiness. A certified driver may per
 
 > **Key message:** One operating grammar can support different AllBank services because purpose and policy may change while the responsibilities beneath them remain governed consistently.
 
-> **Executive decision:** I can recognize how the operating model applies to a familiar ceremony and how the same foundation could support other AllBank-approved services.
+> **Executive decision:** I can recognize how the operating model applies to a familiar ceremony and how the same foundation could support other services AllBank may choose to govern through it.
 
-Remittance remains the canonical explanatory ceremony because it makes the complete discipline visible within one familiar request. It forms part of AllBank's service portfolio, while the institution's operating journey can be understood only with AllBank.
+Remittance provides the clearest explanatory ceremony because it makes the complete discipline visible within one familiar request. It forms part of AllBank's service portfolio, while the institution's operating journey can be understood only with AllBank.
 
 A customer asks the bank to make funds available to another person. The bank receives or recognizes the funds, confirms authority, applies policy, records the remittance purpose, and identifies the recipient and permitted conditions.
 
@@ -204,13 +204,13 @@ AllBank's service portfolio brings several other ceremonies into view:
 | Housing and commercial releases | Existing lending relationships and approved disbursement purposes | Documentary conditions, payees, stages, authority, execution, continuing records |
 | Remittance | A familiar customer outcome and potential continuing household relationship | Funding, recipient conditions, credential, execution, evidence, reconciliation |
 
-The table identifies relevance, not priority. AllBank should begin—if it chooses to proceed—with the ceremony that best combines institutional importance, bounded scope, operating familiarity, and readiness to learn.
+The table identifies relevance, not priority. If AllBank chooses to explore the Capability, it can select the ceremony that best combines institutional importance, bounded scope, operating familiarity, and readiness to learn.
 
 One ceremony makes the grammar visible. Many services make the Capability useful.
 
 ## Section 6 — The Institutional Case
 
-> **Executive question:** What kind of institution could the Program help AllBank become?
+> **Executive question:** What institutional case might AllBank consider?
 
 > **Key message:** The Capability could deepen relationships, preserve institutional choice, and lower repeated innovation cost while commercial value remains dependent on disciplined service selection and operation.
 
@@ -232,7 +232,7 @@ The Capability supports adaptability. Resilience allows AllBank to continue thro
 
 The commercial case remains disciplined. Costs may include licensing, institution-specific implementation, driver engineering and maintenance, bank infrastructure, managed operations, internal governance and operations, settlement-provider charges, and continuing support. Economic value may arise through service income, stronger deposits, deeper employer and merchant relationships, reduced duplicated engineering, and the ability to introduce relevant services more efficiently. None is automatic.
 
-Detailed economics require AllBank information and separate commercial analysis. A client-facing Program Guide should not invent prices, volumes, savings, or returns before the institution has defined the service and supplied the evidence required to evaluate them.
+Detailed economics require AllBank information and separate commercial analysis. Prices, volumes, savings, and returns should be assessed only after the institution has defined the service and supplied the evidence required to evaluate them.
 
 The Board would be deciding more than whether to acquire software. It would be deciding whether AllBank should establish a reusable Capability through which its authority and relationships may support more services over time.
 
@@ -240,7 +240,7 @@ The Board would be deciding more than whether to acquire software. It would be d
 
 > **Executive question:** What would happen if AllBank later authorized the Program?
 
-> **Key message:** The next step is institutional discovery around one bounded banking ceremony—not an immediate production decision.
+> **Key message:** A possible next step is institutional dialogue around one bounded banking ceremony—not an immediate production decision.
 
 > **Executive decision:** I understand the institutional journey and the questions AllBank would need to resolve before authorizing implementation or controlled production.
 
@@ -252,13 +252,13 @@ The bank would then determine which ceremony best combines strategic importance,
 
 The customer journey would be defined as part of the banking service, not as a separate design exercise. The ceremony would identify what AllBank agrees to do, what evidence is required, how customers are informed, how exceptions are handled, and what completion means.
 
-Driver discovery would examine approved API behavior, authentication, certificates, request and response structures, references, idempotency, webhooks, status, limits, exceptions, reversals, reconciliation evidence, test environments, and change processes. Only after this work could the feasibility and scope of `3neti/emi-allbank` be established.
+Driver discovery would examine approved interface behavior, authentication, certificates, request and response structures, references, idempotency, webhooks, status, limits, exceptions, reversals, reconciliation evidence, test environments, and change processes. Only after this work could the feasibility and scope of an AllBank-specific integration driver be established.
 
 If AllBank later authorized implementation, certification would remain a technical gate. Operational readiness would remain a separate institutional gate. Bank personnel would need to validate initiation, approvals, Funding Events, Treasury state, Liens, Facility rules, Settlement Envelope conditions, Pay Code presentation, execution, provider behavior, accounting, evidence, support, reconciliation, failure, delay, duplication, reversal, and uncertain outcomes as one banking operation.
 
 Readiness is an institutional judgment. It exists only when AllBank has sufficient evidence that the ceremony can be authorized, operated, supervised, secured, settled, reconciled, supported, and governed under its authority.
 
-No such conclusion is requested by this Executive Edition.
+No conclusion about implementation or readiness is presumed.
 
 The immediate invitation is narrower: confirm whether the institutional question is relevant, identify the banking responsibility through which it should be examined, and establish what AllBank would need to know before considering any further decision.
 
@@ -266,7 +266,7 @@ The next step is a disciplined institutional dialogue: whether this Capability b
 
 ## Annexes
 
-The annexes preserve the canonical operating, governance, and Treasury distinctions required to evaluate the Program. They provide institutional reference without converting this Executive Edition into an implementation specification.
+The annexes preserve the operating, governance, and Treasury distinctions required to evaluate the Program. They provide institutional reference without becoming an implementation specification.
 
 - Annex A — Canonical Operating Model
 - Annex B — Banking Ceremonies
@@ -288,15 +288,15 @@ AllBank Banking Service
           ↓
 x-change
           ↓
-emi-core
+Common execution contract
           ↓
-3neti/emi-allbank
+AllBank-specific integration driver
           ↓
-Approved AllBank API
+AllBank-approved execution interface
           ↓
-AllBank Settlement Arrangement
+AllBank-governed settlement or payment arrangement
           ↓
-InstaPay / PESONet / other approved rail or provider
+Applicable approved rail, provider, or internal capability
 ```
 
 This model is conceptual. It describes institutional responsibilities and integration boundaries, not a production topology.
@@ -309,11 +309,11 @@ This model is conceptual. It describes institutional responsibilities and integr
 
 **x-change** coordinates the governed banking ceremony: recognized resources, purpose, authority, conditions, credential, execution, evidence, exceptions, and reconciliation.
 
-**`emi-core`** provides the maintained common execution contract. It allows the operating grammar to address an institution-specific execution capability without making provider behavior part of the banking service.
+**The common execution contract** allows the operating grammar to address an institution-specific execution capability without making provider behavior part of the banking service.
 
-**`3neti/emi-allbank`** represents the AllBank-specific driver. It would translate the common contract into the institution's approved authentication, request, response, reference, status, webhook, exception, reversal, security, and reconciliation behavior.
+**The AllBank-specific integration driver** would translate the common contract into the institution's approved authentication, request, response, reference, status, webhook, exception, reversal, security, and reconciliation behavior. Its maintained component identity is described in Annex C.
 
-**The approved AllBank API and settlement arrangement** remain governed by AllBank and its providers. Financial movement occurs through the bank's regulated relationships. The software neither creates settlement access nor assumes custody.
+**AllBank-approved execution interfaces and governed settlement or payment arrangements** remain under the authority of AllBank and its providers. Financial movement occurs through the bank's regulated relationships. The software neither creates settlement access nor assumes custody.
 
 The model preserves three boundaries:
 
@@ -357,12 +357,6 @@ A customer asks AllBank to make funds available to another person. The bank rece
 
 The customer requested a banking outcome. The bank arranged it.
 
-### Government Disbursement
-
-A government institution may authorize funds for a defined beneficiary, public purpose, program, or obligation. A participating bank would recognize the funding event and the governing authority, apply program and institutional rules, identify recipients, reserve resources, gather required evidence, and coordinate approved execution. The operating record would support attribution, exceptions, reporting, audit, and reconciliation.
-
-This is an illustrative future ceremony, not a statement that AllBank currently provides or should prioritize the service. Any application would require the relevant public authority, legal arrangements, procurement, controls, and institutional approval.
-
 Across these ceremonies, purpose and policy change. The responsibilities remain recognizable: funds, authority, conditions, credential where required, execution, evidence, exception handling, and reconciliation.
 
 ## Annex C — Bank Driver Architecture
@@ -376,10 +370,10 @@ emi-core
     ↓
 emi-allbank
     ↓
-Approved AllBank APIs and settlement capability
+AllBank-approved execution interfaces and capabilities
 ```
 
-`emi-allbank` is the concise institutional label used in this annex. Within the canonical component grammar, the driver is represented conceptually as `3neti/emi-allbank`.
+`emi-allbank` is the concise institutional label used in this annex. Within the maintained component grammar, the driver is represented conceptually as `3neti/emi-allbank`.
 
 The driver adapts technology. It does not provide banking authority, settlement participation, custody, product definition, policy, or production approval. AllBank brings the authority and the rails. x-change brings the operating grammar. The bank-specific driver connects them.
 
@@ -502,7 +496,7 @@ Pilot evidence should be reviewed through the institutional choices **Proceed**,
 
 ## Annex G — Glossary
 
-These definitions apply to the Thrift Bank Digital Banking Program Guide and remain subordinate to the canonical x-change and Treasury grammar.
+These definitions apply to this Program and remain subordinate to the governing x-change and Treasury grammar.
 
 **Capability** — The enduring, maintained operating foundation established through the Program. It allows AllBank to turn customer requests into governed banking activity.
 
@@ -528,7 +522,7 @@ These definitions apply to the Thrift Bank Digital Banking Program Guide and rem
 
 **`emi-core`** — The maintained common contract through which the operating grammar addresses institution-specific execution capability.
 
-**Driver / `3neti/emi-allbank`** — The maintained institution-specific implementation of `emi-core` for AllBank's approved API, authentication, status, webhook, security, exception, and reconciliation behavior.
+**Driver / `3neti/emi-allbank`** — The maintained institution-specific implementation of `emi-core` for AllBank's approved execution interface, authentication, status, webhook, security, exception, and reconciliation behavior.
 
 **Governed Banking Ceremony** — The complete progression from customer request and recognized funds through policy, authority, conditions, execution, evidence, exception handling, and reconciliation.
 
@@ -542,12 +536,12 @@ These definitions apply to the Thrift Bank Digital Banking Program Guide and rem
 
 ## Annex H — Applying This Program Guide to AllBank
 
-This AllBank Edition applies the canonical Thrift Bank Digital Banking Program Guide to an institution that already possesses banking authority, established customer relationships, digital channels, payment participation, lending activities, and service relationships across households and enterprises.
+This paper was prepared for an institution that already possesses banking authority, established customer relationships, digital channels, payment participation, lending activities, and service relationships across households and enterprises.
 
 AllBank's published banking services informed the selection of institutional examples. Payroll, bulk payments, merchant acceptance, collections, remittance, housing finance, commercial lending, mobile banking, digital onboarding, and corporate Internet banking make the Program's operating question concrete without determining the institution's priorities.
 
-The Guide identifies where one governed operating Capability may align with those responsibilities. It preserves the boundary between AllBank's banking service and the software supporting it; between AllBank's settlement authority and the driver connecting approved APIs; and between technical certification and institutional readiness.
+The Guide identifies where one governed operating Capability may align with those responsibilities. It preserves the boundary between AllBank's banking service and the software supporting it; between AllBank's settlement authority and the driver connecting approved execution interfaces; and between technical certification and institutional readiness.
 
-This application does not assert how AllBank currently performs each ceremony, recommend a production design, select an initial service, establish commercial terms, or conclude that the institution is ready to proceed. Those decisions require direct institutional knowledge and AllBank authority.
+The discussion does not assert how AllBank currently performs each ceremony, recommend a production design, select an initial service, establish commercial terms, or conclude that the institution is ready to proceed. Those decisions require direct institutional knowledge and AllBank authority.
 
-The Guide is therefore a basis for executive dialogue. If the institutional question is relevant, AllBank can select one bounded banking responsibility, examine its complete ceremony, and determine what evidence would be required before any further decision.
+The result is a basis for executive dialogue. If the institutional question is relevant, AllBank can select one bounded banking responsibility, examine its complete ceremony, and determine what evidence would be required before any further decision.
