@@ -4,7 +4,7 @@
 
 **Acceptance date:** 18 July 2026  
 **Status:** Canonical  
-**Edition:** First Approved Implementation Guide  
+**Editions:** Executive Edition and Institutional Reference Edition
 **Editorial lock:** Complete
 
 ## Accepted Scope
@@ -18,7 +18,7 @@ The accepted repository comprises:
 - the completed parity record; and
 - repository navigation identifying the Guide's place within the editorial system.
 
-No publication edition, typeset artifact, legal agreement, pricing proposal, bank-specific proposal, or production authorization is included in this acceptance.
+The accepted repository now includes two canonical publication editions and their typeset artifacts. No legal agreement, pricing proposal, bank-specific proposal, or production authorization is included in this acceptance.
 
 ## Editorial Determination
 
@@ -42,17 +42,27 @@ Movement III
 Institutional Study
     ↓
 Canonical Program Guide
-    ↓
-Institution-specific Edition
-    ↓
-Proposal
-    ↓
-Implementation
+    ├── Executive Edition
+    └── Institutional Reference Edition
+                ↓
+    Institution-specific Edition
+                ↓
+             Proposal
+                ↓
+          Implementation
 ```
 
 [Movement III](../../movement-iii-thrift-banks/modernizing-philippine-thrift-banks.md) establishes the strategic sector narrative. The [Institutional Study](../../thrift-bank-digital-banking-program/thrift-bank-digital-banking-program.md) remains the authoritative doctrinal source. The [Program Guide](thrift-bank-program-guide.md) operationalizes that doctrine through the canonical implementation architecture. It does not replace the Institutional Study.
 
 The [RBAP Digital Banking Program Guide](../rbap/rbap-digital-banking-program-guide.md) remains the rural-bank sector implementation and an editorial predecessor. Its collective governance and settlement context do not govern the institution-specific thrift-bank model.
+
+## Canonical Publication Editions
+
+The **Executive Edition**, First Edition, Version 1.0, is the concise Board paper. It contains the Executive Summary and Sections 1–7 and is intended for Boards, presidents, chief executives, and executive committees.
+
+The **Institutional Reference Edition**, First Edition, Version 1.0, is the comprehensive implementation reference. It contains the accepted reference manuscript and shared canonical Appendices A–G and is intended for executive leadership and responsible Technology, Operations, Treasury, Risk, Compliance, implementation, and partner functions.
+
+Both editions derive from the Institutional Study and the same frozen Program Guide doctrine. Neither supersedes the other.
 
 ## Frozen Doctrine
 
@@ -75,7 +85,9 @@ Future editions may improve institution-specific expression. They must not silen
 
 ## Lock Consequences
 
-- The canonical manuscript, appendices, and diagrams are editorially locked.
+- The Executive Edition source remains editorially locked and unchanged.
+- The Institutional Reference Edition manuscript, appendices, and diagrams are editorially locked.
+- Both publication editions are canonical.
 - Future canonical changes are limited to factual or typographical corrections, navigational maintenance, or changes authorized through explicit editorial governance.
 - Institution-specific editions must identify this repository as their implementation source and the Institutional Study as their doctrinal source.
 - Adaptation does not imply adoption, approval, certification, or participation by any named institution.
@@ -86,9 +98,11 @@ Future work proceeds through institution-specific editions. Such editions may ad
 
 They exist to adapt the framework to an institution. They do not exist to redesign the framework. Editorial improvements discovered through field use must first be evaluated as potential doctrine. Canonical doctrine may change only through an explicit Editorial Decision Record.
 
-## Final EDR-005 Decision
+## Final Governance Decision
 
 The Canonical Lock Ceremony is accepted. EDR-005 is editorially complete for the Thrift Bank Digital Banking Program Guide.
+
+EDR-013 is editorially complete. The reviewed Expanded Edition is accepted under its canonical publication name, **Institutional Reference Edition**. The earlier concise publication is named **Executive Edition** without changing its manuscript.
 
 > The canonical editorial work for the Thrift Bank Digital Banking Program is complete.
 

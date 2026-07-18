@@ -2,15 +2,15 @@
 
 ## Assessment
 
-**Status:** Ready for editorial parity review
+**Status:** Accepted and complete
 
-The Expanded Edition now exhibits comparable institutional maturity to the RBAP Digital Banking Program Guide. The guides do not use identical headings or examples because they address different institutional contexts. Parity is established through the business questions answered, explanatory depth, governance treatment, operational walkthroughs, and implementation discipline.
+The Institutional Reference Edition exhibits comparable institutional maturity to the RBAP Digital Banking Program Guide. The guides do not use identical headings or examples because they address different institutional contexts. Parity is established through the business questions answered, explanatory depth, governance treatment, operational walkthroughs, and implementation discipline.
 
-This assessment does not declare the Expanded Edition locked or published.
+The Editorial Board has accepted this assessment. The Institutional Reference Edition is locked and published under EDR-013.
 
 ## Quantitative Orientation
 
-| Measure | RBAP Program Guide | Thrift First Edition | Thrift Expanded Edition |
+| Measure | RBAP Program Guide | Thrift Executive Edition | Thrift Institutional Reference Edition |
 | --- | ---: | ---: | ---: |
 | Approximate manuscript words | 11,500 | 3,300 | 10,200 |
 | Developed third-level headings | 58 | 1 subtitle only | 82 content headings plus subtitle |
@@ -80,8 +80,6 @@ The section presents the complete institutional journey from sponsorship and dis
 - Technical certification remains narrower than operational readiness.
 - Shared canonical diagrams and appendices were not redesigned or doctrinally altered.
 
-## Remaining Review
+## Publication Determination
 
-Editorial review should now test cadence, repetition, cross-references, and whether each expansion materially improves Board and implementation understanding. It should not reopen architecture merely because the Expanded Edition offers more explanation.
-
-Formal publication parity, including rendered page composition, is outside this assignment and cannot be assessed until publication is separately authorized.
+Editorial parity is accepted. Publication has been completed without reopening architecture or altering the canonical manuscript. Future work proceeds through institution-specific editions unless an explicit Editorial Decision Record reopens canonical doctrine.

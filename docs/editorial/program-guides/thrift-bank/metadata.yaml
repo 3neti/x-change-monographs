@@ -4,13 +4,14 @@ subtitle: "A Canonical Implementation Guide for Philippine Thrift Banks"
 document_form: "Program Guide"
 document_type: "banking-program-guide"
 version: "1.0"
-edition: "first-approved-implementation"
+edition: "executive-edition"
+publication: "first-edition"
 status: "canonical"
 editorial_state: "completed"
 canonical_state: "locked"
-future_work: "expanded-edition-review-and-institution-specific-editions"
+future_work: "institution-specific-editions"
 approval_date: "2026-07-18"
-canonical_role: "thrift-bank implementation guide"
+canonical_role: "concise thrift-bank Board and executive decision paper"
 audience: "Boards and executive leadership of Philippine thrift banks"
 source:
   manuscript: "docs/editorial/program-guides/thrift-bank/thrift-bank-program-guide.md"
@@ -23,7 +24,7 @@ source:
 governance:
   decision: "EDR-005"
   decision_state: "editorially-complete"
-  expanded_edition_decision: "EDR-013"
+  institutional_reference_edition_decision: "EDR-013"
   architecture: "docs/editorial/program-guides/CANONICAL_BANKING_PROGRAM_GUIDE.md"
   parity_checklist: "docs/editorial/program-guides/PROGRAM_GUIDE_PARITY_CHECKLIST.md"
 editorial:
@@ -40,21 +41,29 @@ editorial:
   appendices_status: "Locked"
 publication:
   generated: true
-  edition_label: "First Edition"
+  edition_label: "Executive Edition"
+  publication_label: "First Edition"
   version: "1.0"
   scope: "Cover, publication information, table of contents, Executive Summary, and Sections 1–7"
   page_count: 16
-  html: "build/program-guides/thrift-bank/first-edition/thrift-bank-digital-banking-program-guide-first-edition.html"
-  pdf: "build/pdf/thrift-bank-digital-banking-program-guide-first-edition.pdf"
+  sha256: "cb4578ffeebbe7865e78ea38776f7cbe206fe8f1c339b285a74d98da77c5736f"
+  html: "build/program-guides/thrift-bank/executive-edition/thrift-bank-digital-banking-program-guide-executive-edition-v1.html"
+  pdf: "build/pdf/thrift-bank-digital-banking-program-guide-executive-edition-v1.pdf"
   pipeline: "scripts/publish-thrift-bank-program-guide.py"
   stylesheet: "resources/publication-assets/styles/program-guide.css"
 editions:
-  first:
+  executive:
     manuscript: "docs/editorial/program-guides/thrift-bank/thrift-bank-program-guide.md"
     status: "canonical-locked-published"
-  expanded:
+    publication: "First Edition"
+    version: "1.0"
+  institutional_reference:
     manuscript: "docs/editorial/program-guides/thrift-bank/expanded-edition/thrift-bank-program-guide-expanded-edition.md"
     metadata: "docs/editorial/program-guides/thrift-bank/expanded-edition/metadata.yaml"
-    status: "editorial-review"
-    publication_generated: false
-notes: "Accepted on 18 July 2026 as the first approved canonical implementation guide for the thrift-bank track. The Institutional Study remains the doctrinal source. No named bank participation, pricing, legal conclusion, production readiness, or settlement-provider dependency is asserted."
+    status: "canonical-locked-published"
+    publication: "First Edition"
+    version: "1.0"
+  legacy_first_edition_artifact:
+    pdf: "build/pdf/thrift-bank-digital-banking-program-guide-first-edition.pdf"
+    status: "preserved-unchanged"
+notes: "The Executive Edition and Institutional Reference Edition were accepted on 18 July 2026 as canonical publications of the thrift-bank Program Guide. The Institutional Study remains the doctrinal source. Neither edition supersedes the other. No named bank participation, pricing, legal conclusion, production readiness, or settlement-provider dependency is asserted."

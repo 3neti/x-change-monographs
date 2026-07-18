@@ -87,7 +87,7 @@ The repository's earlier accepted decisions remain authoritative in their origin
 | [EDR-010](#edr-010--funding-event-is-the-entry-point-to-treasury) | Funding Event Is the Entry Point to Treasury | Accepted | 2026-07-16 | None | None |
 | [EDR-011](#edr-011--section-6-is-the-institutional-case) | Section 6 Is the Institutional Case | Accepted | 2026-07-18 | None | None |
 | [EDR-012](#edr-012--executive-summary-review-follows-the-frozen-narrative) | Executive Summary Review Follows the Frozen Narrative | Accepted | 2026-07-18 | EDR-002; EDR-003 (timing only) | None |
-| [EDR-013](#edr-013--expanded-edition-of-the-thrift-bank-digital-banking-program-guide) | Expanded Edition of the Thrift Bank Digital Banking Program Guide | Accepted | 2026-07-18 | None | None |
+| [EDR-013](#edr-013--institutional-reference-edition) | Institutional Reference Edition | Accepted | 2026-07-18 | None | None |
 
 ## EDR-001 — Program Guides Are Canonical Commercial Specifications
 
@@ -751,11 +751,11 @@ None.
 
 Active. This decision changes workflow timing only. It does not alter the canonical section architecture, required appendix coverage, or the rule that an Executive Summary must introduce no new claims.
 
-## EDR-013 — Expanded Edition of the Thrift Bank Digital Banking Program Guide
+## EDR-013 — Institutional Reference Edition
 
 **Decision ID:** `EDR-013`
 
-**Title:** Expanded Edition of the Thrift Bank Digital Banking Program Guide
+**Title:** Institutional Reference Edition
 
 **Status:** Accepted
 
@@ -765,15 +765,19 @@ Active. This decision changes workflow timing only. It does not alter the canoni
 
 The published First Edition of the Thrift Bank Digital Banking Program Guide is editorially, architecturally, and canonically correct. It functions well as a concise Board paper. Comparison with the RBAP Digital Banking Program Guide nevertheless showed a material difference in explanatory depth, institutional reasoning, governance discussion, operational walkthroughs, and implementation guidance.
 
-The difference does not indicate an error in the First Edition. It identifies a second legitimate reading need: a comprehensive institutional implementation reference that rewards closer study by executive sponsors and responsible bank functions.
+The difference did not indicate an error in the First Edition. It identified a second legitimate reading need: a comprehensive institutional implementation reference that rewards closer study by executive sponsors and responsible bank functions. The resulting Expanded Edition has completed editorial review.
 
 ### Decision
 
 The First Edition must remain unchanged and valid as published.
 
-A separate **Expanded Edition** is authorized. It inherits the frozen doctrine, architecture, institutional boundaries, operating grammar, Treasury grammar, Transaction Gravity, readiness doctrine, and driver lifecycle from the accepted thrift-bank sources. It may expand the explanation surrounding those concepts to achieve parity of institutional understanding with the RBAP Program Guide.
+A separate edition was authorized and developed under the working name **Expanded Edition**. It inherits the frozen doctrine, architecture, institutional boundaries, operating grammar, Treasury grammar, Transaction Gravity, readiness doctrine, and driver lifecycle from the accepted thrift-bank sources.
 
-The Expanded Edition does not supersede or replace the First Edition. The First Edition remains the concise Board paper. The Expanded Edition becomes the comprehensive institutional implementation reference after completing editorial review and receiving separate publication authorization.
+That manuscript is accepted and locked as the canonical **Institutional Reference Edition**, First Edition, Version 1.0.
+
+The existing concise publication is named the canonical **Executive Edition**, First Edition, Version 1.0. It remains unchanged.
+
+Neither edition supersedes the other. Both derive from the same frozen Institutional Study and Program Guide doctrine. The Executive Edition serves Board and executive decision-making. The Institutional Reference Edition serves executive leadership and the responsible technology, Operations, Treasury, Risk, Compliance, implementation, and partner functions.
 
 ### Rationale
 
@@ -784,18 +788,18 @@ Parity is measured by institutional maturity and the business questions answered
 ### Consequences
 
 - The locked First Edition manuscript and publication artifacts remain unchanged.
-- The Expanded Edition is maintained as a separate editorial source with separate metadata.
+- The Institutional Reference Edition is maintained as a separate canonical source with separate metadata.
 - Both editions remain doctrinally traceable to the Institutional Study and canonical First Edition.
-- Shared canonical Appendices A–G may form part of the Expanded Edition without duplication or redesign.
-- Expanded Edition editorial work may improve explanation, cadence, examples, cross-references, and implementation understanding without changing doctrine.
+- Shared canonical Appendices A–G form part of the Institutional Reference Edition without duplication or redesign.
+- Both editions are canonical publications serving different reading purposes.
 - Any proposed doctrinal or architectural change requires a separate Editorial Decision Record.
-- Expanded Edition publication requires a later, explicit publishing assignment.
+- Future work proceeds through institution-specific editions unless explicit editorial governance reopens canonical doctrine.
 
 ### Affected Documents
 
 - [Thrift Bank Digital Banking Program Guide](../program-guides/thrift-bank/thrift-bank-program-guide.md)
-- [Expanded Edition](../program-guides/thrift-bank/expanded-edition/thrift-bank-program-guide-expanded-edition.md)
-- [Expanded Edition metadata](../program-guides/thrift-bank/expanded-edition/metadata.yaml)
+- [Institutional Reference Edition source](../program-guides/thrift-bank/expanded-edition/thrift-bank-program-guide-expanded-edition.md)
+- [Institutional Reference Edition metadata](../program-guides/thrift-bank/expanded-edition/metadata.yaml)
 - [Edition comparison](../program-guides/thrift-bank/expanded-edition/EDITION_COMPARISON.md)
 - [RBAP parity report](../program-guides/thrift-bank/expanded-edition/PARITY_REPORT.md)
 - [Thrift Bank Program Guide index](../program-guides/thrift-bank/README.md)
@@ -810,4 +814,4 @@ None.
 
 ### Notes
 
-Active. The proposal requested `EDR-006`, but that identifier already belongs to the accepted decision **Program Guides Must Answer Executive Questions Directly**. Register governance prohibits reuse, so the next available stable identifier, `EDR-013`, is used without altering the approved substance.
+Active and complete. The initial proposal requested `EDR-006`, but that identifier already belongs to the accepted decision **Program Guides Must Answer Executive Questions Directly**. Register governance prohibited reuse, so the next available stable identifier, `EDR-013`, was used. The manuscript developed under the working name Expanded Edition is now published under its canonical name, Institutional Reference Edition.
