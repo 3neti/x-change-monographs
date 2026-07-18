@@ -8,7 +8,7 @@ Each phase has an explicit governance prerequisite and review gate. A phase may 
 
 ## Implementation Update — 18 July 2026
 
-The appendix-completion assignment authorized the reference material while deferring the separate Executive Edition and the two-edition EDR. Formal review has now accepted Appendices A–G as canonical and locked institutional reference source material, with governed diagram source embedded in Appendix G. Final rendering, accessibility tagging, frozen-body substitution, and pagination remain publication tasks. The Executive Summary remains In Review and is eligible for a separate EDR-012 revalidation task, which is now the next active gate.
+The appendix-completion assignment authorized the reference material while deferring the separate Executive Edition and the two-edition EDR. Formal review accepted Appendices A–G as canonical and locked institutional reference source material, with governed diagram source embedded in Appendix G. The Executive Summary was subsequently revalidated under EDR-012 and locked without wording changes. The complete editorial source is now canonical and locked. Final publication governance, rendering, accessibility tagging, frozen-body substitution, and pagination remain pending.
 
 ## Phase 1 — Approve the Publication Architecture
 
@@ -83,6 +83,8 @@ The appendix-completion assignment authorized the reference material while defer
 **Review gate:** Each appendix locked individually, followed by a complete Appendix A–G parity review.
 
 ## Phase 5 — Revalidate and Lock the Executive Summary
+
+**Status:** Complete — Outcome A. The Executive Summary was revalidated against the locked narrative and Appendices A–G and locked without wording changes.
 
 **Objective:** Satisfy EDR-012 after all required supporting material is complete.
 

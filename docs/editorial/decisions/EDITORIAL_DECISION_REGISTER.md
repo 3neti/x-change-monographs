@@ -751,6 +751,8 @@ None.
 
 Active. This decision changes workflow timing only. It does not alter the canonical section architecture, required appendix coverage, or the rule that an Executive Summary must introduce no new claims.
 
+The RBAP Executive Summary completed EDR-012 revalidation on 18 July 2026 after Appendices A–G were locked. The review reached Outcome A: no wording changes were required. The Executive Summary is canonical and locked. This implementation record does not authorize a separate Executive Edition, a two-edition publication model, or final publication rendering.
+
 ## EDR-013 — Institutional Reference Edition
 
 **Decision ID:** `EDR-013`
