@@ -12,3 +12,5 @@ The Government Depository Banking Program Guide remains anticipated but has not 
 Program Guides are separate from sector white papers. White papers establish strategic thought leadership; Program Guides explain a program's institutional proposition, operating model, business case, and launch path.
 
 Generated publication files belong under `build/`, not in this directory.
+
+Future institution-specific editions must begin with the [Institution Intelligence Framework](../../institutions/README.md). Institution Intelligence, Strategic Gap Analysis, and Editorial Mapping remain separate from the canonical Program Guide and must precede institution-specific drafting.

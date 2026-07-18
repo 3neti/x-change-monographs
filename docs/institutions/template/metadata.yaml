@@ -1,0 +1,27 @@
+framework: "Institution Intelligence Framework"
+framework_version: "1.0"
+institution:
+  name: null
+  slug: null
+  institution_type: null
+  sector: null
+canonical_lineage:
+  institutional_study: null
+  program_guide: null
+  program_guide_edition: null
+  editorial_decisions: []
+research:
+  evidence_cutoff_date: null
+  last_verified_date: null
+  public_sources_only: true
+  institution_provided_materials: []
+artifacts:
+  source_register: "Not Started"
+  evidence_register: "Not Started"
+  institution_intelligence: "Not Started"
+  strategic_gap_analysis: "Not Started"
+  editorial_mapping: "Not Started"
+  institution_edition: "Not Authorized"
+  commercial_proposal: "Not Authorized"
+  implementation_roadmap: "Not Authorized"
+notes: null
