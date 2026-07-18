@@ -1,0 +1,175 @@
+{
+  "accessibility": {
+    "figure_alt_text": true,
+    "figure_caption_associations": true,
+    "figure_captions": true,
+    "html_language": "en",
+    "pdf_tagged_figures": true,
+    "pdf_tagging_requested": true,
+    "toc_navigation": true
+  },
+  "artifacts": {
+    "html": {
+      "path": "build/program-guides/rbap/institutional-reference-publication/rbap-digital-banking-program-guide-institutional-reference-v0.1.html",
+      "sha256": "b761016befd0d60eee0ff62cd373df1440c6651a869fcfeb7c3927c9de4fee68"
+    },
+    "pdf": {
+      "page_count": 88,
+      "path": "build/pdf/rbap-digital-banking-program-guide-institutional-reference-v0.1.pdf",
+      "sha256": "9a17a458ada89f580a6bd372a0a5981ad113184e5e7fed540aecdefe7d691ca6"
+    }
+  },
+  "canonical_source": "docs/editorial/program-guides/rbap/rbap-digital-banking-program-guide.md",
+  "canonical_source_sha256": "6ef8dba9b8b6a81eae7aaa7fcdc9bf710a54711ec361f3294a76c1b3d776720a",
+  "diagram_sources": [
+    {
+      "caption": "Program coordination, software authority, banking authority, delegated operations, and settlement responsibility remain distinct.",
+      "sha256": "c850b0b444ce45f90fff7f47d1826811870fed2d52b25f69e9a602b9e1bce11f",
+      "title": "Program Participants and Responsibility Model"
+    },
+    {
+      "caption": "Collective modernization shares software and standards, not production tenancy, institutional data, or authority.",
+      "sha256": "e6f8563b05c202bba0762f57257ee1bafe1a7842f97074f2189fb645ee263e59",
+      "title": "Independent Bank Deployments Under One Program"
+    },
+    {
+      "caption": "A common Settlement Institution may support multiple banks while each bank retains its own direct account, credentials, authority, and reconciliation.",
+      "sha256": "c6d0e554bea0b947f92ba846c9070cb515ec447881f985067254042bf9d74622",
+      "title": "Direct Settlement Relationships"
+    },
+    {
+      "caption": "The operating model connects a banking request to a governed outcome without displacing the bank or Settlement Institution.",
+      "sha256": "4fdb127f36081b56b40f583e655cf8c893bd780a9ed601cf41cd1485d0399f16",
+      "title": "Banking Operating Model"
+    },
+    {
+      "caption": "A Funding Event records recognized financial value; it does not create that value.",
+      "sha256": "157c44e539b23d57d686fd9b94fc3b02b11cb7eb3d8a7e7fc896505e11ffbc4d",
+      "title": "Funding Event"
+    },
+    {
+      "caption": "Treasury distinguishes operational state while underlying funds remain in the bank's regulated relationships.",
+      "sha256": "6bea864929e6540409f228e775ed8d9453bce3fc7e62d0777c634d6f94bc7b56",
+      "title": "Treasury"
+    },
+    {
+      "caption": "The canonical grammar moves from recognition to governed execution and resolution.",
+      "sha256": "02cd2387be57e5ae9371a2d960d69a5dc5fbd21677b13c30801ede1fce2e6d91",
+      "title": "Funding Event to Execution Lifecycle"
+    },
+    {
+      "caption": "The deposit belongs to the bank-customer relationship; Treasury records only the approved operational recognition.",
+      "sha256": "82617f503adb714f8b6350040c8070b69ce6c6afe1df8b35e55310f1980d645c",
+      "title": "Deposit Flow"
+    },
+    {
+      "caption": "Payroll remains a bank-governed service from employer authority through employee outcomes.",
+      "sha256": "6194d7e4e43046082ed8e98a5abf685ecb2ce8ad36362e87db1e7aa926d79f53",
+      "title": "Payroll Flow"
+    },
+    {
+      "caption": "Merchant activity is governed through the bank's Facility and direct settlement arrangements.",
+      "sha256": "d31472e9c806d98f120ffe335f4e3642c83a1d5fa99a8ad157b1610fb1e349c9",
+      "title": "Merchant Flow"
+    },
+    {
+      "caption": "Government disbursement remains subject to agency authority, bank governance, beneficiary conditions, and reconciliation.",
+      "sha256": "88e9ea3182f3fd656f8c4a54b89080b00c74c9ddd83f7c3252a0da6c654244f1",
+      "title": "Government Disbursement Flow"
+    },
+    {
+      "caption": "The Commercial Waterfall is an accountability sequence separate from customer-fund custody and regulated settlement.",
+      "sha256": "96582cb644a6779fe74b69393f77daae50b418e3e51c0690133665ede642ba50",
+      "title": "Commercial Waterfall"
+    },
+    {
+      "caption": "Maintained software and delegated operations extend a bank-controlled deployment and direct settlement relationship.",
+      "sha256": "cfa3853995f38c59b5dd4e08a64198d8c234f3eb702d3c91155528b66d596088",
+      "title": "Deployment Architecture"
+    },
+    {
+      "caption": "The familiar remittance reference carries an instruction while the institution retains responsibility until release.",
+      "sha256": "2fd8308aa637262951562b45fb4ee17af8841c85b4eccd8e6a2d33bae7e505d6",
+      "title": "Familiar Remittance Pattern"
+    },
+    {
+      "caption": "Different participants experience one banking activity governed by one institution.",
+      "sha256": "f174192f1af39933d1a1fb54b1baafbeaef63951349ccb0d6c192581b2f654fb",
+      "title": "Operating Perspectives"
+    },
+    {
+      "caption": "Supporting funds, authority, purpose, readiness, instruction, and settlement remain distinct.",
+      "sha256": "d58840811967480fbc7bcff9a57b3eed2322d00abff04ad514befcca89a9ab2f",
+      "title": "Source-to-Settlement Operating Flow"
+    },
+    {
+      "caption": "The end-to-end grammar coordinates an authorized outcome while funds remain within the regulated banking relationship.",
+      "sha256": "6331ef2a4d1e4062c4418e46e02cbeaccd27a0d478b1f9b827c3bd563ec7f87a",
+      "title": "End-to-End Banking Activity"
+    },
+    {
+      "caption": "The instruments differ, but the customer experiences a bank accepting responsibility for a funded outcome.",
+      "sha256": "c62bed946991e85fb6cf87c6a6aa4faa66dcd51915c23e5fff699a2b31b13f10",
+      "title": "Manager's Check and Pay Code Customer Journey"
+    },
+    {
+      "caption": "The customer sees a simple service while the bank performs a complete governed ceremony.",
+      "sha256": "89879e05d3d1ca876c7cd090d67144e0503986beeb180a1e5674a1d4615e79a1",
+      "title": "Behind the Counter"
+    },
+    {
+      "caption": "New services vary purpose, participants, policies, conditions, and experience without rebuilding the operating foundation.",
+      "sha256": "77c34e1780f10d8a7480832d33a47d374ceea4746f4aba3048be6200119d2f18",
+      "title": "One Ceremony, Many Banking Services"
+    },
+    {
+      "caption": "Transaction Gravity develops through recurring institutional usefulness, not volume alone.",
+      "sha256": "156cee177aaa0f92677f43641355d4c34c35c26a8da3c48ab18dc48ef95de6a6",
+      "title": "Transaction Gravity"
+    },
+    {
+      "caption": "Adaptability allows the bank to assume new responsibilities without reconstructing its foundation.",
+      "sha256": "1c41e483c894be07a8bb25ee3b18cac115b9a7ec1855b62ba1380f602e590cef",
+      "title": "Institutional Adaptability"
+    },
+    {
+      "caption": "Participating banks modernize collectively while competing and operating independently.",
+      "sha256": "38353de54c5fe596baa31d95b7123dc314f4c5c950e83250bf75ace52b676009",
+      "title": "Collective Modernization"
+    },
+    {
+      "caption": "Board approval begins a governed institutional sequence; it does not place a bank into production.",
+      "sha256": "cf308f46737979fa3c6449e98caa32f47c3bb0279ceda34171b8d8ca59e42cbf",
+      "title": "Launch Gates"
+    },
+    {
+      "caption": "Pilot evidence supports an institutional decision to Proceed, Correct, Extend, or Pause; expansion is not automatic.",
+      "sha256": "b6953993a012bd270ff435f574c95c8e176f3cd4066a2ecfcca8b9985e212a2f",
+      "title": "Pilot Governance"
+    }
+  ],
+  "document_form": "Program Guide",
+  "governed_mermaid_sources": 25,
+  "metadata_sha256": "2dcc04665a83bd4c27f8b0043526cdfc30857c5009d704a5ec6e72d2e0a5d078",
+  "metadata_source": "docs/editorial/program-guides/rbap/metadata.yaml",
+  "placed_publication_figures": 32,
+  "publication": "First Edition",
+  "publication_date": "July 2026",
+  "publication_role": "Institutional Reference Publication",
+  "renderer": {
+    "deterministic_pdf": true,
+    "diagram_format": "SVG image resources (vector)",
+    "mermaid_cli": "11.12.0",
+    "pdf_tags": true,
+    "pdf_variant": "PDF/UA-1",
+    "publisher": "scripts/publish-rbap-canonical-program-guide.py",
+    "stable_tag_identifiers": true,
+    "weasyprint": "WeasyPrint version 66.0"
+  },
+  "scope": "Executive Summary, Sections 1-7, and Appendices A-G",
+  "source_revision": "b68e10b6dd1df1ba8d04014836296594590bc039",
+  "subtitle": "A Collective Modernization Initiative for Philippine Rural Banks",
+  "title": "RBAP Digital Banking Program",
+  "verification_date": "2026-07-18",
+  "version": "0.1"
+}
