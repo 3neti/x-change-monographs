@@ -33,6 +33,6 @@ Governance follows public and institutional responsibility. No provider approval
 7. **Pilot decision** — The required authorities approve a limited production scope.
 8. **Evidence review** — The institutions decide to Proceed, Correct, Extend, or Pause.
 
-Actual legal, fiduciary, regulatory, procurement, banking, accounting, and audit responsibilities must be confirmed for the institution and workflow. This appendix does not allocate them by itself.
+Institution-specific legal, fiduciary, regulatory, procurement, banking, accounting, and audit responsibilities remain subject to the applicable authority and workflow. This appendix establishes the Program boundary; it does not allocate those responsibilities by itself.
 
 The supporting [Stakeholder Architecture](../../../government-depository-digital-banking-program/annexes/stakeholder-map.md) and [Responsibility Matrix](../../../government-depository-digital-banking-program/annexes/responsibility-matrix.md) provide the expanded sector-level reference.

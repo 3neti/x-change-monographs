@@ -1,6 +1,8 @@
 # Appendix C — Commercial Waterfall
 
-The Commercial Waterfall is a conceptual accountability model. It does not prescribe prices, revenue shares, public fees, procurement treatment, accounting treatment, taxes, or contractual terms.
+The Commercial Waterfall explains how an approved public-finance service relates to the responsibilities required to operate it. Its purpose is to make those responsibilities visible before the participating institutions evaluate financial and public value.
+
+It is a conceptual accountability model. It does not prescribe prices, revenue shares, public fees, procurement treatment, accounting treatment, taxes, or contractual terms.
 
 ## Economic Sequence
 
@@ -25,4 +27,6 @@ The Commercial Waterfall is a conceptual accountability model. It does not presc
 | Public-program administration | Authority, participant administration, communications, program operations, accounting, records, and public reporting | Applicable public authority, budget, process, and agreement |
 | Internal institutional work | Governance, public-sector banking, Operations, Treasury, Technology, Risk, Compliance, Security, Finance, Audit, and support | Institution budgets and mandates |
 
-Deposits and transaction activity are consequences of actual public-finance relationships, not guaranteed outputs of software licensing. No commercial flow changes custody, public authority, banking responsibility, settlement responsibility, or production control. Detailed amounts require separate evidence, negotiation, due diligence, and approval.
+Deposits and transaction activity arise only from actual public-finance relationships. Software licensing does not guarantee them.
+
+No commercial flow changes custody, public authority, banking responsibility, settlement responsibility, or production control. Detailed amounts require separate evidence, negotiation, due diligence, and approval.

@@ -1,6 +1,6 @@
 # Appendix D — Treasury Grammar
 
-Treasury provides the operational financial-state grammar supporting a governed public-finance ceremony.
+Treasury gives the institution a consistent operational view of financial state across a governed public-finance ceremony. The grammar distinguishes recognized resources, reservations, service meaning, conditions, execution, and reconciliation without changing the authority or custody beneath them.
 
 ## Canonical Progression
 
@@ -38,4 +38,6 @@ Evidence, state resolution, and reconciliation
 - Execution coordinates the authorized outcome through the institution's approved capability.
 - Reconciliation compares operating state with public, banking, and provider evidence and resolves differences through approved procedures.
 
-The underlying funds remain within applicable government and regulated banking relationships throughout. See [Canonical Diagrams](diagrams.md) for the governed visual forms.
+Throughout this progression, the underlying funds remain within applicable government and regulated banking relationships. The grammar makes operating state visible; it does not change custody or public authority.
+
+See [Canonical Diagrams](diagrams.md) for the governed visual forms.
