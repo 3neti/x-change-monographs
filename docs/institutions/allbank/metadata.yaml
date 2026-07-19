@@ -41,6 +41,7 @@ artifacts:
   institution_edition: "Executive Edition First Edition"
   commercial_proposal: "Submitted — ODTI-2026-001"
   commercial_cover_letter: "Submitted — First Edition Version 1.0"
+  executive_demonstration_credential: "Approved — First Edition Version 1.0 — Two-copy submission asset"
   implementation_roadmap: "Not Authorized"
 drafting_authorization: "AllBank Executive Edition Version 1.0 Approved for Typesetting"
 editions:
@@ -55,6 +56,8 @@ editions:
 commercial:
   proposal_path: "docs/institutions/allbank/commercial/proposal/allbank-provisional-license-and-poc-proposal-v1.0.md"
   cover_letter_path: "docs/institutions/allbank/commercial/cover-letter/allbank-cover-letter-v1.0.md"
+  demonstration_credential_path: "docs/demonstrations/pay-code/executive-demonstration-credential-v1.0.md"
+  demonstration_credential_quantity: 2
   proposal_number: "ODTI-2026-001"
   status: "Submitted"
   submission_package_status: "Complete"

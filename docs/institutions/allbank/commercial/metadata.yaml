@@ -15,6 +15,15 @@ cover_letter:
   status: "Submitted"
   letter_date: "2026-07-20"
   path: "docs/institutions/allbank/commercial/cover-letter/allbank-cover-letter-v1.0.md"
+demonstration_credentials:
+  title: "Executive Demonstration Credential"
+  instrument_type: "Demonstration Pay Code"
+  edition: "First Edition"
+  version: "1.0"
+  status: "Approved"
+  quantity: 2
+  canonical_source: "docs/demonstrations/pay-code/executive-demonstration-credential-v1.0.md"
+  submission_asset: "build/institutions/allbank/commercial/submission-package/04-demonstration-pay-codes/AllBank-Executive-Demonstration-Credentials-Print-Sheet.pdf"
 governing_institution_edition:
   title: "Thrift Bank Digital Banking Program Guide — AllBank Edition"
   edition: "Executive Edition"

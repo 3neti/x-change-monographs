@@ -10,6 +10,12 @@ Editorial decisions record why durable publishing decisions were made.
 
 Generated files do not belong here.
 
+## Publication families
+
+- **Editorial** — this directory contains doctrine, institutional studies, Program Guides, and editorial governance.
+- **Commercial** — institution-specific proposals and correspondence are maintained with the relevant institution record.
+- **Experiential** — [x-change Demonstrations](../demonstrations/README.md) governs controlled customer-journey artifacts such as the Executive Demonstration Credential.
+
 ## Editorial decisions
 
 - [Editorial Decision Register](decisions/EDITORIAL_DECISION_REGISTER.md) — canonical register of accepted editorial and architectural decisions

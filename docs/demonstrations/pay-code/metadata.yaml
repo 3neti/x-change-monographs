@@ -1,0 +1,32 @@
+document_family: "x-change Experiential Publications"
+document_type: "executive_demonstration_credential"
+title: "Executive Demonstration Credential"
+instrument_type: "demonstration_pay_code"
+edition: "First Edition"
+version: "1.0"
+status: "approved"
+publication_date: "2026-07-20"
+canonical_source: "docs/demonstrations/pay-code/executive-demonstration-credential-v1.0.md"
+canonical_grammar: "docs/demonstrations/DEMONSTRATION_GRAMMAR.md"
+canonical_architecture: "docs/demonstrations/DEMONSTRATION_ARCHITECTURE.md"
+recipient:
+  name: "Jesus Vicente Garcia"
+  title: "President"
+  organization: "AllBank"
+issuer: "Open Disbursement Technologies, Inc."
+instrument:
+  instruction: "Disbursable"
+  production_use: false
+  pay_code_entry: "handwritten"
+  pay_code_render_style: "canonical-double-bars"
+  demonstration_value: 500
+  currency: "PHP"
+redemption:
+  url: "https://redeem-x.laravel.cloud/disburse"
+  qr_asset: "resources/publication-assets/demonstrations/x-change-disburse-qr.png"
+render_profiles:
+  executive_card: "150 × 90 mm"
+  business_card: "90 × 55 mm"
+  wallet_card: "85.60 × 53.98 mm"
+  print_sheet: "A4 duplex, two Executive-card credentials"
+publication_boundary: "Controlled demonstration instrument; not a production credential or instrument of value."
