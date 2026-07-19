@@ -4,15 +4,22 @@ title: "Executive Demonstration Credential"
 instrument_type: "demonstration_pay_code"
 edition: "First Edition"
 version: "1.0"
-status: "approved"
+status: "production_baseline"
+publication_state: "frozen"
 publication_date: "2026-07-20"
+freeze_date: "2026-07-19"
 canonical_source: "docs/demonstrations/pay-code/executive-demonstration-credential-v1.0.md"
 canonical_grammar: "docs/demonstrations/DEMONSTRATION_GRAMMAR.md"
 canonical_architecture: "docs/demonstrations/DEMONSTRATION_ARCHITECTURE.md"
-recipient:
-  name: "Jesus Vicente Garcia"
-  title: "President"
-  organization: "AllBank"
+credentials:
+  - recipient:
+      name: "Jesus Vicente Garcia"
+      title: "President"
+      organization: "AllBank"
+  - recipient:
+      name: "Digna Samonte"
+      title: "Chief Technology Officer"
+      organization: "AllBank"
 issuer: "Open Disbursement Technologies, Inc."
 instrument:
   instruction: "Disbursable"

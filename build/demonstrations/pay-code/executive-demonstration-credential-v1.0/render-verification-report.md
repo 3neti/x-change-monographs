@@ -1,8 +1,9 @@
 # Render Verification Report
 
 - Publication: Executive Demonstration Credential, First Edition, Version 1.0
+- Publication status: Production Baseline
 - Instrument type: Demonstration Pay Code
-- Canonical source SHA-256: `ed70644c48167ad3d362de54aeb6c712dac9e5e40b1622fc40c432e92a25163f`
+- Canonical source SHA-256: `8cc14ffb6a1e79225a88c13ac25e43d723d79d99e2a4d5327caa7016d38c1bf0`
 - Pay Code presentation: `|| {PAY CODE} ||`; blank write-in field rendered
 - Demonstration Value: PHP 500
 - QR destination: `https://redeem-x.laravel.cloud/disburse`
@@ -18,5 +19,5 @@
 - A4 duplex print sheet: 2 pages, 2 credentials
 - Protected Cover Letter, Commercial Proposal, and Program Guide hashes: Unchanged
 - Canonical Markdown source freeze: Passed
-- Repeat-build manifest, checksum-file, and contact-sheet hashes: Identical
-- Page-by-page visual inspection: Passed - all 34 pages across 13 PDFs, the final contact sheet, and the blank optional-fields validation rendering were inspected; no clipping, overflow, unintended guides, margin defects, or duplex-placement discrepancies were found
+- Production PDF, PNG, print-sheet, and contact-sheet hashes: Unchanged from the verified recipient-set production build
+- Page-by-page visual inspection: Passed - all 34 pages across 13 PDFs, the contact sheet, and the blank optional-fields validation rendering remain bit-for-bit identical to the inspected production build

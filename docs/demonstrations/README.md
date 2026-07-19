@@ -9,6 +9,7 @@ Demonstration publications allow an executive, customer, regulator, investor, or
 - [Demonstration Architecture](DEMONSTRATION_ARCHITECTURE.md)
 - [Demonstration Grammar](DEMONSTRATION_GRAMMAR.md)
 - [Executive Demonstration Credential](pay-code/README.md)
+- [Executive Demonstration Credential Version 1.0 Freeze](pay-code/FREEZE.md)
 
 ## Publication families
 

@@ -4,7 +4,7 @@ title: Executive Demonstration Credential
 instrument_type: demonstration_pay_code
 edition: First Edition
 version: "1.0"
-status: approved
+status: production_baseline
 publication_date: "2026-07-20"
 layout: executive-card
 orientation: front-back

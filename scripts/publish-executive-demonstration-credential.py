@@ -152,7 +152,7 @@ def validate_source(metadata: dict[str, object], body: str) -> None:
         "instrument_type": "demonstration_pay_code",
         "edition": "First Edition",
         "version": "1.0",
-        "status": "approved",
+        "status": "production_baseline",
         "layout": "executive-card",
         "orientation": "front-back",
         "currency": "PHP",
@@ -1199,6 +1199,7 @@ def main() -> None:
     report_path.write_text(
         "# Render Verification Report\n\n"
         f"- Publication: {TITLE}, {metadata['edition']}, Version {metadata['version']}\n"
+        f"- Publication status: {str(metadata['status']).replace('_', ' ').title()}\n"
         f"- Instrument type: {INSTRUMENT_TYPE}\n"
         f"- Canonical source SHA-256: `{source_hash_before}`\n"
         f"- Pay Code presentation: `|| {{PAY CODE}} ||`; blank write-in field rendered\n"
