@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import argparse
 import base64
+import copy
 import hashlib
 import html
 import json
@@ -245,46 +246,64 @@ def front_svg(
     lower_label_size = 22 if compact else 17
     recipient_detail_size = 26 if compact else 22
     footer_size = 20 if compact else 13
+    has_value = demonstration_value not in (None, "")
+    has_recipient = bool(recipient)
+    has_optional_content = has_value or has_recipient
+    pay_label_y = 390 if has_optional_content else 410
+    pay_field_y = 410 if has_optional_content else 430
+    pay_field_height = 132 if has_optional_content else 220
+    pay_code_baseline = 492 if has_optional_content else 565
 
     if pay_code is None:
-        pay_code_content = """
-          <text x="136" y="492" class="mono" font-size="54" font-weight="600" fill="#d55f18">||</text>
-          <line x1="275" y1="480" x2="1225" y2="480" stroke="#b8afa1" stroke-width="3" stroke-linecap="round"/>
-          <text x="1276" y="492" class="mono" font-size="54" font-weight="600" fill="#d55f18">||</text>
+        pay_code_content = f"""
+          <text x="136" y="{pay_code_baseline}" class="mono" font-size="54" font-weight="600" fill="#d55f18">||</text>
+          <text x="1276" y="{pay_code_baseline}" class="mono" font-size="54" font-weight="600" fill="#d55f18">||</text>
         """
     else:
         pay_code_content = f"""
-          <text x="136" y="492" class="mono" font-size="54" font-weight="600" fill="#d55f18">||</text>
-          <text x="750" y="492" class="mono" font-size="62" font-weight="700" text-anchor="middle" letter-spacing="7" fill="#172533">{xml(pay_code)}</text>
-          <text x="1276" y="492" class="mono" font-size="54" font-weight="600" fill="#d55f18">||</text>
+          <text x="136" y="{pay_code_baseline}" class="mono" font-size="54" font-weight="600" fill="#d55f18">||</text>
+          <text x="750" y="{pay_code_baseline}" class="mono" font-size="62" font-weight="700" text-anchor="middle" letter-spacing="7" fill="#172533">{xml(pay_code)}</text>
+          <text x="1276" y="{pay_code_baseline}" class="mono" font-size="54" font-weight="600" fill="#d55f18">||</text>
         """
 
     value_content = ""
-    if demonstration_value not in (None, ""):
+    if has_value:
         value_content = f"""
           <text x="100" y="657" class="sans caps" font-size="{lower_label_size}" font-weight="700" fill="#68747e">Demonstration Value</text>
           <text x="100" y="722" class="serif" font-size="49" font-weight="700" fill="#172533">{xml(currency)} {xml(demonstration_value)}</text>
         """
 
     recipient_content = ""
-    if recipient:
+    if has_recipient:
         name = recipient[0]
         remaining = recipient[1:]
+        recipient_x = 760 if has_value else 100
         recipient_content = f"""
-          <text x="760" y="657" class="sans caps" font-size="{lower_label_size}" font-weight="700" fill="#68747e">Prepared for</text>
-          <text x="760" y="708" class="serif" font-size="38" font-weight="700" fill="#172533">{xml(name)}</text>
+          <text x="{recipient_x}" y="657" class="sans caps" font-size="{lower_label_size}" font-weight="700" fill="#68747e">Prepared for</text>
+          <text x="{recipient_x}" y="708" class="serif" font-size="38" font-weight="700" fill="#172533">{xml(name)}</text>
         """
         if remaining:
             recipient_content += (
-                f'<text x="760" y="746" class="sans" font-size="{recipient_detail_size}" fill="#52606b">'
+                f'<text x="{recipient_x}" y="746" class="sans" font-size="{recipient_detail_size}" fill="#52606b">'
                 + xml(" | ".join(remaining))
                 + "</text>"
             )
 
+    optional_divider = (
+        '<line x1="100" y1="602" x2="1400" y2="602" stroke="#d2ccc2" stroke-width="2"/>'
+        if has_optional_content
+        else ""
+    )
+    description = (
+        f"{INSTRUMENT_TYPE} with canonical double bars and a blank handwritten Pay Code area."
+        if pay_code is None
+        else f"{INSTRUMENT_TYPE} displaying the supplied Pay Code within canonical double bars."
+    )
+
     return f'''<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="{width_mm:g}mm" height="{height_mm:g}mm" viewBox="0 0 1500 900" role="img" aria-labelledby="title desc">
   <title id="title">{TITLE} front</title>
-  <desc id="desc">Personalized {INSTRUMENT_TYPE} with a blank handwritten Pay Code area and optional Demonstration Value.</desc>
+  <desc id="desc">{xml(description)}</desc>
   <metadata>{xml(json.dumps(metadata, ensure_ascii=False, sort_keys=True))}</metadata>
   <style>{common_svg_style()}</style>
   <rect width="1500" height="900" rx="34" fill="#f7f3eb"/>
@@ -298,10 +317,10 @@ def front_svg(
   <text x="100" y="332" class="sans caps" font-size="{section_label_size}" font-weight="700" fill="#d55f18">Demonstration Pay Code</text>
   <text x="1400" y="315" class="sans caps" font-size="{small_label_size}" font-weight="700" text-anchor="end" fill="#68747e">Instruction</text>
   <text x="1400" y="348" class="serif" font-size="26" font-weight="700" text-anchor="end" fill="#172533">{xml(instruction)}</text>
-  <text x="100" y="390" class="sans caps" font-size="{small_label_size}" font-weight="700" fill="#68747e">Pay Code</text>
-  <rect x="100" y="410" width="1300" height="132" rx="16" fill="#fffaf0" stroke="#d9d2c6" stroke-width="2"/>
+  <text x="100" y="{pay_label_y}" class="sans caps" font-size="{small_label_size}" font-weight="700" fill="#68747e">Pay Code</text>
+  <rect x="100" y="{pay_field_y}" width="1300" height="{pay_field_height}" rx="16" fill="#fffaf0" stroke="#d9d2c6" stroke-width="2"/>
   {pay_code_content}
-  <line x1="100" y1="602" x2="1400" y2="602" stroke="#d2ccc2" stroke-width="2"/>
+  {optional_divider}
   {value_content}
   {recipient_content}
   <line x1="100" y1="812" x2="1400" y2="812" stroke="#d2ccc2" stroke-width="2"/>
@@ -348,7 +367,7 @@ def back_svg(
   <text x="650" y="192" class="serif" font-size="64" font-weight="700" fill="#ffffff">Redeem</text>
   <text x="650" y="250" class="sans" font-size="{direction_size}" fill="#d7dde1">Scan the QR Code</text>
   <text x="650" y="294" class="sans" font-size="{minor_size}" fill="#8f9ca5">or visit</text>
-  <text x="650" y="335" class="sans" font-size="{url_size}" font-weight="600" fill="#ef8a4a">redeem-x.laravel.cloud/disburse</text>
+  <text x="650" y="335" class="sans" font-size="{url_size}" font-weight="600" fill="#ef8a4a">{xml(redeem_url)}</text>
   <line x1="650" y1="390" x2="1400" y2="390" stroke="#43515c" stroke-width="2"/>
   <circle cx="675" cy="466" r="25" fill="#ef6c1a"/>
   <text x="675" y="474" class="sans" font-size="22" font-weight="700" text-anchor="middle" fill="#ffffff">1</text>
@@ -622,6 +641,7 @@ def main() -> None:
     logo_path = resolve_asset(nested(metadata, "branding", "logo"))
     qr_asset_path = resolve_asset(nested(metadata, "redeem", "qr"))
     redeem_url = str(nested(metadata, "redeem", "url"))
+    qr_hash_before = sha256(qr_asset_path)
     decoded_qr_url = verify_qr(qr_asset_path, redeem_url)
     logo_uri = image_data_uri(logo_path)
     qr_uri = image_data_uri(qr_asset_path)
@@ -637,6 +657,10 @@ def main() -> None:
                 svg = renderer(metadata, *dimensions, logo_uri)
             else:
                 svg = renderer(metadata, *dimensions, logo_uri, qr_uri)
+                if f">{xml(redeem_url)}</text>" not in svg:
+                    raise ValueError(
+                        "The printed redemption URL does not exactly match canonical metadata."
+                    )
             write_svg_and_png(svg, svg_path, png_path, dimensions)
             profile_paths[f"{side}_svg"] = svg_path
             profile_paths[f"{side}_png"] = png_path
@@ -672,6 +696,60 @@ def main() -> None:
             raise ValueError(f"Credential PDF must contain exactly two pages: {pdf_path}")
         artifacts.append(artifact_record(html_path, "html", profile=profile))
         artifacts.append(artifact_record(pdf_path, "pdf", profile=profile, pages=2))
+
+    validation_metadata = copy.deepcopy(metadata)
+    validation_metadata["pay_code"]["value"] = None
+    validation_metadata["demonstration_value"] = None
+    validation_metadata["recipient"] = {}
+    validation_directory = output_directory / "validation"
+    validation_directory.mkdir(parents=True, exist_ok=True)
+    validation_svg_path = validation_directory / f"{OUTPUT_STEM}-blank-optional-fields-front.svg"
+    validation_png_path = validation_directory / f"{OUTPUT_STEM}-blank-optional-fields-front.png"
+    validation_svg = front_svg(
+        validation_metadata,
+        *PROFILE_DIMENSIONS["executive-card"],
+        logo_uri,
+    )
+    validation_failures = []
+    if validation_svg.count(">||</text>") != 2:
+        validation_failures.append("canonical double bars")
+    if '<line x1="275"' in validation_svg or 'stroke="#b8afa1"' in validation_svg:
+        validation_failures.append("blank-field divider or handwriting line")
+    if ">Demonstration Value</text>" in validation_svg or ">PHP " in validation_svg:
+        validation_failures.append("hidden Demonstration Value block")
+    if ">Prepared for</text>" in validation_svg:
+        validation_failures.append("hidden recipient block")
+    if '<line x1="100" y1="602"' in validation_svg:
+        validation_failures.append("reserved optional-content divider")
+    if 'y="430" width="1300" height="220"' not in validation_svg:
+        validation_failures.append("balanced collapsed blank-field layout")
+    if validation_failures:
+        raise ValueError(
+            "Blank optional-field validation failed: " + ", ".join(validation_failures)
+        )
+    write_svg_and_png(
+        validation_svg,
+        validation_svg_path,
+        validation_png_path,
+        PROFILE_DIMENSIONS["executive-card"],
+    )
+    artifacts.append(
+        artifact_record(
+            validation_svg_path,
+            "validation_svg",
+            test_case="blank_pay_code_value_recipient",
+            submission_package=False,
+        )
+    )
+    artifacts.append(
+        artifact_record(
+            validation_png_path,
+            "validation_png",
+            test_case="blank_pay_code_value_recipient",
+            submission_package=False,
+            dpi=300,
+        )
+    )
 
     publication_pdf = pdf_directory / f"{OUTPUT_STEM}.pdf"
     shutil.copy2(pdf_directory / f"{OUTPUT_STEM}-executive-card.pdf", publication_pdf)
@@ -713,6 +791,8 @@ def main() -> None:
 
     if sha256(source) != source_hash_before:
         raise RuntimeError("Canonical Markdown changed during publication.")
+    if sha256(qr_asset_path) != qr_hash_before:
+        raise RuntimeError("Supplied QR artwork changed during publication.")
     verified_after = protect_submission_artifacts(package_directory)
     if verified_after != protected_artifacts:
         raise RuntimeError("A protected submission artifact changed during publication.")
@@ -741,10 +821,11 @@ def main() -> None:
         "redemption": {
             "url": redeem_url,
             "qr_asset": str(qr_asset_path.relative_to(REPOSITORY_ROOT)),
-            "qr_asset_sha256": sha256(qr_asset_path),
+            "qr_asset_sha256": qr_hash_before,
             "supplied_artwork": True,
             "decoded_url": decoded_qr_url,
             "verified": True,
+            "printed_url_matches_metadata": True,
         },
         "renderer": {
             "script": str(Path(__file__).resolve().relative_to(REPOSITORY_ROOT)),
@@ -757,6 +838,21 @@ def main() -> None:
             for name, dimensions in PROFILE_DIMENSIONS.items()
         },
         "protected_submission_artifacts": protected_artifacts,
+        "print_sheet_personalization": {
+            "recipient": metadata["recipient"],
+            "copies": nested(metadata, "render", "copies_per_print_sheet"),
+            "distinct_recipients": 1,
+            "basis": "canonical Markdown and generation manifest",
+        },
+        "renderer_validation": {
+            "test_case": "blank pay_code.value, demonstration_value, and recipient",
+            "canonical_double_bars": True,
+            "blank_field_has_no_divider_or_guide": True,
+            "demonstration_value_block_hidden": True,
+            "recipient_block_hidden": True,
+            "optional_space_collapsed": True,
+            "submission_package": False,
+        },
         "artifacts": artifacts,
         "accessibility": {
             "svg_titles_and_descriptions": True,
@@ -793,7 +889,12 @@ def main() -> None:
         f"- Pay Code presentation: `|| {{PAY CODE}} ||`; blank write-in field rendered\n"
         f"- Demonstration Value: {metadata.get('currency')} {metadata.get('demonstration_value')}\n"
         f"- QR destination: `{decoded_qr_url}`\n"
+        f"- Supplied QR artwork SHA-256: `{qr_hash_before}`; unchanged during publication\n"
         "- Supplied QR artwork and all three rendered back PNG profiles decoded successfully: Passed\n"
+        "- Printed redemption URL exactly matches canonical metadata, including scheme: Passed\n"
+        "- Blank Pay Code field contains canonical double bars and no divider or guide: Passed\n"
+        "- Empty Demonstration Value and recipient validation rendering collapses both blocks: Passed\n"
+        "- Print-sheet personalization: 2 copies for Jesus Vicente Garcia, as specified by canonical Markdown\n"
         "- Executive, business-card, and wallet-card front/back generation: Passed\n"
         "- Publication PDFs: 2 pages per size profile\n"
         "- A4 duplex print sheet: 2 pages, 2 credentials\n"

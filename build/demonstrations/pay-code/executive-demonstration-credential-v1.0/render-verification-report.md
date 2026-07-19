@@ -6,10 +6,15 @@
 - Pay Code presentation: `|| {PAY CODE} ||`; blank write-in field rendered
 - Demonstration Value: PHP 500
 - QR destination: `https://redeem-x.laravel.cloud/disburse`
+- Supplied QR artwork SHA-256: `a6c5569bf5f48fcbd6994e66b0884b3dcc059bd59e3968bc029e61e325a38619`; unchanged during publication
 - Supplied QR artwork and all three rendered back PNG profiles decoded successfully: Passed
+- Printed redemption URL exactly matches canonical metadata, including scheme: Passed
+- Blank Pay Code field contains canonical double bars and no divider or guide: Passed
+- Empty Demonstration Value and recipient validation rendering collapses both blocks: Passed
+- Print-sheet personalization: 2 copies for Jesus Vicente Garcia, as specified by canonical Markdown
 - Executive, business-card, and wallet-card front/back generation: Passed
 - Publication PDFs: 2 pages per size profile
 - A4 duplex print sheet: 2 pages, 2 credentials
 - Protected Cover Letter, Commercial Proposal, and Program Guide hashes: Unchanged
 - Canonical Markdown source freeze: Passed
-- Page-by-page visual inspection: Passed — every card-profile page and both A4 print-sheet pages inspected with the supplied QR artwork; no clipping, overlap, malformed text, broken QR geometry, or unintended blank page observed
+- Page-by-page visual inspection: Passed — all eight PDF pages, the contact sheet, and the blank-optional-fields validation rendering were inspected; no clipping, overflow, unintended guides, margin defects, or duplex-placement discrepancies were found
