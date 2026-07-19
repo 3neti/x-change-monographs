@@ -1,3 +1,7 @@
-# Cover letter placeholder
+# AllBank Cover Letter
 
-The separate cover letter remains pending. No draft or blank PDF has been created.
+First Edition · Version 1.0
+
+Letter Date: 20 July 2026
+
+The publication PDF in this directory is the relationship document for the AllBank submission package.

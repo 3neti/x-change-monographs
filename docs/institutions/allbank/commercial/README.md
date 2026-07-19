@@ -7,6 +7,7 @@ The commercial layer follows the approved AllBank Institution Edition. It does n
 ## Current proposal
 
 - [Proposal for a Provisional License and Proof of Concept](proposal/README.md)
+- [Submission Cover Letter](cover-letter/README.md)
 - [Commercial metadata](metadata.yaml)
 
 **Proposal number:** ODTI-2026-001
@@ -17,6 +18,8 @@ The commercial layer follows the approved AllBank Institution Edition. It does n
 
 **Valid until:** 19 August 2026
 
+**Submission package:** Complete — Cover Letter, Commercial Proposal, Program Guide attachment, and referenced Demonstration Pay Codes
+
 Generated publication assets and the controlled submission package are stored under `build/institutions/allbank/commercial/`. The separate AllBank Program Guide attachment remains an unchanged publication artifact.
 
-No cover letter, Statement of Work, memorandum of agreement, master agreement, or implementation plan is created in this commercial record.
+No Statement of Work, memorandum of agreement, master agreement, or implementation plan is created in this commercial record.

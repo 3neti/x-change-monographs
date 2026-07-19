@@ -8,6 +8,13 @@ current_proposal:
   proposal_date: "2026-07-20"
   valid_until: "2026-08-19"
   path: "docs/institutions/allbank/commercial/proposal/allbank-provisional-license-and-poc-proposal-v1.0.md"
+cover_letter:
+  title: "Submission of Proposal for a Provisional License and Proof of Concept"
+  edition: "First Edition"
+  version: "1.0"
+  status: "Submitted"
+  letter_date: "2026-07-20"
+  path: "docs/institutions/allbank/commercial/cover-letter/allbank-cover-letter-v1.0.md"
 governing_institution_edition:
   title: "Thrift Bank Digital Banking Program Guide — AllBank Edition"
   edition: "Executive Edition"

@@ -1,0 +1,33 @@
+document_type: "cover_letter"
+title: "Submission of Proposal for a Provisional License and Proof of Concept"
+edition: "First Edition"
+version: "1.0"
+status: "Submitted"
+letter_date: "2026-07-20"
+submitted_by:
+  legal_entity: "Open Disbursement Technologies, Inc."
+  address:
+    - "E1504 Philippine Stock Exchange Centre"
+    - "Exchange Road, Ortigas Center"
+    - "Pasig City 1605"
+submitted_to:
+  name: "Mr. Jesus Vicente Garcia"
+  title: "President"
+  institution: "AllBank"
+attention:
+  name: "Ms. Digna Samonte"
+  title: "Chief Technology Officer"
+signatory:
+  name: "Guido Alfredo A. Delgado"
+  title: "President and Chief Executive Officer"
+  legal_entity: "Open Disbursement Technologies, Inc."
+proposal_reference:
+  proposal_number: "ODTI-2026-001"
+  proposal_revision: "1.0"
+  proposal_date: "2026-07-20"
+  valid_until: "2026-08-19"
+enclosures:
+  - "Proposal for a Provisional License and Proof of Concept"
+  - "Thrift Bank Digital Banking Program Guide — AllBank Edition (Executive Edition)"
+  - "Two Demonstration Pay Codes"
+confidentiality: "Confidential Commercial Information"

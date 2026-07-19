@@ -1,0 +1,97 @@
+{
+  "title": "Submission of Proposal for a Provisional License and Proof of Concept",
+  "document_type": "Cover Letter",
+  "edition": "First Edition",
+  "version": "1.0",
+  "status": "Submitted",
+  "letter_date": "2026-07-20",
+  "submitted_by": "Open Disbursement Technologies, Inc.",
+  "submitted_to": "Mr. Jesus Vicente Garcia",
+  "attention": "Ms. Digna Samonte",
+  "signatory": "Guido Alfredo A. Delgado",
+  "proposal_number": "ODTI-2026-001",
+  "confidentiality": "Confidential Commercial Information",
+  "canonical_source": "docs/institutions/allbank/commercial/cover-letter/allbank-cover-letter-v1.0.md",
+  "canonical_source_sha256": "e7ee41e9bcd189cdf26a2b72ecd0fc9021a0647c5259d09faeb936696359dde4",
+  "renderer": "WeasyPrint 66.0",
+  "html": {
+    "path": "build/institutions/allbank/commercial/cover-letter/allbank-cover-letter-v1.0.html",
+    "sha256": "88cc57aaf1fccfab63919fb5ad9e8c5a7468053ced84b4ef20e4546862e29948",
+    "bytes": 122527
+  },
+  "preview": {
+    "path": "build/institutions/allbank/commercial/cover-letter/allbank-cover-letter-v1.0-preview.png",
+    "sha256": "8092095fa2704f46a0a4d8d16386930363f35e100a6bce45f1fbebf2481e4f06",
+    "bytes": 271638
+  },
+  "pdfs": [
+    {
+      "profile": "publication",
+      "path": "build/pdf/allbank-cover-letter-v1.0.pdf",
+      "sha256": "4394c671af5ef8d92c07e298207f62f2cea3b7ae472963f7c8fcf7aeda0d0baf",
+      "bytes": 5385367,
+      "physical_pages": 1,
+      "bookmarks": 1,
+      "links": 0,
+      "tagged": true
+    },
+    {
+      "profile": "print_pdfa_2u",
+      "path": "build/pdf/allbank-cover-letter-v1.0-print.pdf",
+      "sha256": "7a243edd7fed501b4a86cb34dc30a91ba5d256fbc79a066b8a6d7c4894da1cf8",
+      "bytes": 5385939,
+      "physical_pages": 1,
+      "bookmarks": 1,
+      "links": 0,
+      "tagged": true
+    },
+    {
+      "profile": "screen_optimized",
+      "path": "build/pdf/allbank-cover-letter-v1.0-screen.pdf",
+      "sha256": "cd48caeda6b638f45527409c41583619c5ec58566482bf31986c47aa6a018f9a",
+      "bytes": 50499,
+      "physical_pages": 1,
+      "bookmarks": 1,
+      "links": 0,
+      "tagged": true
+    }
+  ],
+  "submission_package": [
+    {
+      "path": "build/institutions/allbank/commercial/submission-package/01-cover-letter/README.md",
+      "sha256": "0597e343429d5ac7ff924f561b889a0ec53a665be09841cbd5fca22ccdbf7d1d",
+      "bytes": 184
+    },
+    {
+      "path": "build/institutions/allbank/commercial/submission-package/01-cover-letter/AllBank-Cover-Letter.pdf",
+      "sha256": "4394c671af5ef8d92c07e298207f62f2cea3b7ae472963f7c8fcf7aeda0d0baf",
+      "bytes": 5385367
+    },
+    {
+      "path": "build/institutions/allbank/commercial/submission-package/README.md",
+      "sha256": "9c7fbe4bace0ae3fddb7056eff55eeed39bd96676a24d535c3ba2c9213bcb3c6",
+      "bytes": 386
+    },
+    {
+      "path": "build/institutions/allbank/commercial/submission-package/02-commercial-proposal/AllBank-Provisional-License-and-Proof-of-Concept.pdf",
+      "sha256": "f387400b6c23fc5e51a32a641e02657031baf08e7301b599795a6345ce68396f",
+      "bytes": 8898741
+    },
+    {
+      "path": "build/institutions/allbank/commercial/submission-package/03-attachment-a/Thrift-Bank-Digital-Banking-Program-Guide-AllBank-Edition.pdf",
+      "sha256": "a06b70cadcd5fa6c73b2ebb8e86acb7979731fc972da11039a5f29c988528210",
+      "bytes": 11751751
+    }
+  ],
+  "protected_artifacts": {
+    "commercial_proposal_pdf_sha256": "f387400b6c23fc5e51a32a641e02657031baf08e7301b599795a6345ce68396f",
+    "program_guide_pdf_sha256": "a06b70cadcd5fa6c73b2ebb8e86acb7979731fc972da11039a5f29c988528210",
+    "unchanged": true
+  },
+  "accessibility": {
+    "tagged_pdf": true,
+    "language": "en",
+    "bookmarks": true,
+    "logical_html_landmarks": true
+  }
+}

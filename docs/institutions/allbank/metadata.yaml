@@ -40,6 +40,7 @@ artifacts:
   executive_edition: "Approved — Frozen — First Edition Typeset"
   institution_edition: "Executive Edition First Edition"
   commercial_proposal: "Submitted — ODTI-2026-001"
+  commercial_cover_letter: "Submitted — First Edition Version 1.0"
   implementation_roadmap: "Not Authorized"
 drafting_authorization: "AllBank Executive Edition Version 1.0 Approved for Typesetting"
 editions:
@@ -53,8 +54,10 @@ editions:
     status: "approved_frozen_first_edition_typeset"
 commercial:
   proposal_path: "docs/institutions/allbank/commercial/proposal/allbank-provisional-license-and-poc-proposal-v1.0.md"
+  cover_letter_path: "docs/institutions/allbank/commercial/cover-letter/allbank-cover-letter-v1.0.md"
   proposal_number: "ODTI-2026-001"
   status: "Submitted"
+  submission_package_status: "Complete"
   implementation_status: "Not Authorized"
 agent_rule: "If sufficient evidence is unavailable, the research agent shall explicitly identify the gap rather than compensate with unsupported prose."
 notes: "This repository contains a submitted institution-specific commercial proposal. Submission does not establish AllBank adoption, approval, production readiness, or implementation authority."

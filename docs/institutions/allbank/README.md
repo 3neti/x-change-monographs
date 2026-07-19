@@ -30,7 +30,7 @@ The repository contains public-source institution intelligence, accepted strateg
 
 The Institution Intelligence and Digital Maturity Assessment are accepted for analysis. The Strategic Gap Analysis and Editorial Mapping supported the completed internal Research Edition. That Research Edition now serves as internal source material for the client-facing Executive Edition.
 
-The AllBank Executive Edition Version 1.0 is **Approved**, **Frozen**, and typeset as the **First Edition**. It synthesizes institution-specific understanding without exposing the research apparatus and embeds the canonical Annexes A–H. Proposal No. ODTI-2026-001 is **Submitted** as a separate commercial record. Neither the Program Guide nor the proposal authorizes a pilot, production deployment, or implementation beyond the expressly proposed Proof of Concept.
+The AllBank Executive Edition Version 1.0 is **Approved**, **Frozen**, and typeset as the **First Edition**. It synthesizes institution-specific understanding without exposing the research apparatus and embeds the canonical Annexes A–H. Proposal No. ODTI-2026-001 and its First Edition Cover Letter are **Submitted** as separate commercial records, completing the controlled submission package. Neither the Program Guide nor the proposal authorizes a pilot, production deployment, or implementation beyond the expressly proposed Proof of Concept.
 
 All institution-specific statements are classified as **Observed**, **Inferred**, **Recommended**, or **Unknown**. If the public record does not establish a matter, the gap remains visible and is converted into a management question.
 
