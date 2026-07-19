@@ -10,6 +10,7 @@ The commercial layer follows the approved AllBank Institution Edition. It does n
 - [Submission Cover Letter](cover-letter/README.md)
 - [Executive Demonstration Credential](../../../demonstrations/pay-code/README.md)
 - [Commercial metadata](metadata.yaml)
+- [AllBank Executive Submission Portfolio](../../../submissions/allbank/README.md)
 
 **Proposal number:** ODTI-2026-001
 
@@ -21,6 +22,6 @@ The commercial layer follows the approved AllBank Institution Edition. It does n
 
 **Submission package:** Complete — Cover Letter, Commercial Proposal, Program Guide attachment, and two Executive Demonstration Credentials
 
-Generated publication assets and the controlled submission package are stored under `build/institutions/allbank/commercial/`. The separate AllBank Program Guide attachment remains an unchanged publication artifact.
+Generated publication assets and the controlled submission package are stored under `build/institutions/allbank/commercial/`. The reproducible executive portfolio is generated separately under `build/submissions/allbank/` from its governed [submission manifest](../../../submissions/allbank/submission.yaml). The separate AllBank Program Guide attachment remains an unchanged publication artifact.
 
 No Statement of Work, memorandum of agreement, master agreement, or implementation plan is created in this commercial record.

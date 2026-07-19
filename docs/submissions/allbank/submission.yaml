@@ -1,0 +1,149 @@
+submission:
+  document_type: institution_submission_portfolio
+  institution: AllBank
+  institution_slug: allbank
+  title: AllBank Executive Submission Portfolio
+  edition: First Edition
+  version: "1.0"
+  status: production
+  status_label: Production Submission
+  state: Ready for Delivery
+  submission_date: "2026-07-20"
+  build_date: "2026-07-20"
+  archive_stem: allbank-executive-submission-portfolio-v1.0
+
+issuer:
+  organization: Open Disbursement Technologies, Inc.
+
+recipients:
+  - name: Jesus Vicente Garcia
+    salutation: Mr.
+    title: President
+    organization: AllBank
+  - name: Digna Samonte
+    salutation: Ms.
+    title: Chief Technology Officer
+    organization: AllBank
+
+folders:
+  screen:
+    purpose: electronic reading, internal circulation, and presentation
+  print:
+    purpose: physical printing and submission assembly
+
+documents:
+  - id: cover-letter
+    order: 1
+    publication_name: Submission of Proposal for a Provisional License and Proof of Concept
+    portfolio_label: Cover Letter
+    description: Introduces the submission and the requested decision.
+    edition: First Edition
+    version: "1.0"
+    profiles:
+      screen:
+        source: build/pdf/allbank-cover-letter-v1.0-screen.pdf
+        packaged: SCREEN/01-cover-letter.pdf
+        sha256: cd48caeda6b638f45527409c41583619c5ec58566482bf31986c47aa6a018f9a
+        pages: 1
+      print:
+        source: build/pdf/allbank-cover-letter-v1.0-print.pdf
+        packaged: PRINT/01-cover-letter-print.pdf
+        sha256: 7a243edd7fed501b4a86cb34dc30a91ba5d256fbc79a066b8a6d7c4894da1cf8
+        pages: 1
+
+  - id: proposal
+    order: 2
+    publication_name: Proposal for a Provisional License and Proof of Concept
+    portfolio_label: Proposal for a Provisional License and Proof of Concept
+    description: Presents the commercial basis for authorizing the Proof of Concept.
+    edition: First Edition
+    version: "1.0"
+    profiles:
+      screen:
+        source: build/pdf/allbank-provisional-license-and-poc-proposal-v1.0-screen.pdf
+        packaged: SCREEN/02-proposal-provisional-license-and-poc.pdf
+        sha256: 38dad355e1ecc612727893b9678a138e0d969624f76849006403d9ee81beca22
+        pages: 4
+      print:
+        source: build/pdf/allbank-provisional-license-and-poc-proposal-v1.0-print.pdf
+        packaged: PRINT/02-proposal-provisional-license-and-poc-print.pdf
+        sha256: 744a2d9bb6a533776ee9c3852a04cb4f339cc4739ed122bc3c551f07086ebce3
+        pages: 4
+
+  - id: program-guide
+    order: 3
+    publication_name: Thrift Bank Digital Banking Program Guide — AllBank Edition
+    portfolio_label: Thrift Bank Digital Banking Program Guide — AllBank Edition
+    description: Provides the institutional, program, and architectural context.
+    edition: Executive Edition, First Edition
+    version: "1.0"
+    profiles:
+      screen:
+        source: build/pdf/thrift-bank-digital-banking-program-guide-allbank-edition-executive-first-edition-v1.0-screen.pdf
+        packaged: SCREEN/03-thrift-bank-digital-banking-program-guide-allbank-edition.pdf
+        sha256: 30fbce698485279dbe2bf5e4610480414206250ff0b275e76ac6bb007720d175
+        pages: 29
+      print:
+        source: build/pdf/thrift-bank-digital-banking-program-guide-allbank-edition-executive-first-edition-v1.0-print.pdf
+        packaged: PRINT/03-thrift-bank-digital-banking-program-guide-allbank-edition-print.pdf
+        sha256: 5d6021fce7c22d6f4b6f3ae9bcbe76f0a2870e0bf6fc7ddc860c72c3ea247cc8
+        pages: 29
+
+  - id: credential-garcia
+    order: 4
+    publication_name: Executive Demonstration Credential — Jesus Vicente Garcia
+    portfolio_label: Executive Demonstration Credential — Jesus Vicente Garcia
+    description: Personalized Executive Demonstration Credential for the President of AllBank.
+    edition: First Edition
+    version: "1.0"
+    profiles:
+      screen:
+        source: build/pdf/executive-demonstration-credential-v1.0-jesus-vicente-garcia.pdf
+        packaged: SCREEN/04-executive-demonstration-credential-jesus-vicente-garcia.pdf
+        sha256: 5d2aefaeceb4ca538e8edf7229b6c0aaad484ab0619d0de500f145c97ebb1fd6
+        pages: 2
+        qr_page: 2
+        qr_count: 1
+
+  - id: credential-samonte
+    order: 5
+    publication_name: Executive Demonstration Credential — Digna Samonte
+    portfolio_label: Executive Demonstration Credential — Digna Samonte
+    description: Personalized Executive Demonstration Credential for the Chief Technology Officer of AllBank.
+    edition: First Edition
+    version: "1.0"
+    profiles:
+      screen:
+        source: build/pdf/executive-demonstration-credential-v1.0-digna-samonte.pdf
+        packaged: SCREEN/05-executive-demonstration-credential-digna-samonte.pdf
+        sha256: 538b0042214a4076346d546913aafead953e760cd0a0b259ff764fbe73013096
+        pages: 2
+        qr_page: 2
+        qr_count: 1
+
+  - id: credential-duplex-sheet
+    order: 6
+    publication_name: Executive Demonstration Credential — Duplex Print Sheet
+    portfolio_label: Executive Demonstration Credentials — Duplex Print Sheet
+    description: Authoritative A4 duplex print layout for the two personalized credentials.
+    edition: First Edition
+    version: "1.0"
+    profiles:
+      print:
+        source: build/pdf/executive-demonstration-credential-v1.0-print-sheet.pdf
+        packaged: PRINT/04-executive-demonstration-credentials-duplex-print-sheet.pdf
+        sha256: 0e3eafe39e355bf7870da97ae386799a8339b8a79cfd4d59d9f805ebe45d836a
+        pages: 2
+        qr_page: 2
+        qr_count: 2
+
+credential_verification:
+  source: resources/publication-assets/demonstrations/x-change-disburse-qr.png
+  sha256: a6c5569bf5f48fcbd6994e66b0884b3dcc059bd59e3968bc029e61e325a38619
+  destination: https://redeem-x.laravel.cloud/disburse
+
+build:
+  command: python3 scripts/build-submission-portfolio.py docs/submissions/allbank/submission.yaml
+  output_root: build/submissions/allbank
+  deterministic_archive_timestamp: "2026-07-20T00:00:00"
+  checksum_algorithm: SHA-256
