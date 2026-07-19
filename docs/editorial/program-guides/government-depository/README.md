@@ -4,6 +4,7 @@ This directory contains the complete review draft of the Government Depository i
 
 - [`government-depository-digital-banking-program-guide.md`](government-depository-digital-banking-program-guide.md) contains the Executive Summary and Sections 1–7.
 - [`appendices/`](appendices/) contains complete Guide Appendices A–G.
+- [`../../government-depository-digital-banking-program/annexes/`](../../government-depository-digital-banking-program/annexes/) contains the expanded Program Architecture references supporting the Guide.
 - [`metadata.yaml`](metadata.yaml) records document identity, source doctrine, parity governance, and review status.
 - [`../PROGRAM_GUIDE_PARITY_CHECKLIST.md`](../PROGRAM_GUIDE_PARITY_CHECKLIST.md) records architectural and business-question coverage.
 
@@ -14,6 +15,12 @@ The approved [Government Depository Program Foundation](../../government-deposit
 The Guide is a complete Version 0.9 draft under review. All seven business questions and 27 mandatory coverage categories are addressed. `Complete` parity coverage does not mean the Guide is editorially locked or approved for publication.
 
 No PDF, HTML, renderer instance, acceptance record, freeze record, or publication checksum has been created.
+
+## Appendix Architecture
+
+EDR-005 reserves the Guide's canonical Appendices A–G for Glossary, Governance, Commercial Waterfall, Treasury Grammar, Deployment Architecture, Frequently Asked Questions, and Canonical Diagrams.
+
+The approved Program Foundation separately maintains seven supporting references: Program Architecture, Stakeholder Architecture, Government Workflow Taxonomy, Responsibility Matrix, Publication Architecture, Institution Intelligence Research Gate, and Institution Readiness. They provide reusable cross-publication depth without replacing or renumbering the canonical Guide appendices.
 
 ## Editorial Lineage
 

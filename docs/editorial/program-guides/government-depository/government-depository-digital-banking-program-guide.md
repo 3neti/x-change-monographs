@@ -78,7 +78,7 @@ Licensing and participation remain institution-specific. Agreements must disting
 
 Governance follows responsibility. Public authority remains public. Banking responsibility remains with the depository institution. Providers supply only the capabilities assigned to them. Production begins only through the required institutional approvals.
 
-The Program should be judged by whether it establishes accountable institutional capability—not by the amount of software deployed.
+The Program should be judged by whether it establishes accountable institutional capability—not by the amount of software deployed. The complete participant and authority model appears in the supporting [Stakeholder Architecture](../../government-depository-digital-banking-program/annexes/stakeholder-map.md) and [Responsibility Matrix](../../government-depository-digital-banking-program/annexes/responsibility-matrix.md).
 
 ## Section 3 — Why Should the Institution Proceed?
 
@@ -154,7 +154,7 @@ Custody does not move into x-change. Public funds remain within the applicable g
 
 Technical completion remains narrower than readiness. A certified driver may perform agreed API behavior under tested conditions. The responsible institutions must still decide whether the complete service can be lawfully authorized, operated, supervised, secured, settled, reconciled, supported, audited, and governed.
 
-Further detail appears in [Treasury Grammar](appendices/treasury-grammar.md) and [Deployment Architecture](appendices/deployment-architecture.md).
+Canonical definitions appear in the [Glossary](appendices/glossary.md). Further detail appears in [Treasury Grammar](appendices/treasury-grammar.md), [Deployment Architecture](appendices/deployment-architecture.md), and the supporting [Program Architecture](../../government-depository-digital-banking-program/annexes/program-architecture-map.md).
 
 ## Section 5 — Banking in Action
 
@@ -188,7 +188,7 @@ The same grammar applies elsewhere:
 
 LGU assistance need not be the first production service. The institution should begin with the ceremony that best combines public importance, established authority, bounded scope, operating familiarity, and readiness to learn.
 
-One ceremony makes the grammar visible. Many governed services make the Capability institutionally useful.
+One ceremony makes the grammar visible. Many governed services make the Capability institutionally useful. The supporting [Government Workflow Taxonomy](../../government-depository-digital-banking-program/annexes/workflow-taxonomy.md) provides the complete cross-workflow reference.
 
 ## Section 6 — The Institutional Case
 
@@ -242,7 +242,7 @@ The responsible institutions review the evidence and decide whether to **Proceed
 
 Expansion is phased, not automatic. An institution may extend the same Facility, introduce another channel, add a participant group, increase approved limits, support another public entity, or define a new ceremony. Each step repeats the disciplines of authority, suitability, conditions, readiness, controlled operation, and evidence.
 
-The first approval authorizes institutional learning. Each later approval determines whether the responsible institutions are prepared to carry a larger public responsibility.
+The first approval authorizes institutional learning. Each later approval determines whether the responsible institutions are prepared to carry a larger public responsibility. The supporting [Institution Intelligence Research Gate](../../government-depository-digital-banking-program/annexes/institution-specific-research-gate.md) and [Institution Readiness](../../government-depository-digital-banking-program/annexes/definition-of-institution-readiness.md) references govern those later transitions.
 
 ## Appendices
 
@@ -253,3 +253,15 @@ The first approval authorizes institutional learning. Each later approval determ
 - [Appendix E — Deployment Architecture](appendices/deployment-architecture.md)
 - [Appendix F — Frequently Asked Questions](appendices/faq.md)
 - [Appendix G — Canonical Diagrams](appendices/diagrams.md)
+
+### Supporting Program Architecture References
+
+The approved Program Foundation contains a separate set of cross-publication references. These do not replace or renumber the canonical EDR-005 Guide appendices.
+
+- [Program Architecture](../../government-depository-digital-banking-program/annexes/program-architecture-map.md)
+- [Stakeholder Architecture](../../government-depository-digital-banking-program/annexes/stakeholder-map.md)
+- [Government Workflow Taxonomy](../../government-depository-digital-banking-program/annexes/workflow-taxonomy.md)
+- [Responsibility Matrix](../../government-depository-digital-banking-program/annexes/responsibility-matrix.md)
+- [Publication Architecture](../../government-depository-digital-banking-program/annexes/publication-architecture.md)
+- [Institution Intelligence Research Gate](../../government-depository-digital-banking-program/annexes/institution-specific-research-gate.md)
+- [Institution Readiness](../../government-depository-digital-banking-program/annexes/definition-of-institution-readiness.md)

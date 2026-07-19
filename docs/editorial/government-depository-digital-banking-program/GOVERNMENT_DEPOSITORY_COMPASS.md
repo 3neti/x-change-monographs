@@ -65,13 +65,13 @@ This Program foundation is canonical source material at version 0.1. It is not, 
 - this maintainable Compass;
 - phased Roadmap;
 - foundation metadata and README;
-- Annex A — Program Architecture Map;
-- Annex B — Stakeholder Map;
-- Annex C — Workflow Taxonomy;
+- Annex A — Program Architecture;
+- Annex B — Stakeholder Architecture;
+- Annex C — Government Workflow Taxonomy;
 - Annex D — Responsibility Matrix;
 - Annex E — Publication Architecture;
-- Annex F — Institution-Specific Research Gate; and
-- Annex G — Definition of Institution Readiness;
+- Annex F — Institution Intelligence Research Gate; and
+- Annex G — Institution Readiness;
 - formal Program Guide Executive Summary and Sections 1–7; and
 - complete Guide Appendices A–G and canonical Mermaid sources.
 

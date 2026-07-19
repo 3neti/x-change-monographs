@@ -67,3 +67,5 @@ ODTI maintains the licensed x-change software, `emi-core`, supported components,
 ## When is the institution ready?
 
 Readiness exists only when the responsible institutions judge that sufficient evidence supports lawful authorization, operation, supervision, security, settlement, reconciliation, support, records, audit, and governance. Driver certification is one technical input, not the readiness decision.
+
+See the supporting [Institution Intelligence Research Gate](../../../government-depository-digital-banking-program/annexes/institution-specific-research-gate.md) and [Institution Readiness](../../../government-depository-digital-banking-program/annexes/definition-of-institution-readiness.md) for the complete evidence and maturity model.

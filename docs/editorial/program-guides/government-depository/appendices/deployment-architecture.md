@@ -43,3 +43,5 @@ The depository institution owns or establishes the settlement account, participa
 ## Production Boundary
 
 Driver certification, provider certification, or successful demonstration does not authorize production. Production requires the applicable public, banking, legal, risk, security, operational, accounting, reconciliation, continuity, and governance decisions.
+
+The supporting [Program Architecture](../../../government-depository-digital-banking-program/annexes/program-architecture-map.md) explains ownership, licensing, operational, settlement, and infrastructure boundaries in full.

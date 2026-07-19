@@ -2,6 +2,8 @@
 
 These Mermaid diagrams apply approved canonical concepts to the Government Depository Program. They describe responsibility and sequence, not production topology, public authority, procurement status, or legal fund characterization.
 
+The supporting [Program Architecture](../../../government-depository-digital-banking-program/annexes/program-architecture-map.md), [Stakeholder Architecture](../../../government-depository-digital-banking-program/annexes/stakeholder-map.md), and [Government Workflow Taxonomy](../../../government-depository-digital-banking-program/annexes/workflow-taxonomy.md) provide the narrative interpretation of these governed figures.
+
 ## Program Participants
 
 ```mermaid

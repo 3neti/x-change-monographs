@@ -12,6 +12,7 @@ audience: "Boards and executive leadership of eligible Philippine government dep
 source:
   manuscript: "docs/editorial/program-guides/government-depository/government-depository-digital-banking-program-guide.md"
   appendices: "docs/editorial/program-guides/government-depository/appendices"
+  program_architecture_references: "docs/editorial/government-depository-digital-banking-program/annexes"
   program_foundation: "docs/editorial/government-depository-digital-banking-program/GOVERNMENT_DEPOSITORY_PROGRAM.md"
   strategic_white_paper: "docs/editorial/movement-iv-government-depository-banking/modernizing-public-finance-through-trusted-government-depository-banking.md"
   parity_report: "docs/editorial/government-depository-digital-banking-program/GOVERNMENT_DEPOSITORY_PARITY_REPORT.md"

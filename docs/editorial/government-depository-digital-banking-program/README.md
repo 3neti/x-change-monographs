@@ -14,13 +14,13 @@ The Program applies the existing x-change platform and banking grammar to accoun
 
 ## Annexes
 
-- [Annex A — Program Architecture Map](annexes/program-architecture-map.md)
-- [Annex B — Stakeholder Map](annexes/stakeholder-map.md)
-- [Annex C — Workflow Taxonomy](annexes/workflow-taxonomy.md)
+- [Annex A — Program Architecture](annexes/program-architecture-map.md)
+- [Annex B — Stakeholder Architecture](annexes/stakeholder-map.md)
+- [Annex C — Government Workflow Taxonomy](annexes/workflow-taxonomy.md)
 - [Annex D — Responsibility Matrix](annexes/responsibility-matrix.md)
 - [Annex E — Publication Architecture](annexes/publication-architecture.md)
-- [Annex F — Institution-Specific Research Gate](annexes/institution-specific-research-gate.md)
-- [Annex G — Definition of Institution Readiness](annexes/definition-of-institution-readiness.md)
+- [Annex F — Institution Intelligence Research Gate](annexes/institution-specific-research-gate.md)
+- [Annex G — Institution Readiness](annexes/definition-of-institution-readiness.md)
 
 ## Editorial lineage
 
