@@ -29,7 +29,7 @@ Neither dimension can compensate for the other.
 
 ## Cross-Program Matrix
 
-The RBAP and Thrift Banks columns record current guide coverage against the frozen architecture. The Government Depository Banks column remains a planning entry.
+The RBAP and Thrift Banks columns record current guide coverage against the frozen architecture. The Government Depository Banks column remains a planning entry for the formal Guide. Its separate [Program foundation](../government-depository-digital-banking-program/README.md) does not convert planned Guide coverage to complete.
 
 | Canonical Requirement | RBAP | Thrift Banks | Government Depository Banks | Status | Notes |
 | --- | --- | --- | --- | --- | --- |
@@ -109,7 +109,7 @@ A future guide satisfies diagram parity by referencing the approved canonical di
 | --- | --- | --- |
 | RBAP Digital Banking Program | `docs/editorial/program-guides/rbap/rbap-digital-banking-program-guide.md` | The Executive Summary was revalidated under EDR-012 and locked without wording changes. Sections 1–7 and Appendices A–G remain canonical and locked; all mandatory coverage categories and diagram-registry requirements remain Complete. The complete editorial source is canonical and locked. Final publication governance, figure rendering, accessibility tagging, placement, and pagination remain pending. |
 | Thrift Bank Digital Banking Program | `docs/editorial/program-guides/thrift-bank/thrift-bank-program-guide.md` | Canonical and editorially locked under the [Editorial Acceptance](thrift-bank/EDITORIAL_ACCEPTANCE.md). EDR-005 editorial work is complete for this implementation; future work proceeds through institution-specific editions. Executive Summary, Sections 1–7, and Appendices A–G are complete. No publication build is authorized. The separate [Phase 1 Institutional Study](../thrift-bank-digital-banking-program/README.md) remains the authoritative doctrinal source. |
-| Government Depository Banking Program | Not created | Anticipated. |
+| Government Depository Banking Program | Formal Guide not created; foundation: `docs/editorial/government-depository-digital-banking-program/README.md` | The canonical Program foundation is complete at version 0.1. The formal EDR-005 Program Guide has not been created, so all Guide coverage and canonical diagrams remain Planned. Institution-specific work is deferred pending a separate research-first phase. |
 
 ## Required Gap Report
 

@@ -1,0 +1,47 @@
+series: "x-change Banking Program Foundations"
+program: "Government Depository Digital Banking Program"
+title: "Government Depository Digital Banking Program"
+subtitle: "Accountable Institutional Capability for Digital Public Finance"
+document_form: "canonical-program-specification"
+document_type: "banking-program-foundation"
+version: "0.1"
+phase: 1
+status: "canonical-program-foundation"
+maturity: "foundation-complete"
+audience: "Government depository institutions, government entities, Boards, executive leadership, public-finance officials, and responsible control functions"
+emotional_center: "Public trust"
+primary_product: "Institutional capability"
+strategic_outcome: "Stronger or preferred institutional-option positioning for selected public-finance workflows, subject to authority, qualification, selection, agreement, implementation, and performance"
+source:
+  program: "docs/editorial/government-depository-digital-banking-program/GOVERNMENT_DEPOSITORY_PROGRAM.md"
+  parity_report: "docs/editorial/government-depository-digital-banking-program/GOVERNMENT_DEPOSITORY_PARITY_REPORT.md"
+  compass: "docs/editorial/government-depository-digital-banking-program/GOVERNMENT_DEPOSITORY_COMPASS.md"
+  roadmap: "docs/editorial/government-depository-digital-banking-program/GOVERNMENT_DEPOSITORY_ROADMAP.md"
+  annexes: "docs/editorial/government-depository-digital-banking-program/annexes"
+lineage:
+  strategic_white_paper: "docs/editorial/movement-iv-government-depository-banking/modernizing-public-finance-through-trusted-government-depository-banking.md"
+  canonical_program_guide_architecture: "docs/editorial/program-guides/CANONICAL_BANKING_PROGRAM_GUIDE.md"
+  program_guide_parity: "docs/editorial/program-guides/PROGRAM_GUIDE_PARITY_CHECKLIST.md"
+  institution_intelligence_framework: "docs/institutions/FRAMEWORK.md"
+governance:
+  editorial_decisions:
+    - "EDR-004"
+    - "EDR-005"
+    - "EDR-006"
+    - "EDR-009"
+    - "EDR-010"
+    - "EDR-014"
+    - "EDR-015"
+  canonical_architecture: "inherited-unchanged"
+  canonical_grammar: "inherited-unchanged"
+  operating_sovereignty: "preserved"
+publication:
+  generated: false
+  renderer: "reuse existing Program Guide publishing system when authorized"
+  formal_program_guide: "planned"
+  freeze_record: "not-yet-created"
+institution_specific_work:
+  status: "deferred"
+  first_expected_institution: "Philippine Veterans Bank"
+  required_next_gate: "separate Institution Intelligence research phase"
+notes: "This foundation creates no institution-specific claims, commercial proposal, pricing, production authorization, or new x-change architecture."

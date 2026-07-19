@@ -43,6 +43,7 @@ Banking Program Guides are canonical commercial handbooks and remain separate fr
 ## Institutional Program Studies
 
 - [Thrift Bank Digital Banking Program](thrift-bank-digital-banking-program/README.md) — approved Phase 1 institutional study and doctrinal source for the separate formal Program Guide
+- [Government Depository Digital Banking Program](government-depository-digital-banking-program/README.md) — canonical Program foundation applying Movement IV without an architectural fork; the formal Program Guide and all institution-specific work remain planned
 
 ## Institution Intelligence
 
