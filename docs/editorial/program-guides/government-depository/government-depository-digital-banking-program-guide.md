@@ -22,9 +22,9 @@ An LGU assistance disbursement makes the model visible. The responsible public e
 
 The public institution authorized an outcome. The depository institution arranged its accountable execution.
 
-The same Capability can support government payroll, pensions and veterans' benefits, scholarships, agricultural support, disaster assistance, public collections, treasury operations, GOCC activity, procurement settlement, and other workflows approved by the responsible institutions. Their authority, participants, conditions, evidence, and public purpose differ. The operating grammar remains stable.
+The same Capability supports government payroll, pensions and veterans' benefits, scholarships, agricultural support, disaster assistance, public collections, treasury operations, GOCC activity, procurement settlement, and other workflows approved by the responsible institutions. Their authority, participants, conditions, evidence, and public purpose differ. The operating grammar remains stable.
 
-The institutional case is not that software guarantees public deposits, program selection, or preferred status. It is that a qualified institution with credible authority, operating discipline, and reusable capability may become a stronger institutional option for selected public-finance responsibilities. Trust must still be earned through lawful process, qualification, price, service, evidence, and performance.
+The institutional case rests on capability, not entitlement. A qualified institution with credible authority, operating discipline, and reusable capability gains a stronger basis for selected public-finance responsibilities. Deposits, selection, and preferred status still depend on lawful process, qualification, price, service, evidence, and performance.
 
 The Program begins with one bounded ceremony. The responsible institutions establish authority and suitability, define the service, complete institution-specific integration, test the complete operation, prepare personnel, and determine whether evidence supports controlled production. Expansion follows only when the institution is prepared to carry the next responsibility.
 
@@ -44,7 +44,7 @@ Many eligible institutions already operate core banking systems, digital channel
 
 That repeated construction can limit institutional choice. An institution may possess relevant authority yet remain difficult to consider for a demanding workflow because the complete service requires more than an account and a payment connection. Government must be able to identify authority, responsibility, satisfied conditions, completed activity, unresolved outcomes, and the evidence returned to the public record.
 
-The Program addresses that operating problem. It does not confer government-depository authority, program eligibility, procurement preference, settlement access, or public trust. It organizes capabilities the participating institutions already possess or separately establish under approved authority and relationships.
+The Program addresses that operating problem by organizing capabilities the participating institutions already possess or separately establish through approved authority and relationships. It does not confer government-depository authority, program eligibility, procurement preference, settlement access, or public trust.
 
 The timing is practical. Maintained software, institution-controlled cloud environments, API-based integration, automated testing, observability, and regulated payment infrastructure now allow an institution to establish a reusable foundation without rebuilding the same orchestration machinery for every public program.
 
@@ -90,17 +90,17 @@ The Program should be judged by whether it establishes accountable institutional
 
 The principal benefit is operating leverage. A maintained grammar for authority, financial state, conditions, credentials, execution, and evidence reduces the foundational work repeated for each public-finance service. The institution must still examine authority, suitability, policy, risk, procurement or engagement, integration, operations, participant treatment, accounting, and support. What changes is the starting point.
 
-Existing channels remain useful. Branches, government portals, agency systems, corporate channels, mobile experiences, field operations, and partner APIs may initiate, present, or report activity. x-change coordinates the governed ceremony beneath them. The institution can improve a participant experience without creating a separate financial-state or settlement model.
+Branches, government portals, agency systems, corporate channels, mobile experiences, field operations, and partner APIs remain useful points of initiation, presentation, and reporting. x-change coordinates the governed ceremony beneath them. The institution can improve a participant experience without creating a separate financial-state or settlement model.
 
 Operating sovereignty remains intact. The institution owns or controls its approved environment, deployment, data, domains, credentials, provider accounts, monitoring, backups, security configuration, releases, and audit trail. It retains its direct government, customer, depositor, and settlement relationships.
 
-The same foundation can support services with different public purposes. Assistance programs connect authorized funding with approved recipients. Payroll connects public employers with personnel. Pension and benefit services connect continuing authority with recurring obligations. Collections connect government services with payer attribution and public accounting. Procurement settlement connects approved obligations with documentary evidence and supplier outcomes.
+The same foundation supports services with different public purposes. Assistance programs connect authorized funding with approved recipients. Payroll connects public employers with personnel. Pension and benefit services connect continuing authority with recurring obligations. Collections connect government services with payer attribution and public accounting. Procurement settlement connects approved obligations with documentary evidence and supplier outcomes.
 
-These opportunities do not create automatic qualification, selection, deposits, transaction volume, or revenue. Their value depends on actual authority, institutional fit, service design, lawful process, commercial terms, implementation, and sustained performance.
+Their value depends on actual authority, institutional fit, service design, lawful process, commercial terms, implementation, and sustained performance. Qualification, selection, deposits, transaction volume, and revenue remain contingent on those conditions.
 
 The credible benefit is the ability to evaluate and govern more demanding services without reconstructing the operating foundation each time. Management and technical attention can focus on public purpose, institutional responsibility, control quality, participant experience, evidence, and chosen areas of public-finance participation.
 
-A capable institution may become a stronger or preferred institutional option for selected workflows. Preference is earned. The Capability makes the institution better prepared to earn it.
+A capable institution is better positioned to become a stronger or preferred institutional option for selected workflows. Preference remains earned.
 
 The institution modernizes without surrendering its identity or public responsibility.
 
@@ -152,7 +152,7 @@ Deployment remains under institutional control. Each institution retains its own
 
 x-change does not take custody. Public funds remain within the applicable government and regulated banking arrangements. Treasury supplies an operational view; it does not replace the bank account, government accounting record, appropriation, trust, or general ledger.
 
-Technical completion is narrower than readiness. A certified driver may perform agreed API behavior under tested conditions. The responsible institutions must still decide whether the complete service can be lawfully authorized, operated, supervised, secured, settled, reconciled, supported, audited, and governed.
+Technical completion is narrower than readiness. A certified driver demonstrates agreed API behavior under tested conditions. The responsible institutions must still decide whether the complete service can be lawfully authorized, operated, supervised, secured, settled, reconciled, supported, audited, and governed.
 
 Canonical definitions appear in the [Glossary](appendices/glossary.md). Further detail appears in [Treasury Grammar](appendices/treasury-grammar.md), [Deployment Architecture](appendices/deployment-architecture.md), and the supporting [Program Architecture](../../government-depository-digital-banking-program/annexes/program-architecture-map.md).
 
@@ -198,17 +198,17 @@ One ceremony makes the grammar visible. Many governed services make the Capabili
 
 > **Executive decision:** I understand the institutional and commercial case and can decide whether it merits detailed evaluation under the institution's authority, strategy, risk appetite, and financial governance.
 
-An institution may possess government-depository authority while remaining peripheral to demanding public-finance activity. It may hold accounts without supporting the operating ceremony through which a public program is funded, conditioned, executed, evidenced, and reconciled.
+Government-depository authority alone does not establish a central role in demanding public-finance activity. Holding accounts does not establish the operating ceremony through which a public program is funded, conditioned, executed, evidenced, and reconciled.
 
-Governed workflows can establish a broader institutional role. Collections can connect a depository institution to recurring local or agency activity. Payroll can create continuing account and service relationships. Pension and benefit administration can establish durable responsibilities. Assistance programs can demonstrate reach and evidentiary discipline. Treasury and procurement workflows can deepen the institution's participation in accountable public administration.
+Governed workflows create the basis for a broader institutional role. Collections can connect a depository institution to recurring local or agency activity. Payroll can create continuing account and service relationships. Pension and benefit administration can establish durable responsibilities. Assistance programs can demonstrate reach and evidentiary discipline. Treasury and procurement workflows can deepen the institution's participation in accountable public administration.
 
-Where the actual program structure supports them, those relationships may contribute deposits and recurring activity. They may also strengthen institutional relevance, service income, operating knowledge, and the ability to compete for appropriate future work. None is a guaranteed result of licensing.
+Where the actual program structure supports them, those relationships may contribute deposits and recurring activity. They may also strengthen institutional relevance, service income, operating knowledge, and the ability to compete for appropriate future work.
 
-The stronger proposition is capability. A trusted institution that can relate authority, funds, conditions, execution, exceptions, evidence, and reconciliation may become a more credible option for selected public-finance responsibilities. Institutional identity, mandate, constituency, geography, service design, financial standing, controls, price, and performance remain part of any lawful selection.
+The stronger proposition is capability. By relating authority, funds, conditions, execution, exceptions, evidence, and reconciliation, a trusted institution establishes a more credible position for selected public-finance responsibilities. Institutional identity, mandate, constituency, geography, service design, financial standing, controls, price, and performance remain part of any lawful selection.
 
 The Capability also supports adaptability. Resilience allows an institution to continue through difficulty; adaptability allows it to evaluate new responsibilities through an established foundation. The institution cannot predict every public-finance requirement of the next decade. It can preserve the ability to respond without rebuilding its operating model for each program.
 
-The commercial case remains disciplined. Costs may include licensing, institution-specific implementation, driver engineering and maintenance, institution-controlled infrastructure, managed operations, internal governance and operations, settlement-provider charges, security, support, reconciliation, and continuing assurance. Economic value may arise through approved service income, deposits associated with actual program structures, recurring activity, reduced duplicated engineering, stronger government relationships, and broader institutional relevance. None is automatic.
+The commercial case remains disciplined. Costs may include licensing, institution-specific implementation, driver engineering and maintenance, institution-controlled infrastructure, managed operations, internal governance and operations, settlement-provider charges, security, support, reconciliation, and continuing assurance. Sources of economic value include approved service income, deposits associated with actual program structures, recurring activity, reduced duplicated engineering, stronger government relationships, and broader institutional relevance. None is automatic.
 
 The Commercial Waterfall makes responsibility visible without inventing prices: the approved public-finance service enters the institution's commercial and operating model; government, provider, and internal obligations are recognized; license, implementation, driver, infrastructure, operations, settlement, support, and maintenance responsibilities are allocated; the institution evaluates the residual financial and public value.
 
