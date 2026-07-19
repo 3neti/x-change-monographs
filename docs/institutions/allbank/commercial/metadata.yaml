@@ -1,0 +1,18 @@
+document_family: "AllBank Commercial Publications"
+institution: "AllBank"
+submitted_by: "Open Disbursement Technologies, Inc. (ODTI)"
+status: "Submitted"
+current_proposal:
+  proposal_number: "ODTI-2026-001"
+  proposal_revision: "1.0"
+  proposal_date: "2026-07-20"
+  valid_until: "2026-08-19"
+  path: "docs/institutions/allbank/commercial/proposal/allbank-provisional-license-and-poc-proposal-v1.0.md"
+governing_institution_edition:
+  title: "Thrift Bank Digital Banking Program Guide — AllBank Edition"
+  edition: "Executive Edition"
+  printing: "First Edition"
+  version: "1.0"
+  canonical_source: "docs/institutions/allbank/executive-edition/allbank-edition-executive-v1.0.md"
+  canonical_source_sha256: "f0bca701d7bcc817d21c42ce032bd0ef853dc76be99d6517d1d36282b07bd9e2"
+implementation_status: "Not Authorized"

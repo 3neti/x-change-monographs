@@ -1,0 +1,91 @@
+{
+  "title": "Provisional License and Proof of Concept",
+  "program": "Thrift Bank Digital Banking Program",
+  "institution": "AllBank",
+  "proposal_number": "ODTI-2026-001",
+  "proposal_revision": "1.0",
+  "status": "Submitted",
+  "submitted_by": "Open Disbursement Technologies, Inc. (ODTI)",
+  "proposal_date": "2026-07-20",
+  "valid_until": "2026-08-19",
+  "validity_days": 30,
+  "confidentiality": "Confidential Commercial Information",
+  "canonical_source": "docs/institutions/allbank/commercial/proposal/allbank-provisional-license-and-poc-proposal-v1.0.md",
+  "canonical_source_sha256": "50cab1e8f0fd076e9c8e4c13fc9a171981b53618589b55b6592e97c97ecb68cc",
+  "renderer": "WeasyPrint 66.0",
+  "html": {
+    "path": "build/institutions/allbank/commercial/proposal/allbank-provisional-license-and-poc-proposal-v1.0.html",
+    "sha256": "b3c99190d8d35f57294bd70fec6b62a08676b0ca52d6ca11c8e157be44cc57e1",
+    "bytes": 135589
+  },
+  "cover": {
+    "path": "build/institutions/allbank/commercial/proposal/allbank-provisional-license-and-poc-proposal-v1.0-cover.png",
+    "sha256": "85b3af47ed3dad328ac8c1c241e27ce10fbdff05f4394383f8aa93d864b21dd7",
+    "bytes": 265089
+  },
+  "pdfs": [
+    {
+      "profile": "publication",
+      "path": "build/pdf/allbank-provisional-license-and-poc-proposal-v1.0.pdf",
+      "sha256": "f387400b6c23fc5e51a32a641e02657031baf08e7301b599795a6345ce68396f",
+      "bytes": 8898741,
+      "physical_pages": 4,
+      "bookmarks": 26,
+      "links": 0,
+      "tagged": true
+    },
+    {
+      "profile": "print_pdfa_2u",
+      "path": "build/pdf/allbank-provisional-license-and-poc-proposal-v1.0-print.pdf",
+      "sha256": "744a2d9bb6a533776ee9c3852a04cb4f339cc4739ed122bc3c551f07086ebce3",
+      "bytes": 8899338,
+      "physical_pages": 4,
+      "bookmarks": 26,
+      "links": 0,
+      "tagged": true
+    },
+    {
+      "profile": "screen_optimized",
+      "path": "build/pdf/allbank-provisional-license-and-poc-proposal-v1.0-screen.pdf",
+      "sha256": "38dad355e1ecc612727893b9678a138e0d969624f76849006403d9ee81beca22",
+      "bytes": 98133,
+      "physical_pages": 4,
+      "bookmarks": 26,
+      "links": 0,
+      "tagged": true
+    }
+  ],
+  "attachment": {
+    "canonical_source_sha256": "f0bca701d7bcc817d21c42ce032bd0ef853dc76be99d6517d1d36282b07bd9e2",
+    "publication_pdf_sha256": "a06b70cadcd5fa6c73b2ebb8e86acb7979731fc972da11039a5f29c988528210",
+    "copied_byte_for_byte": true
+  },
+  "submission_package": [
+    {
+      "path": "build/institutions/allbank/commercial/submission-package/README.md",
+      "sha256": "06ea5bd246f33052c72f61015c4e191e22908195b88d9b922728aec75906a5b7",
+      "bytes": 257
+    },
+    {
+      "path": "build/institutions/allbank/commercial/submission-package/01-cover-letter/README.md",
+      "sha256": "9e663ee835f30b93416697db40cfd6f2004e4697d096c70d0a87c2b7a03acd60",
+      "bytes": 111
+    },
+    {
+      "path": "build/institutions/allbank/commercial/submission-package/02-commercial-proposal/AllBank-Provisional-License-and-Proof-of-Concept.pdf",
+      "sha256": "f387400b6c23fc5e51a32a641e02657031baf08e7301b599795a6345ce68396f",
+      "bytes": 8898741
+    },
+    {
+      "path": "build/institutions/allbank/commercial/submission-package/03-attachment-a/Thrift-Bank-Digital-Banking-Program-Guide-AllBank-Edition.pdf",
+      "sha256": "a06b70cadcd5fa6c73b2ebb8e86acb7979731fc972da11039a5f29c988528210",
+      "bytes": 11751751
+    }
+  ],
+  "accessibility": {
+    "tagged_pdf": true,
+    "language": "en",
+    "bookmarks": true,
+    "logical_html_landmarks": true
+  }
+}

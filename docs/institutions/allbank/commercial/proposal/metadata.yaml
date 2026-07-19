@@ -1,0 +1,33 @@
+document_type: "commercial_proposal"
+proposal_type: "provisional_license_and_proof_of_concept"
+title: "Proposal for a Provisional License and Proof of Concept"
+program: "Thrift Bank Digital Banking Program"
+proposal_number: "ODTI-2026-001"
+proposal_revision: "1.0"
+institution: "AllBank"
+submitted_by: "Open Disbursement Technologies, Inc. (ODTI)"
+proposal_date: "2026-07-20"
+valid_until: "2026-08-19"
+validity_days: 30
+status: "Submitted"
+confidentiality: "Confidential Commercial Information"
+currency: "USD"
+commercial_terms:
+  standard_proof_of_concept_fee: "USD 2,000"
+  proof_of_concept_fee_applicable: "WAIVED"
+  production_license_schedule: "Indicative and non-binding"
+  tax_treatment: "To be determined and documented in the applicable agreement"
+delivery:
+  indicative_duration: "Two (2) to four (4) weeks"
+  commencement_condition: "All required prerequisites satisfied and ODTI written confirmation issued"
+attachment:
+  title: "Thrift Bank Digital Banking Program Guide — AllBank Edition"
+  edition: "Executive Edition"
+  first_edition: true
+  version: "1.0"
+  canonical_source: "docs/institutions/allbank/executive-edition/allbank-edition-executive-v1.0.md"
+  canonical_source_sha256: "f0bca701d7bcc817d21c42ce032bd0ef853dc76be99d6517d1d36282b07bd9e2"
+  publication_pdf: "build/pdf/thrift-bank-digital-banking-program-guide-allbank-edition-executive-first-edition-v1.0.pdf"
+  publication_pdf_sha256: "a06b70cadcd5fa6c73b2ebb8e86acb7979731fc972da11039a5f29c988528210"
+later_stages: "Separate written approval required"
+implementation_status: "Not Authorized"

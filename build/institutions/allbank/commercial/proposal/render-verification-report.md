@@ -1,0 +1,23 @@
+# Render Verification Report
+
+- Proposal: ODTI-2026-001, Revision 1.0
+- Proposal Date: 20 July 2026
+- Valid Until: 19 August 2026
+- Canonical source SHA-256: `50cab1e8f0fd076e9c8e4c13fc9a171981b53618589b55b6592e97c97ecb68cc`
+- AllBank Program Guide source SHA-256: `f0bca701d7bcc817d21c42ce032bd0ef853dc76be99d6517d1d36282b07bd9e2`
+- AllBank Program Guide PDF SHA-256: `a06b70cadcd5fa6c73b2ebb8e86acb7979731fc972da11039a5f29c988528210`
+- Publication pages: 4
+- Automated source, sequence, date, identity, attachment, and PDF-generation checks: Passed
+- Proposal Date to Valid Until interval: 30 calendar days — Passed
+- Publication PDF SHA-256: `f387400b6c23fc5e51a32a641e02657031baf08e7301b599795a6345ce68396f`
+- Print PDF/A-2u SHA-256: `744a2d9bb6a533776ee9c3852a04cb4f339cc4739ed122bc3c551f07086ebce3`
+- Screen PDF SHA-256: `38dad355e1ecc612727893b9678a138e0d969624f76849006403d9ee81beca22`
+- A4 page geometry, tagged structure, embedded fonts, PDF metadata, and 26 bookmarks: Passed
+- Hyperlinks: None present; no broken links
+- Commercial tables, engagement path, page numbering, confidentiality footer, proposal number, and revision footer: Passed
+- Signature and conforme space: Passed
+- Page-by-page visual inspection of publication, print, and screen profiles: Passed — zero clipping, overlap, orphan headings, broken tables, or malformed glyphs
+- Submission-package Commercial Proposal copy: Byte-identical to publication PDF
+- Submission-package Attachment A copy: Byte-identical to governed AllBank Program Guide PDF
+- Canonical proposal wording: No substantive production-stage changes
+- Frozen AllBank Program Guide source and PDF: Unchanged
