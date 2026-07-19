@@ -1,0 +1,57 @@
+{
+  "title": "Thrift Bank Digital Banking Program Guide",
+  "institution_edition": "AllBank Edition",
+  "publication": "Executive Edition",
+  "printing": "First Edition",
+  "version": "1.0",
+  "status": "Approved",
+  "editorial_state": "Frozen",
+  "publication_state": "Typesetting",
+  "publication_date": "July 2026",
+  "canonical_source": "docs/institutions/allbank/executive-edition/allbank-edition-executive-v1.0.md",
+  "canonical_source_sha256": "f0bca701d7bcc817d21c42ce032bd0ef853dc76be99d6517d1d36282b07bd9e2",
+  "renderer": "WeasyPrint 66.0",
+  "html": {
+    "path": "build/institutions/allbank/executive-edition/first-edition/thrift-bank-digital-banking-program-guide-allbank-edition-executive-first-edition-v1.0.html",
+    "sha256": "1b99372758eb12e9fa50615d559d2750e7a269fde0fcd9e002c4cf1f3cba439e",
+    "bytes": 195638
+  },
+  "cover": {
+    "path": "build/institutions/allbank/executive-edition/first-edition/thrift-bank-digital-banking-program-guide-allbank-edition-executive-first-edition-v1.0-cover.png",
+    "sha256": "43f3839b1a870a39914974f0da435dbc58e21f6e1746065449d65379eb15c816",
+    "bytes": 55310
+  },
+  "pdfs": [
+    {
+      "profile": "publication",
+      "path": "build/pdf/thrift-bank-digital-banking-program-guide-allbank-edition-executive-first-edition-v1.0.pdf",
+      "sha256": "a06b70cadcd5fa6c73b2ebb8e86acb7979731fc972da11039a5f29c988528210",
+      "bytes": 11751751,
+      "physical_pages": 29,
+      "bookmarks": 21
+    },
+    {
+      "profile": "print_pdfa_2u",
+      "path": "build/pdf/thrift-bank-digital-banking-program-guide-allbank-edition-executive-first-edition-v1.0-print.pdf",
+      "sha256": "5d6021fce7c22d6f4b6f3ae9bcbe76f0a2870e0bf6fc7ddc860c72c3ea247cc8",
+      "bytes": 11752402,
+      "physical_pages": 29,
+      "bookmarks": 21
+    },
+    {
+      "profile": "screen_optimized",
+      "path": "build/pdf/thrift-bank-digital-banking-program-guide-allbank-edition-executive-first-edition-v1.0-screen.pdf",
+      "sha256": "30fbce698485279dbe2bf5e4610480414206250ff0b275e76ac6bb007720d175",
+      "bytes": 242589,
+      "physical_pages": 29,
+      "bookmarks": 21
+    }
+  ],
+  "accessibility": {
+    "tagged_pdf": true,
+    "language": "en",
+    "bookmarks": true,
+    "linked_table_of_contents": true,
+    "logical_html_landmarks": true
+  }
+}

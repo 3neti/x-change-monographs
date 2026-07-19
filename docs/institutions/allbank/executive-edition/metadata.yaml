@@ -8,7 +8,9 @@ edition_label: "Executive Edition"
 audience_label: "Client Edition"
 version: "1.0"
 status: "Approved"
-publication_state: "Ready for Typesetting"
+publication: "First Edition"
+editorial_state: "Frozen"
+publication_state: "Typesetting"
 document_role: "client-facing institution-specific adaptation of the canonical Executive Edition"
 canonical_lineage:
   institutional_study: "docs/editorial/thrift-bank-digital-banking-program/thrift-bank-digital-banking-program.md"
@@ -31,9 +33,18 @@ editorial_scope:
   - "Executive Summary"
   - "Sections 1–7"
   - "Annexes A–H"
-next_stage: "typesetting"
+next_stage: "publication_review"
 commercial_proposal: "not_authorized"
 implementation: "not_authorized"
-pdf_generated: false
-html_generated: false
-notes: "Approved client-facing Program Guide ready for typesetting. It does not expose the internal research apparatus, assert AllBank adoption, select an institutional priority, or establish operational readiness."
+pdf_generated: true
+html_generated: true
+canonical_source_sha256: "f0bca701d7bcc817d21c42ce032bd0ef853dc76be99d6517d1d36282b07bd9e2"
+physical_page_count: 29
+publication_assets:
+  html: "build/institutions/allbank/executive-edition/first-edition/thrift-bank-digital-banking-program-guide-allbank-edition-executive-first-edition-v1.0.html"
+  cover: "build/institutions/allbank/executive-edition/first-edition/thrift-bank-digital-banking-program-guide-allbank-edition-executive-first-edition-v1.0-cover.png"
+  publication_pdf: "build/pdf/thrift-bank-digital-banking-program-guide-allbank-edition-executive-first-edition-v1.0.pdf"
+  print_pdf: "build/pdf/thrift-bank-digital-banking-program-guide-allbank-edition-executive-first-edition-v1.0-print.pdf"
+  screen_pdf: "build/pdf/thrift-bank-digital-banking-program-guide-allbank-edition-executive-first-edition-v1.0-screen.pdf"
+  manifest: "build/institutions/allbank/executive-edition/first-edition/publication-manifest.json"
+notes: "The frozen canonical client-facing manuscript has been typeset as the First Edition. It does not assert AllBank adoption, select an institutional priority, or establish operational readiness."

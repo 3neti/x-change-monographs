@@ -70,9 +70,11 @@ Institution-specific examples do not change these meanings.
 
 - Executive Edition version: 1.0
 - Editorial status: Approved
-- Publication state: Ready for Typesetting
-- PDF or HTML generated: No
+- Publication: First Edition
+- Editorial state: Frozen
+- Publication state: Typesetting
+- PDF or HTML generated: Yes
 - AllBank approval asserted: No
 - Commercial proposal authorized: No
 - Implementation authorized: No
-- Next stage: Typesetting, if separately authorized
+- Next stage: Publication review
