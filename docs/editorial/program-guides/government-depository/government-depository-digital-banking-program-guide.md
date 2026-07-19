@@ -38,17 +38,17 @@ The decision before the Board is whether the institution should establish one re
 
 > **Executive decision:** I understand the institutional problem and can decide whether establishing a reusable governed operating Capability merits formal evaluation.
 
-Government depository institutions occupy a position of particular responsibility. They do not merely move funds. They participate in arrangements through which public authority becomes collection, payroll, assistance, benefit, procurement, treasury, or other accountable financial activity.
+Government depository institutions support arrangements through which public authority becomes collection, payroll, assistance, benefit, procurement, treasury, or other accountable financial activity. Their responsibility extends beyond moving funds to preserving the authority, conditions, and evidence attached to public money.
 
 Many eligible institutions already operate core banking systems, digital channels, settlement accounts, payment integrations, cybersecurity controls, and professional operating organizations. Government entities likewise maintain program rules, appropriations or funding authorities, approval structures, participant records, accounting practices, and audit obligations. Yet each new workflow may still require a different arrangement for financial state, approvals, provider integration, conditions, exceptions, evidence, and reconciliation.
 
-That repeated construction can limit institutional choice. An institution may possess relevant authority yet remain difficult to consider for a demanding workflow because the complete service requires more than an account and a payment connection. Government must be able to see who authorized the activity, where responsibility resides, what conditions were satisfied, what occurred, what remains unresolved, and how the result returns to the public record.
+That repeated construction can limit institutional choice. An institution may possess relevant authority yet remain difficult to consider for a demanding workflow because the complete service requires more than an account and a payment connection. Government must be able to identify authority, responsibility, satisfied conditions, completed activity, unresolved outcomes, and the evidence returned to the public record.
 
 The Program addresses that operating problem. It does not confer government-depository authority, program eligibility, procurement preference, settlement access, or public trust. It organizes capabilities the participating institutions already possess or separately establish under approved authority and relationships.
 
-The timing is practical. Maintained software, institution-controlled cloud environments, API-based integration, automated testing, observability, and regulated payment infrastructure now make a reusable foundation possible without requiring every institution to rebuild the same orchestration machinery for each public program.
+The timing is practical. Maintained software, institution-controlled cloud environments, API-based integration, automated testing, observability, and regulated payment infrastructure now allow an institution to establish a reusable foundation without rebuilding the same orchestration machinery for every public program.
 
-Public money deserves public trust. Trust requires accountability. Accountability requires evidence. Evidence requires infrastructure capable of preserving responsibility from instruction through reconciliation.
+Public trust depends on accountable execution. The institution therefore needs infrastructure that preserves responsibility and evidence from instruction through reconciliation.
 
 One foundation will not make public programs alike. It will give the institution a consistent way to govern their differences.
 
@@ -62,7 +62,7 @@ One foundation will not make public programs alike. It will give the institution
 
 The Government Depository Digital Banking Program brings together licensed x-change software, institution-specific integration, controlled deployment, testing, observability, documentation, maintenance, public-program governance, and banking operating discipline. The resulting Capability coordinates the progression from lawful purpose and recognized resources to conditions, credential, execution, evidence, and reconciliation.
 
-The Program is the initiative. The Capability is the enduring operational result. The Program can be authorized, governed, implemented, and reviewed. The Capability is what the depository institution continues to operate, maintain, and apply to approved services.
+The Program is the initiative. The Capability is the enduring operational result. The Program can be authorized, governed, implemented, and reviewed. The Capability is what the institution continues to operate, maintain, and apply to approved services.
 
 The participating depository institution is the banking sponsor and production authority. Its Board and Management establish institutional purpose, risk appetite, scope, accountability, and approval boundaries. Operations, Treasury, Technology, Risk, Compliance, Legal, Information Security, Internal Audit, Finance, and other responsible functions perform their established roles.
 
@@ -88,9 +88,9 @@ The Program should be judged by whether it establishes accountable institutional
 
 > **Executive decision:** I understand the prospective institutional benefit and can decide whether it warrants commercial, authority, and implementation evaluation.
 
-The principal benefit is institutional operating leverage. A maintained grammar for authority, financial state, conditions, credentials, execution, and evidence reduces the foundational work repeated for each public-finance service. The institution must still examine authority, suitability, policy, risk, procurement or engagement, integration, operating practice, participant treatment, accounting, and support. What changes is the starting point.
+The principal benefit is operating leverage. A maintained grammar for authority, financial state, conditions, credentials, execution, and evidence reduces the foundational work repeated for each public-finance service. The institution must still examine authority, suitability, policy, risk, procurement or engagement, integration, operations, participant treatment, accounting, and support. What changes is the starting point.
 
-Existing channels remain useful. Branches, government portals, agency systems, corporate channels, mobile experiences, field operations, and partner APIs may initiate, present, or report activity. x-change coordinates the governed ceremony beneath them. A new channel need not create a separate financial-state or settlement model.
+Existing channels remain useful. Branches, government portals, agency systems, corporate channels, mobile experiences, field operations, and partner APIs may initiate, present, or report activity. x-change coordinates the governed ceremony beneath them. The institution can improve a participant experience without creating a separate financial-state or settlement model.
 
 Operating sovereignty remains intact. The institution owns or controls its approved environment, deployment, data, domains, credentials, provider accounts, monitoring, backups, security configuration, releases, and audit trail. It retains its direct government, customer, depositor, and settlement relationships.
 
@@ -98,7 +98,7 @@ The same foundation can support services with different public purposes. Assista
 
 These opportunities do not create automatic qualification, selection, deposits, transaction volume, or revenue. Their value depends on actual authority, institutional fit, service design, lawful process, commercial terms, implementation, and sustained performance.
 
-The credible benefit is the ability to evaluate and govern more demanding services without reconstructing the entire operating foundation each time. Management and technical attention can remain focused on public purpose, institutional responsibility, control quality, participant experience, evidence, and chosen areas of public-finance participation.
+The credible benefit is the ability to evaluate and govern more demanding services without reconstructing the operating foundation each time. Management and technical attention can focus on public purpose, institutional responsibility, control quality, participant experience, evidence, and chosen areas of public-finance participation.
 
 A capable institution may become a stronger or preferred institutional option for selected workflows. Preference is earned. The Capability makes the institution better prepared to earn it.
 
@@ -130,7 +130,7 @@ Institution API and Settlement Account
 Approved Settlement Arrangement
 ```
 
-The government program supplies lawful purpose, authority, participant basis, and public obligations. The depository banking service expresses the institution's approved role, policies, controls, terms, and responsibility. x-change coordinates the governed ceremony. `emi-core` defines the common execution contract. `3neti/emi-{institution}` translates that contract into approved API behavior. The institution's accounts, credentials, and settlement arrangements remain under its authority.
+The government program establishes lawful purpose, authority, participant basis, and public obligations. The depository banking service expresses the institution's approved role, policies, controls, terms, and responsibility. x-change coordinates the governed ceremony. `emi-core` defines the common execution contract. `3neti/emi-{institution}` translates that contract into approved API behavior. Accounts, credentials, and settlement arrangements remain under institutional authority.
 
 The operating grammar keeps different responsibilities from being mistaken for one another.
 
@@ -146,13 +146,13 @@ A **Pay Code** represents an authorized instruction in a form that can be commun
 
 **Execution** coordinates the progression from authorized instruction to the outcome defined by the Facility. The execution engine and institution-specific driver address the institution's approved API. Institutional and provider references, status, exceptions, and evidence return to the operating record for reconciliation.
 
-The driver is required because institutional APIs differ. Authentication, certificates, signatures, request formats, idempotency, webhooks, statuses, limits, errors, reversals, reconciliation evidence, and versions must be discovered and mapped. ODTI and an appointed engineering provider may implement and maintain the driver within scope; the institution governs credentials, review, certification, release, and change.
+The driver is necessary because institutional APIs differ. Discovery and mapping must address authentication, certificates, signatures, request formats, idempotency, webhooks, statuses, limits, errors, reversals, reconciliation evidence, and versions. ODTI and an appointed engineering provider may implement and maintain the driver within scope. The institution governs credentials, review, certification, release, and change.
 
-The deployment remains institution-controlled. Each participating institution retains its own environment, data, credentials, monitoring, backups, release approvals, provider accounts, and audit trail. A DevOps or managed-service provider may administer delegated functions within that boundary; common software and delegated operation do not create shared tenancy or transfer production authority.
+Deployment remains under institutional control. Each institution retains its own environment, data, credentials, monitoring, backups, release approvals, provider accounts, and audit trail. A DevOps or managed-service provider may administer delegated functions within that boundary. Common software and delegated operation do not create shared tenancy or transfer production authority.
 
-Custody does not move into x-change. Public funds remain within the applicable government and regulated banking arrangements. Treasury supplies an operational view; it does not replace the bank account, government accounting record, appropriation, trust, or general ledger.
+x-change does not take custody. Public funds remain within the applicable government and regulated banking arrangements. Treasury supplies an operational view; it does not replace the bank account, government accounting record, appropriation, trust, or general ledger.
 
-Technical completion remains narrower than readiness. A certified driver may perform agreed API behavior under tested conditions. The responsible institutions must still decide whether the complete service can be lawfully authorized, operated, supervised, secured, settled, reconciled, supported, audited, and governed.
+Technical completion is narrower than readiness. A certified driver may perform agreed API behavior under tested conditions. The responsible institutions must still decide whether the complete service can be lawfully authorized, operated, supervised, secured, settled, reconciled, supported, audited, and governed.
 
 Canonical definitions appear in the [Glossary](appendices/glossary.md). Further detail appears in [Treasury Grammar](appendices/treasury-grammar.md), [Deployment Architecture](appendices/deployment-architecture.md), and the supporting [Program Architecture](../../government-depository-digital-banking-program/annexes/program-architecture-map.md).
 
@@ -164,13 +164,13 @@ Canonical definitions appear in the [Glossary](appendices/glossary.md). Further 
 
 > **Executive decision:** I can recognize how the operating model applies to a representative public-finance ceremony and how the same foundation can support other institution-approved workflows.
 
-An LGU assistance disbursement makes the complete discipline visible within one familiar public obligation.
+An LGU assistance disbursement makes the complete operating discipline visible within one familiar public obligation.
 
-The responsible LGU establishes the assistance program, lawful authority, approved funding, recipient basis, release conditions, accountable officials, and required evidence. The participating depository institution confirms the banking arrangement, receives or recognizes the supporting funds, applies policy, and defines how approved recipients may receive the service.
+The responsible LGU establishes the program, lawful authority, approved funding, recipient basis, release conditions, accountable officials, and required evidence. The depository institution confirms the banking arrangement, receives or recognizes the supporting funds, applies policy, and defines how approved recipients may receive the service.
 
-Treasury recognizes the supporting Settlement Resources. A Lien reserves the required amount. The assistance Facility defines participants, limits, service responsibility, and approved commercial treatment. The Settlement Envelope carries recipient evidence, approvals, conditions, references, and other requirements. Once authorized, a Pay Code or approved presentation allows the instruction to be communicated and presented through the defined journey.
+Treasury recognizes the supporting Settlement Resources. A Lien reserves the required amount. The assistance Facility defines participants, limits, service responsibility, and approved commercial treatment. The Settlement Envelope carries recipient evidence, approvals, conditions, references, and other requirements. Once authorized, a Pay Code or approved presentation carries the instruction through the defined journey.
 
-The recipient satisfies the conditions. Execution coordinates the instruction through the depository institution's approved relationship. The institution-specific driver translates the common execution contract into approved API behavior. The financial movement occurs within the regulated arrangement. x-change records the result, updates operational state, resolves the Lien, preserves evidence, and supports reconciliation, exception handling, and public-program reporting.
+The recipient presents the approved credential and satisfies the conditions. Execution coordinates the instruction through the depository institution's approved relationship. The institution-specific driver translates the common execution contract into approved API behavior. The financial movement occurs within the regulated arrangement. x-change records the result, updates operational state, resolves the Lien, preserves evidence, and supports reconciliation, exception handling, and public-program reporting.
 
 The public institution authorized an outcome. The depository institution arranged its accountable execution.
 
@@ -200,13 +200,13 @@ One ceremony makes the grammar visible. Many governed services make the Capabili
 
 An institution may possess government-depository authority while remaining peripheral to demanding public-finance activity. It may hold accounts without supporting the operating ceremony through which a public program is funded, conditioned, executed, evidenced, and reconciled.
 
-The reverse is also possible. Collections can connect a depository institution to recurring local or agency activity. Payroll can create continuing account and service relationships. Pension and benefit administration can establish durable responsibilities. Assistance programs can demonstrate reach and evidentiary discipline. Treasury and procurement workflows can deepen the institution's role in accountable public administration.
+Governed workflows can establish a broader institutional role. Collections can connect a depository institution to recurring local or agency activity. Payroll can create continuing account and service relationships. Pension and benefit administration can establish durable responsibilities. Assistance programs can demonstrate reach and evidentiary discipline. Treasury and procurement workflows can deepen the institution's participation in accountable public administration.
 
-Those relationships may contribute deposits and recurring transaction activity where the actual program structure requires them. They may also strengthen institutional relevance, service income, operating knowledge, and the ability to compete for appropriate future work. None is a guaranteed result of licensing.
+Where the actual program structure supports them, those relationships may contribute deposits and recurring activity. They may also strengthen institutional relevance, service income, operating knowledge, and the ability to compete for appropriate future work. None is a guaranteed result of licensing.
 
-The stronger proposition is capability. A trusted institution that can relate authority, funds, conditions, execution, exceptions, evidence, and reconciliation may become a more credible option for selected public-finance responsibilities. Its institutional identity, mandate, constituency, geography, service design, financial standing, controls, price, and performance remain part of any lawful selection.
+The stronger proposition is capability. A trusted institution that can relate authority, funds, conditions, execution, exceptions, evidence, and reconciliation may become a more credible option for selected public-finance responsibilities. Institutional identity, mandate, constituency, geography, service design, financial standing, controls, price, and performance remain part of any lawful selection.
 
-The Capability also supports adaptability. Resilience allows an institution to continue through difficulty. Adaptability allows it to evaluate new responsibilities through an established foundation. The institution cannot predict every public-finance requirement of the next decade. It can preserve the ability to respond without rebuilding its operating model for each program.
+The Capability also supports adaptability. Resilience allows an institution to continue through difficulty; adaptability allows it to evaluate new responsibilities through an established foundation. The institution cannot predict every public-finance requirement of the next decade. It can preserve the ability to respond without rebuilding its operating model for each program.
 
 The commercial case remains disciplined. Costs may include licensing, institution-specific implementation, driver engineering and maintenance, institution-controlled infrastructure, managed operations, internal governance and operations, settlement-provider charges, security, support, reconciliation, and continuing assurance. Economic value may arise through approved service income, deposits associated with actual program structures, recurring activity, reduced duplicated engineering, stronger government relationships, and broader institutional relevance. None is automatic.
 
@@ -226,17 +226,17 @@ The Board is deciding more than whether to acquire software. It is deciding whet
 
 Board approval establishes institutional purpose, scope, accountability, and authority for Management to proceed. It does not approve a government program, confer depository eligibility, complete procurement, or authorize production. Management names accountable leaders and confirms how Operations, Treasury, Technology, Risk, Compliance, Security, Legal, Finance, Audit, public-program counterparts, and providers will participate.
 
-Implementation begins by understanding the institution and the proposed public responsibility. The parties establish applicable authority, public purpose, source and character of funds, participants, approvals, policies, conditions, channels, systems, accounts, accounting, evidence, reconciliation, support, exceptions, continuity, settlement arrangements, and accountable owners. Unknowns remain visible until resolved by responsible authorities.
+Implementation begins by understanding the institution and the proposed public responsibility. The parties establish applicable authority, public purpose, source and character of funds, participants, approvals, policies, and conditions. They also identify channels, systems, accounts, accounting, evidence, reconciliation, support, exceptions, continuity, settlement arrangements, and accountable owners. Unknowns remain visible until resolved by responsible authorities.
 
 The institution then defines the first public-finance ceremony. The participant experience is part of the banking service, not a separate design exercise. The ceremony identifies what the public entity authorizes, what the depository institution agrees to do, what evidence is required, how participants are informed, how exceptions are handled, and what completion means.
 
-Driver discovery proceeds in parallel. ODTI, the institution, and any appointed engineering provider examine approved API behavior, authentication, certificates, request and response structures, references, idempotency, webhooks, status, limits, exceptions, reversals, reconciliation evidence, test environments, and change processes. The behavior is mapped to `emi-core`, implemented in `3neti/emi-{institution}`, tested, and certified.
+Driver discovery proceeds in parallel. ODTI, the institution, and any appointed engineering provider examine approved API behavior, authentication, certificates, request and response structures, references, idempotency, webhooks, status, limits, exceptions, reversals, reconciliation evidence, test environments, and change processes. They map the behavior to `emi-core`, implement it in `3neti/emi-{institution}`, test it, and certify it.
 
-Certification is a technical gate. Operational readiness is a separate institutional gate. Responsible personnel validate public instruction, approvals, Funding Events, Treasury state, Liens, Facility rules, Settlement Envelope conditions, Pay Code presentation, execution, provider behavior, accounting, evidence, support, reconciliation, delay, failure, duplication, reversal, uncertain outcomes, records, and audit as one operation.
+Certification is a technical gate. Operational readiness is a separate institutional gate. Responsible personnel validate the public instruction, approvals, Funding Events, Treasury state, Liens, Facility rules, Settlement Envelope conditions, Pay Code presentation, execution, provider behavior, accounting, evidence, support, reconciliation, records, and audit as one operation. They also test delay, failure, duplication, reversal, and uncertain outcomes.
 
 Readiness is an institutional judgment. It exists when the responsible institutions have sufficient evidence that the ceremony can be lawfully authorized, operated, supervised, secured, settled, reconciled, supported, evidenced, audited, and governed.
 
-Controlled production should be deliberately narrow. The institutions may limit participants, locations, agencies, values, channels, operating windows, funding events, or duration. Success measures are agreed before the pilot and may address correct authority, recipient or payer attribution, execution outcomes, reconciliation completeness and timeliness, exception resolution, service availability, participant evidence, support performance, security, and control effectiveness. Volume alone is not evidence of readiness.
+Controlled production should be deliberately narrow. The institutions may limit participants, locations, agencies, values, channels, operating windows, Funding Events, or duration. Success measures are agreed before the pilot and may address correct authority, recipient or payer attribution, execution outcomes, reconciliation completeness and timeliness, exception resolution, service availability, participant evidence, support performance, security, and control effectiveness. Volume alone is not evidence of readiness.
 
 The responsible institutions review the evidence and decide whether to **Proceed**, **Correct**, **Extend**, or **Pause**.
 
