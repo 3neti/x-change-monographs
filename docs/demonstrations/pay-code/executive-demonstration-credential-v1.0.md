@@ -11,10 +11,15 @@ orientation: front-back
 branding:
   logo: resources/publication-assets/brand/x-change-logo-orange.png
   theme: orange
-recipient:
-  name: Jesus Vicente Garcia
-  title: President
-  organization: AllBank
+credentials:
+  - recipient:
+      name: Jesus Vicente Garcia
+      title: President
+      organization: AllBank
+  - recipient:
+      name: Digna Samonte
+      title: Chief Technology Officer
+      organization: AllBank
 issuer:
   organization: Open Disbursement Technologies, Inc.
 instrument:
@@ -33,7 +38,7 @@ redeem:
 render:
   hide_value_if_empty: true
   hide_recipient_if_empty: false
-  copies_per_print_sheet: 2
+  credentials_per_print_sheet: 2
 ---
 
 # Executive Demonstration Credential
@@ -65,11 +70,13 @@ PHP 500
 
 Prepared for
 
-Jesus Vicente Garcia
+Each recipient in the credential set.
 
-President
+## Credential Set
 
-AllBank
+1. Jesus Vicente Garcia, President, AllBank
+
+2. Digna Samonte, Chief Technology Officer, AllBank
 
 ---
 

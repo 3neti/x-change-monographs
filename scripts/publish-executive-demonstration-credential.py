@@ -96,6 +96,55 @@ def nested(metadata: dict[str, object], *keys: str) -> object:
     return value
 
 
+def deep_merge(base: dict[str, object], overrides: dict[str, object]) -> dict[str, object]:
+    merged = copy.deepcopy(base)
+    for key, value in overrides.items():
+        existing = merged.get(key)
+        if isinstance(value, dict) and isinstance(existing, dict):
+            merged[key] = deep_merge(existing, value)
+        else:
+            merged[key] = copy.deepcopy(value)
+    return merged
+
+
+def recipient_slug(recipient: dict[str, object], index: int) -> str:
+    name = str(recipient.get("name", "")).strip()
+    if not name:
+        return f"credential-{index:02d}"
+    slug = re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
+    return slug or f"credential-{index:02d}"
+
+
+def resolve_credentials(metadata: dict[str, object]) -> list[dict[str, object]]:
+    raw_credentials = metadata.get("credentials")
+    if not isinstance(raw_credentials, list) or not raw_credentials:
+        raise ValueError("Canonical metadata must define one or more credentials.")
+
+    shared_metadata = copy.deepcopy(metadata)
+    shared_metadata.pop("credentials", None)
+    resolved: list[dict[str, object]] = []
+    slugs: set[str] = set()
+    for index, overrides in enumerate(raw_credentials, start=1):
+        if not isinstance(overrides, dict):
+            raise ValueError(f"Credential {index} must be a mapping.")
+        credential_metadata = deep_merge(shared_metadata, overrides)
+        recipient = credential_metadata.get("recipient")
+        if not isinstance(recipient, dict):
+            raise ValueError(f"Credential {index} must define a recipient mapping.")
+        slug = recipient_slug(recipient, index)
+        if slug in slugs:
+            raise ValueError(f"Credential recipient slugs must be unique: {slug}")
+        slugs.add(slug)
+        resolved.append(
+            {
+                "slug": slug,
+                "recipient": copy.deepcopy(recipient),
+                "metadata": credential_metadata,
+            }
+        )
+    return resolved
+
+
 def validate_source(metadata: dict[str, object], body: str) -> None:
     expected = {
         "document_type": "executive_demonstration_credential",
@@ -116,8 +165,10 @@ def validate_source(metadata: dict[str, object], body: str) -> None:
         raise ValueError("The Pay Code render style must be canonical-double-bars.")
     if nested(metadata, "instrument", "production_use") is not False:
         raise ValueError("The credential must remain unavailable for production use.")
-    if nested(metadata, "render", "copies_per_print_sheet") != 2:
-        raise ValueError("The AllBank print sheet must contain two credentials.")
+    if nested(metadata, "render", "credentials_per_print_sheet") != 2:
+        raise ValueError("The A4 print-sheet layout must contain two credential slots.")
+
+    credentials = resolve_credentials(metadata)
 
     required_body = (
         "# Executive Demonstration Credential",
@@ -130,7 +181,6 @@ def validate_source(metadata: dict[str, object], body: str) -> None:
         "||                    ||",
         "Demonstration Value",
         "PHP 500",
-        "Jesus Vicente Garcia",
         "## Back",
         "Scan the QR Code",
         "https://redeem-x.laravel.cloud/disburse",
@@ -142,6 +192,17 @@ def validate_source(metadata: dict[str, object], body: str) -> None:
     for value in required_body:
         if value not in body:
             raise ValueError(f"Canonical body record is missing: {value}")
+
+    for credential in credentials:
+        recipient = credential["recipient"]
+        if not isinstance(recipient, dict):
+            raise ValueError("Resolved credential recipient is malformed.")
+        for field in ("name", "title", "organization"):
+            value = str(recipient.get(field, "")).strip()
+            if value and value not in body:
+                raise ValueError(
+                    f"Canonical body is missing credential recipient {field}: {value}"
+                )
 
     prohibited = (
         "demo card",
@@ -400,6 +461,7 @@ def write_svg_and_png(svg: str, svg_path: Path, png_path: Path, dimensions: tupl
             str(svg_path),
             "-resize",
             f"{width_px}x{height_px}!",
+            "-strip",
             str(png_path),
         ],
         check=True,
@@ -440,20 +502,37 @@ def pdf_html(
 '''
 
 
-def print_sheet_html(front_svg_path: Path, back_svg_path: Path) -> str:
-    slots = []
-    for label, path in (("FRONT", front_svg_path), ("BACK", back_svg_path)):
-        cards = "".join(
-            f'<div class="slot"><img src="{path.as_uri()}" alt="{label.title()} of credential {index}"></div>'
-            for index in (1, 2)
-        )
-        slots.append(f'<section class="sheet" aria-label="{label} print sheet">{cards}<span>{label} | PRINT AT 100%</span></section>')
+def print_sheet_html(credentials: list[dict[str, object]], slots_per_sheet: int) -> str:
+    sheets = []
+    for offset in range(0, len(credentials), slots_per_sheet):
+        group = credentials[offset : offset + slots_per_sheet]
+        for side in ("front", "back"):
+            cards = []
+            for credential in group:
+                path = credential[f"{side}_svg"]
+                recipient = credential["recipient"]
+                if not isinstance(path, Path) or not isinstance(recipient, dict):
+                    raise ValueError("Print-sheet credential paths are malformed.")
+                name = str(recipient.get("name", "")).strip() or "Unpersonalized recipient"
+                cards.append(
+                    f'<div class="slot"><img src="{path.as_uri()}" '
+                    f'alt="{side.title()} of credential for {html.escape(name, quote=True)}"></div>'
+                )
+            cards.extend(
+                '<div class="slot empty" aria-hidden="true"></div>'
+                for _ in range(slots_per_sheet - len(group))
+            )
+            label = side.upper()
+            sheets.append(
+                f'<section class="sheet" aria-label="{label} print sheet">'
+                f'{"".join(cards)}<span>{label} | PRINT AT 100%</span></section>'
+            )
     return f'''<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="author" content="Open Disbursement Technologies, Inc.">
-  <meta name="description" content="A4 duplex print sheet for two Executive Demonstration Credentials">
+  <meta name="description" content="A4 duplex print sheet for {len(credentials)} Executive Demonstration Credentials">
   <meta name="document-type" content="Executive Demonstration Credential Print Sheet">
   <meta name="version" content="1.0">
   <title>{TITLE} - A4 Duplex Print Sheet</title>
@@ -476,6 +555,7 @@ def print_sheet_html(front_svg_path: Path, back_svg_path: Path) -> str:
     .sheet:last-child {{ break-after: auto; }}
     .slot {{ position: relative; width: 150mm; height: 90mm; outline: 0.15mm solid #aaa49b; }}
     .slot img {{ display: block; width: 150mm; height: 90mm; }}
+    .slot.empty {{ outline-color: transparent; }}
     .sheet span {{
       position: absolute;
       right: 10mm;
@@ -486,7 +566,7 @@ def print_sheet_html(front_svg_path: Path, back_svg_path: Path) -> str:
     }}
   </style>
 </head>
-<body>{''.join(slots)}</body>
+<body>{''.join(sheets)}</body>
 </html>
 '''
 
@@ -533,20 +613,45 @@ def verify_raster_qr(path: Path, expected_url: str) -> None:
         raise ValueError(f"Rendered QR verification failed: {path}")
 
 
-def create_contact_sheet(front_png: Path, back_png: Path, output_path: Path) -> None:
+def create_contact_sheet(credentials: list[dict[str, object]], output_path: Path) -> None:
     magick = require_executable("magick")
+    source_path = output_path.with_name(f".{output_path.stem}-source.png")
+    images: list[str] = []
+    for credential in credentials:
+        front_png = credential["front_png"]
+        back_png = credential["back_png"]
+        if not isinstance(front_png, Path) or not isinstance(back_png, Path):
+            raise ValueError("Contact-sheet credential paths are malformed.")
+        images.extend((str(front_png), str(back_png)))
     subprocess.run(
         [
             magick,
-            str(front_png),
-            str(back_png),
-            "+append",
-            "-resize",
-            "2400x",
-            str(output_path),
+            "montage",
+            *images,
+            "-tile",
+            "2x",
+            "-geometry",
+            "+36+36",
+            "-background",
+            "white",
+            str(source_path),
         ],
         check=True,
     )
+    try:
+        subprocess.run(
+            [
+                magick,
+                str(source_path),
+                "-resize",
+                "2400x",
+                "-strip",
+                str(output_path),
+            ],
+            check=True,
+        )
+    finally:
+        source_path.unlink(missing_ok=True)
 
 
 def protect_submission_artifacts(package_directory: Path) -> dict[str, str]:
@@ -576,21 +681,36 @@ def protect_submission_artifacts(package_directory: Path) -> dict[str, str]:
     return verified
 
 
-def update_submission_package(package_directory: Path, print_sheet_pdf: Path) -> list[Path]:
+def update_submission_package(
+    package_directory: Path,
+    print_sheet_pdf: Path,
+    credentials: list[dict[str, object]],
+) -> list[Path]:
     demonstration_directory = package_directory / "04-demonstration-pay-codes"
     demonstration_directory.mkdir(parents=True, exist_ok=True)
     package_pdf = demonstration_directory / "AllBank-Executive-Demonstration-Credentials-Print-Sheet.pdf"
     readme = demonstration_directory / "README.md"
     package_readme = package_directory / "README.md"
     shutil.copy2(print_sheet_pdf, package_pdf)
+    recipient_descriptions = []
+    for credential in credentials:
+        recipient = credential["recipient"]
+        if not isinstance(recipient, dict):
+            raise ValueError("Submission-package recipient metadata is malformed.")
+        name = str(recipient.get("name", "")).strip()
+        title = str(recipient.get("title", "")).strip()
+        organization = str(recipient.get("organization", "")).strip()
+        description = ", ".join(value for value in (name, title, organization) if value)
+        recipient_descriptions.append(description or "unpersonalized recipient")
+    recipients_text = "; and ".join(recipient_descriptions)
     readme.write_text(
         "# Executive Demonstration Credentials\n\n"
         "First Edition - Version 1.0\n\n"
-        "This A4 duplex print sheet contains two Executive Demonstration Credentials "
-        "prepared for Jesus Vicente Garcia, President, AllBank. Each credential is a "
+        f"This A4 duplex print sheet contains {len(credentials)} Executive Demonstration "
+        f"Credentials prepared for {recipients_text}. Each credential is a "
         "Demonstration Pay Code with a blank write-in area using the canonical double bars.\n\n"
-        "Print at 100% without page scaling. Page 1 contains the fronts; page 2 contains "
-        "the corresponding backs.\n",
+        "Print at 100% without page scaling. Each front sheet is followed by its "
+        "corresponding back sheet.\n",
         encoding="utf-8",
     )
     package_readme.write_text(
@@ -605,6 +725,18 @@ def update_submission_package(package_directory: Path, print_sheet_pdf: Path) ->
         encoding="utf-8",
     )
     return [package_pdf, readme, package_readme]
+
+
+def clean_generated_outputs(output_directory: Path, pdf_directory: Path) -> None:
+    for pattern in (
+        f"{OUTPUT_STEM}-*.svg",
+        f"{OUTPUT_STEM}-*.png",
+        f"{OUTPUT_STEM}-*.html",
+    ):
+        for path in output_directory.glob(pattern):
+            path.unlink()
+    for path in pdf_directory.glob(f"{OUTPUT_STEM}*.pdf"):
+        path.unlink()
 
 
 def artifact_record(path: Path, kind: str, **extra: object) -> dict[str, object]:
@@ -636,6 +768,7 @@ def main() -> None:
     source_hash_before = sha256(source)
     metadata, body = parse_source(source)
     validate_source(metadata, body)
+    credentials = resolve_credentials(metadata)
     protected_artifacts = protect_submission_artifacts(package_directory)
 
     logo_path = resolve_asset(nested(metadata, "branding", "logo"))
@@ -645,59 +778,174 @@ def main() -> None:
     decoded_qr_url = verify_qr(qr_asset_path, redeem_url)
     logo_uri = image_data_uri(logo_path)
     qr_uri = image_data_uri(qr_asset_path)
+    clean_generated_outputs(output_directory, pdf_directory)
 
     artifacts: list[dict[str, object]] = []
-    rendered_paths: dict[str, dict[str, Path]] = {}
-    for profile, dimensions in PROFILE_DIMENSIONS.items():
-        profile_paths: dict[str, Path] = {}
-        for side, renderer in (("front", front_svg), ("back", back_svg)):
-            svg_path = output_directory / f"{OUTPUT_STEM}-{profile}-{side}.svg"
-            png_path = output_directory / f"{OUTPUT_STEM}-{profile}-{side}.png"
-            if side == "front":
-                svg = renderer(metadata, *dimensions, logo_uri)
-            else:
-                svg = renderer(metadata, *dimensions, logo_uri, qr_uri)
-                if f">{xml(redeem_url)}</text>" not in svg:
-                    raise ValueError(
-                        "The printed redemption URL does not exactly match canonical metadata."
+    rendered_credentials: list[dict[str, object]] = []
+    for credential in credentials:
+        slug = str(credential["slug"])
+        recipient = credential["recipient"]
+        credential_metadata = credential["metadata"]
+        if not isinstance(recipient, dict) or not isinstance(credential_metadata, dict):
+            raise ValueError("Resolved credential metadata is malformed.")
+        recipient_name = str(recipient.get("name", "")).strip() or slug
+        profile_records: dict[str, dict[str, Path]] = {}
+
+        for profile, dimensions in PROFILE_DIMENSIONS.items():
+            profile_paths: dict[str, Path] = {}
+            artifact_stem = f"{OUTPUT_STEM}-{slug}-{profile}"
+            for side, renderer in (("front", front_svg), ("back", back_svg)):
+                svg_path = output_directory / f"{artifact_stem}-{side}.svg"
+                png_path = output_directory / f"{artifact_stem}-{side}.png"
+                if side == "front":
+                    svg = renderer(credential_metadata, *dimensions, logo_uri)
+                else:
+                    svg = renderer(credential_metadata, *dimensions, logo_uri, qr_uri)
+                    if f">{xml(redeem_url)}</text>" not in svg:
+                        raise ValueError(
+                            "The printed redemption URL does not exactly match canonical metadata."
+                        )
+                write_svg_and_png(svg, svg_path, png_path, dimensions)
+                profile_paths[f"{side}_svg"] = svg_path
+                profile_paths[f"{side}_png"] = png_path
+                artifacts.append(
+                    artifact_record(
+                        svg_path,
+                        "recipient_svg",
+                        recipient=recipient_name,
+                        recipient_slug=slug,
+                        profile=profile,
+                        side=side,
                     )
-            write_svg_and_png(svg, svg_path, png_path, dimensions)
-            profile_paths[f"{side}_svg"] = svg_path
-            profile_paths[f"{side}_png"] = png_path
-            artifacts.append(artifact_record(svg_path, "svg", profile=profile, side=side))
+                )
+                artifacts.append(
+                    artifact_record(
+                        png_path,
+                        "recipient_png",
+                        recipient=recipient_name,
+                        recipient_slug=slug,
+                        profile=profile,
+                        side=side,
+                        dpi=300,
+                    )
+                )
+            profile_records[profile] = profile_paths
+
+            html_path = output_directory / f"{artifact_stem}.html"
+            pdf_path = pdf_directory / f"{artifact_stem}.pdf"
+            html_path.write_text(
+                pdf_html(
+                    f"{TITLE} - {recipient_name} - {profile}",
+                    [profile_paths["front_svg"], profile_paths["back_svg"]],
+                    *dimensions,
+                    f"Front and back of the {TITLE} for {recipient_name}, {profile} profile.",
+                ),
+                encoding="utf-8",
+            )
+            run_weasyprint(
+                html_path,
+                pdf_path,
+                f"urn:odti:executive-demonstration-credential:1.0:{slug}:{profile}",
+            )
+            if pdf_pages(pdf_path) != 2:
+                raise ValueError(f"Credential PDF must contain exactly two pages: {pdf_path}")
             artifacts.append(
                 artifact_record(
-                    png_path,
-                    "png",
+                    html_path,
+                    "recipient_html",
+                    recipient=recipient_name,
+                    recipient_slug=slug,
                     profile=profile,
-                    side=side,
-                    dpi=300,
                 )
             )
-        rendered_paths[profile] = profile_paths
+            artifacts.append(
+                artifact_record(
+                    pdf_path,
+                    "recipient_pdf",
+                    recipient=recipient_name,
+                    recipient_slug=slug,
+                    profile=profile,
+                    pages=2,
+                )
+            )
 
+        recipient_publication_pdf = pdf_directory / f"{OUTPUT_STEM}-{slug}.pdf"
+        shutil.copy2(
+            pdf_directory / f"{OUTPUT_STEM}-{slug}-executive-card.pdf",
+            recipient_publication_pdf,
+        )
+        artifacts.append(
+            artifact_record(
+                recipient_publication_pdf,
+                "recipient_publication_pdf",
+                recipient=recipient_name,
+                recipient_slug=slug,
+                profile="executive-card",
+                pages=2,
+            )
+        )
+        rendered_credentials.append(
+            {
+                "slug": slug,
+                "recipient": recipient,
+                "metadata": credential_metadata,
+                "profiles": profile_records,
+            }
+        )
+
+    combined_page_count = len(rendered_credentials) * 2
+    for profile, dimensions in PROFILE_DIMENSIONS.items():
+        combined_svg_paths: list[Path] = []
+        for credential in rendered_credentials:
+            profiles = credential["profiles"]
+            if not isinstance(profiles, dict):
+                raise ValueError("Rendered credential profile records are malformed.")
+            profile_paths = profiles[profile]
+            combined_svg_paths.extend(
+                (profile_paths["front_svg"], profile_paths["back_svg"])
+            )
         html_path = output_directory / f"{OUTPUT_STEM}-{profile}.html"
         pdf_path = pdf_directory / f"{OUTPUT_STEM}-{profile}.pdf"
         html_path.write_text(
             pdf_html(
-                f"{TITLE} - {profile}",
-                [profile_paths["front_svg"], profile_paths["back_svg"]],
+                f"{TITLE} Set - {profile}",
+                combined_svg_paths,
                 *dimensions,
-                f"Front and back of the {TITLE}, {profile} profile.",
+                f"Credential set containing {len(rendered_credentials)} personalized "
+                f"{TITLE} publications, {profile} profile.",
             ),
             encoding="utf-8",
         )
         run_weasyprint(
             html_path,
             pdf_path,
-            f"urn:odti:executive-demonstration-credential:1.0:{profile}",
+            f"urn:odti:executive-demonstration-credential:1.0:set:{profile}",
         )
-        if pdf_pages(pdf_path) != 2:
-            raise ValueError(f"Credential PDF must contain exactly two pages: {pdf_path}")
-        artifacts.append(artifact_record(html_path, "html", profile=profile))
-        artifacts.append(artifact_record(pdf_path, "pdf", profile=profile, pages=2))
+        if pdf_pages(pdf_path) != combined_page_count:
+            raise ValueError(
+                f"Credential-set PDF must contain {combined_page_count} pages: {pdf_path}"
+            )
+        artifacts.append(
+            artifact_record(
+                html_path,
+                "credential_set_html",
+                profile=profile,
+                credentials=len(rendered_credentials),
+            )
+        )
+        artifacts.append(
+            artifact_record(
+                pdf_path,
+                "credential_set_pdf",
+                profile=profile,
+                credentials=len(rendered_credentials),
+                pages=combined_page_count,
+            )
+        )
 
-    validation_metadata = copy.deepcopy(metadata)
+    validation_metadata = copy.deepcopy(credentials[0]["metadata"])
+    if not isinstance(validation_metadata, dict):
+        raise ValueError("Validation credential metadata is malformed.")
     validation_metadata["pay_code"]["value"] = None
     validation_metadata["demonstration_value"] = None
     validation_metadata["recipient"] = {}
@@ -753,15 +1001,36 @@ def main() -> None:
 
     publication_pdf = pdf_directory / f"{OUTPUT_STEM}.pdf"
     shutil.copy2(pdf_directory / f"{OUTPUT_STEM}-executive-card.pdf", publication_pdf)
-    artifacts.append(artifact_record(publication_pdf, "publication_pdf", profile="executive-card", pages=2))
+    artifacts.append(
+        artifact_record(
+            publication_pdf,
+            "publication_pdf",
+            profile="executive-card",
+            credentials=len(rendered_credentials),
+            pages=combined_page_count,
+        )
+    )
 
     print_html_path = output_directory / f"{OUTPUT_STEM}-print-sheet.html"
     print_pdf_path = pdf_directory / f"{OUTPUT_STEM}-print-sheet.pdf"
+    print_sheet_credentials: list[dict[str, object]] = []
+    for credential in rendered_credentials:
+        profiles = credential["profiles"]
+        if not isinstance(profiles, dict):
+            raise ValueError("Rendered credential profile records are malformed.")
+        executive_paths = profiles["executive-card"]
+        print_sheet_credentials.append(
+            {
+                "recipient": credential["recipient"],
+                "front_svg": executive_paths["front_svg"],
+                "back_svg": executive_paths["back_svg"],
+                "front_png": executive_paths["front_png"],
+                "back_png": executive_paths["back_png"],
+            }
+        )
+    slots_per_sheet = int(nested(metadata, "render", "credentials_per_print_sheet"))
     print_html_path.write_text(
-        print_sheet_html(
-            rendered_paths["executive-card"]["front_svg"],
-            rendered_paths["executive-card"]["back_svg"],
-        ),
+        print_sheet_html(print_sheet_credentials, slots_per_sheet),
         encoding="utf-8",
     )
     run_weasyprint(
@@ -769,23 +1038,54 @@ def main() -> None:
         print_pdf_path,
         "urn:odti:executive-demonstration-credential:1.0:a4-duplex-print-sheet",
     )
-    if pdf_pages(print_pdf_path) != 2:
-        raise ValueError("The duplex print sheet must contain exactly two A4 pages.")
-    artifacts.append(artifact_record(print_html_path, "html", profile="a4-duplex"))
-    artifacts.append(artifact_record(print_pdf_path, "print_sheet_pdf", profile="a4-duplex", pages=2, copies=2))
+    sheet_count = (len(rendered_credentials) + slots_per_sheet - 1) // slots_per_sheet
+    print_page_count = sheet_count * 2
+    if pdf_pages(print_pdf_path) != print_page_count:
+        raise ValueError(
+            f"The duplex print sheet must contain {print_page_count} A4 pages."
+        )
+    artifacts.append(
+        artifact_record(
+            print_html_path,
+            "html",
+            profile="a4-duplex",
+            credentials=len(rendered_credentials),
+            sheets=sheet_count,
+        )
+    )
+    artifacts.append(
+        artifact_record(
+            print_pdf_path,
+            "print_sheet_pdf",
+            profile="a4-duplex",
+            pages=print_page_count,
+            credentials=len(rendered_credentials),
+            sheets=sheet_count,
+        )
+    )
 
     contact_sheet_path = output_directory / f"{OUTPUT_STEM}-contact-sheet.png"
-    create_contact_sheet(
-        rendered_paths["executive-card"]["front_png"],
-        rendered_paths["executive-card"]["back_png"],
-        contact_sheet_path,
+    create_contact_sheet(print_sheet_credentials, contact_sheet_path)
+    artifacts.append(
+        artifact_record(
+            contact_sheet_path,
+            "contact_sheet_png",
+            credentials=len(rendered_credentials),
+        )
     )
-    artifacts.append(artifact_record(contact_sheet_path, "contact_sheet_png"))
 
-    for profile in PROFILE_DIMENSIONS:
-        verify_raster_qr(rendered_paths[profile]["back_png"], redeem_url)
+    for credential in rendered_credentials:
+        profiles = credential["profiles"]
+        if not isinstance(profiles, dict):
+            raise ValueError("Rendered credential profile records are malformed.")
+        for profile in PROFILE_DIMENSIONS:
+            verify_raster_qr(profiles[profile]["back_png"], redeem_url)
 
-    package_paths = update_submission_package(package_directory, print_pdf_path)
+    package_paths = update_submission_package(
+        package_directory,
+        print_pdf_path,
+        rendered_credentials,
+    )
     for path in package_paths:
         artifacts.append(artifact_record(path, "submission_package"))
 
@@ -809,7 +1109,18 @@ def main() -> None:
         "status": metadata["status"],
         "canonical_source": str(source.relative_to(REPOSITORY_ROOT)),
         "canonical_source_sha256": source_hash_before,
-        "recipient": metadata["recipient"],
+        "credential_model": {
+            "mode": "collection",
+            "inheritance": "shared publication metadata with per-credential deep overrides",
+        },
+        "credential_count": len(rendered_credentials),
+        "credentials": [
+            {
+                "slug": credential["slug"],
+                "recipient": credential["recipient"],
+            }
+            for credential in rendered_credentials
+        ],
         "issuer": metadata["issuer"],
         "pay_code": {
             "supplied": normalized_pay_code(nested(metadata, "pay_code", "value")) is not None,
@@ -839,10 +1150,14 @@ def main() -> None:
         },
         "protected_submission_artifacts": protected_artifacts,
         "print_sheet_personalization": {
-            "recipient": metadata["recipient"],
-            "copies": nested(metadata, "render", "copies_per_print_sheet"),
-            "distinct_recipients": 1,
-            "basis": "canonical Markdown and generation manifest",
+            "recipients": [
+                credential["recipient"] for credential in rendered_credentials
+            ],
+            "credentials": len(rendered_credentials),
+            "distinct_recipients": len(rendered_credentials),
+            "credentials_per_sheet": slots_per_sheet,
+            "sheet_count": sheet_count,
+            "basis": "canonical Markdown credential collection",
         },
         "renderer_validation": {
             "test_case": "blank pay_code.value, demonstration_value, and recipient",
@@ -890,14 +1205,22 @@ def main() -> None:
         f"- Demonstration Value: {metadata.get('currency')} {metadata.get('demonstration_value')}\n"
         f"- QR destination: `{decoded_qr_url}`\n"
         f"- Supplied QR artwork SHA-256: `{qr_hash_before}`; unchanged during publication\n"
-        "- Supplied QR artwork and all three rendered back PNG profiles decoded successfully: Passed\n"
+        f"- Credential set: {len(rendered_credentials)} recipients - "
+        + "; ".join(
+            str(credential["recipient"].get("name", ""))
+            for credential in rendered_credentials
+            if isinstance(credential["recipient"], dict)
+        )
+        + "\n"
+        f"- Supplied QR artwork and all {len(rendered_credentials) * len(PROFILE_DIMENSIONS)} "
+        "rendered back PNG profiles decoded successfully: Passed\n"
         "- Printed redemption URL exactly matches canonical metadata, including scheme: Passed\n"
         "- Blank Pay Code field contains canonical double bars and no divider or guide: Passed\n"
         "- Empty Demonstration Value and recipient validation rendering collapses both blocks: Passed\n"
-        "- Print-sheet personalization: 2 copies for Jesus Vicente Garcia, as specified by canonical Markdown\n"
-        "- Executive, business-card, and wallet-card front/back generation: Passed\n"
-        "- Publication PDFs: 2 pages per size profile\n"
-        "- A4 duplex print sheet: 2 pages, 2 credentials\n"
+        "- Print-sheet personalization follows the canonical Markdown credential collection: Passed\n"
+        "- Recipient-specific executive, business-card, and wallet-card front/back generation: Passed\n"
+        f"- Individual recipient PDFs: 2 pages each; credential-set PDFs: {combined_page_count} pages each\n"
+        f"- A4 duplex print sheet: {print_page_count} pages, {len(rendered_credentials)} credentials\n"
         "- Protected Cover Letter, Commercial Proposal, and Program Guide hashes: Unchanged\n"
         "- Canonical Markdown source freeze: Passed\n"
         "- Page-by-page visual inspection: Pending\n",

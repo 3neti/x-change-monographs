@@ -6,12 +6,30 @@
   "version": "1.0",
   "status": "approved",
   "canonical_source": "docs/demonstrations/pay-code/executive-demonstration-credential-v1.0.md",
-  "canonical_source_sha256": "c197bf039d19b1894c4a1de88602ad81e2a0bec02c939cab3ca7614bf05365d2",
-  "recipient": {
-    "name": "Jesus Vicente Garcia",
-    "title": "President",
-    "organization": "AllBank"
+  "canonical_source_sha256": "ed70644c48167ad3d362de54aeb6c712dac9e5e40b1622fc40c432e92a25163f",
+  "credential_model": {
+    "mode": "collection",
+    "inheritance": "shared publication metadata with per-credential deep overrides"
   },
+  "credential_count": 2,
+  "credentials": [
+    {
+      "slug": "jesus-vicente-garcia",
+      "recipient": {
+        "name": "Jesus Vicente Garcia",
+        "title": "President",
+        "organization": "AllBank"
+      }
+    },
+    {
+      "slug": "digna-samonte",
+      "recipient": {
+        "name": "Digna Samonte",
+        "title": "Chief Technology Officer",
+        "organization": "AllBank"
+      }
+    }
+  ],
   "issuer": {
     "organization": "Open Disbursement Technologies, Inc."
   },
@@ -57,14 +75,23 @@
     "program_guide": "a06b70cadcd5fa6c73b2ebb8e86acb7979731fc972da11039a5f29c988528210"
   },
   "print_sheet_personalization": {
-    "recipient": {
-      "name": "Jesus Vicente Garcia",
-      "title": "President",
-      "organization": "AllBank"
-    },
-    "copies": 2,
-    "distinct_recipients": 1,
-    "basis": "canonical Markdown and generation manifest"
+    "recipients": [
+      {
+        "name": "Jesus Vicente Garcia",
+        "title": "President",
+        "organization": "AllBank"
+      },
+      {
+        "name": "Digna Samonte",
+        "title": "Chief Technology Officer",
+        "organization": "AllBank"
+      }
+    ],
+    "credentials": 2,
+    "distinct_recipients": 2,
+    "credentials_per_sheet": 2,
+    "sheet_count": 1,
+    "basis": "canonical Markdown credential collection"
   },
   "renderer_validation": {
     "test_case": "blank pay_code.value, demonstration_value, and recipient",
@@ -77,165 +104,455 @@
   },
   "artifacts": [
     {
-      "kind": "svg",
-      "path": "build/demonstrations/pay-code/executive-demonstration-credential-v1.0/executive-demonstration-credential-v1.0-executive-card-front.svg",
-      "sha256": "daa944401704e34063c31cffa41fd6a6ae102681b9cd77e161ba53d827ca6865",
-      "bytes": 119720,
+      "kind": "recipient_svg",
+      "path": "build/demonstrations/pay-code/executive-demonstration-credential-v1.0/executive-demonstration-credential-v1.0-jesus-vicente-garcia-executive-card-front.svg",
+      "sha256": "2a70460839bf13fed58af775fafd8411194b0de8de81ba7141bce2b0092a670b",
+      "bytes": 119725,
+      "recipient": "Jesus Vicente Garcia",
+      "recipient_slug": "jesus-vicente-garcia",
       "profile": "executive-card",
       "side": "front"
     },
     {
-      "kind": "png",
-      "path": "build/demonstrations/pay-code/executive-demonstration-credential-v1.0/executive-demonstration-credential-v1.0-executive-card-front.png",
-      "sha256": "05302c6381d0596329e456c96ebef8727671a2fe24d922c9cf193c78cb0501bd",
-      "bytes": 391414,
+      "kind": "recipient_png",
+      "path": "build/demonstrations/pay-code/executive-demonstration-credential-v1.0/executive-demonstration-credential-v1.0-jesus-vicente-garcia-executive-card-front.png",
+      "sha256": "10f43b1edced4df7abecc6a5cddbe1b5189c65e6cf132dbbc718cdaa4e7b066c",
+      "bytes": 391097,
+      "recipient": "Jesus Vicente Garcia",
+      "recipient_slug": "jesus-vicente-garcia",
       "profile": "executive-card",
       "side": "front",
       "dpi": 300
     },
     {
-      "kind": "svg",
-      "path": "build/demonstrations/pay-code/executive-demonstration-credential-v1.0/executive-demonstration-credential-v1.0-executive-card-back.svg",
-      "sha256": "ee8e32968c0e5ae948aa501a0276785b83d4c6b72469922a46a0fd5f8c9b1479",
-      "bytes": 140171,
+      "kind": "recipient_svg",
+      "path": "build/demonstrations/pay-code/executive-demonstration-credential-v1.0/executive-demonstration-credential-v1.0-jesus-vicente-garcia-executive-card-back.svg",
+      "sha256": "e7c0e56ed4655afefbe5b2071c8a62fd29b8c7c737a65eb4a397eaead0a5f1dc",
+      "bytes": 140176,
+      "recipient": "Jesus Vicente Garcia",
+      "recipient_slug": "jesus-vicente-garcia",
       "profile": "executive-card",
       "side": "back"
     },
     {
-      "kind": "png",
-      "path": "build/demonstrations/pay-code/executive-demonstration-credential-v1.0/executive-demonstration-credential-v1.0-executive-card-back.png",
-      "sha256": "9c7964258483bab7d04796214906983a9bcb8685b0d85bc64cfdc50ca5205d11",
-      "bytes": 604980,
+      "kind": "recipient_png",
+      "path": "build/demonstrations/pay-code/executive-demonstration-credential-v1.0/executive-demonstration-credential-v1.0-jesus-vicente-garcia-executive-card-back.png",
+      "sha256": "857b8726dac6dd7583170551390a23af9c67b49050e9e73a735d36bd631082dd",
+      "bytes": 604664,
+      "recipient": "Jesus Vicente Garcia",
+      "recipient_slug": "jesus-vicente-garcia",
       "profile": "executive-card",
       "side": "back",
       "dpi": 300
     },
     {
-      "kind": "html",
-      "path": "build/demonstrations/pay-code/executive-demonstration-credential-v1.0/executive-demonstration-credential-v1.0-executive-card.html",
-      "sha256": "8bb4da3649decc99f0d7e508f7c400633441f802aafea733b8331e2bb469469a",
-      "bytes": 1367,
+      "kind": "recipient_html",
+      "path": "build/demonstrations/pay-code/executive-demonstration-credential-v1.0/executive-demonstration-credential-v1.0-jesus-vicente-garcia-executive-card.html",
+      "sha256": "c0b286695d4c509f28b3e4d8ebddd43093bc4a9312b07b72d64639253642bca4",
+      "bytes": 1503,
+      "recipient": "Jesus Vicente Garcia",
+      "recipient_slug": "jesus-vicente-garcia",
       "profile": "executive-card"
     },
     {
-      "kind": "pdf",
-      "path": "build/pdf/executive-demonstration-credential-v1.0-executive-card.pdf",
-      "sha256": "42f0476ca38e9f4d9548b3c1056b0aed9f2d39fccb0670f8fcd779a55d2e4976",
-      "bytes": 8895397,
+      "kind": "recipient_pdf",
+      "path": "build/pdf/executive-demonstration-credential-v1.0-jesus-vicente-garcia-executive-card.pdf",
+      "sha256": "5d2aefaeceb4ca538e8edf7229b6c0aaad484ab0619d0de500f145c97ebb1fd6",
+      "bytes": 8895475,
+      "recipient": "Jesus Vicente Garcia",
+      "recipient_slug": "jesus-vicente-garcia",
       "profile": "executive-card",
       "pages": 2
     },
     {
-      "kind": "svg",
-      "path": "build/demonstrations/pay-code/executive-demonstration-credential-v1.0/executive-demonstration-credential-v1.0-business-card-front.svg",
-      "sha256": "04034b0265e18e6f7171bf2cba3f584515bb25371fa098c99964189c59a97b0f",
-      "bytes": 119719,
+      "kind": "recipient_svg",
+      "path": "build/demonstrations/pay-code/executive-demonstration-credential-v1.0/executive-demonstration-credential-v1.0-jesus-vicente-garcia-business-card-front.svg",
+      "sha256": "c56ae2b37b91a99742e7e50541b9b4769e4961d9355ff8f96ec50406706614f6",
+      "bytes": 119724,
+      "recipient": "Jesus Vicente Garcia",
+      "recipient_slug": "jesus-vicente-garcia",
       "profile": "business-card",
       "side": "front"
     },
     {
-      "kind": "png",
-      "path": "build/demonstrations/pay-code/executive-demonstration-credential-v1.0/executive-demonstration-credential-v1.0-business-card-front.png",
-      "sha256": "a513eb613534d43e7291026504ba11f8623a37ecedfde2491995c83ca8446f71",
-      "bytes": 226154,
+      "kind": "recipient_png",
+      "path": "build/demonstrations/pay-code/executive-demonstration-credential-v1.0/executive-demonstration-credential-v1.0-jesus-vicente-garcia-business-card-front.png",
+      "sha256": "613f1981223d6ad950452f0352c5e328b86862fea864053a659e82ad6ae796c4",
+      "bytes": 225837,
+      "recipient": "Jesus Vicente Garcia",
+      "recipient_slug": "jesus-vicente-garcia",
       "profile": "business-card",
       "side": "front",
       "dpi": 300
     },
     {
-      "kind": "svg",
-      "path": "build/demonstrations/pay-code/executive-demonstration-credential-v1.0/executive-demonstration-credential-v1.0-business-card-back.svg",
-      "sha256": "12fcdd8eab73e445bc57a8acbce7c6a3e07c8af78f1339fe296761a04018a443",
-      "bytes": 140170,
+      "kind": "recipient_svg",
+      "path": "build/demonstrations/pay-code/executive-demonstration-credential-v1.0/executive-demonstration-credential-v1.0-jesus-vicente-garcia-business-card-back.svg",
+      "sha256": "36f8f9521ca753d44840e55e88d6f7c239ec3ecb76fc6f17bae1068ee77d00d4",
+      "bytes": 140175,
+      "recipient": "Jesus Vicente Garcia",
+      "recipient_slug": "jesus-vicente-garcia",
       "profile": "business-card",
       "side": "back"
     },
     {
-      "kind": "png",
-      "path": "build/demonstrations/pay-code/executive-demonstration-credential-v1.0/executive-demonstration-credential-v1.0-business-card-back.png",
-      "sha256": "2c45b1e8e8f14df9d54cba4d64c695767b586312d2e1183434dca9e21cf61a6d",
-      "bytes": 361090,
+      "kind": "recipient_png",
+      "path": "build/demonstrations/pay-code/executive-demonstration-credential-v1.0/executive-demonstration-credential-v1.0-jesus-vicente-garcia-business-card-back.png",
+      "sha256": "d00a803b1a17e108d40274c5959777e3a605758687baaedcbfa5940ff6ee6c20",
+      "bytes": 360774,
+      "recipient": "Jesus Vicente Garcia",
+      "recipient_slug": "jesus-vicente-garcia",
       "profile": "business-card",
       "side": "back",
       "dpi": 300
     },
     {
-      "kind": "html",
-      "path": "build/demonstrations/pay-code/executive-demonstration-credential-v1.0/executive-demonstration-credential-v1.0-business-card.html",
-      "sha256": "87b7f83da14b69b4e8f1cd4fb34a90bf1fe917fb23d98aefd6fd6405434535e1",
-      "bytes": 1359,
+      "kind": "recipient_html",
+      "path": "build/demonstrations/pay-code/executive-demonstration-credential-v1.0/executive-demonstration-credential-v1.0-jesus-vicente-garcia-business-card.html",
+      "sha256": "3369a0ef51e21a94b87b6f258fb5f7ee740a4f34d7b066d2bd2f5d1363e88c03",
+      "bytes": 1495,
+      "recipient": "Jesus Vicente Garcia",
+      "recipient_slug": "jesus-vicente-garcia",
       "profile": "business-card"
     },
     {
-      "kind": "pdf",
-      "path": "build/pdf/executive-demonstration-credential-v1.0-business-card.pdf",
-      "sha256": "1f1354e5e294f56a5704447601cb2951388954d3bb41cca95f6202d2a187c4ec",
-      "bytes": 8895338,
+      "kind": "recipient_pdf",
+      "path": "build/pdf/executive-demonstration-credential-v1.0-jesus-vicente-garcia-business-card.pdf",
+      "sha256": "5b8095a3db46569709fc5bef66e9f833a8c73e57f41296130d203b2f04898710",
+      "bytes": 8895406,
+      "recipient": "Jesus Vicente Garcia",
+      "recipient_slug": "jesus-vicente-garcia",
       "profile": "business-card",
       "pages": 2
     },
     {
-      "kind": "svg",
-      "path": "build/demonstrations/pay-code/executive-demonstration-credential-v1.0/executive-demonstration-credential-v1.0-wallet-card-front.svg",
-      "sha256": "9737e61e099825819ca2b95c0a4ea45ca7f4ac5dbce51e21ac32d435536a1518",
-      "bytes": 119724,
+      "kind": "recipient_svg",
+      "path": "build/demonstrations/pay-code/executive-demonstration-credential-v1.0/executive-demonstration-credential-v1.0-jesus-vicente-garcia-wallet-card-front.svg",
+      "sha256": "2e1353f693e87a080a4ebf357136029e1522eb282c89b8cfd595bfb147fe9bc3",
+      "bytes": 119729,
+      "recipient": "Jesus Vicente Garcia",
+      "recipient_slug": "jesus-vicente-garcia",
       "profile": "wallet-card",
       "side": "front"
     },
     {
-      "kind": "png",
-      "path": "build/demonstrations/pay-code/executive-demonstration-credential-v1.0/executive-demonstration-credential-v1.0-wallet-card-front.png",
-      "sha256": "492d79f7d56c84d6566e976b01822c5c629e8bc5adb4ff2fe7eed3e130886483",
-      "bytes": 230008,
+      "kind": "recipient_png",
+      "path": "build/demonstrations/pay-code/executive-demonstration-credential-v1.0/executive-demonstration-credential-v1.0-jesus-vicente-garcia-wallet-card-front.png",
+      "sha256": "f633f478da29ea74ddcc0628de743bdfe5d2a5c6383cdbdef4d3a547101a2921",
+      "bytes": 229691,
+      "recipient": "Jesus Vicente Garcia",
+      "recipient_slug": "jesus-vicente-garcia",
       "profile": "wallet-card",
       "side": "front",
       "dpi": 300
     },
     {
-      "kind": "svg",
-      "path": "build/demonstrations/pay-code/executive-demonstration-credential-v1.0/executive-demonstration-credential-v1.0-wallet-card-back.svg",
-      "sha256": "c6dea4891d7de41c6d6e22556a1ff18573cda28dc2e2f9d32a6671b61499be41",
-      "bytes": 140175,
+      "kind": "recipient_svg",
+      "path": "build/demonstrations/pay-code/executive-demonstration-credential-v1.0/executive-demonstration-credential-v1.0-jesus-vicente-garcia-wallet-card-back.svg",
+      "sha256": "37680a175682b4729bfb0f06277b56327a8f8e5522631ec306c518a7f1e70c78",
+      "bytes": 140180,
+      "recipient": "Jesus Vicente Garcia",
+      "recipient_slug": "jesus-vicente-garcia",
       "profile": "wallet-card",
       "side": "back"
     },
     {
-      "kind": "png",
-      "path": "build/demonstrations/pay-code/executive-demonstration-credential-v1.0/executive-demonstration-credential-v1.0-wallet-card-back.png",
-      "sha256": "213e3306dade6e7b8301566337a528d514dffa5a2d5b25c6f2f5ceab918b78cb",
-      "bytes": 358070,
+      "kind": "recipient_png",
+      "path": "build/demonstrations/pay-code/executive-demonstration-credential-v1.0/executive-demonstration-credential-v1.0-jesus-vicente-garcia-wallet-card-back.png",
+      "sha256": "2d24c63411f3ae8fe12cfda59184c69014bc7fe5b8961f61c025ccb3ce59ce18",
+      "bytes": 357754,
+      "recipient": "Jesus Vicente Garcia",
+      "recipient_slug": "jesus-vicente-garcia",
       "profile": "wallet-card",
       "side": "back",
       "dpi": 300
     },
     {
-      "kind": "html",
-      "path": "build/demonstrations/pay-code/executive-demonstration-credential-v1.0/executive-demonstration-credential-v1.0-wallet-card.html",
-      "sha256": "014606a6193a62023f8dc2262fe1ed05be597f78f6b9dc31d22dd4847c4534a5",
-      "bytes": 1357,
+      "kind": "recipient_html",
+      "path": "build/demonstrations/pay-code/executive-demonstration-credential-v1.0/executive-demonstration-credential-v1.0-jesus-vicente-garcia-wallet-card.html",
+      "sha256": "e32c75122dbb55b5603803f11da03d438cab74e61bd22f421232f1cf32341e3a",
+      "bytes": 1493,
+      "recipient": "Jesus Vicente Garcia",
+      "recipient_slug": "jesus-vicente-garcia",
       "profile": "wallet-card"
     },
     {
-      "kind": "pdf",
-      "path": "build/pdf/executive-demonstration-credential-v1.0-wallet-card.pdf",
-      "sha256": "8dfc337e52ab7221d185ae864f2bb965492981008277533b4ee69874d9a07dd8",
-      "bytes": 8895336,
+      "kind": "recipient_pdf",
+      "path": "build/pdf/executive-demonstration-credential-v1.0-jesus-vicente-garcia-wallet-card.pdf",
+      "sha256": "1242d96fd4f4e9942a94dd4c3f8831e61cdca65e64875fe5ba153b203f3eaac1",
+      "bytes": 8895400,
+      "recipient": "Jesus Vicente Garcia",
+      "recipient_slug": "jesus-vicente-garcia",
       "profile": "wallet-card",
       "pages": 2
+    },
+    {
+      "kind": "recipient_publication_pdf",
+      "path": "build/pdf/executive-demonstration-credential-v1.0-jesus-vicente-garcia.pdf",
+      "sha256": "5d2aefaeceb4ca538e8edf7229b6c0aaad484ab0619d0de500f145c97ebb1fd6",
+      "bytes": 8895475,
+      "recipient": "Jesus Vicente Garcia",
+      "recipient_slug": "jesus-vicente-garcia",
+      "profile": "executive-card",
+      "pages": 2
+    },
+    {
+      "kind": "recipient_svg",
+      "path": "build/demonstrations/pay-code/executive-demonstration-credential-v1.0/executive-demonstration-credential-v1.0-digna-samonte-executive-card-front.svg",
+      "sha256": "02ec1a721d066e590da27010c3c732cf0e889fec5eaec5bd3c2bc3a6faeabcd4",
+      "bytes": 119741,
+      "recipient": "Digna Samonte",
+      "recipient_slug": "digna-samonte",
+      "profile": "executive-card",
+      "side": "front"
+    },
+    {
+      "kind": "recipient_png",
+      "path": "build/demonstrations/pay-code/executive-demonstration-credential-v1.0/executive-demonstration-credential-v1.0-digna-samonte-executive-card-front.png",
+      "sha256": "e762da1c3a6ad18acf544245b2aa668b697cf2d8a0e324a77646c2863887a340",
+      "bytes": 395424,
+      "recipient": "Digna Samonte",
+      "recipient_slug": "digna-samonte",
+      "profile": "executive-card",
+      "side": "front",
+      "dpi": 300
+    },
+    {
+      "kind": "recipient_svg",
+      "path": "build/demonstrations/pay-code/executive-demonstration-credential-v1.0/executive-demonstration-credential-v1.0-digna-samonte-executive-card-back.svg",
+      "sha256": "f07af083f0e880a8ed8c9c9ca6a8d225a1c6057694862c9a3b5758e150317c23",
+      "bytes": 140184,
+      "recipient": "Digna Samonte",
+      "recipient_slug": "digna-samonte",
+      "profile": "executive-card",
+      "side": "back"
+    },
+    {
+      "kind": "recipient_png",
+      "path": "build/demonstrations/pay-code/executive-demonstration-credential-v1.0/executive-demonstration-credential-v1.0-digna-samonte-executive-card-back.png",
+      "sha256": "857b8726dac6dd7583170551390a23af9c67b49050e9e73a735d36bd631082dd",
+      "bytes": 604664,
+      "recipient": "Digna Samonte",
+      "recipient_slug": "digna-samonte",
+      "profile": "executive-card",
+      "side": "back",
+      "dpi": 300
+    },
+    {
+      "kind": "recipient_html",
+      "path": "build/demonstrations/pay-code/executive-demonstration-credential-v1.0/executive-demonstration-credential-v1.0-digna-samonte-executive-card.html",
+      "sha256": "2d1d649afceefca7cafb624007f88b3183fe7944ce2f06a4f9ee1bb422e7fec8",
+      "bytes": 1461,
+      "recipient": "Digna Samonte",
+      "recipient_slug": "digna-samonte",
+      "profile": "executive-card"
+    },
+    {
+      "kind": "recipient_pdf",
+      "path": "build/pdf/executive-demonstration-credential-v1.0-digna-samonte-executive-card.pdf",
+      "sha256": "538b0042214a4076346d546913aafead953e760cd0a0b259ff764fbe73013096",
+      "bytes": 8895521,
+      "recipient": "Digna Samonte",
+      "recipient_slug": "digna-samonte",
+      "profile": "executive-card",
+      "pages": 2
+    },
+    {
+      "kind": "recipient_svg",
+      "path": "build/demonstrations/pay-code/executive-demonstration-credential-v1.0/executive-demonstration-credential-v1.0-digna-samonte-business-card-front.svg",
+      "sha256": "b0ab1e6756960dcc6c715e93cfb4e8018c8414029e8e431de6cbbbfc0e984a86",
+      "bytes": 119740,
+      "recipient": "Digna Samonte",
+      "recipient_slug": "digna-samonte",
+      "profile": "business-card",
+      "side": "front"
+    },
+    {
+      "kind": "recipient_png",
+      "path": "build/demonstrations/pay-code/executive-demonstration-credential-v1.0/executive-demonstration-credential-v1.0-digna-samonte-business-card-front.png",
+      "sha256": "200d2235737e232ec8939b1677ef445f0c42c46fa5245afcd2385280e436a238",
+      "bytes": 229463,
+      "recipient": "Digna Samonte",
+      "recipient_slug": "digna-samonte",
+      "profile": "business-card",
+      "side": "front",
+      "dpi": 300
+    },
+    {
+      "kind": "recipient_svg",
+      "path": "build/demonstrations/pay-code/executive-demonstration-credential-v1.0/executive-demonstration-credential-v1.0-digna-samonte-business-card-back.svg",
+      "sha256": "2de4efc5fcc20d158a192c74b215938cd87a100fcca6c591753de151369f7862",
+      "bytes": 140183,
+      "recipient": "Digna Samonte",
+      "recipient_slug": "digna-samonte",
+      "profile": "business-card",
+      "side": "back"
+    },
+    {
+      "kind": "recipient_png",
+      "path": "build/demonstrations/pay-code/executive-demonstration-credential-v1.0/executive-demonstration-credential-v1.0-digna-samonte-business-card-back.png",
+      "sha256": "d00a803b1a17e108d40274c5959777e3a605758687baaedcbfa5940ff6ee6c20",
+      "bytes": 360774,
+      "recipient": "Digna Samonte",
+      "recipient_slug": "digna-samonte",
+      "profile": "business-card",
+      "side": "back",
+      "dpi": 300
+    },
+    {
+      "kind": "recipient_html",
+      "path": "build/demonstrations/pay-code/executive-demonstration-credential-v1.0/executive-demonstration-credential-v1.0-digna-samonte-business-card.html",
+      "sha256": "d11981ec6fa649e26306c979f832c293f3f0334654b719a68b316119a09dfc01",
+      "bytes": 1453,
+      "recipient": "Digna Samonte",
+      "recipient_slug": "digna-samonte",
+      "profile": "business-card"
+    },
+    {
+      "kind": "recipient_pdf",
+      "path": "build/pdf/executive-demonstration-credential-v1.0-digna-samonte-business-card.pdf",
+      "sha256": "245caa90b1a9c158873889f0b24def542732f920825fcc27bd0d8fca2120088e",
+      "bytes": 8895443,
+      "recipient": "Digna Samonte",
+      "recipient_slug": "digna-samonte",
+      "profile": "business-card",
+      "pages": 2
+    },
+    {
+      "kind": "recipient_svg",
+      "path": "build/demonstrations/pay-code/executive-demonstration-credential-v1.0/executive-demonstration-credential-v1.0-digna-samonte-wallet-card-front.svg",
+      "sha256": "5e28fdcb1ae2dc888380e7786fcf6e131e7d2c3f46f706a2a6f342192a1af4f4",
+      "bytes": 119745,
+      "recipient": "Digna Samonte",
+      "recipient_slug": "digna-samonte",
+      "profile": "wallet-card",
+      "side": "front"
+    },
+    {
+      "kind": "recipient_png",
+      "path": "build/demonstrations/pay-code/executive-demonstration-credential-v1.0/executive-demonstration-credential-v1.0-digna-samonte-wallet-card-front.png",
+      "sha256": "161043eef63893172a9dcc394ff5e44a773891ec1588ca51a39d9bf17609cc39",
+      "bytes": 233445,
+      "recipient": "Digna Samonte",
+      "recipient_slug": "digna-samonte",
+      "profile": "wallet-card",
+      "side": "front",
+      "dpi": 300
+    },
+    {
+      "kind": "recipient_svg",
+      "path": "build/demonstrations/pay-code/executive-demonstration-credential-v1.0/executive-demonstration-credential-v1.0-digna-samonte-wallet-card-back.svg",
+      "sha256": "b4b6f6ff865956e6cd703aec3559c8d0408c572d12e855db55f63322487ad9fb",
+      "bytes": 140188,
+      "recipient": "Digna Samonte",
+      "recipient_slug": "digna-samonte",
+      "profile": "wallet-card",
+      "side": "back"
+    },
+    {
+      "kind": "recipient_png",
+      "path": "build/demonstrations/pay-code/executive-demonstration-credential-v1.0/executive-demonstration-credential-v1.0-digna-samonte-wallet-card-back.png",
+      "sha256": "2d24c63411f3ae8fe12cfda59184c69014bc7fe5b8961f61c025ccb3ce59ce18",
+      "bytes": 357754,
+      "recipient": "Digna Samonte",
+      "recipient_slug": "digna-samonte",
+      "profile": "wallet-card",
+      "side": "back",
+      "dpi": 300
+    },
+    {
+      "kind": "recipient_html",
+      "path": "build/demonstrations/pay-code/executive-demonstration-credential-v1.0/executive-demonstration-credential-v1.0-digna-samonte-wallet-card.html",
+      "sha256": "5cf5676ad3b5873b42b1f823f5ad1a60bd3b764cea74b6e70822853712329599",
+      "bytes": 1451,
+      "recipient": "Digna Samonte",
+      "recipient_slug": "digna-samonte",
+      "profile": "wallet-card"
+    },
+    {
+      "kind": "recipient_pdf",
+      "path": "build/pdf/executive-demonstration-credential-v1.0-digna-samonte-wallet-card.pdf",
+      "sha256": "7c2bfb2c5a90b78598ef3dceb351c0f76dee880874731ff05a9eea2e494dfac5",
+      "bytes": 8895429,
+      "recipient": "Digna Samonte",
+      "recipient_slug": "digna-samonte",
+      "profile": "wallet-card",
+      "pages": 2
+    },
+    {
+      "kind": "recipient_publication_pdf",
+      "path": "build/pdf/executive-demonstration-credential-v1.0-digna-samonte.pdf",
+      "sha256": "538b0042214a4076346d546913aafead953e760cd0a0b259ff764fbe73013096",
+      "bytes": 8895521,
+      "recipient": "Digna Samonte",
+      "recipient_slug": "digna-samonte",
+      "profile": "executive-card",
+      "pages": 2
+    },
+    {
+      "kind": "credential_set_html",
+      "path": "build/demonstrations/pay-code/executive-demonstration-credential-v1.0/executive-demonstration-credential-v1.0-executive-card.html",
+      "sha256": "d33c21a6cddce575e74f3792fcde0301efe4f6bc9f94c600728406b470aa8f26",
+      "bytes": 2072,
+      "profile": "executive-card",
+      "credentials": 2
+    },
+    {
+      "kind": "credential_set_pdf",
+      "path": "build/pdf/executive-demonstration-credential-v1.0-executive-card.pdf",
+      "sha256": "ca1345fb15be5aaeab93387e78dc62cda4b4390c13f9148dce047e062c81ea3f",
+      "bytes": 8904044,
+      "profile": "executive-card",
+      "credentials": 2,
+      "pages": 4
+    },
+    {
+      "kind": "credential_set_html",
+      "path": "build/demonstrations/pay-code/executive-demonstration-credential-v1.0/executive-demonstration-credential-v1.0-business-card.html",
+      "sha256": "c0cb84f4872fc25f030911d2ac7f646f0609986363331dd50cd73f8cf7e40198",
+      "bytes": 2060,
+      "profile": "business-card",
+      "credentials": 2
+    },
+    {
+      "kind": "credential_set_pdf",
+      "path": "build/pdf/executive-demonstration-credential-v1.0-business-card.pdf",
+      "sha256": "cf2a3863148dce0f29f6c00aaa2ee520cd4e1fb6629d03f078665e270fdee202",
+      "bytes": 8903889,
+      "profile": "business-card",
+      "credentials": 2,
+      "pages": 4
+    },
+    {
+      "kind": "credential_set_html",
+      "path": "build/demonstrations/pay-code/executive-demonstration-credential-v1.0/executive-demonstration-credential-v1.0-wallet-card.html",
+      "sha256": "1a7233775e4263d8b9294886ffb6650df4b94e147dc2a77bbe8e15c6b9a4a57d",
+      "bytes": 2050,
+      "profile": "wallet-card",
+      "credentials": 2
+    },
+    {
+      "kind": "credential_set_pdf",
+      "path": "build/pdf/executive-demonstration-credential-v1.0-wallet-card.pdf",
+      "sha256": "b0c165f1ade7330c26a31d46344217fd85642b58248f81cfa5ec1c245e7b3d0d",
+      "bytes": 8903874,
+      "profile": "wallet-card",
+      "credentials": 2,
+      "pages": 4
     },
     {
       "kind": "validation_svg",
       "path": "build/demonstrations/pay-code/executive-demonstration-credential-v1.0/validation/executive-demonstration-credential-v1.0-blank-optional-fields-front.svg",
-      "sha256": "852e4ad285e633ec83439a1f9cd5bdae74bf90c3266a7c8c735b582f7efb9e53",
-      "bytes": 118927,
+      "sha256": "ec0c96c26203f65dd90fee84576a59f68deccb1703458a5eb4430e9a74f6f95f",
+      "bytes": 118932,
       "test_case": "blank_pay_code_value_recipient",
       "submission_package": false
     },
     {
       "kind": "validation_png",
       "path": "build/demonstrations/pay-code/executive-demonstration-credential-v1.0/validation/executive-demonstration-credential-v1.0-blank-optional-fields-front.png",
-      "sha256": "8a1b8885a43b8eedadb49d1b47d2296fdb99d26706b20a09a236dc124329b1c1",
-      "bytes": 265393,
+      "sha256": "7778cc2a5f4b234a911df3acdf9aac037d7f6ef0a930850719f219ffb50cb43d",
+      "bytes": 265076,
       "test_case": "blank_pay_code_value_recipient",
       "submission_package": false,
       "dpi": 300
@@ -243,44 +560,49 @@
     {
       "kind": "publication_pdf",
       "path": "build/pdf/executive-demonstration-credential-v1.0.pdf",
-      "sha256": "42f0476ca38e9f4d9548b3c1056b0aed9f2d39fccb0670f8fcd779a55d2e4976",
-      "bytes": 8895397,
+      "sha256": "ca1345fb15be5aaeab93387e78dc62cda4b4390c13f9148dce047e062c81ea3f",
+      "bytes": 8904044,
       "profile": "executive-card",
-      "pages": 2
+      "credentials": 2,
+      "pages": 4
     },
     {
       "kind": "html",
       "path": "build/demonstrations/pay-code/executive-demonstration-credential-v1.0/executive-demonstration-credential-v1.0-print-sheet.html",
-      "sha256": "d91c13fe088492c9c34e9e247b9a550eb67f0643d29a1d415582b0775a98286d",
-      "bytes": 2463,
-      "profile": "a4-duplex"
+      "sha256": "fcd1bd675ac46a1db65e93c926bf96f40b38b268ce0767236871cd47577e5b1e",
+      "bytes": 2657,
+      "profile": "a4-duplex",
+      "credentials": 2,
+      "sheets": 1
     },
     {
       "kind": "print_sheet_pdf",
       "path": "build/pdf/executive-demonstration-credential-v1.0-print-sheet.pdf",
-      "sha256": "01fc0ef00ea74d7e0545c27aa049d1a9eb59157e40c409dc6865357ed990cf51",
-      "bytes": 8899599,
+      "sha256": "0e3eafe39e355bf7870da97ae386799a8339b8a79cfd4d59d9f805ebe45d836a",
+      "bytes": 8899991,
       "profile": "a4-duplex",
       "pages": 2,
-      "copies": 2
+      "credentials": 2,
+      "sheets": 1
     },
     {
       "kind": "contact_sheet_png",
       "path": "build/demonstrations/pay-code/executive-demonstration-credential-v1.0/executive-demonstration-credential-v1.0-contact-sheet.png",
-      "sha256": "e02377a0e633ae1564d23d50894c87052e3dea31e5a5d9179f1645fd8c75399e",
-      "bytes": 638642
+      "sha256": "e5d0bb83e76743a4f57bb4b3b7e7cfa07e87fa0c4afc706c7bba6f46afcc399e",
+      "bytes": 1356919,
+      "credentials": 2
     },
     {
       "kind": "submission_package",
       "path": "build/institutions/allbank/commercial/submission-package/04-demonstration-pay-codes/AllBank-Executive-Demonstration-Credentials-Print-Sheet.pdf",
-      "sha256": "01fc0ef00ea74d7e0545c27aa049d1a9eb59157e40c409dc6865357ed990cf51",
-      "bytes": 8899599
+      "sha256": "0e3eafe39e355bf7870da97ae386799a8339b8a79cfd4d59d9f805ebe45d836a",
+      "bytes": 8899991
     },
     {
       "kind": "submission_package",
       "path": "build/institutions/allbank/commercial/submission-package/04-demonstration-pay-codes/README.md",
-      "sha256": "742fe67cfef148ba8a591b521d9fd3ebb5b97ac6ce8d9f7a9309070ff000bda5",
-      "bytes": 409
+      "sha256": "2c83c11ed20910a3f103f8146e49ef34cc6a065cf792da2ce7b759b063ffedbf",
+      "bytes": 454
     },
     {
       "kind": "submission_package",
