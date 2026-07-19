@@ -12,15 +12,15 @@ Its emotional center is **public trust**. Its program product is **institutional
 | --- | --- |
 | Institutional doctrine | Approved and frozen in Movement IV |
 | Canonical x-change architecture | Inherited and aligned |
-| Program foundation | Complete, pending review and acceptance |
-| Formal EDR-005 Program Guide | Planned; not created |
-| Program publication layer | Planned; not created |
+| Program foundation | Approved |
+| Formal EDR-005 Program Guide | Version 0.9 complete draft under review; not locked |
+| Program publication layer | Guide editorial source complete for review; derivatives and publication artifacts not started |
 | Stakeholder and financial briefs | Planned; not created |
 | Submission instance | Planned; shared architecture exists |
 | Institution-specific work | Not started |
 | Philippine Veterans Bank workstream | Deferred pending a separate research-first phase |
 
-The current maturity is **foundation complete, publication program incomplete**.
+The current maturity is **foundation approved, formal Guide complete for review, publication program incomplete**.
 
 ## Canonical Architecture
 
@@ -71,12 +71,12 @@ This Program foundation is canonical source material at version 0.1. It is not, 
 - Annex D — Responsibility Matrix;
 - Annex E — Publication Architecture;
 - Annex F — Institution-Specific Research Gate; and
-- Annex G — Definition of Institution Readiness.
+- Annex G — Definition of Institution Readiness;
+- formal Program Guide Executive Summary and Sections 1–7; and
+- complete Guide Appendices A–G and canonical Mermaid sources.
 
 ## Missing Assets
 
-- formal Government Depository Program Guide;
-- Guide Executive Summary, Sections 1–7, and canonical Appendices A–G;
 - Program Overview and Program in One Page;
 - Institutional Benefits, Technical Overview, and Commercial Overview;
 - stakeholder, public-interest, regulator, financial, DevOps, and investor briefs;
@@ -101,22 +101,22 @@ This Program foundation is canonical source material at version 0.1. It is not, 
 
 ## Next Recommended Slice
 
-The next editorial slice should establish the formal EDR-005 Government Depository Program Guide skeleton and conduct the Section 1 architecture workshop. It should preserve the approved seven-section business-question structure and balk if any mandatory coverage category is omitted.
+The next editorial slice should review the complete Version 0.9 Program Guide as a Board paper. Review should test executive rhythm, public-finance accuracy, cross-corpus doctrine, section independence, and whether each Executive Decision is fully supported. Corrections should be made before any lock ceremony.
 
-The work should proceed one complete section at a time. The Executive Summary should be written last, after Sections 1–7 and Appendices A–G are complete enough to support accurate synthesis.
+After editorial approval, the Guide may proceed through a formal lock decision and publication planning using the existing Program Guide renderer and house style.
 
-No PDF, renderer instance, PVB research, institution edition, proposal, demonstration set, or submission portfolio should precede that editorial foundation.
+No PDF, renderer instance, PVB research, institution edition, proposal, demonstration set, or submission portfolio should precede Guide approval.
 
 ## Implementation Status
 
 ```yaml
 program: government-depository-digital-banking-program
 foundation_version: 0.1
-foundation_status: complete_pending_acceptance
-formal_program_guide: planned
+foundation_status: approved
+formal_program_guide: complete_draft_in_review
 publication_state: not_started
 institution_specific_work: not_started
-next_slice: formal_program_guide_architecture
+next_slice: formal_program_guide_editorial_review
 ```
 
 ## Program Governance

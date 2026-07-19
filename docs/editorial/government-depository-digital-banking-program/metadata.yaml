@@ -18,6 +18,7 @@ source:
   compass: "docs/editorial/government-depository-digital-banking-program/GOVERNMENT_DEPOSITORY_COMPASS.md"
   roadmap: "docs/editorial/government-depository-digital-banking-program/GOVERNMENT_DEPOSITORY_ROADMAP.md"
   annexes: "docs/editorial/government-depository-digital-banking-program/annexes"
+  formal_program_guide: "docs/editorial/program-guides/government-depository/government-depository-digital-banking-program-guide.md"
 lineage:
   strategic_white_paper: "docs/editorial/movement-iv-government-depository-banking/modernizing-public-finance-through-trusted-government-depository-banking.md"
   canonical_program_guide_architecture: "docs/editorial/program-guides/CANONICAL_BANKING_PROGRAM_GUIDE.md"
@@ -38,7 +39,7 @@ governance:
 publication:
   generated: false
   renderer: "reuse existing Program Guide publishing system when authorized"
-  formal_program_guide: "planned"
+  formal_program_guide: "complete-draft-in-review"
   freeze_record: "not-yet-created"
 institution_specific_work:
   status: "deferred"

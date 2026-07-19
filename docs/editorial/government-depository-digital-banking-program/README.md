@@ -26,13 +26,13 @@ The Program applies the existing x-change platform and banking grammar to accoun
 
 1. [Movement IV — Modernizing Public Finance Through Trusted Government Depository Banking](../movement-iv-government-depository-banking/README.md) establishes the strategic and institutional foundation.
 2. This Program foundation defines the reusable sector-level operating, commercial, publication, stakeholder, and adoption architecture.
-3. A future formal Program Guide must implement the frozen [Canonical Banking Program Guide](../program-guides/CANONICAL_BANKING_PROGRAM_GUIDE.md) architecture and parity controls.
+3. The complete review draft of the [Government Depository Digital Banking Program Guide](../program-guides/government-depository/README.md) implements the frozen [Canonical Banking Program Guide](../program-guides/CANONICAL_BANKING_PROGRAM_GUIDE.md) architecture and parity controls.
 4. Institution-specific work must then begin under the [Institution Intelligence Framework](../../institutions/README.md).
 
 ## Current boundary
 
-The foundation is complete. The formal Government Depository Program Guide and its publication derivatives remain planned.
+The foundation is approved. The formal Government Depository Program Guide is complete as a Version 0.9 draft under review. Its editorial lock, publication derivatives, renderer instance, and publication artifacts remain future work.
 
 The Philippine Veterans Bank institution-specific workstream has not begun. It is expressly deferred pending a separate research-first phase. No PVB proposal, financial model, demonstration package, executive portfolio, or submission portfolio is created here.
 
-No PDF or renderer output is authorized by this foundation task.
+No PDF or renderer output is authorized at the current Guide-review stage.

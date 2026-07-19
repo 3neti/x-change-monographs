@@ -18,8 +18,8 @@ This Roadmap moves the Program from an accepted sector foundation to reproducibl
 
 | Phase | Objective | Relative effort | Current status |
 | --- | --- | --- | --- |
-| 1 — Program Foundation | Establish the governable sector Program | Moderate | Complete pending acceptance |
-| 2 — Program Publication Layer | Create and publish the formal Program Guide and core derivatives | Substantial | Planned |
+| 1 — Program Foundation | Establish the governable sector Program | Moderate | Approved |
+| 2 — Program Publication Layer | Create and publish the formal Program Guide and core derivatives | Substantial | In progress — Guide draft complete for review |
 | 3 — Stakeholder and Financial Layer | Provide evidence-led audience-specific decision material | Moderate to substantial | Planned |
 | 4 — Executive Publication Layer | Prepare controlled executive and commercial publication forms | Moderate | Planned |
 | 5 — Submission Architecture | Integrate deterministic institution selection and packaging | Small to moderate | Planned |
@@ -46,7 +46,7 @@ Define Government Depository Banking as a first-class sector Program without cre
 - all required sections and annexes are complete;
 - internal links and Markdown structure validate;
 - Movement IV and other frozen baselines remain unchanged;
-- the formal Program Guide remains visibly planned;
+- the formal Program Guide remains a separately governed future layer;
 - architectural divergence review finds no unapproved fork; and
 - Philippine Veterans Bank work remains explicitly deferred.
 
@@ -73,9 +73,9 @@ Create the canonical Government Depository Program Guide and the controlled deri
 ### Sequence
 
 1. Persist the formal Guide skeleton from the frozen canonical architecture.
-2. Draft and lock Sections 1–7 one at a time.
+2. Draft Sections 1–7 and place them under editorial review.
 3. Complete the Guide's own Appendices A–G and all 27 mandatory coverage categories.
-4. Draft the Executive Summary last.
+4. Draft the Executive Summary from the complete Guide.
 5. Run cross-corpus doctrine, architecture, and parity review.
 6. Derive the shorter publication forms.
 7. Typeset only the accepted canonical sources.

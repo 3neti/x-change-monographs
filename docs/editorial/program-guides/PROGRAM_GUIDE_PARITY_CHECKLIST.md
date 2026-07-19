@@ -29,37 +29,37 @@ Neither dimension can compensate for the other.
 
 ## Cross-Program Matrix
 
-The RBAP and Thrift Banks columns record current guide coverage against the frozen architecture. The Government Depository Banks column remains a planning entry for the formal Guide. Its separate [Program foundation](../government-depository-digital-banking-program/README.md) does not convert planned Guide coverage to complete.
+The RBAP, Thrift Banks, and Government Depository Banks columns record current guide coverage against the frozen architecture. The Government Depository Guide is a complete Version 0.9 draft under review. `Complete` records substantive coverage; it does not imply editorial lock or publication approval.
 
 | Canonical Requirement | RBAP | Thrift Banks | Government Depository Banks | Status | Notes |
 | --- | --- | --- | --- | --- | --- |
-| 1. Opportunity | Complete | Complete | Planned | Planned | Thrift Section 1 answers the institution-specific opportunity; the government implementation remains planned. |
-| 2. Program definition | Complete | Complete | Planned | Planned | Thrift Section 2 distinguishes the Program from the enduring Capability. |
-| 3. Institutional benefits | Complete | Complete | Planned | Planned | Thrift Section 3 establishes operating leverage and institutional benefit. |
-| 4. Roles and responsibilities | Complete | Complete | Planned | Planned | Thrift Section 2 and Appendix B assign institutional and provider responsibilities. |
-| 5. Governance | Complete | Complete | Planned | Planned | RBAP Section 2 and Appendix B complete association, bank, provider, pilot, incident, and change-governance coverage. |
-| 6. Licensing or participation model | Complete | Complete | Planned | Planned | Thrift Section 2 defines institution-specific licensing and agreement boundaries without pricing. |
-| 7. Operating sovereignty | Complete | Complete | Planned | Planned | Thrift Sections 3 and 4 preserve institutional ownership and control. |
-| 8. DevOps model | Complete | Complete | Planned | Planned | Thrift Section 2, Section 4, and Appendix B define delegated DevOps responsibility. |
-| 9. Settlement model | Complete | Complete | Planned | Planned | Thrift Section 4 preserves the bank-owned settlement relationship and introduces no NetBank dependency. |
-| 10. Custody and authority boundaries | Complete | Complete | Planned | Planned | Thrift Section 4 and Appendices B and E preserve custody and authority. |
-| 11. Funding Events | Complete | Complete | Planned | Planned | Thrift Section 4 and Appendix D provide the canonical treatment. |
-| 12. Treasury | Complete | Complete | Planned | Planned | RBAP Section 4 and Appendix D complete the institutional Treasury grammar without changing custody or legal fund character. |
-| 13. Facilities | Complete | Complete | Planned | Planned | Thrift Section 4 preserves Facility ownership of commercial meaning. |
-| 14. Settlement Envelopes | Complete | Complete | Planned | Planned | Thrift Section 4 defines evidence and condition responsibility. |
-| 15. Pay Codes | Complete | Complete | Planned | Planned | Thrift Sections 4 and 5 preserve Pay Code as credential. |
-| 16. Execution | Complete | Complete | Planned | Planned | Thrift Section 4 defines execution through `emi-core` and the bank-specific driver. |
-| 17. Representative banking workflows | Complete | Complete | Planned | Planned | Thrift Section 5 presents remittance and five related services. |
-| 18. Business case | Complete | Complete | Planned | Planned | Thrift Section 6 establishes the institutional and commercial case. |
-| 19. Costs of participation | Complete | Complete | Planned | Planned | Thrift Section 6 and Appendix C identify cost categories without inventing prices. |
-| 20. Revenue or economic opportunities | Complete | Complete | Planned | Planned | Thrift Section 6 identifies possible value without automatic-return claims. |
-| 21. Commercial Waterfall | Complete | Complete | Planned | Planned | RBAP Sections 2 and 6 and Appendix C complete the principles-level accountability model without prescribing prices. |
-| 22. Pilot | Complete | Complete | Planned | Planned | Thrift Section 7 defines a bounded controlled-production pilot. |
-| 23. Phased rollout | Complete | Complete | Planned | Planned | Thrift Section 7 defines evidence-based expansion. |
-| 24. Success metrics | Complete | Complete | Planned | Planned | Thrift Section 7 defines evidence categories without prescribing targets. |
-| 25. FAQ | Complete | Complete | Planned | Planned | RBAP Appendix F answers all reserved questions and the additional institutional questions required for role and approval clarity. |
-| 26. Glossary | Complete | Complete | Planned | Planned | RBAP Appendix A defines the Program's banking, operational, technical, commercial, and publication terms with appropriate legal qualifications. |
-| 27. Deployment architecture | Complete | Complete | Planned | Planned | RBAP Appendix E completes bank-controlled environment, delegated DevOps, release, data, settlement, handover, and portability boundaries. |
+| 1. Opportunity | Complete | Complete | Complete | Complete | Government Depository Section 1 establishes the public-trust and reusable-capability opportunity without implying authority or selection. |
+| 2. Program definition | Complete | Complete | Complete | Complete | Government Depository Section 2 distinguishes the Program from the enduring Capability. |
+| 3. Institutional benefits | Complete | Complete | Complete | Complete | Government Depository Section 3 establishes institutional operating leverage and conditional public-finance positioning. |
+| 4. Roles and responsibilities | Complete | Complete | Complete | Complete | Government Depository Section 2 and Appendix B distinguish public, banking, provider, and oversight responsibilities. |
+| 5. Governance | Complete | Complete | Complete | Complete | Government Depository Section 2 and Appendix B define responsibility and decision gates without assigning legal authority through the Guide. |
+| 6. Licensing or participation model | Complete | Complete | Complete | Complete | Government Depository Section 2 distinguishes license, implementation, driver, operations, and provider arrangements without pricing. |
+| 7. Operating sovereignty | Complete | Complete | Complete | Complete | Government Depository Sections 3 and 4 preserve separate institutional deployment, data, credentials, relationships, and authority. |
+| 8. DevOps model | Complete | Complete | Complete | Complete | Government Depository Sections 2 and 4 and Appendices B and E define delegated DevOps within institution-controlled boundaries. |
+| 9. Settlement model | Complete | Complete | Complete | Complete | Government Depository Section 4 and Appendix E preserve institution-owned or established settlement relationships and no exclusive provider. |
+| 10. Custody and authority boundaries | Complete | Complete | Complete | Complete | Government Depository Section 4 and Appendices B, D, and E keep public authority, banking custody, and software state distinct. |
+| 11. Funding Events | Complete | Complete | Complete | Complete | Government Depository Section 4 and Appendix D retain the canonical recognition boundary. |
+| 12. Treasury | Complete | Complete | Complete | Complete | Government Depository Section 4 and Appendix D preserve operational state without changing custody, appropriation, trust, or accounting character. |
+| 13. Facilities | Complete | Complete | Complete | Complete | Government Depository Section 4 preserves service meaning while keeping public authority outside the Facility. |
+| 14. Settlement Envelopes | Complete | Complete | Complete | Complete | Government Depository Section 4 assigns conditions and evidence without making the Envelope a settlement mechanism. |
+| 15. Pay Codes | Complete | Complete | Complete | Complete | Government Depository Sections 4 and 5 and Appendix F preserve Pay Code as credential and vouchers as presentation only. |
+| 16. Execution | Complete | Complete | Complete | Complete | Government Depository Section 4 defines execution through `emi-core`, the institution-specific driver, and approved provider relationships. |
+| 17. Representative banking workflows | Complete | Complete | Complete | Complete | Government Depository Section 5 presents LGU assistance and seven related public-finance service domains. |
+| 18. Business case | Complete | Complete | Complete | Complete | Government Depository Section 6 establishes the institutional and commercial case without guaranteed public business. |
+| 19. Costs of participation | Complete | Complete | Complete | Complete | Government Depository Section 6 and Appendix C identify cost categories without inventing prices. |
+| 20. Revenue or economic opportunities | Complete | Complete | Complete | Complete | Government Depository Section 6 identifies conditional service, deposit, activity, efficiency, and relationship value. |
+| 21. Commercial Waterfall | Complete | Complete | Complete | Complete | Government Depository Section 6 and Appendix C provide a principles-level accountability model without prescribing prices or public fees. |
+| 22. Pilot | Complete | Complete | Complete | Complete | Government Depository Section 7 defines a bounded pilot subject to public and banking authority. |
+| 23. Phased rollout | Complete | Complete | Complete | Complete | Government Depository Section 7 defines evidence-based, non-automatic expansion. |
+| 24. Success metrics | Complete | Complete | Complete | Complete | Government Depository Section 7 defines authority, attribution, execution, reconciliation, service, security, and control evidence without fixed targets. |
+| 25. FAQ | Complete | Complete | Complete | Complete | Government Depository Appendix F answers role, authority, custody, credential, driver, deployment, settlement, and readiness questions. |
+| 26. Glossary | Complete | Complete | Complete | Complete | Government Depository Appendix A defines canonical terms and public-finance qualifications without changing the shared grammar. |
+| 27. Deployment architecture | Complete | Complete | Complete | Complete | Government Depository Appendix E preserves institution-controlled deployment, separate tenancy, delegated DevOps, integration, government-system, settlement, and production boundaries. |
 
 The cross-program matrix remains the architectural parity control. The following business-question review supplements it without replacing or reorganizing its 27 mandatory coverage categories.
 
@@ -67,13 +67,13 @@ The cross-program matrix remains the architectural parity control. The following
 
 | Section | Executive Question | Decision the section must enable | RBAP | Thrift Banks | Government Depository Banks | Status | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Section 1 — Why This Program? | Why should the sector body launch this Program? | Decide whether the Program merits institutional consideration. | Complete | Complete | Planned | Planned | The thrift implementation adapts the question to one institution and supports formal evaluation. |
-| Section 2 — What Is the Program? | What exactly is the sector body being invited to launch? | Decide whether the proposed Program merits institutional evaluation. | Complete | Complete | Planned | Planned | The thrift implementation defines Program, Capability, roles, licensing, governance, and boundaries. |
-| Section 3 — Why Should a Bank Participate? | What does an individual bank gain? | Understand the institution's prospective benefit from participation. | Complete | Complete | Planned | Planned | The thrift implementation answers the institution-specific benefit question. |
-| Section 4 — How Does the Program Work? | How does the operating model work? | Understand how the model preserves institutional independence while enabling modern digital banking. | Complete | Complete | Planned | Planned | The thrift implementation covers the complete operating and driver model. |
-| Section 5 — Banking in Action | Show me how it actually works. | Assess the Program through representative banking workflows. | Complete | Complete | Planned | Planned | The thrift implementation uses remittance canonically and relates five further services. |
-| Section 6 — The Institutional Case | What kind of institution can participation help the bank become? | Decide whether the institutional case merits detailed commercial and implementation evaluation. | Complete | Complete | Planned | Planned | The thrift implementation covers Transaction Gravity, adaptability, costs, opportunities, and sustainability. |
-| Section 7 — Launching the Program | What happens after approval? | Decide whether to authorize or evaluate the proposed next step. | Complete | Complete | Planned | Planned | The thrift implementation defines discovery through controlled expansion. |
+| Section 1 — Why This Program? | Why should the sector body launch this Program? | Decide whether the Program merits institutional consideration. | Complete | Complete | Complete | Complete | The Government Depository implementation establishes the public-trust and institutional-capability opportunity. |
+| Section 2 — What Is the Program? | What exactly is the sector body being invited to launch? | Decide whether the proposed Program merits institutional evaluation. | Complete | Complete | Complete | Complete | The Government Depository implementation defines Program, Capability, roles, licensing, governance, and authority boundaries. |
+| Section 3 — Why Should a Bank Participate? | What does an individual bank gain? | Understand the institution's prospective benefit from participation. | Complete | Complete | Complete | Complete | The Government Depository implementation explains conditional institutional benefit without implying selection. |
+| Section 4 — How Does the Program Work? | How does the operating model work? | Understand how the model preserves institutional independence while enabling modern digital banking. | Complete | Complete | Complete | Complete | The Government Depository implementation covers public authority, custody, operating grammar, deployment, driver, and settlement boundaries. |
+| Section 5 — Banking in Action | Show me how it actually works. | Assess the Program through representative banking workflows. | Complete | Complete | Complete | Complete | The Government Depository implementation uses LGU assistance and relates seven further public-finance services. |
+| Section 6 — The Institutional Case | What kind of institution can participation help the bank become? | Decide whether the institutional case merits detailed commercial and implementation evaluation. | Complete | Complete | Complete | Complete | The Government Depository implementation covers institutional positioning, adaptability, costs, economic opportunities, public value, and sustainability. |
+| Section 7 — Launching the Program | What happens after approval? | Decide whether to authorize or evaluate the proposed next step. | Complete | Complete | Complete | Complete | The Government Depository implementation defines authority assessment through controlled expansion. |
 
 For a section to be `Complete`, reviewers must confirm all of the following:
 
@@ -90,16 +90,16 @@ Appendix G implements the shared registry for canonical program diagrams. The RB
 
 | Canonical diagram | Registry status | RBAP | Thrift Banks | Government Depository Banks | Notes |
 | --- | --- | --- | --- | --- | --- |
-| Program Participants | Complete | Complete | Complete | Planned | RBAP Appendix G preserves association administration, bank authority, delegated operations, and regulated settlement responsibility. |
-| Funding Event | Complete | Complete | Complete | Planned | RBAP Appendix G records recognition of an external financial event without creating value. |
-| Treasury | Complete | Complete | Complete | Planned | RBAP Appendix G distinguishes recognized, available, reserved, outstanding, unresolved, and resolved operational state. |
-| Banking Operating Model | Complete | Complete | Complete | Planned | RBAP Appendix G connects request, bank authority, Facility, conditions, credential, execution, settlement, and reconciliation. |
-| Deposit Flow | Complete | Complete | Complete | Planned | RBAP Appendix G preserves the bank-customer deposit relationship and operational recognition boundary. |
-| Payroll Flow | Complete | Complete | Complete | Planned | RBAP Appendix G preserves employer authority, bank governance, attribution, execution, outcomes, and reconciliation. |
-| Merchant Flow | Complete | Complete | Complete | Planned | RBAP Appendix G preserves the bank-governed Facility and direct settlement arrangement. |
-| Government Disbursement Flow | Complete | Complete | Complete | Planned | RBAP Appendix G preserves agency authority, bank governance, beneficiary conditions, and reconciliation. |
-| Commercial Waterfall | Complete | Complete | Complete | Planned | RBAP Appendix G expresses an accountability sequence separate from custody and settlement and contains no prices. |
-| Deployment Architecture | Complete | Complete | Complete | Planned | RBAP Appendix G preserves separate bank deployments, delegated operations, credentials, accounts, and authority. |
+| Program Participants | Complete | Complete | Complete | Complete | Government Depository Appendix G adds public authority and oversight while preserving institutional and provider boundaries. |
+| Funding Event | Complete | Complete | Complete | Complete | Government Depository Appendix G records external-event recognition without creating or characterizing public funds. |
+| Treasury | Complete | Complete | Complete | Complete | Government Depository Appendix G distinguishes recognized, available, reserved, outstanding, unresolved, and resolved state. |
+| Banking Operating Model | Complete | Complete | Complete | Complete | Government Depository Appendix G connects public instruction, depository banking service, x-change, driver, API, account, and approved settlement. |
+| Deposit Flow | Complete | Complete | Complete | Complete | Government Depository Appendix G preserves depository authority, account records, Funding Event recognition, and operational Treasury state. |
+| Payroll Flow | Complete | Complete | Complete | Complete | Government Depository Appendix G preserves government-employer authority, personnel attribution, execution, outcomes, and reconciliation. |
+| Merchant Flow | Complete | Complete | Complete | Complete | Government Depository Appendix G references the canonical merchant Facility and institution-approved settlement sequence without making it the sector thesis. |
+| Government Disbursement Flow | Complete | Complete | Complete | Complete | Government Depository Appendix G preserves public authority, Facility, beneficiary conditions, institution-authorized execution, and reconciliation. |
+| Commercial Waterfall | Complete | Complete | Complete | Complete | Government Depository Appendix G adds public-program obligations to the canonical accountability sequence and contains no prices. |
+| Deployment Architecture | Complete | Complete | Complete | Complete | Government Depository Appendix G preserves separate institution deployments, credentials, APIs, accounts, and authority. |
 
 A future guide satisfies diagram parity by referencing the approved canonical diagram. It must not recreate or redefine a canonical diagram without an accepted editorial decision authorizing the deviation.
 
@@ -109,7 +109,7 @@ A future guide satisfies diagram parity by referencing the approved canonical di
 | --- | --- | --- |
 | RBAP Digital Banking Program | `docs/editorial/program-guides/rbap/rbap-digital-banking-program-guide.md` | The Executive Summary was revalidated under EDR-012 and locked without wording changes. Sections 1–7 and Appendices A–G remain canonical and locked; all mandatory coverage categories and diagram-registry requirements remain Complete. The complete editorial source is canonical and locked. Final publication governance, figure rendering, accessibility tagging, placement, and pagination remain pending. |
 | Thrift Bank Digital Banking Program | `docs/editorial/program-guides/thrift-bank/thrift-bank-program-guide.md` | Canonical and editorially locked under the [Editorial Acceptance](thrift-bank/EDITORIAL_ACCEPTANCE.md). EDR-005 editorial work is complete for this implementation; future work proceeds through institution-specific editions. Executive Summary, Sections 1–7, and Appendices A–G are complete. No publication build is authorized. The separate [Phase 1 Institutional Study](../thrift-bank-digital-banking-program/README.md) remains the authoritative doctrinal source. |
-| Government Depository Banking Program | Formal Guide not created; foundation: `docs/editorial/government-depository-digital-banking-program/README.md` | The canonical Program foundation is complete at version 0.1. The formal EDR-005 Program Guide has not been created, so all Guide coverage and canonical diagrams remain Planned. Institution-specific work is deferred pending a separate research-first phase. |
+| Government Depository Banking Program | `docs/editorial/program-guides/government-depository/government-depository-digital-banking-program-guide.md` | Version 0.9 is a complete draft under review. The Executive Summary, Sections 1–7, Appendices A–G, all mandatory coverage categories, and canonical diagram registry are Complete for parity. Nothing is editorially locked or approved for publication. Institution-specific work remains deferred pending a separate research-first phase. |
 
 ## Required Gap Report
 
