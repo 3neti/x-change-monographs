@@ -34,6 +34,7 @@ The Government Depository Program Guide supplies the institutional research lens
 - [Compass](COMPASS.md)
 - [Roadmap](ROADMAP.md)
 - [Parity and completeness review](PARITY.md)
+- [Research Decision Record](RESEARCH_DECISION_RECORD.md)
 - [Institution Intelligence](INSTITUTION_INTELLIGENCE.md)
 - [Institutional profile](INSTITUTIONAL_PROFILE.md)
 - [Ownership, mandate, and governance](OWNERSHIP_MANDATE_AND_GOVERNANCE.md)
@@ -56,7 +57,7 @@ Every material institution-specific statement is classified as:
 - **Institution-Provided** — none in this phase; or
 - **Calculated** — derived transparently from cited inputs.
 
-The source and evidence registers are authoritative for claim provenance. Supporting notes provide readable domain views; they do not create a separate source of truth.
+The source and evidence registers are authoritative for claim provenance. The Research Decision Record explains the methodological choices that shaped the evidence baseline. Supporting notes provide readable domain views; they do not create a separate source of truth.
 
 ## Material limits
 

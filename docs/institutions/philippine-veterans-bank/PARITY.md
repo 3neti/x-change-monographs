@@ -10,6 +10,7 @@ This review checks the Phase 1 corpus against the canonical Institution Intellig
 | --- | --- | --- | --- |
 | Research brief and authorization | `README.md`, `COMPASS.md` | Complete | Phase 1 only; later artifacts prohibited |
 | Institution metadata and evidence cutoff | `metadata.yaml` | Complete | Cutoff and last verification: 20 July 2026 |
+| Research methodology audit trail | `RESEARCH_DECISION_RECORD.md` | Complete — In Review | Material source, classification, conflict, period, perimeter, and phase-boundary decisions recorded |
 | Public Source Register | `SOURCE_REGISTER.md` | Complete | 18 public sources; no institution-provided material |
 | Evidence Register | `EVIDENCE_REGISTER.md` | Complete | Observed, Inferred, Unknown, and calculation controls included |
 | Institution Intelligence report | `INSTITUTION_INTELLIGENCE.md` | Complete — In Review | Required sections present; no recommendation is advanced |
