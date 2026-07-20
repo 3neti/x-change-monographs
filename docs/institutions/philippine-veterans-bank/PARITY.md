@@ -22,8 +22,10 @@ This review checks the Phase 1 corpus against the canonical Institution Intellig
 | Interview register | Not applicable in Phase 1 public-source work | Explained | No interviews or institution-provided materials were authorized |
 | Strategic Assessment | `STRATEGIC_ASSESSMENT.md` | Accepted — Gate 1 | Interprets PVB without proposing x-change |
 | Strategic Assessment decision record | `STRATEGIC_ASSESSMENT_DECISION_RECORD.md` | Accepted — Gate 1 | Material interpretive and gate decisions recorded |
-| Strategic Gap Analysis | `GAP_ANALYSIS.md` | Complete — Gate 2 Review | Compares evidenced PVB with canonical capability without recommending a solution |
-| Gap Analysis decision record | `GAP_ANALYSIS_DECISION_RECORD.md` | Complete — Gate 2 Review | Classification and evidence-handling decisions recorded |
+| Strategic Gap Analysis | `GAP_ANALYSIS.md` | Accepted — Gate 2 | Compares evidenced PVB with canonical capability without recommending a solution |
+| Gap Analysis decision record | `GAP_ANALYSIS_DECISION_RECORD.md` | Accepted — Gate 2 | Classification and evidence-handling decisions recorded |
+| Modernization Program | `PHILIPPINE_VETERANS_BANK_MODERNIZATION_PROGRAM.md` | Complete — Gate 3 Review | Evidence-derived institutional response with explicit categories and conditional recommendations |
+| Modernization Program decision record | `MODERNIZATION_PROGRAM_DECISION_RECORD.md` | Complete — Gate 3 Review | Program-design methodology and candidate dispositions recorded |
 | Editorial Mapping | Not authorized | Correctly absent | Requires accepted preceding analysis |
 
 ## Research-domain parity
@@ -116,4 +118,34 @@ Gate 1 was reviewed and approved on 20 July 2026. The approval authorized eviden
 
 ## Gate 2 recommendation
 
-The Gap Analysis and its decision record are complete for Gate 2 review. They support a reviewer decision of **Accept for Modernization Program drafting with stated Unknowns** if the analytical comparison is accepted. The analysis is not self-authorizing: an explicit Gate 2 decision is required before Phase 4 begins.
+Gate 2 was reviewed and approved on 20 July 2026. The approval authorized evidence-derived Program design; it did not establish PVB approval, implementation authority, or readiness.
+
+## Phase 4 Gate 3 parity
+
+| Required Program area | Status | Review note |
+| --- | --- | --- |
+| Evidence-led opening | Complete | Observation, interpretation, and comparison precede the proposed Capability |
+| PVB institutional identity | Complete | Private commercial bank, statutory veterans institution, and official government depository preserved together |
+| Institutional opportunity | Complete | Derived from PVB authority, constituencies, relationships, and public-finance evidence |
+| Proposed institutional Capability | Complete | Clearly future-facing and separated from current PVB capability |
+| Primary candidate ceremony | Complete and conditional | Bounded public-assistance disbursement justified by CLM-019 and CLM-021; discovery only |
+| Secondary candidate ceremony | Complete and conditional | Public collections justified by CLM-017, CLM-018, CLM-020, and CLM-022 |
+| Strategic later candidates | Complete | Veterans benefits and payroll preserved without priority unsupported by workflow evidence |
+| Deferred candidates | Complete | Treasury and GOCC retained for later evaluation; procurement deferred pending PVB evidence |
+| Operating model | Complete | Canonical authority, Treasury, Facility, Settlement Envelope, Pay Code, Execution, evidence, and reconciliation boundaries preserved |
+| Governance | Complete | Public, PVB, provider, ODTI, and settlement responsibilities remain distinct |
+| Operating sovereignty | Complete as Proposed Capability | Institution-controlled model stated; current PVB state remains Management Validation |
+| Readiness | Complete | Program, workflow, implementation, technical, operational, production, and expansion judgments remain separate |
+| Controlled implementation | Complete | Institutional gate philosophy provided without schedule, budget, technical design, or authorization |
+| Institutional and economic case | Complete and bounded | Capability precedes contingent economics; no return, deposit, or preferred-status promise |
+| Decisions required | Complete | Immediate decision is Management validation and a separate return decision, not implementation |
+| Management Validation | Complete | Validation register covers strategy, authority, finance, funds, participants, technology, execution, reconciliation, economics, and readiness |
+| Unknowns | Complete | No Unknown converted into current fact or guaranteed outcome |
+| Decision record | Complete | Twelve design decisions and four open decisions recorded |
+| AllBank provenance | Complete | Consulted only after the first complete PVB draft and only for publication-quality assurance |
+| Canonical doctrine protection | Complete | Government Depository Guide and appendices unchanged |
+| Later-stage boundary | Complete | No Executive Submission, proposal, presentation, financial brief, implementation plan, or production authorization created |
+
+## Gate 3 recommendation
+
+The Modernization Program and its decision record are complete for Gate 3 review. They support a reviewer decision of **Accept the Program with stated Unknowns** if the institutional design and controlled recommendations are accepted. The Program is not self-authorizing: an explicit Gate 3 decision is required before Executive Submission work begins.

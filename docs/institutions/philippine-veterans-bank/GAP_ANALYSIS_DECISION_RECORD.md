@@ -160,9 +160,9 @@ This record preserves the methodological decisions used to compare the evidenced
 
 ### GAD-O01 — Gate 2 disposition
 
-**Status:** Open
+**Status:** Accepted for Modernization Program Drafting
 
-The reviewer must decide whether to accept the Gap Analysis for Modernization Program drafting, return it for correction, require management validation first, or pause the workstream.
+Gate 2 was reviewed and approved on 20 July 2026. The approval authorized evidence-derived Modernization Program drafting with Unknowns preserved. It did not authorize an Executive Submission or implementation.
 
 ### GAD-O02 — Unknowns permitted during Program drafting
 
@@ -186,4 +186,4 @@ No ceremony-selection decision exists. Later authorization must specify whether 
 
 ## Gate declaration
 
-This record is complete for Gate 2 review. It does not authorize Modernization Program drafting, Executive Submission, proposal development, presentation production, financial-brief preparation, or implementation work.
+Gate 2 was accepted on 20 July 2026. This record authorizes only the completed Modernization Program drafting phase and does not authorize Executive Submission, proposal development, presentation production, financial-brief preparation, or implementation work.

@@ -48,7 +48,7 @@ assessment:
 gap_analysis:
   phase: 3
   version: "0.1"
-  status: "Gate 2 Review"
+  status: "Accepted at Gate 2"
   authorization_date: "2026-07-20"
   analysis_date: "2026-07-20"
   evidence_cutoff_date: "2026-07-20"
@@ -62,6 +62,29 @@ gap_analysis:
     - "Outside Current Authority"
     - "Proposed Program Capability"
   allbank_consulted: false
+modernization_program:
+  phase: 4
+  version: "0.1"
+  status: "Gate 3 Review"
+  authorization_date: "2026-07-20"
+  program_date: "2026-07-20"
+  evidence_cutoff_date: "2026-07-20"
+  source_sequence:
+    - "PVB Institution Intelligence"
+    - "Accepted Strategic Assessment"
+    - "Accepted Gap Analysis"
+    - "Government Depository Digital Banking Program Guide Version 0.9 review baseline"
+  primary_discovery_candidate: "Bounded public-assistance disbursement — subject to Management Validation"
+  secondary_discovery_candidate: "Public collections — subject to Management Validation"
+  statement_categories:
+    - "Current Institution"
+    - "Proposed Capability"
+    - "Management Validation"
+    - "Controlled Recommendation"
+  allbank_editorial_review:
+    performed_after_first_complete_pvb_draft: true
+    scope: "Publication quality only"
+    institution_specific_content_imported: false
 artifacts:
   institution_intelligence: "Complete — In Review"
   research_decision_record: "Complete — In Review"
@@ -76,9 +99,11 @@ artifacts:
   questions_for_management: "Complete — In Review"
   strategic_assessment: "Accepted — Gate 1"
   strategic_assessment_decision_record: "Accepted — Gate 1"
-  strategic_gap_analysis: "Complete — Gate 2 Review"
-  gap_analysis_decision_record: "Complete — Gate 2 Review"
-  modernization_program: "Not Authorized — Pending Gate 2"
+  strategic_gap_analysis: "Accepted — Gate 2"
+  gap_analysis_decision_record: "Accepted — Gate 2"
+  modernization_program: "Complete — Gate 3 Review"
+  modernization_program_decision_record: "Complete — Gate 3 Review"
+  executive_submission: "Not Authorized — Pending Gate 3"
   editorial_mapping: "Not Authorized"
   institution_edition: "Not Authorized"
   commercial_proposal: "Not Authorized"
@@ -87,16 +112,17 @@ gate:
   phase_1_package: "Complete for editorial and evidence review"
   phase_1_status: "In Review; not retroactively accepted by the Phase 2 assignment"
   phase_2_strategic_assessment: "Accepted at Gate 1"
-  phase_3_gap_analysis: "Complete for Gate 2 review"
-  outcome_recommendation: "Review the Gap Analysis with stated Unknowns"
-  next_decision: "Accept for Modernization Program drafting, return for analytical correction, require management validation, or pause"
+  phase_3_gap_analysis: "Accepted at Gate 2"
+  phase_4_modernization_program: "Complete for Gate 3 review"
+  outcome_recommendation: "Review the evidence-derived Modernization Program with Unknowns and Management Validation items preserved"
+  next_decision: "Accept the Program, return for correction, require management validation, or pause"
 restrictions:
   - "Do not treat charter authority as proof of operational readiness."
   - "Do not treat public digital channels as evidence of production architecture or API suitability."
   - "Do not create institution-specific recommendations, proposals, or implementation plans from this Phase 1 record."
-  - "Do not begin the Modernization Program until Gate 2 is explicitly accepted."
+  - "Do not begin the Executive Submission until Gate 3 is explicitly accepted."
   - "Do not consult the AllBank Program until the first complete PVB Modernization Program draft exists."
 agent_rule: "If sufficient evidence is unavailable, the research agent shall explicitly identify the gap rather than compensate with unsupported prose."
 publication:
   generated: false
-notes: "Gate 1 authorized comparison, not institutional engagement. The Phase 3 Gap Analysis preserves Unknowns and makes no recommendation. It does not establish PVB interest, readiness, or authorization for a Modernization Program or any later-stage artifact."
+notes: "Gate 2 authorized institutional design, not PVB engagement or implementation. The Phase 4 Program is evidence-derived and preserves Unknowns. It does not establish PVB interest, readiness, or authorization for an Executive Submission or any implementation activity."

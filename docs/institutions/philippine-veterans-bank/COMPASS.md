@@ -20,6 +20,10 @@ Phase 3 asks:
 
 > Where does the evidenced institution align with the canonical Government Depository capability, where is capability only partially evidenced, and where must Unknowns or proposed capabilities remain explicit?
 
+Phase 4 asks:
+
+> What controlled institutional response follows from the evidence, assessment, and comparison without presuming PVB approval, implementation, or readiness?
+
 ## Protagonist
 
 The protagonist is Philippine Veterans Bank as an institution. x-change is not the subject of Phase 1 or Phase 2.
@@ -73,34 +77,42 @@ Completed under Gate 2 authority:
 - preservation of management-validation questions; and
 - a Gap Analysis Decision Record.
 
+Completed under Gate 3 authority:
+
+- explicit synthesis of Institution Intelligence, Strategic Assessment, and Gap Analysis;
+- an institution-specific proposed Capability derived from canonical doctrine;
+- evidence-supported candidate-ceremony recommendations;
+- PVB-specific governance, sovereignty, readiness, and controlled-implementation principles;
+- Management Validation and Unknowns preserved as decision conditions;
+- a Modernization Program Decision Record; and
+- a post-draft AllBank review limited to publication quality.
+
 Not authorized:
 
-- x-change recommendation;
 - institution-specific doctrine;
-- Modernization Program;
 - Institution Edition;
 - proof of concept;
 - commercial proposal;
 - solution architecture; or
 - implementation roadmap.
 
-Gate 1 accepted the Strategic Assessment for evidence-led comparison. It did not establish PVB institutional interest or readiness. Phase 3 is complete for Gate 2 review; Phase 4 remains unauthorized.
+Gate 1 accepted the Strategic Assessment for comparison. Gate 2 accepted the Gap Analysis for institutional design. Neither established PVB interest or readiness. Phase 4 is complete for Gate 3 review; the Executive Submission and implementation remain unauthorized.
 
 ## Protected canonical source
 
 The Government Depository Program Guide and its supporting doctrine remain unchanged. This dossier may cite that lineage as a research lens, but it may not use the Guide to manufacture PVB facts.
 
-## Phase 3 completion standard
+## Phase 4 completion standard
 
-The Gap Analysis is complete for Gate 2 review when:
+The Modernization Program is complete for Gate 3 review when:
 
-1. every PVB-specific finding is traceable to the evidence corpus;
-2. every comparison identifies the applicable canonical capability;
-3. absence of public evidence is not presented as deficiency;
-4. Unknowns remain visible;
-5. canonical Program capabilities are not presented as existing PVB capabilities;
-6. payment connectivity is not converted into a complete banking service;
-7. candidate ceremonies remain unselected; and
-8. no x-change recommendation, Modernization Program, proposal, or implementation content appears.
+1. the institutional response visibly follows evidence, interpretation, and comparison;
+2. every PVB-specific statement and recommendation is traceable;
+3. Current Institution, Proposed Capability, Management Validation, and Controlled Recommendation remain distinct;
+4. PVB's private-bank, veterans, and government-depository identities remain intact;
+5. candidate ceremonies are justified and conditional;
+6. Unknowns and readiness boundaries remain visible;
+7. AllBank is consulted only after the first complete PVB draft and only for publication quality; and
+8. no Executive Submission, proposal, implementation plan, or production authorization appears.
 
-Acceptance for Modernization Program drafting remains a separate Gate 2 decision.
+Acceptance for Executive Submission work remains a separate Gate 3 decision.

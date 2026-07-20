@@ -4,15 +4,15 @@ This repository is the first evidence-based application of the canonical [Instit
 
 **Institution:** Philippine Veterans Bank (PVB)
 
-**Phase:** 3 — Gap Analysis (Gate 2)
+**Phase:** 4 — Modernization Program (Gate 3)
 
-**Status:** Gap Analysis complete for Gate 2 review
+**Status:** Modernization Program complete for Gate 3 review
 
 **Evidence cutoff:** 20 July 2026
 
 **Public-source basis:** Yes; no institution-provided materials were used
 
-The Phase 1 dossier describes PVB before evaluating it. The accepted Phase 2 Strategic Assessment interprets that evidence on the institution's own terms. The Phase 3 Gap Analysis compares the evidenced institution with the canonical Government Depository capability while preserving Unknowns and avoiding recommendations.
+The Phase 1 dossier describes PVB before evaluating it. The accepted Phase 2 Strategic Assessment interprets that evidence on the institution's own terms. The accepted Phase 3 Gap Analysis compares the evidenced institution with the canonical Government Depository capability. The Phase 4 Modernization Program is the controlled institutional response derived from those three layers.
 
 ## Canonical lineage
 
@@ -27,6 +27,11 @@ Philippine Veterans Bank Institution Intelligence
 ```
 
 The Government Depository Program Guide supplies the institutional research lens. It is not evidence of PVB intent, adoption, capability, selection, or readiness.
+
+## Phase 4 artifacts
+
+- [Philippine Veterans Bank Modernization Program](PHILIPPINE_VETERANS_BANK_MODERNIZATION_PROGRAM.md)
+- [Modernization Program Decision Record](MODERNIZATION_PROGRAM_DECISION_RECORD.md)
 
 ## Phase 3 artifacts
 
@@ -77,6 +82,6 @@ The 2025 audited financial statements contain a qualified opinion and a material
 
 ## Gate status
 
-Gate 1 approved the Strategic Assessment for evidence-led comparison. It did not establish PVB institutional interest, readiness, or Program authority.
+Gate 1 approved the Strategic Assessment for evidence-led comparison. Gate 2 approved the Gap Analysis for evidence-derived institutional design. Neither decision establishes PVB institutional interest, readiness, or implementation authority.
 
-The Gap Analysis is complete for Gate 2 review. The reviewer may accept it for Modernization Program drafting with stated Unknowns, return it for correction, require management validation first, or pause the workstream. Until that decision is recorded, Phase 4 and all later phases remain unauthorized.
+The Modernization Program is complete for Gate 3 review. The reviewer may accept it, return it for correction, require management validation before acceptance, or pause the workstream. Until Gate 3 is explicitly accepted, the Executive Submission and all commercial, presentation, financial-brief, and implementation work remain unauthorized.
