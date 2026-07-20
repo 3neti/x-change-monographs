@@ -4,15 +4,15 @@ This repository is the first evidence-based application of the canonical [Instit
 
 **Institution:** Philippine Veterans Bank (PVB)
 
-**Phase:** 4 — Modernization Program (Gate 3)
+**Phase:** 5 — Executive Submission Suite
 
-**Status:** Modernization Program complete for Gate 3 review
+**Status:** Executive Submission Suite complete for executive-publication review
 
 **Evidence cutoff:** 20 July 2026
 
 **Public-source basis:** Yes; no institution-provided materials were used
 
-The Phase 1 dossier describes PVB before evaluating it. The accepted Phase 2 Strategic Assessment interprets that evidence on the institution's own terms. The accepted Phase 3 Gap Analysis compares the evidenced institution with the canonical Government Depository capability. The Phase 4 Modernization Program is the controlled institutional response derived from those three layers.
+The Phase 1 dossier describes PVB before evaluating it. The accepted Phase 2 Strategic Assessment interprets that evidence on the institution's own terms. The accepted Phase 3 Gap Analysis compares the evidenced institution with the canonical Government Depository capability. The accepted Phase 4 Modernization Program is the canonical institutional response. The Phase 5 Executive Submission Suite communicates that Program to specific executive audiences without changing it.
 
 ## Canonical lineage
 
@@ -27,6 +27,17 @@ Philippine Veterans Bank Institution Intelligence
 ```
 
 The Government Depository Program Guide supplies the institutional research lens. It is not evidence of PVB intent, adoption, capability, selection, or readiness.
+
+## Phase 5 artifacts
+
+- [Executive Submission Suite](executive-submission/README.md)
+- [Executive Summary](executive-submission/EXECUTIVE_SUMMARY.md)
+- [Board Paper](executive-submission/BOARD_PAPER.md)
+- [Executive Brief](executive-submission/EXECUTIVE_BRIEF.md)
+- [One-Page Decision Memo](executive-submission/ONE_PAGE_DECISION_MEMO.md)
+- [Meeting Leave-Behind](executive-submission/MEETING_LEAVE_BEHIND.md)
+- [Executive Presentation Outline](executive-submission/EXECUTIVE_PRESENTATION_OUTLINE.md)
+- [Executive FAQ](executive-submission/EXECUTIVE_FAQ.md)
 
 ## Phase 4 artifacts
 
@@ -82,6 +93,6 @@ The 2025 audited financial statements contain a qualified opinion and a material
 
 ## Gate status
 
-Gate 1 approved the Strategic Assessment for evidence-led comparison. Gate 2 approved the Gap Analysis for evidence-derived institutional design. Neither decision establishes PVB institutional interest, readiness, or implementation authority.
+Gate 1 approved the Strategic Assessment for evidence-led comparison. Gate 2 approved the Gap Analysis for evidence-derived institutional design. Gate 3 accepted the Modernization Program as canonical and authorized derivative executive communication. None establishes PVB institutional approval, readiness, or implementation authority.
 
-The Modernization Program is complete for Gate 3 review. The reviewer may accept it, return it for correction, require management validation before acceptance, or pause the workstream. Until Gate 3 is explicitly accepted, the Executive Submission and all commercial, presentation, financial-brief, and implementation work remain unauthorized.
+The Executive Submission Suite is complete for executive-publication review. The reviewer may accept it for publication preparation, return a specific derivative for correction, require traceability clarification, or pause the workstream. PDF generation, a presentation deck, proposal, financial brief, commercial work, and implementation remain unauthorized.

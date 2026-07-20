@@ -24,8 +24,9 @@ This review checks the Phase 1 corpus against the canonical Institution Intellig
 | Strategic Assessment decision record | `STRATEGIC_ASSESSMENT_DECISION_RECORD.md` | Accepted — Gate 1 | Material interpretive and gate decisions recorded |
 | Strategic Gap Analysis | `GAP_ANALYSIS.md` | Accepted — Gate 2 | Compares evidenced PVB with canonical capability without recommending a solution |
 | Gap Analysis decision record | `GAP_ANALYSIS_DECISION_RECORD.md` | Accepted — Gate 2 | Classification and evidence-handling decisions recorded |
-| Modernization Program | `PHILIPPINE_VETERANS_BANK_MODERNIZATION_PROGRAM.md` | Complete — Gate 3 Review | Evidence-derived institutional response with explicit categories and conditional recommendations |
-| Modernization Program decision record | `MODERNIZATION_PROGRAM_DECISION_RECORD.md` | Complete — Gate 3 Review | Program-design methodology and candidate dispositions recorded |
+| Modernization Program | `PHILIPPINE_VETERANS_BANK_MODERNIZATION_PROGRAM.md` | Accepted — Gate 3 — Canonical | Evidence-derived institutional response with explicit categories and conditional recommendations |
+| Modernization Program decision record | `MODERNIZATION_PROGRAM_DECISION_RECORD.md` | Accepted — Gate 3 | Program-design methodology and candidate dispositions recorded |
+| Executive Submission Suite | `executive-submission/README.md` | Complete — Executive Publication Review | Seven audience-specific derivatives and suite governance |
 | Editorial Mapping | Not authorized | Correctly absent | Requires accepted preceding analysis |
 
 ## Research-domain parity
@@ -148,4 +149,29 @@ Gate 2 was reviewed and approved on 20 July 2026. The approval authorized eviden
 
 ## Gate 3 recommendation
 
-The Modernization Program and its decision record are complete for Gate 3 review. They support a reviewer decision of **Accept the Program with stated Unknowns** if the institutional design and controlled recommendations are accepted. The Program is not self-authorizing: an explicit Gate 3 decision is required before Executive Submission work begins.
+Gate 3 was reviewed and approved on 20 July 2026. The Modernization Program is the canonical PVB institutional document and the authoritative parent for executive derivatives.
+
+## Phase 5 executive-publication parity
+
+| Publication requirement | Status | Review note |
+| --- | --- | --- |
+| Canonical parent | Complete | Program path and SHA-256 recorded; Program unmodified |
+| Executive decision focus | Complete | Same bounded Management-validation decision across all derivatives |
+| Executive Summary | Complete | Stand-alone Board and Executive Committee synthesis |
+| Board Paper | Complete | Formal decision request, validation scope, governance boundary, and return requirement |
+| Executive Brief | Complete | Management discussion preparation without implementation detail |
+| One-Page Decision Memo | Complete | Rapid Board-level decision reference |
+| Meeting Leave-Behind | Complete | Concise post-discussion institutional reference |
+| Executive Presentation Outline | Complete | Ten-slide narrative outline; no presentation asset generated |
+| Executive FAQ | Complete | Eighteen decision-boundary questions; no engineering explanation |
+| Audience separation | Complete | Intended audience and use named in every publication |
+| Program traceability | Complete | Every derivative links to the canonical parent and preserves its decisions |
+| Candidate ceremonies | Complete | Primary, secondary, strategic later, and deferred dispositions unchanged |
+| Unknowns and Management Validation | Complete | Preserved as decision conditions |
+| Implementation boundary | Complete | No implementation, procurement, contracting, integration, or production authorization |
+| Commercial boundary | Complete | No price, return, budget, or agreement introduced |
+| AllBank boundary | Complete | Used only for publication quality; no institution-specific content imported |
+
+## Executive-publication review recommendation
+
+The suite is complete for review and supports a decision of **Accept for publication preparation** if its derivative fidelity, audience fit, and decision clarity are accepted. No PDF, presentation deck, proposal, financial brief, or implementation artifact is authorized by this status.

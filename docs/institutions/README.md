@@ -31,6 +31,6 @@ The [institution template](template/README.md) is the standard scaffold for futu
 ## Institution applications
 
 - [AllBank Institution Intelligence, Editions, and Commercial Proposal](allbank/README.md) — Phase 1 public-source intelligence, an internal Research Edition, an approved and frozen client-facing Executive Edition, and submitted Proposal No. ODTI-2026-001; implementation remains unauthorized
-- [Philippine Veterans Bank modernization workstream](philippine-veterans-bank/README.md) — Gates 1 and 2 are accepted; the evidence-derived Phase 4 Modernization Program is complete for Gate 3 review, and Executive Submission work remains unauthorized
+- [Philippine Veterans Bank modernization workstream](philippine-veterans-bank/README.md) — Gates 1–3 are accepted; the Modernization Program is canonical, and its derivative Executive Submission Suite is complete for executive-publication review
 
 This framework contains no institution-specific research. Canonical doctrine remains under `docs/editorial/` and must not be copied into this directory as a new source of authority.

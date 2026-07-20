@@ -17,9 +17,11 @@ Accepted at Gate 2
         ↓
 Phase 4 — Modernization Program
         ↓
-Complete for Gate 3 review
+Accepted at Gate 3 — Canonical
         ↓
-Gate 3 decision pending
+Phase 5 — Executive Submission Suite
+        ↓
+Complete for executive-publication review
 ```
 
 ## Phase sequence
@@ -29,17 +31,17 @@ Gate 3 decision pending
 | 1 | Institution Intelligence | Complete — In Review | Current assignment | Evidence, bounded inference, Unknowns, and management questions only |
 | 2 | Strategic Assessment | Accepted — Gate 1 | Limited Phase 2 authority | Understand strengths, constraints, positioning, maturity signals, Unknowns, and tensions without proposing x-change |
 | 3 | Strategic Gap Analysis | Accepted — Gate 2 | Gate 1 approval | Compare accepted institution evidence with canonical Government Depository doctrine without proposing a solution |
-| 4 | PVB Modernization Program | Complete — Gate 3 Review | Gate 2 approval | Evidence-derived institutional response without rewriting the canonical Program Guide |
-| 5 | Executive Submission | Not Authorized — Pending Gate 3 | Accepted Modernization Program and explicit publication authority | Derivative executive publication; not automatically commercial |
+| 4 | PVB Modernization Program | Accepted — Gate 3 — Canonical | Gate 2 approval | Evidence-derived institutional response; read-only parent for derivatives |
+| 5 | Executive Submission Suite | Complete — Executive Publication Review | Gate 3 approval | Audience-specific communication derived from the canonical Program |
 | 6 | Implementation | Not Authorized | Separate institutional, legal, commercial, risk, and technical authority | Discovery, pilot, readiness, and controlled expansion |
 
-## Gate 3
+## Executive-publication review
 
-The next permitted action is review of the Modernization Program and its decision record. The reviewer may decide:
+The next permitted action is review of the Executive Submission Suite. The reviewer may decide:
 
-- **Accept the Modernization Program with stated Unknowns**;
-- **Return for Program correction**;
-- **Require management validation before acceptance**;
+- **Accept for publication preparation**;
+- **Return a specific derivative for correction**;
+- **Require Program traceability clarification**;
 - **Pause for institution-provided evidence**; or
 - **Do not proceed**.
 
@@ -62,11 +64,12 @@ Before any later phase begins, refresh the corpus if any of the following change
 The following may be prepared only after the appropriate gate:
 
 - management interview record;
-- Executive Submission;
+- typeset executive publications;
+- presentation deck;
 - commercial model;
 - driver discovery;
 - deployment architecture;
 - proposal; and
 - publication assets.
 
-The first complete PVB Modernization Program draft was completed before the AllBank Executive Edition was consulted. The subsequent comparison was limited to editorial and publication quality; PVB evidence remained controlling.
+The canonical Program remains unchanged. The AllBank benchmark may continue to inform publication quality only; it may not introduce institution-specific content into the suite.

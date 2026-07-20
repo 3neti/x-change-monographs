@@ -24,6 +24,10 @@ Phase 4 asks:
 
 > What controlled institutional response follows from the evidence, assessment, and comparison without presuming PVB approval, implementation, or readiness?
 
+Phase 5 asks:
+
+> What should PVB's Board or Management decide after reading the accepted Modernization Program?
+
 ## Protagonist
 
 The protagonist is Philippine Veterans Bank as an institution. x-change is not the subject of Phase 1 or Phase 2.
@@ -87,32 +91,42 @@ Completed under Gate 3 authority:
 - a Modernization Program Decision Record; and
 - a post-draft AllBank review limited to publication quality.
 
+Completed under Phase 5 authority:
+
+- a derivative Executive Summary;
+- a formal Board Paper;
+- an Executive Brief and One-Page Decision Memo;
+- a Meeting Leave-Behind;
+- an Executive Presentation Outline;
+- an Executive FAQ; and
+- suite-specific metadata, Compass, Roadmap, and audience governance.
+
 Not authorized:
 
 - institution-specific doctrine;
-- Institution Edition;
-- proof of concept;
+- competing PVB Program or institution-specific strategy;
+- implementation presentation or proof of concept;
 - commercial proposal;
 - solution architecture; or
 - implementation roadmap.
 
-Gate 1 accepted the Strategic Assessment for comparison. Gate 2 accepted the Gap Analysis for institutional design. Neither established PVB interest or readiness. Phase 4 is complete for Gate 3 review; the Executive Submission and implementation remain unauthorized.
+Gate 1 accepted the Strategic Assessment for comparison. Gate 2 accepted the Gap Analysis for institutional design. Gate 3 accepted the Modernization Program as canonical and authorized derivative executive communication. The Phase 5 suite is complete for review; publication production, commercial work, and implementation remain unauthorized.
 
 ## Protected canonical source
 
 The Government Depository Program Guide and its supporting doctrine remain unchanged. This dossier may cite that lineage as a research lens, but it may not use the Guide to manufacture PVB facts.
 
-## Phase 4 completion standard
+## Phase 5 completion standard
 
-The Modernization Program is complete for Gate 3 review when:
+The Executive Submission Suite is complete for review when:
 
-1. the institutional response visibly follows evidence, interpretation, and comparison;
-2. every PVB-specific statement and recommendation is traceable;
-3. Current Institution, Proposed Capability, Management Validation, and Controlled Recommendation remain distinct;
-4. PVB's private-bank, veterans, and government-depository identities remain intact;
-5. candidate ceremonies are justified and conditional;
-6. Unknowns and readiness boundaries remain visible;
-7. AllBank is consulted only after the first complete PVB draft and only for publication quality; and
-8. no Executive Submission, proposal, implementation plan, or production authorization appears.
+1. every derivative names its audience and canonical parent;
+2. every executive recommendation remains traceable to the Program;
+3. the bounded Management-validation decision remains consistent;
+4. no new evidence, conclusion, architecture, ceremony priority, or implementation step appears;
+5. Unknowns and readiness boundaries remain visible;
+6. technical detail does not displace the institutional decision;
+7. no commercial term or production authority is implied; and
+8. the Program remains read-only and authoritative.
 
-Acceptance for Executive Submission work remains a separate Gate 3 decision.
+Publication freeze and production require separate acceptance of the suite.

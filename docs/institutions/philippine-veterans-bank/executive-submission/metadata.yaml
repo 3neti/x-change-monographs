@@ -1,0 +1,66 @@
+publication_family: "Philippine Veterans Bank Executive Submission Suite"
+institution: "Philippine Veterans Bank"
+institution_short_name: "PVB"
+phase: 5
+version: "0.1"
+status: "Complete for Executive Publication Review"
+date: "2026-07-20"
+canonical_parent:
+  title: "Philippine Veterans Bank Modernization Program"
+  path: "../PHILIPPINE_VETERANS_BANK_MODERNIZATION_PROGRAM.md"
+  status: "Accepted at Gate 3 — Canonical"
+  sha256: "6430e06d522f350148c420aa5dbc71e2e3a2a88abdc7ab38c361e73ffad27962"
+source_hierarchy:
+  - "Institution Intelligence"
+  - "Strategic Assessment"
+  - "Gap Analysis"
+  - "Modernization Program"
+  - "Executive Submission Suite"
+decision_focus: "Authorize Management validation of the Program and determine whether one bounded public-assistance disbursement ceremony is suitable for detailed design."
+authorized_scope:
+  - "Executive communication derived from the canonical Program"
+  - "Audience-specific compression and sequencing"
+  - "Board-paper and meeting-support publications"
+prohibited_scope:
+  - "New institutional conclusions"
+  - "New recommendations or ceremony priorities"
+  - "Implementation, procurement, contracting, integration, or production authority"
+  - "Commercial terms or financial projections"
+  - "Modification of the canonical Program"
+publications:
+  executive_summary:
+    file: "EXECUTIVE_SUMMARY.md"
+    audience: "Board, President, CEO, Executive Committee"
+    status: "Complete for Review"
+  board_paper:
+    file: "BOARD_PAPER.md"
+    audience: "Board of Directors and Board committees"
+    status: "Complete for Review"
+  executive_brief:
+    file: "EXECUTIVE_BRIEF.md"
+    audience: "President, CEO, Executive Committee, Strategy Office"
+    status: "Complete for Review"
+  one_page_decision_memo:
+    file: "ONE_PAGE_DECISION_MEMO.md"
+    audience: "Board and President"
+    status: "Complete for Review"
+  meeting_leave_behind:
+    file: "MEETING_LEAVE_BEHIND.md"
+    audience: "Executive meeting participants"
+    status: "Complete for Review"
+  executive_presentation_outline:
+    file: "EXECUTIVE_PRESENTATION_OUTLINE.md"
+    audience: "Presenter, Board Secretariat, Strategy Office"
+    status: "Complete for Review"
+  executive_faq:
+    file: "EXECUTIVE_FAQ.md"
+    audience: "Board and responsible Management functions"
+    status: "Complete for Review"
+allbank_benchmark:
+  consulted: true
+  scope: "Publication quality only"
+  institutional_content_imported: false
+publication:
+  pdf_generated: false
+  presentation_generated: false
+  commercial_package_generated: false

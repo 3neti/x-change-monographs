@@ -164,9 +164,9 @@ It is not a meeting record, commercial proposal, implementation plan, or product
 
 ### MPD-O01 — Gate 3 disposition
 
-**Status:** Open
+**Status:** Accepted as Canonical Program
 
-The reviewer must accept the Program, return it for correction, require management validation before acceptance, or pause the workstream.
+Gate 3 was reviewed and approved on 20 July 2026. The Philippine Veterans Bank Modernization Program is the canonical institution-specific Program and the authoritative parent for future executive publications.
 
 ### MPD-O02 — Institutional authority to evaluate
 
@@ -197,4 +197,4 @@ The reviewer and PVB must determine which Unknowns may remain open during bounde
 
 ## Gate declaration
 
-This record is complete for Gate 3 review. It does not authorize Executive Submission, proposal, presentation, financial-brief, implementation, procurement, contracting, integration, or production work.
+Gate 3 was accepted on 20 July 2026. This record authorizes the derivative Executive Submission Suite as a communication workstream only. It does not authorize a proposal, typeset presentation, financial brief, implementation, procurement, contracting, integration, or production work.
