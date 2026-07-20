@@ -8,6 +8,8 @@
 **Physical page count:** 36  
 **Numbered page count:** 35, following an unnumbered cover
 
+**Synchronization baseline:** Canonical manuscript following the Editorial Boundary Review
+
 ## Review Scope
 
 This report records publication observations only. The canonical manuscript and Appendices A–G were treated as read-only source material throughout rendering and review.
@@ -43,6 +45,7 @@ The proof was inspected page by page for cover treatment, contents accuracy, sec
 - All fonts used by the PDF are embedded and Unicode-mapped.
 - Body measure, margins, paragraph spacing, and justification remain consistent throughout the proof.
 - No isolated headings, clipped text, content overflow, accidental blank pages, or broken paragraph fragments were observed.
+- The Editorial Boundary Review refinements did not change the physical or numbered page count.
 - A targeted publication-only rule allows the long Governance matrix to begin beneath its appendix opening and continue with a clean reference-page rhythm.
 - A targeted publication-only spacing rule keeps the Treasury Grammar conclusion with its governing distinctions, avoiding a nearly empty continuation page.
 
@@ -68,10 +71,10 @@ The proof was inspected page by page for cover treatment, contents accuracy, sec
 
 ## Integrity and Technical Verification
 
-- Canonical manuscript SHA-256: `e645cf6021e3c0628c77c602c048ad4c37a230d53da2d86500008b743d281d57`
-- Canonical manuscript-plus-appendices corpus SHA-256: `c974f63dbd58fb385e35f811e1501fd94d1b645e1dea143c4b91dd76b112585c`
-- Review-proof HTML SHA-256: `5556dcdd3e62ec8ba3cc11421ad98768302ba29b285578a9dfd8aaf40d904d42`
-- Review-proof PDF SHA-256: `e5665952e7f72f4000eb17084fdc0e3b2a0ff4b3c30ad10ad251fca0a0d05e88`
+- Canonical manuscript SHA-256: `b33c20ed56845fc638117b489830ea18b7d8c2c19e9bd80add6820369dd1298a`
+- Canonical manuscript-plus-appendices corpus SHA-256: `61e7e5564dd377d421b649041a776688322a44b39b2594b9db9259b4674f9c44`
+- Review-proof HTML SHA-256: `73edb3b418430dcf52bfc0e43c28ea470148093bcf47a615bb6d12d00959f731`
+- Review-proof PDF SHA-256: `35d758e4fb219d75f606330dda41845e606e8bce9d86da7af21d9da2e5b77a83`
 - PDF producer: WeasyPrint 66.0
 - Page geometry: A4 on every page
 - Characters outside page bounds: 0
