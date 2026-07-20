@@ -9,9 +9,13 @@ Complete — In Review
         ↓
 Phase 2 — Strategic Assessment
         ↓
-Complete for Gate 1 review
+Accepted at Gate 1
         ↓
-Gate 1 decision pending
+Phase 3 — Gap Analysis
+        ↓
+Complete for Gate 2 review
+        ↓
+Gate 2 decision pending
 ```
 
 ## Phase sequence
@@ -19,19 +23,19 @@ Gate 1 decision pending
 | Phase | Artifact | Status | Authorization required to begin | Scope boundary |
 | --- | --- | --- | --- | --- |
 | 1 | Institution Intelligence | Complete — In Review | Current assignment | Evidence, bounded inference, Unknowns, and management questions only |
-| 2 | Strategic Assessment | Complete — Gate 1 Review | Current assignment supplied limited Phase 2 authority | Understand strengths, constraints, positioning, maturity signals, Unknowns, and tensions without proposing x-change |
-| 3 | Strategic Gap Analysis | Not Authorized — Pending Gate 1 | Accepted Strategic Assessment | Compare accepted institution evidence with canonical Government Depository doctrine |
-| 4 | PVB Modernization Program | Not Authorized | Accepted Gap Analysis and explicit drafting authority | Institution-specific application without rewriting the canonical Program Guide |
+| 2 | Strategic Assessment | Accepted — Gate 1 | Limited Phase 2 authority | Understand strengths, constraints, positioning, maturity signals, Unknowns, and tensions without proposing x-change |
+| 3 | Strategic Gap Analysis | Complete — Gate 2 Review | Gate 1 approval | Compare accepted institution evidence with canonical Government Depository doctrine without proposing a solution |
+| 4 | PVB Modernization Program | Not Authorized — Pending Gate 2 | Accepted Gap Analysis and explicit drafting authority | Institution-specific application without rewriting the canonical Program Guide |
 | 5 | Executive Submission | Not Authorized | Accepted Modernization Program and publication authority | Derivative executive and commercial publications |
 | 6 | Implementation | Not Authorized | Separate institutional, legal, commercial, risk, and technical authority | Discovery, pilot, readiness, and controlled expansion |
 
-## Gate 1
+## Gate 2
 
-The next permitted action is review of the Strategic Assessment and its decision record. The reviewer may decide:
+The next permitted action is review of the Gap Analysis and its decision record. The reviewer may decide:
 
-- **Accept for Gap Analysis with stated Unknowns**;
-- **Return for assessment correction**;
-- **Require management validation before comparison**;
+- **Accept for Modernization Program drafting with stated Unknowns**;
+- **Return for analytical correction**;
+- **Require management validation before Program drafting**;
 - **Pause for institution-provided evidence**; or
 - **Do not proceed**.
 

@@ -6,7 +6,7 @@
 | --- | --- |
 | Institution | Philippine Veterans Bank (PVB) |
 | Phase | 2 — Strategic Assessment |
-| Status | Complete for Gate 1 review |
+| Status | Accepted at Gate 1 |
 | Version | 0.1 |
 | Assessment date | 20 July 2026 |
 | Evidence cutoff | 20 July 2026 |
@@ -338,16 +338,9 @@ PVB possesses a differentiated institutional position, demonstrated public-finan
 
 The appropriate Gate 1 decision is therefore not a conclusion that PVB is ready or unready for a Modernization Program. It is a decision about whether the evidence and interpretation are sufficiently disciplined to permit comparison with the canonical Government Depository framework.
 
-**Gate status:** Strategic Assessment complete for Gate 1 review.
+**Gate status:** Accepted at Gate 1 on 20 July 2026 for evidence-led Gap Analysis.
 
-The reviewer may:
-
-- **Accept for Gap Analysis with stated Unknowns**;
-- **Return for assessment correction**;
-- **Require management validation before comparison**; or
-- **Pause the workstream**.
-
-Until that decision is recorded, the Gap Analysis, PVB Modernization Program, and Executive Submission remain unauthorized.
+This acceptance authorized comparison with the canonical Government Depository framework. It did not authorize the PVB Modernization Program, Executive Submission, proposal, or implementation work.
 
 ## Traceability
 

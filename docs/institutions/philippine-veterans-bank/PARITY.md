@@ -20,9 +20,10 @@ This review checks the Phase 1 corpus against the canonical Institution Intellig
 | Contradictions and Unknowns | source/evidence registers; main report | Complete | Footprint, capital, architecture, adoption, and public-finance scope gaps visible |
 | Questions for management | `QUESTIONS_FOR_MANAGEMENT.md` | Complete | Organized by institutional domain |
 | Interview register | Not applicable in Phase 1 public-source work | Explained | No interviews or institution-provided materials were authorized |
-| Strategic Assessment | `STRATEGIC_ASSESSMENT.md` | Complete — Gate 1 Review | Interprets PVB without proposing x-change |
-| Strategic Assessment decision record | `STRATEGIC_ASSESSMENT_DECISION_RECORD.md` | Complete — Gate 1 Review | Material interpretive and gate decisions recorded |
-| Strategic Gap Analysis | Not authorized | Correctly absent | Requires accepted Strategic Assessment |
+| Strategic Assessment | `STRATEGIC_ASSESSMENT.md` | Accepted — Gate 1 | Interprets PVB without proposing x-change |
+| Strategic Assessment decision record | `STRATEGIC_ASSESSMENT_DECISION_RECORD.md` | Accepted — Gate 1 | Material interpretive and gate decisions recorded |
+| Strategic Gap Analysis | `GAP_ANALYSIS.md` | Complete — Gate 2 Review | Compares evidenced PVB with canonical capability without recommending a solution |
+| Gap Analysis decision record | `GAP_ANALYSIS_DECISION_RECORD.md` | Complete — Gate 2 Review | Classification and evidence-handling decisions recorded |
 | Editorial Mapping | Not authorized | Correctly absent | Requires accepted preceding analysis |
 
 ## Research-domain parity
@@ -81,4 +82,38 @@ This review checks the Phase 1 corpus against the canonical Institution Intellig
 
 ## Gate 1 recommendation
 
-The Strategic Assessment and its decision record are complete for Gate 1 review. They support a reviewer decision of **Accept for Gap Analysis with stated Unknowns** if the evidence discipline and institutional interpretation are accepted. The assessment is not self-authorizing: an explicit Gate 1 decision is required before Gap Analysis begins.
+Gate 1 was reviewed and approved on 20 July 2026. The approval authorized evidence-led comparison; it did not establish PVB Program authority or readiness.
+
+## Phase 3 Gate 2 parity
+
+| Required comparison area | Status | Review note |
+| --- | --- | --- |
+| Institutional governance | Complete | General governance separated from canonical Program and production governance |
+| Public-finance participation | Complete | Selected activity evidenced without inferring comprehensive capability |
+| Government-depository role | Complete | Authority distinguished from selection, account approval, and readiness |
+| Operating sovereignty | Complete as Management Validation Required | No conclusion inferred from channels or providers |
+| Treasury visibility | Complete as Partially Evidenced | Treasury services and system signal distinguished from canonical operational state |
+| Funding Events | Complete as Proposed Program Capability | Not presented as missing or currently implemented |
+| Settlement Resources and Liens | Complete as Proposed Program Capability | Aggregate balances not converted into service-level operational state |
+| Facility definition | Complete as Proposed Program Capability | Existing products acknowledged; canonical mapping remains unverified |
+| Settlement Envelope | Complete as Proposed Program Capability | Isolated condition signals do not become a complete evidence model |
+| Pay Code | Complete as Proposed Program Capability | Not presented as a current PVB credential |
+| Evidence collection | Complete as Partially Evidenced | Records signals preserved; complete audit and public-reporting evidence unverified |
+| Execution capability | Complete as Partially Evidenced | Payment capability separated from governed banking service |
+| Institution-specific integration | Complete as Management Validation Required | Interfaces, credentials, status behavior, support, and maintenance remain undiscovered |
+| Reconciliation | Complete as Unknown | Public evidence does not establish current model or effectiveness |
+| Exception management | Complete as Unknown | Isolated terms do not establish end-to-end operating practice |
+| Deployment ownership | Complete as Unknown | Hosting, data, credential, release, recovery, and audit boundaries require validation |
+| Production governance | Complete as Partially Evidenced | General governance exists; canonical production gates are not public |
+| Operational and institutional readiness | Complete | No stage skipping; readiness remains Unknown or requires management validation |
+| Expansion readiness | Complete as Unknown | Growth signals not treated as evidence of governed expansion capacity |
+| Candidate ceremonies | Complete | Six candidates evaluated without selection |
+| Transaction Gravity | Complete and bounded | Recurring relationships identified without predicting deposits or commercial return |
+| Classification discipline | Complete | All required Gate 2 classifications defined and applied |
+| Dual traceability | Complete | Institutional claim IDs and canonical sources identified |
+| AllBank exclusion | Complete | AllBank was not consulted |
+| Later-stage boundary | Complete | No Modernization Program, Executive Submission, proposal, presentation, financial brief, or implementation plan created |
+
+## Gate 2 recommendation
+
+The Gap Analysis and its decision record are complete for Gate 2 review. They support a reviewer decision of **Accept for Modernization Program drafting with stated Unknowns** if the analytical comparison is accepted. The analysis is not self-authorizing: an explicit Gate 2 decision is required before Phase 4 begins.

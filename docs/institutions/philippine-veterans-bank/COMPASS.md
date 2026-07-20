@@ -16,6 +16,10 @@ Phase 2 asks:
 
 Comparison with the canonical Government Depository Program is reserved for Gap Analysis and is not performed at Gate 1.
 
+Phase 3 asks:
+
+> Where does the evidenced institution align with the canonical Government Depository capability, where is capability only partially evidenced, and where must Unknowns or proposed capabilities remain explicit?
+
 ## Protagonist
 
 The protagonist is Philippine Veterans Bank as an institution. x-change is not the subject of Phase 1 or Phase 2.
@@ -61,9 +65,16 @@ Authorized in Phase 2:
 - material Unknowns and management-validation requirements; and
 - a Strategic Assessment Decision Record.
 
+Completed under Gate 2 authority:
+
+- comparison of PVB evidence with canonical Government Depository capability;
+- classification as Aligned, Partially Evidenced, Unknown, Management Validation Required, Outside Current Authority, or Proposed Program Capability;
+- assessment of governance, public-finance participation, Treasury grammar, execution, sovereignty, deployment, readiness, and ceremony relevance;
+- preservation of management-validation questions; and
+- a Gap Analysis Decision Record.
+
 Not authorized:
 
-- Strategic Gap Analysis;
 - x-change recommendation;
 - institution-specific doctrine;
 - Modernization Program;
@@ -73,23 +84,23 @@ Not authorized:
 - solution architecture; or
 - implementation roadmap.
 
-The assignment authorizing Phase 2 did not retroactively accept the Phase 1 dossier. Phase 1 remains `In Review`; Phase 2 is complete for Gate 1 review.
+Gate 1 accepted the Strategic Assessment for evidence-led comparison. It did not establish PVB institutional interest or readiness. Phase 3 is complete for Gate 2 review; Phase 4 remains unauthorized.
 
 ## Protected canonical source
 
 The Government Depository Program Guide and its supporting doctrine remain unchanged. This dossier may cite that lineage as a research lens, but it may not use the Guide to manufacture PVB facts.
 
-## Phase 2 completion standard
+## Phase 3 completion standard
 
-The Strategic Assessment is complete for Gate 1 review when:
+The Gap Analysis is complete for Gate 2 review when:
 
-1. every PVB-specific observation is traceable to Phase 1;
-2. observations, inferences, Unknowns, and management-validation items remain distinct;
-3. authority is not converted into selection or readiness;
-4. financial recovery and disclosed constraints are both preserved;
-5. digital channels are not converted into architecture or operating-maturity claims;
-6. operating sovereignty remains Unknown where control evidence is absent;
+1. every PVB-specific finding is traceable to the evidence corpus;
+2. every comparison identifies the applicable canonical capability;
+3. absence of public evidence is not presented as deficiency;
+4. Unknowns remain visible;
+5. canonical Program capabilities are not presented as existing PVB capabilities;
+6. payment connectivity is not converted into a complete banking service;
 7. candidate ceremonies remain unselected; and
-8. no x-change recommendation, Gap Analysis, Program, proposal, or implementation content appears.
+8. no x-change recommendation, Modernization Program, proposal, or implementation content appears.
 
-Acceptance for Gap Analysis remains a separate Gate 1 decision.
+Acceptance for Modernization Program drafting remains a separate Gate 2 decision.

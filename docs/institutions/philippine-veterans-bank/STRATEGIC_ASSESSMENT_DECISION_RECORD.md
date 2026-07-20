@@ -148,9 +148,9 @@ This record preserves the material methodological and interpretive decisions use
 
 ### SAD-O01 — Gate 1 disposition
 
-**Status:** Open
+**Status:** Accepted for Gap Analysis
 
-The reviewer must decide whether to accept the Strategic Assessment for Gap Analysis, return it for correction, require management validation first, or pause the workstream.
+Gate 1 was reviewed and approved on 20 July 2026. The approval authorized evidence-led Gap Analysis with Unknowns preserved. It did not authorize Program drafting.
 
 ### SAD-O02 — Timing of management validation
 
@@ -174,4 +174,4 @@ No ceremony may be selected until the authorized comparison evaluates institutio
 
 ## Gate declaration
 
-This record is complete for Gate 1 review. It does not authorize Gap Analysis, Modernization Program drafting, Executive Submission, proposal development, or implementation work.
+Gate 1 was accepted on 20 July 2026. This record authorizes only the completed Gap Analysis phase and does not authorize Modernization Program drafting, Executive Submission, proposal development, or implementation work.

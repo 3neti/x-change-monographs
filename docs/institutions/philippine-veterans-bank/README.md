@@ -1,18 +1,18 @@
-# Philippine Veterans Bank Institution Intelligence
+# Philippine Veterans Bank Modernization Workstream
 
 This repository is the first evidence-based application of the canonical [Institution Intelligence Framework](../FRAMEWORK.md) to a government depository institution.
 
 **Institution:** Philippine Veterans Bank (PVB)
 
-**Phase:** 2 — Strategic Assessment (Gate 1)
+**Phase:** 3 — Gap Analysis (Gate 2)
 
-**Status:** Strategic Assessment complete for Gate 1 review
+**Status:** Gap Analysis complete for Gate 2 review
 
 **Evidence cutoff:** 20 July 2026
 
 **Public-source basis:** Yes; no institution-provided materials were used
 
-The Phase 1 dossier describes PVB before evaluating it. The Phase 2 Strategic Assessment now interprets that evidence on the institution's own terms. It does not compare PVB with a proposed x-change capability, identify implementation gaps, recommend a Modernization Program, or contain an Executive Submission, proposal, or implementation plan.
+The Phase 1 dossier describes PVB before evaluating it. The accepted Phase 2 Strategic Assessment interprets that evidence on the institution's own terms. The Phase 3 Gap Analysis compares the evidenced institution with the canonical Government Depository capability while preserving Unknowns and avoiding recommendations.
 
 ## Canonical lineage
 
@@ -27,6 +27,11 @@ Philippine Veterans Bank Institution Intelligence
 ```
 
 The Government Depository Program Guide supplies the institutional research lens. It is not evidence of PVB intent, adoption, capability, selection, or readiness.
+
+## Phase 3 artifacts
+
+- [Gap Analysis](GAP_ANALYSIS.md)
+- [Gap Analysis Decision Record](GAP_ANALYSIS_DECISION_RECORD.md)
 
 ## Phase 2 artifacts
 
@@ -72,6 +77,6 @@ The 2025 audited financial statements contain a qualified opinion and a material
 
 ## Gate status
 
-The current assignment supplied limited authority to prepare the Strategic Assessment while the Phase 1 package remains in review. It did not retroactively mark the evidence dossier **Accepted for Analysis**.
+Gate 1 approved the Strategic Assessment for evidence-led comparison. It did not establish PVB institutional interest, readiness, or Program authority.
 
-The Strategic Assessment is complete for Gate 1 review. The reviewer may accept it for Gap Analysis with stated Unknowns, return it for correction, require management validation before comparison, or pause the workstream. Until that decision is recorded, the Gap Analysis and all later phases remain unauthorized.
+The Gap Analysis is complete for Gate 2 review. The reviewer may accept it for Modernization Program drafting with stated Unknowns, return it for correction, require management validation first, or pause the workstream. Until that decision is recorded, Phase 4 and all later phases remain unauthorized.

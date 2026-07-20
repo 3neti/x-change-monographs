@@ -44,10 +44,10 @@ Banking Program Guides are canonical commercial handbooks and remain separate fr
 ## Institutional Program Studies
 
 - [Thrift Bank Digital Banking Program](thrift-bank-digital-banking-program/README.md) — approved Phase 1 institutional study and doctrinal source for the separate formal Program Guide
-- [Government Depository Digital Banking Program](government-depository-digital-banking-program/README.md) — approved Program foundation applying Movement IV without an architectural fork; the formal Program Guide is editorially complete at the canonical Version 0.9 review baseline, and the separate Philippine Veterans Bank Strategic Assessment is complete for Gate 1 review
+- [Government Depository Digital Banking Program](government-depository-digital-banking-program/README.md) — approved Program foundation applying Movement IV without an architectural fork; the formal Program Guide is editorially complete at the canonical Version 0.9 review baseline, and the separate Philippine Veterans Bank Gap Analysis is complete for Gate 2 review
 
 ## Institution Intelligence
 
 - [Institution Intelligence Framework](../institutions/README.md) — canonical and locked under EDR-014 and EDR-015; governs evidence, analysis, editorial mapping, institution editions, proposals, and implementation for specific institutions
 - [AllBank Institution Intelligence](../institutions/allbank/README.md) — first public-source framework application; Institution Edition drafting remains unauthorized
-- [Philippine Veterans Bank modernization workstream](../institutions/philippine-veterans-bank/README.md) — Phase 1 evidence remains in review; the Phase 2 Strategic Assessment is complete for Gate 1 review, with Gap Analysis and later phases still unauthorized
+- [Philippine Veterans Bank modernization workstream](../institutions/philippine-veterans-bank/README.md) — Gate 1 is accepted; the Phase 3 Gap Analysis is complete for Gate 2 review, with Modernization Program drafting and later phases still unauthorized
