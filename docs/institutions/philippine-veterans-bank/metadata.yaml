@@ -1,0 +1,62 @@
+framework: "Institution Intelligence Framework"
+framework_version: "1.0"
+governance_decisions:
+  - "EDR-014"
+  - "EDR-015"
+institution:
+  name: "Philippine Veterans Bank"
+  short_name: "PVB"
+  slug: "philippine-veterans-bank"
+  institution_type: "private commercial bank and official government depository"
+  sector: "Philippine commercial banking and government depository banking"
+canonical_lineage:
+  movement: "docs/editorial/movement-iv-government-depository-banking/modernizing-public-finance-through-trusted-government-depository-banking.md"
+  program_foundation: "docs/editorial/government-depository-digital-banking-program/README.md"
+  program_guide: "docs/editorial/program-guides/government-depository/government-depository-digital-banking-program-guide.md"
+  research_gate: "docs/editorial/government-depository-digital-banking-program/annexes/institution-specific-research-gate.md"
+research:
+  phase: 1
+  version: "0.1"
+  status: "In Review"
+  evidence_cutoff_date: "2026-07-20"
+  last_verified_date: "2026-07-20"
+  public_sources_only: true
+  public_sources_reviewed: 18
+  institution_provided_materials: []
+  classification:
+    - "Observed"
+    - "Inferred"
+    - "Recommended"
+    - "Unknown"
+    - "Institution-Provided"
+    - "Calculated"
+artifacts:
+  institution_intelligence: "Complete — In Review"
+  evidence_register: "Complete — In Review"
+  source_register: "Complete — In Review"
+  institutional_profile: "Complete — In Review"
+  ownership_mandate_and_governance: "Complete — In Review"
+  products_services_and_public_finance: "Complete — In Review"
+  digital_capability_and_technology_signals: "Complete — In Review"
+  financial_and_regulatory_profile: "Complete — In Review"
+  ecosystem_and_partnerships: "Complete — In Review"
+  questions_for_management: "Complete — In Review"
+  strategic_assessment: "Not Authorized"
+  strategic_gap_analysis: "Not Authorized"
+  editorial_mapping: "Not Authorized"
+  institution_edition: "Not Authorized"
+  commercial_proposal: "Not Authorized"
+  implementation_roadmap: "Not Authorized"
+gate:
+  phase_1_package: "Complete for editorial and evidence review"
+  analytical_readiness: "Pending acceptance of Institution Intelligence"
+  outcome_recommendation: "Proceed with stated Unknowns after review"
+  next_decision: "Accept for Analysis, return for evidence correction, or pause for institution-provided evidence"
+restrictions:
+  - "Do not treat charter authority as proof of operational readiness."
+  - "Do not treat public digital channels as evidence of production architecture or API suitability."
+  - "Do not create institution-specific recommendations, proposals, or implementation plans from this Phase 1 record."
+agent_rule: "If sufficient evidence is unavailable, the research agent shall explicitly identify the gap rather than compensate with unsupported prose."
+publication:
+  generated: false
+notes: "This repository is an evidence-based Phase 1 research record. It does not establish PVB interest in x-change, readiness for the Government Depository Program, or authorization for any later-stage artifact."
