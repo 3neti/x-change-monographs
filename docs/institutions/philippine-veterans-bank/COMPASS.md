@@ -1,22 +1,24 @@
-# Philippine Veterans Bank Institution Intelligence — Compass
+# Philippine Veterans Bank Modernization Workstream — Compass
 
 ## Purpose
 
-This Compass preserves the direction and boundaries of the Philippine Veterans Bank Institution Intelligence workstream.
+This Compass preserves the direction and boundaries of the Philippine Veterans Bank evidence, assessment, and modernization workstream.
 
 ## Governing question
 
+Phase 1 asked:
+
 > What does attributable public evidence establish about Philippine Veterans Bank as an institution, a private commercial bank, and an official government depository as of 20 July 2026?
 
-The question for a later phase may become:
+Phase 2 asks:
 
-> How does Philippine Veterans Bank relate to the canonical Government Depository Program?
+> What strategic position, strengths, constraints, public-finance relevance, maturity signals, Unknowns, and tensions emerge from the accepted evidence when PVB is assessed on its own terms?
 
-That comparison is not performed here.
+Comparison with the canonical Government Depository Program is reserved for Gap Analysis and is not performed at Gate 1.
 
 ## Protagonist
 
-The protagonist is Philippine Veterans Bank as an institution. x-change is not the subject of Phase 1.
+The protagonist is Philippine Veterans Bank as an institution. x-change is not the subject of Phase 1 or Phase 2.
 
 ## Canonical method
 
@@ -36,7 +38,7 @@ Authority to receive government funds does not establish selection for a particu
 
 ## Phase boundary
 
-Authorized in this workstream:
+Completed in Phase 1:
 
 - source discovery and provenance;
 - claim-level evidence extraction;
@@ -48,9 +50,19 @@ Authorized in this workstream:
 - management questions; and
 - Phase 1 gate assessment.
 
+Authorized in Phase 2:
+
+- evidence-led institutional interpretation;
+- strategic strengths and constraints;
+- public-finance relevance;
+- financial, regulatory, digital, technology, and sovereignty assessment;
+- strategic tensions;
+- candidate domains preserved for later comparison;
+- material Unknowns and management-validation requirements; and
+- a Strategic Assessment Decision Record.
+
 Not authorized:
 
-- Strategic Assessment;
 - Strategic Gap Analysis;
 - x-change recommendation;
 - institution-specific doctrine;
@@ -61,21 +73,23 @@ Not authorized:
 - solution architecture; or
 - implementation roadmap.
 
+The assignment authorizing Phase 2 did not retroactively accept the Phase 1 dossier. Phase 1 remains `In Review`; Phase 2 is complete for Gate 1 review.
+
 ## Protected canonical source
 
 The Government Depository Program Guide and its supporting doctrine remain unchanged. This dossier may cite that lineage as a research lens, but it may not use the Guide to manufacture PVB facts.
 
-## Completion standard
+## Phase 2 completion standard
 
-Phase 1 is complete for review when:
+The Strategic Assessment is complete for Gate 1 review when:
 
-1. required domains are addressed or explicitly marked Unknown;
-2. every material observation has a source and period;
-3. inferences name their evidentiary basis;
-4. financial figures retain units, perimeter, period, and limitation;
-5. contradictory evidence is visible;
-6. technology and settlement claims remain bounded;
-7. management questions cover material public-evidence gaps; and
-8. the Executive Summary introduces no unsupported claim.
+1. every PVB-specific observation is traceable to Phase 1;
+2. observations, inferences, Unknowns, and management-validation items remain distinct;
+3. authority is not converted into selection or readiness;
+4. financial recovery and disclosed constraints are both preserved;
+5. digital channels are not converted into architecture or operating-maturity claims;
+6. operating sovereignty remains Unknown where control evidence is absent;
+7. candidate ceremonies remain unselected; and
+8. no x-change recommendation, Gap Analysis, Program, proposal, or implementation content appears.
 
-Acceptance for analysis remains a separate editorial decision.
+Acceptance for Gap Analysis remains a separate Gate 1 decision.

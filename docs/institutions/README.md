@@ -31,6 +31,6 @@ The [institution template](template/README.md) is the standard scaffold for futu
 ## Institution applications
 
 - [AllBank Institution Intelligence, Editions, and Commercial Proposal](allbank/README.md) — Phase 1 public-source intelligence, an internal Research Edition, an approved and frozen client-facing Executive Edition, and submitted Proposal No. ODTI-2026-001; implementation remains unauthorized
-- [Philippine Veterans Bank Institution Intelligence](philippine-veterans-bank/README.md) — complete Phase 1 public-source dossier for review under the Government Depository lineage; Strategic Assessment and all later artifacts remain unauthorized
+- [Philippine Veterans Bank modernization workstream](philippine-veterans-bank/README.md) — Phase 1 public-source dossier remains in review; the Phase 2 Strategic Assessment is complete for Gate 1 review, and Gap Analysis remains unauthorized pending an explicit gate decision
 
 This framework contains no institution-specific research. Canonical doctrine remains under `docs/editorial/` and must not be copied into this directory as a new source of authority.

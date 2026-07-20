@@ -4,15 +4,15 @@ This repository is the first evidence-based application of the canonical [Instit
 
 **Institution:** Philippine Veterans Bank (PVB)
 
-**Phase:** 1 — Institution Intelligence
+**Phase:** 2 — Strategic Assessment (Gate 1)
 
-**Status:** Complete for review; not yet accepted for analysis
+**Status:** Strategic Assessment complete for Gate 1 review
 
 **Evidence cutoff:** 20 July 2026
 
 **Public-source basis:** Yes; no institution-provided materials were used
 
-The work describes PVB before evaluating it. It records what authoritative public evidence establishes, what may be inferred within that evidence, and what remains unknown. It does not contain a Strategic Assessment, Gap Analysis, Modernization Program, Institution Edition, proposal, or implementation plan.
+The Phase 1 dossier describes PVB before evaluating it. The Phase 2 Strategic Assessment now interprets that evidence on the institution's own terms. It does not compare PVB with a proposed x-change capability, identify implementation gaps, recommend a Modernization Program, or contain an Executive Submission, proposal, or implementation plan.
 
 ## Canonical lineage
 
@@ -27,6 +27,11 @@ Philippine Veterans Bank Institution Intelligence
 ```
 
 The Government Depository Program Guide supplies the institutional research lens. It is not evidence of PVB intent, adoption, capability, selection, or readiness.
+
+## Phase 2 artifacts
+
+- [Strategic Assessment](STRATEGIC_ASSESSMENT.md)
+- [Strategic Assessment Decision Record](STRATEGIC_ASSESSMENT_DECISION_RECORD.md)
 
 ## Phase 1 artifacts
 
@@ -67,4 +72,6 @@ The 2025 audited financial statements contain a qualified opinion and a material
 
 ## Gate status
 
-The Phase 1 package is complete for editorial and evidence review. Progression to Strategic Assessment requires an explicit **Accepted for Analysis** decision under the canonical framework. Until that decision is recorded, later phases remain unauthorized.
+The current assignment supplied limited authority to prepare the Strategic Assessment while the Phase 1 package remains in review. It did not retroactively mark the evidence dossier **Accepted for Analysis**.
+
+The Strategic Assessment is complete for Gate 1 review. The reviewer may accept it for Gap Analysis with stated Unknowns, return it for correction, require management validation before comparison, or pause the workstream. Until that decision is recorded, the Gap Analysis and all later phases remain unauthorized.

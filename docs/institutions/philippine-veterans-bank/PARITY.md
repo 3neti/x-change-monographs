@@ -1,8 +1,8 @@
-# Philippine Veterans Bank Phase 1 Parity Review
+# Philippine Veterans Bank Research and Assessment Parity Review
 
 ## Purpose
 
-This review checks the Phase 1 corpus against the canonical Institution Intelligence Standard and the Government Depository Institution Intelligence Research Gate. It does not compare PVB's capabilities with the Program Guide; that would be Strategic Gap Analysis.
+This review checks the Phase 1 corpus against the canonical Institution Intelligence Standard and checks the Phase 2 Strategic Assessment against its Gate 1 assignment. It does not compare PVB's capabilities with the Program Guide; that would be Strategic Gap Analysis.
 
 ## Required package parity
 
@@ -20,7 +20,9 @@ This review checks the Phase 1 corpus against the canonical Institution Intellig
 | Contradictions and Unknowns | source/evidence registers; main report | Complete | Footprint, capital, architecture, adoption, and public-finance scope gaps visible |
 | Questions for management | `QUESTIONS_FOR_MANAGEMENT.md` | Complete | Organized by institutional domain |
 | Interview register | Not applicable in Phase 1 public-source work | Explained | No interviews or institution-provided materials were authorized |
-| Strategic Gap Analysis | Not authorized | Correctly absent | Requires accepted Institution Intelligence |
+| Strategic Assessment | `STRATEGIC_ASSESSMENT.md` | Complete — Gate 1 Review | Interprets PVB without proposing x-change |
+| Strategic Assessment decision record | `STRATEGIC_ASSESSMENT_DECISION_RECORD.md` | Complete — Gate 1 Review | Material interpretive and gate decisions recorded |
+| Strategic Gap Analysis | Not authorized | Correctly absent | Requires accepted Strategic Assessment |
 | Editorial Mapping | Not authorized | Correctly absent | Requires accepted preceding analysis |
 
 ## Research-domain parity
@@ -53,6 +55,30 @@ This review checks the Phase 1 corpus against the canonical Institution Intellig
 | Institution-provided material separated | Complete | None used |
 | Canonical Program Guide unchanged | Complete | No Program Guide or doctrine file was modified |
 
-## Gate recommendation
+## Phase 2 Gate 1 parity
 
-The corpus is complete for editorial and evidence review. It supports a gate outcome of **Proceed with stated Unknowns after review**. It is not self-authorizing: an accepted gate decision is still required before Strategic Assessment begins.
+| Required assessment area | Status | Review note |
+| --- | --- | --- |
+| Institutional identity | Complete | Private commercial-bank, statutory veterans, and government-depository identities preserved together |
+| Statutory and government-depository position | Complete | Authority remains distinct from selection, entitlement, and readiness |
+| Strategic strengths | Complete | Differentiated standing, public-finance activity, banking breadth, recovery, and transformation intent assessed |
+| Institutional constraints | Complete | Capital, regulatory, asset-quality, transformation-load, and operating-evidence conditions preserved |
+| Public-finance relevance | Complete | Eligibility, relationships, and evidenced workflows distinguished |
+| Financial and regulatory context | Complete | Periods and perimeters remain separate; qualifications retained |
+| Digital maturity | Complete with Unknowns | Channel, payment, public-finance, internal, regulatory, operating, and architectural dimensions assessed separately |
+| Technology signals | Complete with Unknowns | Signals recorded without inferring integrated architecture or readiness |
+| Operating sovereignty | Unknown — correctly preserved | Requires management validation of authority, custody, infrastructure, credentials, deployment, data, evidence, and recovery boundaries |
+| Public-sector relationships | Complete with Unknowns | Disclosed relationships recorded; current scope, performance, economics, and renewal remain open |
+| Differentiating assets | Complete | No unsupported competitive-superiority claim introduced |
+| Material Unknowns | Complete | UNK-001 through UNK-010 carried forward |
+| Management questions | Complete | Priority validation agenda included; complete inventory remains in Phase 1 artifact |
+| Strategic tensions | Complete | Tensions identify unresolved institutional relationships without prescribing a solution |
+| Candidate ceremonies | Complete as candidates only | No first ceremony selected |
+| Statement classification | Complete | Observed, Inferred, Unknown, and Management Validation Required used explicitly |
+| AllBank exclusion | Complete | AllBank was not consulted and remains closed until the first complete Program draft |
+| Canonical doctrine protection | Complete | Government Depository Program Guide used as lens and not modified |
+| Later-stage boundary | Complete | No Gap Analysis, Program, Executive Submission, proposal, or implementation work created |
+
+## Gate 1 recommendation
+
+The Strategic Assessment and its decision record are complete for Gate 1 review. They support a reviewer decision of **Accept for Gap Analysis with stated Unknowns** if the evidence discipline and institutional interpretation are accepted. The assessment is not self-authorizing: an explicit Gate 1 decision is required before Gap Analysis begins.
