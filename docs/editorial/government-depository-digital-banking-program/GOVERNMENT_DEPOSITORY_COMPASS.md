@@ -13,14 +13,14 @@ Its emotional center is **public trust**. Its program product is **institutional
 | Institutional doctrine | Approved and frozen in Movement IV |
 | Canonical x-change architecture | Inherited and aligned |
 | Program foundation | Approved |
-| Formal EDR-005 Program Guide | Version 0.9 complete draft under review; not locked |
-| Program publication layer | Guide editorial source complete for review; derivatives and publication artifacts not started |
+| Formal EDR-005 Program Guide | Editorially complete canonical Version 0.9 review baseline |
+| Program publication layer | Synchronized Version 0.9 Editorial Review Proof active; publication freeze pending |
 | Stakeholder and financial briefs | Planned; not created |
 | Submission instance | Planned; shared architecture exists |
 | Institution-specific work | Not started |
-| Philippine Veterans Bank workstream | Deferred pending a separate research-first phase |
+| Philippine Veterans Bank workstream | Next planned institution workstream; evidence-first research not started |
 
-The current maturity is **foundation approved, formal Guide complete for review, publication program incomplete**.
+The current maturity is **foundation approved, formal Guide editorially complete, synchronized review proof active, publication freeze pending**.
 
 ## Canonical Architecture
 
@@ -73,7 +73,9 @@ This Program foundation is canonical source material at version 0.1. It is not, 
 - Annex F — Institution Intelligence Research Gate; and
 - Annex G — Institution Readiness;
 - formal Program Guide Executive Summary and Sections 1–7; and
-- complete Guide Appendices A–G and canonical Mermaid sources.
+- complete Guide Appendices A–G and canonical Mermaid sources;
+- Version 0.9 Editorial Review Proof PDF and HTML; and
+- synchronized publication report, hashes, and renderer configuration.
 
 ## Missing Assets
 
@@ -84,7 +86,7 @@ This Program foundation is canonical source material at version 0.1. It is not, 
 - sector-specific cover-letter and proposal templates;
 - demonstration integration;
 - submission-builder Program mapping;
-- Program publication renderer configuration, PDF/HTML artifacts, QA, freeze record, and checksums;
+- publication freeze record and Version 1.0 First Edition;
 - named-institution research, assessment, strategy, editions, proposals, and submissions.
 
 ## Known Risks
@@ -101,11 +103,9 @@ This Program foundation is canonical source material at version 0.1. It is not, 
 
 ## Next Recommended Slice
 
-The next editorial slice should review the complete Version 0.9 Program Guide as a Board paper. Review should test executive rhythm, public-finance accuracy, cross-corpus doctrine, section independence, and whether each Executive Decision is fully supported. Corrections should be made before any lock ceremony.
+Stop editing the Guide and submit the synchronized Version 0.9 Editorial Review Proof for Board and executive review. Apply only approved review comments before publication freeze and Version 1.0 First Edition preparation.
 
-After editorial approval, the Guide may proceed through a formal lock decision and publication planning using the existing Program Guide renderer and house style.
-
-No PDF, renderer instance, PVB research, institution edition, proposal, demonstration set, or submission portfolio should precede Guide approval.
+Shift institution-specific effort to Philippine Veterans Bank Institution Intelligence. Research and evidence must precede assessment, gap analysis, modernization planning, or executive submission.
 
 ## Implementation Status
 
@@ -113,10 +113,10 @@ No PDF, renderer instance, PVB research, institution edition, proposal, demonstr
 program: government-depository-digital-banking-program
 foundation_version: 0.1
 foundation_status: approved
-formal_program_guide: complete_draft_in_review
-publication_state: not_started
+formal_program_guide: canonical_v0_9_editorial_review_baseline
+publication_state: v0_9_editorial_review_proof
 institution_specific_work: not_started
-next_slice: formal_program_guide_editorial_review
+next_slice: board_and_executive_review
 ```
 
 ## Program Governance
@@ -133,9 +133,9 @@ The Program is governed by:
 
 Sector-specific language may adapt public purpose, stakeholders, workflows, legal context, audience emphasis, and institutional economics. It may not casually redefine canonical architecture or present a named-institution inference as fact.
 
-## Deferred Institution Workstreams
+## Planned Institution Workstreams
 
-The Philippine Veterans Bank institution-specific program is deferred pending a separate research-first phase.
+The Philippine Veterans Bank institution-specific program is the next planned workstream. It must begin with a separately scoped, evidence-first Institution Intelligence phase.
 
 Al-Amanah Islamic Investment Bank of the Philippines and any other eligible institution are also future candidates, not current workstreams. Each must begin with its own authority, evidence, governance, strategic, operational, technical, settlement, and relationship assessment.
 

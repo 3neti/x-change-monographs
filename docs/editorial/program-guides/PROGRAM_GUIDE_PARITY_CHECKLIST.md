@@ -29,7 +29,7 @@ Neither dimension can compensate for the other.
 
 ## Cross-Program Matrix
 
-The RBAP, Thrift Banks, and Government Depository Banks columns record current guide coverage against the frozen architecture. The Government Depository Guide is a complete Version 0.9 draft under review. `Complete` records substantive coverage; it does not imply editorial lock or publication approval.
+The RBAP, Thrift Banks, and Government Depository Banks columns record current guide coverage against the frozen architecture. The Government Depository Guide is editorially complete at the canonical Version 0.9 review baseline. `Complete` records substantive coverage; it does not imply publication freeze or Version 1.0 approval.
 
 | Canonical Requirement | RBAP | Thrift Banks | Government Depository Banks | Status | Notes |
 | --- | --- | --- | --- | --- | --- |
@@ -109,7 +109,7 @@ A future guide satisfies diagram parity by referencing the approved canonical di
 | --- | --- | --- |
 | RBAP Digital Banking Program | `docs/editorial/program-guides/rbap/rbap-digital-banking-program-guide.md` | The Executive Summary was revalidated under EDR-012 and locked without wording changes. Sections 1–7 and Appendices A–G remain canonical and locked; all mandatory coverage categories and diagram-registry requirements remain Complete. The complete editorial source is canonical and locked. Final publication governance, figure rendering, accessibility tagging, placement, and pagination remain pending. |
 | Thrift Bank Digital Banking Program | `docs/editorial/program-guides/thrift-bank/thrift-bank-program-guide.md` | Canonical and editorially locked under the [Editorial Acceptance](thrift-bank/EDITORIAL_ACCEPTANCE.md). EDR-005 editorial work is complete for this implementation; future work proceeds through institution-specific editions. Executive Summary, Sections 1–7, and Appendices A–G are complete. No publication build is authorized. The separate [Phase 1 Institutional Study](../thrift-bank-digital-banking-program/README.md) remains the authoritative doctrinal source. |
-| Government Depository Banking Program | `docs/editorial/program-guides/government-depository/government-depository-digital-banking-program-guide.md` | Version 0.9 is a complete draft under review. The Executive Summary, Sections 1–7, Appendices A–G, all mandatory coverage categories, and canonical diagram registry are Complete for parity. Nothing is editorially locked or approved for publication. Institution-specific work remains deferred pending a separate research-first phase. |
+| Government Depository Banking Program | `docs/editorial/program-guides/government-depository/government-depository-digital-banking-program-guide.md` | Version 0.9 is the editorially complete canonical review baseline. The Executive Summary, Sections 1–7, Appendices A–G, all mandatory coverage categories, and canonical diagram registry are Complete for parity. The synchronized Editorial Review Proof is active; publication freeze and Version 1.0 remain pending. Philippine Veterans Bank Institution Intelligence is the next planned evidence-first workstream. |
 
 ## Required Gap Report
 

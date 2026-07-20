@@ -26,13 +26,13 @@ The Program applies the existing x-change platform and banking grammar to accoun
 
 1. [Movement IV — Modernizing Public Finance Through Trusted Government Depository Banking](../movement-iv-government-depository-banking/README.md) establishes the strategic and institutional foundation.
 2. This Program foundation defines the reusable sector-level operating, commercial, publication, stakeholder, and adoption architecture.
-3. The complete review draft of the [Government Depository Digital Banking Program Guide](../program-guides/government-depository/README.md) implements the frozen [Canonical Banking Program Guide](../program-guides/CANONICAL_BANKING_PROGRAM_GUIDE.md) architecture and parity controls.
+3. The editorially complete [Government Depository Digital Banking Program Guide](../program-guides/government-depository/README.md) implements the frozen [Canonical Banking Program Guide](../program-guides/CANONICAL_BANKING_PROGRAM_GUIDE.md) architecture and parity controls at the canonical Version 0.9 review baseline.
 4. Institution-specific work must then begin under the [Institution Intelligence Framework](../../institutions/README.md).
 
 ## Current boundary
 
-The foundation is approved. The formal Government Depository Program Guide is complete as a Version 0.9 draft under review. Its editorial lock, publication derivatives, renderer instance, and publication artifacts remain future work.
+The foundation is approved. The formal Government Depository Program Guide is editorially complete at the canonical Version 0.9 review baseline. Its synchronized PDF and HTML constitute the active Editorial Review Proof. Board and executive review, approved review changes, publication freeze, and Version 1.0 remain future lifecycle gates.
 
-The Philippine Veterans Bank institution-specific workstream has not begun. It is expressly deferred pending a separate research-first phase. No PVB proposal, financial model, demonstration package, executive portfolio, or submission portfolio is created here.
+The Philippine Veterans Bank institution-specific workstream has not begun. It is the next planned institution workstream and must begin with evidence-based Institution Intelligence. No PVB proposal, financial model, demonstration package, executive portfolio, or submission portfolio is created here.
 
-No PDF or renderer output is authorized at the current Guide-review stage.
+No additional editorial experimentation is authorized before Board and executive review. The Version 0.9 proof is not a publication freeze or a Version 1.0 First Edition.

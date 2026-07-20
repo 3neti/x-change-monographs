@@ -7,8 +7,8 @@
 | Benchmark | Thrift Bank Digital Banking Program and completed AllBank implementation chain |
 | Subject | Government Depository Digital Banking Program |
 | Assessment basis | Live repository |
-| Assessment date | 2026-07-19 |
-| Verdict | Mostly aligned at editorial-source level; not at publication parity |
+| Assessment date | 2026-07-20 |
+| Verdict | Aligned at the editorial review-proof baseline; not at publication-freeze parity |
 
 ## Executive Verdict
 
@@ -16,16 +16,16 @@ Government Depository documentation is **mostly aligned at editorial-source leve
 
 The institutional doctrine is mature. [Movement IV](../movement-iv-government-depository-banking/modernizing-public-finance-through-trusted-government-depository-banking.md) is an approved and published white paper with a clear public-trust thesis, an institution-first model, and explicit operating-sovereignty boundaries. The shared repository already supplies the canonical Program Guide architecture, Treasury grammar, Institution Intelligence methodology, publication governance, demonstration-credential grammar, and Submission Portfolio architecture.
 
-The approved Program foundation closed the sector-definition gap. The complete Version 0.9 Program Guide draft now closes the formal-architecture and mandatory-coverage gap. It mirrors the canonical seven-question structure, includes Guide Appendices A–G, and preserves the shared diagrams and operating grammar. The draft remains under review and creates no publication lock.
+The approved Program foundation closed the sector-definition gap. The editorially complete Version 0.9 Program Guide closes the formal-architecture and mandatory-coverage gap. It mirrors the canonical seven-question structure, includes Guide Appendices A–G, and preserves the shared diagrams and operating grammar. Its synchronized PDF and HTML form the active Editorial Review Proof; publication freeze remains pending.
 
 The accurate status is therefore:
 
 - **architectural alignment:** established;
 - **institutional thesis:** established and frozen in Movement IV;
 - **program foundation:** approved;
-- **formal Program Guide:** complete Version 0.9 draft under review;
-- **program publication stack:** planned, not created;
-- **institution-specific implementation:** deferred pending research; and
+- **formal Program Guide:** editorially complete canonical Version 0.9 review baseline;
+- **program publication stack:** synchronized Editorial Review Proof active; publication freeze pending;
+- **institution-specific implementation:** Philippine Veterans Bank research planned but not started; and
 - **overall publishing parity with the Thrift Bank track:** not yet achieved.
 
 ## Parity Matrix
@@ -34,23 +34,23 @@ Status terms describe current repository evidence, not intended future state.
 
 | Area | Thrift Bank | Government Depository | Status | Action |
 | --- | --- | --- | --- | --- |
-| Program specification | Canonical institutional study, thesis, architecture notes, reconciliation, metadata, and accepted formal Guide | Approved foundation, complete Guide draft, metadata, and Guide appendices | Mostly aligned | Complete editorial review and lock before publication |
+| Program specification | Canonical institutional study, thesis, architecture notes, reconciliation, metadata, and accepted formal Guide | Approved foundation, editorially complete Guide, metadata, and Guide appendices | Aligned at review baseline | Complete Board and executive review before publication freeze |
 | Overview | Program-level narrative exists within the canonical manuscript and Guide; no separately governed `Program Overview` artifact was located | Program purpose, vision, scope, and architecture exist in the foundation and Guide; no derivative Overview | Planned | Derive a governed Overview after Guide approval |
 | Program in One Page | No separately governed artifact was located | Not created | Missing in both benchmark and subject | Define one reusable derivative form during Phase 2 rather than copying an absent file |
-| Executive Summary | Complete in Executive and Institutional Reference editions | Complete in the Version 0.9 Guide draft; not locked | Mostly aligned | Revalidate and lock only after editorial review of the complete Guide |
-| Program Guide | Accepted and locked EDR-005 implementation; Executive and Institutional Reference editions are canonical | Complete EDR-005 Version 0.9 draft with Sections 1–7 and Appendices A–G; not locked or published | Mostly aligned | Conduct executive and doctrinal review, then decide whether to lock |
+| Executive Summary | Complete in Executive and Institutional Reference editions | Editorially complete in the Version 0.9 canonical review baseline | Aligned at review baseline | Apply only approved Board or executive review changes |
+| Program Guide | Accepted and locked EDR-005 implementation; Executive and Institutional Reference editions are canonical | Editorially complete EDR-005 Version 0.9 baseline with Sections 1–7, Appendices A–G, and synchronized review proof | Aligned at review baseline | Conduct Board and executive review before publication freeze |
 | Institutional Benefits | Developed across the Guide and its institutional case; no standalone canonical brief was located | Complete within Sections 3 and 6; no standalone brief | Mostly aligned | Derive a standalone brief after Guide approval |
 | Technical Overview | Architectural Notes, deployment appendix, Treasury appendix, diagrams, and Guide treatment exist | Complete Guide treatment and Appendices D, E, and G; no standalone derivative | Mostly aligned | Reuse the approved Guide to create a concise derivative later |
 | Commercial Overview | Commercial treatment and Commercial Waterfall appendix exist; institution proposal standards and AllBank proposal demonstrate the downstream model | Complete Guide treatment and Commercial Waterfall appendix; no standalone derivative or pricing | Mostly aligned | Create a non-priced derivative after Guide approval; defer terms to institution proposals |
 | Stakeholder documents | Stakeholders appear throughout publications, but no standalone governed stakeholder-brief family was located | Annex B establishes the sector stakeholder map; audience-specific briefs are not created | Partially aligned | Develop controlled briefs in Phase 3 from the approved Program sources |
 | Financial briefs | No standalone canonical financial-brief family was located in the benchmark | Not created | Missing in both benchmark and subject | Establish a reusable evidence-led format before creating sector or institution instances |
-| Executive publications | Canonical Executive Edition, Institutional Reference Edition, and AllBank Executive Edition exist | Movement IV is a canonical executive white paper; Program-specific executive publications do not exist | Partially aligned | Add the Program executive layer only after the formal Guide is approved |
+| Executive publications | Canonical Executive Edition, Institutional Reference Edition, and AllBank Executive Edition exist | Movement IV is canonical; the Program Guide has an active Version 0.9 Editorial Review Proof | Partially aligned | Freeze Version 1.0 only after Board and executive review |
 | Demonstration credentials | Frozen reusable Executive Demonstration Credential v1.0 and AllBank recipient-set implementation exist | No Government Depository instance; the shared credential can be reused without changing its grammar | Reusable, not instantiated | Integrate only within an authorized institution workstream |
 | Submission portfolio | AllBank v1.0 portfolio and reusable Submission Architecture exist | No Government Depository or institution submission instance | Missing instance | Reuse the existing builder and grammar after institution research and approved artifacts |
-| Metadata | Program, Guide, edition, institution, proposal, and submission metadata exist | Foundation and Guide metadata exist; publication and institution metadata remain future work | Mostly aligned | Extend existing schemas at each authorized phase; do not invent a parallel schema |
-| Renderer | Thrift Guide, AllBank, commercial, and demonstration publication pipelines exist | Movement IV has an approved renderer; no Program Guide renderer instance | Reusable, not instantiated | Reuse the Program Guide house style when publication is authorized |
+| Metadata | Program, Guide, edition, institution, proposal, and submission metadata exist | Foundation and Guide metadata record the active Version 0.9 proof; institution metadata remains future work | Aligned at review baseline | Extend existing schemas at each authorized phase; do not invent a parallel schema |
+| Renderer | Thrift Guide, AllBank, commercial, and demonstration publication pipelines exist | Government Depository Program Guide renderer produced synchronized Version 0.9 PDF and HTML | Instantiated for review | Preserve the renderer through publication review and freeze |
 | Freeze records | Canonical lock and edition acceptance records exist; frozen publications have checksums and versioned artifacts | Movement IV is approved; the Program foundation has no publication freeze | Missing for Program | Freeze only an accepted publication edition, not this planning foundation by implication |
-| Version history | Mature editorial and publication history across Guide editions and AllBank artifacts | Foundation begins at version 0.1; no Program publication history | Not aligned | Record explicit versions as future artifacts are accepted and frozen |
+| Version history | Mature editorial and publication history across Guide editions and AllBank artifacts | Foundation version 0.1 and the Version 0.9 review-proof milestone are recorded; no frozen Program publication exists | Partially aligned | Record Version 1.0 only after publication freeze |
 | README and navigation | Complete across Program, Guide, Institution Intelligence, AllBank editions, proposals, and submissions | Foundation and Guide README, metadata, annex navigation, parity, and repository links are complete | Aligned at editorial-source level | Maintain as each future layer is added |
 | Architecture alignment | Canonical bank authority, operating grammar, institution-specific driver, settlement, Treasury, custody, deployment, and readiness boundaries | Same canonical architecture is expressly inherited | Aligned | Continue no-fork review at every downstream gate |
 | Grammar alignment | Canonical editorial, Program Guide, institution, commercial, publication, and submission grammar is implemented | Same lifecycle and governance grammar is expressly inherited | Aligned at foundation level | Reuse existing standards and balk on silent omissions |

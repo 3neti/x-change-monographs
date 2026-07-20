@@ -37,12 +37,13 @@ governance:
   canonical_grammar: "inherited-unchanged"
   operating_sovereignty: "preserved"
 publication:
-  generated: false
-  renderer: "reuse existing Program Guide publishing system when authorized"
-  formal_program_guide: "complete-draft-in-review"
+  generated: true
+  renderer: "scripts/publish-government-depository-program-guide.py"
+  formal_program_guide: "canonical-v0.9-editorial-review-baseline"
+  review_proof: "build/program-guides/government-depository/review-proof/government-depository-digital-banking-program-guide-v0.9-review-proof.pdf"
   freeze_record: "not-yet-created"
 institution_specific_work:
-  status: "deferred"
+  status: "planned"
   first_expected_institution: "Philippine Veterans Bank"
-  required_next_gate: "separate Institution Intelligence research phase"
+  required_next_gate: "evidence-based Institution Intelligence research phase"
 notes: "This foundation creates no institution-specific claims, commercial proposal, pricing, production authorization, or new x-change architecture."

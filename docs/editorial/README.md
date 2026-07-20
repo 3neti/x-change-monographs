@@ -39,12 +39,12 @@ Banking Program Guides are canonical commercial handbooks and remain separate fr
 - [Banking Program Guide Parity Checklist](program-guides/PROGRAM_GUIDE_PARITY_CHECKLIST.md)
 - [RBAP Digital Banking Program Guide](program-guides/rbap/rbap-digital-banking-program-guide.md) — complete editorial source canonical and locked; Executive Summary revalidated and locked under EDR-012 without wording changes; final publication rendering pending
 - [Thrift Bank Digital Banking Program Guide](program-guides/thrift-bank/README.md) — publishing program complete under EDR-013 with canonical Executive and Institutional Reference editions
-- [Government Depository Digital Banking Program Guide](program-guides/government-depository/README.md) — complete Version 0.9 draft under review; all canonical coverage is present, but no section is locked and no publication build is authorized
+- [Government Depository Digital Banking Program Guide](program-guides/government-depository/README.md) — editorially complete canonical Version 0.9 review baseline with synchronized PDF and HTML proof; Board and executive review precede publication freeze and Version 1.0
 
 ## Institutional Program Studies
 
 - [Thrift Bank Digital Banking Program](thrift-bank-digital-banking-program/README.md) — approved Phase 1 institutional study and doctrinal source for the separate formal Program Guide
-- [Government Depository Digital Banking Program](government-depository-digital-banking-program/README.md) — approved Program foundation applying Movement IV without an architectural fork; the formal Program Guide is now a complete draft under review, while institution-specific work remains deferred
+- [Government Depository Digital Banking Program](government-depository-digital-banking-program/README.md) — approved Program foundation applying Movement IV without an architectural fork; the formal Program Guide is editorially complete at the canonical Version 0.9 review baseline, and Philippine Veterans Bank is the next planned evidence-first institution workstream
 
 ## Institution Intelligence
 

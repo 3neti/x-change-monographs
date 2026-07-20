@@ -1,6 +1,6 @@
 # Government Depository Digital Banking Program Guide
 
-This directory contains the complete review draft of the Government Depository implementation of the [Canonical Banking Program Guide](../CANONICAL_BANKING_PROGRAM_GUIDE.md) under EDR-005.
+This directory contains the editorially complete Government Depository implementation of the [Canonical Banking Program Guide](../CANONICAL_BANKING_PROGRAM_GUIDE.md) under EDR-005. Version 0.9 is the canonical editorial review baseline.
 
 - [`government-depository-digital-banking-program-guide.md`](government-depository-digital-banking-program-guide.md) contains the Executive Summary and Sections 1–7.
 - [`appendices/`](appendices/) contains complete Guide Appendices A–G.
@@ -12,9 +12,9 @@ The approved [Government Depository Program Foundation](../../government-deposit
 
 ## Editorial Status
 
-The Guide is a complete Version 0.9 draft under review. All seven business questions and 27 mandatory coverage categories are addressed. `Complete` parity coverage does not mean the Guide is editorially locked or approved for publication.
+The Guide has completed architectural review, publication-grammar review, editorial review, voice harmonization, executive polish, and editorial boundary review. All seven business questions and 27 mandatory coverage categories are addressed. Further editorial experimentation has ended.
 
-No PDF, HTML, renderer instance, acceptance record, freeze record, or publication checksum has been created.
+The active [Version 0.9 Editorial Review Proof](../../../../build/program-guides/government-depository/review-proof/government-depository-digital-banking-program-guide-v0.9-review-proof.pdf), its [HTML companion](../../../../build/program-guides/government-depository/review-proof/government-depository-digital-banking-program-guide-v0.9-review-proof.html), and the [Publication Review Report](../../../../build/program-guides/government-depository/review-proof/PUBLICATION_REVIEW_REPORT.md) are synchronized with the canonical manuscript. Version 0.9 remains under Board and executive review; it is not a publication freeze or a Version 1.0 First Edition. Changes may proceed only from approved review comments.
 
 ## Appendix Architecture
 
@@ -33,4 +33,8 @@ The [Thrift Bank Digital Banking Program Guide](../thrift-bank/README.md) is the
 
 ## Institution-Specific Boundary
 
-The Philippine Veterans Bank workstream remains deferred pending a separately authorized research-first phase under the [Institution Intelligence Framework](../../../institutions/README.md). This Guide contains no PVB assessment, recommendation, proposal, demonstration package, or submission portfolio.
+The next planned institution-specific workstream is Philippine Veterans Bank under the [Institution Intelligence Framework](../../../institutions/README.md). It must begin with evidence-based Institution Intelligence, followed by Strategic Assessment, Gap Analysis, a Modernization Program, and an Executive Submission. This Guide contains no PVB assessment, recommendation, proposal, demonstration package, or submission portfolio.
+
+## Future Edition Consideration
+
+Appendix G appropriately retains engineering-realization concepts. A future edition may consider complementary executive-conceptual and engineering-realization diagram views. No diagram change is requested for Version 0.9.

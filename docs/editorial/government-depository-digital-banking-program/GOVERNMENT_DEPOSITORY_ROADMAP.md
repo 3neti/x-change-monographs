@@ -19,11 +19,11 @@ This Roadmap moves the Program from an accepted sector foundation to reproducibl
 | Phase | Objective | Relative effort | Current status |
 | --- | --- | --- | --- |
 | 1 — Program Foundation | Establish the governable sector Program | Moderate | Approved |
-| 2 — Program Publication Layer | Create and publish the formal Program Guide and core derivatives | Substantial | In progress — Guide draft complete for review |
+| 2 — Program Publication Layer | Create and publish the formal Program Guide and core derivatives | Substantial | In progress — Guide editorially complete; Version 0.9 proof active |
 | 3 — Stakeholder and Financial Layer | Provide evidence-led audience-specific decision material | Moderate to substantial | Planned |
 | 4 — Executive Publication Layer | Prepare controlled executive and commercial publication forms | Moderate | Planned |
 | 5 — Submission Architecture | Integrate deterministic institution selection and packaging | Small to moderate | Planned |
-| 6 — Institution-Specific Programs | Apply the Program to researched institutions | Substantial per institution | Deferred pending research |
+| 6 — Institution-Specific Programs | Apply the Program to researched institutions | Substantial per institution | Planned — PVB Institution Intelligence is next |
 
 ## Phase 1 — Program Foundation
 
