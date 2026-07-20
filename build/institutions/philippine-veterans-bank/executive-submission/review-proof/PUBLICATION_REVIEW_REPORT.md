@@ -23,12 +23,12 @@ All four hashes were verified before and after rendering. No canonical source ch
 
 | Publication | Format | Pages | SHA-256 |
 | --- | --- | ---: | --- |
-| Board Paper | PDF | 3 | `25c24f06aef37af9758579d35b99f86346418369e8587ecb05c865af058d9cb2` |
-| Board Paper | HTML | — | `aa3c1fc1bb9afa766ff22323a8ef3f0ae0505cdd2052de9f27228963b1fd3322` |
-| Executive Summary | PDF | 2 | `ee116eedf271ae43d1116d756eb4cc5f61727dd3d16cfdd413254269ad99b287` |
-| Executive Summary | HTML | — | `ebfa07674e6e72898f973a32d93b14a8067d221688d626c4754b8127c61310db` |
-| One-Page Decision Memo | PDF | 1 | `8371e3fcfe198ea9ecd0be7a11f7124384dd354f68913eab42da3a0f5f751fee` |
-| One-Page Decision Memo | HTML | — | `2cd16937bcc2016c3983ecfbb7816efe6fbafa5e32d2a563499530430a8ebd93` |
+| Board Paper | PDF | 3 | `8c4be44adec5bf0b7331b96b4b6d874b147cc7aa6d9fd7702681b4abb9cb2cd8` |
+| Board Paper | HTML | — | `eb3fdede34d4213a6c144c7cf80dac8d50be0cf60bb547147a5836adf62992df` |
+| Executive Summary | PDF | 2 | `43c31fdf91de01c6694f572336e3721b89ecb12127c087be773a8e6c52daf3aa` |
+| Executive Summary | HTML | — | `b383cadab0ee552b99fbef6a256d6c09554ac0a1a294b7fc9968fccc72fcfe4d` |
+| One-Page Decision Memo | PDF | 1 | `80b13ff1db927e44e10b86de8f2776a6b1f7d655156efbf6790763ca07c27608` |
+| One-Page Decision Memo | HTML | — | `2da50b7d168a9600720c7cf7fe67da53b1dbb97e95b033643d61ec2c7d78d083` |
 
 The machine-readable artifact record is preserved in `publication-manifest.json`.
 
@@ -45,6 +45,18 @@ The machine-readable artifact record is preserved in `publication-manifest.json`
 
 All fonts are embedded. The PDF font resources contain embedded Charter, Baskerville, and Avenir Next programs.
 
+## Wordmark correction
+
+The initial proofs allowed the masthead wordmark to inherit the proof label's uppercase transformation and to wrap after the hyphen. This produced `X-` and `CHANGE` on separate lines.
+
+The correction was applied at the reusable rendering layer:
+
+- `resources/publication-assets/styles/program-guide.css` now protects the Program Guide cover lockup and prepared-by wordmark with lowercase case preservation, non-wrapping flex behavior, fixed icon-to-wordmark grouping, and non-shrinking lockup elements. This shared stylesheet governs the RBAP, Thrift Bank, Government Depository, and AllBank Program Guide families.
+- `scripts/publish-pvb-executive-submission.py` now emits the icon and wordmark as one structural `xchange-lockup`, with a protected lowercase `xchange-wordmark` child.
+- The approved orange icon asset remains unchanged.
+
+The white-paper and Movement templates already use a non-wrapping `cover-brand` container and lowercase `cover-wordmark`. Commercial proposal and cover-letter templates use the icon without a reconstructed wordmark. No additional template migration is required for the currently identified publication families.
+
 ## Navigation and links
 
 - The Board Paper contains 10 bookmark entries: the document title and nine numbered sections.
@@ -56,6 +68,8 @@ All fonts are embedded. The PDF font resources contain embedded Charter, Baskerv
 ## Visual inspection
 
 Every physical page was rendered to PNG and inspected at publication resolution.
+
+The first page of each PVB artifact was re-inspected after regeneration. In every case, the icon and lowercase `x-change` wordmark remain grouped on one line, the hyphen is visible, and the lockup is clear of titles, metadata, margins, and page edges.
 
 ### Board Paper
 
@@ -86,9 +100,20 @@ Every physical page was rendered to PNG and inspected at publication resolution.
 - Page counts are 3, 2, and 1 respectively.
 - No tables, diagrams, stock imagery, presentation slides, or commercial material were introduced.
 
+## Shared-template regression check
+
+The AllBank Executive Edition was rebuilt in a temporary QA location using the corrected shared Program Guide stylesheet.
+
+- The cover lockup renders as lowercase `x-change` on one line.
+- The icon and wordmark remain centered, proportional, unclipped, and visually grouped.
+- Physical pagination remains 29 pages, matching the approved publication manifest.
+- No unrelated title, cover, footer, or manuscript text changed.
+- No regression artifact was added to the canonical build tree.
+
 ## Publication-only observations
 
 - No textual issue was discovered that requires reopening a canonical source.
+- The wordmark-wrap defect was confined to publication rendering. No manuscript or institutional content was changed.
 - The PDF reader used for manifest inspection emitted a non-blocking font-table diagnostic for the fully embedded macOS fonts. Font embedding, text extraction, and visual rendering were verified and are unaffected.
 - These PDFs are review proofs. They are not Version 1.0, First Editions, Board-approved publications, or publication-freeze artifacts.
 

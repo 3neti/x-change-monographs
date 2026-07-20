@@ -356,8 +356,29 @@ strong {{ color: var(--ink); font-weight: 700; }}
   letter-spacing: 0.12em;
   text-transform: uppercase;
 }}
-.imprint {{ display: flex; align-items: center; gap: 2mm; color: var(--ink); }}
-.imprint img {{ width: 3.5mm; height: auto; }}
+.xchange-lockup {{
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 2mm;
+  min-width: 21mm;
+  color: var(--ink);
+  font-variant: normal;
+  font-variant-caps: normal;
+  letter-spacing: 0.015em;
+  text-transform: none;
+  white-space: nowrap;
+}}
+.xchange-lockup img {{ flex: 0 0 auto; width: 3.5mm; height: auto; }}
+.xchange-wordmark {{
+  display: inline-block;
+  flex: 0 0 auto;
+  font-variant: normal;
+  font-variant-caps: normal;
+  text-transform: none;
+  white-space: nowrap;
+}}
 .program-title {{
   margin: 8mm 0 0;
   color: var(--muted);
@@ -535,7 +556,7 @@ def publication_html(
   <header class="publication-masthead" id="publication-record">
     <div class="proof-line">
       <span>Version {VERSION} · {STATUS}</span>
-      <span class="imprint"><img src="{logo_uri}" alt="x-change logo">x-change</span>
+      <span class="xchange-lockup" aria-label="x-change"><img src="{logo_uri}" alt=""><span class="xchange-wordmark">x-change</span></span>
     </div>
     <div class="program-title">{PROGRAM_TITLE}</div>
     <h1 class="artifact-title">{html.escape(publication.title)}</h1>
