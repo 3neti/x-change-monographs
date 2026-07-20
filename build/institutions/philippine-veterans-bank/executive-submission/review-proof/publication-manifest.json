@@ -1,0 +1,152 @@
+{
+  "publication_family": "Philippine Veterans Bank Executive Submission Suite",
+  "status": "Executive Review Proof",
+  "version": "0.9",
+  "publication_date": "20 July 2026",
+  "canonical_parent": {
+    "file": "docs/institutions/philippine-veterans-bank/PHILIPPINE_VETERANS_BANK_MODERNIZATION_PROGRAM.md",
+    "sha256": "6430e06d522f350148c420aa5dbc71e2e3a2a88abdc7ab38c361e73ffad27962"
+  },
+  "artifacts": [
+    {
+      "key": "board-paper",
+      "source": "docs/institutions/philippine-veterans-bank/executive-submission/BOARD_PAPER.md",
+      "source_sha256": "a08ad9d9f8a64c45096a4ff1ca89b6c72a61bf2b0a2d2604e58585f79acc62ee",
+      "html": {
+        "file": "pvb-board-paper-v0.9-review-proof.html",
+        "sha256": "aa3c1fc1bb9afa766ff22323a8ef3f0ae0505cdd2052de9f27228963b1fd3322",
+        "bytes": 130574
+      },
+      "pdf": {
+        "file": "pvb-board-paper-v0.9-review-proof.pdf",
+        "sha256": "25c24f06aef37af9758579d35b99f86346418369e8587ecb05c865af058d9cb2",
+        "bytes": 7761060,
+        "pages": 3,
+        "page_sizes_points": [
+          [
+            595.28,
+            841.89
+          ],
+          [
+            595.28,
+            841.89
+          ],
+          [
+            595.28,
+            841.89
+          ]
+        ],
+        "bookmarks": 10,
+        "link_annotations": 1,
+        "link_targets": [
+          "file:///Users/rli/PhpstormProjects/x-change-monographs/docs/institutions/philippine-veterans-bank/PHILIPPINE_VETERANS_BANK_MODERNIZATION_PROGRAM.md"
+        ],
+        "fonts_embedded": true,
+        "font_names": [
+          "/ANAMPP+Avenir-Next",
+          "/BULDDG+Baskerville",
+          "/NGLMWS+Charter-Bold",
+          "/RATJMB+Charter",
+          "/ZEROIV+Avenir-Next-Semi-Bold",
+          "/ZNIPMX+Avenir-Next-Medium"
+        ],
+        "metadata": {
+          "/Producer": "WeasyPrint 66.0",
+          "/Title": "Board Paper — Authority for Management Validation — Version 0.9 Executive Review Proof",
+          "/Author": "x-change",
+          "/Subject": "Board Paper; Version 0.9 Executive Review Proof; derivative of the Philippine Veterans Bank Modernization Program"
+        }
+      }
+    },
+    {
+      "key": "executive-summary",
+      "source": "docs/institutions/philippine-veterans-bank/executive-submission/EXECUTIVE_SUMMARY.md",
+      "source_sha256": "6f0140a57ac5d6f9e9ca80e01f958f98e429cf3c2ab164b2b4168cb7bf9aec74",
+      "html": {
+        "file": "pvb-executive-summary-v0.9-review-proof.html",
+        "sha256": "ebfa07674e6e72898f973a32d93b14a8067d221688d626c4754b8127c61310db",
+        "bytes": 129225
+      },
+      "pdf": {
+        "file": "pvb-executive-summary-v0.9-review-proof.pdf",
+        "sha256": "ee116eedf271ae43d1116d756eb4cc5f61727dd3d16cfdd413254269ad99b287",
+        "bytes": 7758048,
+        "pages": 2,
+        "page_sizes_points": [
+          [
+            595.28,
+            841.89
+          ],
+          [
+            595.28,
+            841.89
+          ]
+        ],
+        "bookmarks": 1,
+        "link_annotations": 1,
+        "link_targets": [
+          "file:///Users/rli/PhpstormProjects/x-change-monographs/docs/institutions/philippine-veterans-bank/PHILIPPINE_VETERANS_BANK_MODERNIZATION_PROGRAM.md"
+        ],
+        "fonts_embedded": true,
+        "font_names": [
+          "/ANAMPP+Avenir-Next",
+          "/BULDDG+Baskerville",
+          "/NGLMWS+Charter-Bold",
+          "/RATJMB+Charter",
+          "/ZEROIV+Avenir-Next-Semi-Bold",
+          "/ZNIPMX+Avenir-Next-Medium"
+        ],
+        "metadata": {
+          "/Producer": "WeasyPrint 66.0",
+          "/Title": "Executive Summary — Version 0.9 Executive Review Proof",
+          "/Author": "x-change",
+          "/Subject": "Executive Summary; Version 0.9 Executive Review Proof; derivative of the Philippine Veterans Bank Modernization Program"
+        }
+      }
+    },
+    {
+      "key": "decision-memo",
+      "source": "docs/institutions/philippine-veterans-bank/executive-submission/ONE_PAGE_DECISION_MEMO.md",
+      "source_sha256": "865288642af7beccd2db1758fcb5f5cb9d96e43463a97c3770e51f979e1d49e7",
+      "html": {
+        "file": "pvb-one-page-decision-memo-v0.9-review-proof.html",
+        "sha256": "2cd16937bcc2016c3983ecfbb7816efe6fbafa5e32d2a563499530430a8ebd93",
+        "bytes": 126287
+      },
+      "pdf": {
+        "file": "pvb-one-page-decision-memo-v0.9-review-proof.pdf",
+        "sha256": "8371e3fcfe198ea9ecd0be7a11f7124384dd354f68913eab42da3a0f5f751fee",
+        "bytes": 7754179,
+        "pages": 1,
+        "page_sizes_points": [
+          [
+            595.28,
+            841.89
+          ]
+        ],
+        "bookmarks": 6,
+        "link_annotations": 1,
+        "link_targets": [
+          "file:///Users/rli/PhpstormProjects/x-change-monographs/docs/institutions/philippine-veterans-bank/PHILIPPINE_VETERANS_BANK_MODERNIZATION_PROGRAM.md"
+        ],
+        "fonts_embedded": true,
+        "font_names": [
+          "/ANAMPP+Avenir-Next",
+          "/BULDDG+Baskerville",
+          "/NGLMWS+Charter-Bold",
+          "/RATJMB+Charter",
+          "/ZEROIV+Avenir-Next-Semi-Bold",
+          "/ZNIPMX+Avenir-Next-Medium"
+        ],
+        "metadata": {
+          "/Producer": "WeasyPrint 66.0",
+          "/Title": "One-Page Decision Memo — Version 0.9 Executive Review Proof",
+          "/Author": "x-change",
+          "/Subject": "Decision Memo; Version 0.9 Executive Review Proof; derivative of the Philippine Veterans Bank Modernization Program"
+        }
+      }
+    }
+  ],
+  "source_files_unchanged": true,
+  "presentation_generated": false
+}
