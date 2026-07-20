@@ -6,7 +6,7 @@ This repository is the first evidence-based application of the canonical [Instit
 
 **Phase:** 5 — Executive Submission Suite
 
-**Status:** Executive Submission Suite complete for executive-publication review
+**Status:** Executive Submission Suite governance refined — ready for publication generation
 
 **Evidence cutoff:** 20 July 2026
 
@@ -95,4 +95,4 @@ The 2025 audited financial statements contain a qualified opinion and a material
 
 Gate 1 approved the Strategic Assessment for evidence-led comparison. Gate 2 approved the Gap Analysis for evidence-derived institutional design. Gate 3 accepted the Modernization Program as canonical and authorized derivative executive communication. None establishes PVB institutional approval, readiness, or implementation authority.
 
-The Executive Submission Suite is complete for executive-publication review. The reviewer may accept it for publication preparation, return a specific derivative for correction, require traceability clarification, or pause the workstream. PDF generation, a presentation deck, proposal, financial brief, commercial work, and implementation remain unauthorized.
+The Executive Submission Suite has completed executive-publication review and final governance refinement. Board-ready publication generation is the next governed workstream and requires a separate production assignment. Proposal, financial brief, commercial work, and implementation remain unauthorized.

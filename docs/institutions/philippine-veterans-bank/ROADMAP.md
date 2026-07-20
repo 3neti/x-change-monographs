@@ -21,7 +21,7 @@ Accepted at Gate 3 — Canonical
         ↓
 Phase 5 — Executive Submission Suite
         ↓
-Complete for executive-publication review
+Governance refined — ready for publication generation
 ```
 
 ## Phase sequence
@@ -32,18 +32,14 @@ Complete for executive-publication review
 | 2 | Strategic Assessment | Accepted — Gate 1 | Limited Phase 2 authority | Understand strengths, constraints, positioning, maturity signals, Unknowns, and tensions without proposing x-change |
 | 3 | Strategic Gap Analysis | Accepted — Gate 2 | Gate 1 approval | Compare accepted institution evidence with canonical Government Depository doctrine without proposing a solution |
 | 4 | PVB Modernization Program | Accepted — Gate 3 — Canonical | Gate 2 approval | Evidence-derived institutional response; read-only parent for derivatives |
-| 5 | Executive Submission Suite | Complete — Executive Publication Review | Gate 3 approval | Audience-specific communication derived from the canonical Program |
+| 5 | Executive Submission Suite | Governance Refined — Ready for Publication Generation | Gate 3 approval | Audience-specific communication derived from the canonical Program |
 | 6 | Implementation | Not Authorized | Separate institutional, legal, commercial, risk, and technical authority | Discovery, pilot, readiness, and controlled expansion |
 
-## Executive-publication review
+## Publication generation
 
-The next permitted action is review of the Executive Submission Suite. The reviewer may decide:
+The Executive Submission Suite has completed editorial review and final governance refinement. The next permitted workstream is Board-ready publication generation under a separate production assignment.
 
-- **Accept for publication preparation**;
-- **Return a specific derivative for correction**;
-- **Require Program traceability clarification**;
-- **Pause for institution-provided evidence**; or
-- **Do not proceed**.
+Publication generation may typeset the approved derivatives, produce governed presentation and meeting assets, and verify publication fidelity. It must not alter the canonical Program or derivative content, and it must not imply implementation, procurement, production, or commercial authority.
 
 No later-phase file should be created merely to demonstrate momentum.
 

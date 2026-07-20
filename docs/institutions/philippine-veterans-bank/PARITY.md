@@ -26,7 +26,7 @@ This review checks the Phase 1 corpus against the canonical Institution Intellig
 | Gap Analysis decision record | `GAP_ANALYSIS_DECISION_RECORD.md` | Accepted — Gate 2 | Classification and evidence-handling decisions recorded |
 | Modernization Program | `PHILIPPINE_VETERANS_BANK_MODERNIZATION_PROGRAM.md` | Accepted — Gate 3 — Canonical | Evidence-derived institutional response with explicit categories and conditional recommendations |
 | Modernization Program decision record | `MODERNIZATION_PROGRAM_DECISION_RECORD.md` | Accepted — Gate 3 | Program-design methodology and candidate dispositions recorded |
-| Executive Submission Suite | `executive-submission/README.md` | Complete — Executive Publication Review | Seven audience-specific derivatives and suite governance |
+| Executive Submission Suite | `executive-submission/README.md` | Governance Refined — Ready for Publication Generation | Seven audience-specific derivatives and suite governance |
 | Editorial Mapping | Not authorized | Correctly absent | Requires accepted preceding analysis |
 
 ## Research-domain parity
@@ -165,6 +165,7 @@ Gate 3 was reviewed and approved on 20 July 2026. The Modernization Program is t
 | Executive Presentation Outline | Complete | Ten-slide narrative outline; no presentation asset generated |
 | Executive FAQ | Complete | Eighteen decision-boundary questions; no engineering explanation |
 | Audience separation | Complete | Intended audience and use named in every publication |
+| Derivative identity | Complete | Every publication identifies itself as derived from the canonical Program |
 | Program traceability | Complete | Every derivative links to the canonical parent and preserves its decisions |
 | Candidate ceremonies | Complete | Primary, secondary, strategic later, and deferred dispositions unchanged |
 | Unknowns and Management Validation | Complete | Preserved as decision conditions |
@@ -172,6 +173,6 @@ Gate 3 was reviewed and approved on 20 July 2026. The Modernization Program is t
 | Commercial boundary | Complete | No price, return, budget, or agreement introduced |
 | AllBank boundary | Complete | Used only for publication quality; no institution-specific content imported |
 
-## Executive-publication review recommendation
+## Executive-publication governance conclusion
 
-The suite is complete for review and supports a decision of **Accept for publication preparation** if its derivative fidelity, audience fit, and decision clarity are accepted. No PDF, presentation deck, proposal, financial brief, or implementation artifact is authorized by this status.
+The suite has completed executive-publication review and final governance refinement. Its derivative fidelity, audience fit, decision clarity, Gate 3 terminology, and Board-decision boundary are consistent. Board-ready publication generation may proceed under a separate production assignment; proposal, financial brief, commercial, and implementation artifacts remain unauthorized.

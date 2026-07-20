@@ -110,17 +110,17 @@ Not authorized:
 - solution architecture; or
 - implementation roadmap.
 
-Gate 1 accepted the Strategic Assessment for comparison. Gate 2 accepted the Gap Analysis for institutional design. Gate 3 accepted the Modernization Program as canonical and authorized derivative executive communication. The Phase 5 suite is complete for review; publication production, commercial work, and implementation remain unauthorized.
+Gate 1 accepted the Strategic Assessment for comparison. Gate 2 accepted the Gap Analysis for institutional design. Gate 3 accepted the Modernization Program as canonical and authorized derivative executive communication. The Phase 5 suite has completed executive-publication review and final governance refinement. Publication generation is ready to proceed under a separate production assignment; commercial work and implementation remain unauthorized.
 
 ## Protected canonical source
 
 The Government Depository Program Guide and its supporting doctrine remain unchanged. This dossier may cite that lineage as a research lens, but it may not use the Guide to manufacture PVB facts.
 
-## Phase 5 completion standard
+## Phase 5 governance-refinement standard
 
-The Executive Submission Suite is complete for review when:
+The Executive Submission Suite is ready for publication generation when:
 
-1. every derivative names its audience and canonical parent;
+1. every derivative names its audience, derivative status, and canonical parent;
 2. every executive recommendation remains traceable to the Program;
 3. the bounded Management-validation decision remains consistent;
 4. no new evidence, conclusion, architecture, ceremony priority, or implementation step appears;
@@ -129,4 +129,4 @@ The Executive Submission Suite is complete for review when:
 7. no commercial term or production authority is implied; and
 8. the Program remains read-only and authoritative.
 
-Publication freeze and production require separate acceptance of the suite.
+These conditions are satisfied. Publication generation requires a separate production assignment and must not modify the Program or its approved derivatives.

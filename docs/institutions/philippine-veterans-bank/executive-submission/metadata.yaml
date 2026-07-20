@@ -3,7 +3,7 @@ institution: "Philippine Veterans Bank"
 institution_short_name: "PVB"
 phase: 5
 version: "0.1"
-status: "Complete for Executive Publication Review"
+status: "Governance Refined — Ready for Publication Generation"
 date: "2026-07-20"
 canonical_parent:
   title: "Philippine Veterans Bank Modernization Program"
@@ -31,36 +31,37 @@ publications:
   executive_summary:
     file: "EXECUTIVE_SUMMARY.md"
     audience: "Board, President, CEO, Executive Committee"
-    status: "Complete for Review"
+    status: "Governance Reviewed"
   board_paper:
     file: "BOARD_PAPER.md"
     audience: "Board of Directors and Board committees"
-    status: "Complete for Review"
+    status: "Governance Reviewed"
   executive_brief:
     file: "EXECUTIVE_BRIEF.md"
     audience: "President, CEO, Executive Committee, Strategy Office"
-    status: "Complete for Review"
+    status: "Governance Reviewed"
   one_page_decision_memo:
     file: "ONE_PAGE_DECISION_MEMO.md"
     audience: "Board and President"
-    status: "Complete for Review"
+    status: "Governance Reviewed"
   meeting_leave_behind:
     file: "MEETING_LEAVE_BEHIND.md"
     audience: "Executive meeting participants"
-    status: "Complete for Review"
+    status: "Governance Reviewed"
   executive_presentation_outline:
     file: "EXECUTIVE_PRESENTATION_OUTLINE.md"
     audience: "Presenter, Board Secretariat, Strategy Office"
-    status: "Complete for Review"
+    status: "Governance Reviewed"
   executive_faq:
     file: "EXECUTIVE_FAQ.md"
     audience: "Board and responsible Management functions"
-    status: "Complete for Review"
+    status: "Governance Reviewed"
 allbank_benchmark:
   consulted: true
   scope: "Publication quality only"
   institutional_content_imported: false
 publication:
+  generation_state: "Ready — Separate Production Assignment Required"
   pdf_generated: false
   presentation_generated: false
   commercial_package_generated: false

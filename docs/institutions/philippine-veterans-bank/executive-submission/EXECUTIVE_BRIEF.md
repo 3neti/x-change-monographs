@@ -6,6 +6,8 @@
 
 **Purpose:** Prepare Management for a focused institutional discussion
 
+**Derivative status:** Executive publication derived from the canonical Program
+
 **Canonical parent:** [Philippine Veterans Bank Modernization Program](../PHILIPPINE_VETERANS_BANK_MODERNIZATION_PROGRAM.md)
 
 ## The institutional question

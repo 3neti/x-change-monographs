@@ -6,6 +6,8 @@
 
 **Purpose:** Seek a bounded decision on institutional validation
 
+**Derivative status:** Executive publication derived from the canonical Program
+
 **Canonical parent:** [Philippine Veterans Bank Modernization Program](../PHILIPPINE_VETERANS_BANK_MODERNIZATION_PROGRAM.md)
 
 ## 1. Decision requested
@@ -101,4 +103,4 @@ Subject to the Board's established governance and legal form, the intended decis
 
 > The Board authorizes Management to validate the Philippine Veterans Bank Modernization Program and assess whether one bounded public-assistance disbursement ceremony is suitable for detailed design. Management shall preserve the authority of the responsible public entity and PVB, validate the material Unknowns identified in the Program, and return with evidence and a separate recommendation before any implementation, procurement, contracting, integration, production, settlement, public-program, or commercial commitment is considered.
 
-This wording is a decision aid, not legal advice or a substitute for the Board Secretary's approved resolution form.
+This illustrative wording is provided solely as a decision aid. It is not legal advice, does not replace PVB's formal governance process, and should be adapted by PVB through its legal counsel, Corporate Secretary, and established Board procedures.

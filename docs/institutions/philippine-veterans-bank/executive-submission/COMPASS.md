@@ -50,13 +50,15 @@ The suite must not introduce:
 
 The AllBank Executive Edition may inform cadence, readability, completeness, and presentation discipline. PVB evidence, Program decisions, ceremony priorities, and conclusions remain controlling.
 
-## Completion standard
+## Governance-refinement standard
 
-The suite is complete for review when every publication:
+The suite is ready for publication generation when every publication:
 
 1. names its audience and use;
-2. identifies the canonical parent;
+2. identifies its derivative status and canonical parent;
 3. asks the same bounded executive decision;
 4. preserves Unknowns and validation requirements;
 5. excludes implementation and commercial authority; and
 6. introduces no new institutional conclusion.
+
+These conditions are satisfied. Publication generation must remain read-only with respect to the canonical Program and its derivatives.

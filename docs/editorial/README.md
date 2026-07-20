@@ -44,10 +44,10 @@ Banking Program Guides are canonical commercial handbooks and remain separate fr
 ## Institutional Program Studies
 
 - [Thrift Bank Digital Banking Program](thrift-bank-digital-banking-program/README.md) — approved Phase 1 institutional study and doctrinal source for the separate formal Program Guide
-- [Government Depository Digital Banking Program](government-depository-digital-banking-program/README.md) — approved Program foundation applying Movement IV without an architectural fork; the formal Program Guide is editorially complete at the canonical Version 0.9 review baseline, and the Philippine Veterans Bank Modernization Program is canonical with a derivative Executive Submission Suite under review
+- [Government Depository Digital Banking Program](government-depository-digital-banking-program/README.md) — approved Program foundation applying Movement IV without an architectural fork; the formal Program Guide is editorially complete at the canonical Version 0.9 review baseline, and the Philippine Veterans Bank Modernization Program is canonical with a governance-refined Executive Submission Suite ready for publication generation
 
 ## Institution Intelligence
 
 - [Institution Intelligence Framework](../institutions/README.md) — canonical and locked under EDR-014 and EDR-015; governs evidence, analysis, editorial mapping, institution editions, proposals, and implementation for specific institutions
 - [AllBank Institution Intelligence](../institutions/allbank/README.md) — first public-source framework application; Institution Edition drafting remains unauthorized
-- [Philippine Veterans Bank modernization workstream](../institutions/philippine-veterans-bank/README.md) — Gates 1–3 are accepted; the canonical Modernization Program now governs a complete Executive Submission Suite under review, while commercial and implementation work remain unauthorized
+- [Philippine Veterans Bank modernization workstream](../institutions/philippine-veterans-bank/README.md) — Gates 1–3 are accepted; the canonical Modernization Program now governs an Executive Submission Suite ready for publication generation, while commercial and implementation work remain unauthorized

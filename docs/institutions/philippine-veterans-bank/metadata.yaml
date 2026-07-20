@@ -88,7 +88,7 @@ modernization_program:
 executive_submission_suite:
   phase: 5
   version: "0.1"
-  status: "Complete for Executive Publication Review"
+  status: "Governance Refined — Ready for Publication Generation"
   authorization_date: "2026-07-20"
   suite_date: "2026-07-20"
   canonical_parent:
@@ -117,14 +117,14 @@ artifacts:
   gap_analysis_decision_record: "Accepted — Gate 2"
   modernization_program: "Accepted — Gate 3 — Canonical"
   modernization_program_decision_record: "Accepted — Gate 3"
-  executive_submission_suite: "Complete — Executive Publication Review"
-  executive_summary: "Complete — Review"
-  board_paper: "Complete — Review"
-  executive_brief: "Complete — Review"
-  one_page_decision_memo: "Complete — Review"
-  meeting_leave_behind: "Complete — Review"
-  executive_presentation_outline: "Complete — Review"
-  executive_faq: "Complete — Review"
+  executive_submission_suite: "Governance Refined — Ready for Publication Generation"
+  executive_summary: "Governance Reviewed"
+  board_paper: "Governance Reviewed"
+  executive_brief: "Governance Reviewed"
+  one_page_decision_memo: "Governance Reviewed"
+  meeting_leave_behind: "Governance Reviewed"
+  executive_presentation_outline: "Governance Reviewed"
+  executive_faq: "Governance Reviewed"
   proposal: "Not Authorized"
   editorial_mapping: "Not Authorized"
   institution_edition: "Not Authorized"
@@ -136,9 +136,9 @@ gate:
   phase_2_strategic_assessment: "Accepted at Gate 1"
   phase_3_gap_analysis: "Accepted at Gate 2"
   phase_4_modernization_program: "Accepted at Gate 3 — Canonical"
-  phase_5_executive_submission_suite: "Complete for executive-publication review"
-  outcome_recommendation: "Review the derivative publication family for decision clarity, audience fit, and Program traceability"
-  next_decision: "Accept for publication preparation, return a derivative for correction, require traceability clarification, or pause"
+  phase_5_executive_submission_suite: "Governance refined — ready for publication generation"
+  outcome_recommendation: "Generate Board-ready publication formats from the governed derivative sources under a separate production assignment"
+  next_decision: "Authorize a read-only publication-generation workstream or pause"
 restrictions:
   - "Do not treat charter authority as proof of operational readiness."
   - "Do not treat public digital channels as evidence of production architecture or API suitability."
@@ -149,4 +149,5 @@ restrictions:
 agent_rule: "If sufficient evidence is unavailable, the research agent shall explicitly identify the gap rather than compensate with unsupported prose."
 publication:
   generated: false
+  generation_state: "Ready — Separate Production Assignment Required"
 notes: "Gate 3 accepted the Modernization Program as canonical and authorized derivative executive communication only. The Phase 5 suite introduces no new institutional conclusions and does not establish PVB approval, readiness, commercial authority, or implementation authority."

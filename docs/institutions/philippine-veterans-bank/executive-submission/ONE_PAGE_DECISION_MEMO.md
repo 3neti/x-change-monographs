@@ -6,6 +6,8 @@
 
 **Decision:** Authority for Management validation
 
+**Derivative status:** Executive publication derived from the canonical Program
+
 **Canonical parent:** [Philippine Veterans Bank Modernization Program](../PHILIPPINE_VETERANS_BANK_MODERNIZATION_PROGRAM.md)
 
 ### Why this is before PVB

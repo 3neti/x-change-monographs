@@ -9,7 +9,9 @@ Accepted at Gate 3
         ↓
 Executive Submission Suite
         ↓
-Complete for executive-publication review
+Governance refined
+        ↓
+Ready for publication generation
 ```
 
 ## Publication sequence
@@ -19,21 +21,20 @@ Complete for executive-publication review
 | 1 | Derive executive narrative from the canonical Program | Complete | No new strategy or conclusions |
 | 2 | Prepare audience-specific publications | Complete | Same decision, different reading contexts |
 | 3 | Validate cross-publication consistency and traceability | Complete | Program remains controlling |
-| 4 | Executive-publication review | Pending | Review wording, audience fit, completeness, and decision clarity |
-| 5 | Publication freeze | Not Authorized | Requires explicit acceptance of the suite |
-| 6 | Typesetting or presentation production | Not Authorized | Requires separate publication authority |
+| 4 | Executive-publication review | Complete | Derivative fidelity, audience fit, completeness, and decision clarity accepted |
+| 5 | Final governance refinement | Complete | Gate status, canonical lineage, derivative identity, and decision boundaries verified |
+| 6 | Publication generation | Ready | Requires a separate production assignment; canonical sources remain read-only |
 | 7 | Commercial proposal or implementation material | Not Authorized | Requires separate institutional and commercial authority |
 
-## Review decision
+## Publication-generation boundary
 
-The reviewer may:
+The suite may now proceed to Board-ready publication generation under a separate production assignment. That work may:
 
-- **Accept the suite for publication preparation**;
-- **Return a specific publication for derivative correction**;
-- **Require Program traceability clarification**; or
-- **Pause the workstream**.
+- typeset the approved derivative publications;
+- produce presentation and meeting assets from the governed sources; and
+- validate publication fidelity and accessibility.
 
-Review should not reopen the canonical Program through a derivative publication.
+Publication generation must not reopen the canonical Program, alter derivative content, or imply implementation, procurement, production, or commercial authority.
 
 ## Future maintenance
 

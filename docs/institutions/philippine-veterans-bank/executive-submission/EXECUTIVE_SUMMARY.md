@@ -6,6 +6,8 @@
 
 **Purpose:** Stand-alone executive synthesis of the accepted Program
 
+**Derivative status:** Executive publication derived from the canonical Program
+
 **Canonical parent:** [Philippine Veterans Bank Modernization Program](../PHILIPPINE_VETERANS_BANK_MODERNIZATION_PROGRAM.md)
 
 Philippine Veterans Bank occupies a distinctive place in Philippine banking. It is a private commercial bank, a statutory veterans institution, and an official government depository. Its public record also shows banking relationships with government institutions, local governments, military constituencies, veterans and pensioners, and selected public-finance programs.
