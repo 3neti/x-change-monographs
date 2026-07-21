@@ -1,0 +1,55 @@
+series: "x-change Institution-Specific Program Guides"
+title: "Philippine Veterans Bank Digital Banking Program Guide"
+subtitle: "An Institution-Specific Program for Trusted Public-Finance Capability"
+institution: "Philippine Veterans Bank"
+institution_short_name: "PVB"
+document_form: "Program Guide"
+document_type: "institution-specific-banking-program-guide"
+version: "0.9"
+status: "in-review"
+editorial_state: "complete-draft"
+canonical_state: "editorial-review-baseline"
+publication_state: "not-generated"
+evidence_cutoff_date: "2026-07-20"
+audience:
+  - "President and Chief Executive Officer"
+  - "Board of Directors"
+  - "Executive Committee"
+  - "Public Sector Banking"
+  - "Treasury"
+  - "Strategy"
+  - "Digital Transformation"
+canonical_parent:
+  modernization_program: "docs/institutions/philippine-veterans-bank/PHILIPPINE_VETERANS_BANK_MODERNIZATION_PROGRAM.md"
+  modernization_program_sha256: "6430e06d522f350148c420aa5dbc71e2e3a2a88abdc7ab38c361e73ffad27962"
+source_lineage:
+  institution_intelligence: "docs/institutions/philippine-veterans-bank/INSTITUTION_INTELLIGENCE.md"
+  strategic_assessment: "docs/institutions/philippine-veterans-bank/STRATEGIC_ASSESSMENT.md"
+  gap_analysis: "docs/institutions/philippine-veterans-bank/GAP_ANALYSIS.md"
+  evidence_register: "docs/institutions/philippine-veterans-bank/EVIDENCE_REGISTER.md"
+  government_depository_program_guide: "docs/editorial/program-guides/government-depository/government-depository-digital-banking-program-guide.md"
+manuscript: "docs/institutions/philippine-veterans-bank/program-guide/philippine-veterans-bank-digital-banking-program-guide.md"
+appendices: "docs/institutions/philippine-veterans-bank/program-guide/appendices"
+parity_report: "docs/institutions/philippine-veterans-bank/program-guide/PARITY_REPORT.md"
+editorial_scope:
+  executive_summary: "Complete for review"
+  sections_1_through_7: "Complete for review"
+  appendices_a_through_g: "Complete for review"
+  publication: "Not authorized by this assignment"
+program:
+  primary_discovery_candidate: "Bounded public-assistance disbursement — subject to Management Validation"
+  secondary_discovery_candidate: "Public collections — subject to Management Validation"
+  immediate_decision: "Authorize Management validation and determine whether one bounded public-assistance disbursement ceremony is suitable for detailed design."
+boundaries:
+  doctrine_changed: false
+  modernization_program_changed: false
+  new_evidence_introduced: false
+  new_recommendations_introduced: false
+  implementation_authority: false
+  commercial_authority: false
+  production_authority: false
+publication:
+  generated: false
+  pdf: null
+  html: null
+notes: "Complete institution-specific editorial draft. PVB remains the protagonist; public-assistance disbursement remains a discovery candidate rather than a production selection. Unknowns and Management Validation requirements remain visible."

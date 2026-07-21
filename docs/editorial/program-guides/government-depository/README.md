@@ -33,7 +33,7 @@ The [Thrift Bank Digital Banking Program Guide](../thrift-bank/README.md) is the
 
 ## Institution-Specific Boundary
 
-The next planned institution-specific workstream is Philippine Veterans Bank under the [Institution Intelligence Framework](../../../institutions/README.md). It must begin with evidence-based Institution Intelligence, followed by Strategic Assessment, Gap Analysis, a Modernization Program, and an Executive Submission. This Guide contains no PVB assessment, recommendation, proposal, demonstration package, or submission portfolio.
+The [Philippine Veterans Bank workstream](../../../institutions/philippine-veterans-bank/README.md) has completed evidence-based Institution Intelligence, Strategic Assessment, Gap Analysis, an accepted Modernization Program, an Executive Submission Suite, and a complete institution-specific Program Guide draft. This canonical sector Guide remains the source of publication grammar and doctrine; it contains no PVB assessment, recommendation, proposal, demonstration package, or submission portfolio.
 
 ## Future Edition Consideration
 

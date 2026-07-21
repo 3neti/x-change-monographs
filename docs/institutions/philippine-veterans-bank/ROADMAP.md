@@ -21,7 +21,11 @@ Accepted at Gate 3 — Canonical
         ↓
 Phase 5 — Executive Submission Suite
         ↓
-Governance refined — ready for publication generation
+Governance refined — internal derivative source
+        ↓
+Phase 6 — PVB Digital Banking Program Guide
+        ↓
+Complete draft — editorial review
 ```
 
 ## Phase sequence
@@ -32,14 +36,15 @@ Governance refined — ready for publication generation
 | 2 | Strategic Assessment | Accepted — Gate 1 | Limited Phase 2 authority | Understand strengths, constraints, positioning, maturity signals, Unknowns, and tensions without proposing x-change |
 | 3 | Strategic Gap Analysis | Accepted — Gate 2 | Gate 1 approval | Compare accepted institution evidence with canonical Government Depository doctrine without proposing a solution |
 | 4 | PVB Modernization Program | Accepted — Gate 3 — Canonical | Gate 2 approval | Evidence-derived institutional response; read-only parent for derivatives |
-| 5 | Executive Submission Suite | Governance Refined — Ready for Publication Generation | Gate 3 approval | Audience-specific communication derived from the canonical Program |
-| 6 | Implementation | Not Authorized | Separate institutional, legal, commercial, risk, and technical authority | Discovery, pilot, readiness, and controlled expansion |
+| 5 | Executive Submission Suite | Governance Refined — Internal Derivative Source | Gate 3 approval | Audience-specific communication derived from the canonical Program |
+| 6 | PVB Digital Banking Program Guide | Complete Draft — Editorial Review | Final editorial assignment | Primary institution-specific publication derived from the canonical Modernization Program |
+| 7 | Commercial and Implementation Work | Not Authorized | Separate institutional, legal, commercial, risk, and technical authority | Proposal, discovery, pilot, readiness, and controlled expansion |
 
-## Publication generation
+## Program Guide review
 
-The Executive Submission Suite has completed editorial review and final governance refinement. The next permitted workstream is Board-ready publication generation under a separate production assignment.
+The PVB Digital Banking Program Guide is complete as a Version 0.9 editorial draft. The accepted Modernization Program remains its canonical parent. Institution Intelligence, Strategic Assessment, Gap Analysis, and the Executive Submission Suite remain internal sources supporting traceability and later engagement.
 
-Publication generation may typeset the approved derivatives, produce governed presentation and meeting assets, and verify publication fidelity. It must not alter the canonical Program or derivative content, and it must not imply implementation, procurement, production, or commercial authority.
+Editorial review may identify bounded corrections to the Guide. Typesetting, publication proof generation, commercial work, and implementation require separate authority. None may alter the canonical Modernization Program or imply PVB adoption, procurement, production, or commercial authority.
 
 No later-phase file should be created merely to demonstrate momentum.
 
@@ -60,7 +65,7 @@ Before any later phase begins, refresh the corpus if any of the following change
 The following may be prepared only after the appropriate gate:
 
 - management interview record;
-- typeset executive publications;
+- typeset Program Guide or executive publications;
 - presentation deck;
 - commercial model;
 - driver discovery;

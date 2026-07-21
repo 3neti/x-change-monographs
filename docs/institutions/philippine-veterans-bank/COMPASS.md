@@ -28,6 +28,10 @@ Phase 5 asks:
 
 > What should PVB's Board or Management decide after reading the accepted Modernization Program?
 
+Phase 6 asks:
+
+> How should the accepted institutional response be expressed as the definitive PVB Program Guide without changing evidence, doctrine, recommendations, Unknowns, or authority?
+
 ## Protagonist
 
 The protagonist is Philippine Veterans Bank as an institution. x-change is not the subject of Phase 1 or Phase 2.
@@ -101,16 +105,26 @@ Completed under Phase 5 authority:
 - an Executive FAQ; and
 - suite-specific metadata, Compass, Roadmap, and audience governance.
 
+Completed under Phase 6 authority:
+
+- the complete Philippine Veterans Bank Digital Banking Program Guide;
+- the canonical seven-question Program Guide architecture;
+- Appendices A–G covering glossary, governance, Commercial Waterfall, Treasury grammar, deployment, FAQ, and diagrams;
+- an institution-specific parity report;
+- explicit preservation of PVB's three-part institutional identity;
+- continued visibility of Unknowns and Management Validation; and
+- a post-draft AllBank comparison limited to cadence, readability, and completeness.
+
 Not authorized:
 
 - institution-specific doctrine;
-- competing PVB Program or institution-specific strategy;
+- a competing PVB Modernization Program or new institution-specific strategy;
 - implementation presentation or proof of concept;
 - commercial proposal;
 - solution architecture; or
 - implementation roadmap.
 
-Gate 1 accepted the Strategic Assessment for comparison. Gate 2 accepted the Gap Analysis for institutional design. Gate 3 accepted the Modernization Program as canonical and authorized derivative executive communication. The Phase 5 suite has completed executive-publication review and final governance refinement. Publication generation is ready to proceed under a separate production assignment; commercial work and implementation remain unauthorized.
+Gate 1 accepted the Strategic Assessment for comparison. Gate 2 accepted the Gap Analysis for institutional design. Gate 3 accepted the Modernization Program as canonical and authorized derivative executive communication. The Phase 5 suite remains an internal derivative source. The complete Phase 6 Program Guide is ready for editorial review. Typesetting, commercial work, and implementation remain unauthorized.
 
 ## Protected canonical source
 

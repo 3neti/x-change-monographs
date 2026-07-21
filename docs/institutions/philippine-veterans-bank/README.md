@@ -4,15 +4,15 @@ This repository is the first evidence-based application of the canonical [Instit
 
 **Institution:** Philippine Veterans Bank (PVB)
 
-**Phase:** 5 — Executive Submission Suite
+**Phase:** 6 — Institution-Specific Program Guide
 
-**Status:** Executive Submission Suite governance refined — ready for publication generation
+**Status:** Philippine Veterans Bank Digital Banking Program Guide complete for editorial review
 
 **Evidence cutoff:** 20 July 2026
 
 **Public-source basis:** Yes; no institution-provided materials were used
 
-The Phase 1 dossier describes PVB before evaluating it. The accepted Phase 2 Strategic Assessment interprets that evidence on the institution's own terms. The accepted Phase 3 Gap Analysis compares the evidenced institution with the canonical Government Depository capability. The accepted Phase 4 Modernization Program is the canonical institutional response. The Phase 5 Executive Submission Suite communicates that Program to specific executive audiences without changing it.
+The Phase 1 dossier describes PVB before evaluating it. The accepted Phase 2 Strategic Assessment interprets that evidence on the institution's own terms. The accepted Phase 3 Gap Analysis compares the evidenced institution with the canonical Government Depository capability. The accepted Phase 4 Modernization Program is the canonical institutional response. The Phase 5 Executive Submission Suite communicates that Program to specific executive audiences without changing it. Phase 6 translates the accepted Program into the complete institution-specific Program Guide that will anchor future external engagement.
 
 ## Canonical lineage
 
@@ -24,9 +24,24 @@ Government Depository Program Foundation
 Government Depository Digital Banking Program Guide
     ↓
 Philippine Veterans Bank Institution Intelligence
+    ↓
+Strategic Assessment
+    ↓
+Gap Analysis
+    ↓
+Philippine Veterans Bank Modernization Program
+    ↓
+Philippine Veterans Bank Digital Banking Program Guide
 ```
 
 The Government Depository Program Guide supplies the institutional research lens. It is not evidence of PVB intent, adoption, capability, selection, or readiness.
+
+## Phase 6 artifacts
+
+- [Philippine Veterans Bank Digital Banking Program Guide](program-guide/README.md)
+- [Program Guide manuscript](program-guide/philippine-veterans-bank-digital-banking-program-guide.md)
+- [Program Guide metadata](program-guide/metadata.yaml)
+- [Program Guide Appendices A–G](program-guide/appendices/)
 
 ## Phase 5 artifacts
 
