@@ -1,0 +1,34 @@
+document_type: "institutional_correspondence"
+correspondence_type: "submission_transmittal_email"
+institution: "AllBank"
+subject: "Submission of the x-change Executive Portfolio for AllBank"
+direction: "outbound"
+status: "sent"
+sent_at: "2026-07-20"
+sender:
+  name: "Guido Alfredo A. Delgado"
+  title: "President and Chief Executive Officer"
+  organization: "Open Disbursement Technologies, Inc."
+to:
+  - name: "Jesus Vicente Garcia"
+    title: "President"
+    organization: "AllBank"
+    email:
+cc:
+  - name: "Digna Samonte"
+    title: "Chief Technology Officer"
+    organization: "AllBank"
+    email:
+related_submission:
+  title: "AllBank Executive Submission Portfolio"
+  edition: "First Edition"
+  version: "1.0"
+  git_tag: "allbank-executive-submission-portfolio-v1.0"
+delivery_context:
+  electronic_portfolio: "sent"
+  signed_hard_copy: "in_transit"
+  channel: "email"
+record_type: "reconstructed_sent_correspondence"
+verification_status: "pending_exact_sent_copy"
+confidentiality: "business_correspondence"
+canonical_record: "docs/correspondence/allbank/2026-07-20-executive-submission-email.md"

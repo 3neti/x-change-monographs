@@ -8,6 +8,7 @@ A Submission Portfolio is a packaging layer. It organizes existing publications 
 
 - [Submission Architecture](SUBMISSION_ARCHITECTURE.md)
 - [Submission Grammar](SUBMISSION_GRAMMAR.md)
+- [Correspondence](../correspondence/README.md) — governed communications accompanying or concerning submissions
 
 ## Institution portfolios
 

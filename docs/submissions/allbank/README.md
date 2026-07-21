@@ -28,3 +28,11 @@ build/submissions/allbank/
 ```
 
 Generated delivery artifacts are intentionally excluded from repository history. The canonical manifest, shared builder, and governance documents are version-controlled.
+
+## Related correspondence
+
+Electronic delivery of this portfolio is recorded separately in the canonical outbound correspondence record:
+
+- [Submission of the x-change Executive Portfolio for AllBank](../../correspondence/allbank/2026-07-20-executive-submission-email.md)
+
+The correspondence record does not modify or reopen this frozen portfolio.
