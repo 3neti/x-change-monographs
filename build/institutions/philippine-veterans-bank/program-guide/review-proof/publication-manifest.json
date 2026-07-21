@@ -1,6 +1,8 @@
 {
   "publication_family": "x-change Banking Program Guides",
-  "title": "Government Depository Digital Banking Program Guide",
+  "title": "Philippine Veterans Bank Digital Banking Program Guide",
+  "canonical_program": "Government Depository Digital Banking Program Guide",
+  "context_edition": "Government Depository Edition",
   "institution_edition": "Philippine Veterans Bank Edition",
   "publication": "Executive Edition",
   "status": "Executive Review Proof",
@@ -54,13 +56,13 @@
   },
   "html": {
     "file": "philippine-veterans-bank-executive-edition-v0.9-review-proof.html",
-    "sha256": "e76c5b451f312e744d664c35058e8ac36da16e69affea6fc0f5bf550d467d4e0",
-    "bytes": 297538
+    "sha256": "574fcd54dd06d0a25872531e1a6e94df401e48894aa709d08a86467ce0bff0c1",
+    "bytes": 297794
   },
   "pdf": {
     "file": "philippine-veterans-bank-executive-edition-v0.9-review-proof.pdf",
-    "sha256": "28da1c93ed1006c166fecdeeda55673798874ba1785a7690b267cbe0e7b91eaa",
-    "bytes": 11285007,
+    "sha256": "af5780803660d25c5f4e0eda1984d7d2480bbf6222b3cf44ab654b2449ff7648",
+    "bytes": 11284925,
     "physical_pages": 35,
     "numbered_pages": 34,
     "page_sizes_points": [
@@ -225,9 +227,9 @@
     "tagged_pdf": true,
     "metadata": {
       "/Producer": "WeasyPrint 66.0",
-      "/Title": "Government Depository Digital Banking Program Guide — Philippine Veterans Bank Edition — Executive Review Proof",
+      "/Title": "Philippine Veterans Bank Digital Banking Program Guide — Government Depository Edition — Executive Review Proof",
       "/Author": "x-change",
-      "/Subject": "Philippine Veterans Bank Executive Edition, Version 0.9 Executive Review Proof",
+      "/Subject": "Philippine Veterans Bank Digital Banking Program Guide, Government Depository Edition, Version 0.9 Executive Review Proof",
       "/viewport": "width=device-width, initial-scale=1",
       "/documenttype": "Banking Program Guide",
       "/institutionedition": "Philippine Veterans Bank Edition",
@@ -241,8 +243,8 @@
   },
   "cover_preview": {
     "file": "philippine-veterans-bank-executive-edition-v0.9-review-proof-cover.png",
-    "sha256": "32f261dfb68cf48d93b3431d4094d5184158e023990284c925091df0e88b840c",
-    "bytes": 62581
+    "sha256": "4cb841f337cc2e8fe9ad7d539afa53cd04cddf7980d20723985043957131a850",
+    "bytes": 52393
   },
   "publication_review_report": "PUBLICATION_REVIEW_REPORT.md",
   "quality_assurance": {

@@ -21,7 +21,9 @@ from pypdf import PdfReader
 
 
 DOCUMENT_TITLE = "Government Depository Digital Banking Program Guide"
+PUBLICATION_TITLE = "Philippine Veterans Bank Digital Banking Program Guide"
 INSTITUTION_EDITION = "Philippine Veterans Bank Edition"
+CONTEXT_EDITION = "Government Depository Edition"
 PUBLICATION_EDITION = "Executive Edition"
 VERSION = "0.9"
 STATUS = "Executive Review Proof"
@@ -512,17 +514,31 @@ def publication_html(markdown: str, source_hashes: dict[str, str], corpus_hash: 
 @page version {{ @bottom-left {{ content: "{footer}"; }} }}
 @page contents {{ @bottom-left {{ content: "{footer}"; }} }}
 @page body {{ @bottom-left {{ content: "{footer}"; }} }}
-.cover-page h1 {{ max-width: 153mm; font-size: 29pt; }}
+.cover-page h1 {{
+  max-width: 160mm;
+  font-size: 31pt;
+  line-height: 1.06;
+}}
 .cover-subtitle {{
-  max-width: 142mm;
+  max-width: 148mm;
+  margin-top: 9mm;
   color: var(--ink);
-  font-size: 18pt;
+  font-size: 20pt;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 1.2;
 }}
-.cover-proof-label {{
+.cover-context {{
   margin-top: 8mm;
+  color: var(--accent);
+  font-family: "Avenir Next", Avenir, sans-serif;
+  font-size: 7.8pt;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}}
+.cover-proof-label {{
+  margin-top: 4.5mm;
   color: var(--accent);
   font-family: "Avenir Next", Avenir, sans-serif;
   font-size: 7.4pt;
@@ -530,7 +546,8 @@ def publication_html(markdown: str, source_hashes: dict[str, str], corpus_hash: 
   letter-spacing: 0.14em;
   text-transform: uppercase;
 }}
-.cover-edition {{ line-height: 1.55; }}
+.cover-edition {{ margin-top: 5mm; line-height: 1.55; }}
+.cover-imprint {{ margin-top: auto; }}
 .publication-record code {{
   font-size: 6.2pt;
   overflow-wrap: anywhere;
@@ -634,7 +651,7 @@ def publication_html(markdown: str, source_hashes: dict[str, str], corpus_hash: 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="x-change">
-  <meta name="description" content="Philippine Veterans Bank Executive Edition, Version 0.9 Executive Review Proof">
+  <meta name="description" content="Philippine Veterans Bank Digital Banking Program Guide, Government Depository Edition, Version 0.9 Executive Review Proof">
   <meta name="document-type" content="Banking Program Guide">
   <meta name="institution-edition" content="{INSTITUTION_EDITION}">
   <meta name="edition" content="{PUBLICATION_EDITION}">
@@ -643,7 +660,7 @@ def publication_html(markdown: str, source_hashes: dict[str, str], corpus_hash: 
   <meta name="canonical-source" content="{html.escape(str(canonical_source), quote=True)}">
   <meta name="canonical-source-sha256" content="{EXPECTED_SOURCE_SHA256}">
   <meta name="canonical-corpus-sha256" content="{corpus_hash}">
-  <title>{DOCUMENT_TITLE} — {INSTITUTION_EDITION} — {STATUS}</title>
+  <title>{PUBLICATION_TITLE} — {CONTEXT_EDITION} — {STATUS}</title>
   <style>
 {stylesheet}
 {overrides}
@@ -654,14 +671,11 @@ def publication_html(markdown: str, source_hashes: dict[str, str], corpus_hash: 
     <div class="cover-frame">
       <div class="cover-kicker">{DOCUMENT_FORM}</div>
       <div class="cover-rule"></div>
-      <h1>{DOCUMENT_TITLE}</h1>
-      <p class="cover-subtitle">{INSTITUTION_EDITION}</p>
+      <h1>{INSTITUTION}</h1>
+      <p class="cover-subtitle">Digital Banking Program Guide</p>
+      <div class="cover-context">{CONTEXT_EDITION}</div>
       <div class="cover-edition">{PUBLICATION_EDITION}</div>
       <div class="cover-proof-label">Version {VERSION} · {STATUS}</div>
-      <div class="cover-recipient">
-        <span>Prepared for</span>
-        <strong>{INSTITUTION}</strong>
-      </div>
       <div class="cover-imprint">
         <img src="{logo_uri}" alt="x-change logo">
         <span>x-change</span>
@@ -830,6 +844,9 @@ def validate_pdf(pdf_path: Path, record: dict[str, object]) -> None:
     normalized = re.sub(r"\s+", " ", text).lower()
     required = (
         "version 0.9 executive review proof",
+        "philippine veterans bank",
+        "digital banking program guide",
+        "government depository edition",
         "foreword",
         "executive summary",
         "section 7 launching the program",
@@ -899,7 +916,9 @@ The proof was inspected page by page for cover treatment, contents accuracy, sec
 
 ### Cover and publication identity
 
-- The cover follows the established Program Guide hierarchy and identifies the institution, Executive Edition, Version 0.9, and Executive Review Proof status without presenting the artifact as final.
+- The cover was refined to make Philippine Veterans Bank the visual protagonist. Digital Banking Program Guide now serves as the principal publication descriptor, while Government Depository Edition provides the institutional-program context.
+- The refinement reflects the commercial reading order expected of a President or CEO without changing the canonical interior title, publication grammar, or source manuscript.
+- Executive Edition, Version 0.9, and Executive Review Proof remain clear without presenting the artifact as final.
 - The x-change icon and lowercase wordmark remain grouped, unbroken, and clear of adjacent content.
 - The publication record repeats the proof status and identifies the complete frozen source corpus.
 
@@ -930,7 +949,7 @@ The proof was inspected page by page for cover treatment, contents accuracy, sec
 ### Annex journey and publication-family comparison
 
 - Annexes A–H follow the same visual sequence and opening treatment as the AllBank Executive Edition.
-- The PVB cover, contents, section rhythm, annex transitions, typography, and executive restraint visibly belong to the same publication family.
+- The institution-first PVB cover retains the shared frame, typography, restrained palette, imprint, contents, section rhythm, annex transitions, and executive restraint of the publication family.
 - The differences arise from PVB's institution and Government Depository context, not from publication quality or structure.
 
 ## Integrity and Technical Verification
@@ -948,6 +967,7 @@ The proof was inspected page by page for cover treatment, contents accuracy, sec
 - External link targets: {len(record['external_link_targets'])}
 - Characters outside page bounds: 0
 - Canonical manuscript and annex diffs: none
+- Foreword, Executive Summary, Sections 1–7, recommendations, ceremonies, diagrams, and Annexes A–H: unchanged
 
 ## Accessibility Note
 
@@ -1000,7 +1020,9 @@ def main() -> None:
     write_report(report_path, corpus_hash, html_path, pdf_path, record)
     manifest = {
         "publication_family": "x-change Banking Program Guides",
-        "title": DOCUMENT_TITLE,
+        "title": PUBLICATION_TITLE,
+        "canonical_program": DOCUMENT_TITLE,
+        "context_edition": CONTEXT_EDITION,
         "institution_edition": INSTITUTION_EDITION,
         "publication": PUBLICATION_EDITION,
         "status": STATUS,

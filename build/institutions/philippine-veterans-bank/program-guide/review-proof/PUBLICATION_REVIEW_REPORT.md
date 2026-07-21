@@ -22,7 +22,9 @@ The proof was inspected page by page for cover treatment, contents accuracy, sec
 
 ### Cover and publication identity
 
-- The cover follows the established Program Guide hierarchy and identifies the institution, Executive Edition, Version 0.9, and Executive Review Proof status without presenting the artifact as final.
+- The cover was refined to make Philippine Veterans Bank the visual protagonist. Digital Banking Program Guide now serves as the principal publication descriptor, while Government Depository Edition provides the institutional-program context.
+- The refinement reflects the commercial reading order expected of a President or CEO without changing the canonical interior title, publication grammar, or source manuscript.
+- Executive Edition, Version 0.9, and Executive Review Proof remain clear without presenting the artifact as final.
 - The x-change icon and lowercase wordmark remain grouped, unbroken, and clear of adjacent content.
 - The publication record repeats the proof status and identifies the complete frozen source corpus.
 
@@ -53,15 +55,15 @@ The proof was inspected page by page for cover treatment, contents accuracy, sec
 ### Annex journey and publication-family comparison
 
 - Annexes A–H follow the same visual sequence and opening treatment as the AllBank Executive Edition.
-- The PVB cover, contents, section rhythm, annex transitions, typography, and executive restraint visibly belong to the same publication family.
+- The institution-first PVB cover retains the shared frame, typography, restrained palette, imprint, contents, section rhythm, annex transitions, and executive restraint of the publication family.
 - The differences arise from PVB's institution and Government Depository context, not from publication quality or structure.
 
 ## Integrity and Technical Verification
 
 - Canonical manuscript SHA-256: `92189e91e3a00c3e28fe5725c7788fe202ad2a4dd996ae8b56ad666fd366755c`
 - Canonical manuscript-plus-annexes corpus SHA-256: `d3650c2be7ac11febb48fa259b5cdea12b03375725911cb89e65ec5d5f8cea9d`
-- Review-proof HTML SHA-256: `e76c5b451f312e744d664c35058e8ac36da16e69affea6fc0f5bf550d467d4e0`
-- Review-proof PDF SHA-256: `28da1c93ed1006c166fecdeeda55673798874ba1785a7690b267cbe0e7b91eaa`
+- Review-proof HTML SHA-256: `574fcd54dd06d0a25872531e1a6e94df401e48894aa709d08a86467ce0bff0c1`
+- Review-proof PDF SHA-256: `af5780803660d25c5f4e0eda1984d7d2480bbf6222b3cf44ab654b2449ff7648`
 - PDF producer: WeasyPrint 66.0
 - Page geometry: A4 on every page
 - Fonts embedded: true
@@ -71,6 +73,7 @@ The proof was inspected page by page for cover treatment, contents accuracy, sec
 - External link targets: 0
 - Characters outside page bounds: 0
 - Canonical manuscript and annex diffs: none
+- Foreword, Executive Summary, Sections 1–7, recommendations, ceremonies, diagrams, and Annexes A–H: unchanged
 
 ## Accessibility Note
 
