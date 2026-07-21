@@ -1,0 +1,5 @@
+f2254454dfeb250ebb10de90637c1364bd98faa7130482280439ab9ca287b1e2  philippine-veterans-bank-digital-banking-program-guide-v1.0-first-edition.html
+4456b4aa7fd7524735d310f97fccf2234276b6d944f385f21b53fcf14059548b  philippine-veterans-bank-digital-banking-program-guide-v1.0-first-edition.pdf
+dd4255edada55ea24ed8fa6352d8aa2ef817cf42a4f72a28a3fc86b6442c0946  philippine-veterans-bank-digital-banking-program-guide-v1.0-first-edition-cover.png
+ab5c24e0a8d1c18ed4a070dd670c46080885eee5cb2290539fc9b140d121e894  PUBLICATION_FREEZE_RECORD.md
+8ca7864310800450f0780298a0f760c6e12de2bc80815bc7894d7f4b527fb1a7  publication-manifest.json

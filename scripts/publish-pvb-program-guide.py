@@ -25,7 +25,9 @@ PUBLICATION_TITLE = "Philippine Veterans Bank Digital Banking Program Guide"
 INSTITUTION_EDITION = "Philippine Veterans Bank Edition"
 CONTEXT_EDITION = "Government Depository Edition"
 PUBLICATION_EDITION = "Executive Edition"
+PROFILE = "review-proof"
 VERSION = "0.9"
+PUBLICATION_LABEL = "Executive Review Proof"
 STATUS = "Executive Review Proof"
 PUBLICATION_DATE = "21 July 2026"
 DOCUMENT_FORM = "x-change Banking Program Guide"
@@ -65,6 +67,15 @@ DEFAULT_OUTPUT_ROOT = (
     / "program-guide"
     / "review-proof"
 )
+FIRST_EDITION_OUTPUT_ROOT = (
+    REPOSITORY_ROOT
+    / "build"
+    / "institutions"
+    / "philippine-veterans-bank"
+    / "program-guide"
+    / "first-edition"
+)
+METADATA_PATH = SOURCE.parent / "metadata.yaml"
 TEMP_PDF_PATH = Path(tempfile.gettempdir()) / "x-change-monographs" / "pdfs"
 MERMAID_CACHE_PATH = TEMP_PDF_PATH / "pvb-program-guide-review-proof-mermaid-cache"
 
@@ -89,6 +100,26 @@ DIAGRAM_CAPTIONS = (
     "Institutional readiness progression",
     "Philippine Veterans Bank institutional identity",
 )
+
+
+def configure_profile(profile: str) -> None:
+    global PROFILE, VERSION, PUBLICATION_LABEL, STATUS, OUTPUT_STEM
+
+    PROFILE = profile
+    if profile == "first-edition":
+        VERSION = "1.0"
+        PUBLICATION_LABEL = "First Edition"
+        STATUS = "Publication Frozen"
+        OUTPUT_STEM = (
+            "philippine-veterans-bank-digital-banking-program-guide-"
+            "v1.0-first-edition"
+        )
+        return
+
+    VERSION = "0.9"
+    PUBLICATION_LABEL = "Executive Review Proof"
+    STATUS = "Executive Review Proof"
+    OUTPUT_STEM = "philippine-veterans-bank-executive-edition-v0.9-review-proof"
 
 
 def load_base_publisher():
@@ -125,6 +156,59 @@ def corpus_sha256(paths: list[Path]) -> str:
         digest.update(path.read_bytes())
         digest.update(b"\0")
     return digest.hexdigest()
+
+
+def diagram_corpus_sha256() -> str:
+    digest = hashlib.sha256()
+    count = 0
+    for filename in ANNEX_FILES:
+        path = ANNEX_ROOT / filename
+        blocks = re.findall(
+            r"```mermaid\s*\n(.*?)```",
+            path.read_text(encoding="utf-8"),
+            flags=re.DOTALL,
+        )
+        for index, block in enumerate(blocks, start=1):
+            digest.update(filename.encode("utf-8"))
+            digest.update(b"\0")
+            digest.update(str(index).encode("ascii"))
+            digest.update(b"\0")
+            digest.update(block.strip().encode("utf-8"))
+            digest.update(b"\0")
+            count += 1
+    if count != len(DIAGRAM_CAPTIONS):
+        raise RuntimeError(
+            f"Expected {len(DIAGRAM_CAPTIONS)} governed Mermaid sources; found {count}."
+        )
+    return digest.hexdigest()
+
+
+def freeze_source_paths() -> list[Path]:
+    review_root = DEFAULT_OUTPUT_ROOT
+    paths = [
+        SOURCE,
+        *(ANNEX_ROOT / filename for filename in ANNEX_FILES),
+        METADATA_PATH,
+        Path(__file__).resolve(),
+        STYLESHEET_PATH,
+        LOGO_PATH,
+        review_root / "PUBLICATION_REVIEW_REPORT.md",
+        review_root / "publication-manifest.json",
+    ]
+    missing = [path for path in paths if not path.is_file()]
+    if missing:
+        raise FileNotFoundError(f"Frozen publication source not found: {missing}")
+    return paths
+
+
+def path_hash_records(paths: list[Path]) -> list[dict[str, str]]:
+    return [
+        {
+            "file": str(path.relative_to(REPOSITORY_ROOT)),
+            "sha256": sha256(path),
+        }
+        for path in paths
+    ]
 
 
 def render_inline(value: str) -> str:
@@ -508,7 +592,26 @@ def publication_html(markdown: str, source_hashes: dict[str, str], corpus_hash: 
     logo_data = base64.b64encode(LOGO_PATH.read_bytes()).decode("ascii")
     logo_uri = f"data:image/png;base64,{logo_data}"
     canonical_source = SOURCE.relative_to(REPOSITORY_ROOT)
-    footer = "PVB EDITION · EXECUTIVE REVIEW PROOF · VERSION 0.9"
+    footer = (
+        "PVB EDITION · FIRST EDITION · VERSION 1.0"
+        if PROFILE == "first-edition"
+        else "PVB EDITION · EXECUTIVE REVIEW PROOF · VERSION 0.9"
+    )
+    edition_row = (
+        f'<div><dt>Edition</dt><dd>{PUBLICATION_LABEL}</dd></div>'
+        if PROFILE == "first-edition"
+        else ""
+    )
+    copyright_note = (
+        "<p>This artifact is the canonical Executive Edition, First Edition, "
+        "Version 1.0. Its publication identity and source corpus are frozen.</p>"
+        "<p>The publication does not constitute PVB approval, licensing acceptance, "
+        "procurement authority, implementation authority, or production readiness.</p>"
+        if PROFILE == "first-edition"
+        else "<p>This artifact is a Version 0.9 Executive Review Proof. It is not "
+        "Version 1.0, a First Edition, a final publication, or a publication freeze.</p>"
+        "<p>The canonical Markdown manuscript and annexes remain the source of truth.</p>"
+    )
 
     overrides = f"""
 @page version {{ @bottom-left {{ content: "{footer}"; }} }}
@@ -651,7 +754,7 @@ def publication_html(markdown: str, source_hashes: dict[str, str], corpus_hash: 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="x-change">
-  <meta name="description" content="Philippine Veterans Bank Digital Banking Program Guide, Government Depository Edition, Version 0.9 Executive Review Proof">
+  <meta name="description" content="Philippine Veterans Bank Digital Banking Program Guide, Government Depository Edition, Executive Edition, Version {VERSION}, {PUBLICATION_LABEL}">
   <meta name="document-type" content="Banking Program Guide">
   <meta name="institution-edition" content="{INSTITUTION_EDITION}">
   <meta name="edition" content="{PUBLICATION_EDITION}">
@@ -660,7 +763,7 @@ def publication_html(markdown: str, source_hashes: dict[str, str], corpus_hash: 
   <meta name="canonical-source" content="{html.escape(str(canonical_source), quote=True)}">
   <meta name="canonical-source-sha256" content="{EXPECTED_SOURCE_SHA256}">
   <meta name="canonical-corpus-sha256" content="{corpus_hash}">
-  <title>{PUBLICATION_TITLE} — {CONTEXT_EDITION} — {STATUS}</title>
+  <title>{PUBLICATION_TITLE} — {CONTEXT_EDITION} — {PUBLICATION_LABEL}</title>
   <style>
 {stylesheet}
 {overrides}
@@ -675,7 +778,7 @@ def publication_html(markdown: str, source_hashes: dict[str, str], corpus_hash: 
       <p class="cover-subtitle">Digital Banking Program Guide</p>
       <div class="cover-context">{CONTEXT_EDITION}</div>
       <div class="cover-edition">{PUBLICATION_EDITION}</div>
-      <div class="cover-proof-label">Version {VERSION} · {STATUS}</div>
+      <div class="cover-proof-label">Version {VERSION} · {PUBLICATION_LABEL}</div>
       <div class="cover-imprint">
         <img src="{logo_uri}" alt="x-change logo">
         <span>x-change</span>
@@ -690,6 +793,7 @@ def publication_html(markdown: str, source_hashes: dict[str, str], corpus_hash: 
     <dl class="publication-record">
       <div><dt>Institution edition</dt><dd>{INSTITUTION_EDITION}</dd></div>
       <div><dt>Publication</dt><dd>{PUBLICATION_EDITION}</dd></div>
+      {edition_row}
       <div><dt>Status</dt><dd>{STATUS}</dd></div>
       <div><dt>Version</dt><dd>{VERSION}</dd></div>
       <div><dt>Publication date</dt><dd>{PUBLICATION_DATE}</dd></div>
@@ -701,8 +805,7 @@ def publication_html(markdown: str, source_hashes: dict[str, str], corpus_hash: 
     </dl>
     <div class="copyright-note">
       <p>Copyright © 2026 x-change.</p>
-      <p>This artifact is a Version 0.9 Executive Review Proof. It is not Version 1.0, a First Edition, a final publication, or a publication freeze.</p>
-      <p>The canonical Markdown manuscript and annexes remain the source of truth.</p>
+      {copyright_note}
     </div>
   </section>
 
@@ -735,7 +838,7 @@ def run_weasyprint(html_path: Path, pdf_path: Path, corpus_hash: str) -> None:
             "--srgb",
             "--custom-metadata",
             "--pdf-identifier",
-            f"urn:sha256:{corpus_hash}:executive-review-proof",
+            f"urn:sha256:{corpus_hash}:{PROFILE}",
             "--pdf-version",
             "1.7",
             "--full-fonts",
@@ -842,8 +945,12 @@ def validate_pdf(pdf_path: Path, record: dict[str, object]) -> None:
     reader = PdfReader(pdf_path)
     text = " ".join(page.extract_text() or "" for page in reader.pages)
     normalized = re.sub(r"\s+", " ", text).lower()
-    required = (
-        "version 0.9 executive review proof",
+    identity = (
+        ("version 1.0", "first edition")
+        if PROFILE == "first-edition"
+        else ("version 0.9", "executive review proof")
+    )
+    required = (*identity,
         "philippine veterans bank",
         "digital banking program guide",
         "government depository edition",
@@ -980,6 +1087,122 @@ No blocking publication defect remains in this proof. It is ready for executive 
     path.write_text(report, encoding="utf-8")
 
 
+def review_proof_records() -> list[dict[str, str]]:
+    filenames = (
+        "philippine-veterans-bank-executive-edition-v0.9-review-proof.pdf",
+        "philippine-veterans-bank-executive-edition-v0.9-review-proof.html",
+        "philippine-veterans-bank-executive-edition-v0.9-review-proof-cover.png",
+        "PUBLICATION_REVIEW_REPORT.md",
+        "publication-manifest.json",
+    )
+    records: list[dict[str, str]] = []
+    for filename in filenames:
+        path = DEFAULT_OUTPUT_ROOT / filename
+        if not path.is_file():
+            raise FileNotFoundError(f"Accepted review-proof artifact not found: {path}")
+        records.append(
+            {
+                "file": str(path.relative_to(REPOSITORY_ROOT)),
+                "sha256": sha256(path),
+            }
+        )
+    return records
+
+
+def markdown_hash_table(records: list[dict[str, str]]) -> str:
+    rows = ["| Canonical source | SHA-256 |", "| --- | --- |"]
+    rows.extend(
+        f"| `{record['file']}` | `{record['sha256']}` |" for record in records
+    )
+    return "\n".join(rows)
+
+
+def write_freeze_record(
+    path: Path,
+    canonical_corpus_hash: str,
+    frozen_corpus_hash: str,
+    diagram_hash: str,
+    source_records: list[dict[str, str]],
+    html_path: Path,
+    pdf_path: Path,
+    cover_path: Path,
+    record: dict[str, object],
+) -> None:
+    superseded_records = review_proof_records()
+    freeze_record = f"""# Publication Freeze Record
+
+## Philippine Veterans Bank Digital Banking Program Guide
+
+**Context:** Government Depository Edition
+
+**Publication:** Executive Edition
+
+**Edition:** First Edition
+
+**Version:** 1.0
+
+**Freeze date:** {PUBLICATION_DATE}
+
+**Status:** Publication Frozen
+
+**Role:** Canonical external Program Guide for Philippine Veterans Bank
+
+## Approval Basis
+
+The accepted Version 0.9 Executive Review Proof completed editorial, publication, visual, and institution-first cover review. The Publication Freeze authorization accepted that proof as the baseline and authorized publication-only substitutions for Version 1.0 and First Edition identity. No institutional prose, recommendation, ceremony, doctrine, section, annex, or diagram source changed during freeze.
+
+## Frozen Source Corpus
+
+{markdown_hash_table(source_records)}
+
+- Canonical manuscript-plus-annexes SHA-256: `{canonical_corpus_hash}`
+- Frozen reproducibility-source corpus SHA-256: `{frozen_corpus_hash}`
+- Governed Mermaid source count: {len(DIAGRAM_CAPTIONS)}
+- Governed Mermaid source corpus SHA-256: `{diagram_hash}`
+
+The manuscript and Annexes A-H are frozen. The publisher, metadata, shared Program Guide stylesheet, approved x-change logo, and accepted review records listed above preserve reproducibility and approval history.
+
+## Final Publication Artifacts
+
+- PDF: `{pdf_path.relative_to(REPOSITORY_ROOT)}`
+- PDF SHA-256: `{sha256(pdf_path)}`
+- HTML: `{html_path.relative_to(REPOSITORY_ROOT)}`
+- HTML SHA-256: `{sha256(html_path)}`
+- Cover preview: `{cover_path.relative_to(REPOSITORY_ROOT)}`
+- Cover preview SHA-256: `{sha256(cover_path)}`
+- Physical A4 pages: {record['physical_pages']}
+- Numbered body pages: {record['numbered_pages']}
+- PDF bookmarks: {record['bookmarks']}
+- Internal link annotations: {record['internal_link_annotations']}
+- Fonts embedded: {str(record['fonts_embedded']).lower()}
+- Tagged PDF: {str(record['tagged_pdf']).lower()}
+
+## Superseded Review Proof
+
+The Version 0.9 Executive Review Proof remains preserved as the accepted historical review baseline. It is superseded for external publication by this Version 1.0 First Edition and was not overwritten.
+
+{markdown_hash_table(superseded_records)}
+
+## Publication Boundaries
+
+This publication does not constitute Philippine Veterans Bank approval, licensing acceptance, procurement authority, implementation authority, settlement authority, production readiness, or authorization to operate a public program. Candidate ceremonies remain subject to the institutional validation expressed in the frozen Guide.
+
+Internal Institution Intelligence, Strategic Assessment, Gap Analysis, Modernization Program, decision records, evidence registers, and source registers remain internal source materials. They are not merged into this external publication.
+
+## Known Limitations
+
+- Formal PDF/UA conformance has not been independently certified.
+- Publication metadata, bookmarks, internal links, embedded fonts, tagged structure, and visual rendering were verified with the repository toolchain; this record is not an external accessibility certification.
+- WeasyPrint may emit byte-distinct PDF serialization across rebuilds from identical frozen sources. The Version 1.0 distribution PDF is therefore hash-frozen as the canonical artifact; any regeneration must preserve the recorded source hashes and pass structured-PDF and page-render equivalence checks before it can replace that artifact.
+- The publication records the approved institutional framework and does not replace institution-specific legal, regulatory, risk, commercial, security, technical, or operational review.
+
+## Future Revision Rule
+
+Version 1.0 is editorially and visually closed. Subsequent changes require Version 1.1, a revised First Edition, or a later edition under explicit repository governance. Errata must be recorded rather than silently applied. Commercial Proposal, Cover Letter, and Demonstration Pay Codes remain separate future workstreams and do not reopen this Program Guide.
+"""
+    path.write_text(freeze_record, encoding="utf-8")
+
+
 def write_checksums(path: Path, artifacts: list[Path]) -> None:
     lines = [f"{sha256(artifact)}  {artifact.name}" for artifact in artifacts]
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")
@@ -987,28 +1210,53 @@ def write_checksums(path: Path, artifacts: list[Path]) -> None:
 
 def main() -> None:
     parser = argparse.ArgumentParser(
-        description="Publish the PVB Executive Edition Version 0.9 Executive Review Proof."
+        description="Publish the PVB Executive Edition review proof or frozen First Edition."
     )
-    parser.add_argument("--output-dir", type=Path, default=DEFAULT_OUTPUT_ROOT)
+    parser.add_argument(
+        "--profile",
+        choices=("review-proof", "first-edition"),
+        default="review-proof",
+    )
+    parser.add_argument("--output-dir", type=Path)
     args = parser.parse_args()
+    configure_profile(args.profile)
 
     source_hashes_before = verify_frozen_sources()
     source_paths = [SOURCE, *(ANNEX_ROOT / filename for filename in ANNEX_FILES)]
     corpus_hash = corpus_sha256(source_paths)
+    diagram_hash = diagram_corpus_sha256()
+    frozen_paths = freeze_source_paths() if PROFILE == "first-edition" else source_paths
+    frozen_source_records = path_hash_records(frozen_paths)
+    frozen_corpus_hash = corpus_sha256(frozen_paths)
     markdown = SOURCE.read_text(encoding="utf-8")
     rendered = publication_html(markdown, source_hashes_before, corpus_hash)
 
-    output_root = args.output_dir.resolve()
+    default_output_root = (
+        FIRST_EDITION_OUTPUT_ROOT
+        if PROFILE == "first-edition"
+        else DEFAULT_OUTPUT_ROOT
+    )
+    output_root = (
+        args.output_dir.resolve() if args.output_dir else default_output_root.resolve()
+    )
     output_root.mkdir(parents=True, exist_ok=True)
     html_path = output_root / f"{OUTPUT_STEM}.html"
     pdf_path = output_root / f"{OUTPUT_STEM}.pdf"
     cover_path = output_root / f"{OUTPUT_STEM}-cover.png"
-    report_path = output_root / "PUBLICATION_REVIEW_REPORT.md"
+    report_path = output_root / (
+        "PUBLICATION_FREEZE_RECORD.md"
+        if PROFILE == "first-edition"
+        else "PUBLICATION_REVIEW_REPORT.md"
+    )
     manifest_path = output_root / "publication-manifest.json"
     checksums_path = output_root / "SHA256SUMS.txt"
 
     html_path.write_text(rendered, encoding="utf-8")
-    run_weasyprint(html_path, pdf_path, corpus_hash)
+    run_weasyprint(
+        html_path,
+        pdf_path,
+        frozen_corpus_hash if PROFILE == "first-edition" else corpus_hash,
+    )
     render_cover(pdf_path, cover_path)
     record = pdf_record(pdf_path)
     validate_pdf(pdf_path, record)
@@ -1016,8 +1264,23 @@ def main() -> None:
     source_hashes_after = verify_frozen_sources()
     if source_hashes_after != source_hashes_before:
         raise RuntimeError("Canonical source corpus changed during publication.")
+    if path_hash_records(frozen_paths) != frozen_source_records:
+        raise RuntimeError("Frozen reproducibility-source corpus changed during publication.")
 
-    write_report(report_path, corpus_hash, html_path, pdf_path, record)
+    if PROFILE == "first-edition":
+        write_freeze_record(
+            report_path,
+            corpus_hash,
+            frozen_corpus_hash,
+            diagram_hash,
+            frozen_source_records,
+            html_path,
+            pdf_path,
+            cover_path,
+            record,
+        )
+    else:
+        write_report(report_path, corpus_hash, html_path, pdf_path, record)
     manifest = {
         "publication_family": "x-change Banking Program Guides",
         "title": PUBLICATION_TITLE,
@@ -1025,6 +1288,7 @@ def main() -> None:
         "context_edition": CONTEXT_EDITION,
         "institution_edition": INSTITUTION_EDITION,
         "publication": PUBLICATION_EDITION,
+        "edition": PUBLICATION_LABEL,
         "status": STATUS,
         "version": VERSION,
         "publication_date": PUBLICATION_DATE,
@@ -1033,6 +1297,10 @@ def main() -> None:
             for path, digest in source_hashes_after.items()
         ],
         "canonical_corpus_sha256": corpus_hash,
+        "governed_diagram_source_sha256": diagram_hash,
+        "governed_diagram_count": len(DIAGRAM_CAPTIONS),
+        "frozen_source_corpus": frozen_source_records,
+        "frozen_source_corpus_sha256": frozen_corpus_hash,
         "renderer": {
             "engine": "WeasyPrint 66.0",
             "publisher": str(Path(__file__).resolve().relative_to(REPOSITORY_ROOT)),
@@ -1051,7 +1319,14 @@ def main() -> None:
             "sha256": sha256(cover_path),
             "bytes": cover_path.stat().st_size,
         },
-        "publication_review_report": report_path.name,
+        (
+            "publication_freeze_record"
+            if PROFILE == "first-edition"
+            else "publication_review_report"
+        ): {
+            "file": report_path.name,
+            "sha256": sha256(report_path),
+        },
         "quality_assurance": {
             "page_by_page_visual_inspection": True,
             "a4_geometry": True,
@@ -1061,6 +1336,7 @@ def main() -> None:
             "external_links": len(record["external_link_targets"]),
             "characters_outside_page_bounds": 0,
             "canonical_sources_unchanged": True,
+            "frozen_source_corpus_unchanged": True,
         },
     }
     manifest_path.write_text(

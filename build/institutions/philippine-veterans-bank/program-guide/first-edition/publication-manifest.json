@@ -1,0 +1,330 @@
+{
+  "publication_family": "x-change Banking Program Guides",
+  "title": "Philippine Veterans Bank Digital Banking Program Guide",
+  "canonical_program": "Government Depository Digital Banking Program Guide",
+  "context_edition": "Government Depository Edition",
+  "institution_edition": "Philippine Veterans Bank Edition",
+  "publication": "Executive Edition",
+  "edition": "First Edition",
+  "status": "Publication Frozen",
+  "version": "1.0",
+  "publication_date": "21 July 2026",
+  "canonical_sources": [
+    {
+      "file": "docs/institutions/philippine-veterans-bank/program-guide/philippine-veterans-bank-digital-banking-program-guide.md",
+      "sha256": "92189e91e3a00c3e28fe5725c7788fe202ad2a4dd996ae8b56ad666fd366755c"
+    },
+    {
+      "file": "docs/institutions/philippine-veterans-bank/program-guide/appendices/canonical-operating-model.md",
+      "sha256": "a23e0d50ccb33e1f4793716494bac59719bbca02dc9d52809a9c252293c7b975"
+    },
+    {
+      "file": "docs/institutions/philippine-veterans-bank/program-guide/appendices/banking-ceremonies.md",
+      "sha256": "739af084713ff5a9574870ea8e8e116ebb86762b52fe9cd761cccf98f9a6613d"
+    },
+    {
+      "file": "docs/institutions/philippine-veterans-bank/program-guide/appendices/institution-integration-architecture.md",
+      "sha256": "ad2a7193b3286fa4c7e0d35beabdb1e187d7e4437872a05a265a1acd2fc405f6"
+    },
+    {
+      "file": "docs/institutions/philippine-veterans-bank/program-guide/appendices/governance-principles.md",
+      "sha256": "98cb009e02f95b7427e515c5b0d987fa4fce5ae4bc4ab27c37e4288762308ecc"
+    },
+    {
+      "file": "docs/institutions/philippine-veterans-bank/program-guide/appendices/treasury-and-settlement-grammar.md",
+      "sha256": "9f4326c03c47f96a515f5ca778399b185866c71f90830f7306bbf91ff0bc8b0c"
+    },
+    {
+      "file": "docs/institutions/philippine-veterans-bank/program-guide/appendices/institutional-readiness-framework.md",
+      "sha256": "be2b9bd4bac76641fe004663ede4d51f0c925e7854faf190576cfed23b585d6f"
+    },
+    {
+      "file": "docs/institutions/philippine-veterans-bank/program-guide/appendices/glossary.md",
+      "sha256": "325f2ea817bdf712020d3adb24cd137384f21a4658b3c67af1ba283b8c87ea78"
+    },
+    {
+      "file": "docs/institutions/philippine-veterans-bank/program-guide/appendices/applying-program-guide-to-pvb.md",
+      "sha256": "6f6139012eb70de579762359475ecfee146f0c825d8559c1967b142aae183478"
+    }
+  ],
+  "canonical_corpus_sha256": "d3650c2be7ac11febb48fa259b5cdea12b03375725911cb89e65ec5d5f8cea9d",
+  "governed_diagram_source_sha256": "e64f21b642e296f6c7bfa8a89a446958ae8477aa1cf3526340382611f6021cb0",
+  "governed_diagram_count": 7,
+  "frozen_source_corpus": [
+    {
+      "file": "docs/institutions/philippine-veterans-bank/program-guide/philippine-veterans-bank-digital-banking-program-guide.md",
+      "sha256": "92189e91e3a00c3e28fe5725c7788fe202ad2a4dd996ae8b56ad666fd366755c"
+    },
+    {
+      "file": "docs/institutions/philippine-veterans-bank/program-guide/appendices/canonical-operating-model.md",
+      "sha256": "a23e0d50ccb33e1f4793716494bac59719bbca02dc9d52809a9c252293c7b975"
+    },
+    {
+      "file": "docs/institutions/philippine-veterans-bank/program-guide/appendices/banking-ceremonies.md",
+      "sha256": "739af084713ff5a9574870ea8e8e116ebb86762b52fe9cd761cccf98f9a6613d"
+    },
+    {
+      "file": "docs/institutions/philippine-veterans-bank/program-guide/appendices/institution-integration-architecture.md",
+      "sha256": "ad2a7193b3286fa4c7e0d35beabdb1e187d7e4437872a05a265a1acd2fc405f6"
+    },
+    {
+      "file": "docs/institutions/philippine-veterans-bank/program-guide/appendices/governance-principles.md",
+      "sha256": "98cb009e02f95b7427e515c5b0d987fa4fce5ae4bc4ab27c37e4288762308ecc"
+    },
+    {
+      "file": "docs/institutions/philippine-veterans-bank/program-guide/appendices/treasury-and-settlement-grammar.md",
+      "sha256": "9f4326c03c47f96a515f5ca778399b185866c71f90830f7306bbf91ff0bc8b0c"
+    },
+    {
+      "file": "docs/institutions/philippine-veterans-bank/program-guide/appendices/institutional-readiness-framework.md",
+      "sha256": "be2b9bd4bac76641fe004663ede4d51f0c925e7854faf190576cfed23b585d6f"
+    },
+    {
+      "file": "docs/institutions/philippine-veterans-bank/program-guide/appendices/glossary.md",
+      "sha256": "325f2ea817bdf712020d3adb24cd137384f21a4658b3c67af1ba283b8c87ea78"
+    },
+    {
+      "file": "docs/institutions/philippine-veterans-bank/program-guide/appendices/applying-program-guide-to-pvb.md",
+      "sha256": "6f6139012eb70de579762359475ecfee146f0c825d8559c1967b142aae183478"
+    },
+    {
+      "file": "docs/institutions/philippine-veterans-bank/program-guide/metadata.yaml",
+      "sha256": "33ed3029118a186b1684089178f9ffb788c7ec25956a691d7e380f86327a9f73"
+    },
+    {
+      "file": "scripts/publish-pvb-program-guide.py",
+      "sha256": "779d953d4a0c01a4d0e8ea19e006bce0b71f8afc5e3b0aabb5b31362954c3998"
+    },
+    {
+      "file": "resources/publication-assets/styles/program-guide.css",
+      "sha256": "0c6c6079a5f96e36303d2f3cd287b7cc0e00d14db1683fc8eed03cc5c08ee925"
+    },
+    {
+      "file": "resources/publication-assets/brand/x-change-logo-orange.png",
+      "sha256": "1f3b05cd2e9f3713c28b96c1f8bcf07d8968e9fad626e1d23f2a2516c2b215bf"
+    },
+    {
+      "file": "build/institutions/philippine-veterans-bank/program-guide/review-proof/PUBLICATION_REVIEW_REPORT.md",
+      "sha256": "ed4839869ada16468bba31d9a46bbb5673067efb53209cacfe65cc87f2df2dd6"
+    },
+    {
+      "file": "build/institutions/philippine-veterans-bank/program-guide/review-proof/publication-manifest.json",
+      "sha256": "d4af1e1c0574b4f6ff0719da6698fc1372ae477e34cd85a96fa19dbd5c80075f"
+    }
+  ],
+  "frozen_source_corpus_sha256": "2fb4c0f88062ff1ef174885b56bca7f9add3c4de7e3cf94c7693c21fd4df3e26",
+  "renderer": {
+    "engine": "WeasyPrint 66.0",
+    "publisher": "scripts/publish-pvb-program-guide.py",
+    "stylesheet": "resources/publication-assets/styles/program-guide.css",
+    "mermaid_figures": 7,
+    "source_files_unchanged": true
+  },
+  "html": {
+    "file": "philippine-veterans-bank-digital-banking-program-guide-v1.0-first-edition.html",
+    "sha256": "f2254454dfeb250ebb10de90637c1364bd98faa7130482280439ab9ca287b1e2",
+    "bytes": 297861
+  },
+  "pdf": {
+    "file": "philippine-veterans-bank-digital-banking-program-guide-v1.0-first-edition.pdf",
+    "sha256": "4456b4aa7fd7524735d310f97fccf2234276b6d944f385f21b53fcf14059548b",
+    "bytes": 11284335,
+    "physical_pages": 35,
+    "numbered_pages": 34,
+    "page_sizes_points": [
+      [
+        595.28,
+        841.89
+      ],
+      [
+        595.28,
+        841.89
+      ],
+      [
+        595.28,
+        841.89
+      ],
+      [
+        595.28,
+        841.89
+      ],
+      [
+        595.28,
+        841.89
+      ],
+      [
+        595.28,
+        841.89
+      ],
+      [
+        595.28,
+        841.89
+      ],
+      [
+        595.28,
+        841.89
+      ],
+      [
+        595.28,
+        841.89
+      ],
+      [
+        595.28,
+        841.89
+      ],
+      [
+        595.28,
+        841.89
+      ],
+      [
+        595.28,
+        841.89
+      ],
+      [
+        595.28,
+        841.89
+      ],
+      [
+        595.28,
+        841.89
+      ],
+      [
+        595.28,
+        841.89
+      ],
+      [
+        595.28,
+        841.89
+      ],
+      [
+        595.28,
+        841.89
+      ],
+      [
+        595.28,
+        841.89
+      ],
+      [
+        595.28,
+        841.89
+      ],
+      [
+        595.28,
+        841.89
+      ],
+      [
+        595.28,
+        841.89
+      ],
+      [
+        595.28,
+        841.89
+      ],
+      [
+        595.28,
+        841.89
+      ],
+      [
+        595.28,
+        841.89
+      ],
+      [
+        595.28,
+        841.89
+      ],
+      [
+        595.28,
+        841.89
+      ],
+      [
+        595.28,
+        841.89
+      ],
+      [
+        595.28,
+        841.89
+      ],
+      [
+        595.28,
+        841.89
+      ],
+      [
+        595.28,
+        841.89
+      ],
+      [
+        595.28,
+        841.89
+      ],
+      [
+        595.28,
+        841.89
+      ],
+      [
+        595.28,
+        841.89
+      ],
+      [
+        595.28,
+        841.89
+      ],
+      [
+        595.28,
+        841.89
+      ]
+    ],
+    "bookmarks": 29,
+    "internal_link_annotations": 119,
+    "external_link_targets": [],
+    "fonts_embedded": true,
+    "font_names": [
+      "/ANAMPP+Avenir-Next",
+      "/BULDDG+Baskerville",
+      "/HHHHIV+Arial",
+      "/HLTZYT+Andale-Mono",
+      "/LKFSVD+Menlo",
+      "/LVMOGK+Charter-Italic",
+      "/NGLMWS+Charter-Bold",
+      "/RATJMB+Charter",
+      "/ZCESIW+Helvetica",
+      "/ZEROIV+Avenir-Next-Semi-Bold",
+      "/ZNIPMX+Avenir-Next-Medium"
+    ],
+    "tagged_pdf": true,
+    "metadata": {
+      "/Producer": "WeasyPrint 66.0",
+      "/Title": "Philippine Veterans Bank Digital Banking Program Guide — Government Depository Edition — First Edition",
+      "/Author": "x-change",
+      "/Subject": "Philippine Veterans Bank Digital Banking Program Guide, Government Depository Edition, Executive Edition, Version 1.0, First Edition",
+      "/viewport": "width=device-width, initial-scale=1",
+      "/documenttype": "Banking Program Guide",
+      "/institutionedition": "Philippine Veterans Bank Edition",
+      "/edition": "Executive Edition",
+      "/publicationstatus": "Publication Frozen",
+      "/version": "1.0",
+      "/canonicalsource": "docs/institutions/philippine-veterans-bank/program-guide/philippine-veterans-bank-digital-banking-program-guide.md",
+      "/canonicalsourcesha256": "92189e91e3a00c3e28fe5725c7788fe202ad2a4dd996ae8b56ad666fd366755c",
+      "/canonicalcorpussha256": "d3650c2be7ac11febb48fa259b5cdea12b03375725911cb89e65ec5d5f8cea9d"
+    }
+  },
+  "cover_preview": {
+    "file": "philippine-veterans-bank-digital-banking-program-guide-v1.0-first-edition-cover.png",
+    "sha256": "dd4255edada55ea24ed8fa6352d8aa2ef817cf42a4f72a28a3fc86b6442c0946",
+    "bytes": 51132
+  },
+  "publication_freeze_record": {
+    "file": "PUBLICATION_FREEZE_RECORD.md",
+    "sha256": "ab5c24e0a8d1c18ed4a070dd670c46080885eee5cb2290539fc9b140d121e894"
+  },
+  "quality_assurance": {
+    "page_by_page_visual_inspection": true,
+    "a4_geometry": true,
+    "fonts_embedded": true,
+    "bookmarks_present": true,
+    "internal_links_valid": true,
+    "external_links": 0,
+    "characters_outside_page_bounds": 0,
+    "canonical_sources_unchanged": true,
+    "frozen_source_corpus_unchanged": true
+  }
+}

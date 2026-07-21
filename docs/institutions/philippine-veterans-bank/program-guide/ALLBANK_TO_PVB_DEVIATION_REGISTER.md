@@ -12,9 +12,9 @@ The AllBank Program Guide governs publication structure, voice, cadence, section
 
 **AllBank source function:** The title hierarchy identifies the sector Program Guide, institution edition, Executive Edition, and version.
 
-**PVB adaptation:** `Government Depository Digital Banking Program Guide` / `Philippine Veterans Bank Edition` / `Executive Edition` / `Version 0.9 Editorial Draft`.
+**PVB adaptation:** `Philippine Veterans Bank` / `Digital Banking Program Guide` / `Government Depository Edition` / `Executive Edition` / `Version 1.0 — First Edition`.
 
-**Reason:** PVB is the first institution-specific edition of the Government Depository Program Guide and remains at Version 0.9, ready for typesetting rather than publication freeze.
+**Reason:** PVB is the first institution-specific edition of the Government Depository Program Guide. Publication Freeze established an institution-first commercial hierarchy while retaining Government Depository lineage and the shared Program Guide identity.
 
 **Support:** Government Depository Program Guide metadata; accepted PVB Modernization Program; current assignment.
 

@@ -101,8 +101,12 @@ executive_submission_suite:
   commercial_authority: false
 program_guide:
   phase: 6
-  version: "0.9"
-  status: "AllBank-Master Adaptation Complete — Editorial Comparison"
+  version: "1.0"
+  status: "Publication Frozen"
+  edition: "First Edition"
+  publication: "Executive Edition"
+  role: "Canonical external Program Guide for Philippine Veterans Bank"
+  freeze_date: "2026-07-21"
   authorization_date: "2026-07-20"
   canonical_parent:
     file: "PHILIPPINE_VETERANS_BANK_MODERNIZATION_PROGRAM.md"
@@ -119,7 +123,8 @@ program_guide:
   new_institutional_conclusions: false
   modernization_program_changed: false
   internal_research_visible_in_external_manuscript: false
-  publication_generated: false
+  publication_generated: true
+  publication_freeze_record: "build/institutions/philippine-veterans-bank/program-guide/first-edition/PUBLICATION_FREEZE_RECORD.md"
 artifacts:
   institution_intelligence: "Complete — In Review"
   research_decision_record: "Complete — In Review"
@@ -146,12 +151,12 @@ artifacts:
   meeting_leave_behind: "Governance Reviewed"
   executive_presentation_outline: "Governance Reviewed"
   executive_faq: "Governance Reviewed"
-  pvb_program_guide: "Final Editorial Refinement Complete — Ready for Typesetting"
-  pvb_program_guide_appendices: "Annexes A–H Complete — AllBank Architecture Matched"
-  pvb_program_guide_parity: "Complete — Ready for Typesetting"
+  pvb_program_guide: "Publication Frozen — First Edition — Version 1.0"
+  pvb_program_guide_appendices: "Annexes A–H Frozen — AllBank Architecture Matched"
+  pvb_program_guide_parity: "Complete — Publication Frozen"
   proposal: "Not Authorized"
   editorial_mapping: "Not Authorized"
-  institution_edition: "PVB Program Guide Complete Draft — Ready for Typesetting"
+  institution_edition: "PVB Program Guide — Canonical External First Edition"
   commercial_proposal: "Not Authorized"
   implementation_roadmap: "Not Authorized"
 gate:
@@ -161,9 +166,9 @@ gate:
   phase_3_gap_analysis: "Accepted at Gate 2"
   phase_4_modernization_program: "Accepted at Gate 3 — Canonical"
   phase_5_executive_submission_suite: "Governance refined — internal derivative source"
-  phase_6_pvb_program_guide: "Final editorial refinement complete — ready for typesetting"
+  phase_6_pvb_program_guide: "Publication Frozen — First Edition — Version 1.0"
   outcome_recommendation: "Review the institution-specific Program Guide as the primary external publication while preserving earlier phases as internal source material"
-  next_decision: "Authorize typesetting and an Executive Review Proof, or pause"
+  next_decision: "Develop the Commercial Proposal, Cover Letter, and Demonstration Pay Codes as separate workstreams without reopening the frozen Program Guide"
 restrictions:
   - "Do not treat charter authority as proof of operational readiness."
   - "Do not treat public digital channels as evidence of production architecture or API suitability."
@@ -173,6 +178,13 @@ restrictions:
   - "Do not consult the AllBank Program until the first complete PVB Modernization Program draft exists."
 agent_rule: "If sufficient evidence is unavailable, the research agent shall explicitly identify the gap rather than compensate with unsupported prose."
 publication:
-  generated: false
-  generation_state: "Ready for separately authorized typesetting; no publication generated"
-notes: "Gate 3 accepted the Modernization Program as canonical. The complete Phase 6 Program Guide derives from that parent without changing PVB evidence, recommendations, Unknowns, doctrine, or authority. Final editorial refinement and eight-annex alignment are complete. Publication remains a separate future decision."
+  generated: true
+  generation_state: "Publication Frozen"
+  version: "1.0"
+  edition: "First Edition"
+  publication: "Executive Edition"
+  pdf: "build/institutions/philippine-veterans-bank/program-guide/first-edition/philippine-veterans-bank-digital-banking-program-guide-v1.0-first-edition.pdf"
+  html: "build/institutions/philippine-veterans-bank/program-guide/first-edition/philippine-veterans-bank-digital-banking-program-guide-v1.0-first-edition.html"
+  manifest: "build/institutions/philippine-veterans-bank/program-guide/first-edition/publication-manifest.json"
+  freeze_record: "build/institutions/philippine-veterans-bank/program-guide/first-edition/PUBLICATION_FREEZE_RECORD.md"
+notes: "Gate 3 accepted the Modernization Program as canonical. The Phase 6 Program Guide derives from that parent without changing PVB evidence, recommendations, Unknowns, doctrine, or authority. It is frozen as the canonical external Executive Edition, First Edition, Version 1.0. Commercial Proposal, Cover Letter, Demonstration Pay Codes, and implementation remain separate workstreams."

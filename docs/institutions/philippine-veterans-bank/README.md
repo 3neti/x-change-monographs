@@ -4,15 +4,15 @@ This repository is the first evidence-based application of the canonical [Instit
 
 **Institution:** Philippine Veterans Bank (PVB)
 
-**Phase:** 6 — Institution-Specific Program Guide
+**Phase:** 6 — Institution-Specific Program Guide — Publication Frozen
 
-**Status:** Philippine Veterans Bank Executive Edition final editorial refinement complete — ready for typesetting
+**Status:** Philippine Veterans Bank Digital Banking Program Guide — Executive Edition — First Edition — Version 1.0 — Publication Frozen
 
 **Evidence cutoff:** 20 July 2026
 
 **Public-source basis:** Yes; no institution-provided materials were used
 
-The Phase 1 dossier describes PVB before evaluating it. The accepted Phase 2 Strategic Assessment interprets that evidence on the institution's own terms. The accepted Phase 3 Gap Analysis compares the evidenced institution with the canonical Government Depository capability. The accepted Phase 4 Modernization Program is the canonical institutional response. The Phase 5 Executive Submission Suite communicates that Program to specific executive audiences without changing it. Phase 6 adapts the approved AllBank Executive Edition as the direct publication master while using the accepted PVB corpus for institution-specific accuracy.
+The Phase 1 dossier describes PVB before evaluating it. The accepted Phase 2 Strategic Assessment interprets that evidence on the institution's own terms. The accepted Phase 3 Gap Analysis compares the evidenced institution with the canonical Government Depository capability. The accepted Phase 4 Modernization Program is the canonical institutional response. The Phase 5 Executive Submission Suite communicates that Program to specific executive audiences without changing it. Phase 6 adapts the approved AllBank Executive Edition as the direct publication master while using the accepted PVB corpus for institution-specific accuracy. That Guide is now frozen as the canonical external PVB publication.
 
 ## Canonical lineage
 
@@ -44,6 +44,9 @@ The Government Depository Program Guide supplies the institutional research lens
 - [Program Guide Annexes A–H](program-guide/appendices/)
 - [AllBank-to-PVB Deviation Register](program-guide/ALLBANK_TO_PVB_DEVIATION_REGISTER.md)
 - [AllBank Publication Parity Report](program-guide/ALLBANK_PUBLICATION_PARITY_REPORT.md)
+- [Publication Freeze Record](../../../build/institutions/philippine-veterans-bank/program-guide/first-edition/PUBLICATION_FREEZE_RECORD.md)
+- [Version 1.0 First Edition PDF](../../../build/institutions/philippine-veterans-bank/program-guide/first-edition/philippine-veterans-bank-digital-banking-program-guide-v1.0-first-edition.pdf)
+- [Version 1.0 First Edition HTML](../../../build/institutions/philippine-veterans-bank/program-guide/first-edition/philippine-veterans-bank-digital-banking-program-guide-v1.0-first-edition.html)
 
 ## Phase 5 artifacts
 
@@ -112,4 +115,4 @@ The 2025 audited financial statements contain a qualified opinion and a material
 
 Gate 1 approved the Strategic Assessment for evidence-led comparison. Gate 2 approved the Gap Analysis for evidence-derived institutional design. Gate 3 accepted the Modernization Program as canonical and authorized derivative executive communication. None establishes PVB institutional approval, readiness, or implementation authority.
 
-The Executive Submission Suite has completed executive-publication review and final governance refinement. Board-ready publication generation is the next governed workstream and requires a separate production assignment. Proposal, financial brief, commercial work, and implementation remain unauthorized.
+The Philippine Veterans Bank Digital Banking Program Guide is publication-frozen as the canonical external Executive Edition, First Edition, Version 1.0. Its accepted Version 0.9 review proof remains preserved as publication history. The Executive Submission Suite remains a separate internal derivative source. Commercial Proposal, Cover Letter, Demonstration Pay Codes, and implementation remain separate workstreams and do not modify the frozen Guide.

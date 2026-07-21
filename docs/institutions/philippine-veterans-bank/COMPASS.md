@@ -32,6 +32,10 @@ Phase 6 asks:
 
 > How should the AllBank gold-standard publication be adapted into the PVB Executive Edition without changing PVB evidence, doctrine, recommendations, unresolved matters, or authority?
 
+Publication Freeze asks:
+
+> Has the accepted Executive Review Proof preserved that institutional and doctrinal boundary sufficiently to become the canonical external First Edition?
+
 ## Protagonist
 
 The protagonist is Philippine Veterans Bank as an institution. x-change is not the subject of Phase 1 or Phase 2.
@@ -116,6 +120,15 @@ Completed under Phase 6 authority:
 - preservation of matters requiring direct institutional validation without exposing internal research scaffolding; and
 - removal of claim identifiers, research phases, gates, registers, and analytical lineage from the external publication.
 
+Completed under Publication Freeze authority:
+
+- acceptance of the institution-first Version 0.9 Executive Review Proof as the publication baseline;
+- preservation of the review proof and its hashes as historical publication evidence;
+- publication-only substitution of Version 1.0 and First Edition identity;
+- generation and page-by-page review of the frozen PDF and HTML;
+- a reproducible publication manifest, checksums, cover preview, and Publication Freeze Record; and
+- repository-wide transition of the PVB Program Guide to Publication Frozen.
+
 Not authorized:
 
 - institution-specific doctrine;
@@ -125,7 +138,7 @@ Not authorized:
 - solution architecture; or
 - implementation roadmap.
 
-Gate 1 accepted the Strategic Assessment for comparison. Gate 2 accepted the Gap Analysis for institutional design. Gate 3 accepted the Modernization Program as canonical and authorized derivative executive communication. The Phase 5 suite remains an internal derivative source. The Phase 6 PVB Executive Edition has completed final editorial refinement and eight-annex alignment with the AllBank master. It remains Version 0.9, is ready for typesetting, and is neither frozen nor published. Commercial work and implementation remain unauthorized.
+Gate 1 accepted the Strategic Assessment for comparison. Gate 2 accepted the Gap Analysis for institutional design. Gate 3 accepted the Modernization Program as canonical and authorized derivative executive communication. The Phase 5 suite remains an internal derivative source. The Phase 6 PVB Executive Edition is frozen as the canonical external Program Guide, First Edition, Version 1.0. Commercial Proposal, Cover Letter, Demonstration Pay Codes, and implementation remain separate workstreams and may not alter the frozen Guide.
 
 ## Protected canonical source
 

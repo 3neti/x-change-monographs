@@ -2,7 +2,7 @@
 
 ## Assessment
 
-The Philippine Veterans Bank Version 0.9 Editorial Draft was rebuilt from the approved AllBank Executive Edition as its direct publication master. The accepted PVB corpus supplied institution-specific substitutions; the Government Depository Program Guide supplied required public-authority and custody qualifications.
+The Philippine Veterans Bank Executive Edition, First Edition, Version 1.0 was rebuilt from the approved AllBank Executive Edition as its direct publication master. The accepted PVB corpus supplied institution-specific substitutions; the Government Depository Program Guide supplied required public-authority and custody qualifications.
 
 The result preserves the AllBank publication movement while replacing the institutional context. `Matched` means the publication element follows the AllBank pattern. `Contextually adapted` means its function is unchanged but the institution, relationship, or ceremony differs. `Approved deviation` identifies a documented exception in the [Deviation Register](ALLBANK_TO_PVB_DEVIATION_REGISTER.md).
 
@@ -10,7 +10,7 @@ The result preserves the AllBank publication movement while replacing the instit
 
 | Dimension | AllBank | PVB | Status | Explanation |
 | --- | --- | --- | --- | --- |
-| Title hierarchy | Sector Guide / AllBank Edition / Executive Edition / version | Sector Guide / PVB Edition / Executive Edition / version | Matched | The sector identity changes from Thrift Bank to Government Depository; the hierarchy is unchanged. |
+| Title hierarchy | Institution / Digital Banking Program Guide / sector context / Executive Edition / version | Philippine Veterans Bank / Digital Banking Program Guide / Government Depository Edition / Executive Edition / Version 1.0 | Matched | Both publications use the approved institution-first commercial hierarchy while retaining sector lineage and publication-family identity. |
 | Opening posture | Six-paragraph Foreword beginning with the institution | Six-paragraph Foreword beginning with PVB | Matched | Both establish an already-digital institution before introducing the reusable-capability question. |
 | Executive Summary architecture | Twelve-paragraph progression from institution to invitation | Twelve-paragraph progression from institution to invitation | Matched | PVB substitutes public authority, bounded assistance, and its candidate sequence. |
 | Section sequence | Sections 1–7 in canonical order | Sections 1–7 in canonical order | Matched | Heading functions and transitions remain aligned. |
@@ -43,4 +43,4 @@ The result preserves the AllBank publication movement while replacing the instit
 
 ## Publication Decision
 
-Publication parity and final editorial refinement are complete. The PVB Guide remains Version 0.9, is not frozen, and has not been typeset. It is ready for separately authorized typesetting and an Executive Review Proof. Any further manuscript change should be assessed against both the AllBank master and the Deviation Register.
+Publication parity, final editorial refinement, typesetting, and Publication Freeze are complete. The PVB Guide is the canonical external Executive Edition, First Edition, Version 1.0. Any later change requires formal revision governance and must be assessed against both the AllBank master and the Deviation Register.
