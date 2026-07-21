@@ -30,7 +30,7 @@ Phase 5 asks:
 
 Phase 6 asks:
 
-> How should the accepted institutional response be expressed as the definitive PVB Program Guide without changing evidence, doctrine, recommendations, Unknowns, or authority?
+> How should the AllBank gold-standard publication be adapted into the PVB Executive Edition without changing PVB evidence, doctrine, recommendations, unresolved matters, or authority?
 
 ## Protagonist
 
@@ -107,13 +107,14 @@ Completed under Phase 5 authority:
 
 Completed under Phase 6 authority:
 
-- the complete Philippine Veterans Bank Digital Banking Program Guide;
+- the complete Philippine Veterans Bank Executive Edition rebuilt from the AllBank publication master;
 - the canonical seven-question Program Guide architecture;
 - Appendices A–G covering glossary, governance, Commercial Waterfall, Treasury grammar, deployment, FAQ, and diagrams;
 - an institution-specific parity report;
+- an AllBank-to-PVB Deviation Register and Publication Parity Report;
 - explicit preservation of PVB's three-part institutional identity;
-- continued visibility of Unknowns and Management Validation; and
-- a post-draft AllBank comparison limited to cadence, readability, and completeness.
+- preservation of matters requiring direct institutional validation without exposing internal research scaffolding; and
+- removal of claim identifiers, research phases, gates, registers, and analytical lineage from the external publication.
 
 Not authorized:
 
@@ -124,7 +125,7 @@ Not authorized:
 - solution architecture; or
 - implementation roadmap.
 
-Gate 1 accepted the Strategic Assessment for comparison. Gate 2 accepted the Gap Analysis for institutional design. Gate 3 accepted the Modernization Program as canonical and authorized derivative executive communication. The Phase 5 suite remains an internal derivative source. The complete Phase 6 Program Guide is ready for editorial review. Typesetting, commercial work, and implementation remain unauthorized.
+Gate 1 accepted the Strategic Assessment for comparison. Gate 2 accepted the Gap Analysis for institutional design. Gate 3 accepted the Modernization Program as canonical and authorized derivative executive communication. The Phase 5 suite remains an internal derivative source. The Phase 6 PVB Executive Edition is ready for direct editorial comparison with the AllBank master. It remains Version 0.9 and is neither frozen nor typeset. Commercial work and implementation remain unauthorized.
 
 ## Protected canonical source
 

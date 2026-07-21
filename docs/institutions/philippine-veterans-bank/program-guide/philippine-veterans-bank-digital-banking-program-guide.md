@@ -1,279 +1,273 @@
-# Philippine Veterans Bank Digital Banking Program Guide
+# Government Depository Digital Banking Program Guide
 
-## An Institution-Specific Program for Trusted Public-Finance Capability
+## Philippine Veterans Bank Edition
 
-## Reading This Guide
+### Executive Edition
 
-Philippine Veterans Bank occupies three institutional positions at once: it is a private commercial bank, a statutory veterans institution, and an official government depository. This Guide considers how one governed operating capability could strengthen that combined identity without presuming adoption, implementation, procurement, or production readiness.
+Version 0.9 Editorial Draft
 
-Institution-specific statements remain grounded in the accepted Philippine Veterans Bank evidence corpus. References such as `[CLM-019]` identify claims in the [Evidence Register](../EVIDENCE_REGISTER.md). A matter described as **Management Validation** is not established by public evidence and must be confirmed by PVB before it can support a later decision.
+## Foreword
 
-The **Program** is the proposed institutional initiative. The **Capability** is the maintained operating result the Program would seek to establish. Neither term describes PVB's present capability unless the text says so explicitly.
+Philippine Veterans Bank has served the Philippine market through a distinctive institutional mandate for more than six decades. Today, it operates as a private commercial bank, a statutory veterans institution, and an official government depository.
+
+Its banking proposition already extends across deposits, consumer and commercial lending, government and institutional banking, payroll and pension accounts, Treasury, trust, collections, public assistance, digital banking, payment gateways, kiosks, cards, and other public-sector relationships.
+
+This is therefore not a guide to becoming digital for the first time.
+
+It considers a different institutional question: whether one reusable governed operating capability beneath PVB's existing channels, products, payment connectivity, public-finance relationships, and banking authority could support additional services without requiring their operating foundations to be rebuilt independently.
+
+This approach does not replace PVB's authority, channels, systems, providers, government relationships, or settlement arrangements. It begins with them. PVB remains the bank, the government depository, and the production authority throughout.
+
+The question invites an executive conversation about an enduring operating capability within PVB's institutional context—without proposing a deployment or assuming PVB approval or operational readiness.
 
 ## Executive Summary
 
-Philippine Veterans Bank has a distinctive place in Philippine banking. Its commercial-bank authority, statutory veterans purpose, official government-depository status, and relationships with government institutions, local governments, the military community, veterans, and pensioners create an institutional position that no technology can manufacture. [CLM-001, CLM-004, CLM-005, CLM-011 through CLM-013, CLM-019 through CLM-023, CLM-042, CLM-043]
+Philippine Veterans Bank has already established meaningful digital and public-finance capability. Its services span retail and institutional digital banking, electronic transfers, bill payment, payroll and pension relationships, collections, gateways, kiosks, government financing, public assistance, Treasury, cards, and other banking relationships.
 
-PVB is already modernizing. Its public record shows retail and institutional digital banking, electronic transfers, bill payment, cards, kiosks, gateways, electronic statements, Treasury technology, fraud and financial-crime controls, and data initiatives. [CLM-014 through CLM-018, CLM-038, CLM-040, CLM-041] The question is therefore not whether the bank has begun a digital journey. It is whether selected public-finance services can be governed through one reusable institutional foundation while PVB preserves its authority, sovereignty, financial discipline, and distinctive purpose.
+The question is not whether PVB should become digital. It is whether the institution can organize more of its public-finance responsibilities through one reusable governed operating foundation.
 
-The proposed Philippine Veterans Bank Digital Banking Program would allow PVB to evaluate that question. Its intended result would be a maintained **Capability** through which properly authorized public-finance instructions could be related to recognized financial resources, service rules, participant conditions, execution, evidence, exceptions, and reconciliation.
+Settlement connectivity is necessary, but it is not a banking service. A rail can move funds and a technical connection can carry an instruction. Neither defines the public purpose, establishes authority, applies policy, recognizes and reserves resources, gathers evidence, manages exceptions, communicates status, or reconciles the completed service. Those remain responsibilities of the government entity and the bank.
 
-Public authority would remain with the responsible government entity. Banking authority, custody, accounts, policies, infrastructure, credentials, production decisions, settlement relationships, records, and readiness would remain with PVB. x-change would supply the governed operating grammar. Institution-specific integration would connect that grammar to PVB's approved systems, providers, execution paths, and settlement arrangements.
+The **Program** is the institution-specific initiative through which PVB would evaluate and, if approved, establish that foundation. The enduring result is the **Capability**: a maintained operating foundation through which properly authorized public-finance instructions become observable, executable, evidentiary, and reconcilable banking activity.
 
-The Program would not confer government-depository authority, government selection, public funds, settlement access, procurement preference, production readiness, deposits, or commercial return. Those outcomes remain subject to lawful process, institutional decision, operating evidence, and sustained performance.
+PVB remains the protagonist. It retains its banking authority, products, government and customer relationships, accounts, custody, channels, infrastructure, data, policies, credentials, production authority, and settlement relationships. x-change supplies the operating grammar beneath those arrangements. PVB-specific integration would connect that grammar to the institution's approved execution capability.
 
-One bounded public-assistance disbursement ceremony provides the strongest evidence-led place to begin institutional discovery. PVB has disclosed a student-allowance pilot with the City Government of Parañaque and a financial-assistance relationship with BARMM. [CLM-019, CLM-021] These examples establish relevance. They do not establish that either arrangement remains active, suitable, authorized for this Program, or ready for production.
+The government entity brings lawful purpose and instruction. PVB brings banking authority and the approved rails. x-change brings the operating grammar. Institution-specific integration connects them.
 
-The proposed first step is therefore narrow. PVB would validate whether one active public-assistance responsibility can be defined with clear authority, funds, participants, accounts, conditions, execution, evidence, exceptions, reconciliation, and accountable owners. If that candidate is not suitable, PVB would return to the evidence-supported candidate set rather than force selection.
+That integration is institution-specific, not an automatically available connection. It would require institutional discovery, mapping, implementation, validation, and continuing maintenance. Technical validation would establish agreed behavior under tested conditions. It would not establish operational readiness. Readiness would remain a PVB judgment based on the complete public-finance ceremony.
 
-The institutional case rests on capability before return. A reusable operating foundation could allow PVB to evaluate public assistance, collections, veterans' benefits, government payroll, Treasury, and other approved responsibilities without reconstructing the same operating disciplines for each service. Any economic value would still depend on actual programs, costs, deposits, approved fees, provider arrangements, performance, and public value.
-
-Readiness would remain an institutional judgment. Software availability, completed integration, or technical certification would not place PVB or a government program into production. The responsible institutions would determine readiness from the complete ceremony: authority, people, policies, systems, funds, providers, security, accounting, support, evidence, reconciliation, continuity, and governance.
-
-The decision before PVB is not whether to buy another channel. It is whether the institution should formally evaluate one reusable governed operating Capability through which its banking authority and distinctive public purpose could support selected public-finance responsibilities with clearer state, evidence, reconciliation, and institutional control.
-
-## Section 1 — Why This Program?
-
-> **Executive question:** Why should Philippine Veterans Bank establish this Program?
-
-> **Key message:** PVB already possesses authority, relationships, and visible digital capability. The opportunity is to govern selected public-finance responsibilities through one reusable institutional foundation.
-
-> **Executive decision:** I understand why PVB's evidence supports formal evaluation of the Program without presuming implementation.
-
-PVB's modernization case begins with the institution, not the platform. The bank's charter, veterans purpose, commercial authority, government-depository position, and operating relationships provide the reason to consider a Program. Technology enters only after that institutional case is understood.
-
-Public money carries purpose, authority, conditions, participants, records, and a continuing obligation to account for what occurred. A payment connection can move value. It does not, by itself, establish the public purpose, participant basis, financial state, approvals, exception ownership, evidence, or reconciliation of the complete banking service.
-
-PVB already encounters those responsibilities. Its public record includes government deposits and financing, pensions, payroll, public assistance, collections, gateways, kiosks, and military-sector relationships. [CLM-012, CLM-013, CLM-019 through CLM-023] Its digital and payment capabilities demonstrate an institution in motion rather than one beginning from an absence of technology. [CLM-014 through CLM-018, CLM-038, CLM-040]
-
-The opportunity is coherence. Instead of defining a separate operating foundation for every public-finance service, PVB could evaluate one maintained grammar for relating authority, recognized resources, service rules, conditions, execution, evidence, exceptions, and reconciliation. Each public program would retain its own lawful purpose and institutional owners. The operating discipline beneath approved services would become reusable.
-
-Timing still matters. PVB's disclosed capital, regulatory, asset-quality, acquisition, and management-sequencing considerations affect what the institution may responsibly undertake. [CLM-024 through CLM-031, CLM-041, CLM-044] Those conditions do not erase the modernization question. They require a bounded response.
-
-The Program therefore begins with validation, not deployment. It asks whether one reusable governed Capability is appropriate for PVB, whether one evidenced public-finance ceremony is suitable for detailed design, and what PVB would need to know before accepting any larger responsibility.
-
-The Program follows the evidence. It does not ask the evidence to justify a predetermined implementation.
-
-## Section 2 — What Is the Program?
-
-> **Executive question:** What exactly is Philippine Veterans Bank being invited to establish?
-
-> **Key message:** The Program is an institution-specific modernization initiative whose intended result is a maintained operating Capability for selected public-finance services.
-
-> **Executive decision:** I understand the proposed Program, its participants, its enduring Capability, and the boundaries that remain subject to PVB and public authority.
-
-The Philippine Veterans Bank Digital Banking Program would bring together licensed x-change software, institution-specific integration, PVB-controlled operation, maintained support, public-program governance, and banking operating discipline.
-
-The Program is the initiative. It can be evaluated, authorized, governed, implemented, reviewed, or stopped. The Capability is the enduring result: PVB's maintained ability to turn properly authorized public-finance instructions into observable, executable, evidentiary, and reconcilable banking activity.
-
-PVB would remain the banking sponsor and production authority. Its Board and Management would establish institutional purpose, risk appetite, scope, accountability, resources, and approval boundaries. Its Business, Operations, Treasury, Technology, Risk, Compliance, Legal, Information Security, Privacy, Finance, Accounting, Internal Audit, and other responsible functions would perform their established duties.
-
-The responsible government entity would remain accountable for the public program within its lawful authority. It would establish or administer public purpose, participant basis, funding authority, approvals, conditions, reporting, and public accountability. The Program would not transfer those duties to PVB or a technology provider.
-
-Open Disbursement Technologies, Inc. would license and maintain x-change and provide the agreed operating-grammar capability, documentation, validation support, and maintenance. Approved engineering or managed-service providers could perform delegated work within PVB's authority and environment. Settlement and payment providers would perform supported financial movement under their direct approved relationships with PVB.
-
-No provider would become PVB, the government entity, custodian, public authority, auditor, or production decision-maker.
-
-The commercial and contractual model would distinguish software licensing, institution-specific integration, PVB-controlled infrastructure, delegated services, settlement-provider services, support, maintenance, and public-program responsibilities. This Guide establishes no price, procurement path, contract, or financial commitment. Those matters require separate validation and authority.
-
-Governance follows responsibility. Public authority remains public. Banking responsibility remains with PVB. Providers supply only the capabilities assigned to them. Production begins only through the required public and institutional approvals.
-
-The Program should be judged by the institutional capability it establishes, not by the amount of software deployed.
-
-## Section 3 — Why Should Philippine Veterans Bank Proceed?
-
-> **Executive question:** What could Philippine Veterans Bank gain from proceeding?
-
-> **Key message:** PVB could relate its veterans purpose, government-depository position, banking authority, and public-sector relationships through one governed public-finance capability while retaining institutional control.
-
-> **Executive decision:** I understand the prospective institutional benefit and can decide whether it merits Management validation.
-
-PVB's opportunity belongs to PVB. Its veterans identity provides a continuing statutory purpose. Its commercial-bank authority supplies the regulated banking foundation. Its government-depository status places it within the eligible institutional field for selected government relationships. Its military, pensioner, LGU, regional-government, and public-sector activities demonstrate practical relevance. [CLM-001, CLM-004, CLM-005, CLM-011 through CLM-013, CLM-019 through CLM-023]
-
-The Program would not ask PVB to become a different institution. It would provide a way to organize selected responsibilities the bank already carries or may lawfully choose to evaluate.
-
-The first benefit is operating leverage. A maintained grammar for authority, financial state, conditions, credential, execution, evidence, and reconciliation would reduce the foundational work repeated across separate services. Management attention could focus on what genuinely changes: public purpose, participants, service policy, conditions, channels, accountable owners, evidence, and readiness.
-
-The second benefit is operating sovereignty. PVB would own or control its approved environment, data, credentials, provider accounts, releases, records, evidence, and production decisions. It would retain its direct government, customer, depositor, provider, and settlement relationships. Common software would not create a common bank, shared application tenancy, pooled funds, shared credentials, or shared production authority.
-
-The third benefit is adaptability. Resilience allows an institution to continue through difficulty. Adaptability allows it to examine a new responsibility through an established foundation. PVB cannot know every public-finance requirement it may encounter during the next decade. It can preserve the ability to respond without rebuilding the operating model for every program.
-
-The fourth benefit is institutional relevance. Where actual programs support recurring contact, assistance, collections, veterans' benefits, payroll, and Treasury services may deepen relationships with public institutions and participants. The evidence does not establish that these services will produce deposits, retention, selection, preferred status, or revenue. [CLM-047, CLM-049] Those results must be earned through authority, fit, price, control quality, service, evidence, and performance.
-
-PVB would compete for appropriate responsibilities as PVB: a private commercial bank with a veterans purpose and an official government-depository role. The Capability would strengthen how that identity is expressed operationally. It would not replace the identity or guarantee an outcome.
-
-**Management Validation.** PVB must confirm how government-depository banking, veterans and military service, commercial growth, digital modernization, capital and regulatory obligations, and any acquisition fit within the Board's current strategy and risk appetite.
-
-## Section 4 — How Does the Program Work?
-
-> **Executive question:** How would the proposed operating model work?
-
-> **Key message:** Public authority remains with the government entity, banking authority and custody remain with PVB, and the operating grammar coordinates the accountable ceremony between them.
-
-> **Executive decision:** I understand where authority, funds, service meaning, execution, evidence, reconciliation, sovereignty, and readiness would reside.
-
-The proposed institutional sequence is:
-
-```text
-Authorized Public Program
-        ↓
-PVB Depository Banking Service
-        ↓
-Governed Operating Capability
-        ↓
-PVB-Specific Execution Capability
-        ↓
-PVB-Approved Settlement Arrangement
-```
-
-The government entity would establish or administer the public purpose, legal authority, participant basis, funding authority, approvals, program conditions, and public accountability.
-
-PVB would define the banking service, apply policy and controls, maintain accounts and custody, govern operational financial state, approve execution and settlement relationships, supervise operations, retain evidence, reconcile activity, and determine institutional readiness.
-
-x-change would supply the maintained operating grammar beneath those arrangements. Institution-specific integration would connect that grammar to PVB's approved systems, accounts, providers, execution paths, and evidence. The integration would require discovery, mapping, implementation, validation, certification, and continuing maintenance under PVB governance.
-
-The operating grammar keeps different responsibilities distinct.
-
-A **Funding Event** records the external financial event through which resources become recognized operationally. It does not create funds, transfer custody, or determine the legal or accounting character of public money.
-
-**Treasury** maintains operational visibility of the Settlement Resources supporting the approved service. A **Lien** reserves capacity for an authorized purpose while an instruction remains outstanding. Neither replaces a bank account or government accounting record.
-
-A **Facility** defines the banking service: its purpose, participants, policies, limits, approved commercial treatment, and institutional owner. The public program remains the source of public authority.
-
-A **Settlement Envelope** carries the approvals, identity, eligibility, documents, limits, signatures, references, and other conditions required before an instruction may proceed.
-
-A **Pay Code** or other approved presentation represents the authorized instruction. It is a credential—not money, a benefit, a deposit, stored value, or the banking service itself.
-
-**Execution** coordinates the approved outcome through PVB's institution-specific execution and settlement capability. Status, provider references, exceptions, and evidence return to the operating record for state resolution and reconciliation.
-
-PVB would own or control its approved environment, domains, deployment, databases, institutional data, access and encryption configuration, production credentials, provider accounts, monitoring, logs, backups, recovery, release approvals, records, and audit trail. Delegated service could change who performs approved work. It would not transfer ownership or institutional accountability.
-
-Public evidence establishes PVB's visible banking, payment, provider, Treasury, public-finance, and digital capabilities. It does not establish the current architecture, integration model, sovereignty boundary, operating state, reconciliation controls, or readiness. [CLM-011 through CLM-022, CLM-040, CLM-046, CLM-049]
-
-**Management Validation.** PVB must map each proposed concept against its current accounts, products, policies, systems, providers, interfaces, procedures, records, and control owners. Existing controls should be reused where they are authoritative and sufficient.
-
-The operating model gives PVB a disciplined way to ask how the complete service works. It does not answer institution-specific implementation questions before discovery.
-
-## Section 5 — Banking in Action
-
-> **Executive question:** What would the Program look like in one PVB public-finance ceremony?
-
-> **Key message:** A bounded public-assistance disbursement reveals the complete institutional responsibility while keeping the first learning scope narrow.
-
-> **Executive decision:** I understand why public assistance is the recommended discovery candidate, how the ceremony would work, and what PVB must validate before selecting it.
-
-PVB has disclosed two activities that make the proposed Capability concrete: a basic-deposit-account student-allowance pilot with the City Government of Parañaque and a relationship supporting financial-assistance disbursement to eligible BARMM beneficiaries. [CLM-019, CLM-021]
-
-These examples do not establish a current Program, active implementation opportunity, or production-ready workflow. They establish something more modest and more useful at this stage: PVB has encountered a public entity, an assistance purpose, approved participants, public funding, a delivery journey, and a need for evidence.
-
-Consider one bounded assistance ceremony.
-
-The responsible government entity establishes the public purpose, lawful authority, approved participant basis, funding authority, conditions, approvals, and expected evidence. PVB defines the corresponding banking service and applies its policies and controls.
-
-When the relevant external financial event is confirmed, PVB recognizes the supporting resources operationally through a Funding Event. Treasury records their state. A Lien reserves the required capacity while the approved instruction remains outstanding.
-
-The Facility defines the service. The Settlement Envelope carries the participant basis, approvals, conditions, limits, documents, and references required for execution. A Pay Code or approved presentation gives the participant a way to present the instruction without turning the credential into money or a separate stored-value product.
-
-PVB coordinates the approved outcome through its institution-specific execution and settlement capability. The financial movement occurs within PVB's regulated arrangements. Status, evidence, provider references, exceptions, and reconciliation return to the operating record.
+Bounded public-assistance disbursement makes the model visible. The responsible public institution defines the purpose, authority, approved participants, funding basis, conditions, and expected evidence. PVB recognizes the supporting resources, applies banking controls, reserves the required capacity, defines the service, supports the approved credential, coordinates execution through its settlement arrangements, preserves evidence, and reconciles the result.
 
 The public institution authorized an outcome. Philippine Veterans Bank arranged its accountable execution.
 
-This ceremony is a strong discovery candidate because it is evidenced, understandable, potentially bounded, and capable of exposing the whole institutional responsibility. Scope could be limited by public entity, participant group, value, geography, duration, channel, or operating window.
+The same foundation could support services already relevant to PVB. Public collections connect payer information with attribution and reconciliation. Veterans' benefits and government or military payroll connect continuing institutional authority with recurring relationships. Treasury and GOCC services may require governed execution against purpose and evidence. Their public authority, participants, policies, and service journeys differ. The operating grammar remains stable.
 
-**Management Validation.** PVB must confirm whether either disclosed relationship remains active and suitable; which public authority would participate; the source and character of funds; account and custody structure; participant basis; channels; values and volumes; provider path; evidence; exceptions; reconciliation; support; legal and regulatory conditions; economics; and readiness.
+The proposed sequence begins with bounded public-assistance disbursement as the primary discovery candidate, followed by public collections. Veterans' benefits and government or military payroll remain strategic later candidates. Treasury and GOCC services remain for later evaluation, while procurement settlement remains deferred until direct institutional evidence supports it. The suitability and design of each ceremony can be determined only with PVB.
 
-If public assistance is not suitable, the Program should not force it. Public collections form a credible secondary candidate because PVB has disclosed Bills Pay PH, a city-hall kiosk, a provincial payment gateway, and relevant provider relationships. [CLM-017, CLM-018, CLM-020, CLM-022]
+If PVB considers the question relevant, the next step would be neither implementation nor commitment, but a structured executive discussion: whether the Capability merits formal evaluation, whether one bounded public-assistance ceremony should illuminate it, and what evidence PVB would require before considering controlled production.
 
-Veterans' pensions or benefits and government or military payroll carry particular strategic relevance to PVB's identity, but the current evidence does not establish a sufficiently complete ceremony for prioritization. [CLM-005, CLM-011, CLM-012, CLM-023] Treasury and GOCC services remain later institutional domains. Procurement settlement remains deferred until direct PVB workflow evidence exists.
+## Section 1 — Why This Program?
 
-The first ceremony should be chosen because it combines public importance, established authority, bounded scope, operating familiarity, and readiness to learn—not because it produces the most ambitious narrative.
+> **Executive question:** Why might this Program merit Philippine Veterans Bank's consideration?
+
+> **Key message:** PVB already has authority, relationships, channels, digital services, and public-finance relevance. The opportunity is to determine whether one governed operating foundation could support more banking responsibilities over time.
+
+> **Executive decision:** I understand the institutional question and can decide whether a reusable governed operating capability merits formal evaluation.
+
+PVB's history, veterans purpose, government-depository position, public-sector relationships, and regulated authority are institutional assets. Modernization should strengthen them rather than replace them.
+
+The institution already serves veterans, pensioners, military personnel, households, employers, businesses, local governments, national government agencies, government corporations, and other public institutions through physical and digital channels. Its visible services include payroll and pensions, collections, public assistance, government financing, Treasury, gateways, kiosks, and commercial banking.
+
+A bank can accumulate functioning channels and integrations without acquiring one reusable operating foundation beneath them. Each new public-finance service may bring a different financial-state model, approval process, provider integration, evidence requirement, exception path, and reconciliation practice.
+
+That pattern creates repeated work. It can also make institutional responsibility harder to observe across programs and channels. A participant sees an assistance credit, pension payment, payroll release, collection reference, or government transaction. PVB must see the complete obligation: public purpose, authority, funds, conditions, evidence, execution, exceptions, support, and reconciliation.
+
+This initiative addresses that operating question. It does not confer government-depository authority, create public relationships, guarantee selection, or supply settlement access. It organizes authority and connectivity that PVB already possesses or establishes through approved relationships.
+
+The timing should remain disciplined. PVB is modernizing while managing financial, regulatory, operating, and strategic priorities. A reusable foundation allows the institution to begin with one bounded question rather than an expansive implementation commitment.
+
+The opportunity is not technology for its own sake. It is to preserve PVB's institutional choice while reducing repeated operating and engineering work.
+
+One foundation would not make every PVB service alike. It would give the bank a consistent way to govern their differences. The next question is what PVB would establish through the Program.
+
+## Section 2 — What Is the Program?
+
+> **Executive question:** What exactly would Philippine Veterans Bank be invited to establish?
+
+> **Key message:** The Program is a PVB-specific modernization initiative. Its intended result is a maintained operating Capability under PVB's authority and control.
+
+> **Executive decision:** I understand the Program, the Capability it is intended to establish, the participating roles, and the boundaries that remain subject to PVB and public authority.
+
+The Government Depository Digital Banking Program brings together licensed x-change software, institution-specific integration, controlled deployment, observability, testing, documentation, maintenance, public-program governance, and banking operating discipline. The resulting capability coordinates the progression from lawful purpose and recognized resources to conditions, credential, execution, evidence, and reconciliation.
+
+The Program is the initiative. The Capability is the enduring operational result. The terms are not interchangeable. The Program can be evaluated, approved, governed, implemented, and reviewed. The Capability is what PVB would continue to operate and evolve.
+
+PVB would be the program sponsor, banking authority, and production authority. Its Board and Management would establish purpose, risk appetite, scope, accountability, and approval boundaries. Business, Operations, Treasury, Technology, Risk, Compliance, Legal, Information Security, Internal Audit, Finance, and other responsible functions would continue to perform their established roles.
+
+The responsible government entity would retain public-program authority, participant basis, funding authority, approvals, conditions, reporting, and public accountability. The Program would not transfer those responsibilities to PVB or to a technology provider.
+
+The licensed technology provider would maintain x-change, supported components, documentation, reference architecture, testing capability, and agreed institution-specific integration. The provider would not become the bank, government entity, custodian, settlement institution, auditor, or production authority.
+
+A DevOps or managed-service provider may perform delegated provisioning, deployment, monitoring, backup, recovery, release support, and incident-response work. The provider would act within PVB's approved environment and delegated authority. It would not own the environment, data, credentials, provider relationships, or release decision.
+
+PVB's settlement institutions and payment providers would continue to perform supported financial movement under their agreements with the bank. The initiative does not prescribe an exclusive settlement institution. PVB would own or establish the relevant accounts, participation, credentials, limits, and execution authority.
+
+The precise operating model supporting PVB's current services is naturally unique to the institution. Any Program design would therefore begin with PVB's approved architecture, public responsibilities, and provider relationships rather than assume a generic deployment.
+
+Common software would not create a common bank. It would provide a maintained operating foundation within PVB's own institutional boundaries.
+
+Governance follows responsibility. The public institution would authorize public purpose. The Board would authorize institutional purpose. Management would own implementation and operating accountability. Responsible functions would validate the complete service. Providers would supply only the capabilities assigned to them. Production could begin only through the required public and PVB approval processes.
+
+The initiative should be judged by whether it establishes the Capability under institutional control—not by the quantity of software installed. Its value begins with what that foundation enables PVB to do.
+
+## Section 3 — Why Might This Matter to Philippine Veterans Bank?
+
+> **Executive question:** What institutional value could this Capability offer Philippine Veterans Bank?
+
+> **Key message:** PVB could gain a reusable governed foundation through which it may introduce and evolve selected public-finance services while preserving its authority, relationships, identity, and operating sovereignty.
+
+> **Executive decision:** I understand the prospective institutional benefit and can decide whether further evaluation is warranted.
+
+The principal benefit is operating leverage. A maintained grammar for authority, financial state, conditions, credentials, execution, and evidence can reduce the amount of foundational work repeated for each service. PVB would still perform service design, policy, governance, integration review, training, participant treatment, and support. What changes is the starting point.
+
+Existing channels remain valuable. PVB's branches, retail and institutional digital banking, cards, kiosks, gateways, partner journeys, and approved interfaces may initiate, present, or report activity. x-change would coordinate the governed ceremony beneath them. PVB could improve a participant journey without redefining the financial state of the service, and it could add a channel without creating another independent settlement model.
+
+Operating sovereignty would remain intact. PVB would own or control its approved environment, deployment, data, domains, provider accounts, credentials, monitoring, backups, security configuration, releases, and audit trail. It would retain its government, customer, deposit, and direct settlement relationships.
+
+The same foundation could support services with different institutional purposes.
+
+Public assistance can connect authorized government funding with approved participants and evidence. Collections can connect public obligations with payer attribution and reconciliation. Veterans' benefits can connect PVB's statutory purpose with continuing service. Government or military payroll can connect public employers, personnel, deposits, and recurring banking relationships. Treasury and GOCC services can connect approved institutional obligations with financial state, execution, and evidence.
+
+These possibilities are not automatic returns or statements of PVB priority beyond the proposed candidate sequence. They become valuable only when the responsible institutions select relevant services and operate them well. The credible benefit is the capacity to introduce, govern, and evolve services whose institutional and public value PVB has independently established.
+
+This approach also changes where scarce attention is spent. Rather than repeatedly rebuilding common orchestration machinery, PVB can concentrate more management and engineering effort on public purpose, institutional relationships, service judgment, risk appetite, operating quality, and chosen areas of participation.
+
+PVB modernizes without becoming less itself. The operating model preserves its private commercial-bank identity, veterans purpose, and government-depository responsibility by design.
+
+## Section 4 — How Does the Program Work?
+
+> **Executive question:** How would the operating model work within Philippine Veterans Bank?
+
+> **Key message:** Public authority remains with the government entity, while PVB retains custody and banking authority. x-change coordinates the ceremony, and PVB-specific integration connects it to the institution's approved execution capability.
+
+> **Executive decision:** I understand where authority, funds, software, integration, execution, evidence, and reconciliation would reside.
+
+The conceptual institutional stack is:
+
+```text
+Authorized Public Program
+          ↓
+PVB Products and Channels
+          ↓
+PVB Depository Banking Service
+          ↓
+x-change
+          ↓
+PVB-Specific Integration
+          ↓
+PVB-Approved Execution Capability
+          ↓
+PVB-Governed Settlement or Payment Arrangement
+          ↓
+Applicable Approved Rail, Provider, or Internal Capability
+```
+
+The public program establishes lawful purpose, authority, participant basis, and public obligations. The channel presents an experience. The banking service expresses PVB's policy, terms, controls, and responsibility. x-change coordinates the governed ceremony. PVB-specific integration translates that ceremony into behavior approved by the institution.
+
+No production integration is assumed. Its feasibility and design would depend on discovery of PVB's approved systems, interfaces, credentials, status models, controls, settlement arrangements, evidence, and reconciliation responsibilities.
+
+The operating grammar keeps distinct responsibilities from being mistaken for one another.
+
+A **Funding Event** records the external financial event through which Settlement Resources enter or become recognized by Treasury. It records institutional recognition; it does not create the underlying value or determine its legal character.
+
+**Treasury** maintains the operational state of Settlement Resources supporting the bank's activities. A **Lien** reserves capacity for an authorized purpose while an instruction remains outstanding.
+
+A **Facility** gives the banking activity its purpose, participants, policies, commercial rules, and institutional responsibility. The public program remains the source of public authority.
+
+A **Settlement Envelope** defines the evidence and conditions that must be satisfied before an instruction may proceed. Identity, approval, eligibility, limits, documents, signatures, beneficiary information, and other PVB-defined requirements belong here.
+
+A **Pay Code** represents an authorized instruction in a form that can be communicated, presented, validated, and executed. It is a credential—not money, a public benefit, a deposit, a wallet balance, or the banking service itself.
+
+The banking service is the product. The Pay Code is the credential.
+
+**Execution** coordinates the progression from authorized instruction to the outcome defined by the Facility through PVB's approved execution capability. Provider and institutional references, status, exceptions, and evidence return to the operating record for reconciliation.
+
+Custody would not move into x-change. The underlying funds would remain within the applicable government and PVB banking arrangements. Treasury provides an operational view; it does not replace the bank account, government accounting record, or general ledger.
+
+Technical completion remains narrower than readiness. Validated integration may perform agreed behavior under tested conditions. PVB must still decide whether the complete service can be authorized, operated, supervised, secured, settled, reconciled, supported, and governed.
+
+## Section 5 — Banking in Action
+
+> **Executive question:** How could the Capability apply to public-finance services relevant to Philippine Veterans Bank?
+
+> **Key message:** One operating grammar can support different PVB services because purpose and policy may change while the responsibilities beneath them remain governed consistently.
+
+> **Executive decision:** I can recognize how the operating model applies to a familiar ceremony and how the same foundation could support other services PVB may choose to govern through it.
+
+Bounded public-assistance disbursement provides the clearest explanatory ceremony because it makes the complete discipline visible within one familiar public responsibility. PVB has supported public-assistance arrangements, while the institution's current operating journey can be understood only with PVB.
+
+The responsible public institution identifies the approved participants, funding authority, public purpose, evidence, and conditions. PVB confirms its banking authority, applies policy, recognizes the supporting resources, and accepts responsibility for the banking outcome.
+
+Treasury recognizes the supporting Settlement Resources. A Lien reserves the required amount. The assistance Facility defines participants, limits, service rules, communication, and institutional responsibility. The Settlement Envelope records evidence and conditions. Once authorized, a Pay Code or other approved presentation permits the instruction to be communicated through an approved journey.
+
+The participant presents the credential and satisfies the conditions. Execution coordinates the instruction through PVB's approved relationship. The financial movement occurs within PVB's regulated arrangements. x-change records the result, updates operational state, resolves the Lien, preserves evidence, and supports reconciliation and participant communication.
+
+The public institution authorized an outcome. Philippine Veterans Bank arranged its accountable execution.
+
+PVB's institutional profile brings several other ceremonies into view:
+
+| Banking service | PVB relevance | What remains governed |
+| --- | --- | --- |
+| Bounded public assistance | Existing public-assistance experience and a potentially limited participant group | Funding, authority, eligibility, reservation, conditions, evidence, exceptions, reconciliation |
+| Public collections | Bills payment, city-hall kiosk, provincial gateway, and public collection relationships | Payer reference, public obligation, matching, provider evidence, exceptions, reconciliation |
+| Veterans' benefits | Statutory veterans purpose and pension relationships | Program authority, entitlement, identity, recurrence, evidence, unresolved outcomes |
+| Government or military payroll | Payroll products and military relationships | Employer authority, personnel attribution, funding, release, exceptions, evidence, reconciliation |
+| Treasury and GOCC services | Treasury capability and public-sector institutional relationships | Authority, accounts, financial state, conditions, execution, evidence, reconciliation |
+| Procurement settlement | A possible public-finance ceremony reserved for later evidence | Contract authority, acceptance, payee, conditions, execution, records, reconciliation |
+
+The table identifies the proposed sequence, not implementation approval. Bounded public assistance is the primary discovery candidate. Public collections follow as the secondary candidate. Veterans' benefits and government or military payroll remain strategic later candidates. Treasury and GOCC services remain for later evaluation. Procurement settlement remains deferred pending direct institutional evidence.
+
+One ceremony makes the grammar visible. Many services make the foundation useful.
 
 ## Section 6 — The Institutional Case
 
-> **Executive question:** What kind of institution could the Program help Philippine Veterans Bank become?
+> **Executive question:** What institutional case might Philippine Veterans Bank consider?
 
-> **Key message:** The Capability could strengthen PVB's ability to carry selected public-finance responsibilities while preserving control, accountability, adaptability, and financial discipline.
+> **Key message:** This Capability could deepen public and constituent relationships, preserve institutional choice, and lower repeated innovation cost while commercial value remains dependent on disciplined service selection and operation.
 
-> **Executive decision:** I understand the institutional and economic case and can decide whether it merits detailed evaluation under PVB's strategy, authority, risk appetite, and financial governance.
+> **Executive decision:** I understand the institutional and commercial case and can decide whether it merits detailed evaluation under PVB's strategy and financial authority.
 
-The institutional case begins with what PVB already is. A statutory veterans institution with commercial-bank authority and government-depository status has a credible reason to examine how public purpose and banking responsibility can be joined through dependable operation.
+A bank can hold an account while losing the practical center of an institutional relationship. Payroll may move elsewhere. Collections may pass through another provider. Benefit and assistance programs may be separated from deposits, support, and continuing service. The formal relationship can remain while the recurring financial activity moves away.
 
-The Capability would not make PVB a government entity or confer a public role. It would provide a reusable way to govern responsibilities that fit the bank's lawful authority, purpose, relationships, and operating capacity.
+The reverse can also occur. Public assistance can demonstrate accountable reach. Collections can connect PVB to the rhythm of government services. Veterans' benefits can deepen a statutory relationship. Government or military payroll can connect institutions, personnel, deposits, and continuing banking needs. Treasury services can strengthen an institutional partnership.
 
-That distinction matters. Government-depository status places PVB within an eligible institutional field. It does not establish selection. Public relationships demonstrate relevance. They do not establish entitlement. Visible digital services demonstrate progress. They do not establish the complete operating architecture beneath them.
+PVB's banking proposition already touches many of these relationships. The institutional question is whether selected services can reinforce one another through repeated usefulness.
 
-A maintained operating grammar could allow PVB to evaluate several services through one foundation. Institutional work would focus on the elements that differ: authority, participants, service terms, conditions, evidence, public purpose, and readiness.
+Over time, financial activity is more likely to return to an institution that remains useful across recurring needs.
 
-The Capability could also support relationship depth where an actual program makes PVB useful across more of an institution's or participant's needs. Veterans' benefits, payroll, assistance, collections, and Treasury activity may create recurring contact. Whether they contribute deposits, service income, retention, or broader institutional relevance depends on the approved program and actual performance.
+This tendency is **Transaction Gravity**.
 
-The economic case must remain transparent. Costs may include licensing, institution-specific integration and maintenance, PVB-controlled infrastructure, delegated operations, internal governance, settlement-provider charges, security, support, reconciliation, and continuing assurance. Potential value may include approved service income, deposits associated with actual program structures, recurring activity, reduced duplicated engineering, stronger relationships, and public value. None is automatic.
+Transaction Gravity is not transaction volume alone and creates no entitlement to government selection or participant relevance. Authority, qualification, price, service, channels, support, evidence, and fair exception handling still determine whether institutions and participants return. Its value is relational: PVB becomes a more natural place for public purpose, deposits, payments, collections, benefits, obligations, and financial decisions to meet.
 
-The Commercial Waterfall does not invent prices. It makes accountability visible: what the public-finance service produces, which public and provider obligations must be satisfied, what PVB must fund and operate, what risks remain, and what financial and institutional value is left.
+This Capability supports adaptability. Resilience allows PVB to continue through difficulty; adaptability allows it to assume new responsibilities through an established foundation. The institution cannot predict every service required over the next decade. It can preserve the ability to evaluate new services without rebuilding its operating foundation each time.
 
-PVB's disclosed financial, capital, regulatory, asset-quality, acquisition, and management conditions remain part of the decision context. [CLM-024 through CLM-031, CLM-041, CLM-044] The Program should proceed only if it fits the institution's capacity to govern and sustain it.
+The commercial case remains disciplined. Costs may include licensing, institution-specific implementation and maintenance, bank infrastructure, managed operations, internal governance and operations, settlement-provider charges, security, reconciliation, and continuing support. Economic value may arise through approved service income, deposits associated with actual program structures, stronger government and constituent relationships, reduced duplicated engineering, and the ability to introduce relevant services more efficiently. None is automatic.
 
-The stronger proposition is capability before return. PVB would become better able to evaluate selected public responsibilities through an established foundation. Selection, revenue, deposits, and preferred status would still have to be earned.
+Detailed economics require PVB information and separate commercial analysis. Prices, volumes, deposits, savings, public value, and returns should be assessed only after the institution has defined the service and supplied the evidence required to evaluate them.
 
-The Board would be deciding more than whether technology is useful. It would be deciding whether PVB should establish one reusable institutional capability through which its banking authority and public purpose can support accountable public-finance services over time.
+The Board would be deciding more than whether to acquire software. It would be deciding whether PVB should establish a reusable operating foundation through which its authority, identity, and relationships may support more accountable public-finance services over time.
 
 ## Section 7 — Launching the Program
 
-> **Executive question:** What happens if Philippine Veterans Bank approves the next step?
+> **Executive question:** What would happen if Philippine Veterans Bank later authorized the Program?
 
-> **Key message:** Approval would begin disciplined institutional validation. It would not authorize procurement, implementation, a public program, or production.
+> **Key message:** A possible next step is institutional dialogue around one bounded public-assistance ceremony—not an immediate production decision.
 
-> **Executive decision:** I understand the bounded decision, the readiness sequence, and the evidence Management must return before any later commitment.
+> **Executive decision:** I understand the institutional journey and the questions PVB would need to resolve before authorizing implementation or controlled production.
 
-The first approval would establish institutional purpose, scope, accountability, and authority for Management to evaluate the Program. PVB would name a sponsor and identify the responsible business, operating, Treasury, technology, risk, compliance, legal, security, privacy, finance, accounting, audit, and public-counterpart roles.
+The appropriate first step is to understand the institution directly.
 
-Implementation would not begin with software. It would begin with understanding the institution and one public responsibility.
+PVB would confirm the public purpose, responsible government entity, authority, participant basis, source and destination of funds, policies, approvals, evidence, channels, systems, accounting, reconciliation, support, exceptions, settlement arrangements, and institutional owners relevant to one candidate ceremony.
 
-### Validate the institution
+The bank would then validate whether bounded public assistance combines institutional importance, limited scope, operating familiarity, and readiness to learn. If it does not, PVB would return to the proposed candidate sequence rather than force selection.
 
-PVB would confirm strategy, authority, financial and regulatory capacity, current public-finance relationships, operating sovereignty, technology and provider boundaries, economics, resources, and accountable owners. Unknowns would remain visible until the responsible authority resolves them.
+The participant journey would be defined as part of the banking service, not as a separate design exercise. The ceremony would identify what the government entity authorizes, what PVB agrees to do, what evidence is required, how participants are informed, how exceptions are handled, and what completion means.
 
-### Define the first ceremony
+Integration discovery would examine PVB's approved interfaces, credentials, status models, controls, provider behavior, evidence, test environments, reconciliation responsibilities, and change processes. Only after this work could the feasibility and scope of PVB-specific integration be established.
 
-If a suitable public-assistance ceremony is confirmed, the responsible institutions would define public purpose, authority, funds, participants, banking service, accounts, conditions, presentation, execution, support, exceptions, evidence, reconciliation, and completion.
+If PVB later authorized implementation, technical validation would remain a technical gate. Operational readiness would remain a separate institutional gate. PVB personnel and the responsible public institution would need to validate authority, approvals, Funding Events, Treasury state, Liens, Facility rules, Settlement Envelope conditions, Pay Code presentation, execution, provider behavior, accounting, evidence, support, reconciliation, failure, delay, duplication, reversal, and uncertain outcomes as one public-finance operation.
 
-The participant experience would be defined as part of the banking service, not as a separate design exercise.
+Readiness is an institutional judgment. It exists only when PVB and the responsible public institution have sufficient evidence that the ceremony can be authorized, operated, supervised, secured, settled, reconciled, supported, evidenced, and governed under their respective authority.
 
-### Discover the institutional design
+No conclusion about implementation or readiness is presumed.
 
-PVB and its approved providers would map current systems and controls to the proposed Capability. They would define the PVB-controlled environment, data and security boundaries, interfaces, provider behavior, operating procedures, records, acceptance, support, maintenance, and change control.
+The immediate invitation is narrower: confirm whether the institutional question is relevant, determine whether bounded public assistance should test it first, and establish what PVB would need to know before considering any further decision.
 
-### Validate the complete ceremony
-
-The responsible functions would test successful execution and the conditions that reveal readiness: invalid authority, insufficient resources, duplicate instruction, delayed or ambiguous provider response, partial failure, invalid credential, incorrect participant data, reversal or correction, outage, compromised access, reconciliation difference, and evidence retrieval.
-
-The result must show what people and institutions do, not only what software does.
-
-### Decide on bounded production
-
-Only after operational readiness would the responsible authorities consider limited production. Scope could be bounded by public entity, participant group, value, volume, geography, channel, operating window, Funding Events, or duration.
-
-Success measures would be agreed before operation. They may address correct authority, participant attribution, execution outcomes, reconciliation completeness and timeliness, unresolved-item aging, service availability, participant evidence, support performance, security, and control effectiveness. Volume alone would not establish readiness.
-
-The responsible institutions would review the evidence and decide to **Proceed**, **Correct**, **Extend**, or **Pause**. Expansion would apply only to an approved dimension and would require a new responsibility judgment.
-
-Readiness is an institutional judgment. Program approval, workflow definition, completed integration, technical certification, and operational readiness are separate gates. No gate follows automatically from the one before it.
-
-Management should return with:
-
-- confirmed institutional purpose and sponsor;
-- validated public and banking authority;
-- current financial, regulatory, and resource conditions;
-- a defined first ceremony and responsible public counterpart;
-- current-state and proposed operating boundaries;
-- governance and sovereignty arrangements;
-- a preliminary economic assessment;
-- implementation-readiness dependencies;
-- unresolved Unknowns and risks; and
-- the exact next decision requested.
-
-The first decision authorizes institutional learning. Every later decision must be supported by the evidence required for the responsibility PVB is being asked to carry.
+The next step is a disciplined institutional dialogue: whether this Capability belongs within PVB's future, and whether one bounded public responsibility should test that judgment first.
 
 ## Appendices
+
+The appendices preserve the operating, governance, economic, Treasury, deployment, and readiness distinctions required to evaluate the Program. They provide institutional reference without becoming an implementation specification.
 
 - [Appendix A — Glossary](appendices/glossary.md)
 - [Appendix B — Program Governance](appendices/governance.md)
@@ -282,9 +276,3 @@ The first decision authorizes institutional learning. Every later decision must 
 - [Appendix E — Deployment Architecture](appendices/deployment-architecture.md)
 - [Appendix F — Frequently Asked Questions](appendices/faq.md)
 - [Appendix G — Program Diagrams](appendices/diagrams.md)
-
-## Source Lineage
-
-This Guide is derived from the accepted [Philippine Veterans Bank Modernization Program](../PHILIPPINE_VETERANS_BANK_MODERNIZATION_PROGRAM.md), which remains the canonical institutional parent. The [Institution Intelligence](../INSTITUTION_INTELLIGENCE.md), [Strategic Assessment](../STRATEGIC_ASSESSMENT.md), [Gap Analysis](../GAP_ANALYSIS.md), and [Evidence Register](../EVIDENCE_REGISTER.md) preserve the research and analytical basis.
-
-The [Government Depository Digital Banking Program Guide](../../../editorial/program-guides/government-depository/government-depository-digital-banking-program-guide.md) governs publication grammar and canonical operating concepts. This institution-specific Guide does not alter that doctrine or the accepted PVB Modernization Program.

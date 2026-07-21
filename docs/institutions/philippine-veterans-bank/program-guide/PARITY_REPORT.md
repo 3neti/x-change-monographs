@@ -2,7 +2,7 @@
 
 ## Assessment
 
-The Version 0.9 editorial draft implements the seven-section architecture required by the [Canonical Banking Program Guide](../../../editorial/program-guides/CANONICAL_BANKING_PROGRAM_GUIDE.md). It specializes the Government Depository narrative for PVB without changing canonical terminology or the accepted Modernization Program.
+The Version 0.9 editorial draft implements the seven-section architecture required by the [Canonical Banking Program Guide](../../../editorial/program-guides/CANONICAL_BANKING_PROGRAM_GUIDE.md). It was rebuilt from the AllBank Executive Edition as the direct publication master and specializes the Government Depository narrative for PVB without changing canonical terminology or the accepted Modernization Program. Detailed master comparison appears in the [AllBank Publication Parity Report](ALLBANK_PUBLICATION_PARITY_REPORT.md); material substitutions appear in the [Deviation Register](ALLBANK_TO_PVB_DEVIATION_REGISTER.md).
 
 `Complete` below records coverage for editorial review. It does not mean editorial lock, PVB approval, publication freeze, implementation authority, or production readiness.
 
@@ -16,7 +16,7 @@ The Version 0.9 editorial draft implements the seven-section architecture requir
 | Section 3 | What could PVB gain? | Complete | Establishes operating leverage, sovereignty, adaptability, and conditional institutional relevance. |
 | Section 4 | How would the operating model work? | Complete | Covers public and banking authority, custody, Treasury grammar, integration, settlement, sovereignty, and readiness. |
 | Section 5 | What would the Program look like in action? | Complete | Uses bounded public-assistance disbursement as the evidence-led discovery candidate and preserves alternatives. |
-| Section 6 | What is the institutional case? | Complete | Relates PVB identity, capability, economic accountability, public value, and institutional constraints. |
+| Section 6 | What is the institutional case? | Complete | Applies Transaction Gravity, adaptability, economic accountability, and public value to PVB's institutional relationships. |
 | Section 7 | What happens after approval? | Complete | Defines validation, ceremony design, institutional discovery, complete-ceremony testing, bounded production, and evidence review. |
 | Appendices | Where can readers verify terms and supporting detail? | Complete | Appendices A–G cover glossary, governance, Commercial Waterfall, Treasury, deployment, FAQ, and diagrams. |
 
@@ -59,8 +59,8 @@ The Version 0.9 editorial draft implements the seven-section architecture requir
 - Public collections remain the secondary candidate; identity-relevant and deferred candidates retain their accepted disposition.
 - Unknowns are not converted into assumptions or deficiencies.
 - The main Guide contains no package names, internal component names, API design, or engineering sequence.
+- The external manuscript and appendices contain no research artifacts, claim identifiers, gates, evidence registers, or repository workflow.
 - Implementation realization remains in the appendices and canonical Government Depository references.
 - No new PVB evidence, recommendation, commercial claim, or production authority has been introduced.
 
 Canonical Program Guide parity is complete for editorial review. Publication and editorial-lock decisions remain separate future gates.
-

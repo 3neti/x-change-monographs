@@ -25,7 +25,7 @@ Governance refined — internal derivative source
         ↓
 Phase 6 — PVB Digital Banking Program Guide
         ↓
-Complete draft — editorial review
+AllBank-master adaptation complete — editorial comparison
 ```
 
 ## Phase sequence
@@ -37,14 +37,14 @@ Complete draft — editorial review
 | 3 | Strategic Gap Analysis | Accepted — Gate 2 | Gate 1 approval | Compare accepted institution evidence with canonical Government Depository doctrine without proposing a solution |
 | 4 | PVB Modernization Program | Accepted — Gate 3 — Canonical | Gate 2 approval | Evidence-derived institutional response; read-only parent for derivatives |
 | 5 | Executive Submission Suite | Governance Refined — Internal Derivative Source | Gate 3 approval | Audience-specific communication derived from the canonical Program |
-| 6 | PVB Digital Banking Program Guide | Complete Draft — Editorial Review | Final editorial assignment | Primary institution-specific publication derived from the canonical Modernization Program |
+| 6 | PVB Executive Edition | AllBank-Master Adaptation Complete — Editorial Comparison | Controlled rewrite assignment | Primary institution-specific publication using the AllBank Executive Edition as the direct master and the PVB corpus for accuracy |
 | 7 | Commercial and Implementation Work | Not Authorized | Separate institutional, legal, commercial, risk, and technical authority | Proposal, discovery, pilot, readiness, and controlled expansion |
 
 ## Program Guide review
 
-The PVB Digital Banking Program Guide is complete as a Version 0.9 editorial draft. The accepted Modernization Program remains its canonical parent. Institution Intelligence, Strategic Assessment, Gap Analysis, and the Executive Submission Suite remain internal sources supporting traceability and later engagement.
+The PVB Executive Edition is complete as a Version 0.9 editorial draft rebuilt from the approved AllBank Executive Edition. The accepted Modernization Program remains its canonical PVB parent. Institution Intelligence, Strategic Assessment, Gap Analysis, and the Executive Submission Suite remain internal sources supporting accuracy and traceability; they do not appear in the external publication.
 
-Editorial review may identify bounded corrections to the Guide. Typesetting, publication proof generation, commercial work, and implementation require separate authority. None may alter the canonical Modernization Program or imply PVB adoption, procurement, production, or commercial authority.
+The next gate is direct editorial comparison with the AllBank master using the Deviation Register and Publication Parity Report. Typesetting, publication proof generation, commercial work, and implementation require separate authority. None may alter the AllBank master, canonical Modernization Program, or imply PVB adoption, procurement, production, or commercial authority.
 
 No later-phase file should be created merely to demonstrate momentum.
 

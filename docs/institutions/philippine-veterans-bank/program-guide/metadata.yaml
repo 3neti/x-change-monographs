@@ -1,13 +1,16 @@
 series: "x-change Institution-Specific Program Guides"
-title: "Philippine Veterans Bank Digital Banking Program Guide"
-subtitle: "An Institution-Specific Program for Trusted Public-Finance Capability"
+program: "Government Depository Digital Banking Program Guide"
+title: "Philippine Veterans Bank Edition"
+edition: "Executive Edition"
+edition_key: "executive"
+edition_label: "Executive Edition"
 institution: "Philippine Veterans Bank"
 institution_short_name: "PVB"
 document_form: "Program Guide"
 document_type: "institution-specific-banking-program-guide"
 version: "0.9"
 status: "in-review"
-editorial_state: "complete-draft"
+editorial_state: "complete-draft-allbank-master-adaptation"
 canonical_state: "editorial-review-baseline"
 publication_state: "not-generated"
 evidence_cutoff_date: "2026-07-20"
@@ -22,6 +25,10 @@ audience:
 canonical_parent:
   modernization_program: "docs/institutions/philippine-veterans-bank/PHILIPPINE_VETERANS_BANK_MODERNIZATION_PROGRAM.md"
   modernization_program_sha256: "6430e06d522f350148c420aa5dbc71e2e3a2a88abdc7ab38c361e73ffad27962"
+publication_master:
+  file: "docs/institutions/allbank/executive-edition/allbank-edition-executive-v1.0.md"
+  sha256: "f0bca701d7bcc817d21c42ce032bd0ef853dc76be99d6517d1d36282b07bd9e2"
+  role: "direct editorial and structural master"
 source_lineage:
   institution_intelligence: "docs/institutions/philippine-veterans-bank/INSTITUTION_INTELLIGENCE.md"
   strategic_assessment: "docs/institutions/philippine-veterans-bank/STRATEGIC_ASSESSMENT.md"
@@ -31,10 +38,13 @@ source_lineage:
 manuscript: "docs/institutions/philippine-veterans-bank/program-guide/philippine-veterans-bank-digital-banking-program-guide.md"
 appendices: "docs/institutions/philippine-veterans-bank/program-guide/appendices"
 parity_report: "docs/institutions/philippine-veterans-bank/program-guide/PARITY_REPORT.md"
+allbank_deviation_register: "docs/institutions/philippine-veterans-bank/program-guide/ALLBANK_TO_PVB_DEVIATION_REGISTER.md"
+allbank_publication_parity_report: "docs/institutions/philippine-veterans-bank/program-guide/ALLBANK_PUBLICATION_PARITY_REPORT.md"
 editorial_scope:
   executive_summary: "Complete for review"
   sections_1_through_7: "Complete for review"
   appendices_a_through_g: "Complete for review"
+  allbank_master_adaptation: "Complete"
   publication: "Not authorized by this assignment"
 program:
   primary_discovery_candidate: "Bounded public-assistance disbursement — subject to Management Validation"
@@ -52,4 +62,4 @@ publication:
   generated: false
   pdf: null
   html: null
-notes: "Complete institution-specific editorial draft. PVB remains the protagonist; public-assistance disbursement remains a discovery candidate rather than a production selection. Unknowns and Management Validation requirements remain visible."
+notes: "Complete controlled adaptation of the AllBank Executive Edition. The external manuscript contains no research scaffolding or claim identifiers. PVB remains the protagonist; public-assistance disbursement remains a discovery candidate rather than a production selection. Editorial comparison is the next gate; the draft is not frozen or typeset."

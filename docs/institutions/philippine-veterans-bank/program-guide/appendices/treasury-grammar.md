@@ -1,37 +1,40 @@
 # Appendix D — Treasury Grammar
 
-Treasury is an operational representation of financial state. It does not replace PVB accounts, the general ledger, government accounting records, appropriations, trusts, custody arrangements, or legal fund characterization.
-
-## Canonical Progression
+Treasury provides the operational financial-state grammar supporting a governed public-finance ceremony.
 
 ```text
 External Financial Event
         ↓
 Funding Event
         ↓
-Settlement Resources Recognized in Treasury
+Settlement Resources Recognized by Treasury
         ↓
-Lien Reserves Capacity for an Authorized Purpose
+Lien Reserves Resources for an Authorized Purpose
         ↓
-Facility and Settlement Envelope Govern the Instruction
+Facility Gives the Activity Banking and Commercial Meaning
         ↓
-Execution Through PVB-Approved Capability
+Settlement Envelope Establishes Evidence and Conditions
         ↓
-Status, Evidence, Exception Resolution, and Reconciliation
+Pay Code Represents the Authorized Instruction
+        ↓
+Execution Coordinates the Approved Outcome
+        ↓
+Evidence, State Resolution, and Reconciliation
 ```
 
-## Governing Distinctions
+- A Funding Event records an external event; it does not manufacture funds or public authority.
+- Treasury represents operational state; it is not the bank account, public accounting record, or general ledger.
+- Settlement Resources remain subject to their actual custody, ownership, legal character, and institutional controls.
+- A Lien reserves capacity; it does not transfer custody.
+- A Facility carries banking and commercial meaning; the public program remains the source of public authority.
+- A Settlement Envelope carries conditions and evidence; it does not perform settlement.
+- A Pay Code is a credential; it is not money, a public benefit, a deposit, stored value, or the service itself.
+- Execution coordinates the authorized outcome through PVB's approved capability.
+- Reconciliation compares operating state with PVB, public-institution, and provider evidence and resolves differences through approved procedures.
 
-- A Funding Event records institutional recognition; it does not create funds or authority.
-- Settlement Resources express operationally recognized capacity; they do not constitute a separate deposit or public fund.
-- A Lien reserves operational capacity; it does not transfer custody.
-- A Facility defines the banking service; it does not create the government program.
-- A Settlement Envelope carries conditions and evidence; it does not settle funds.
-- A Pay Code represents an approved instruction; it is not money or stored value.
-- Execution coordinates an approved outcome through PVB's approved provider and settlement arrangements.
-- Resolution requires returned status, evidence, exception handling, accounting, and reconciliation.
+The underlying funds remain within the applicable government and PVB regulated arrangements throughout. Treasury gives the ceremony an operational view of what is recognized, reserved, available, outstanding, or unresolved. It neither assumes custody nor changes the legal character of funds.
 
-## PVB Validation Boundary
+Commercial meaning belongs to the Facility. The Facility identifies why the activity exists, who participates, what rules and limits apply, and what responsibility PVB accepts. The Settlement Envelope then establishes what must be true before the instruction proceeds. This separation allows evidence and conditions to evolve without confusing them with the banking product or public program.
 
-PVB must map this grammar to its actual accounts, product records, Treasury and general-ledger treatment, provider positions, identifiers, cutoffs, accounting entries, exception states, reconciliation processes, control owners, and audit evidence. Existing authoritative records remain authoritative.
+Execution completes neither the institutional record nor PVB's responsibility by itself. Provider references, statuses, exceptions, and evidence must return to the operating record. Treasury state, Liens, accounting, participant communication, exception handling, and reconciliation must then be resolved according to approved procedures.
 

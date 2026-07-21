@@ -102,7 +102,7 @@ executive_submission_suite:
 program_guide:
   phase: 6
   version: "0.9"
-  status: "Complete Draft — Editorial Review"
+  status: "AllBank-Master Adaptation Complete — Editorial Comparison"
   authorization_date: "2026-07-20"
   canonical_parent:
     file: "PHILIPPINE_VETERANS_BANK_MODERNIZATION_PROGRAM.md"
@@ -110,9 +110,15 @@ program_guide:
   manuscript: "program-guide/philippine-veterans-bank-digital-banking-program-guide.md"
   appendices: "program-guide/appendices"
   parity_report: "program-guide/PARITY_REPORT.md"
+  publication_master:
+    file: "docs/institutions/allbank/executive-edition/allbank-edition-executive-v1.0.md"
+    sha256: "f0bca701d7bcc817d21c42ce032bd0ef853dc76be99d6517d1d36282b07bd9e2"
+  allbank_deviation_register: "program-guide/ALLBANK_TO_PVB_DEVIATION_REGISTER.md"
+  allbank_publication_parity_report: "program-guide/ALLBANK_PUBLICATION_PARITY_REPORT.md"
   primary_discovery_candidate: "Bounded public-assistance disbursement — subject to Management Validation"
   new_institutional_conclusions: false
   modernization_program_changed: false
+  internal_research_visible_in_external_manuscript: false
   publication_generated: false
 artifacts:
   institution_intelligence: "Complete — In Review"
@@ -140,8 +146,8 @@ artifacts:
   meeting_leave_behind: "Governance Reviewed"
   executive_presentation_outline: "Governance Reviewed"
   executive_faq: "Governance Reviewed"
-  pvb_program_guide: "Complete Draft — Editorial Review"
-  pvb_program_guide_appendices: "Complete Draft — Editorial Review"
+  pvb_program_guide: "AllBank-Master Adaptation Complete — Editorial Comparison"
+  pvb_program_guide_appendices: "AllBank-Master Adaptation Complete — Editorial Comparison"
   pvb_program_guide_parity: "Complete for Editorial Review"
   proposal: "Not Authorized"
   editorial_mapping: "Not Authorized"
@@ -155,9 +161,9 @@ gate:
   phase_3_gap_analysis: "Accepted at Gate 2"
   phase_4_modernization_program: "Accepted at Gate 3 — Canonical"
   phase_5_executive_submission_suite: "Governance refined — internal derivative source"
-  phase_6_pvb_program_guide: "Complete draft — editorial review"
+  phase_6_pvb_program_guide: "AllBank-master adaptation complete — editorial comparison"
   outcome_recommendation: "Review the institution-specific Program Guide as the primary external publication while preserving earlier phases as internal source material"
-  next_decision: "Approve editorial review, request bounded corrections, or pause"
+  next_decision: "Compare the PVB edition directly with the AllBank master, approve bounded corrections, or pause"
 restrictions:
   - "Do not treat charter authority as proof of operational readiness."
   - "Do not treat public digital channels as evidence of production architecture or API suitability."

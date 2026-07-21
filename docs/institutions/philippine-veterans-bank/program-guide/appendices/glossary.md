@@ -1,28 +1,38 @@
 # Appendix A — Glossary
 
-The definitions below preserve the canonical x-change and Government Depository grammar. PVB-specific application does not change them.
+These definitions apply to this Program and remain subordinate to the governing x-change and Government Depository grammar.
 
-| Term | Meaning in this Guide |
-| --- | --- |
-| **Banking service** | The institution-approved service through which PVB accepts responsibility for arranging a defined banking outcome. |
-| **Bounded public-assistance disbursement** | The recommended first discovery candidate, limited by defined authority, participants, value, geography, duration, channel, or another approved boundary. It is not a production selection. |
-| **Capability** | The maintained institutional ability intended to result from the Program: turning properly authorized instructions into observable, executable, evidentiary, and reconcilable banking activity. |
-| **Controlled Recommendation** | A Program-design recommendation supported by accepted evidence and subject to PVB authority, validation, and readiness. |
-| **Execution** | Coordination of the outcome defined by the Facility through PVB's approved institution-specific execution and settlement capabilities. |
-| **Facility** | The definition of the banking service, including purpose, participants, policies, limits, approved commercial treatment, and institutional owner. It does not replace public-program authority. |
-| **Funding Event** | A record of the external financial event through which resources become recognized operationally. It does not create funds, transfer custody, or determine legal or accounting character. |
-| **Government entity** | The public institution responsible for the public purpose, program authority, participant basis, funding authority, conditions, approvals, reporting, and public accountability applicable to a service. |
-| **Institution-specific integration** | The maintained connection between the x-change operating grammar and PVB's approved systems, providers, execution paths, evidence, and settlement arrangements. |
-| **Lien** | An operational reservation of capacity for an authorized purpose while an instruction remains outstanding. It does not transfer custody. |
-| **Management Validation** | A matter not established by public evidence that PVB must confirm before it can support a later institutional decision. |
-| **Operating grammar** | The canonical progression and distinctions through which authority, recognized resources, service rules, conditions, credential, execution, evidence, exceptions, and reconciliation are governed. |
-| **Operating sovereignty** | PVB ownership or control of its approved environment, data, credentials, provider relationships, releases, records, audit trail, and production decisions. |
-| **Pay Code** | A credential representing an authorized instruction. It is not money, a benefit, a deposit, stored value, or the banking service. |
-| **Program** | The proposed institutional initiative through which PVB would evaluate, establish, govern, and maintain the Capability. |
-| **Public program** | The lawful government purpose, authority, funding basis, participant basis, conditions, and accountability within which a public-finance service operates. |
-| **Readiness** | An institutional judgment that the complete ceremony can be lawfully authorized, operated, supervised, secured, settled, reconciled, supported, evidenced, audited, and governed. |
-| **Settlement Envelope** | The governed set of approvals, identity, eligibility, documents, limits, signatures, references, and other conditions required before execution. It is not a settlement mechanism. |
-| **Settlement Resources** | Resources recognized operationally within Treasury as supporting approved activity. Their operational representation does not change custody or legal character. |
-| **Treasury** | The operational view of recognized, available, reserved, outstanding, unresolved, and resolved Settlement Resources. It does not replace accounts, the general ledger, or public accounting records. |
-| **x-change** | The licensed and maintained operating grammar supporting the Capability. It does not confer public authority, banking authority, custody, settlement access, or production readiness. |
+**Capability** — The enduring, maintained operating foundation established through the Program. It allows PVB to turn properly authorized public-finance instructions into governed banking activity.
+
+**Program** — The institution-specific initiative through which PVB would evaluate, establish, govern, and introduce the Capability.
+
+**Funding Event** — The record of an external financial event through which Settlement Resources enter or become recognized by Treasury. It records recognition; it does not create the underlying value.
+
+**Treasury** — The operational view of Settlement Resources supporting PVB's activities, including what is recognized, reserved, available, outstanding, or unresolved. It is not the bank account, government accounting record, or general ledger.
+
+**Settlement Resources** — The resources recognized by Treasury as supporting an activity. Their custody and legal character remain within the applicable government and PVB banking arrangements.
+
+**Lien** — An operational reservation of Settlement Resources for an authorized purpose while an instruction remains outstanding.
+
+**Facility** — The governed definition of a banking service. It carries purpose, participants, policies, commercial rules, limits, and institutional responsibility. The public program remains the source of public authority.
+
+**Settlement Envelope** — The evidence and conditions that must be satisfied before an instruction may proceed.
+
+**Pay Code** — A credential representing an authorized instruction in a form that can be communicated, presented, validated, and executed. It is not money, a public benefit, a deposit, stored value, or the banking service.
+
+**Execution** — The coordination of an authorized instruction toward the banking outcome defined by the Facility through PVB's approved execution capability.
+
+**Institution-specific integration** — The maintained connection between the common operating grammar and PVB's approved systems, interfaces, providers, evidence, and settlement arrangements.
+
+**Governed public-finance ceremony** — The complete progression from public purpose and recognized resources through banking policy, authority, conditions, execution, evidence, exception handling, and reconciliation.
+
+**Readiness** — PVB's institutional judgment, together with the responsible public authority where applicable, that sufficient evidence exists to authorize, operate, supervise, secure, settle, reconcile, support, evidence, and govern a ceremony.
+
+**Technical validation** — Evidence that institution-specific integration performs agreed technical behavior under tested conditions. Technical validation is not operational readiness.
+
+**Transaction Gravity** — The tendency for financial activity to return to an institution that remains useful across recurring institutional and participant needs.
+
+**Operating sovereignty** — PVB's continuing control over its banking authority, government and customer relationships, policies, infrastructure, data, credentials, production decisions, settlement relationships, and institutional audit trail.
+
+**Bounded public-assistance disbursement** — The primary discovery candidate: a public-assistance ceremony limited by defined authority, participant group, value, geography, duration, channel, or another approved boundary. It is not a production selection.
 

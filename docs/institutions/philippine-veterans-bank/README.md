@@ -6,13 +6,13 @@ This repository is the first evidence-based application of the canonical [Instit
 
 **Phase:** 6 — Institution-Specific Program Guide
 
-**Status:** Philippine Veterans Bank Digital Banking Program Guide complete for editorial review
+**Status:** Philippine Veterans Bank Executive Edition rebuilt from the AllBank publication master — ready for editorial comparison
 
 **Evidence cutoff:** 20 July 2026
 
 **Public-source basis:** Yes; no institution-provided materials were used
 
-The Phase 1 dossier describes PVB before evaluating it. The accepted Phase 2 Strategic Assessment interprets that evidence on the institution's own terms. The accepted Phase 3 Gap Analysis compares the evidenced institution with the canonical Government Depository capability. The accepted Phase 4 Modernization Program is the canonical institutional response. The Phase 5 Executive Submission Suite communicates that Program to specific executive audiences without changing it. Phase 6 translates the accepted Program into the complete institution-specific Program Guide that will anchor future external engagement.
+The Phase 1 dossier describes PVB before evaluating it. The accepted Phase 2 Strategic Assessment interprets that evidence on the institution's own terms. The accepted Phase 3 Gap Analysis compares the evidenced institution with the canonical Government Depository capability. The accepted Phase 4 Modernization Program is the canonical institutional response. The Phase 5 Executive Submission Suite communicates that Program to specific executive audiences without changing it. Phase 6 adapts the approved AllBank Executive Edition as the direct publication master while using the accepted PVB corpus for institution-specific accuracy.
 
 ## Canonical lineage
 
@@ -42,6 +42,8 @@ The Government Depository Program Guide supplies the institutional research lens
 - [Program Guide manuscript](program-guide/philippine-veterans-bank-digital-banking-program-guide.md)
 - [Program Guide metadata](program-guide/metadata.yaml)
 - [Program Guide Appendices A–G](program-guide/appendices/)
+- [AllBank-to-PVB Deviation Register](program-guide/ALLBANK_TO_PVB_DEVIATION_REGISTER.md)
+- [AllBank Publication Parity Report](program-guide/ALLBANK_PUBLICATION_PARITY_REPORT.md)
 
 ## Phase 5 artifacts
 

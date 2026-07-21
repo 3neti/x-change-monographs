@@ -1,34 +1,36 @@
 # Appendix B — Program Governance
 
-Governance follows existing public and banking responsibility. The Program does not transfer authority to software or providers.
+Governance follows institutional responsibility. No provider approval substitutes for public authority or PVB approval.
 
-## Responsibility Boundaries
+| Participant | Principal responsibility | Institutional boundary |
+| --- | --- | --- |
+| Responsible government entity | Defines or administers public purpose, authority, participant basis, funding authority, approvals, conditions, reporting, and public accountability | Public authority does not transfer to the bank or a technology provider |
+| PVB Board of Directors | Approves institutional purpose, risk appetite, scope, accountability, and material progression | Fiduciary responsibility is not delegated to a provider |
+| President, CEO, and Management | Own Program sponsorship, resources, accountability, and management decisions | Board consideration does not constitute production readiness |
+| Business and Public Sector Banking | Define the banking service, institutional relationship, policy, terms, participant treatment, and economic case | Technical credentials do not carry public or commercial meaning |
+| Operations | Define supervision, support, escalation, exception handling, evidence, and reconciliation practice | Technical completion is not an operating decision |
+| Treasury | Governs the operational view of Settlement Resources, reservations, and unresolved obligations | Software state does not replace accounts or determine legal fund character |
+| Technology | Governs architecture, integration, environments, identity, observability, resilience, service management, and release | External engineering extends rather than displaces institutional capability |
+| Risk and Compliance | Review risks, controls, obligations, monitoring, and participant treatment within authority | Accountability does not transfer to validation artifacts |
+| Legal and Privacy | Review agreements, authority, program terms, data treatment, and legal characterization | This Guide is not a legal agreement or opinion |
+| Information Security | Governs access, credentials, testing, monitoring, incident response, and change | Production secrets remain under approved institutional control |
+| Finance and Accounting | Define accounting, financial reporting, provider-charge treatment, and reconciliation requirements | Commercial estimates require separate financial approval |
+| Internal Audit | Provides independent assurance according to its mandate | Internal Audit does not become an implementation owner |
+| ODTI | Licenses and maintains x-change, supported components, documentation, and agreed validation capability | ODTI does not provide public authority, banking authority, custody, settlement access, or production approval |
+| DevOps or managed-service provider | Performs delegated provisioning, deployment, monitoring, backup, recovery, release support, and incident work | The provider does not own PVB's environment, data, credentials, relationships, or release authority |
+| Settlement institution or payment provider | Performs supported financial movement and provides records under its agreement with PVB | The provider does not define the public program or complete banking ceremony |
 
-| Participant | Retained responsibility |
-| --- | --- |
-| **Government entity** | Public purpose, legal authority, participant basis, funding authority, approvals, conditions, reporting, and public accountability. |
-| **PVB Board and Management** | Institutional purpose, risk appetite, scope, sponsorship, resources, governance, progression, production decisions, and responsibility for the banking institution. |
-| **PVB operating and control functions** | Banking service, accounts, custody, Treasury, operations, technology, risk, compliance, legal, security, privacy, finance, reconciliation, audit, continuity, and readiness within their established mandates. |
-| **ODTI** | x-change licensing, maintained operating grammar, documentation, agreed validation support, and maintenance. |
-| **Approved engineering or managed-service provider** | Delegated discovery, integration, deployment, monitoring, recovery, or support within PVB authority and approved boundaries. |
-| **Settlement or payment provider** | Supported financial movement and provider evidence under its approved direct relationship with PVB. |
+The principal decision gates are:
 
-No provider becomes PVB, the government entity, custodian, public authority, auditor, or production decision-maker.
+1. **Program authorization** — the Board or delegated authority permits Management to evaluate the Program.
+2. **Public authority and service definition** — the responsible institutions confirm the public purpose, authority, participant basis, and first banking ceremony.
+3. **Architecture and security approval** — responsible functions approve the intended environment and integration boundary.
+4. **Technical validation** — agreed institution-specific behavior is evidenced under controlled conditions.
+5. **Operational readiness** — PVB and the responsible public institution judge the complete ceremony ready for bounded production.
+6. **Controlled-production decision** — the responsible authorities approve a limited live scope.
+7. **Evidence review** — the institutions decide to Proceed, Correct, Extend, or Pause.
 
-## Decision Gates
+This model preserves operating sovereignty. PVB retains control over banking authority, relationships, policy, infrastructure, data, credentials, production decisions, settlement relationships, and its institutional audit trail.
 
-1. **Program evaluation authority** — PVB approves the institutional question, sponsor, scope, resources, and validation mandate.
-2. **Public and banking authority** — the responsible institutions confirm that the candidate ceremony has a lawful and suitable basis.
-3. **First-ceremony definition** — authority, funds, participants, accounts, service, conditions, evidence, exceptions, reconciliation, and accountable owners are defined.
-4. **Institutional design approval** — architecture, data, privacy, security, sovereignty, controls, providers, and agreements are approved.
-5. **Technical validation and certification** — the institution-specific execution capability demonstrates agreed behavior under tested conditions.
-6. **Operational readiness** — responsible functions determine that the complete ceremony can be carried safely and accountably.
-7. **Bounded production decision** — the responsible public and banking authorities approve a narrow live scope and its success measures.
-8. **Evidence review** — the institutions decide to Proceed, Correct, Extend, or Pause.
-
-No gate authorizes the next automatically. Board approval begins institutional evaluation; it does not place PVB or a public program into production.
-
-## Management Validation Before Adoption
-
-PVB must confirm its actual committees, delegated authorities, procurement and outsourcing requirements, regulator engagement, control-function roles, documentation requirements, and decision records. This appendix proposes a responsibility model; it does not state PVB's present governance architecture.
+PVB's approved banking, accounting, customer, government, and settlement systems remain institutional systems of record. x-change coordinates the governed ceremony and preserves its operating evidence; it does not replace those systems or redefine their authority.
 

@@ -1,40 +1,18 @@
 # Appendix G — Program Diagrams
 
-These diagrams specialize the approved Government Depository operating concepts for PVB without changing canonical definitions. They are editorial source diagrams, not implementation specifications.
+These diagrams provide conceptual views of the PVB Program. They preserve the canonical operating distinctions and do not prescribe implementation.
 
 ## Institutional Identity
 
 ```mermaid
 flowchart LR
-    Veterans["Statutory Veterans Institution"] --> PVB["Philippine Veterans Bank"]
-    Commercial["Private Commercial Bank"] --> PVB
+    Commercial["Private Commercial Bank"] --> PVB["Philippine Veterans Bank"]
+    Veterans["Statutory Veterans Institution"] --> PVB
     Depository["Official Government Depository"] --> PVB
-    PVB --> Capability["Proposed Trusted Public-Finance Capability"]
+    PVB --> Capability["Trusted Public-Finance Capability"]
 ```
 
-## Program Lineage
-
-```mermaid
-flowchart TD
-    Intelligence["Institution Intelligence"] --> Assessment["Strategic Assessment"]
-    Assessment --> Gap["Gap Analysis"]
-    Gap --> Program["Accepted Modernization Program"]
-    Program --> Guide["PVB Digital Banking Program Guide"]
-    Guide --> Validation["Management Validation"]
-```
-
-## Operating Model
-
-```mermaid
-flowchart TD
-    Public["Authorized Public Program"] --> Service["PVB Depository Banking Service"]
-    Service --> Grammar["Governed Operating Capability"]
-    Grammar --> Integration["PVB-Specific Execution Capability"]
-    Integration --> Settlement["PVB-Approved Settlement Arrangement"]
-    Settlement --> Evidence["Status, Evidence, and Reconciliation"]
-```
-
-## Responsibility Boundaries
+## Program Participants
 
 ```mermaid
 flowchart LR
@@ -48,41 +26,63 @@ flowchart LR
     Providers --> PVB
 ```
 
+## Banking Operating Model
+
+```mermaid
+flowchart TD
+    Public["Authorized Public Program"] --> Service["PVB Depository Banking Service"]
+    Service --> Grammar["Governed Operating Capability"]
+    Grammar --> Integration["PVB-Specific Integration"]
+    Integration --> Settlement["PVB-Approved Execution and Settlement"]
+    Settlement --> Evidence["Status, Evidence, Exceptions, and Reconciliation"]
+```
+
+## Operating Grammar
+
+```mermaid
+flowchart LR
+    Funding["Funding Event"] --> Treasury["Treasury"]
+    Treasury --> Lien["Lien"]
+    Lien --> Facility["Facility"]
+    Facility --> Envelope["Settlement Envelope"]
+    Envelope --> PayCode["Pay Code"]
+    PayCode --> Execution["Execution"]
+    Execution --> Evidence["Evidence and Reconciliation"]
+```
+
 ## Bounded Public-Assistance Ceremony
 
 ```mermaid
 flowchart TD
     Authority["Public Purpose and Authorized Participants"] --> Funding["Approved Funding and PVB Recognition"]
-    Funding --> Facility["PVB Banking Service and Facility"]
-    Facility --> Conditions["Settlement Envelope Conditions"]
+    Funding --> Service["PVB Banking Service"]
+    Service --> Conditions["Conditions and Evidence"]
     Conditions --> Credential["Pay Code or Approved Presentation"]
     Credential --> Execution["PVB-Authorized Execution"]
     Execution --> Outcome["Participant Outcome"]
     Outcome --> Reconcile["Evidence, Exceptions, and Reconciliation"]
 ```
 
+## Candidate Ceremony Sequence
+
+```mermaid
+flowchart TD
+    Assistance["1. Bounded Public Assistance<br/>Primary Discovery Candidate"] --> Collections["2. Public Collections<br/>Secondary Candidate"]
+    Collections --> Identity["3. Veterans' Benefits and Government or Military Payroll<br/>Strategic Later Candidates"]
+    Identity --> Later["4. Treasury and GOCC Services<br/>Later Evaluation"]
+    Later --> Deferred["5. Procurement Settlement<br/>Deferred Pending Evidence"]
+```
+
 ## Readiness Progression
 
 ```mermaid
 flowchart LR
-    Program["Program Readiness"] --> Workflow["Workflow Readiness"]
-    Workflow --> Implementation["Implementation Readiness"]
-    Implementation --> Technical["Technical Readiness"]
+    Dialogue["Institutional Dialogue"] --> Definition["Ceremony Definition"]
+    Definition --> Discovery["Integration Discovery"]
+    Discovery --> Technical["Technical Validation"]
     Technical --> Operational["Operational Readiness"]
-    Operational --> Limited["Limited-Production Readiness"]
-    Limited --> Production["Production Readiness"]
-    Production --> Expansion["Expansion Readiness"]
+    Operational --> Controlled["Controlled Production Decision"]
+    Controlled --> Review["Proceed · Correct · Extend · Pause"]
 ```
 
-No arrow makes the next state automatic. Each transition requires the evidence and authority appropriate to the responsibility being considered.
-
-## Evidence Review
-
-```mermaid
-flowchart LR
-    Operate["Bounded Operation"] --> Review["Institutional Evidence Review"]
-    Review --> Proceed["Proceed"]
-    Review --> Correct["Correct"]
-    Review --> Extend["Extend"]
-    Review --> Pause["Pause"]
-```
+No arrow makes the next state automatic. Each transition requires the authority and evidence appropriate to the responsibility being considered.

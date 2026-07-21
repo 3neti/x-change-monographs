@@ -1,8 +1,6 @@
 # Appendix C — Commercial Waterfall
 
-The Commercial Waterfall is an accountability model, not a price schedule. It identifies the economic and operating responsibilities that must be understood before PVB can judge whether a ceremony is sustainable.
-
-## Economic Sequence
+The Commercial Waterfall makes economic responsibility visible without inventing prices or presuming return.
 
 ```text
 Approved Public-Finance Service
@@ -11,26 +9,20 @@ Authorized Fees, Deposits, Activity, and Public Value
         ↓
 Public-Program and Provider Obligations
         ↓
-PVB Operating and Control Costs
+PVB Operating, Governance, and Control Costs
         ↓
 License, Integration, Infrastructure, Support, and Maintenance
         ↓
 Residual Financial and Institutional Value
 ```
 
-## Cost and Responsibility Categories
+The starting point is an approved banking service with lawful authority, identified participants, a defined public purpose, and an accountable institutional owner. The service may create approved fees, deposits associated with its actual structure, recurring activity, operating knowledge, relationship value, and public value.
 
-| Category | Questions requiring validation |
-| --- | --- |
-| Public-program obligations | What costs, reporting duties, participant protections, service levels, and public-value requirements follow from the program? |
-| Software and maintenance | What licensed capability and continuing maintenance are required? |
-| Institution-specific integration | What discovery, mapping, implementation, validation, certification, and maintenance are required for PVB's approved environment? |
-| Infrastructure and operations | What environments, monitoring, security, continuity, personnel, and operational controls must PVB own, control, or fund? |
-| Providers and settlement | What charges, limits, service levels, exception rules, and evidence apply to approved providers and settlement arrangements? |
-| Support and reconciliation | What participant support, correction, accounting, reconciliation, record, audit, and unresolved-item responsibilities must be sustained? |
-| Risk and assurance | What legal, compliance, privacy, cybersecurity, fraud, operational-risk, audit, insurance, and continuing-assurance costs apply? |
+Those benefits must be considered alongside the complete cost of dependable operation. Relevant categories may include licensing, PVB-specific integration and maintenance, institution-controlled infrastructure, delegated operations, internal governance, settlement-provider charges, security, support, reconciliation, audit, participant treatment, and continuing assurance.
 
-Potential value may include approved service income, deposits associated with actual program structures, recurring activity, reduced duplicated engineering, stronger government and participant relationships, operating knowledge, and public value. None is presumed.
+The Waterfall also preserves public and provider obligations. A service can be financially active without being institutionally sustainable if accountability, service quality, exception ownership, evidence, or public value is underfunded.
 
-Public evidence does not establish the economics of a PVB-specific Program or candidate ceremony. Management Validation must establish costs, volumes, deposits, provider charges, internal effort, pricing authority, risk allocation, financial return, and public-service value before any commercial decision.
+Commercial sustainability exists when the arrangement supports dependable operation and preserves clear accountability for who authorizes, performs, earns, pays, bears risk, and remains answerable for the outcome.
+
+Detailed economics require PVB information and separate commercial analysis. Prices, volumes, deposits, savings, public value, and returns should be assessed only after the institution has defined the service and supplied the evidence required to evaluate them.
 
