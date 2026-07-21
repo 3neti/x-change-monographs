@@ -18,9 +18,9 @@ The result preserves the AllBank publication movement while replacing the instit
 | Narrative cadence | Short institutional paragraphs with direct transitions | Same paragraph movement and transition pattern | Matched | Eight of nine main components have identical prose-block counts; Section 2 has one required public-authority paragraph. |
 | Paragraph scale | Foreword 6; Summary 12; Sections: 8/10/8/13/8/10/10 | Foreword 6; Summary 12; Sections: 8/11/8/13/8/10/10 | Approved deviation | DEV-003 explains the single added paragraph. |
 | Section weight | Baseline main-body section weights | PVB sections range from approximately 98% to 111% of corresponding AllBank sections | Matched | No section materially expands or contracts the publication rhythm. |
-| Total publication scale | 6,604 words including annexes | Approximately 6,588 words including Appendices A–G | Matched | The editions are effectively the same editorial scale. |
-| Main-body technical depth | Concepts in the body; detailed realization in annexes | Concepts in the body; detailed realization in Appendix E | Approved deviation | DEV-007 preserves the Government Depository editorial boundary. |
-| Appendix architecture | Eight annexes covering model, ceremonies, driver, governance, Treasury, readiness, glossary, and application | Seven canonical appendices covering glossary, governance, economics, Treasury, deployment, FAQ, and diagrams | Approved deviation | DEV-010 maps every AllBank appendix function into the required A–G architecture. |
+| Total publication scale | 6,604 words including annexes | 7,468 words including Annexes A–H | Contextually adapted | PVB remains in the same executive-publication range; the additional weight reflects public-authority, custody, dual-readiness qualifications, and the preserved PVB diagrams. |
+| Main-body technical depth | Concepts in the body; detailed realization in annexes | Concepts in the body; detailed realization in Annex C | Approved deviation | DEV-007 preserves the Government Depository editorial boundary. |
+| Annex architecture | Eight annexes covering model, ceremonies, driver, governance, Treasury, readiness, glossary, and application | Eight annexes covering the same journey, with institution-specific integration replacing bank-driver terminology | Matched | DEV-010 records the contextual title substitution; no structural exception remains. |
 | Commercial posture | Builds interest in evaluation; pricing remains separate | Builds interest in evaluation; pricing remains separate | Matched | Both describe cost and value categories without a proposal or return claim. |
 | Conclusion pattern | Ends with disciplined institutional dialogue and one ceremony | Ends with disciplined institutional dialogue and bounded public assistance | Contextually adapted | The function is identical; PVB already has an accepted primary discovery candidate. |
 | Internal research leakage | None | None | Matched | No research artifact, phase, gate, register, claim ID, or source workflow appears in the external manuscript or appendices. |
@@ -43,5 +43,4 @@ The result preserves the AllBank publication movement while replacing the instit
 
 ## Publication Decision
 
-Publication parity is complete for editorial comparison. The PVB Guide remains Version 0.9, is not frozen, and has not been typeset. Any further change should be assessed against both the AllBank master and the Deviation Register.
-
+Publication parity and final editorial refinement are complete. The PVB Guide remains Version 0.9, is not frozen, and has not been typeset. It is ready for separately authorized typesetting and an Executive Review Proof. Any further manuscript change should be assessed against both the AllBank master and the Deviation Register.

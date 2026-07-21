@@ -146,12 +146,12 @@ artifacts:
   meeting_leave_behind: "Governance Reviewed"
   executive_presentation_outline: "Governance Reviewed"
   executive_faq: "Governance Reviewed"
-  pvb_program_guide: "AllBank-Master Adaptation Complete — Editorial Comparison"
-  pvb_program_guide_appendices: "AllBank-Master Adaptation Complete — Editorial Comparison"
-  pvb_program_guide_parity: "Complete for Editorial Review"
+  pvb_program_guide: "Final Editorial Refinement Complete — Ready for Typesetting"
+  pvb_program_guide_appendices: "Annexes A–H Complete — AllBank Architecture Matched"
+  pvb_program_guide_parity: "Complete — Ready for Typesetting"
   proposal: "Not Authorized"
   editorial_mapping: "Not Authorized"
-  institution_edition: "PVB Program Guide Complete Draft — Editorial Review"
+  institution_edition: "PVB Program Guide Complete Draft — Ready for Typesetting"
   commercial_proposal: "Not Authorized"
   implementation_roadmap: "Not Authorized"
 gate:
@@ -161,9 +161,9 @@ gate:
   phase_3_gap_analysis: "Accepted at Gate 2"
   phase_4_modernization_program: "Accepted at Gate 3 — Canonical"
   phase_5_executive_submission_suite: "Governance refined — internal derivative source"
-  phase_6_pvb_program_guide: "AllBank-master adaptation complete — editorial comparison"
+  phase_6_pvb_program_guide: "Final editorial refinement complete — ready for typesetting"
   outcome_recommendation: "Review the institution-specific Program Guide as the primary external publication while preserving earlier phases as internal source material"
-  next_decision: "Compare the PVB edition directly with the AllBank master, approve bounded corrections, or pause"
+  next_decision: "Authorize typesetting and an Executive Review Proof, or pause"
 restrictions:
   - "Do not treat charter authority as proof of operational readiness."
   - "Do not treat public digital channels as evidence of production architecture or API suitability."
@@ -174,5 +174,5 @@ restrictions:
 agent_rule: "If sufficient evidence is unavailable, the research agent shall explicitly identify the gap rather than compensate with unsupported prose."
 publication:
   generated: false
-  generation_state: "Program Guide publication not authorized"
-notes: "Gate 3 accepted the Modernization Program as canonical. The complete Phase 6 Program Guide derives from that parent without changing PVB evidence, recommendations, Unknowns, doctrine, or authority. Publication remains a separate future decision."
+  generation_state: "Ready for separately authorized typesetting; no publication generated"
+notes: "Gate 3 accepted the Modernization Program as canonical. The complete Phase 6 Program Guide derives from that parent without changing PVB evidence, recommendations, Unknowns, doctrine, or authority. Final editorial refinement and eight-annex alignment are complete. Publication remains a separate future decision."

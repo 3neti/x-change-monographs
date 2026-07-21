@@ -1,4 +1,4 @@
-# Appendix A — Glossary
+# Annex G — Glossary
 
 These definitions apply to this Program and remain subordinate to the governing x-change and Government Depository grammar.
 
@@ -35,4 +35,3 @@ These definitions apply to this Program and remain subordinate to the governing 
 **Operating sovereignty** — PVB's continuing control over its banking authority, government and customer relationships, policies, infrastructure, data, credentials, production decisions, settlement relationships, and institutional audit trail.
 
 **Bounded public-assistance disbursement** — The primary discovery candidate: a public-assistance ceremony limited by defined authority, participant group, value, geography, duration, channel, or another approved boundary. It is not a production selection.
-

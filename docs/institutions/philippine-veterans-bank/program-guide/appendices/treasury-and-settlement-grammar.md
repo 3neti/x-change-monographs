@@ -1,6 +1,8 @@
-# Appendix D — Treasury Grammar
+# Annex E — Treasury and Settlement Grammar
 
 Treasury provides the operational financial-state grammar supporting a governed public-finance ceremony.
+
+### Canonical Progression
 
 ```text
 External Financial Event
@@ -22,6 +24,8 @@ Execution Coordinates the Approved Outcome
 Evidence, State Resolution, and Reconciliation
 ```
 
+### Governing Distinctions
+
 - A Funding Event records an external event; it does not manufacture funds or public authority.
 - Treasury represents operational state; it is not the bank account, public accounting record, or general ledger.
 - Settlement Resources remain subject to their actual custody, ownership, legal character, and institutional controls.
@@ -38,3 +42,13 @@ Commercial meaning belongs to the Facility. The Facility identifies why the acti
 
 Execution completes neither the institutional record nor PVB's responsibility by itself. Provider references, statuses, exceptions, and evidence must return to the operating record. Treasury state, Liens, accounting, participant communication, exception handling, and reconciliation must then be resolved according to approved procedures.
 
+```mermaid
+flowchart LR
+    Funding["Funding Event"] --> Treasury["Treasury"]
+    Treasury --> Lien["Lien"]
+    Lien --> Facility["Facility"]
+    Facility --> Envelope["Settlement Envelope"]
+    Envelope --> PayCode["Pay Code"]
+    PayCode --> Execution["Execution"]
+    Execution --> Evidence["Evidence and Reconciliation"]
+```

@@ -109,7 +109,7 @@ Completed under Phase 6 authority:
 
 - the complete Philippine Veterans Bank Executive Edition rebuilt from the AllBank publication master;
 - the canonical seven-question Program Guide architecture;
-- Appendices A–G covering glossary, governance, Commercial Waterfall, Treasury grammar, deployment, FAQ, and diagrams;
+- Annexes A–H following the AllBank publication journey: operating model, ceremonies, institution integration, governance, Treasury and settlement grammar, readiness, glossary, and application to PVB;
 - an institution-specific parity report;
 - an AllBank-to-PVB Deviation Register and Publication Parity Report;
 - explicit preservation of PVB's three-part institutional identity;
@@ -125,7 +125,7 @@ Not authorized:
 - solution architecture; or
 - implementation roadmap.
 
-Gate 1 accepted the Strategic Assessment for comparison. Gate 2 accepted the Gap Analysis for institutional design. Gate 3 accepted the Modernization Program as canonical and authorized derivative executive communication. The Phase 5 suite remains an internal derivative source. The Phase 6 PVB Executive Edition is ready for direct editorial comparison with the AllBank master. It remains Version 0.9 and is neither frozen nor typeset. Commercial work and implementation remain unauthorized.
+Gate 1 accepted the Strategic Assessment for comparison. Gate 2 accepted the Gap Analysis for institutional design. Gate 3 accepted the Modernization Program as canonical and authorized derivative executive communication. The Phase 5 suite remains an internal derivative source. The Phase 6 PVB Executive Edition has completed final editorial refinement and eight-annex alignment with the AllBank master. It remains Version 0.9, is ready for typesetting, and is neither frozen nor published. Commercial work and implementation remain unauthorized.
 
 ## Protected canonical source
 

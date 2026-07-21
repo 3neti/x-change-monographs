@@ -14,7 +14,7 @@ The AllBank Program Guide governs publication structure, voice, cadence, section
 
 **PVB adaptation:** `Government Depository Digital Banking Program Guide` / `Philippine Veterans Bank Edition` / `Executive Edition` / `Version 0.9 Editorial Draft`.
 
-**Reason:** PVB is the first institution-specific edition of the Government Depository Program Guide and remains under editorial comparison rather than publication freeze.
+**Reason:** PVB is the first institution-specific edition of the Government Depository Program Guide and remains at Version 0.9, ready for typesetting rather than publication freeze.
 
 **Support:** Government Depository Program Guide metadata; accepted PVB Modernization Program; current assignment.
 
@@ -84,7 +84,7 @@ The AllBank Program Guide governs publication structure, voice, cadence, section
 
 **AllBank source function:** The main body introduces the common execution contract and bank-specific driver.
 
-**PVB adaptation:** The main body uses `PVB-specific integration` and `institution-specific integration`; engineering realization remains in Appendix E.
+**PVB adaptation:** The main body uses `PVB-specific integration` and `institution-specific integration`; engineering realization remains in Annex C.
 
 **Reason:** The approved Government Depository editorial boundary keeps implementation terminology out of the Board-facing narrative while preserving the same publication function and technical boundary.
 
@@ -116,23 +116,23 @@ The AllBank Program Guide governs publication structure, voice, cadence, section
 
 **Classification:** Institution-specific addition.
 
-### DEV-010 — Appendix packaging
+### DEV-010 — Annex architecture alignment
 
 **AllBank source function:** Eight in-manuscript annexes cover operating model, ceremonies, driver architecture, governance, Treasury, readiness, glossary, and application to AllBank.
 
-**PVB adaptation:** Seven linked appendices cover Glossary, Governance, Commercial Waterfall, Treasury Grammar, Deployment Architecture, FAQ, and Program Diagrams. AllBank's operating-model, ceremony, integration, readiness, and application functions are preserved across those seven appendices.
+**PVB adaptation:** Eight linked annexes follow the same journey: Canonical Operating Model, Banking Ceremonies, Institution Integration Architecture, Governance Principles, Treasury and Settlement Grammar, Institutional Readiness Framework, Glossary, and Applying This Program Guide to PVB.
 
-**Reason:** The canonical banking Program Guide and the required PVB deliverables reserve Appendices A–G in this order. A separate eighth appendix would create an unexplained architectural deviation.
+**Reason:** Direct publication-family parity requires the PVB Executive Edition to follow the AllBank annex sequence. `Institution Integration Architecture` replaces `Bank Driver Architecture` as a contextual title so the executive publication preserves the Government Depository editorial boundary while retaining the same architectural function.
 
-**Support:** Canonical Banking Program Guide; Government Depository Program Guide appendix architecture; current assignment.
+**Support:** Approved AllBank Executive Edition; Government Depository Program Guide doctrine; current assignment.
 
-**Classification:** Publication exception.
+**Classification:** Matched structure with contextual substitution.
 
 ### DEV-011 — Internal research scaffolding removed from the publication
 
 **AllBank source function:** The external AllBank publication states institutional context directly and contains no claim identifiers or research workflow narration.
 
-**PVB adaptation:** The PVB manuscript and Appendices A–G state institution-specific context directly. Claim identifiers, research phases, gates, registers, and analytical lineage remain outside the external publication.
+**PVB adaptation:** The PVB manuscript and Annexes A–H state institution-specific context directly. Claim identifiers, research phases, gates, registers, and analytical lineage remain outside the external publication.
 
 **Reason:** Internal evidence governance must inform the publication without appearing as part of its external voice.
 
@@ -142,7 +142,7 @@ The AllBank Program Guide governs publication structure, voice, cadence, section
 
 ## Review Result
 
-No material structural or tonal deviation remains unexplained. Routine institution-name changes and sentence-level adaptations are intentionally excluded from this register.
+No material structural or tonal deviation remains unexplained. The main narrative and eight-annex journey now match the AllBank publication family; remaining differences are institutionally or doctrinally required. Routine institution-name changes and sentence-level adaptations are intentionally excluded from this register.
 
 ## PVB Fact Traceability Check
 

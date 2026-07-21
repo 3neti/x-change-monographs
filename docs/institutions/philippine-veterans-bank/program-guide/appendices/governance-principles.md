@@ -1,4 +1,4 @@
-# Appendix B — Program Governance
+# Annex D — Governance Principles
 
 Governance follows institutional responsibility. No provider approval substitutes for public authority or PVB approval.
 

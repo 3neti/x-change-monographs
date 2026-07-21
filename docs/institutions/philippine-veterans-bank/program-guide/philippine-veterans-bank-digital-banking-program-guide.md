@@ -265,14 +265,15 @@ The immediate invitation is narrower: confirm whether the institutional question
 
 The next step is a disciplined institutional dialogue: whether this Capability belongs within PVB's future, and whether one bounded public responsibility should test that judgment first.
 
-## Appendices
+## Annexes
 
-The appendices preserve the operating, governance, economic, Treasury, deployment, and readiness distinctions required to evaluate the Program. They provide institutional reference without becoming an implementation specification.
+The annexes preserve the operating, governance, and Treasury distinctions required to evaluate the Program. They provide institutional reference without becoming an implementation specification.
 
-- [Appendix A — Glossary](appendices/glossary.md)
-- [Appendix B — Program Governance](appendices/governance.md)
-- [Appendix C — Commercial Waterfall](appendices/commercial-waterfall.md)
-- [Appendix D — Treasury Grammar](appendices/treasury-grammar.md)
-- [Appendix E — Deployment Architecture](appendices/deployment-architecture.md)
-- [Appendix F — Frequently Asked Questions](appendices/faq.md)
-- [Appendix G — Program Diagrams](appendices/diagrams.md)
+- [Annex A — Canonical Operating Model](appendices/canonical-operating-model.md)
+- [Annex B — Banking Ceremonies](appendices/banking-ceremonies.md)
+- [Annex C — Institution Integration Architecture](appendices/institution-integration-architecture.md)
+- [Annex D — Governance Principles](appendices/governance-principles.md)
+- [Annex E — Treasury and Settlement Grammar](appendices/treasury-and-settlement-grammar.md)
+- [Annex F — Institutional Readiness Framework](appendices/institutional-readiness-framework.md)
+- [Annex G — Glossary](appendices/glossary.md)
+- [Annex H — Applying This Program Guide to PVB](appendices/applying-program-guide-to-pvb.md)

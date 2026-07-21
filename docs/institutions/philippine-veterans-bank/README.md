@@ -6,7 +6,7 @@ This repository is the first evidence-based application of the canonical [Instit
 
 **Phase:** 6 — Institution-Specific Program Guide
 
-**Status:** Philippine Veterans Bank Executive Edition rebuilt from the AllBank publication master — ready for editorial comparison
+**Status:** Philippine Veterans Bank Executive Edition final editorial refinement complete — ready for typesetting
 
 **Evidence cutoff:** 20 July 2026
 
@@ -41,7 +41,7 @@ The Government Depository Program Guide supplies the institutional research lens
 - [Philippine Veterans Bank Digital Banking Program Guide](program-guide/README.md)
 - [Program Guide manuscript](program-guide/philippine-veterans-bank-digital-banking-program-guide.md)
 - [Program Guide metadata](program-guide/metadata.yaml)
-- [Program Guide Appendices A–G](program-guide/appendices/)
+- [Program Guide Annexes A–H](program-guide/appendices/)
 - [AllBank-to-PVB Deviation Register](program-guide/ALLBANK_TO_PVB_DEVIATION_REGISTER.md)
 - [AllBank Publication Parity Report](program-guide/ALLBANK_PUBLICATION_PARITY_REPORT.md)
 

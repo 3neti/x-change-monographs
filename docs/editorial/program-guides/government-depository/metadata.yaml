@@ -48,8 +48,8 @@ publication:
   stylesheet: "resources/publication-assets/styles/program-guide.css"
   freeze_record: "not-created"
 institution_specific_work:
-  status: "first-institution-edition-allbank-master-adaptation-complete"
+  status: "first-institution-edition-final-editorial-refinement-complete"
   first_institution: "Philippine Veterans Bank"
   institution_guide: "docs/institutions/philippine-veterans-bank/program-guide/philippine-veterans-bank-digital-banking-program-guide.md"
-  current_gate: "direct editorial comparison with AllBank publication master"
+  current_gate: "ready for separately authorized typesetting and Executive Review Proof"
 notes: "Version 0.9 is the canonical editorial review baseline synchronized across Markdown, HTML, PDF, hashes, and publication report. It remains under Board and executive review and is not a publication freeze or Version 1.0 First Edition. Further changes require approved review comments. The Guide creates no institution-specific claim, pricing, legal conclusion, production authorization, or new x-change architecture."

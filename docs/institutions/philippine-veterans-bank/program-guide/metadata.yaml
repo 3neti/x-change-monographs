@@ -10,9 +10,9 @@ document_form: "Program Guide"
 document_type: "institution-specific-banking-program-guide"
 version: "0.9"
 status: "in-review"
-editorial_state: "complete-draft-allbank-master-adaptation"
+editorial_state: "final-editorial-refinement-complete"
 canonical_state: "editorial-review-baseline"
-publication_state: "not-generated"
+publication_state: "ready-for-typesetting"
 evidence_cutoff_date: "2026-07-20"
 audience:
   - "President and Chief Executive Officer"
@@ -43,9 +43,10 @@ allbank_publication_parity_report: "docs/institutions/philippine-veterans-bank/p
 editorial_scope:
   executive_summary: "Complete for review"
   sections_1_through_7: "Complete for review"
-  appendices_a_through_g: "Complete for review"
+  annexes_a_through_h: "Complete for review"
   allbank_master_adaptation: "Complete"
-  publication: "Not authorized by this assignment"
+  allbank_annex_architecture: "Matched"
+  publication: "Ready for separately authorized typesetting"
 program:
   primary_discovery_candidate: "Bounded public-assistance disbursement — subject to Management Validation"
   secondary_discovery_candidate: "Public collections — subject to Management Validation"
@@ -62,4 +63,4 @@ publication:
   generated: false
   pdf: null
   html: null
-notes: "Complete controlled adaptation of the AllBank Executive Edition. The external manuscript contains no research scaffolding or claim identifiers. PVB remains the protagonist; public-assistance disbursement remains a discovery candidate rather than a production selection. Editorial comparison is the next gate; the draft is not frozen or typeset."
+notes: "Complete controlled adaptation of the AllBank Executive Edition. The external manuscript contains no research scaffolding or claim identifiers. PVB remains the protagonist; public-assistance disbursement remains a discovery candidate rather than a production selection. Final editorial refinement and eight-annex alignment are complete. The draft is ready for separately authorized typesetting but is not frozen or published."
