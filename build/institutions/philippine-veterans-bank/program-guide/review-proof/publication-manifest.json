@@ -1,0 +1,258 @@
+{
+  "publication_family": "x-change Banking Program Guides",
+  "title": "Government Depository Digital Banking Program Guide",
+  "institution_edition": "Philippine Veterans Bank Edition",
+  "publication": "Executive Edition",
+  "status": "Executive Review Proof",
+  "version": "0.9",
+  "publication_date": "21 July 2026",
+  "canonical_sources": [
+    {
+      "file": "docs/institutions/philippine-veterans-bank/program-guide/philippine-veterans-bank-digital-banking-program-guide.md",
+      "sha256": "92189e91e3a00c3e28fe5725c7788fe202ad2a4dd996ae8b56ad666fd366755c"
+    },
+    {
+      "file": "docs/institutions/philippine-veterans-bank/program-guide/appendices/canonical-operating-model.md",
+      "sha256": "a23e0d50ccb33e1f4793716494bac59719bbca02dc9d52809a9c252293c7b975"
+    },
+    {
+      "file": "docs/institutions/philippine-veterans-bank/program-guide/appendices/banking-ceremonies.md",
+      "sha256": "739af084713ff5a9574870ea8e8e116ebb86762b52fe9cd761cccf98f9a6613d"
+    },
+    {
+      "file": "docs/institutions/philippine-veterans-bank/program-guide/appendices/institution-integration-architecture.md",
+      "sha256": "ad2a7193b3286fa4c7e0d35beabdb1e187d7e4437872a05a265a1acd2fc405f6"
+    },
+    {
+      "file": "docs/institutions/philippine-veterans-bank/program-guide/appendices/governance-principles.md",
+      "sha256": "98cb009e02f95b7427e515c5b0d987fa4fce5ae4bc4ab27c37e4288762308ecc"
+    },
+    {
+      "file": "docs/institutions/philippine-veterans-bank/program-guide/appendices/treasury-and-settlement-grammar.md",
+      "sha256": "9f4326c03c47f96a515f5ca778399b185866c71f90830f7306bbf91ff0bc8b0c"
+    },
+    {
+      "file": "docs/institutions/philippine-veterans-bank/program-guide/appendices/institutional-readiness-framework.md",
+      "sha256": "be2b9bd4bac76641fe004663ede4d51f0c925e7854faf190576cfed23b585d6f"
+    },
+    {
+      "file": "docs/institutions/philippine-veterans-bank/program-guide/appendices/glossary.md",
+      "sha256": "325f2ea817bdf712020d3adb24cd137384f21a4658b3c67af1ba283b8c87ea78"
+    },
+    {
+      "file": "docs/institutions/philippine-veterans-bank/program-guide/appendices/applying-program-guide-to-pvb.md",
+      "sha256": "6f6139012eb70de579762359475ecfee146f0c825d8559c1967b142aae183478"
+    }
+  ],
+  "canonical_corpus_sha256": "d3650c2be7ac11febb48fa259b5cdea12b03375725911cb89e65ec5d5f8cea9d",
+  "renderer": {
+    "engine": "WeasyPrint 66.0",
+    "publisher": "scripts/publish-pvb-program-guide.py",
+    "stylesheet": "resources/publication-assets/styles/program-guide.css",
+    "mermaid_figures": 7,
+    "source_files_unchanged": true
+  },
+  "html": {
+    "file": "philippine-veterans-bank-executive-edition-v0.9-review-proof.html",
+    "sha256": "e76c5b451f312e744d664c35058e8ac36da16e69affea6fc0f5bf550d467d4e0",
+    "bytes": 297538
+  },
+  "pdf": {
+    "file": "philippine-veterans-bank-executive-edition-v0.9-review-proof.pdf",
+    "sha256": "28da1c93ed1006c166fecdeeda55673798874ba1785a7690b267cbe0e7b91eaa",
+    "bytes": 11285007,
+    "physical_pages": 35,
+    "numbered_pages": 34,
+    "page_sizes_points": [
+      [
+        595.28,
+        841.89
+      ],
+      [
+        595.28,
+        841.89
+      ],
+      [
+        595.28,
+        841.89
+      ],
+      [
+        595.28,
+        841.89
+      ],
+      [
+        595.28,
+        841.89
+      ],
+      [
+        595.28,
+        841.89
+      ],
+      [
+        595.28,
+        841.89
+      ],
+      [
+        595.28,
+        841.89
+      ],
+      [
+        595.28,
+        841.89
+      ],
+      [
+        595.28,
+        841.89
+      ],
+      [
+        595.28,
+        841.89
+      ],
+      [
+        595.28,
+        841.89
+      ],
+      [
+        595.28,
+        841.89
+      ],
+      [
+        595.28,
+        841.89
+      ],
+      [
+        595.28,
+        841.89
+      ],
+      [
+        595.28,
+        841.89
+      ],
+      [
+        595.28,
+        841.89
+      ],
+      [
+        595.28,
+        841.89
+      ],
+      [
+        595.28,
+        841.89
+      ],
+      [
+        595.28,
+        841.89
+      ],
+      [
+        595.28,
+        841.89
+      ],
+      [
+        595.28,
+        841.89
+      ],
+      [
+        595.28,
+        841.89
+      ],
+      [
+        595.28,
+        841.89
+      ],
+      [
+        595.28,
+        841.89
+      ],
+      [
+        595.28,
+        841.89
+      ],
+      [
+        595.28,
+        841.89
+      ],
+      [
+        595.28,
+        841.89
+      ],
+      [
+        595.28,
+        841.89
+      ],
+      [
+        595.28,
+        841.89
+      ],
+      [
+        595.28,
+        841.89
+      ],
+      [
+        595.28,
+        841.89
+      ],
+      [
+        595.28,
+        841.89
+      ],
+      [
+        595.28,
+        841.89
+      ],
+      [
+        595.28,
+        841.89
+      ]
+    ],
+    "bookmarks": 29,
+    "internal_link_annotations": 119,
+    "external_link_targets": [],
+    "fonts_embedded": true,
+    "font_names": [
+      "/ANAMPP+Avenir-Next",
+      "/BULDDG+Baskerville",
+      "/HHHHIV+Arial",
+      "/HLTZYT+Andale-Mono",
+      "/LKFSVD+Menlo",
+      "/LVMOGK+Charter-Italic",
+      "/NGLMWS+Charter-Bold",
+      "/RATJMB+Charter",
+      "/ZCESIW+Helvetica",
+      "/ZEROIV+Avenir-Next-Semi-Bold",
+      "/ZNIPMX+Avenir-Next-Medium"
+    ],
+    "tagged_pdf": true,
+    "metadata": {
+      "/Producer": "WeasyPrint 66.0",
+      "/Title": "Government Depository Digital Banking Program Guide — Philippine Veterans Bank Edition — Executive Review Proof",
+      "/Author": "x-change",
+      "/Subject": "Philippine Veterans Bank Executive Edition, Version 0.9 Executive Review Proof",
+      "/viewport": "width=device-width, initial-scale=1",
+      "/documenttype": "Banking Program Guide",
+      "/institutionedition": "Philippine Veterans Bank Edition",
+      "/edition": "Executive Edition",
+      "/publicationstatus": "Executive Review Proof",
+      "/version": "0.9",
+      "/canonicalsource": "docs/institutions/philippine-veterans-bank/program-guide/philippine-veterans-bank-digital-banking-program-guide.md",
+      "/canonicalsourcesha256": "92189e91e3a00c3e28fe5725c7788fe202ad2a4dd996ae8b56ad666fd366755c",
+      "/canonicalcorpussha256": "d3650c2be7ac11febb48fa259b5cdea12b03375725911cb89e65ec5d5f8cea9d"
+    }
+  },
+  "cover_preview": {
+    "file": "philippine-veterans-bank-executive-edition-v0.9-review-proof-cover.png",
+    "sha256": "32f261dfb68cf48d93b3431d4094d5184158e023990284c925091df0e88b840c",
+    "bytes": 62581
+  },
+  "publication_review_report": "PUBLICATION_REVIEW_REPORT.md",
+  "quality_assurance": {
+    "page_by_page_visual_inspection": true,
+    "a4_geometry": true,
+    "fonts_embedded": true,
+    "bookmarks_present": true,
+    "internal_links_valid": true,
+    "external_links": 0,
+    "characters_outside_page_bounds": 0,
+    "canonical_sources_unchanged": true
+  }
+}

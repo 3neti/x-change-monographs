@@ -12,7 +12,7 @@ version: "0.9"
 status: "in-review"
 editorial_state: "final-editorial-refinement-complete"
 canonical_state: "editorial-review-baseline"
-publication_state: "ready-for-typesetting"
+publication_state: "executive-review-proof-generated"
 evidence_cutoff_date: "2026-07-20"
 audience:
   - "President and Chief Executive Officer"
@@ -46,7 +46,7 @@ editorial_scope:
   annexes_a_through_h: "Complete for review"
   allbank_master_adaptation: "Complete"
   allbank_annex_architecture: "Matched"
-  publication: "Ready for separately authorized typesetting"
+  publication: "Version 0.9 Executive Review Proof generated"
 program:
   primary_discovery_candidate: "Bounded public-assistance disbursement — subject to Management Validation"
   secondary_discovery_candidate: "Public collections — subject to Management Validation"
@@ -60,7 +60,17 @@ boundaries:
   commercial_authority: false
   production_authority: false
 publication:
-  generated: false
-  pdf: null
-  html: null
-notes: "Complete controlled adaptation of the AllBank Executive Edition. The external manuscript contains no research scaffolding or claim identifiers. PVB remains the protagonist; public-assistance disbursement remains a discovery candidate rather than a production selection. Final editorial refinement and eight-annex alignment are complete. The draft is ready for separately authorized typesetting but is not frozen or published."
+  generated: true
+  proof_status: "Version 0.9 Executive Review Proof"
+  generated_at: "2026-07-21"
+  physical_pages: 35
+  numbered_pages: 34
+  pdf:
+    file: "build/institutions/philippine-veterans-bank/program-guide/review-proof/philippine-veterans-bank-executive-edition-v0.9-review-proof.pdf"
+    sha256: "28da1c93ed1006c166fecdeeda55673798874ba1785a7690b267cbe0e7b91eaa"
+  html:
+    file: "build/institutions/philippine-veterans-bank/program-guide/review-proof/philippine-veterans-bank-executive-edition-v0.9-review-proof.html"
+    sha256: "e76c5b451f312e744d664c35058e8ac36da16e69affea6fc0f5bf550d467d4e0"
+  manifest: "build/institutions/philippine-veterans-bank/program-guide/review-proof/publication-manifest.json"
+  review_report: "build/institutions/philippine-veterans-bank/program-guide/review-proof/PUBLICATION_REVIEW_REPORT.md"
+notes: "Complete controlled adaptation of the AllBank Executive Edition. The external manuscript contains no research scaffolding or claim identifiers. PVB remains the protagonist; public-assistance disbursement remains a discovery candidate rather than a production selection. Final editorial refinement and eight-annex alignment are complete. The Version 0.9 Executive Review Proof has been generated for review; it is not frozen or published."

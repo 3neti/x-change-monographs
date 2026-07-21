@@ -1,0 +1,5 @@
+e76c5b451f312e744d664c35058e8ac36da16e69affea6fc0f5bf550d467d4e0  philippine-veterans-bank-executive-edition-v0.9-review-proof.html
+28da1c93ed1006c166fecdeeda55673798874ba1785a7690b267cbe0e7b91eaa  philippine-veterans-bank-executive-edition-v0.9-review-proof.pdf
+32f261dfb68cf48d93b3431d4094d5184158e023990284c925091df0e88b840c  philippine-veterans-bank-executive-edition-v0.9-review-proof-cover.png
+dcf8479f18e259e673a019a3260d56b45602143e83ac98e5be7cb05cd6f331d1  PUBLICATION_REVIEW_REPORT.md
+4efdc17ca223fe2469a55510676f330e6032d61b6309bba246512fb429409464  publication-manifest.json
