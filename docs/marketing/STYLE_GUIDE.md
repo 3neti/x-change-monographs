@@ -26,7 +26,7 @@ Avoid:
 
 1. **Human headline** — the practical problem or possibility.
 2. **Primary message** — the one-sentence Pay Code definition.
-3. **Visual explanation** — Authorize, Share, Receive.
+3. **Visual explanation** — Generate, Share, Claim.
 4. **Boundary caption** — the Pay Code carries the instruction, not the money.
 5. **Invitation** — a next step into a demonstration or deeper publication.
 

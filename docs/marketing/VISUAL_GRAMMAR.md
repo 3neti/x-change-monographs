@@ -22,20 +22,22 @@ Target approximately 80% illustration and 20% text. Use one visual argument per 
 ## Canonical sequence
 
 ```text
-Authorized Outcome
-        ↓
-Pay Code Issued
-        ↓
-Pay Code Shared
-        ↓
-Recipient Presents
-        ↓
-Conditions Checked
-        ↓
-Participating Provider Completes the Transaction
+Generate
+    ↓
+Share
+    ↓
+Claim
 ```
 
-The sequence may be compressed to three visible moments—Authorize, Share, Receive—but the omitted governance must not be contradicted by the image.
+This is the public sequence. It describes the human experience.
+
+The richer lifecycle remains nested beneath it:
+
+- **Generate** contains the authorized instruction and responsible institution.
+- **Share** carries the credential from sender to recipient.
+- **Claim** contains recipient choice, presentation, validation, and completion through a participating financial provider.
+
+Authorization and Recipient Choice are important, but they are not additional first-level steps. The artwork should make the experience feel simple without contradicting the governance underneath it.
 
 ## Visual primitives
 
@@ -43,7 +45,7 @@ The sequence may be compressed to three visible moments—Authorize, Share, Rece
 - **Institution:** a neutral governed-service frame, counter, seal, or structural gateway—not a specific bank façade.
 - **Instruction:** a subtle line, document, or path behind the Pay Code.
 - **Pay Code:** a distinct credential tile using the canonical double-bar motif where appropriate: `|| PAY CODE ||`.
-- **Choice:** a small set of clearly supported destinations, never an infinite network.
+- **Choice:** a small set of clearly supported destinations discovered within Claim, never a separate first-level step or an infinite network.
 - **Conditions:** a restrained checkpoint, verified mark, or ordered gate.
 - **Completion:** a calm confirmation at the recipient; avoid exploding coins, celebratory cash, or speculative wealth imagery.
 - **Evidence:** a quiet receipt or trace line when accountability matters.
@@ -53,7 +55,7 @@ The sequence may be compressed to three visible moments—Authorize, Share, Rece
 Arrows carry defined meaning:
 
 - solid directional arrow — progression through a governed journey;
-- branching arrow — recipient choice among supported options;
+- branching arrow within Claim — recipient choice among supported options;
 - dotted trace — evidence, status, or reconciliation;
 - enclosing line — institutional responsibility or governed boundary.
 

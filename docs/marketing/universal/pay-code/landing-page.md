@@ -5,17 +5,17 @@ series: universal_pay_code
 title: Pay Code
 audience: first_time_reader
 scope: universal
-version: "0.1"
+version: "0.2"
 status: draft
 reading_time: 90_seconds
 message_blocks:
   - MSG-001
-  - MSG-003
+  - MSG-002
   - MSG-004
-  - MSG-005
-  - MSG-008
+  - MSG-006
   - CTA-001
   - CTA-002
+  - CTA-003
 illustration_sets:
   - VIS-001
   - VIS-002
@@ -24,79 +24,67 @@ illustration_sets:
 
 # Send money without asking where they bank.
 
-A Pay Code lets someone receive money without requiring the sender to know their bank account, e-wallet, or financial provider.
+**Send a Pay Code. The recipient chooses where to receive.**
 
-**Primary action:** See how a Pay Code works.
-
-**Secondary action:** Explore an institutional use case.
-
-**Hero illustration:** `VIS-001 Core Pay Code`
-
-**Hero alt text:** A sender authorizes an outcome, a responsible institution issues a Pay Code, the recipient receives and presents it through an available supported channel, and a participating financial provider completes the approved transaction.
-
-## Start with the person, not the destination
-
-Today, sending money often begins by asking where the recipient banks or which wallet they use. A Pay Code separates the authorized instruction from that destination.
-
-The sender defines the outcome and shares the credential. The recipient presents it through a supported channel, the required conditions are checked, and a participating financial provider completes the movement of funds.
-
-**Illustration:** `ILL-001 Unknown Recipient Destination`
-
-## Three steps
-
-### 1. Authorize
-
-The sender or responsible institution defines the amount, recipient, purpose, and conditions.
-
-**Illustration:** `ILL-002 Generate Pay Code`
-
-### 2. Share
-
-The authorized instruction is represented by a Pay Code that can be communicated to the recipient.
-
-**Illustration:** `ILL-003 Share Pay Code`
-
-### 3. Receive
-
-The recipient presents the Pay Code through an available supported journey. Conditions are checked, and a participating financial provider completes the approved transaction.
-
-**Illustrations:** `ILL-005 Recipient Choice` and `ILL-004 Claim Money`
-
-## The important distinction
-
-> The Pay Code carries the instruction—not the money.
-
-A Pay Code is a portable credential. It is not money, a deposit, stored value, a wallet balance, or the financial service itself. The participating institutions retain their authority, controls, financial relationships, and responsibility for completion.
-
-**Illustration:** `ILL-006 Participating Institutions`
-
-## One idea, many possible applications
-
-The operating idea may be examined across payroll, government benefits, insurance claims, merchant refunds, remittance, and emergency assistance.
-
-**Illustration set:** `VIS-003 Everyday Uses`, followed by `VIS-004 Public Purpose` when appropriate.
-
-These examples illustrate possible applications. Availability, design, and completion depend on the responsible institution, supported channels, participating providers, and applicable conditions.
-
-## Continue the conversation
-
-### For a first look
+No bank account, e-wallet, or provider details needed upfront.
 
 **See how a Pay Code works.**
 
-<!-- Link to an approved demonstration or short visual explainer. -->
+**Hero illustration:** `VIS-001 Core Pay Code`
 
-### For institutional context
+**Hero alt text:** A Pay Code is generated, shared with the recipient, and claimed through a supported channel where the recipient chooses an available way to receive.
+
+## What is a Pay Code?
+
+A simple way to send without asking where the recipient banks or which e-wallet they use.
+
+**Illustration:** `ILL-001 Unknown Recipient Destination`
+
+## How does it work?
+
+### Generate.
+
+Create the Pay Code.
+
+**Illustration:** `ILL-002 Generate Pay Code`
+
+### Share.
+
+Send it to the recipient.
+
+**Illustration:** `ILL-003 Share Pay Code`
+
+### Claim.
+
+The recipient chooses an available way to receive.
+
+**Illustration:** `ILL-004 Claim Money`, with `ILL-005 Recipient Choice` nested inside the scene
+
+## The code carries the instruction.
+
+Participating financial providers move the money.
+
+**Illustration:** `ILL-006 Participating Institutions`
+
+## Where can it be used?
+
+Payroll. Benefits. Claims. Refunds.
+
+Remittance. Assistance. Loan proceeds. Incentives.
+
+**Illustration sets:** `VIS-003 Everyday Uses` and `VIS-004 Public Purpose`
+
+## Curious?
+
+**See how a Pay Code works.**
 
 **Explore an institutional use case.**
 
-<!-- Link to the relevant Program Guide or Executive Reading Note. -->
-
-### For a specific workflow
-
 **Bring one payment or disbursement workflow.**
 
-Invite a disciplined discovery conversation without presuming adoption or implementation.
+> Money should adapt to people. Not the other way around.
+
+<!-- Link the calls to action only to approved demonstrations, Program Guides, or discovery destinations. -->
 
 ## Renderer notes — not publication copy
 

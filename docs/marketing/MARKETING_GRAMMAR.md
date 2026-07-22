@@ -26,25 +26,25 @@ The recipient's ability to use an available supported destination without requir
 
 ### MSG-001 — One-sentence definition
 
-> A Pay Code lets someone receive money without requiring the sender to know their bank account, e-wallet, or financial provider.
+> Send a Pay Code. The recipient chooses where to receive.
 
-### MSG-002 — Precise definition
+### MSG-002 — Supporting line
 
-> A Pay Code is a portable credential for an authorized financial instruction. It does not hold money; it allows the instruction to be presented and completed through a supported, governed journey.
+> No bank account, e-wallet, or provider details needed upfront.
 
 ### MSG-003 — 30-second explanation
 
-> Today, sending money often begins by asking where the recipient banks or which wallet they use. A Pay Code separates the instruction from that destination. The sender authorizes the outcome and shares the code. The recipient presents it through a supported channel, the required conditions are checked, and a participating financial provider completes the movement of funds.
+> Generate a Pay Code. Share it. The recipient claims it through a supported channel and chooses where to receive.
 
 ### MSG-004 — Three-step explanation
 
-1. **Authorize** — The sender or responsible institution defines the amount, recipient, purpose, and conditions.
-2. **Share** — The authorized instruction is represented by a Pay Code that can be communicated to the recipient.
-3. **Receive** — The recipient presents the Pay Code through a supported journey, and the participating financial provider completes the approved transaction.
+1. **Generate** — Create a Pay Code for the payment.
+2. **Share** — Send it to the recipient.
+3. **Claim** — The recipient presents it and chooses an available way to receive.
 
 ### MSG-005 — Elevator pitch
 
-> Pay Code gives an authorized financial instruction a portable credential. Instead of requiring the sender to know the recipient's account or provider first, the instruction can be shared and completed through a supported destination. The recipient sees a simpler journey; participating institutions retain the authority, controls, settlement relationships, and evidence behind it.
+> A Pay Code gives a payment instruction a portable credential. The sender shares the code. The recipient claims it through a supported channel—without the sender needing their account or provider details upfront.
 
 ### MSG-006 — Doctrine anchor
 
@@ -64,8 +64,8 @@ The recipient's ability to use an available supported destination without requir
 | --- | --- | --- |
 | HDL-001 | Send money without asking where they bank. | Flyer, conference sheet |
 | HDL-002 | The recipient chooses. | Supporting panel, social card |
-| HDL-003 | One instruction. A supported way to receive. | Brochure, landing page |
-| HDL-004 | Give the instruction a portable credential. | Executive or institutional audience |
+| HDL-003 | Generate. Share. Claim. | Brochure, landing page |
+| HDL-004 | One code. Their choice. | Executive or institutional audience |
 | HDL-005 | Money should adapt to people. | Brand-led closing panel |
 
 Headlines must not be expanded into claims of universal provider access, instant settlement, guaranteed completion, or freedom from institutional controls.
@@ -74,12 +74,12 @@ Headlines must not be expanded into claims of universal provider access, instant
 
 | ID | Caption |
 | --- | --- |
-| CAP-001 | The sender authorizes the outcome. |
+| CAP-001 | Generate a Pay Code. |
 | CAP-002 | The Pay Code carries the instruction—not the money. |
-| CAP-003 | The recipient presents it through a supported channel. |
-| CAP-004 | Conditions are checked before completion. |
-| CAP-005 | Participating financial providers move the funds. |
-| CAP-006 | The sender does not need the recipient's destination in advance. |
+| CAP-003 | Share it with the recipient. |
+| CAP-004 | Claim it through a supported channel. |
+| CAP-005 | The recipient chooses an available way to receive. |
+| CAP-006 | No account details needed upfront. |
 
 ## Call-to-action library
 
@@ -95,16 +95,16 @@ Calls to action invite observation and examination. They must not presume adopti
 
 ## Representative-use language
 
-Approved universal examples include payroll, government benefits, insurance claims, merchant refunds, remittance, and emergency assistance. These are possible applications of the operating grammar, not claims of current deployment, provider availability, or regulatory approval.
+Approved universal examples include payroll, government benefits, insurance claims, merchant refunds, remittance, emergency assistance, loan proceeds, and incentives. These are possible applications of the operating grammar, not claims of current deployment, provider availability, or regulatory approval.
 
 ## Compression rule
 
 When space is constrained, preserve content in this order:
 
 1. `MSG-001` primary message;
-2. the three-step visual sequence;
-3. `CAP-002` credential boundary;
+2. `MSG-002` supporting line;
+3. the Generate → Share → Claim visual sequence;
 4. one call to action; and
-5. representative uses.
+5. the credential boundary in metadata or restrained supporting copy.
 
 Never remove the distinction between credential and money merely to make a layout shorter.

@@ -11,6 +11,14 @@ The reader should leave with four answers:
 3. **How does it work?** An instruction is authorized, represented by a Pay Code, presented through a supported journey, validated, and completed through participating financial infrastructure.
 4. **Why does it matter?** The recipient can use a supported destination without forcing the sender to design the transaction around that destination in advance.
 
+The public story is deliberately simpler than the operating lifecycle:
+
+```text
+Generate → Share → Claim
+```
+
+Generate contains authorization. Claim contains recipient choice, validation, and settlement. Those concepts remain governed without becoming additional first-level marketing steps.
+
 ## Publication-family boundary
 
 ```text
@@ -58,6 +66,8 @@ No manually edited render becomes canonical.
 ### Source conventions
 
 - YAML front matter identifies the publication, version, status, governed message blocks, and illustration sets.
+- Machine-readable enum values use lowercase `snake_case`; reader-facing labels retain natural capitalization.
+- Versions and milestone numbers are quoted strings.
 - The Markdown body contains public copy in reading order.
 - Labels such as `Illustration`, `Illustration sequence`, and `Alt text` are production directives. A renderer replaces them with the governed asset and accessible description rather than printing the labels as body copy.
 - Sections whose headings end in `— not publication copy` contain renderer or composition guidance and must be excluded from recipient-facing output.

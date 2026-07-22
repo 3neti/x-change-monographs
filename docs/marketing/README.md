@@ -23,8 +23,10 @@ Marketing earns attention. It explains one idea quickly, creates curiosity, and 
 
 ## Canonical message
 
-> A Pay Code lets someone receive money without requiring the sender to know their bank account, e-wallet, or financial provider.
+> Send a Pay Code. The recipient chooses where to receive.
 
-This message is always subordinate to the canonical operating boundary: the Pay Code represents an authorized instruction, does not hold money, and is completed only through supported, governed channels and participating financial providers.
+Supporting line: **No bank account, e-wallet, or provider details needed upfront.**
+
+This public message is subordinate to the canonical operating boundary: the Pay Code represents an authorized instruction, does not hold money, and is completed only through supported, governed channels and participating financial providers.
 
 Markdown and YAML remain canonical. Rendered PDF, HTML, SVG, presentation, web, print, and social assets belong under `build/` and do not replace these sources.

@@ -2,11 +2,11 @@
 document_type: marketing_brochure
 publication_family: marketing
 series: universal_pay_code
-title: A Simple Introduction to Pay Code
+title: Pay Code
 audience: first_time_reader
 scope: universal
 format_intent: tri_fold
-version: "0.1"
+version: "0.2"
 status: draft
 reading_time: 60_seconds
 message_blocks:
@@ -14,93 +14,71 @@ message_blocks:
   - MSG-002
   - MSG-004
   - MSG-006
-  - MSG-008
   - CTA-002
 illustration_sets:
   - VIS-001
   - VIS-003
 ---
 
-# A Simple Introduction to Pay Code
+# Pay Code
 
 ## Panel 1 — Front cover
 
 ### Send money without asking where they bank.
 
-> A Pay Code lets someone receive money without requiring the sender to know their bank account, e-wallet, or financial provider.
+> **Send a Pay Code. The recipient chooses where to receive.**
 
 **Primary illustration:** `ILL-001 Unknown Recipient Destination`
 
 **Alt text:** A sender knows the intended recipient and outcome but does not know which bank, e-wallet, or financial provider the recipient uses.
 
-## Panel 2 — The familiar problem
+## Panel 2 — No account details?
 
-Sending money often starts with questions:
+Which bank?
 
-Which bank? Which wallet? Which account number?
+Which wallet?
 
-Those details force the sender to design the transaction around the recipient's financial provider before the instruction can begin.
+Which account number?
+
+**You do not need those details upfront.**
 
 **Illustration:** `ILL-001 Unknown Recipient Destination`
 
-## Panel 3 — What a Pay Code changes
+## Panel 3 — Generate.
 
-A Pay Code gives an authorized financial instruction a portable credential.
+Create the Pay Code.
 
-The sender can communicate the instruction without making the Pay Code a wallet, account, or container of money.
+**Illustration:** `ILL-002 Generate Pay Code`
 
-> **The financial service is the product. The Pay Code is the credential.**
+## Panel 4 — Share.
 
-**Illustrations:** `ILL-002 Generate Pay Code` and `ILL-003 Share Pay Code`
+Send it to the recipient.
 
-## Panel 4 — How it works
+**Illustration:** `ILL-003 Share Pay Code`
 
-### Authorize
+## Panel 5 — Claim.
 
-The sender or responsible institution defines the amount, recipient, purpose, and conditions.
+The recipient chooses an available way to receive.
 
-### Share
+**Illustration:** `ILL-004 Claim Money`, with `ILL-005 Recipient Choice` nested inside the scene
 
-The instruction is represented by a Pay Code and communicated to the recipient.
+## Panel 6 — Everyday moments
 
-### Receive
+Payroll. Benefits. Claims. Refunds.
 
-The recipient presents it through a supported journey. Conditions are checked, and a participating financial provider completes the approved transaction.
+Remittance. Assistance. Loan proceeds. Incentives.
 
-**Illustration sequence:** `ILL-002 → ILL-003 → ILL-005 → ILL-004`
-
-## Panel 5 — Where the idea can apply
-
-The same operating idea may be examined for:
-
-- payroll;
-- government benefits;
-- insurance claims;
-- merchant refunds;
-- remittance; and
-- emergency assistance.
-
-These are representative applications, not claims of current deployment or universal availability.
-
-**Illustration set:** `VIS-003 Everyday Uses`, with `ILL-008` or `ILL-012` substituted when public-purpose examples are emphasized.
-
-## Panel 6 — Back cover
-
-### The recipient chooses.
-
-Within the available supported journey, the recipient can use an appropriate destination without requiring the sender to know that destination in advance.
+**Illustration sets:** `VIS-003 Everyday Uses` and `VIS-004 Public Purpose`
 
 > Money should adapt to people. Not the other way around.
 
 **Explore an institutional use case.**
 
-### Essential boundary
-
-A Pay Code does not hold money and is not a deposit, wallet balance, stored value, or promise of universal acceptance. Completion remains subject to the responsible institution, supported channels, participating providers, and applicable conditions.
+<!-- These are representative applications, not claims of current deployment or universal availability. -->
 
 ## Production notes — not publication copy
 
 - Preserve the six-panel sequence when adapting the fold direction.
-- Give the front cover and three-step panel the greatest visual weight.
-- Keep the essential boundary readable but subordinate to the primary message.
+- Give each panel one idea and one dominant illustration.
+- Keep operational and legal boundaries in metadata and visual semantics rather than adding a disclaimer panel.
 - Do not introduce an application screenshot, provider logo wall, price, live-availability claim, or sign-up instruction.

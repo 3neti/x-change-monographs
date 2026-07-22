@@ -1,4 +1,4 @@
-publication_family: "Marketing"
+publication_family: "marketing"
 series:
   id: "universal_pay_code"
   title: "Universal Pay Code"
@@ -12,11 +12,25 @@ series:
     - "Electronic Money Issuers"
     - "FinTechs"
     - "Payment Providers"
-version: "0.1"
-status: "Draft"
-editorial_state: "Architecture Baseline"
+milestone: "1.1"
+version: "0.2"
+status: "draft"
+editorial_state: "marketing_compression_complete"
 canonical_format: "Markdown"
-primary_message: "A Pay Code lets someone receive money without requiring the sender to know their bank account, e-wallet, or financial provider."
+enum_convention: "lowercase_snake_case"
+primary_message: "Send a Pay Code. The recipient chooses where to receive."
+supporting_message: "No bank account, e-wallet, or provider details needed upfront."
+public_sequence:
+  - "generate"
+  - "share"
+  - "claim"
+nested_concepts:
+  generate:
+    - "authorization"
+  claim:
+    - "recipient_choice"
+    - "validation"
+    - "settlement"
 canonical_boundary: "A Pay Code is a portable credential for an authorized instruction. It does not hold money and completion remains subject to supported, governed institutional and provider arrangements."
 sources:
   architecture: "docs/marketing/MARKETING_ARCHITECTURE.md"
@@ -27,24 +41,24 @@ sources:
 publications:
   flyer:
     source: "docs/marketing/universal/pay-code/pay-code-flyer.md"
-    status: "Draft"
+    status: "draft"
     illustration_set: "VIS-001"
   brochure:
     source: "docs/marketing/universal/pay-code/pay-code-brochure.md"
-    status: "Draft"
+    status: "draft"
     illustration_sets:
       - "VIS-001"
       - "VIS-003"
   landing_page:
     source: "docs/marketing/universal/pay-code/landing-page.md"
-    status: "Draft"
+    status: "draft"
     illustration_sets:
       - "VIS-001"
       - "VIS-002"
       - "VIS-003"
   conference_sheet:
     source: "docs/marketing/universal/pay-code/conference-sheet.md"
-    status: "Draft"
+    status: "draft"
     illustration_set: "VIS-001"
 render_targets:
   - "PDF"
@@ -54,7 +68,7 @@ render_targets:
   - "presentation"
   - "website"
   - "social media"
-artwork_status: "Conceptual"
+artwork_status: "conceptual"
 institution_specific_branding: false
 render_policy:
   illustration_directives: "Replace registered illustration and alt-text labels with governed accessible assets."

@@ -9,6 +9,7 @@ Develop one canonical marketing knowledge base that can produce concise, consist
 | Milestone | Scope | Status | Exit condition |
 | --- | --- | --- | --- |
 | 1 — Architecture Baseline | Family architecture, messaging grammar, visual grammar, illustration taxonomy, style guide, universal flyer, brochure, landing page, and conference sheet | Complete | Canonical Markdown and YAML exist; terminology and links validate |
+| 1.1 — Marketing Compression | Generate → Share → Claim public sequence, compressed collateral, nested recipient choice, added Loan Proceeds and Incentives, normalized metadata | Complete | A first-time reader can understand the core idea from the headline and visual sequence |
 | 2 — Illustration Prototypes | Draft vector studies for ILL-001 through ILL-006 and one representative application set | Planned | Visual semantics approved before polish |
 | 3 — First Renderers | Reusable HTML/SVG composition system and print-ready flyer and brochure pipeline | Planned | One command produces review-proof assets without rewriting source |
 | 4 — Review and Message Lock | First-reader comprehension review, doctrine review, accessibility review, and approved copy lock | Planned | Primary message understood within one minute; boundaries remain accurate |
@@ -19,7 +20,7 @@ Develop one canonical marketing knowledge base that can produce concise, consist
 ## Priority sequence
 
 1. Complete the universal Pay Code architecture and source drafts.
-2. Test the core visual sequence: ILL-001 → ILL-002 → ILL-003 → ILL-005 → ILL-004.
+2. Test the core visual sequence: ILL-002 → ILL-003 → ILL-004, with Recipient Choice nested inside Claim.
 3. Validate the message with first-time readers before polishing artwork.
 4. Build one reusable renderer rather than separate one-off designs.
 5. Extend only after the core definition and visual story are stable.
