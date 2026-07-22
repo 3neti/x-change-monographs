@@ -12,10 +12,10 @@ series:
     - "Electronic Money Issuers"
     - "FinTechs"
     - "Payment Providers"
-milestone: "1.1"
-version: "0.2"
+milestone: "2"
+version: "0.3"
 status: "draft"
-editorial_state: "marketing_compression_complete"
+editorial_state: "visual_storyboarding_complete"
 canonical_format: "Markdown"
 enum_convention: "lowercase_snake_case"
 primary_message: "Send a Pay Code. The recipient chooses where to receive."
@@ -37,6 +37,9 @@ sources:
   grammar: "docs/marketing/MARKETING_GRAMMAR.md"
   visual_grammar: "docs/marketing/VISUAL_GRAMMAR.md"
   illustration_library: "docs/marketing/ILLUSTRATION_LIBRARY.md"
+  illustration_concepts: "docs/marketing/ILLUSTRATION_CONCEPT_SPECIFICATIONS.md"
+  visual_storyboards: "docs/marketing/VISUAL_STORYBOARDS.md"
+  layout_wireframes: "docs/marketing/LAYOUT_WIREFRAMES.md"
   style_guide: "docs/marketing/STYLE_GUIDE.md"
 publications:
   flyer:
@@ -68,7 +71,7 @@ render_targets:
   - "presentation"
   - "website"
   - "social media"
-artwork_status: "conceptual"
+artwork_status: "conceptual_storyboards"
 institution_specific_branding: false
 render_policy:
   illustration_directives: "Replace registered illustration and alt-text labels with governed accessible assets."

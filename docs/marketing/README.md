@@ -10,6 +10,9 @@ Marketing earns attention. It explains one idea quickly, creates curiosity, and 
 - [Marketing Grammar](MARKETING_GRAMMAR.md)
 - [Visual Grammar](VISUAL_GRAMMAR.md)
 - [Illustration Library](ILLUSTRATION_LIBRARY.md)
+- [Illustration Concept Specifications](ILLUSTRATION_CONCEPT_SPECIFICATIONS.md)
+- [Visual Storyboards](VISUAL_STORYBOARDS.md)
+- [Layout Wireframes](LAYOUT_WIREFRAMES.md)
 - [Style Guide](STYLE_GUIDE.md)
 - [Publication Roadmap](PUBLICATION_ROADMAP.md)
 

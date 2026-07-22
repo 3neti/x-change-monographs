@@ -52,6 +52,8 @@ Approved editorial doctrine
           ↓
 Marketing Grammar + Visual Grammar
           ↓
+Illustration Concepts + Storyboards + Wireframes
+          ↓
 Canonical Markdown publication
           ↓
 Format-specific renderer
@@ -60,6 +62,8 @@ PDF · HTML · SVG · print · web · presentation · social
 ```
 
 Markdown owns message, sequence, illustration references, accessibility descriptions, and calls to action. YAML owns series metadata and render intent. Renderers own dimensions, typography, responsive behavior, imposition, and format-specific production details.
+
+Illustration concept specifications own semantic anatomy and comprehension tests. Visual storyboards own frame order and illustration relationships. Layout wireframes own composition hierarchy across formats. None of these sources constitutes final artwork.
 
 No manually edited render becomes canonical.
 

@@ -58,7 +58,7 @@ Send it to the recipient.
 
 The recipient chooses an available way to receive.
 
-**Illustration:** `ILL-004 Claim Money`, with `ILL-005 Recipient Choice` nested inside the scene
+**Illustration:** `ILL-004 Claim`, with `ILL-005 Recipient Choice` nested inside the scene
 
 ## The code carries the instruction.
 

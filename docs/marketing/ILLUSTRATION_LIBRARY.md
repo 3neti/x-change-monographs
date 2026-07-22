@@ -4,16 +4,16 @@
 
 The Illustration Library registers reusable conceptual artwork before final graphics are produced. Publications reference illustration IDs so the same visual idea can be refined once and reused across formats.
 
-All illustrations are **Conceptual** in this milestone. No graphic asset is yet approved or frozen.
+All illustrations remain **Conceptual**. ILL-001 through ILL-006 now have governed semantic studies in the [Illustration Concept Specifications](ILLUSTRATION_CONCEPT_SPECIFICATIONS.md); no graphic asset is approved or frozen.
 
 | ID | Name | Core visual story | Required elements | Must avoid | Status |
 | --- | --- | --- | --- | --- | --- |
-| ILL-001 | Unknown Recipient Destination | A sender knows the person and intended outcome but not where the person banks or receives money | Sender, recipient, unanswered destination symbols, human connection | Portraying the recipient as unidentified or unverified | Conceptual |
-| ILL-002 | Generate Pay Code | A responsible institution turns an authorized instruction into a portable credential | Institution boundary, authorized instruction, Pay Code tile | Code created without authority; money placed inside code | Conceptual |
-| ILL-003 | Share Pay Code | The credential moves from sender to recipient through an ordinary communication path | Sender, Pay Code, secure neutral communication path, recipient | Product UI, public posting, insecure broadcast | Conceptual |
-| ILL-004 | Claim Money | The recipient claims the Pay Code, chooses an available supported destination, and completes the approved journey | Recipient, Pay Code, nested choice, quiet validation, completion | Direct code-to-cash arrow; guaranteed completion | Conceptual |
-| ILL-005 | Recipient Choice | A reusable detail within Claim showing a limited set of supported destinations | Recipient, supported branch, two or three neutral destinations | Separate first-level step; infinite or universal provider availability | Conceptual |
-| ILL-006 | Participating Institutions | Distinct institutions cooperate around a common instruction while retaining their roles | Responsible institution, x-change operating layer, participating providers, boundaries | Shared bank, pooled custody, x-change as regulator or financial institution | Conceptual |
+| ILL-001 | Unknown Recipient Destination | A sender knows the person and intended outcome but not where the person banks or receives money | Sender, recipient, unanswered destination symbols, human connection | Portraying the recipient as unidentified or unverified | Concept specified |
+| ILL-002 | Generate Pay Code | A responsible institution turns an authorized instruction into a portable credential | Institution boundary, authorized instruction, Pay Code tile | Code created without authority; money placed inside code | Concept specified |
+| ILL-003 | Share Pay Code | The credential moves from sender to recipient through an ordinary communication path | Sender, Pay Code, secure neutral communication path, recipient | Product UI, public posting, insecure broadcast | Concept specified |
+| ILL-004 | Claim | The recipient claims the Pay Code, chooses an available supported destination, and completes the approved journey | Recipient, Pay Code, nested choice, quiet validation, completion | Direct code-to-cash arrow; guaranteed completion | Concept specified |
+| ILL-005 | Recipient Choice | A reusable detail within Claim showing a limited set of supported destinations | Recipient, supported branch, two or three neutral destinations | Separate first-level step; infinite or universal provider availability | Concept specified |
+| ILL-006 | Participating Institutions | Distinct institutions cooperate around a common instruction while retaining their roles | Responsible institution, x-change operating layer, participating providers, boundaries | Shared bank, pooled custody, x-change as regulator or financial institution | Concept specified |
 | ILL-007 | Payroll | An employer-authorized salary instruction reaches an employee through a supported journey | Employer, authorized payroll, Pay Code, employee, supported provider | Claim of live payroll deployment | Conceptual |
 | ILL-008 | Government Benefits | A responsible public institution authorizes assistance and the intended beneficiary presents the credential | Public authority, purpose, beneficiary, condition gate, participating provider | Political branding, entitlement guarantee, x-change as public authority | Conceptual |
 | ILL-009 | Insurance Claims | An approved claim becomes a portable instruction for the claimant | Insurer, approved claim, Pay Code, claimant, supported destination | Pay Code deciding claim eligibility | Conceptual |
@@ -41,6 +41,8 @@ All illustrations are **Conceptual** in this milestone. No graphic asset is yet 
 - **ILL-014:** An organization represents an approved incentive as a Pay Code that the intended recipient claims through a supported journey.
 
 ## Composition sets
+
+The [Visual Storyboards](VISUAL_STORYBOARDS.md) govern how these sets combine. The [Layout Wireframes](LAYOUT_WIREFRAMES.md) govern their hierarchy across formats.
 
 | Set | Illustration sequence | Intended use |
 | --- | --- | --- |

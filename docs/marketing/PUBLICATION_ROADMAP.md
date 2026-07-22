@@ -10,7 +10,7 @@ Develop one canonical marketing knowledge base that can produce concise, consist
 | --- | --- | --- | --- |
 | 1 — Architecture Baseline | Family architecture, messaging grammar, visual grammar, illustration taxonomy, style guide, universal flyer, brochure, landing page, and conference sheet | Complete | Canonical Markdown and YAML exist; terminology and links validate |
 | 1.1 — Marketing Compression | Generate → Share → Claim public sequence, compressed collateral, nested recipient choice, added Loan Proceeds and Incentives, normalized metadata | Complete | A first-time reader can understand the core idea from the headline and visual sequence |
-| 2 — Illustration Prototypes | Draft vector studies for ILL-001 through ILL-006 and one representative application set | Planned | Visual semantics approved before polish |
+| 2 — Illustration System and Visual Storyboarding | Semantic studies for ILL-001 through ILL-006, VIS-001 and application storyboards, reusable wireframes, and composition hierarchy | Complete | Canonical visual language is specified in Markdown before artwork or rendering |
 | 3 — First Renderers | Reusable HTML/SVG composition system and print-ready flyer and brochure pipeline | Planned | One command produces review-proof assets without rewriting source |
 | 4 — Review and Message Lock | First-reader comprehension review, doctrine review, accessibility review, and approved copy lock | Planned | Primary message understood within one minute; boundaries remain accurate |
 | 5 — Extended Collateral | Pull-up banner, social cards, presentation slides, website modules, and animation storyboard | Planned | New formats reuse governed message and illustration IDs |
@@ -20,8 +20,8 @@ Develop one canonical marketing knowledge base that can produce concise, consist
 ## Priority sequence
 
 1. Complete the universal Pay Code architecture and source drafts.
-2. Test the core visual sequence: ILL-002 → ILL-003 → ILL-004, with Recipient Choice nested inside Claim.
-3. Validate the message with first-time readers before polishing artwork.
+2. Validate the Milestone 2 semantic studies with first-time readers before producing artwork.
+3. Prototype ILL-001 through ILL-006 and VIS-001 without changing their registered meaning.
 4. Build one reusable renderer rather than separate one-off designs.
 5. Extend only after the core definition and visual story are stable.
 
@@ -48,4 +48,4 @@ Develop one canonical marketing knowledge base that can produce concise, consist
 
 ## Stop conditions
 
-Do not begin production artwork or renderer optimization until the illustration semantics and primary message have been reviewed. Do not create institution-specific marketing collateral before the universal series has a stable architecture. Do not use engagement metrics to justify claims that contradict canonical doctrine.
+Do not begin production artwork or renderer optimization until the Milestone 2 illustration semantics and primary message have been reviewed. Do not create institution-specific marketing collateral before the universal series has a stable architecture. Do not use engagement metrics to justify claims that contradict canonical doctrine.

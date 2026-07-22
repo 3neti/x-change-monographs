@@ -4,6 +4,8 @@
 
 The Visual Grammar defines how marketing artwork explains Pay Code without relying on screenshots, interfaces, or institution-specific branding. The image should remain intelligible when most text is ignored.
 
+The [Illustration Concept Specifications](ILLUSTRATION_CONCEPT_SPECIFICATIONS.md) apply this grammar to ILL-001 through ILL-006. The [Visual Storyboards](VISUAL_STORYBOARDS.md) and [Layout Wireframes](LAYOUT_WIREFRAMES.md) govern composition and format adaptation.
+
 ## Composition principle
 
 Target approximately 80% illustration and 20% text. Use one visual argument per composition. Whitespace is part of the illustration system and should separate actors, moments, and choices.
