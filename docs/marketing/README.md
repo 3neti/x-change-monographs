@@ -22,6 +22,7 @@ Marketing earns attention. It explains one idea quickly, creates curiosity, and 
 - [Design Validation](DESIGN_VALIDATION.md)
 - [Style Guide](STYLE_GUIDE.md)
 - [Publication Roadmap](PUBLICATION_ROADMAP.md)
+- [Visual Prototypes](prototypes/README.md)
 
 ## Universal Pay Code series
 

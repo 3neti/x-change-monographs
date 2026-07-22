@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
+  <title id="title">VIS-001 prototype direction 06, Modular Card System</title>
+  <desc id="desc">Three numbered modules contain Generate, Share, and Claim. The Claim module contains a subordinate recipient-choice card with three destinations and one selected completion.</desc>
+  <rect width="1200" height="650" fill="#eee"/>
+  <text x="45" y="42" font-family="Arial, sans-serif" font-size="15" letter-spacing="2" fill="#111">NON-PRODUCTION PROTOTYPE · D06 MODULAR CARD SYSTEM</text>
+  <g fill="#fff" stroke="#111" stroke-width="3">
+    <rect x="55" y="85" width="330" height="455"/>
+    <rect x="435" y="85" width="330" height="455"/>
+    <rect x="815" y="85" width="330" height="455"/>
+  </g>
+  <g font-family="Arial, sans-serif" fill="#111">
+    <text x="80" y="130" font-size="44" font-weight="700">01</text>
+    <text x="460" y="130" font-size="44" font-weight="700">02</text>
+    <text x="840" y="130" font-size="44" font-weight="700">03</text>
+    <text x="80" y="172" font-size="25" font-weight="700">GENERATE</text>
+    <text x="460" y="172" font-size="25" font-weight="700">SHARE</text>
+    <text x="840" y="172" font-size="25" font-weight="700">CLAIM</text>
+  </g>
+  <g font-family="Arial, sans-serif" text-anchor="middle" fill="#111">
+    <rect x="102" y="215" width="236" height="88" fill="#ddd" stroke="#111" stroke-width="2"/>
+    <text x="220" y="252" font-size="14">INTENDED PAYMENT</text>
+    <text x="220" y="279" font-size="13">inside governed institution</text>
+    <path d="M220 304v50" stroke="#111" stroke-width="3"/>
+    <rect x="137" y="355" width="166" height="66" fill="#111"/>
+    <text x="220" y="395" font-size="17" fill="#fff">|| PAY CODE ||</text>
+
+    <circle cx="515" cy="260" r="38" fill="#ddd" stroke="#111" stroke-width="2"/>
+    <circle cx="685" cy="260" r="38" fill="#ddd" stroke="#111" stroke-width="2"/>
+    <path d="M554 260h90" stroke="#111" stroke-width="4"/>
+    <path d="M625 246l20 14-20 14" fill="#111"/>
+    <rect x="520" y="352" width="160" height="66" fill="#111"/>
+    <text x="600" y="392" font-size="17" fill="#fff">|| PAY CODE ||</text>
+    <text x="600" y="458" font-size="13">portable across channels</text>
+
+    <circle cx="882" cy="225" r="33" fill="#ddd" stroke="#111" stroke-width="2"/>
+    <rect x="929" y="199" width="165" height="58" fill="#111"/>
+    <text x="1011" y="234" font-size="16" fill="#fff">|| PAY CODE ||</text>
+    <rect x="850" y="291" width="260" height="196" fill="#f3f3f3" stroke="#777" stroke-width="2"/>
+    <text x="980" y="322" font-size="14" font-weight="700">NESTED: CHOOSE ONE</text>
+    <circle cx="900" cy="378" r="20" fill="#fff" stroke="#aaa" stroke-width="3"/>
+    <circle cx="980" cy="378" r="23" fill="#111"/>
+    <circle cx="1060" cy="378" r="20" fill="#fff" stroke="#aaa" stroke-width="3"/>
+    <path d="M980 403v38h75" stroke="#111" stroke-width="3" fill="none"/>
+    <circle cx="1067" cy="441" r="12" fill="#111"/>
+    <text x="980" y="469" font-size="12">one provider completes</text>
+  </g>
+  <path d="M385 310h50M765 310h50" stroke="#111" stroke-width="4"/>
+  <path d="M417 298l18 12-18 12M797 298l18 12-18 12" fill="#111"/>
+  <text x="600" y="606" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#111">Three stable modules. Nested complexity remains inside Claim.</text>
+</svg>

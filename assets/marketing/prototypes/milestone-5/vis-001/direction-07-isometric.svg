@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
+  <title id="title">VIS-001 prototype direction 07, Isometric System</title>
+  <desc id="desc">Three grayscale isometric platforms show a governed instruction generating a Pay Code, the credential crossing a communication bridge, and a recipient choosing one supported destination on the Claim platform while institutional completion remains below.</desc>
+  <rect width="1200" height="650" fill="#f5f5f5"/>
+  <text x="45" y="42" font-family="Arial, sans-serif" font-size="15" letter-spacing="2" fill="#111">NON-PRODUCTION PROTOTYPE · D07 ISOMETRIC SYSTEM</text>
+  <g stroke="#111" stroke-width="3" stroke-linejoin="round">
+    <path d="M70 380l180-105 180 105-180 105z" fill="#fff"/>
+    <path d="M70 380v58l180 105v-58z" fill="#ccc"/>
+    <path d="M430 380v58L250 543v-58z" fill="#aaa"/>
+    <path d="M420 380l180-105 180 105-180 105z" fill="#fff"/>
+    <path d="M420 380v58l180 105v-58z" fill="#ccc"/>
+    <path d="M780 380v58L600 543v-58z" fill="#aaa"/>
+    <path d="M770 380l180-105 180 105-180 105z" fill="#fff"/>
+    <path d="M770 380v58l180 105v-58z" fill="#ccc"/>
+    <path d="M1130 380v58L950 543v-58z" fill="#aaa"/>
+  </g>
+  <g font-family="Arial, sans-serif" text-anchor="middle" fill="#111">
+    <text x="250" y="125" font-size="27" font-weight="700">GENERATE</text>
+    <text x="600" y="125" font-size="27" font-weight="700">SHARE</text>
+    <text x="950" y="125" font-size="27" font-weight="700">CLAIM</text>
+    <rect x="170" y="315" width="160" height="62" fill="#111"/>
+    <text x="250" y="353" font-size="17" fill="#fff">|| PAY CODE ||</text>
+    <path d="M190 275l60-35 60 35-60 35z" fill="#ddd" stroke="#111" stroke-width="2"/>
+    <text x="250" y="280" font-size="12">intended payment</text>
+
+    <rect x="520" y="310" width="160" height="62" fill="#111"/>
+    <text x="600" y="348" font-size="17" fill="#fff">|| PAY CODE ||</text>
+    <path d="M455 320l45-26M700 294l45 26" stroke="#111" stroke-width="5"/>
+
+    <circle cx="840" cy="315" r="29" fill="#ddd" stroke="#111" stroke-width="2"/>
+    <path d="M840 344v55M815 370h50" stroke="#111" stroke-width="4"/>
+    <rect x="878" y="292" width="145" height="56" fill="#111"/>
+    <text x="950" y="327" font-size="15" fill="#fff">|| PAY CODE ||</text>
+    <text x="1005" y="387" font-size="13" font-weight="700">choose inside Claim</text>
+    <path d="M1005 395l-60 37M1005 395v55M1005 395l60 37" stroke="#111" stroke-width="3" fill="none"/>
+    <circle cx="945" cy="435" r="14" fill="#fff" stroke="#999" stroke-width="3"/>
+    <circle cx="1005" cy="452" r="17" fill="#111"/>
+    <circle cx="1065" cy="435" r="14" fill="#fff" stroke="#999" stroke-width="3"/>
+  </g>
+  <path d="M1005 469v48h72" stroke="#111" stroke-width="4" fill="none"/>
+  <rect x="1067" y="501" width="44" height="36" fill="#777"/>
+  <text x="600" y="610" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#111">People and credential remain above. Institutional completion stays in the supporting plane.</text>
+</svg>

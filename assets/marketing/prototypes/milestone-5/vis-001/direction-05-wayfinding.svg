@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
+  <title id="title">VIS-001 prototype direction 05, Pictographic Wayfinding</title>
+  <desc id="desc">Large signage-like pictograms show Generate, Share, and Claim. The recipient presents one Pay Code; a small nested sign shows three supported destinations with only one selected and completed.</desc>
+  <rect width="1200" height="650" fill="#fff"/>
+  <text x="44" y="42" font-family="Arial, sans-serif" font-size="15" letter-spacing="2">NON-PRODUCTION PROTOTYPE · D05 PICTOGRAPHIC WAYFINDING</text>
+  <g fill="#111">
+    <rect x="55" y="88" width="330" height="430" rx="6"/>
+    <rect x="435" y="88" width="330" height="430" rx="6"/>
+    <rect x="815" y="88" width="330" height="430" rx="6"/>
+  </g>
+  <g fill="#fff" stroke="#fff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M130 205h180v112H130zM160 245h120M160 278h90" fill="none"/>
+    <path d="M220 317v42"/>
+    <path d="M202 342l18 20 18-20" fill="#fff" stroke="none"/>
+    <rect x="140" y="370" width="160" height="70" rx="6" fill="#fff" stroke="none"/>
+
+    <circle cx="515" cy="245" r="42" fill="none"/>
+    <path d="M515 287v92M475 330h80"/>
+    <circle cx="685" cy="245" r="42" fill="none"/>
+    <path d="M685 287v92M645 330h80"/>
+    <path d="M565 407h70"/>
+    <path d="M616 388l22 19-22 19" fill="#fff" stroke="none"/>
+
+    <circle cx="880" cy="210" r="38" fill="none"/>
+    <path d="M880 248v82M845 290h70"/>
+    <rect x="930" y="218" width="155" height="65" rx="5" fill="#fff" stroke="none"/>
+    <path d="M1007 306v42M1007 348l-82 60M1007 348v60M1007 348l82 60" fill="none" stroke="#fff" stroke-width="7"/>
+    <circle cx="925" cy="414" r="23" fill="none"/>
+    <circle cx="1007" cy="414" r="25" fill="#fff" stroke="none"/>
+    <circle cx="1089" cy="414" r="23" fill="none"/>
+    <path d="M1007 439v20h80" fill="none"/>
+    <circle cx="1098" cy="459" r="10" fill="#fff" stroke="none"/>
+  </g>
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <text x="220" y="145" font-size="29" font-weight="700" fill="#fff">GENERATE</text>
+    <text x="600" y="145" font-size="29" font-weight="700" fill="#fff">SHARE</text>
+    <text x="980" y="145" font-size="29" font-weight="700" fill="#fff">CLAIM</text>
+    <text x="220" y="413" font-size="18" font-weight="700">|| PAY CODE ||</text>
+    <text x="1007" y="260" font-size="17" font-weight="700">|| PAY CODE ||</text>
+    <text x="1007" y="493" font-size="12" fill="#fff">ONE SELECTED · PROVIDER COMPLETES</text>
+  </g>
+  <path d="M385 305h50M765 305h50" stroke="#111" stroke-width="16"/>
+  <path d="M416 281l28 24-28 24M796 281l28 24-28 24" fill="#111"/>
+  <text x="600" y="570" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700">GENERATE → SHARE → CLAIM</text>
+  <text x="600" y="608" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">The signs show the credential journey—not the movement of money.</text>
+</svg>

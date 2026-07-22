@@ -12,10 +12,10 @@ series:
     - "Electronic Money Issuers"
     - "FinTechs"
     - "Payment Providers"
-milestone: "4"
-version: "0.5"
+milestone: "5"
+version: "0.6"
 status: "draft"
-editorial_state: "composition_system_complete"
+editorial_state: "visual_prototype_exploration_complete"
 canonical_format: "Markdown"
 enum_convention: "lowercase_snake_case"
 primary_message: "Send a Pay Code. The recipient chooses where to receive."
@@ -47,6 +47,9 @@ sources:
   motion_grammar: "docs/marketing/MOTION_GRAMMAR.md"
   layout_wireframes: "docs/marketing/LAYOUT_WIREFRAMES.md"
   design_validation: "docs/marketing/DESIGN_VALIDATION.md"
+  prototype_brief: "docs/marketing/prototypes/milestone-5/VIS-001-PROTOTYPE-BRIEF.md"
+  prototype_comparison: "docs/marketing/prototypes/milestone-5/PROTOTYPE-COMPARISON.md"
+  reader_testing_protocol: "docs/marketing/prototypes/milestone-5/READER-TESTING-PROTOCOL.md"
   style_guide: "docs/marketing/STYLE_GUIDE.md"
 publications:
   flyer:
@@ -120,7 +123,13 @@ render_targets:
   - "presentation"
   - "website"
   - "social media"
-artwork_status: "canonical_compositions"
+artwork_status: "nonproduction_visual_prototypes"
+prototype_status:
+  composition: "VIS-001"
+  directions_created: 8
+  production_identity_selected: false
+  reader_testing_completed: false
+  asset_root: "assets/marketing/prototypes/milestone-5/vis-001"
 institution_specific_branding: false
 render_policy:
   illustration_directives: "Replace registered illustration and alt-text labels with governed accessible assets."

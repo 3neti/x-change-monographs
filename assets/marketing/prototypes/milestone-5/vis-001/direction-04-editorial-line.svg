@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
+  <title id="title">VIS-001 prototype direction 04, Editorial Line</title>
+  <desc id="desc">Three sparse line-art scenes show an institution preparing an intended payment, a person sharing the Pay Code, and a recipient presenting it and selecting one supported provider inside Claim.</desc>
+  <rect width="1200" height="650" fill="#fafafa"/>
+  <text x="45" y="43" font-family="Georgia, serif" font-size="15" letter-spacing="2" fill="#222">NON-PRODUCTION PROTOTYPE · D04 EDITORIAL LINE</text>
+  <g stroke="#222" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M48 116H360M444 116H756M840 116H1152"/>
+    <path d="M363 327c25-15 46-15 75 0M759 327c25-15 46-15 75 0" stroke-dasharray="6 10"/>
+    <rect x="70" y="145" width="270" height="365" rx="2"/>
+    <path d="M105 230h200M105 260h130M105 290h175"/>
+    <circle cx="135" cy="185" r="22"/>
+    <path d="M135 207v35M118 224h34"/>
+    <path d="M205 330c32-18 76-18 105 0"/>
+    <rect x="165" y="355" width="150" height="62"/>
+    <path d="M181 372h118M181 400h118"/>
+
+    <rect x="466" y="145" width="268" height="365" rx="2"/>
+    <circle cx="525" cy="250" r="28"/>
+    <path d="M525 278v79M493 315h64"/>
+    <circle cx="675" cy="250" r="28"/>
+    <path d="M675 278v79M643 315h64"/>
+    <rect x="545" y="378" width="110" height="48"/>
+    <path d="M558 391h84M558 413h84"/>
+    <path d="M557 340c25 20 61 20 86 0"/>
+
+    <rect x="862" y="145" width="268" height="365" rx="2"/>
+    <circle cx="920" cy="225" r="27"/>
+    <path d="M920 252v75M890 286h60"/>
+    <rect x="968" y="232" width="125" height="52"/>
+    <path d="M980 246h101M980 270h101"/>
+    <path d="M925 352h160M1005 352v32M1005 384l-65 58M1005 384v58M1005 384l65 58"/>
+    <circle cx="940" cy="450" r="17" stroke="#aaa"/>
+    <circle cx="1005" cy="450" r="20" fill="#222"/>
+    <circle cx="1070" cy="450" r="17" stroke="#aaa"/>
+    <path d="M1005 470v34h70"/>
+    <path d="M1060 504h30v-30h-30zM1055 474l20-15 20 15"/>
+  </g>
+  <g font-family="Georgia, serif" text-anchor="middle" fill="#222">
+    <text x="205" y="105" font-size="28">Generate</text>
+    <text x="600" y="105" font-size="28">Share</text>
+    <text x="995" y="105" font-size="28">Claim</text>
+    <text x="240" y="455" font-size="15">|| PAY CODE ||</text>
+    <text x="600" y="457" font-size="14">the credential moves</text>
+    <text x="1005" y="338" font-size="14">the recipient acts</text>
+    <text x="1005" y="546" font-size="13">one provider completes</text>
+  </g>
+  <text x="600" y="608" text-anchor="middle" font-family="Georgia, serif" font-size="18" fill="#222">An intended payment. A portable credential. A human choice.</text>
+</svg>
