@@ -62,6 +62,8 @@ Canonical Compositions + Motion Grammar
           ↓
 Canonical Markdown publication
           ↓
+Experience Surface
+          ↓
 Format-specific renderer
           ↓
 PDF · HTML · SVG · print · web · presentation · social
@@ -69,7 +71,7 @@ PDF · HTML · SVG · print · web · presentation · social
 
 Markdown owns message, sequence, illustration references, accessibility descriptions, and calls to action. YAML owns series metadata and render intent. Renderers own dimensions, typography, responsive behavior, imposition, and format-specific production details.
 
-Visual Principles govern design judgment. The Icon System owns stable conceptual atoms and their permitted relationships. Illustration concept specifications own semantic anatomy and comprehension tests. Visual storyboards own frame order and illustration relationships. The Motion Grammar owns temporal meaning. Layout wireframes own composition hierarchy across formats. None of these sources constitutes final artwork.
+Visual Principles govern design judgment. The Icon System owns stable conceptual atoms and their permitted relationships. Illustration concept specifications own semantic anatomy and comprehension tests. The Composition System owns reusable visual arguments and their lifecycle. Visual storyboards record cross-composition narrative studies. Spatial and Motion Grammar own relationship and temporal meaning. Layout wireframes own composition hierarchy across formats. Experience Surfaces describe encounter contexts without becoming file formats. None of these sources constitutes final artwork.
 
 ## Canonical design hierarchy
 
@@ -84,6 +86,8 @@ Composition
    ↓
 Publication
    ↓
+Experience Surface
+   ↓
 Rendered Asset
 ```
 
@@ -92,11 +96,18 @@ Rendered Asset
 | Concept | Enduring visual principles and evaluation tests | `VISUAL_PRINCIPLES.md` |
 | Icon | Stable semantic atoms and permitted relationships | `ICON_SYSTEM.md` |
 | Illustration | One visual question and its governed meaning | `ILLUSTRATION_LIBRARY.md` and `ILLUSTRATION_CONCEPT_SPECIFICATIONS.md` |
-| Composition | Relationships, order, hierarchy, and movement | `VISUAL_STORYBOARDS.md`, `MOTION_GRAMMAR.md`, and `LAYOUT_WIREFRAMES.md` |
+| Composition | Reusable visual arguments, relationships, order, spatial hierarchy, and movement | `COMPOSITION_SYSTEM.md`, `compositions/`, `SPATIAL_GRAMMAR.md`, `MOTION_GRAMMAR.md`, and `LAYOUT_WIREFRAMES.md` |
 | Publication | Message selection, illustration references, reading order, and accessible descriptions | Canonical Markdown and YAML under the publication hierarchy |
+| Experience Surface | The encounter context governing attention and adaptation | Surface declarations in publication metadata and `COMPOSITION_SYSTEM.md` |
 | Rendered Asset | Format-specific typography, dimensions, responsive behavior, production, and export | Renderer source and generated `build/` artifacts |
 
-Each layer consumes the layer above it. A renderer may interpret a governed publication; it may not redefine an icon, illustration, composition, or message.
+Each layer consumes the layer above it. A publication declares compositions rather than rebuilding their visual arguments. A renderer may interpret a governed publication for an Experience Surface; it may not redefine an icon, illustration, composition, or message.
+
+## Experience Surfaces
+
+The canonical surfaces are `print`, `presentation`, `web`, `event`, `motion`, `social`, `email`, and `documentation`.
+
+A surface is how and where a publication is encountered. It is not a file extension, application, or renderer. The same publication may serve several surfaces, and several renderers may support one surface.
 
 No manually edited render becomes canonical.
 

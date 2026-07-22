@@ -14,6 +14,11 @@ message_blocks:
   - MSG-002
   - MSG-004
 illustration_set: VIS-001
+composition:
+  - id: VIS-001
+    role: primary_journey
+experience_surfaces:
+  - event
 ---
 
 # Send money without asking where they bank.

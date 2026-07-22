@@ -42,14 +42,16 @@ All illustrations remain **Conceptual**. They are composed from the governed [Se
 
 ## Composition sets
 
-The [Visual Storyboards](VISUAL_STORYBOARDS.md) govern how these sets combine. The [Layout Wireframes](LAYOUT_WIREFRAMES.md) govern their hierarchy across formats.
+The [Composition System](COMPOSITION_SYSTEM.md) and [canonical VIS specifications](compositions/README.md) govern how these sets combine. The [Visual Storyboards](VISUAL_STORYBOARDS.md) retain the cross-composition narrative study. The [Layout Wireframes](LAYOUT_WIREFRAMES.md) govern their hierarchy across formats.
 
 | Set | Illustration sequence | Intended use |
 | --- | --- | --- |
-| VIS-001 Core Pay Code | ILL-002 → ILL-003 → ILL-004, with ILL-005 nested inside Claim | Flyer, landing-page hero, conference sheet |
-| VIS-002 Institutional Network | ILL-002 → ILL-006 → ILL-004 | Executive collateral |
-| VIS-003 Everyday Uses | ILL-007 + ILL-009 + ILL-010 + ILL-011 + ILL-013 + ILL-014 | Brochure use-case panel |
-| VIS-004 Public Purpose | ILL-008 + ILL-012 | Government and public-finance collateral |
+| [VIS-001 Core Pay Code Journey](compositions/VIS-001.md) | ILL-002 → ILL-003 → ILL-004, with ILL-005 nested inside Claim | Flyer, landing-page hero, conference sheet, conference banner |
+| [VIS-002 Institutional Network](compositions/VIS-002.md) | ILL-002 → ILL-006 → ILL-004 | Executive collateral |
+| [VIS-003 Everyday Applications](compositions/VIS-003.md) | ILL-007 + ILL-009 + ILL-010 + ILL-011 + ILL-013 + ILL-014 | Brochure use-case panel |
+| [VIS-004 Public Purpose](compositions/VIS-004.md) | ILL-008 + ILL-012 | Government and public-finance collateral |
+| [VIS-005 Problem Before Solution](compositions/VIS-005.md) | ILL-001 → VIS-001 | Brochure and landing-page opening |
+| [VIS-006 Recipient Choice Within Claim](compositions/VIS-006.md) | ILL-004 + ILL-005 | Claim close-up within a governed composition |
 
 ## Asset governance
 

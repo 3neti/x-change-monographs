@@ -15,6 +15,17 @@ message_blocks:
   - MSG-006
   - CTA-003
 illustration_set: VIS-001
+composition:
+  - id: VIS-001
+    role: primary_journey
+  - id: VIS-003
+    role: application_cues
+  - id: VIS-004
+    role: public_purpose_cues
+experience_surfaces:
+  - print
+  - event
+  - presentation
 ---
 
 # Pay Code in 30 Seconds

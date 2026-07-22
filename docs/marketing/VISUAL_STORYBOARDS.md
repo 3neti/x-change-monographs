@@ -2,7 +2,7 @@
 
 ## Purpose
 
-These storyboards define how registered illustrations combine into a visual argument. They govern reading order, emphasis, and semantic continuity. They are not artwork instructions and do not prescribe a renderer.
+These storyboards record the narrative studies from which the canonical compositions were promoted. The authoritative reusable objects now live in the [Composition System](COMPOSITION_SYSTEM.md) and [`compositions/`](compositions/README.md). This document remains the cross-composition narrative overview; it does not supersede an individual VIS specification.
 
 ## VIS-001 — Core Pay Code Journey
 

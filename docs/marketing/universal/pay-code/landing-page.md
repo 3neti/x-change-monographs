@@ -20,6 +20,21 @@ illustration_sets:
   - VIS-001
   - VIS-002
   - VIS-003
+  - VIS-004
+  - VIS-005
+composition:
+  - id: VIS-005
+    role: problem_context
+  - id: VIS-001
+    role: primary_journey
+  - id: VIS-002
+    role: institutional_support
+  - id: VIS-003
+    role: everyday_applications
+  - id: VIS-004
+    role: public_purpose
+experience_surfaces:
+  - web
 ---
 
 # Send money without asking where they bank.

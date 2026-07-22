@@ -12,10 +12,10 @@ series:
     - "Electronic Money Issuers"
     - "FinTechs"
     - "Payment Providers"
-milestone: "3"
-version: "0.4"
+milestone: "4"
+version: "0.5"
 status: "draft"
-editorial_state: "canonical_design_language_complete"
+editorial_state: "composition_system_complete"
 canonical_format: "Markdown"
 enum_convention: "lowercase_snake_case"
 primary_message: "Send a Pay Code. The recipient chooses where to receive."
@@ -41,20 +41,40 @@ sources:
   illustration_library: "docs/marketing/ILLUSTRATION_LIBRARY.md"
   illustration_concepts: "docs/marketing/ILLUSTRATION_CONCEPT_SPECIFICATIONS.md"
   visual_storyboards: "docs/marketing/VISUAL_STORYBOARDS.md"
+  composition_system: "docs/marketing/COMPOSITION_SYSTEM.md"
+  composition_registry: "docs/marketing/compositions/README.md"
+  spatial_grammar: "docs/marketing/SPATIAL_GRAMMAR.md"
   motion_grammar: "docs/marketing/MOTION_GRAMMAR.md"
   layout_wireframes: "docs/marketing/LAYOUT_WIREFRAMES.md"
+  design_validation: "docs/marketing/DESIGN_VALIDATION.md"
   style_guide: "docs/marketing/STYLE_GUIDE.md"
 publications:
   flyer:
     source: "docs/marketing/universal/pay-code/pay-code-flyer.md"
     status: "draft"
     illustration_set: "VIS-001"
+    compositions:
+      - "VIS-001"
+    experience_surfaces:
+      - "print"
+      - "event"
+      - "email"
   brochure:
     source: "docs/marketing/universal/pay-code/pay-code-brochure.md"
     status: "draft"
     illustration_sets:
       - "VIS-001"
       - "VIS-003"
+      - "VIS-004"
+      - "VIS-005"
+    compositions:
+      - "VIS-005"
+      - "VIS-001"
+      - "VIS-003"
+      - "VIS-004"
+    experience_surfaces:
+      - "print"
+      - "event"
   landing_page:
     source: "docs/marketing/universal/pay-code/landing-page.md"
     status: "draft"
@@ -62,14 +82,36 @@ publications:
       - "VIS-001"
       - "VIS-002"
       - "VIS-003"
+      - "VIS-004"
+      - "VIS-005"
+    compositions:
+      - "VIS-005"
+      - "VIS-001"
+      - "VIS-002"
+      - "VIS-003"
+      - "VIS-004"
+    experience_surfaces:
+      - "web"
   conference_sheet:
     source: "docs/marketing/universal/pay-code/conference-sheet.md"
     status: "draft"
     illustration_set: "VIS-001"
+    compositions:
+      - "VIS-001"
+      - "VIS-003"
+      - "VIS-004"
+    experience_surfaces:
+      - "print"
+      - "event"
+      - "presentation"
   conference_banner:
     source: "docs/marketing/universal/pay-code/conference-banner.md"
     status: "draft"
     illustration_set: "VIS-001"
+    compositions:
+      - "VIS-001"
+    experience_surfaces:
+      - "event"
 render_targets:
   - "PDF"
   - "HTML"
@@ -78,7 +120,7 @@ render_targets:
   - "presentation"
   - "website"
   - "social media"
-artwork_status: "semantic_design_system"
+artwork_status: "canonical_compositions"
 institution_specific_branding: false
 render_policy:
   illustration_directives: "Replace registered illustration and alt-text labels with governed accessible assets."

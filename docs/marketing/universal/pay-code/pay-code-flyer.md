@@ -14,6 +14,13 @@ message_blocks:
   - MSG-004
   - CTA-001
 illustration_set: VIS-001
+composition:
+  - id: VIS-001
+    role: primary_journey
+experience_surfaces:
+  - print
+  - event
+  - email
 ---
 
 # Send money without asking where they bank.

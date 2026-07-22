@@ -14,8 +14,12 @@ Marketing earns attention. It explains one idea quickly, creates curiosity, and 
 - [Illustration Library](ILLUSTRATION_LIBRARY.md)
 - [Illustration Concept Specifications](ILLUSTRATION_CONCEPT_SPECIFICATIONS.md)
 - [Visual Storyboards](VISUAL_STORYBOARDS.md)
+- [Composition System](COMPOSITION_SYSTEM.md)
+- [Canonical Visual Compositions](compositions/README.md)
+- [Spatial Grammar](SPATIAL_GRAMMAR.md)
 - [Motion Grammar](MOTION_GRAMMAR.md)
 - [Layout Wireframes](LAYOUT_WIREFRAMES.md)
+- [Design Validation](DESIGN_VALIDATION.md)
 - [Style Guide](STYLE_GUIDE.md)
 - [Publication Roadmap](PUBLICATION_ROADMAP.md)
 

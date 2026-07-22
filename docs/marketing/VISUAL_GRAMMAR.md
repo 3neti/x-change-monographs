@@ -4,7 +4,7 @@
 
 The Visual Grammar defines how marketing artwork explains Pay Code without relying on screenshots, interfaces, or institution-specific branding. The image should remain intelligible when most text is ignored.
 
-The [Visual Principles](VISUAL_PRINCIPLES.md) govern design judgment. The [Icon System](ICON_SYSTEM.md) defines the semantic atoms used here. The [Illustration Concept Specifications](ILLUSTRATION_CONCEPT_SPECIFICATIONS.md) apply this grammar to ILL-001 through ILL-006. The [Visual Storyboards](VISUAL_STORYBOARDS.md), [Motion Grammar](MOTION_GRAMMAR.md), and [Layout Wireframes](LAYOUT_WIREFRAMES.md) govern composition, movement, and format adaptation.
+The [Visual Principles](VISUAL_PRINCIPLES.md) govern design judgment. The [Icon System](ICON_SYSTEM.md) defines the semantic atoms used here. The [Illustration Concept Specifications](ILLUSTRATION_CONCEPT_SPECIFICATIONS.md) apply this grammar to ILL-001 through ILL-006. The [Composition System](COMPOSITION_SYSTEM.md) and [canonical VIS specifications](compositions/README.md) govern reusable visual arguments. The [Spatial Grammar](SPATIAL_GRAMMAR.md), [Motion Grammar](MOTION_GRAMMAR.md), and [Layout Wireframes](LAYOUT_WIREFRAMES.md) govern relationship, movement, and format adaptation. [Design Validation](DESIGN_VALIDATION.md) governs evaluation.
 
 ## Composition principle
 
@@ -33,7 +33,7 @@ Claim
 
 This is the public sequence. It describes the human experience.
 
-VIS-001 is the canonical composition of this sequence. Publications adapt VIS-001; they do not invent parallel Pay Code journeys.
+VIS-001 is the canonical composition of this sequence. Its authoritative specification is [VIS-001 — Core Pay Code Journey](compositions/VIS-001.md). Publications adapt VIS-001; they do not invent parallel Pay Code journeys.
 
 The richer lifecycle remains nested beneath it:
 

@@ -18,6 +18,20 @@ message_blocks:
 illustration_sets:
   - VIS-001
   - VIS-003
+  - VIS-004
+  - VIS-005
+composition:
+  - id: VIS-005
+    role: opening_problem
+  - id: VIS-001
+    role: primary_journey
+  - id: VIS-003
+    role: everyday_applications
+  - id: VIS-004
+    role: public_purpose
+experience_surfaces:
+  - print
+  - event
 ---
 
 # Pay Code
