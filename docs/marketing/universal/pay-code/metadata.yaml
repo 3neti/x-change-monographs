@@ -12,10 +12,10 @@ series:
     - "Electronic Money Issuers"
     - "FinTechs"
     - "Payment Providers"
-milestone: "2"
-version: "0.3"
+milestone: "3"
+version: "0.4"
 status: "draft"
-editorial_state: "visual_storyboarding_complete"
+editorial_state: "canonical_design_language_complete"
 canonical_format: "Markdown"
 enum_convention: "lowercase_snake_case"
 primary_message: "Send a Pay Code. The recipient chooses where to receive."
@@ -35,10 +35,13 @@ canonical_boundary: "A Pay Code is a portable credential for an authorized instr
 sources:
   architecture: "docs/marketing/MARKETING_ARCHITECTURE.md"
   grammar: "docs/marketing/MARKETING_GRAMMAR.md"
+  visual_principles: "docs/marketing/VISUAL_PRINCIPLES.md"
+  icon_system: "docs/marketing/ICON_SYSTEM.md"
   visual_grammar: "docs/marketing/VISUAL_GRAMMAR.md"
   illustration_library: "docs/marketing/ILLUSTRATION_LIBRARY.md"
   illustration_concepts: "docs/marketing/ILLUSTRATION_CONCEPT_SPECIFICATIONS.md"
   visual_storyboards: "docs/marketing/VISUAL_STORYBOARDS.md"
+  motion_grammar: "docs/marketing/MOTION_GRAMMAR.md"
   layout_wireframes: "docs/marketing/LAYOUT_WIREFRAMES.md"
   style_guide: "docs/marketing/STYLE_GUIDE.md"
 publications:
@@ -63,6 +66,10 @@ publications:
     source: "docs/marketing/universal/pay-code/conference-sheet.md"
     status: "draft"
     illustration_set: "VIS-001"
+  conference_banner:
+    source: "docs/marketing/universal/pay-code/conference-banner.md"
+    status: "draft"
+    illustration_set: "VIS-001"
 render_targets:
   - "PDF"
   - "HTML"
@@ -71,7 +78,7 @@ render_targets:
   - "presentation"
   - "website"
   - "social media"
-artwork_status: "conceptual_storyboards"
+artwork_status: "semantic_design_system"
 institution_specific_branding: false
 render_policy:
   illustration_directives: "Replace registered illustration and alt-text labels with governed accessible assets."

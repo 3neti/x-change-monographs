@@ -4,7 +4,7 @@
 
 The Illustration Library registers reusable conceptual artwork before final graphics are produced. Publications reference illustration IDs so the same visual idea can be refined once and reused across formats.
 
-All illustrations remain **Conceptual**. ILL-001 through ILL-006 now have governed semantic studies in the [Illustration Concept Specifications](ILLUSTRATION_CONCEPT_SPECIFICATIONS.md); no graphic asset is approved or frozen.
+All illustrations remain **Conceptual**. They are composed from the governed [Semantic Icon System](ICON_SYSTEM.md). ILL-001 through ILL-006 have semantic studies in the [Illustration Concept Specifications](ILLUSTRATION_CONCEPT_SPECIFICATIONS.md); no graphic asset is approved or frozen.
 
 | ID | Name | Core visual story | Required elements | Must avoid | Status |
 | --- | --- | --- | --- | --- | --- |

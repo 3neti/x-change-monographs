@@ -6,6 +6,8 @@ These specifications define the first canonical visual vocabulary for Pay Code. 
 
 The studies are deliberately medium-neutral. They describe what a viewer must understand, not how a particular illustrator should draw it.
 
+Each study composes concepts from the canonical [Semantic Icon System](ICON_SYSTEM.md). The icon IDs govern meaning; they do not prescribe visible glyphs.
+
 ## Shared visual syntax
 
 Every illustration uses the same small set of semantic elements.
@@ -23,6 +25,17 @@ Every illustration uses the same small set of semantic elements.
 | Evidence trace | Status, receipt, or reconciliation | A dotted return line or restrained receipt mark |
 
 Across the system, solid arrows show progression, branches show choice only within Claim, dotted lines show evidence, and enclosing lines show institutional responsibility.
+
+## Semantic icon composition
+
+| Illustration | Primary semantic icons | Nested or supporting icons |
+| --- | --- | --- |
+| ILL-001 Unknown Recipient Destination | ICN-001 Person, ICN-011 Destination | ICN-002 Institution |
+| ILL-002 Generate Pay Code | ICN-002 Institution, ICN-004 Instruction, ICN-003 Pay Code | ICN-007 Approval |
+| ILL-003 Share Pay Code | ICN-001 Person, ICN-003 Pay Code, ICN-013 Communication | ICN-005 QR |
+| ILL-004 Claim | ICN-001 Person, ICN-003 Pay Code, ICN-009 Choice, ICN-011 Destination | ICN-008 Validation, ICN-014 Settlement, ICN-015 Completion |
+| ILL-005 Recipient Choice | ICN-003 Pay Code, ICN-009 Choice, ICN-011 Destination | ICN-008 Validation, ICN-015 Completion |
+| ILL-006 Participating Institutions | ICN-002 Institution, ICN-004 Instruction, ICN-014 Settlement | ICN-012 Evidence, ICN-006 Receipt |
 
 ## ILL-001 — Unknown Recipient Destination
 

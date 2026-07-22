@@ -4,7 +4,7 @@
 
 The Visual Grammar defines how marketing artwork explains Pay Code without relying on screenshots, interfaces, or institution-specific branding. The image should remain intelligible when most text is ignored.
 
-The [Illustration Concept Specifications](ILLUSTRATION_CONCEPT_SPECIFICATIONS.md) apply this grammar to ILL-001 through ILL-006. The [Visual Storyboards](VISUAL_STORYBOARDS.md) and [Layout Wireframes](LAYOUT_WIREFRAMES.md) govern composition and format adaptation.
+The [Visual Principles](VISUAL_PRINCIPLES.md) govern design judgment. The [Icon System](ICON_SYSTEM.md) defines the semantic atoms used here. The [Illustration Concept Specifications](ILLUSTRATION_CONCEPT_SPECIFICATIONS.md) apply this grammar to ILL-001 through ILL-006. The [Visual Storyboards](VISUAL_STORYBOARDS.md), [Motion Grammar](MOTION_GRAMMAR.md), and [Layout Wireframes](LAYOUT_WIREFRAMES.md) govern composition, movement, and format adaptation.
 
 ## Composition principle
 
@@ -32,6 +32,8 @@ Claim
 ```
 
 This is the public sequence. It describes the human experience.
+
+VIS-001 is the canonical composition of this sequence. Publications adapt VIS-001; they do not invent parallel Pay Code journeys.
 
 The richer lifecycle remains nested beneath it:
 
@@ -101,3 +103,15 @@ Decorative repetition may be hidden from assistive technology, but the primary v
 ## Responsive behavior
 
 Renderers may rearrange a registered illustration from horizontal to vertical, simplify secondary detail, or divide it across panels. They may not change actor roles, arrow meaning, ordering, or the credential-versus-money distinction.
+
+## VIS-001 publication parity
+
+| Publication | Canonical use |
+| --- | --- |
+| Universal Pay Code Flyer | One dominant VIS-001 journey |
+| Universal Pay Code Brochure | ILL-002, ILL-003, and ILL-004 occupy successive panels and reconstruct VIS-001 across the open spread |
+| Universal Pay Code Landing Page | Compact VIS-001 hero followed by the same three moments in expanded reading order |
+| Universal Pay Code Conference Sheet | One dominant VIS-001 journey supporting a brief conversation |
+| Universal Pay Code Conference Banner | One distance-readable VIS-001 journey with no competing composition |
+
+This parity is semantic rather than geometric. Each format may arrange the composition differently while preserving the same three actions, continuity, and nested Claim behavior.

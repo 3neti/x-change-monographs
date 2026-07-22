@@ -52,7 +52,13 @@ Approved editorial doctrine
           ↓
 Marketing Grammar + Visual Grammar
           ↓
-Illustration Concepts + Storyboards + Wireframes
+Visual Principles
+          ↓
+Semantic Icons
+          ↓
+Illustration Concepts
+          ↓
+Canonical Compositions + Motion Grammar
           ↓
 Canonical Markdown publication
           ↓
@@ -63,7 +69,34 @@ PDF · HTML · SVG · print · web · presentation · social
 
 Markdown owns message, sequence, illustration references, accessibility descriptions, and calls to action. YAML owns series metadata and render intent. Renderers own dimensions, typography, responsive behavior, imposition, and format-specific production details.
 
-Illustration concept specifications own semantic anatomy and comprehension tests. Visual storyboards own frame order and illustration relationships. Layout wireframes own composition hierarchy across formats. None of these sources constitutes final artwork.
+Visual Principles govern design judgment. The Icon System owns stable conceptual atoms and their permitted relationships. Illustration concept specifications own semantic anatomy and comprehension tests. Visual storyboards own frame order and illustration relationships. The Motion Grammar owns temporal meaning. Layout wireframes own composition hierarchy across formats. None of these sources constitutes final artwork.
+
+## Canonical design hierarchy
+
+```text
+Concept
+   ↓
+Icon
+   ↓
+Illustration
+   ↓
+Composition
+   ↓
+Publication
+   ↓
+Rendered Asset
+```
+
+| Layer | Canonical responsibility | Source |
+| --- | --- | --- |
+| Concept | Enduring visual principles and evaluation tests | `VISUAL_PRINCIPLES.md` |
+| Icon | Stable semantic atoms and permitted relationships | `ICON_SYSTEM.md` |
+| Illustration | One visual question and its governed meaning | `ILLUSTRATION_LIBRARY.md` and `ILLUSTRATION_CONCEPT_SPECIFICATIONS.md` |
+| Composition | Relationships, order, hierarchy, and movement | `VISUAL_STORYBOARDS.md`, `MOTION_GRAMMAR.md`, and `LAYOUT_WIREFRAMES.md` |
+| Publication | Message selection, illustration references, reading order, and accessible descriptions | Canonical Markdown and YAML under the publication hierarchy |
+| Rendered Asset | Format-specific typography, dimensions, responsive behavior, production, and export | Renderer source and generated `build/` artifacts |
+
+Each layer consumes the layer above it. A renderer may interpret a governed publication; it may not redefine an icon, illustration, composition, or message.
 
 No manually edited render becomes canonical.
 

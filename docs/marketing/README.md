@@ -8,10 +8,13 @@ Marketing earns attention. It explains one idea quickly, creates curiosity, and 
 
 - [Marketing Architecture](MARKETING_ARCHITECTURE.md)
 - [Marketing Grammar](MARKETING_GRAMMAR.md)
+- [Visual Principles](VISUAL_PRINCIPLES.md)
+- [Semantic Icon System](ICON_SYSTEM.md)
 - [Visual Grammar](VISUAL_GRAMMAR.md)
 - [Illustration Library](ILLUSTRATION_LIBRARY.md)
 - [Illustration Concept Specifications](ILLUSTRATION_CONCEPT_SPECIFICATIONS.md)
 - [Visual Storyboards](VISUAL_STORYBOARDS.md)
+- [Motion Grammar](MOTION_GRAMMAR.md)
 - [Layout Wireframes](LAYOUT_WIREFRAMES.md)
 - [Style Guide](STYLE_GUIDE.md)
 - [Publication Roadmap](PUBLICATION_ROADMAP.md)
@@ -22,6 +25,7 @@ Marketing earns attention. It explains one idea quickly, creates curiosity, and 
 - [Universal Pay Code Brochure](universal/pay-code/pay-code-brochure.md)
 - [Universal Pay Code Landing Page](universal/pay-code/landing-page.md)
 - [Universal Pay Code Conference Sheet](universal/pay-code/conference-sheet.md)
+- [Universal Pay Code Conference Banner](universal/pay-code/conference-banner.md)
 - [Series Metadata](universal/pay-code/metadata.yaml)
 
 ## Canonical message
