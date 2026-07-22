@@ -12,10 +12,10 @@ series:
     - "Electronic Money Issuers"
     - "FinTechs"
     - "Payment Providers"
-milestone: "5"
-version: "0.6"
+milestone: "5.1"
+version: "0.7"
 status: "draft"
-editorial_state: "visual_prototype_exploration_complete"
+editorial_state: "visual_prototype_correction_complete"
 canonical_format: "Markdown"
 enum_convention: "lowercase_snake_case"
 primary_message: "Send a Pay Code. The recipient chooses where to receive."
@@ -50,6 +50,11 @@ sources:
   prototype_brief: "docs/marketing/prototypes/milestone-5/VIS-001-PROTOTYPE-BRIEF.md"
   prototype_comparison: "docs/marketing/prototypes/milestone-5/PROTOTYPE-COMPARISON.md"
   reader_testing_protocol: "docs/marketing/prototypes/milestone-5/READER-TESTING-PROTOCOL.md"
+  correction_brief: "docs/marketing/prototypes/milestone-5.1/CORRECTION-BRIEF.md"
+  corrected_shortlist: "docs/marketing/prototypes/milestone-5.1/SHORTLIST-COMPARISON.md"
+  scale_review: "docs/marketing/prototypes/milestone-5.1/SCALE-REVIEW.md"
+  label_free_test_notes: "docs/marketing/prototypes/milestone-5.1/LABEL-FREE-TEST-NOTES.md"
+  semantic_review: "docs/marketing/prototypes/milestone-5.1/SEMANTIC-REVIEW.md"
   style_guide: "docs/marketing/STYLE_GUIDE.md"
 publications:
   flyer:
@@ -123,13 +128,28 @@ render_targets:
   - "presentation"
   - "website"
   - "social media"
-artwork_status: "nonproduction_visual_prototypes"
+artwork_status: "corrected_nonproduction_visual_prototypes"
 prototype_status:
   composition: "VIS-001"
   directions_created: 8
+  corrected_control:
+    - "D01"
+  reader_test_shortlist:
+    - "D03"
+    - "D04"
+    - "D05"
+    - "D06"
+  influence_only:
+    - "D02"
+    - "D08"
+  on_hold:
+    - "D07"
+  label_free_variants_created: 4
+  scale_profiles_per_shortlisted_direction: 3
   production_identity_selected: false
   reader_testing_completed: false
-  asset_root: "assets/marketing/prototypes/milestone-5/vis-001"
+  original_asset_root: "assets/marketing/prototypes/milestone-5/vis-001"
+  corrected_asset_root: "assets/marketing/prototypes/milestone-5.1/vis-001"
 institution_specific_branding: false
 render_policy:
   illustration_directives: "Replace registered illustration and alt-text labels with governed accessible assets."

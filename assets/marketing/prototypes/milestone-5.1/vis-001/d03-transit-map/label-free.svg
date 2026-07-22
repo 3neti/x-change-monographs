@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
+  <title id="title">Label-free corrected D03 Transit Map test variant</title>
+  <desc id="desc">A payment-purpose document and approval check lead to one credential marker shown along a route. It becomes solid when it stops beside a recipient, then one of three bounded destinations is selected and a separate dotted line reaches a participating provider.</desc>
+  <rect width="1200" height="650" fill="#fff"/>
+  <g stroke="#111" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M70 235h155v105H70zM95 265h105M95 294h68" stroke-width="4"/>
+    <circle cx="205" cy="370" r="22" stroke-width="3"/>
+    <path d="M194 370l9 9 17-22" stroke-width="4"/>
+    <path d="M225 410H865" stroke="#bbb" stroke-width="12"/>
+    <path d="M225 410H865" stroke-width="2" stroke-dasharray="7 12"/>
+  </g>
+  <g stroke="#111" stroke-width="4">
+    <rect x="245" y="375" width="125" height="70" fill="#fff"/>
+    <path d="M267 395v30M348 395v30M280 410h55"/>
+    <rect x="510" y="375" width="125" height="70" fill="#fff"/>
+    <path d="M532 395v30M613 395v30M545 410h55"/>
+    <rect x="800" y="367" width="150" height="86" fill="#111"/>
+    <path d="M826 393v34M924 393v34M844 410h62" stroke="#fff"/>
+  </g>
+  <circle cx="760" cy="287" r="36" fill="#ddd" stroke="#111" stroke-width="4"/>
+  <path d="M760 323v95M724 367h72" stroke="#111" stroke-width="5"/>
+  <path d="M875 453v38M875 491l-125 74M875 491v74M875 491l125 74" stroke="#777" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M875 491v74" stroke="#111" stroke-width="12"/>
+  <circle cx="750" cy="566" r="23" fill="#fff" stroke="#aaa" stroke-width="6"/>
+  <circle cx="875" cy="566" r="27" fill="#111"/>
+  <circle cx="1000" cy="566" r="23" fill="#fff" stroke="#aaa" stroke-width="6"/>
+  <path d="M902 566h180" stroke="#777" stroke-width="3" stroke-dasharray="4 7"/>
+  <path d="M1082 548h60v42h-60zM1074 548l38-26 38 26" fill="#ddd" stroke="#111" stroke-width="3"/>
+</svg>

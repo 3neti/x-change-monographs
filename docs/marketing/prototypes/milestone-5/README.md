@@ -4,6 +4,8 @@
 
 Structured visual exploration complete. No production visual identity selected.
 
+The original assets and assessments are preserved as exploration evidence. The separate [Milestone 5.1 Correction Pass](../milestone-5.1/README.md) prepares D03–D06 for reader testing and corrects D01 as a neutral control without overwriting this milestone.
+
 ## Purpose
 
 This milestone tests whether the fixed VIS-001 meaning remains understandable across eight radically different grayscale visual families.

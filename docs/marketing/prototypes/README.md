@@ -7,6 +7,7 @@ Prototype work may explore style, hierarchy, and medium. It may not redefine can
 ## Prototype milestones
 
 - [Milestone 5 — VIS-001 Visual Prototype Exploration](milestone-5/README.md)
+- [Milestone 5.1 — VIS-001 Prototype Correction Pass](milestone-5.1/README.md)
 
 ## Governance
 

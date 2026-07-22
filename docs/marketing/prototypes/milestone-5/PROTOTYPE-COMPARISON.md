@@ -4,6 +4,8 @@
 
 This comparison is an internal design review of the eight prototype directions. Ratings describe test hypotheses based on the canonical validation framework. They are not fabricated reader-test results.
 
+This record describes the original exploration assets. The [Milestone 5.1 Shortlist Comparison](../milestone-5.1/SHORTLIST-COMPARISON.md) governs readiness of the corrected reader-test candidates.
+
 No direction is approved, canonical, or selected as the production visual identity.
 
 ## Rating language

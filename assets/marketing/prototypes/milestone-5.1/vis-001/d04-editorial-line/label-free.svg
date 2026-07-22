@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
+  <title id="title">Label-free corrected D04 Editorial Line test variant</title>
+  <desc id="desc">A human sender stands beside a payment-purpose document and approval mark. One outlined credential follows a restrained motion trace between people and arrives as a solid credential in the recipient's hand before one supported destination is selected.</desc>
+  <rect width="1200" height="650" fill="#fafafa"/>
+  <g stroke="#222" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="105" cy="225" r="37" stroke-width="4"/>
+    <path d="M105 262v110M63 315h84" stroke-width="4"/>
+    <rect x="160" y="170" width="160" height="100" stroke-width="3"/>
+    <path d="M185 202h110M185 232h72" stroke-width="3"/>
+    <circle cx="275" cy="310" r="23" stroke-width="3"/>
+    <path d="M263 310l10 10 19-25" stroke-width="4"/>
+
+    <circle cx="430" cy="245" r="36" stroke-width="4"/>
+    <path d="M430 281v105M390 335h80" stroke-width="4"/>
+    <circle cx="655" cy="245" r="36" stroke-width="4"/>
+    <path d="M655 281v105M615 335h80" stroke-width="4"/>
+
+    <circle cx="820" cy="215" r="42" stroke-width="4"/>
+    <path d="M820 257v118M775 320h90M865 320h58" stroke-width="4"/>
+  </g>
+  <path d="M295 405C440 365 565 365 780 320" stroke="#888" stroke-width="4" stroke-dasharray="8 11" fill="none"/>
+  <g stroke="#111" stroke-width="4">
+    <rect x="250" y="369" width="135" height="72" fill="#fafafa"/>
+    <path d="M273 391v28M362 391v28M287 405h60"/>
+    <rect x="485" y="345" width="135" height="72" fill="#fafafa"/>
+    <path d="M508 367v28M597 367v28M522 381h60"/>
+    <rect x="915" y="279" width="165" height="82" fill="#111"/>
+    <path d="M944 304v32M1051 304v32M965 320h65" stroke="#fff"/>
+  </g>
+  <path d="M998 380v28M998 408l-95 58M998 408v58M998 408l95 58" stroke="#222" stroke-width="4" fill="none"/>
+  <circle cx="903" cy="468" r="23" fill="#fff" stroke="#aaa" stroke-width="4"/>
+  <circle cx="998" cy="468" r="27" fill="#111"/>
+  <circle cx="1093" cy="468" r="23" fill="#fff" stroke="#aaa" stroke-width="4"/>
+  <path d="M998 495v58h122" stroke="#777" stroke-width="3" stroke-dasharray="4 7" fill="none"/>
+  <path d="M1120 553h44v-40h-44zM1112 513l30-22 30 22" stroke="#222" stroke-width="3" fill="#ddd"/>
+</svg>

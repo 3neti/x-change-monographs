@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
+  <title id="title">Milestone 5.1 corrected D05 Pictographic Wayfinding</title>
+  <desc id="desc">A high-contrast credential symbol occupies a continuous wayfinding path through Generate and Share, then stops in a larger Claim field beside the recipient. Three explicitly participating options appear, one is selected, and provider completion remains subordinate.</desc>
+  <rect width="1200" height="650" fill="#fff"/>
+  <text x="44" y="42" font-family="Arial, sans-serif" font-size="15" letter-spacing="2">NON-PRODUCTION PROTOTYPE · M5.1 · D05 WAYFINDING</text>
+  <g fill="#111">
+    <rect x="55" y="85" width="275" height="440"/>
+    <rect x="365" y="85" width="275" height="440"/>
+    <rect x="675" y="70" width="470" height="470"/>
+  </g>
+  <g font-family="Arial, sans-serif" text-anchor="middle" font-weight="700">
+    <text x="192" y="137" font-size="27" fill="#fff">GENERATE</text>
+    <text x="502" y="137" font-size="27" fill="#fff">SHARE</text>
+    <text x="910" y="127" font-size="31" fill="#fff">CLAIM</text>
+  </g>
+  <g stroke="#fff" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="90" y="182" width="120" height="85"/>
+    <path d="M108 215h84M108 240h58"/>
+    <circle cx="255" cy="225" r="20"/>
+    <path d="M246 225l7 7 14-18"/>
+    <path d="M100 340H820" stroke-width="4"/>
+  </g>
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <rect x="135" y="305" width="115" height="70" fill="#111" stroke="#fff" stroke-width="4"/>
+    <text x="192" y="346" font-size="14" fill="#fff">|| PAY CODE ||</text>
+    <rect x="445" y="305" width="115" height="70" fill="#111" stroke="#fff" stroke-width="4"/>
+    <text x="502" y="346" font-size="14" fill="#fff">|| PAY CODE ||</text>
+    <rect x="775" y="297" width="145" height="86" fill="#fff"/>
+    <text x="847" y="347" font-size="16" fill="#111">|| PAY CODE ||</text>
+  </g>
+  <path d="M330 340h35M640 340h35" stroke="#111" stroke-width="18"/>
+  <path d="M344 326l21 14-21 14M654 326l21 14-21 14" fill="#111"/>
+  <circle cx="735" cy="228" r="36" fill="none" stroke="#fff" stroke-width="7"/>
+  <path d="M735 264v80M703 307h64" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+  <text x="905" y="406" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#fff">CHOOSE ONE PARTICIPATING OPTION</text>
+  <path d="M905 417v26M905 443l-92 47M905 443v47M905 443l92 47" stroke="#fff" stroke-width="5" fill="none"/>
+  <circle cx="813" cy="492" r="20" fill="none" stroke="#bbb" stroke-width="5"/>
+  <circle cx="905" cy="492" r="24" fill="#fff"/>
+  <circle cx="997" cy="492" r="20" fill="none" stroke="#bbb" stroke-width="5"/>
+  <text x="813" y="523" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#ddd">PARTICIPATING</text>
+  <text x="905" y="523" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#fff">SELECTED</text>
+  <text x="997" y="523" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#ddd">PARTICIPATING</text>
+  <path d="M905 516v28h115" stroke="#bbb" stroke-width="3" stroke-dasharray="4 6" fill="none"/>
+  <circle cx="1031" cy="544" r="10" fill="#111" stroke="#fff" stroke-width="3"/>
+  <text x="600" y="600" text-anchor="middle" font-family="Arial, sans-serif" font-size="18">The credential occupies the path. Provider completion begins only after Claim.</text>
+</svg>
