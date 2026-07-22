@@ -1,0 +1,63 @@
+publication_family: "Marketing"
+series:
+  id: "universal_pay_code"
+  title: "Universal Pay Code"
+  scope: "universal"
+  audience:
+    - "Universal Banks"
+    - "Commercial Banks"
+    - "Thrift Banks"
+    - "Rural Banks"
+    - "Government Depository Banks"
+    - "Electronic Money Issuers"
+    - "FinTechs"
+    - "Payment Providers"
+version: "0.1"
+status: "Draft"
+editorial_state: "Architecture Baseline"
+canonical_format: "Markdown"
+primary_message: "A Pay Code lets someone receive money without requiring the sender to know their bank account, e-wallet, or financial provider."
+canonical_boundary: "A Pay Code is a portable credential for an authorized instruction. It does not hold money and completion remains subject to supported, governed institutional and provider arrangements."
+sources:
+  architecture: "docs/marketing/MARKETING_ARCHITECTURE.md"
+  grammar: "docs/marketing/MARKETING_GRAMMAR.md"
+  visual_grammar: "docs/marketing/VISUAL_GRAMMAR.md"
+  illustration_library: "docs/marketing/ILLUSTRATION_LIBRARY.md"
+  style_guide: "docs/marketing/STYLE_GUIDE.md"
+publications:
+  flyer:
+    source: "docs/marketing/universal/pay-code/pay-code-flyer.md"
+    status: "Draft"
+    illustration_set: "VIS-001"
+  brochure:
+    source: "docs/marketing/universal/pay-code/pay-code-brochure.md"
+    status: "Draft"
+    illustration_sets:
+      - "VIS-001"
+      - "VIS-003"
+  landing_page:
+    source: "docs/marketing/universal/pay-code/landing-page.md"
+    status: "Draft"
+    illustration_sets:
+      - "VIS-001"
+      - "VIS-002"
+      - "VIS-003"
+  conference_sheet:
+    source: "docs/marketing/universal/pay-code/conference-sheet.md"
+    status: "Draft"
+    illustration_set: "VIS-001"
+render_targets:
+  - "PDF"
+  - "HTML"
+  - "SVG"
+  - "print collateral"
+  - "presentation"
+  - "website"
+  - "social media"
+artwork_status: "Conceptual"
+institution_specific_branding: false
+render_policy:
+  illustration_directives: "Replace registered illustration and alt-text labels with governed accessible assets."
+  excluded_heading_suffix: "— not publication copy"
+  html_comments: "Do not render."
+change_control: "Changes to Pay Code definition, custody boundary, institutional authority, settlement responsibility, or illustration semantics require review against canonical editorial doctrine."

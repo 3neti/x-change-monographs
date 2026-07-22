@@ -17,6 +17,7 @@ Generated files do not belong here.
 - **Experiential** — [x-change Demonstrations](../demonstrations/README.md) governs controlled customer-journey artifacts such as the Executive Demonstration Credential.
 - **Submission** — [Submission Portfolios](../submissions/README.md) assemble approved publications into governed recipient delivery packages.
 - **Correspondence** — [Correspondence](../correspondence/README.md) preserves formal institutional communications and delivery context without modifying related submissions.
+- **Marketing** — [Marketing Publications](../marketing/README.md) introduce x-change and Pay Code through concise, visually led universal collateral derived from approved doctrine.
 
 ## Editorial decisions
 
