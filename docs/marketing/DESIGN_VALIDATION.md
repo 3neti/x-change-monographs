@@ -159,6 +159,135 @@ Equivalent human language is acceptable. Exact drawing style and wording are not
 
 Canonical composition review, first-reader publication review, experience-surface validation, and frozen-asset approval.
 
+## VAL-005 — First Interpretation Test
+
+### Purpose
+
+Determine the participant's unprompted category and narrative before canonical vocabulary is introduced.
+
+### Execution
+
+1. Present the object under the standard exposure condition.
+2. Remove it.
+3. Ask: “What do you think this is?”
+4. Record the response verbatim before asking semantic questions.
+
+### Pass criteria for VIS-001
+
+The response identifies a person-to-person payment, payment instruction, or equivalent governed journey rather than software architecture, a bank network, an account, or a promotional poster with no discernible action.
+
+### Appropriate milestones
+
+Prototype reader testing, publication review, and unfamiliar-reader validation.
+
+## VAL-006 — Movement Test
+
+### Purpose
+
+Determine what the participant believes moves through the Share moment.
+
+### Execution
+
+Ask: “What appears to move?” Record both the object named and the route or medium the participant describes.
+
+### Pass criteria for VIS-001
+
+The participant identifies the Pay Code, credential, code, message, or equivalent as moving from sender to recipient. Money, funds, or settlement must not appear to travel through the communication path.
+
+### Appropriate milestones
+
+Motion studies, static prototypes with directional paths, and rendered-asset review.
+
+## VAL-007 — Pay Code Test
+
+### Purpose
+
+Determine whether the participant understands the Pay Code as a credential rather than value or financial infrastructure.
+
+### Execution
+
+Ask: “What is the Pay Code?” Follow only with the neutral prompt “What makes you say that?” when clarification is needed.
+
+### Pass criteria for VIS-001
+
+The participant describes a credential, code, instruction reference, claim reference, or equivalent. A wallet, balance, cash object, bank account, or money container is a material misunderstanding.
+
+### Appropriate milestones
+
+Every VIS-001 prototype, publication, experience surface, and rendered asset.
+
+## VAL-008 — Claim Test
+
+### Purpose
+
+Determine whether the recipient's action and the end of credential movement are understood.
+
+### Execution
+
+Ask: “When does the recipient act?” Record whether the response places action during Claim, earlier during Share, or after an unexplained institutional process.
+
+### Pass criteria for VIS-001
+
+The recipient receives or presents the credential and acts during Claim. Share does not itself complete the payment.
+
+### Appropriate milestones
+
+VIS-001 prototypes, Claim adaptations, and publication review.
+
+## VAL-009 — Choice Test
+
+### Purpose
+
+Determine whether recipient choice is understood as part of Claim.
+
+### Execution
+
+Ask: “When does the recipient choose?” Do not mention destinations or Claim in the question.
+
+### Pass criteria for VIS-001
+
+Choice occurs inside Claim after the credential reaches the recipient. It is not a fourth first-level step or a sender decision presented as recipient agency.
+
+### Appropriate milestones
+
+Every composition in which supported destinations appear.
+
+## VAL-010 — Destination Test
+
+### Purpose
+
+Determine whether the visual communicates one selected destination and one completion.
+
+### Execution
+
+Ask: “How many destinations receive money?” Record the participant's number and reasoning.
+
+### Pass criteria for VIS-001
+
+Exactly one supported destination is selected for completion. Several visible options must not be interpreted as several payouts or universal distribution.
+
+### Appropriate milestones
+
+Claim, recipient-choice, application, and completion compositions.
+
+## VAL-011 — Institution Test
+
+### Purpose
+
+Determine who the participant believes performs or supports regulated financial completion.
+
+### Execution
+
+Ask: “Who actually completes the payment?” Record the actor in the participant's own words.
+
+### Pass criteria for VIS-001
+
+A participating financial institution, provider, or equivalent responsible service completes or supports the financial movement. The Pay Code, QR, communication channel, or x-change software does not become the financial institution.
+
+### Appropriate milestones
+
+Prototype testing, publication approval, doctrine review, and institution-facing adaptations.
+
 ## Supplemental checks
 
 ### Question Test
@@ -187,11 +316,17 @@ Does the accessible description convey purpose, actors, sequence, choice, and cr
 | --- | --- |
 | Concept | Question Test, Doctrine Test |
 | Semantic Icon | Doctrine Test, relationship review |
-| Illustration | Caption Test, Doctrine Test, Fifteen-Second Test where primary |
-| Composition | Caption Test, Doctrine Test, Fifteen-Second Test; Memory Test for primary compositions |
-| Publication | Fifteen-Second Test, Doctrine Test, Focus Test, accessibility review |
-| Experience Surface | Fifteen-Second Test, Memory Test where VIS-001 leads, Static-Equivalence Test where motion exists |
+| Illustration | Caption Test, Doctrine Test, Fifteen-Second Test where primary; semantic tests required by the depicted action |
+| Composition | Caption Test, Doctrine Test, Fifteen-Second Test; Memory Test and VAL-005–VAL-011 for VIS-001 |
+| Publication | Fifteen-Second Test, Doctrine Test, Focus Test, accessibility review; VAL-005–VAL-011 where VIS-001 leads |
+| Experience Surface | Fifteen-Second Test, Memory Test and VAL-005–VAL-011 where VIS-001 leads, Static-Equivalence Test where motion exists |
 | Rendered Asset | All tests required by its governed sources plus technical QA |
+
+## Reader-study records
+
+Formal unfamiliar-reader work follows [Reader Validation Workflow](READER_VALIDATION_WORKFLOW.md) and uses the reusable [Interview Template](READER_INTERVIEW_TEMPLATE.md), [Observation Form](READER_OBSERVATION_FORM.md), and [Summary Template](READER_SUMMARY_TEMPLATE.md).
+
+Observed behavior, coded observation, and researcher interpretation must remain distinct. Quantitative tables report counts and tested denominators; they do not replace verbatim evidence or imply population certainty.
 
 ## Validation gates
 

@@ -11,6 +11,9 @@ Prototype work may explore style, hierarchy, and medium. It may not redefine can
 
 ## Governance
 
+- [Reader Validation Workflow](../READER_VALIDATION_WORKFLOW.md)
+- [Visual Convergence Register](../CONVERGENCE_REGISTER.md)
+- [Marketing Design Decision Register](../DESIGN_DECISION_REGISTER.md)
 - Prototype Markdown belongs under `docs/marketing/prototypes/`.
 - Rough visual assets belong under `assets/marketing/prototypes/`.
 - Prototype assets must be labeled non-production.

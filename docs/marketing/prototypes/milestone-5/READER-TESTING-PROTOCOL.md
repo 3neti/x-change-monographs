@@ -1,5 +1,7 @@
 # VIS-001 Reader-Testing Protocol
 
+> **Historical protocol:** This Milestone 5 document is preserved as the prototype-stage precursor. Formal Milestone 6 studies follow the canonical [Reader Validation Workflow](../../READER_VALIDATION_WORKFLOW.md) and its reusable evidence templates.
+
 ## Purpose
 
 Test whether people unfamiliar with x-change can understand and later remember the fixed VIS-001 meaning across different visual directions.

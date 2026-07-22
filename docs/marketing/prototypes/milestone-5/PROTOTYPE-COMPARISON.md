@@ -121,3 +121,11 @@ Combination is not authorized during Milestone 5. Mixing untested strengths too 
 ## Final statement
 
 No production visual identity has been selected. Comprehension evidence must precede aesthetic convergence.
+
+## Milestone 6 validation status
+
+The corrected D03–D06 candidates and corrected D01 control are governed by the canonical [Reader Validation Workflow](../../READER_VALIDATION_WORKFLOW.md). Future studies use the reusable [Interview Template](../../READER_INTERVIEW_TEMPLATE.md), [Observation Form](../../READER_OBSERVATION_FORM.md), and [Summary Template](../../READER_SUMMARY_TEMPLATE.md).
+
+The comparison ratings and category leaders above remain design hypotheses. They are not reader evidence. Evidence-supported characteristics may enter the [Convergence Register](../../CONVERGENCE_REGISTER.md) only after real observations are recorded. Existing semantic decisions are traceable in the [Marketing Design Decision Register](../../DESIGN_DECISION_REGISTER.md).
+
+No participant data has been created, no direction has been declared a winner, and no production identity has been selected.

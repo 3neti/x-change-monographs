@@ -36,4 +36,4 @@ Milestone 5 proved that VIS-001 survives several visual families. Milestone 5.1 
 - [Label-Free Test Notes](LABEL-FREE-TEST-NOTES.md)
 - [Semantic and Doctrine Review](SEMANTIC-REVIEW.md)
 
-The existing [Reader-Testing Protocol](../milestone-5/READER-TESTING-PROTOCOL.md) remains authoritative for later sessions.
+The canonical [Reader Validation Workflow](../../READER_VALIDATION_WORKFLOW.md) governs later sessions. The original [Milestone 5 Reader-Testing Protocol](../milestone-5/READER-TESTING-PROTOCOL.md) remains preserved as the prototype-stage precursor.
