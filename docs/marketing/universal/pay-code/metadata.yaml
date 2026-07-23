@@ -16,6 +16,8 @@ milestone: "6.1"
 version: "0.9"
 status: "draft"
 editorial_state: "reader_sessions_ready"
+architecture_state: "frozen"
+evidence_collection_state: "authorized_pending_rv_001_launch_gate"
 canonical_format: "Markdown"
 enum_convention: "lowercase_snake_case"
 primary_message: "Send a Pay Code. The recipient chooses where to receive."
@@ -55,6 +57,7 @@ sources:
   reader_summary_template: "docs/marketing/READER_SUMMARY_TEMPLATE.md"
   convergence_register: "docs/marketing/CONVERGENCE_REGISTER.md"
   design_decision_register: "docs/marketing/DESIGN_DECISION_REGISTER.md"
+  first_reader_study_manifest: "docs/marketing/reader-studies/RV-001/MANIFEST.md"
   prototype_brief: "docs/marketing/prototypes/milestone-5/VIS-001-PROTOTYPE-BRIEF.md"
   prototype_comparison: "docs/marketing/prototypes/milestone-5/PROTOTYPE-COMPARISON.md"
   reader_testing_protocol: "docs/marketing/prototypes/milestone-5/READER-TESTING-PROTOCOL.md"
@@ -160,6 +163,12 @@ prototype_status:
   reader_study_operations_prepared: true
   reader_data_recorded: false
   convergence_evidence_entries: 0
+  architecture_frozen: true
+  prototype_history_preserved: true
+  first_reader_study:
+    id: "RV-001"
+    status: "prepared_pending_operational_launch_gate"
+    participant_data_recorded: false
   original_asset_root: "assets/marketing/prototypes/milestone-5/vis-001"
   corrected_asset_root: "assets/marketing/prototypes/milestone-5.1/vis-001"
 institution_specific_branding: false

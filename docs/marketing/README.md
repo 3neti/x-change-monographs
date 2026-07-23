@@ -4,6 +4,12 @@ Marketing is the governed publication family that introduces x-change and Pay Co
 
 Marketing earns attention. It explains one idea quickly, creates curiosity, and directs interested readers toward deeper governed publications. It does not replace Editorial doctrine, Commercial terms, Experiential demonstrations, Submission Portfolios, or Correspondence records.
 
+## Architecture state
+
+Milestones 1 through 6.1 are approved and the Marketing Design System architecture is frozen. Prototype history is preserved. The active workstream is real reader evidence collection; no production visual identity has been selected.
+
+The prepared first study is [RV-001 — General Unfamiliar Readers](reader-studies/RV-001/MANIFEST.md). It cannot begin until its operational launch gate is completed and precommitted.
+
 ## Governance
 
 - [Marketing Architecture](MARKETING_ARCHITECTURE.md)

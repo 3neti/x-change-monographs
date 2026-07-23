@@ -98,7 +98,19 @@ Each decision records an ID, title, status, date, context, decision, rationale, 
 - **Superseded by:** None
 - **Notes:** A repeated stored-value interpretation is a Doctrine failure and a stop condition.
 
+## MDDR-007 — Freeze the Marketing Design System architecture before evidence collection
+
+- **Status:** Accepted
+- **Date:** 2026-07-23
+- **Context:** Milestones 1 through 6.1 established the canonical doctrine, visual semantics, composition architecture, corrected candidates, validation workflow, and research operations. Continued speculative refinement would add untested assumptions.
+- **Decision:** Freeze the canonical architecture and D03–D06 reader-test candidates. Preserve D01 as an optional precommitted control, D02 and D08 as influence studies, D07 on hold, and every original, corrected, label-free, and scale asset. Further changes require documented reader evidence or an established doctrinal correction.
+- **Rationale:** The next design authority is observed reader comprehension, not internal aesthetic preference.
+- **Consequences:** No new visual family, prototype refinement, production identity, palette, typography, finished collateral, or renderer work begins before sufficient evidence. The workstream proceeds `Prototype → Observation → Evidence → Interpretation → Convergence → Production`.
+- **Governing sources:** `MARKETING_ARCHITECTURE.md`, `COMPOSITION_SYSTEM.md`, `compositions/VIS-001.md`, `READER_VALIDATION_WORKFLOW.md`, `CONVERGENCE_REGISTER.md`, `prototypes/milestone-5/`, `prototypes/milestone-5.1/`
+- **Supersedes:** None
+- **Superseded by:** None
+- **Notes:** A future change must identify its supporting study, evidence reference, observed misunderstanding or benefit, affected canonical sources, and reversibility.
+
 ## Change control
 
 A proposed change must identify the affected decision, canonical sources, evidence or doctrinal reason, consequences across compositions and publications, and whether a new reader study is required. Silent redefinition through a prototype or renderer is prohibited.
-

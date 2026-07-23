@@ -18,6 +18,8 @@ The Milestone 6 VIS-001 study uses:
 
 D02 and D08 remain design influences. D07 remains on hold. No additional visual family may enter the study without a new prototype decision.
 
+The Marketing Design System architecture and the Milestone 5.1 candidates are frozen during evidence collection. A proposed change must cite documented reader evidence or an established doctrinal correction; internal preference is insufficient.
+
 ## Roles
 
 | Role | Responsibility |
@@ -163,6 +165,8 @@ The study manifest should record:
 Store participant identity or contact details separately from research observations when identity must be retained at all. Raw participant materials, consent records, recordings, and identity keys remain outside public source control. Access is limited to the roles or named people precommitted in the study manifest. Each record class must have a retention period or deletion event stated before recruitment, and retention may not exceed the consent granted for the study.
 
 Only appropriately de-identified manifests, aggregate summaries, and governed conclusions may enter the repository. At the end of the stated period, the evidence custodian deletes, returns, or irreversibly de-identifies the material as recorded in the manifest.
+
+Study IDs are immutable. A materially changed, stopped-and-restarted, or follow-up study receives a new identifier or separately versioned manifest. Never overwrite a completed study record.
 
 ## Ethics and participant care
 

@@ -17,6 +17,7 @@ Develop one canonical marketing knowledge base that can produce concise, consist
 | 5.1 — VIS-001 Prototype Correction | Persistent credential continuity, stronger Generate and Claim semantics, corrected D03–D06 shortlist, D01 control, label-free variants, and three-scale previews | Complete | Shortlisted directions are visually ready for fair unfamiliar-reader testing without selecting a production identity |
 | 6 — Reader Validation and Visual Convergence | Canonical unfamiliar-reader workflow, semantic comprehension tests, evidence forms, observation tables, convergence register, and design-decision traceability | Prepared | Real participant evidence identifies which ideas communicate, confuse, and merit preservation without changing VIS-001 semantics |
 | 6.1 — Session Readiness and Research Operations | Precommitted study manifest, participant information and consent, explicit evidence retention, neutral institution prompt, and D01 control parity | Complete | A real reader study can begin with fixed parameters, informed consent, reproducible assets, and auditable evidence operations |
+| Architecture Freeze | Preserve canonical architecture and prototype history; prohibit speculative refinement before evidence | Complete | Further design changes require traceable reader evidence or established doctrine |
 | 7 — First Renderers | Reusable composition renderer and first publication-prototype pipeline | Planned | One command produces review-proof assets without rewriting source or composition semantics |
 | 8 — Review and Message Lock | Publication-level review and approved copy and composition lock | Planned | Primary message understood within one minute; VIS-001 passes the Memory Test; boundaries remain accurate |
 | 9 — Extended Collateral | Social cards, presentation slides, website modules, animation studies, and trade-show display variants | Planned | New formats reuse governed messages, semantic icons, illustration IDs, and canonical compositions |
@@ -25,13 +26,11 @@ Develop one canonical marketing knowledge base that can produce concise, consist
 
 ## Priority sequence
 
-1. Complete the universal Pay Code architecture and source drafts.
-2. Assemble publications declaratively from canonical VIS compositions.
-3. Test the advancing VIS-001 prototype directions with first-time readers using the canonical protocol.
-4. Narrow or combine directions only after comprehension evidence exists.
-5. Prototype other illustrations only after a visual direction is governed.
-6. Organize renderers around Experience Surfaces rather than publication names.
-7. Extend only after the core definition and visual story are stable.
+1. Complete the operational launch gate and precommit RV-001.
+2. Test D03–D06 with unfamiliar readers under the fixed study protocol.
+3. Preserve raw observations outside public source control and commit only approved anonymized evidence.
+4. Narrow or combine characteristics only after comprehension evidence exists.
+5. Begin production language and renderers only after evidence-backed convergence.
 
 ## Planned publication queue
 
@@ -56,4 +55,4 @@ Develop one canonical marketing knowledge base that can produce concise, consist
 
 ## Stop conditions
 
-Do not begin production artwork or renderer optimization until the Milestone 2 illustration semantics and primary message have been reviewed. Do not create institution-specific marketing collateral before the universal series has a stable architecture. Do not use engagement metrics to justify claims that contradict canonical doctrine.
+Do not refine D03–D06, create a new visual family, or begin production artwork, palette, typography, collateral, or renderer optimization before reader evidence supports convergence. Do not create institution-specific marketing collateral before the universal series has an evidence-backed production language. Do not use preference or engagement metrics to justify claims that contradict canonical doctrine.
