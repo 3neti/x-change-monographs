@@ -2,7 +2,7 @@
 
 ## Study status
 
-**Prepared — launch gate open; not yet precommitted.**
+**Prepared — not authorized; not yet precommitted.**
 
 The research design below is fixed for review. Recruitment and evidence collection must not begin until the operational assignments in the launch gate are completed and the manifest is marked **Precommitted** in a new commit.
 
@@ -156,6 +156,8 @@ A characteristic may become **Proposed from evidence** only when:
 
 The entry remains provisional until tested in another profile or surface condition. RV-001 cannot select a production identity.
 
+When fewer than six usable participants complete the relevant exposure, RV-001 cannot promote a visual characteristic to **Proposed from evidence** based on this study alone. A smaller completed sample may document repeated misunderstandings, identify comprehension failures, support retesting, generate hypotheses, and produce a study report; it may not satisfy or retrospectively relax the six-participant convergence threshold.
+
 ### Correction and retest criteria
 
 - Pause a direction when three of the first four exposed participants independently express the same material Doctrine failure.
@@ -197,4 +199,3 @@ No participant session is authorized while any launch-gate field remains unresol
 ## Evidence state
 
 No participant data exists. No observation has been recorded. No convergence entry or production decision is authorized by this prepared manifest.
-

@@ -17,7 +17,7 @@ version: "0.9"
 status: "draft"
 editorial_state: "reader_sessions_ready"
 architecture_state: "frozen"
-evidence_collection_state: "authorized_pending_rv_001_launch_gate"
+evidence_collection_state: "prepared_not_authorized"
 canonical_format: "Markdown"
 enum_convention: "lowercase_snake_case"
 primary_message: "Send a Pay Code. The recipient chooses where to receive."
@@ -168,6 +168,8 @@ prototype_status:
   first_reader_study:
     id: "RV-001"
     status: "prepared_pending_operational_launch_gate"
+    recruitment_authorized: false
+    participant_sessions_authorized: false
     participant_data_recorded: false
   original_asset_root: "assets/marketing/prototypes/milestone-5/vis-001"
   corrected_asset_root: "assets/marketing/prototypes/milestone-5.1/vis-001"
