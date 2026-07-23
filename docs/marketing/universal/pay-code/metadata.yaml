@@ -58,6 +58,7 @@ sources:
   convergence_register: "docs/marketing/CONVERGENCE_REGISTER.md"
   design_decision_register: "docs/marketing/DESIGN_DECISION_REGISTER.md"
   first_reader_study_manifest: "docs/marketing/reader-studies/RV-001/MANIFEST.md"
+  visual_sprint_zero: "docs/marketing/prototypes/visual-sprint-zero/README.md"
   prototype_brief: "docs/marketing/prototypes/milestone-5/VIS-001-PROTOTYPE-BRIEF.md"
   prototype_comparison: "docs/marketing/prototypes/milestone-5/PROTOTYPE-COMPARISON.md"
   reader_testing_protocol: "docs/marketing/prototypes/milestone-5/READER-TESTING-PROTOCOL.md"
@@ -171,6 +172,14 @@ prototype_status:
     recruitment_authorized: false
     participant_sessions_authorized: false
     participant_data_recorded: false
+  visual_sprint_zero:
+    status: "nonproduction_exploration"
+    canonical_pay_code_object: "framed_alphanumeric_credential"
+    illustrative_code: "7K9M-4R2P"
+    directions_planned: 6
+    directions_persisted: 6
+    production_identity_selected: false
+    rv_001_affected: false
   original_asset_root: "assets/marketing/prototypes/milestone-5/vis-001"
   corrected_asset_root: "assets/marketing/prototypes/milestone-5.1/vis-001"
 institution_specific_branding: false

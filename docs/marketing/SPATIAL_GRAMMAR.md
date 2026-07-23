@@ -41,6 +41,8 @@ The Pay Code occupies different relationships at different moments:
 
 The Pay Code must not sit inside a cash container, account balance, wallet, settlement resource, or human body.
 
+At every position, the primary object remains a readable alphanumeric credential framed by parallel-line marks. A QR companion may sit beside the credential or among Share channel cues only when smaller and spatially subordinate. The QR may not replace the credential, lead the hierarchy, or imply required scanning.
+
 ## Institutional depth
 
 Institutions provide structural context. They remain visually behind people unless the composition specifically answers an institutional question.
@@ -77,7 +79,7 @@ Avoid hub-and-spoke diagrams for VIS-001. They imply platform centrality rather 
 
 Communication lies between sender and recipient. Channel cues remain adjacent to the path and subordinate to the Pay Code.
 
-A phone, QR, email, message, or printed paper cue may identify how the credential travels. It must not appear beneath the institutional settlement layer or suggest that the channel moves money.
+A phone, QR, email, message, voice, or printed paper cue may identify how the credential travels. It must remain subordinate to the human-readable alphanumeric Pay Code, must not appear beneath the institutional settlement layer, and must not suggest that the channel moves money.
 
 ## Validation and settlement position
 

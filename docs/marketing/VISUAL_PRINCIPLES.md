@@ -78,6 +78,10 @@ One Pay Code must never appear to split into multiple payouts, create duplicated
 
 The Pay Code is a portable credential for an authorized instruction.
 
+Its canonical visual identity is human-readable and portable: an uppercase alphanumeric code framed by two parallel-line marks, such as `|| 7K9M-4R2P ||`. The same legible code remains recognizable through Generate, Share, and Claim.
+
+QR is an optional machine-readable encoding or sharing form. It may appear as a smaller companion or one channel among SMS, chat, email, print, and voice. It must not replace, exceed, or become the identity of the alphanumeric credential.
+
 It must never visually contain:
 
 - money;
@@ -86,6 +90,8 @@ It must never visually contain:
 - a deposit;
 - a wallet; or
 - a guaranteed outcome.
+
+The artwork must not imply that scanning, a camera, or a smartphone is required.
 
 Money does not travel through the communication channel. The credential does. Participating financial institutions and providers perform the financial service.
 

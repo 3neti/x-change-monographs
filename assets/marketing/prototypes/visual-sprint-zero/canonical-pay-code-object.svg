@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="240" viewBox="0 0 720 240" role="img" aria-labelledby="title desc" data-prototype="VS0-OBJ-001">
+  <title id="title">Canonical framed alphanumeric Pay Code object study</title>
+  <desc id="desc">A non-functional illustrative Pay Code, 7K9M-4R2P, appears as readable text framed by two parallel line marks on each side. No QR or money symbol appears.</desc>
+  <rect width="720" height="240" fill="#fff"/>
+  <text x="36" y="40" font-family="Arial, sans-serif" font-size="14" letter-spacing="2" fill="#555">NON-PRODUCTION OBJECT STUDY · VS0-OBJ-001</text>
+  <g data-object="pay-code" data-code="7K9M-4R2P" transform="translate(55 75)">
+    <rect width="610" height="105" rx="8" fill="#f4f4f4" stroke="#111" stroke-width="3"/>
+    <g data-role="parallel-frame" stroke="#111" stroke-width="5">
+      <path d="M35 24v57M52 24v57M558 24v57M575 24v57"/>
+    </g>
+    <text x="305" y="66" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" font-weight="700" letter-spacing="2" fill="#111">7K9M-4R2P</text>
+  </g>
+  <text x="360" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#555">illustrative · non-functional · human-readable credential</text>
+</svg>

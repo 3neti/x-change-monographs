@@ -37,6 +37,7 @@ The prepared first study is [RV-001 — General Unfamiliar Readers](reader-studi
 - [Style Guide](STYLE_GUIDE.md)
 - [Publication Roadmap](PUBLICATION_ROADMAP.md)
 - [Visual Prototypes](prototypes/README.md)
+- [Visual Sprint Zero](prototypes/visual-sprint-zero/README.md)
 
 ## Universal Pay Code series
 

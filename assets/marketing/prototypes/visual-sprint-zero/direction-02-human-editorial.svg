@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc" data-prototype="VS0-D02">
+  <title id="title">Visual Sprint Zero Human Editorial study</title>
+  <desc id="desc">A sender and recipient anchor a restrained human story. The same illustrative framed alphanumeric Pay Code 7K9M-4R2P travels through ordinary communication and arrives for Claim, where the recipient chooses one supported destination.</desc>
+  <rect width="1200" height="650" fill="#fff"/>
+  <text x="44" y="42" font-family="Georgia, serif" font-size="14" letter-spacing="2" fill="#555">NON-PRODUCTION · VISUAL SPRINT ZERO · VS0-D02</text>
+  <g font-family="Georgia, serif" fill="#111"><text x="90" y="112" font-size="30">Generate</text><text x="500" y="112" font-size="30">Share</text><text x="860" y="112" font-size="32">Claim</text></g>
+  <g stroke="#111" fill="none"><circle cx="150" cy="240" r="34" fill="#eee" stroke-width="3"/><path d="M150 274v110M112 330h76" stroke-width="4"/><path d="M210 188h150v95H210zM232 215h103M232 242h68" stroke-width="3"/><circle cx="375" cy="240" r="18"/><path d="M366 240l7 7 13-17" stroke-width="3"/></g>
+  <path d="M330 355C470 290 605 290 760 350" fill="none" stroke="#999" stroke-width="3" stroke-dasharray="7 10"/>
+  <g data-object="pay-code" data-code="7K9M-4R2P" transform="translate(270 318)"><rect width="220" height="82" rx="4" fill="#fff" stroke="#111" stroke-width="3"/><g data-role="parallel-frame" stroke="#111" stroke-width="3"><path d="M18 20v42M30 20v42M190 20v42M202 20v42"/></g><text x="110" y="51" text-anchor="middle" font-family="Arial, sans-serif" font-size="19" font-weight="700">7K9M-4R2P</text></g>
+  <g data-object="pay-code" data-code="7K9M-4R2P" transform="translate(505 285)"><rect width="220" height="82" rx="4" fill="#fff" stroke="#111" stroke-width="3"/><g data-role="parallel-frame" stroke="#111" stroke-width="3"><path d="M18 20v42M30 20v42M190 20v42M202 20v42"/></g><text x="110" y="51" text-anchor="middle" font-family="Arial, sans-serif" font-size="19" font-weight="700">7K9M-4R2P</text></g>
+  <g data-object="pay-code" data-code="7K9M-4R2P" transform="translate(770 330)"><rect width="245" height="94" rx="4" fill="#111"/><g data-role="parallel-frame" stroke="#fff" stroke-width="3"><path d="M20 23v48M32 23v48M213 23v48M225 23v48"/></g><text x="122" y="58" text-anchor="middle" font-family="Arial, sans-serif" font-size="21" font-weight="700" fill="#fff">7K9M-4R2P</text></g>
+  <g font-family="Georgia, serif" font-size="14" fill="#555"><text x="525" y="405">SMS</text><text x="585" y="405">chat</text><text x="640" y="405">print</text></g>
+  <circle cx="840" cy="230" r="36" fill="#ddd" stroke="#111" stroke-width="3"/><path d="M840 266v100M806 315h68" stroke="#111" stroke-width="4"/>
+  <path d="M895 438v25M895 463l-95 65M895 463v65M895 463l95 65" fill="none" stroke="#888" stroke-width="5"/><path d="M895 463v65" stroke="#111" stroke-width="8"/>
+  <circle cx="800" cy="530" r="19" fill="#fff" stroke="#aaa" stroke-width="4"/><circle cx="895" cy="530" r="23" fill="#111"/><circle cx="990" cy="530" r="19" fill="#fff" stroke="#aaa" stroke-width="4"/><path d="M918 530h130" stroke="#888" stroke-width="2" stroke-dasharray="4 7"/><rect x="1048" y="510" width="65" height="44" fill="#eee" stroke="#111" stroke-width="2"/>
+  <text x="600" y="615" text-anchor="middle" font-family="Georgia, serif" font-size="19" fill="#333">An intended payment. A portable human-readable credential. A recipient chooses.</text>
+</svg>

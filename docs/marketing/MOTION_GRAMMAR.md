@@ -31,6 +31,8 @@ The Pay Code never appears from empty space. An intended payment and governed in
 
 During Share, the Pay Code moves between people through a communication path. Do not animate coins, cash, balances, or funds inside the credential or channel.
 
+The moving object is the same framed alphanumeric credential. Its code value and parallel-line identity remain legible and stable across Generate, Share, and Claim. QR may appear as a subordinate encoding or channel cue; it never becomes the moving persistent object.
+
 ### Claim begins with stillness
 
 The Pay Code reaches the recipient and stops. This pause separates communication from action and makes the recipient the agent of the next moment.

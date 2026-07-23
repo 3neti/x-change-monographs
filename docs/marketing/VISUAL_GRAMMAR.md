@@ -16,7 +16,7 @@ Target approximately 80% illustration and 20% text. Use one visual argument per 
 | --- | --- | --- |
 | Sender | Authorizes or initiates the intended outcome | Must not appear to bypass institutional authority |
 | Responsible institution | Governs the service, conditions, and instruction | Must not be replaced by the x-change logo |
-| Pay Code | Portable credential or bridge between moments | Must never be drawn as a wallet, container of cash, or bank account |
+| Pay Code | Human-readable uppercase alphanumeric credential framed by two parallel-line marks; persistent bridge between moments | Must never be drawn as a QR-only object, wallet, container of cash, or bank account |
 | Recipient | Presents the credential and follows a supported journey | Must retain human agency without implying universal choice |
 | Participating financial provider | Performs or supports regulated financial movement | Must remain visibly distinct from x-change software |
 | Supported destination | An available bank, wallet, provider, or approved channel | Must be presented as supported, not unlimited |
@@ -48,7 +48,7 @@ Authorization and Recipient Choice are important, but they are not additional fi
 - **People:** simple, dignified figures without demographic caricature.
 - **Institution:** a neutral governed-service frame, counter, seal, or structural gateway—not a specific bank façade.
 - **Instruction:** a subtle line, document, or path behind the Pay Code.
-- **Pay Code:** a distinct credential tile using the canonical double-bar motif where appropriate: `|| PAY CODE ||`.
+- **Pay Code:** a distinct, legible alphanumeric credential framed by two parallel-line marks: `|| 7K9M-4R2P ||`. In visual studies, the sample is illustrative and non-functional. QR may accompany it only as a smaller optional encoding.
 - **Choice:** a small set of clearly supported destinations discovered within Claim, never a separate first-level step or an infinite network.
 - **Conditions:** a restrained checkpoint, verified mark, or ordered gate.
 - **Completion:** a calm confirmation at the recipient; avoid exploding coins, celebratory cash, or speculative wealth imagery.
@@ -85,6 +85,8 @@ Do not show:
 - a sender transferring directly to every bank or wallet in existence;
 - unsupported institutional logos;
 - screenshots or speculative product interfaces;
+- a QR code alone labeled or moved as the Pay Code;
+- QR larger than the framed alphanumeric credential or artwork implying that scanning is required;
 - regulatory seals or approval marks;
 - instant, guaranteed, universal, or frictionless completion;
 - recipients avoiding identity, eligibility, compliance, or service conditions.

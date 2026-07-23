@@ -17,7 +17,7 @@ Every illustration uses the same small set of semantic elements.
 | Person | A known sender or intended recipient | Human figure with clear direction of attention; never an anonymous silhouette when identity matters |
 | Governed frame | Institutional responsibility | A restrained boundary, counter, or structural frame; never the x-change mark alone |
 | Instruction | The authorized purpose behind the journey | A subtle document or line originating inside the governed frame |
-| Pay Code | Portable credential | A distinct tile using the double-bar motif: `|| PAY CODE ||` |
+| Pay Code | Portable credential | A distinct human-readable uppercase alphanumeric code framed by parallel-line marks, for example `|| 7K9M-4R2P ||`; sample values are illustrative and non-functional |
 | Communication path | Portability between people | A neutral path that may carry channel cues without becoming a product interface |
 | Supported destination | An available participating institution or channel | Two or three neutral, bounded choices; never an endless logo field |
 | Checkpoint | Validation or applicable conditions | A quiet gate or check mark within the governed journey |
@@ -102,7 +102,7 @@ A responsible institution represents an intended, authorized payment as a portab
 ┌──────── RESPONSIBLE INSTITUTION ────────┐
 │ intended payment → authorized instruction│
 │                              ↓           │
-│                      || PAY CODE ||      │
+│                    || 7K9M-4R2P ||       │
 └──────────────────────────────────────────┘
 ```
 
@@ -118,7 +118,7 @@ The Pay Code originates inside the governed institutional frame. The intended pa
 
 - Show authorization as a quiet part of Generate, not as a public fourth step.
 - Keep the instruction visually behind or immediately before the credential.
-- Use the canonical double-bar motif consistently.
+- Use the same legible alphanumeric value and canonical parallel-line framing consistently.
 - The credential may leave the institutional frame; money does not appear inside it.
 
 ### Must not imply
@@ -146,9 +146,9 @@ The same credential can travel through an ordinary, appropriate communication ch
 
 ```text
 SENDER                PORTABLE CREDENTIAL                 RECIPIENT
-  ●       ────────     || PAY CODE ||      ────────          ●
-                      SMS · QR · email
-                    message · printed paper
+  ●       ────────   || 7K9M-4R2P ||   ────────          ●
+                    SMS · chat · email
+                  print · voice · optional QR
 ```
 
 One Pay Code moves along one selected path. Channel cues surround the path as examples; they are not additional destinations or simultaneous transmissions.
@@ -165,6 +165,7 @@ One Pay Code moves along one selected path. Channel cues surround the path as ex
 - Emphasize portability, not a particular app or device.
 - Depict one active communication path at a time.
 - Printed paper belongs to the same family as digital channels.
+- Keep the alphanumeric credential primary. QR, when present, is one smaller optional channel or encoding.
 
 ### Must not imply
 
@@ -172,6 +173,7 @@ One Pay Code moves along one selected path. Channel cues surround the path as ex
 - that every communication channel is always approved;
 - a product user interface; or
 - money moving through SMS, email, QR, or messaging.
+- QR replacing the credential or scanning becoming required.
 
 ### Fifteen-second test
 
@@ -191,7 +193,7 @@ The recipient presents the Pay Code, chooses an available supported destination,
 
 ```text
 RECIPIENT
-   ● + || PAY CODE ||
+   ● + || 7K9M-4R2P ||
             ↓
       ┌──── CLAIM ────┐
       │ choose        │──┬── supported bank
@@ -245,7 +247,7 @@ One Pay Code may be presented through one of several available supported destina
 ```text
 INSIDE CLAIM
 
-|| PAY CODE || → choose one ──┬── BANK
+|| 7K9M-4R2P || → choose one ──┬── BANK
                               ├── EMI
                               └── PROVIDER
                                       ↓

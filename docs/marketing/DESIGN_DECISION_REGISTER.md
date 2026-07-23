@@ -111,6 +111,19 @@ Each decision records an ID, title, status, date, context, decision, rationale, 
 - **Superseded by:** None
 - **Notes:** A future change must identify its supporting study, evidence reference, observed misunderstanding or benefit, affected canonical sources, and reversibility.
 
+## MDDR-008 — Use the framed alphanumeric credential as the Pay Code visual identity
+
+- **Status:** Accepted
+- **Date:** 2026-07-23
+- **Context:** A QR-first representation incorrectly narrows Pay Code to scanning and can imply that the QR is the money, the only form of the credential, or a smartphone-dependent payment product.
+- **Decision:** The canonical visual identity of Pay Code is its human-readable uppercase alphanumeric credential framed by two parallel-line marks, for example `|| 7K9M-4R2P ||`. QR is an optional encoding, sharing method, or presentation companion and remains visually secondary.
+- **Rationale:** The framed alphanumeric object communicates portability across SMS, chat, email, print, voice, manual entry, and optional QR while preserving recognition of one credential through Generate, Share, and Claim.
+- **Consequences:** ICN-003, ILL-002 through ILL-005, VIS-001, future renderers, and every marketing publication must preserve the legible framed code as the primary object. QR may appear smaller beside it or among channel cues. QR alone may not be labeled Pay Code, become the persistent moving object, exceed the credential's visual weight, or imply required scanning. Existing Milestone 5 and 5.1 prototype assets remain immutable historical records; corrections are versioned in a separate sprint area.
+- **Governing sources:** `ICON_SYSTEM.md`, `VISUAL_PRINCIPLES.md`, `VISUAL_GRAMMAR.md`, `ILLUSTRATION_CONCEPT_SPECIFICATIONS.md`, `MOTION_GRAMMAR.md`, `SPATIAL_GRAMMAR.md`, `compositions/VIS-001.md`
+- **Supersedes:** None
+- **Superseded by:** None
+- **Notes:** This decision clarifies the visual object without changing Pay Code doctrine or reopening the frozen composition architecture.
+
 ## Change control
 
 A proposed change must identify the affected decision, canonical sources, evidence or doctrinal reason, consequences across compositions and publications, and whether a new reader study is required. Silent redefinition through a prototype or renderer is prohibited.

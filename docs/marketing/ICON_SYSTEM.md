@@ -41,11 +41,11 @@ It does not define SVG paths, drawing style, stroke weight, color, dimensions, o
 
 **Semantic meaning:** A portable credential representing an authorized instruction.
 
-**Intended usage:** The persistent object connecting Generate, Share, and Claim. Use the canonical double-bar motif where words are present: `|| PAY CODE ||`.
+**Intended usage:** The persistent object connecting Generate, Share, and Claim. Its canonical visual identity is the human-readable uppercase alphanumeric credential framed by two parallel-line marks on each side, for example `|| 7K9M-4R2P ||`. A sample value in artwork must be identified as illustrative and non-functional.
 
 **Relationships:** A Pay Code originates from an Instruction, travels through Communication, and is presented by a Person during Claim.
 
-**Prohibited interpretations:** Money, cash, coin, deposit, stored value, account, wallet balance, gift certificate, or guaranteed payment.
+**Prohibited interpretations:** Money, cash, coin, deposit, stored value, account, wallet balance, gift certificate, guaranteed payment, QR-only object, or credential that requires scanning.
 
 ### ICN-004 — Instruction
 
@@ -61,11 +61,11 @@ It does not define SVG paths, drawing style, stroke weight, color, dimensions, o
 
 **Semantic meaning:** One possible machine-readable presentation or communication form for a Pay Code.
 
-**Intended usage:** Secondary channel cue within Share or presentation cue within Claim.
+**Intended usage:** Secondary channel cue within Share or presentation cue within Claim. When shown beside a Pay Code, it must remain smaller and subordinate to the framed alphanumeric credential.
 
 **Relationships:** A QR carries or presents the Pay Code; it may sit beside Communication or a Person.
 
-**Prohibited interpretations:** The Pay Code's only form, a payment rail, proof of settlement, universal scanner compatibility, or decorative technology motif.
+**Prohibited interpretations:** The Pay Code's identity or only form, the persistent object in VIS-001, a payment rail, proof of settlement, universal scanner compatibility, required scanning, or decorative technology motif.
 
 ### ICN-006 — Receipt
 

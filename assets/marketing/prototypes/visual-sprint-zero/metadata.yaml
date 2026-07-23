@@ -1,0 +1,45 @@
+sprint: "visual_sprint_zero"
+status: "nonproduction_exploration"
+canonical_composition: "VIS-001"
+canonical_icon: "ICN-003"
+canonical_object:
+  id: "VS0-OBJ-001"
+  asset: "assets/marketing/prototypes/visual-sprint-zero/canonical-pay-code-object.svg"
+  illustrative_value: "7K9M-4R2P"
+  functional: false
+  framing: "two_parallel_line_marks_each_side"
+  qr_role: "optional_subordinate_encoding_or_channel"
+directions:
+  - id: "VS0-D01"
+    name: "Transit Journey"
+    asset: "assets/marketing/prototypes/visual-sprint-zero/direction-01-transit.svg"
+    source_influences: ["D03"]
+  - id: "VS0-D02"
+    name: "Human Editorial"
+    asset: "assets/marketing/prototypes/visual-sprint-zero/direction-02-human-editorial.svg"
+    source_influences: ["D04"]
+  - id: "VS0-D03"
+    name: "Pictographic Wayfinding"
+    asset: "assets/marketing/prototypes/visual-sprint-zero/direction-03-wayfinding.svg"
+    source_influences: ["D05"]
+  - id: "VS0-D04"
+    name: "Modular Semantic"
+    asset: "assets/marketing/prototypes/visual-sprint-zero/direction-04-modular.svg"
+    source_influences: ["D06"]
+  - id: "VS0-D05"
+    name: "Minimal Executive"
+    asset: "assets/marketing/prototypes/visual-sprint-zero/direction-05-executive.svg"
+    source_influences: ["D08"]
+  - id: "VS0-D06"
+    name: "Hybrid Convergence Study"
+    asset: "assets/marketing/prototypes/visual-sprint-zero/direction-06-hybrid.svg"
+    source_influences: ["D06", "D03", "D04", "D05", "D08"]
+validation:
+  grayscale_required: true
+  accessible_title_and_description_required: true
+  alphanumeric_code_required: true
+  parallel_framing_required: true
+  one_persistent_credential_required: true
+  qr_absent_or_subordinate: true
+  rv_001_affected: false
+production_identity_selected: false
