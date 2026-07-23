@@ -30,6 +30,10 @@ Accessible `<title>` and `<desc>` elements remain in the SVG source. They are no
 
 ## Direction-specific questions
 
+### D01 Flat Geometric control
+
+Does the neutral geometry communicate one credential journey without relying on labels, or does the credential become more important than the people and intended outcome?
+
 ### D03 Transit Map
 
 Does the viewer follow the credential marker, or describe the line itself as the payment rail?
@@ -48,6 +52,6 @@ Does the viewer see one journey across modules rather than three independent ins
 
 ## Use rule
 
-Show the label-free asset before the corrected labeled asset. Record the unprompted explanation. Do not reveal direction names or canonical terms until the Caption Test response is complete.
+Show the label-free asset before the corrected labeled asset. Record the unprompted explanation. Do not reveal direction names or canonical terms until the Caption Test response is complete. Include D01 only when its role and presentation conditions were fixed in the study manifest before evidence collection.
 
 No Caption Test results are claimed in this milestone.

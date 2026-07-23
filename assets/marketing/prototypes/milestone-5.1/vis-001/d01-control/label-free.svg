@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
+  <title id="title">Label-free corrected D01 Flat Geometric control test variant</title>
+  <desc id="desc">A payment-purpose block and approval check lead to one credential shown along a restrained trace. It becomes solid when it stops beside a recipient, then one of three bounded destinations is selected and a separate dotted line indicates provider completion.</desc>
+  <rect width="1200" height="650" fill="#fff"/>
+  <rect x="55" y="145" width="300" height="360" fill="#f5f5f5" stroke="#777" stroke-width="2"/>
+  <rect x="755" y="135" width="390" height="410" fill="#f5f5f5" stroke="#111" stroke-width="4"/>
+  <g fill="none" stroke="#111">
+    <rect x="85" y="205" width="150" height="72" fill="#ddd" stroke-width="2"/>
+    <path d="M105 228h105M105 251h72" stroke-width="3"/>
+    <circle cx="275" cy="241" r="20" fill="#fff" stroke-width="2"/>
+    <path d="M265 241l8 8 15-18" stroke-width="3"/>
+  </g>
+  <circle cx="810" cy="229" r="34" fill="#ddd" stroke="#111" stroke-width="3"/>
+  <path d="M810 263v74M778 300h64" stroke="#111" stroke-width="4"/>
+  <path d="M305 327H900" stroke="#888" stroke-width="3" stroke-dasharray="8 10" fill="none"/>
+  <path d="M900 327H955" stroke="#111" stroke-width="4" fill="none"/>
+  <g stroke="#111" stroke-width="3">
+    <rect x="270" y="298" width="120" height="58" fill="#fff"/>
+    <path d="M290 313v28M370 313v28M305 327h50"/>
+    <rect x="485" y="298" width="120" height="58" fill="#fff"/>
+    <path d="M505 313v28M585 313v28M520 327h50"/>
+    <rect x="900" y="290" width="155" height="74" fill="#111"/>
+    <path d="M923 309v36M1032 309v36M943 327h69" stroke="#fff"/>
+  </g>
+  <path d="M960 397v28M960 425l-85 30M960 425v30M960 425l85 30" stroke="#111" stroke-width="3" fill="none"/>
+  <circle cx="875" cy="455" r="22" fill="#fff" stroke="#aaa" stroke-width="3"/>
+  <circle cx="960" cy="455" r="24" fill="#111"/>
+  <circle cx="1045" cy="455" r="22" fill="#fff" stroke="#aaa" stroke-width="3"/>
+  <path d="M960 479v25h70" stroke="#777" stroke-width="2" stroke-dasharray="4 6" fill="none"/>
+  <circle cx="1042" cy="504" r="10" fill="#111"/>
+</svg>

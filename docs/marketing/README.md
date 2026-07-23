@@ -21,6 +21,8 @@ Marketing earns attention. It explains one idea quickly, creates curiosity, and 
 - [Layout Wireframes](LAYOUT_WIREFRAMES.md)
 - [Design Validation](DESIGN_VALIDATION.md)
 - [Reader Validation Workflow](READER_VALIDATION_WORKFLOW.md)
+- [Reader Study Manifest Template](READER_STUDY_MANIFEST_TEMPLATE.md)
+- [Participant Information and Consent](READER_PARTICIPANT_INFORMATION_AND_CONSENT.md)
 - [Reader Interview Template](READER_INTERVIEW_TEMPLATE.md)
 - [Reader Observation Form](READER_OBSERVATION_FORM.md)
 - [Reader Summary Template](READER_SUMMARY_TEMPLATE.md)

@@ -12,10 +12,10 @@ series:
     - "Electronic Money Issuers"
     - "FinTechs"
     - "Payment Providers"
-milestone: "6"
-version: "0.8"
+milestone: "6.1"
+version: "0.9"
 status: "draft"
-editorial_state: "reader_validation_prepared"
+editorial_state: "reader_sessions_ready"
 canonical_format: "Markdown"
 enum_convention: "lowercase_snake_case"
 primary_message: "Send a Pay Code. The recipient chooses where to receive."
@@ -48,6 +48,8 @@ sources:
   layout_wireframes: "docs/marketing/LAYOUT_WIREFRAMES.md"
   design_validation: "docs/marketing/DESIGN_VALIDATION.md"
   reader_validation_workflow: "docs/marketing/READER_VALIDATION_WORKFLOW.md"
+  reader_study_manifest_template: "docs/marketing/READER_STUDY_MANIFEST_TEMPLATE.md"
+  reader_participant_information_and_consent: "docs/marketing/READER_PARTICIPANT_INFORMATION_AND_CONSENT.md"
   reader_interview_template: "docs/marketing/READER_INTERVIEW_TEMPLATE.md"
   reader_observation_form: "docs/marketing/READER_OBSERVATION_FORM.md"
   reader_summary_template: "docs/marketing/READER_SUMMARY_TEMPLATE.md"
@@ -150,11 +152,12 @@ prototype_status:
     - "D08"
   on_hold:
     - "D07"
-  label_free_variants_created: 4
+  label_free_variants_created: 5
   scale_profiles_per_shortlisted_direction: 3
   production_identity_selected: false
   reader_testing_completed: false
   reader_validation_workflow_prepared: true
+  reader_study_operations_prepared: true
   reader_data_recorded: false
   convergence_evidence_entries: 0
   original_asset_root: "assets/marketing/prototypes/milestone-5/vis-001"

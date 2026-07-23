@@ -14,6 +14,14 @@ Document how each shortlisted corrected composition behaves when the same hierar
 
 All three preserve the same aspect ratio and composition. No profile was independently redesigned. The Banner Distance export tests enlargement and distance; it is not a final banner layout.
 
+## D01 — Flat Geometric control
+
+- **Small Card:** The plain three-part structure and arrived credential remain visible; secondary authorization and completion labels weaken.
+- **Page:** The neutral hierarchy is fully available without adding a strong stylistic signal.
+- **Banner Distance:** Generate, Share, Claim, and the enlarged Claim field remain legible; fine trace and provider detail become secondary.
+- **Break risk:** The credential and geometry may displace the human outcome.
+- **Use rule:** D01 is optional. Its inclusion, scale, and label condition must be precommitted and matched to the candidate conditions.
+
 ## D03 — Transit Map
 
 - **Small Card:** Route and three credential states survive. Small participating labels do not; the visual must work without them.
@@ -51,4 +59,4 @@ All three preserve the same aspect ratio and composition. No profile was indepen
 - Small semantic labels cannot be relied upon in any direction.
 - Credential continuity and singular destination must remain understandable from shape and relationship alone.
 
-These findings are visual-inspection observations, not reader-test results.
+These findings are visual-inspection observations, not reader-test results. D01 observations describe control readiness and do not place it on the advancement shortlist.

@@ -55,7 +55,8 @@ Record the response before assigning an evidence code.
 | Claim | When does the recipient act? | | |
 | Choice | When does the recipient choose? | | |
 | Destination | How many destinations receive money? | | |
-| Institution | Who actually completes the payment? | | |
+| Institution — event | What happens after the recipient chooses? | | |
+| Institution — actor | Who completes that part? | | |
 | Sequence | What are the main steps, in order? | | |
 
 ### Neutral follow-ups
@@ -124,4 +125,3 @@ Preference answers are not comprehension results.
 Questions, interruptions, deviations, or evidence limitations:
 
 > 
-

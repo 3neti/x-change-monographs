@@ -61,6 +61,8 @@ Prepare:
 - a blank sheet or digital canvas for recall; and
 - an evidence folder identified by study ID and participant ID.
 
+Before recruiting participants, create a completed [Reader Study Manifest](READER_STUDY_MANIFEST_TEMPLATE.md) and mark it **Precommitted**. Record the repository revision, asset checksums, participant and surface design, exposure and recall timing, randomization, stopping and retest rules, and evidence threshold for convergence. Later changes belong in the manifest's deviations log; they do not replace the original commitment.
+
 Do not expose direction names such as “Transit Map” or “Modular Card.” Use blinded presentation codes that are mapped back to directions only in the study manifest.
 
 ## Presentation order
@@ -158,7 +160,9 @@ The study manifest should record:
 - coding version; and
 - known deviations or missing evidence.
 
-Store participant identity or contact details separately from research observations when identity must be retained at all. Apply the repository's approved retention and access policy. Do not place confidential participant records in public source control.
+Store participant identity or contact details separately from research observations when identity must be retained at all. Raw participant materials, consent records, recordings, and identity keys remain outside public source control. Access is limited to the roles or named people precommitted in the study manifest. Each record class must have a retention period or deletion event stated before recruitment, and retention may not exceed the consent granted for the study.
+
+Only appropriately de-identified manifests, aggregate summaries, and governed conclusions may enter the repository. At the end of the stated period, the evidence custodian deletes, returns, or irreversibly de-identifies the material as recorded in the manifest.
 
 ## Ethics and participant care
 
@@ -172,6 +176,20 @@ Store participant identity or contact details separately from research observati
 - Do not fabricate missing observations or reconstruct unrecorded responses from memory.
 
 ## Repeatability controls
+
+### Study precommitment
+
+Before the first session, freeze in the study manifest:
+
+- participant count, profile, inclusion criteria, and replacement rule;
+- candidate set and whether every participant sees every candidate;
+- D01 control inclusion or exclusion;
+- surface, scale, exposure duration, and label conditions;
+- randomization and delayed recall timing;
+- stopping and retest criteria; and
+- analysis rule and evidence threshold for convergence.
+
+Precommitment prevents study goals from moving after attractive or unfavorable results appear. A necessary change is permitted only as a dated deviation whose effect on comparability is explicitly assessed.
 
 A repeated study must preserve or explicitly document changes to:
 
@@ -199,4 +217,3 @@ Do not declare a winning style during Milestone 6. The permitted output is an ev
 Pause a direction and review it when repeated evidence suggests money inside the Pay Code, completion during Share, choice outside Claim, several completed destinations, universal acceptance, or x-change as custodian or financial institution.
 
 Correct the failing visual or test it again. Do not change canonical VIS-001 semantics to accommodate a misunderstanding.
-
